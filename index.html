@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Nexus | Global AI Ecosystem & Insights</title>
+    <meta name="description" content="Centralized hub for curated AI-related information, tools, research, and global ecosystem updates via RSS.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+        <div class="globe globe-3"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fa-solid fa-brain"></i>
+                <span>AI Nexus</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" class="active" data-category="all">All</a></li>
+                    <li><a href="#" data-category="research">Research</a></li>
+                    <li><a href="#" data-category="tools">Tools</a></li>
+                    <li><a href="#" data-category="industry">Industry</a></li>
+                    <li><a href="#" data-category="ethics">Ethics</a></li>
+                </ul>
+            </nav>
+            <div class="actions">
+                <button id="refresh-btn" class="icon-btn" title="Refresh Feeds">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+                <a href="https://github.com/akbarbasha/AIinc" target="_blank" class="icon-btn" title="GitHub Repo">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>The Pulse of <span class="gradient-text">Artificial Intelligence</span></h1>
+            <p>Curated insights from the world's leading AI labs, startups, and thinkers.</p>
+        </section>
+
+        <section id="feed-container" class="feed-grid">
+            <!-- Feed cards will be injected here by JS -->
+            <div class="loading-state">
+                <div class="spinner"></div>
+                <p>Aggregating global AI streams...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 AI Nexus. Open Source Project.</p>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Add Feed</a>
+                <a href="#">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/feeds.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
