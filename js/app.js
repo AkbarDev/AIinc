@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     init();
 
     async function init() {
-        console.log("AI Nexus Initializing...");
+        console.log("Snap Facts Initializing...");
 
         // 1. Render Cache immediately (Performance: FCP improvement)
         const cachedFeeds = localStorage.getItem('cachedFeeds');
