@@ -1,0 +1,371 @@
+Project Design Prompt: AI Ecosystem RSS-Based Website Using GitHub Pages
+📌 Project Title
+
+Design and Develop a Static AI News & Insights Website Using GitHub Pages and RSS Feeds
+
+🎯 Project Objective
+
+Design, develop, and deploy a lightweight, responsive, and automated static website using GitHub Pages that aggregates and displays real-time content related to Artificial Intelligence tools, technologies, research, and global AI ecosystems through RSS feeds.
+
+The platform will serve as a centralized hub for curated AI-related information, enabling users to stay updated with industry trends, innovations, and thought leadership without relying on algorithm-driven platforms.
+
+🧩 Problem Statement
+
+With the rapid growth of AI tools, frameworks, startups, and research publications, relevant information is scattered across multiple platforms. Users lack a single, reliable, and transparent platform that delivers verified AI-related content without heavy personalization algorithms.
+
+This project aims to solve this by building an RSS-powered aggregation website that presents structured, unbiased, and up-to-date AI content.
+
+🛠️ Scope of the Project
+
+The website will:
+
+Aggregate AI-related content from trusted RSS sources
+
+Display categorized feeds (Tools, Research, Industry, Startups, Ethics, etc.)
+
+Provide real-time updates on page load
+
+Be hosted and maintained using GitHub Pages
+
+Follow modern UI/UX standards
+
+Support scalability for future features
+
+📘 SDLC-Based Project Plan
+1️⃣ Requirement Analysis Phase
+Functional Requirements
+
+Fetch content from multiple AI-related RSS feeds
+
+Parse and display feed items dynamically
+
+Categorize content by topic
+
+Provide clickable links to original sources
+
+Support manual refresh
+
+Show publication date and source name
+
+Non-Functional Requirements
+
+Fast loading performance
+
+Mobile responsiveness
+
+High availability (GitHub Pages hosting)
+
+Minimal external dependencies
+
+Secure HTTPS deployment
+
+SEO optimization
+
+Target Users
+
+AI professionals
+
+Data scientists
+
+Researchers
+
+Students
+
+Tech enthusiasts
+
+Startup founders
+
+2️⃣ System Design Phase
+Architecture Overview
+User Browser
+     ↓
+GitHub Pages (Static Website)
+     ↓
+JavaScript Feed Parser
+     ↓
+RSS Feed Sources
+
+Key Components
+
+Frontend: HTML, CSS, JavaScript
+
+Hosting: GitHub Pages
+
+Data Source: Public RSS feeds
+
+Feed Parsing: JavaScript (Fetch API + XML Parser)
+
+Version Control: GitHub
+
+Data Flow
+
+User opens website
+
+JavaScript fetches RSS feeds
+
+XML is parsed into JSON
+
+Data is rendered dynamically
+
+UI updates with latest content
+
+3️⃣ Technology Stack Selection
+Layer	Technology
+UI	HTML5, CSS3, Bootstrap/Tailwind
+Logic	JavaScript (Vanilla / ES6)
+Hosting	GitHub Pages
+Feeds	RSS / Atom
+Version Control	GitHub
+Automation (Optional)	GitHub Actions
+4️⃣ Development Phase
+Module Breakdown
+A. UI Module
+
+Homepage layout
+
+Navigation bar
+
+Category filters
+
+Feed cards
+
+Footer
+
+B. Feed Integration Module
+
+Fetch RSS feeds
+
+Handle CORS issues
+
+Parse XML
+
+Convert to usable objects
+
+C. Content Rendering Module
+
+Template creation
+
+Dynamic DOM updates
+
+Pagination / infinite scroll
+
+Error handling
+
+D. Configuration Module
+
+Feed source management
+
+Category mapping
+
+Refresh intervals
+
+Development Steps
+
+Create GitHub repository
+
+Enable GitHub Pages
+
+Build base HTML structure
+
+Design responsive UI
+
+Implement RSS fetching
+
+Add parsing logic
+
+Render feed cards
+
+Implement category filtering
+
+Optimize performance
+
+Test cross-browser compatibility
+
+5️⃣ Testing Phase
+Testing Types
+Type	Description
+Unit Testing	Test feed parser functions
+Integration Testing	Test UI + RSS integration
+UI Testing	Responsive design validation
+Performance Testing	Page load speed
+Security Testing	HTTPS & data handling
+User Acceptance Testing	Real user validation
+Test Cases
+
+Feed unavailable handling
+
+Invalid RSS format
+
+Network failure
+
+Mobile responsiveness
+
+Multiple feed loading
+
+6️⃣ Deployment Phase
+Deployment Steps
+
+Push code to GitHub
+
+Configure Pages branch
+
+Enable HTTPS
+
+Configure domain (optional)
+
+Verify production build
+
+Publish website URL
+
+Hosting Environment
+
+GitHub Pages (Static CDN-based hosting)
+
+7️⃣ Maintenance & Enhancement Phase
+Maintenance Activities
+
+Update RSS sources
+
+Monitor broken links
+
+UI improvements
+
+Performance tuning
+
+Security patches
+
+Future Enhancements
+
+Search functionality
+
+Bookmark system
+
+User profiles
+
+Dark mode
+
+Email newsletter
+
+AI-powered summaries
+
+API integration
+
+Progressive Web App (PWA)
+
+📊 Project Deliverables
+
+GitHub Repository
+
+Source Code
+
+Live Website URL
+
+System Architecture Diagram
+
+Technical Documentation
+
+User Guide
+
+Maintenance Guide
+
+Testing Report
+
+Second Phase:
+
+build this entire RSS-based AI news website on GitHub Pages with zero cost and using 100% open-source tools.
+
+Below is a clear breakdown so you can be confident there are no hidden charges.
+
+✅ Cost & Open-Source Breakdown (2026 Ready)
+🟢 1. Hosting & Deployment — FREE
+Tool	Cost	Open Source	Notes
+GitHub Pages	₹0	✅	Free static hosting
+GitHub Repository	₹0	❌ (Platform)	Code is open, platform is free
+Custom Domain (Optional)	₹800–₹1200/year	❌	Only if you buy domain
+
+👉 If you skip custom domain → ₹0 hosting cost
+
+🟢 2. Frontend Development — FREE + Open Source
+Tool	Cost	Open Source
+HTML5 / CSS3 / JS	₹0	✅
+Bootstrap	₹0	✅
+Tailwind CSS	₹0	✅
+Font Awesome	₹0	✅
+
+You only need basic web stack → no paid licenses.
+
+🟢 3. RSS Feed Processing — FREE + Open Source
+Option A: Pure JavaScript (Client-Side)
+Tool	Cost	Open Source
+Fetch API	₹0	✅
+DOMParser	₹0	✅
+Option B: JS Libraries
+Tool	Cost	Open Source
+rss-parser	₹0	✅
+feedparser	₹0	✅
+
+All open-source (MIT license).
+
+🟢 4. Automation (Optional) — FREE Tier
+Tool	Cost	Open Source
+GitHub Actions	₹0 (within limits)	❌ (Platform)
+
+Used for auto-updating feeds / rebuilding site.
+
+👉 Optional. Can skip.
+
+🟢 5. UI & Design Tools — FREE
+Tool	Cost
+VS Code	₹0
+Figma (Free Tier)	₹0
+GIMP / Krita	₹0
+🟢 6. Analytics (Optional) — FREE & Privacy Friendly
+
+If you want visitor stats:
+
+Tool	Cost	Open Source
+Plausible (Self-hosted)	₹0	✅
+Umami	₹0	✅
+
+You can skip analytics → still free.
+
+💰 Total Cost Summary
+Category	Cost
+Hosting	₹0
+Development	₹0
+RSS Processing	₹0
+Automation	₹0
+Deployment	₹0
+Domain (Optional)
+
+Third Phase:
+
+Best Free AI RSS Sources (2026 – Open & Reliable)
+
+🧠 1) Core AI Research & Labs
+Source	Organization	Focus	RSS Feed
+OpenAI Blog	OpenAI	GPT, safety, models	https://openai.com/blog/rss
+
+Google AI Blog	Google AI	ML, research	https://ai.googleblog.com/feeds/posts/default
+
+DeepMind Blog	Google DeepMind	Advanced AI	https://deepmind.google/discover/rss.xml
+
+Meta AI	Meta AI	LLMs, vision	https://ai.facebook.com/blog/rss/
+
+Microsoft Research	Microsoft Research	AI innovation	https://www.microsoft.com/en-us/research/feed/
+
+🛠️ 2) AI Tools, Frameworks & Dev Platforms
+Source	Organization	Focus	RSS Feed
+Hugging Face Blog	Hugging Face	Open models	https://huggingface.co/blog/feed.xml
+
+NVIDIA Developer	NVIDIA	GPU + AI	https://developer.nvidia.com/blog/feed/
+
+3) AI News & Industry Coverage
+Source	Organization	Focus	RSS Feed
+VentureBeat AI	VentureBeat	AI business	https://venturebeat.com/category/ai/feed/
+
+MIT Tech Review AI	MIT Technology Review	AI policy	https://www.technologyreview.com/feed/
+
+The Verge AI	The Verge	AI products	https://www.theverge.com/rss/index.xml
+
+Wired AI	Wired	AI culture	https://www.wired.com/feed/rss

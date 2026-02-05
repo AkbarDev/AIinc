@@ -13,9 +13,29 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize
     init();
 
-    function init() {
+    async function init() {
         console.log("AI Nexus Initializing...");
-        fetchAllFeeds();
+
+        // 1. Render Cache immediately (Performance: FCP improvement)
+        const cachedFeeds = localStorage.getItem('cachedFeeds');
+        if (cachedFeeds) {
+            try {
+                allFeeds = JSON.parse(cachedFeeds);
+                // Convert pubDate strings back to Date objects
+                allFeeds.forEach(feed => {
+                    if (typeof feed.pubDate === 'string') {
+                        feed.pubDate = new Date(feed.pubDate);
+                    }
+                });
+                renderFeeds();
+                console.log("Loaded from cache");
+            } catch (e) { console.error("Cache parse error", e); }
+        } else {
+            renderSkeletons();
+        }
+
+        // 2. Fetch fresh data in background
+        await fetchAllFeeds();
         setupEventListeners();
     }
 
@@ -49,27 +69,59 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function renderSkeletons() {
+        feedContainer.innerHTML = '';
+        // Create 6 skeleton cards
+        for (let i = 0; i < 6; i++) {
+            const sk = document.createElement('div');
+            sk.className = 'skeleton-card';
+            sk.innerHTML = `
+                <div class="skeleton sk-text" style="width: 30%"></div>
+                <div class="skeleton sk-title"></div>
+                <div class="skeleton sk-title" style="width: 60%"></div>
+                <div class="skeleton sk-text"></div>
+                <div class="skeleton sk-text"></div>
+                <div class="skeleton sk-meta"></div>
+            `;
+            feedContainer.appendChild(sk);
+        }
+    }
+
     async function fetchAllFeeds() {
+        // Show spinner only if we have NO data at all
+        if (allFeeds.length === 0) {
+            // renderSkeletons() is already called
+        }
+
         const promises = FEED_SOURCES.map(source => fetchFeed(source));
 
         try {
             const results = await Promise.allSettled(promises);
+            let freshFeeds = [];
 
-            // Process results
             results.forEach(result => {
                 if (result.status === 'fulfilled' && result.value) {
-                    allFeeds.push(...result.value);
+                    freshFeeds.push(...result.value);
                 }
             });
 
-            // Sort by date (newest first)
-            allFeeds.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+            if (freshFeeds.length > 0) {
+                // Sort by date
+                freshFeeds.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 
-            renderFeeds();
+                // Update State and Cache
+                allFeeds = freshFeeds;
+                localStorage.setItem('cachedFeeds', JSON.stringify(allFeeds));
+                localStorage.setItem('lastUpdated', new Date().toISOString());
+
+                renderFeeds();
+            }
 
         } catch (error) {
             console.error("Global error fetching feeds:", error);
-            feedContainer.innerHTML = `<p class="error-msg">Failed to load feeds. Please try again later.</p>`;
+            if (allFeeds.length === 0) {
+                feedContainer.innerHTML = `<p class="error-msg">Failed to load feeds. Please check connection.</p>`;
+            }
         }
     }
 
@@ -184,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = `
-            <div>
+            <div class="card-padding">
                 <div class="card-source">
                     <i class="${item.sourceLogo}"></i>
                     <span>${item.sourceName}</span>
