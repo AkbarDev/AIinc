@@ -39,6 +39,7 @@ jobs:
           else
             git commit -m "chore: refresh trends snapshot"
             git push
+          fi
 
   notify-failure:
     runs-on: ubuntu-latest
