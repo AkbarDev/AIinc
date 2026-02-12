@@ -1,285 +1,283 @@
+const FALLBACK_DATA = {
+    generated_at: "2026-02-06T09:30:00Z",
+    sources_scanned: 12,
+    clusters: 3,
+    trends: [
+        {
+            id: "ibm-samsung-2nm",
+            title: "IBM and Samsung unveil 2nm chip alliance for AI compute surge",
+            summary: "Partnership targets 30% efficiency boost for data centers as both companies co-develop packaging pipelines.",
+            link: "https://newsroom.ibm.com/ibm-samsung-2nm-alliance",
+            category: "technology",
+            geo: "global",
+            published_at: "2026-02-06T08:30:00Z",
+            source_count: 4,
+            keywords: ["ai", "chip"],
+            score: 0.82,
+            signals: {
+                recency: 0.89,
+                keyword_volume: 0.4,
+                source_signal: 0.8,
+                authority: 0.88,
+                engagement: 0.6,
+            },
+        },
+        {
+            id: "dune-spin-off",
+            title: "Warner Discovery greenlights global Dune spin-off trilogy",
+            summary: "New Max originals explore Bene Gesserit archives with simultaneous theatrical events.",
+            link: "https://variety.com/dune-spin-off",
+            category: "media",
+            geo: "global",
+            published_at: "2026-02-06T07:45:00Z",
+            source_count: 3,
+            keywords: ["series", "film"],
+            score: 0.68,
+            signals: {
+                recency: 0.84,
+                keyword_volume: 0.4,
+                source_signal: 0.6,
+                authority: 0.8,
+                engagement: 0.5,
+            },
+        },
+        {
+            id: "xbox-cloud-india",
+            title: "Xbox Cloud ramps India rollout with Reliance Jio 5G bundles",
+            summary: "Pilot offers unlimited Game Pass streaming with edge servers across Mumbai and Hyderabad metros.",
+            link: "https://www.theverge.com/xbox-cloud-india",
+            category: "gaming",
+            geo: "apac",
+            published_at: "2026-02-06T09:10:00Z",
+            source_count: 2,
+            keywords: ["cloud", "game", "streaming"],
+            score: 0.61,
+            signals: {
+                recency: 0.9,
+                keyword_volume: 0.6,
+                source_signal: 0.4,
+                authority: 0.75,
+                engagement: 0.55,
+            },
+        },
+    ],
+};
+
+const state = {
+    trends: [],
+    filter: 'all',
+    meta: {},
+    sources: [],
+};
+
 document.addEventListener('DOMContentLoaded', () => {
-    const feedContainer = document.getElementById('feed-container');
-    const refreshBtn = document.getElementById('refresh-btn');
-    const navLinks = document.querySelectorAll('.nav-links a');
-
-    // State
-    let allFeeds = [];
-    let displayedCategory = 'all';
-
-    // CORS Proxy Configuration
-    const CORS_PROXY = "https://api.allorigins.win/get?url=";
-
-    // Initialize
-    init();
-
-    async function init() {
-        console.log("Snap Facts Initializing...");
-
-        // 1. Render Cache immediately (Performance: FCP improvement)
-        const cachedFeeds = localStorage.getItem('cachedFeeds');
-        if (cachedFeeds) {
-            try {
-                allFeeds = JSON.parse(cachedFeeds);
-                // Convert pubDate strings back to Date objects
-                allFeeds.forEach(feed => {
-                    if (typeof feed.pubDate === 'string') {
-                        feed.pubDate = new Date(feed.pubDate);
-                    }
-                });
-                renderFeeds();
-                console.log("Loaded from cache");
-            } catch (e) { console.error("Cache parse error", e); }
-        } else {
-            renderSkeletons();
-        }
-
-        // 2. Fetch fresh data in background
-        await fetchAllFeeds();
-        setupEventListeners();
-    }
-
-    function setupEventListeners() {
-        // Refresh Button
-        refreshBtn.addEventListener('click', () => {
-            rotateIcon(refreshBtn.querySelector('i'));
-            feedContainer.innerHTML = `
-                <div class="loading-state">
-                    <div class="spinner"></div>
-                    <p>Refreshing global AI streams...</p>
-                </div>
-            `;
-            allFeeds = []; // Clear cache
-            fetchAllFeeds();
-        });
-
-        // Category Navigation
-        navLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-
-                // Update active state
-                navLinks.forEach(l => l.classList.remove('active'));
-                link.classList.add('active');
-
-                // Filter content
-                displayedCategory = link.getAttribute('data-category');
-                renderFeeds();
-            });
-        });
-    }
-
-    function renderSkeletons() {
-        feedContainer.innerHTML = '';
-        // Create 6 skeleton cards
-        for (let i = 0; i < 6; i++) {
-            const sk = document.createElement('div');
-            sk.className = 'skeleton-card';
-            sk.innerHTML = `
-                <div class="skeleton sk-text" style="width: 30%"></div>
-                <div class="skeleton sk-title"></div>
-                <div class="skeleton sk-title" style="width: 60%"></div>
-                <div class="skeleton sk-text"></div>
-                <div class="skeleton sk-text"></div>
-                <div class="skeleton sk-meta"></div>
-            `;
-            feedContainer.appendChild(sk);
-        }
-    }
-
-    async function fetchAllFeeds() {
-        // Show spinner only if we have NO data at all
-        if (allFeeds.length === 0) {
-            // renderSkeletons() is already called
-        }
-
-        const promises = FEED_SOURCES.map(source => fetchFeed(source));
-
-        try {
-            const results = await Promise.allSettled(promises);
-            let freshFeeds = [];
-
-            results.forEach(result => {
-                if (result.status === 'fulfilled' && result.value) {
-                    freshFeeds.push(...result.value);
-                }
-            });
-
-            if (freshFeeds.length > 0) {
-                // Sort by date
-                freshFeeds.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-
-                // Update State and Cache
-                allFeeds = freshFeeds;
-                localStorage.setItem('cachedFeeds', JSON.stringify(allFeeds));
-                localStorage.setItem('lastUpdated', new Date().toISOString());
-
-                renderFeeds();
-            }
-
-        } catch (error) {
-            console.error("Global error fetching feeds:", error);
-            if (allFeeds.length === 0) {
-                feedContainer.innerHTML = `<p class="error-msg">Failed to load feeds. Please check connection.</p>`;
-            }
-        }
-    }
-
-    async function fetchFeed(source) {
-        try {
-            const response = await fetch(`${CORS_PROXY}${encodeURIComponent(source.url)}`);
-            const data = await response.json();
-
-            if (!data.contents) throw new Error("No content received");
-
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(data.contents, "text/xml");
-
-            // Check for RSS vs Atom
-            let items = xmlDoc.querySelectorAll("item"); // RSS
-            let isAtom = false;
-
-            if (items.length === 0) {
-                items = xmlDoc.querySelectorAll("entry"); // Atom
-                isAtom = true;
-            }
-
-            const entries = [];
-
-            items.forEach(item => {
-                // Title
-                const title = getTagValue(item, "title");
-
-                // Description/Summary
-                // RSS uses description, Atom uses summary or content
-                let description = "";
-                if (isAtom) {
-                    description = getTagValue(item, "summary") || getTagValue(item, "content");
-                } else {
-                    description = getTagValue(item, "description") || getTagValue(item, "content:encoded");
-                }
-
-                const snippet = stripHtml(description).substring(0, 160) + "...";
-
-                // Link
-                let link = "";
-                if (isAtom) {
-                    // Atom links are attributes usually <link href="..." />
-                    const linkNode = item.querySelector("link");
-                    if (linkNode) link = linkNode.getAttribute("href");
-                } else {
-                    link = getTagValue(item, "link");
-                }
-
-                // Date
-                let pubDateRaw = "";
-                if (isAtom) {
-                    pubDateRaw = getTagValue(item, "published") || getTagValue(item, "updated");
-                } else {
-                    pubDateRaw = getTagValue(item, "pubDate") || getTagValue(item, "dc:date");
-                }
-
-                if (title && link) {
-                    entries.push({
-                        sourceName: source.name,
-                        sourceLogo: source.logo,
-                        category: source.category,
-                        title,
-                        snippet,
-                        link,
-                        pubDate: pubDateRaw ? new Date(pubDateRaw) : new Date()
-                    });
-                }
-            });
-
-            return entries;
-
-        } catch (error) {
-            console.warn(`Failed to fetch ${source.name}:`, error);
-            return null;
-        }
-    }
-
-    function renderFeeds() {
-        feedContainer.innerHTML = '';
-
-        const filtered = displayedCategory === 'all'
-            ? allFeeds
-            : allFeeds.filter(f => f.category === displayedCategory);
-
-        if (filtered.length === 0) {
-            if (allFeeds.length === 0) {
-                // Still loading or everything failed?
-                // If we are here after sorting, it means we have no data.
-                // But this function is called after fetch.
-                // Check if we have processed anything.
-                // This state might just mean empty category.
-            }
-            feedContainer.innerHTML = '<p class="no-data">No updates found for this category at the moment.</p>';
-            return;
-        }
-
-        filtered.forEach(item => {
-            const card = createCard(item);
-            feedContainer.appendChild(card);
-        });
-    }
-
-    function createCard(item) {
-        let dateStr = "Recent";
-        try {
-            if (item.pubDate && !isNaN(item.pubDate.getTime())) {
-                dateStr = formatDate(item.pubDate);
-            }
-        } catch (e) { }
-
-        const card = document.createElement('div');
-        card.className = 'card';
-        card.innerHTML = `
-            <div class="card-padding">
-                <div class="card-source">
-                    <i class="${item.sourceLogo}"></i>
-                    <span>${item.sourceName}</span>
-                </div>
-                <h3 class="card-title">${item.title}</h3>
-                <p class="card-snippet">${item.snippet}</p>
-            </div>
-            <div class="card-meta">
-                <span>${dateStr}</span>
-                <a href="${item.link}" target="_blank" class="read-more">
-                    Read Feed <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            </div>
-        `;
-        return card;
-    }
-
-    // --- Helpers ---
-
-    function getTagValue(parent, tagName) {
-        const node = parent.querySelector(tagName);
-        return node ? node.textContent : "";
-    }
-
-    function stripHtml(html) {
-        if (!html) return "";
-        const tmp = document.createElement("DIV");
-        // Handle encoded HTML entities if present
-        tmp.innerHTML = html;
-        return tmp.textContent || tmp.innerText || "";
-    }
-
-    function formatDate(dateObj) {
-        const options = { year: 'numeric', month: 'short', day: 'numeric' };
-        return dateObj.toLocaleDateString('en-US', options);
-    }
-
-    function rotateIcon(element) {
-        if (!element) return;
-        element.style.transition = 'transform 0.5s ease';
-        element.style.transform = 'rotate(360deg)';
-        setTimeout(() => {
-            element.style.transform = 'none';
-        }, 500);
-    }
+    renderSkeletons();
+    loadData();
+    setupFilters();
 });
+
+async function loadData() {
+    try {
+        const response = await fetch(`data/trends.json?ts=${Date.now()}`);
+        if (!response.ok) throw new Error('Network error');
+        const payload = await response.json();
+        state.trends = payload.trends || [];
+        state.meta = payload;
+    } catch (error) {
+        console.warn('Falling back to baked data', error);
+        state.trends = FALLBACK_DATA.trends;
+        state.meta = FALLBACK_DATA;
+    }
+
+    try {
+        const res = await fetch('config/sources.json');
+        if (res.ok) {
+            state.sources = await res.json();
+        }
+    } catch (error) {
+        console.warn('Failed to load sources list', error);
+    }
+
+    renderAll();
+}
+
+function renderSkeletons() {
+    const grid = document.getElementById('trend-cards');
+    if (!grid) return;
+    grid.innerHTML = Array.from({ length: 6 })
+        .map(
+            () => `
+        <article class="skeleton">
+            <div class="line long"></div>
+            <div class="line mid"></div>
+            <div class="line short"></div>
+        </article>`
+        )
+        .join('');
+}
+
+function renderAll() {
+    renderHero();
+    renderStats();
+    renderTrends();
+    renderTimeline();
+    renderSources();
+}
+
+function renderHero() {
+    const card = document.getElementById('top-story');
+    const metaList = document.getElementById('hero-meta');
+    if (!card) return;
+    const topStory = [...state.trends].sort((a, b) => b.score - a.score)[0];
+    if (!topStory) return;
+
+    card.innerHTML = `
+        <p class="eyebrow">Top story</p>
+        <h2>${topStory.title}</h2>
+        <p class="muted">${topStory.summary || 'Signal boost from multiple publishers.'}</p>
+        <div class="badge-row">
+            <span class="pill ghost">Score ${topStory.score.toFixed(2)}</span>
+            <span class="pill ghost">${capitalize(topStory.category)}</span>
+            <span class="pill ghost">${topStory.source_count} sources</span>
+        </div>
+        <a class="btn primary" href="${topStory.link}" target="_blank" rel="noopener">Open story</a>
+    `;
+
+    if (metaList) {
+        const generated = metaList.querySelector('[data-meta="generated"]');
+        const feeds = metaList.querySelector('[data-meta="feeds"]');
+        if (generated) generated.textContent = formatDate(state.meta.generated_at);
+        if (feeds) feeds.textContent = state.sources.length || '10+';
+    }
+}
+
+function renderStats() {
+    const grid = document.getElementById('stat-grid');
+    if (!grid) return;
+    const stats = [
+        { label: 'Stories processed', value: state.meta.sources_scanned || state.trends.length * 3 },
+        { label: 'Trend clusters', value: state.meta.clusters || state.trends.length },
+        { label: 'Avg. authority', value: avgAuthority(state.trends).toFixed(2) },
+        { label: 'Median score', value: medianScore(state.trends).toFixed(2) },
+    ];
+    grid.innerHTML = stats
+        .map(
+            (stat) => `
+        <article class="stat-card">
+            <h4>${stat.value}</h4>
+            <p>${stat.label}</p>
+        </article>`
+        )
+        .join('');
+}
+
+function renderTrends() {
+    const grid = document.getElementById('trend-cards');
+    if (!grid) return;
+    const filtered = state.filter === 'all' ? state.trends : state.trends.filter((trend) => trend.category === state.filter);
+    if (!filtered.length) {
+        grid.innerHTML = '<p>No signals for this category yet.</p>';
+        return;
+    }
+    grid.innerHTML = filtered
+        .map(
+            (trend, index) => `
+        <article class="trend-card" data-score="${trend.score.toFixed(2)}">
+            <span class="tag">${String(index + 1).padStart(2, '0')}</span>
+            <h4>${trend.title}</h4>
+            <p>${trend.summary || 'Summary unavailable from feed.'}</p>
+            <footer>
+                <span>${formatTimeAgo(trend.published_at)}</span>
+                <a href="${trend.link}" target="_blank" rel="noopener">Read</a>
+            </footer>
+        </article>`
+        )
+        .join('');
+}
+
+function renderTimeline() {
+    const container = document.getElementById('timeline-list');
+    if (!container) return;
+    const sorted = [...state.trends]
+        .sort((a, b) => new Date(b.published_at) - new Date(a.published_at))
+        .slice(0, 6);
+    container.innerHTML = sorted
+        .map(
+            (item) => `
+        <article class="timeline-card">
+            <h5>${item.title}</h5>
+            <span>${formatTimeAgo(item.published_at)} · ${capitalize(item.category)}</span>
+        </article>`
+        )
+        .join('');
+}
+
+function renderSources() {
+    const grid = document.getElementById('source-grid');
+    if (!grid || !state.sources.length) {
+        if (grid) {
+            grid.innerHTML = '<p>Source list available once config loads.</p>';
+        }
+        return;
+    }
+    grid.innerHTML = state.sources
+        .map(
+            (source) => `
+        <article class="source-card">
+            <strong>${source.name}</strong>
+            <span>${capitalize(source.category)} · ${source.geo}</span>
+            <span>Authority ${(source.authority || 0.7).toFixed(2)}</span>
+        </article>`
+        )
+        .join('');
+}
+
+function setupFilters() {
+    const filterRow = document.getElementById('filter-row');
+    if (!filterRow) return;
+    filterRow.addEventListener('click', (event) => {
+        const button = event.target.closest('button[data-filter]');
+        if (!button) return;
+        state.filter = button.dataset.filter;
+        filterRow.querySelectorAll('button').forEach((btn) => btn.classList.remove('active'));
+        button.classList.add('active');
+        renderTrends();
+    });
+}
+
+function formatTimeAgo(value) {
+    if (!value) return '—';
+    const date = new Date(value);
+    const diff = Date.now() - date.getTime();
+    const minutes = Math.max(Math.round(diff / 60000), 1);
+    if (minutes < 60) return `${minutes}m ago`;
+    const hours = Math.round(minutes / 60);
+    if (hours < 24) return `${hours}h ago`;
+    const days = Math.round(hours / 24);
+    return `${days}d ago`;
+}
+
+function formatDate(value) {
+    if (!value) return '—';
+    return new Intl.DateTimeFormat('en-US', {
+        dateStyle: 'medium',
+        timeStyle: 'short',
+    }).format(new Date(value));
+}
+
+function avgAuthority(trends) {
+    if (!trends.length) return 0;
+    const total = trends.reduce((sum, item) => sum + (item.signals?.authority || 0), 0);
+    return total / trends.length;
+}
+
+function medianScore(trends) {
+    if (!trends.length) return 0;
+    const scores = [...trends].map((item) => item.score).sort((a, b) => a - b);
+    const mid = Math.floor(scores.length / 2);
+    return scores.length % 2 ? scores[mid] : (scores[mid - 1] + scores[mid]) / 2;
+}
+
+function capitalize(value = '') {
+    return value.charAt(0).toUpperCase() + value.slice(1);
+}

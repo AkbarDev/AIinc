@@ -1,124 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snap Facts | Global AI Ecosystem & Insights</title>
-    <meta name="description"
-        content="Snap Facts: The curated real-time hub for Artificial Intelligence news, research, tools, and industry insights. Powered by verifiable RSS feeds.">
-    <meta name="keywords"
-        content="Snap Facts, AI News, Artificial Intelligence, Machine Learning, DeepMind, OpenAI, AI Research, Tech News, RSS Aggregator">
-    <meta name="author" content="Snap Facts">
-    <link rel="canonical" href="https://www.snapfacts.in/">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global TrendGrid | Real-Time News Intelligence</title>
+    <meta name="description" content="Global TrendGrid scans open RSS feeds to surface high-signal, trustworthy trending news across technology, media, policy, and culture." />
+    <meta name="keywords" content="trending news, global trends, RSS aggregation, technology intelligence, media monitoring" />
+    <meta name="author" content="AIinc" />
+    <link rel="canonical" href="https://www.snapfacts.in/" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.snapfacts.in/">
-    <meta property="og:title" content="Snap Facts | The Pulse of Artificial Intelligence">
-    <meta property="og:description"
-        content="Real-time AI ecosystem updates from OpenAI, DeepMind, NVIDIA, and more. Zero algorithms, just pure RSS-driven insights.">
-    <meta property="og:image" content="https://www.snapfacts.in/assets/images/og-image.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.snapfacts.in/" />
+    <meta property="og:title" content="Global TrendGrid | Real-Time News Intelligence" />
+    <meta property="og:description" content="Detect trending stories from Google News, Bing, Wired, Variety, TechCrunch, and more in one open-source dashboard." />
+    <meta property="og:image" content="https://www.snapfacts.in/assets/images/og-image.jpg" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.snapfacts.in/">
-    <meta property="twitter:title" content="Snap Facts | The Pulse of Artificial Intelligence">
-    <meta property="twitter:description"
-        content="Real-time AI ecosystem updates from OpenAI, DeepMind, NVIDIA, and more.">
-    <meta property="twitter:image" content="https://www.snapfacts.in/assets/images/og-image.jpg">
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Global TrendGrid | Real-Time News Intelligence" />
+    <meta property="twitter:description" content="Open-source trend detection from globally trusted feeds." />
+    <meta property="twitter:image" content="https://www.snapfacts.in/assets/images/og-image.jpg" />
 
-    <!-- Schema.org JSON-LD -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "NewsMediaOrganization",
-      "name": "Snap Facts",
-      "url": "https://www.snapfacts.in",
-      "logo": "https://www.snapfacts.in/assets/images/logo.png",
-      "sameAs": [
-        "https://github.com/akbarbasha/AIinc"
-      ],
-      "description": "Centralized hub for curated AI-related information, tools, research, and global ecosystem updates via RSS."
-    }
-    </script>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-8XFHbRmq9Vc3rroWAtxEvsC0BpvyEukgqS0bkkCm1cW0XkyR3O6jwxKF1u9IiiaivGi99ZTSdKCbFf8Cj8BkVA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
-    <div class="background-globes">
-        <div class="globe globe-1"></div>
-        <div class="globe globe-2"></div>
-        <div class="globe globe-3"></div>
-    </div>
-
-    <header class="navbar">
-        <div class="container">
-            <div class="logo">
-                <img src="assets/images/logo.png" alt="Snap Facts Logo" style="height: 60px; max-width: 100%;">
-            </div>
+    <div class="bg"></div>
+    <header class="site-header" id="top">
+        <div class="container header-grid">
+            <a class="brand" href="#top">
+                <img src="assets/images/logo.png" alt="TrendGrid logo" />
+                <div>
+                    <span>TrendGrid</span>
+                    <small>Global Trending Intelligence</small>
+                </div>
+            </a>
             <nav>
-                <ul class="nav-links">
-                    <li><a href="#" class="active" data-category="all">All</a></li>
-                    <li><a href="#" data-category="research">Research</a></li>
-                    <li><a href="#" data-category="tools">Tools</a></li>
-                    <li><a href="#" data-category="industry">Industry</a></li>
-                    <li><a href="#" data-category="ethics">Ethics</a></li>
+                <ul>
+                    <li><a href="#intel-panel">Signals</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#methodology">Methodology</a></li>
+                    <li><a href="#sources">Feeds</a></li>
                 </ul>
             </nav>
-            <div class="actions">
-                <button id="refresh-btn" class="icon-btn" title="Refresh Feeds">
-                    <i class="fa-solid fa-rotate-right"></i>
-                </button>
-                <a href="https://github.com/akbarbasha/AIinc" target="_blank" class="icon-btn" title="GitHub Repo">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </div>
-            <button class="mobile-menu-btn">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+            <a class="pill" href="https://github.com/AkbarDev/AIinc" target="_blank" rel="noopener">View Repo</a>
         </div>
     </header>
 
-    <main class="container">
+    <main>
         <section class="hero">
-            <h1>The Pulse of <span class="gradient-text">Artificial Intelligence</span></h1>
-            <p>Curated insights from the world's leading AI labs, startups, and thinkers.</p>
+            <div class="container hero-grid">
+                <div>
+                    <p class="eyebrow">Live Monitoring</p>
+                    <h1>We detect <span class="gradient">high-velocity</span> stories before they flood timelines.</h1>
+                    <p class="lead">Feed ingestion, deduplication, scoring, and visualization in one open-source workflow built for GitHub Pages.</p>
+                    <div class="hero-actions">
+                        <a class="btn primary" href="#trend-grid">See trends</a>
+                        <a class="btn ghost" href="#methodology">View scoring model</a>
+                    </div>
+                    <ul class="hero-meta" id="hero-meta">
+                        <li>Updated: <span data-meta="generated">—</span></li>
+                        <li>Feeds monitored: <span data-meta="feeds">—</span></li>
+                        <li>Latency budget: &lt; 15 minutes</li>
+                    </ul>
+                </div>
+                <article class="hero-card" id="top-story">
+                    <p class="eyebrow">Top story</p>
+                    <h2>Awaiting data…</h2>
+                    <p class="muted">TrendGrid highlights the most credible multi-source signal once feeds sync.</p>
+                    <div class="badge-row">
+                        <span class="pill ghost">Score —</span>
+                        <span class="pill ghost">Category —</span>
+                        <span class="pill ghost">Sources —</span>
+                    </div>
+                </article>
+            </div>
         </section>
 
-        <section id="feed-container" class="feed-grid">
-            <!-- Feed cards will be injected here by JS -->
-            <div class="loading-state">
-                <div class="spinner"></div>
-                <p>Aggregating global AI streams...</p>
+        <section class="intel" id="intel-panel">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Signal board</p>
+                        <h3>System health & coverage</h3>
+                    </div>
+                </div>
+                <div class="stat-grid" id="stat-grid"></div>
+            </div>
+        </section>
+
+        <section class="filters">
+            <div class="container filter-row" id="filter-row">
+                <button data-filter="all" class="active">All</button>
+                <button data-filter="technology">Technology</button>
+                <button data-filter="media">Media</button>
+                <button data-filter="culture">Culture</button>
+                <button data-filter="gaming">Gaming</button>
+                <button data-filter="policy">Policy</button>
+            </div>
+        </section>
+
+        <section class="trends" id="trend-grid">
+            <div class="container trend-grid" id="trend-cards">
+                <!-- Cards injected by JS -->
+            </div>
+        </section>
+
+        <section class="timeline" id="timeline">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Recency map</p>
+                        <h3>Freshest clusters</h3>
+                    </div>
+                </div>
+                <div class="timeline-list" id="timeline-list"></div>
+            </div>
+        </section>
+
+        <section class="methodology" id="methodology">
+            <div class="container method-grid">
+                <div>
+                    <p class="eyebrow">Scoring inputs</p>
+                    <h3>Trend score = Σ weighted signals</h3>
+                    <p>We prioritize coverage breadth, velocity, and trust. Signals are recalculated each time the ingestion job runs (usually every 15 minutes via GitHub Actions).</p>
+                </div>
+                <div class="model-card">
+                    <code>score = (source × 0.30) + (recency × 0.25) + (keywords × 0.20) + (authority × 0.15) + (engagement × 0.10)</code>
+                    <ul>
+                        <li><strong>Source</strong>: distinct publishers referencing the same topic</li>
+                        <li><strong>Recency</strong>: time decay with 6h half-life</li>
+                        <li><strong>Keywords</strong>: AI, semiconductor, streaming, etc.</li>
+                        <li><strong>Authority</strong>: feed credibility tier</li>
+                        <li><strong>Engagement</strong>: heuristic boost for AI/GPT, blockbuster IP, esports finales</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="sources" id="sources">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Feed inventory</p>
+                        <h3>Open RSS publishers we monitor</h3>
+                    </div>
+                </div>
+                <div class="source-grid" id="source-grid"></div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2026 Snap Facts. Open Source Project.</p>
-            <div class="footer-links">
-                <a href="#">About</a>
-                <a href="#">Add Feed</a>
-                <a href="#">Privacy</a>
+        <div class="container footer-grid">
+            <div>
+                <strong>TrendGrid</strong>
+                <p>Open, auditable, and deployable on GitHub Pages.</p>
+            </div>
+            <div>
+                <p class="eyebrow">Workflow</p>
+                <ul>
+                    <li>RSS ingestion via Python</li>
+                    <li>Trend scoring + JSON output</li>
+                    <li>Static UI hydration</li>
+                </ul>
+            </div>
+            <div>
+                <p class="eyebrow">Contact</p>
+                <ul>
+                    <li><a href="mailto:hello@snapfacts.in">hello@snapfacts.in</a></li>
+                    <li><a href="https://x.com" target="_blank" rel="noopener">X / Twitter</a></li>
+                    <li><a href="https://github.com/AkbarDev/AIinc" target="_blank" rel="noopener">GitHub</a></li>
+                </ul>
             </div>
         </div>
+        <p class="footer-note">&copy; 2026 TrendGrid by AIinc. Built with open RSS feeds.</p>
     </footer>
 
-    <!-- Scripts -->
-    <script src="js/feeds.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/app.js" defer></script>
 </body>
-
 </html>
