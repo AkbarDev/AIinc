@@ -9,7 +9,7 @@ import re
 import sys
 from collections import defaultdict
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
@@ -22,6 +22,7 @@ CONFIG_PATH = BASE_DIR / "config" / "sources.json"
 OUTPUT_PATH = BASE_DIR / "data" / "trends.json"
 BADGE_DIR = BASE_DIR / "data" / "badges"
 USER_AGENT = "SnapFacts-TrendBot/1.0 (+https://www.snapfacts.in)"
+IST = timezone(timedelta(hours=5, minutes=30))
 
 KEYWORD_SIGNALS = {
     "technology": ["ai", "artificial intelligence", "quantum", "chip", "semiconductor", "cloud", "open source"],
@@ -257,12 +258,15 @@ def compute_score(cluster: TrendCluster, now: datetime) -> Dict[str, float]:
     }
 
 
-def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int) -> Dict[str, object]:
-    now = datetime.now(timezone.utc)
+def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, window_hours: Optional[int] = 24) -> Dict[str, object]:
+    now_utc = datetime.now(timezone.utc)
+    cutoff_utc = None if window_hours is None else now_utc - timedelta(hours=window_hours)
     clusters = build_clusters(entries)
     payload = []
     for cluster in clusters.values():
-        score_block = compute_score(cluster, now)
+        if cutoff_utc and cluster.published < cutoff_utc:
+            continue
+        score_block = compute_score(cluster, now_utc)
         payload.append(
             {
                 "id": cluster.key,
@@ -280,7 +284,7 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int) 
         )
     payload.sort(key=lambda item: item["score"], reverse=True)
     return {
-        "generated_at": now.isoformat(),
+        "generated_at": now_utc.isoformat(),
         "sources_scanned": len(entries),
         "feeds_polled": feeds_polled,
         "feed_pool": feed_pool,
@@ -332,7 +336,8 @@ def main() -> None:
 
     feeds_polled = feed_pool if args.sample else len(successful_sources)
     previous_data = None if args.sample else load_existing(args.output)
-    data = aggregate(entries, feeds_polled, feed_pool)
+    window = None if args.sample else 24
+    data = aggregate(entries, feeds_polled, feed_pool, window_hours=window)
 
     if previous_data and comparable_signature(previous_data) == comparable_signature(data):
         print("no-new-data: feeds unchanged; skipping write")
