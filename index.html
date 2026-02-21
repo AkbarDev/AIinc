@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Global TrendGrid | Real-Time News Intelligence</title>
+    <title>Snapfacts | Real-Time AI + Tech Intelligence</title>
     <meta name="description" content="Global TrendGrid scans open RSS feeds to surface high-signal, trustworthy trending news across technology, media, policy, and culture." />
     <meta name="keywords" content="trending news, global trends, RSS aggregation, technology intelligence, media monitoring" />
     <meta name="author" content="AIinc" />
@@ -27,70 +27,48 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <div class="bg"></div>
-    <header class="site-header" id="top">
-        <div class="container header-grid">
-            <a class="brand" href="#top">
-                <img src="assets/images/logo.png" alt="SnapFacts logo" />
-                <div>
-                    <span>SnapFacts</span>
-                    <small>Global Trending Intelligence</small>
-                </div>
-            </a>
-            <nav class="category-nav">
-                <ul>
-                    <li><button class="category-btn active" data-filter="technology">Technology</button></li>
-                    <li><button class="category-btn" data-filter="media">Media</button></li>
-                </ul>
+    <header class="masthead">
+        <div class="container nav-row">
+            <div class="brand">
+                <span class="brand-title">SNAPFACTS</span>
+                <span class="brand-tagline">Real-time AI + tech intelligence</span>
+            </div>
+            <nav class="primary-nav">
+                <button class="nav-link">News</button>
+                <button class="nav-link">Categories ▾</button>
+                <button class="nav-link">Events</button>
+                <button class="nav-link">Resources ▾</button>
+                <button class="nav-link">More ▾</button>
             </nav>
+            <div class="nav-actions">
+                <button class="icon-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="icon-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></button>
+                <button class="icon-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></button>
+                <a class="cta-btn" href="#subscribe">Subscribe</a>
+            </div>
+        </div>
+        <div class="status-strip" id="status-strip">
+            <div class="container status-grid">
+                <span>Last refresh: <strong data-meta="generated">—</strong></span>
+                <span>Feeds monitored: <strong data-meta="feeds">—</strong></span>
+                <span>Latency budget: &lt; 15 mins</span>
+            </div>
         </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container hero-grid">
-                <div>
-                    <p class="eyebrow">Live Monitoring</p>
-                    <h1>We detect <span class="gradient">high-velocity</span> stories before they flood timelines.</h1>
-                    <p class="lead">Feed ingestion, deduplication, scoring, and visualization in one open-source workflow built for GitHub Pages.</p>
-                    <div class="hero-actions">
-                        <a class="btn primary" href="#trend-grid">See trends</a>
-                        <a class="btn ghost" href="#methodology">View scoring model</a>
-                    </div>
-                    <ul class="hero-meta" id="hero-meta">
-                        <li>Updated: <span data-meta="generated">—</span></li>
-                        <li>Feeds monitored: <span data-meta="feeds">—</span></li>
-                        <li>Latency budget: &lt; 15 minutes</li>
-                    </ul>
-                </div>
-                <article class="hero-card" id="top-story">
-                    <p class="eyebrow">Top story</p>
-                    <h2>Awaiting data…</h2>
-                    <p class="muted">TrendGrid highlights the most credible multi-source signal once feeds sync.</p>
-                    <div class="badge-row">
-                        <span class="pill ghost">Score —</span>
-                        <span class="pill ghost">Category —</span>
-                        <span class="pill ghost">Sources —</span>
-                    </div>
+        <section class="front-section">
+            <div class="container front-grid">
+                <article class="lead-card" id="lead-card">
+                    <p class="eyebrow">Lead story</p>
+                    <h1>Awaiting signal…</h1>
+                    <p class="lead-copy">Once feeds sync, the highest scoring multi-source signal populates here.</p>
                 </article>
-            </div>
-        </section>
-
-        <section class="intel" id="intel-panel">
-            <div class="container">
-                <div class="section-heading">
-                    <div>
-                        <p class="eyebrow">Signal board</p>
-                        <h3>System health & coverage</h3>
-                    </div>
-                </div>
-                <div class="stat-grid" id="stat-grid"></div>
-            </div>
-        </section>
-
-        <section class="trends" id="trend-grid">
-            <div class="container trend-grid" id="trend-cards">
-                <!-- Cards injected by JS -->
+                <div class="feature-grid" id="feature-grid"></div>
+                <aside class="sidebar" id="sidebar-list">
+                    <p class="eyebrow">Trending now</p>
+                    <ul></ul>
+                </aside>
             </div>
         </section>
 
@@ -111,16 +89,16 @@
                 <div>
                     <p class="eyebrow">Scoring inputs</p>
                     <h3>Trend score = Σ weighted signals</h3>
-                    <p>We prioritize coverage breadth, velocity, and trust. Signals are recalculated each time the ingestion job runs (usually every 15 minutes via GitHub Actions).</p>
+                    <p>We prioritize coverage breadth, velocity, and trust. Signals are recalculated each time the ingestion job runs (every five minutes via GitHub Actions).</p>
                 </div>
                 <div class="model-card">
                     <code>score = (source × 0.30) + (recency × 0.25) + (keywords × 0.20) + (authority × 0.15) + (engagement × 0.10)</code>
                     <ul>
                         <li><strong>Source</strong>: distinct publishers referencing the same topic</li>
                         <li><strong>Recency</strong>: time decay with 6h half-life</li>
-                        <li><strong>Keywords</strong>: AI, semiconductor, streaming, etc.</li>
+                        <li><strong>Keywords</strong>: AI, semiconductor, infrastructure, enterprise</li>
                         <li><strong>Authority</strong>: feed credibility tier</li>
-                        <li><strong>Engagement</strong>: heuristic boost for AI/GPT, blockbuster IP, esports finales</li>
+                        <li><strong>Engagement</strong>: boost for models, chips, and enterprise adoption stories</li>
                     </ul>
                 </div>
             </div>
@@ -131,7 +109,7 @@
                 <div class="section-heading">
                     <div>
                         <p class="eyebrow">Feed inventory</p>
-                        <h3>Open RSS publishers we monitor</h3>
+                        <h3>Tech publishers we monitor</h3>
                     </div>
                 </div>
                 <div class="source-grid" id="source-grid"></div>

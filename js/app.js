@@ -65,7 +65,6 @@ const FALLBACK_DATA = {
 
 const state = {
     trends: [],
-    filter: 'all',
     meta: {},
     sources: [],
 };
@@ -73,7 +72,6 @@ const state = {
 document.addEventListener('DOMContentLoaded', () => {
     renderSkeletons();
     loadData();
-    setupFilters();
 });
 
 async function loadData() {
@@ -102,97 +100,113 @@ async function loadData() {
 }
 
 function renderSkeletons() {
-    const grid = document.getElementById('trend-cards');
-    if (!grid) return;
-    grid.innerHTML = Array.from({ length: 6 })
-        .map(
-            () => `
-        <article class="skeleton">
-            <div class="line long"></div>
-            <div class="line mid"></div>
-            <div class="line short"></div>
-        </article>`
-        )
-        .join('');
+    const lead = document.getElementById('lead-card');
+    const feature = document.getElementById('feature-grid');
+    const sidebar = document.querySelector('#sidebar-list ul');
+    if (lead) {
+        lead.innerHTML = `
+            <div class="skeleton-block"></div>
+            <div class="skeleton-line"></div>
+            <div class="skeleton-line short"></div>
+        `;
+    }
+    if (feature) {
+        feature.innerHTML = Array.from({ length: 4 })
+            .map(
+                () => `
+                <article class="feature-card skeleton-card">
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line short"></div>
+                </article>`
+            )
+            .join('');
+    }
+    if (sidebar) {
+        sidebar.innerHTML = Array.from({ length: 4 })
+            .map(() => `<li class="skeleton-line"></li>`)
+            .join('');
+    }
 }
 
 function renderAll() {
-    renderHero();
-    renderStats();
-    renderTrends();
+    renderLead();
+    renderFeatureGrid();
+    renderSidebar();
+    renderMetaStrip();
     renderTimeline();
     renderSources();
 }
 
-function renderHero() {
-    const card = document.getElementById('top-story');
-    const metaList = document.getElementById('hero-meta');
+function renderLead() {
+    const card = document.getElementById('lead-card');
     if (!card) return;
     const topStory = [...state.trends].sort((a, b) => b.score - a.score)[0];
     if (!topStory) return;
 
     card.innerHTML = `
-        <p class="eyebrow">Top story</p>
-        <h2>${topStory.title}</h2>
-        <p class="muted">${topStory.summary || 'Signal boost from multiple publishers.'}</p>
-        <div class="badge-row">
-            <span class="pill ghost">Score ${topStory.score.toFixed(2)}</span>
-            <span class="pill ghost">${capitalize(topStory.category)}</span>
-            <span class="pill ghost">${topStory.source_count} sources</span>
+        <p class="eyebrow">${topStory.category ? topStory.category.toUpperCase() : 'LEAD STORY'}</p>
+        <h1>${topStory.title}</h1>
+        <p class="lead-copy">${topStory.summary || 'Signal boost from multiple publishers.'}</p>
+        <div class="lead-meta">
+            <span>${formatDate(topStory.published_at)}</span>
+            <span>${topStory.source_count || 1} sources</span>
+            <span>Score ${topStory.score ? topStory.score.toFixed(2) : '—'}</span>
         </div>
-        <a class="btn primary" href="${topStory.link}" target="_blank" rel="noopener">Open story</a>
+        <a href="${topStory.link}" target="_blank" rel="noopener">Read full story</a>
     `;
-
-    if (metaList) {
-        const generated = metaList.querySelector('[data-meta="generated"]');
-        const feeds = metaList.querySelector('[data-meta="feeds"]');
-        if (generated) generated.textContent = formatDate(state.meta.generated_at);
-        if (feeds) feeds.textContent = state.sources.length || '10+';
-    }
 }
 
-function renderStats() {
-    const grid = document.getElementById('stat-grid');
+function renderFeatureGrid() {
+    const grid = document.getElementById('feature-grid');
     if (!grid) return;
-    const stats = [
-        { label: 'Stories processed', value: state.meta.sources_scanned || state.trends.length * 3 },
-        { label: 'Trend clusters', value: state.meta.clusters || state.trends.length },
-        { label: 'Avg. authority', value: avgAuthority(state.trends).toFixed(2) },
-        { label: 'Median score', value: medianScore(state.trends).toFixed(2) },
-    ];
-    grid.innerHTML = stats
-        .map(
-            (stat) => `
-        <article class="stat-card">
-            <h4>${stat.value}</h4>
-            <p>${stat.label}</p>
-        </article>`
-        )
-        .join('');
-}
-
-function renderTrends() {
-    const grid = document.getElementById('trend-cards');
-    if (!grid) return;
-    const filtered = state.filter === 'all' ? state.trends : state.trends.filter((trend) => trend.category === state.filter);
-    if (!filtered.length) {
-        grid.innerHTML = '<p>No signals for this category yet.</p>';
+    const sorted = [...state.trends].sort((a, b) => b.score - a.score);
+    const features = sorted.slice(1, 5);
+    if (!features.length) {
+        grid.innerHTML = '<p>No additional signals yet.</p>';
         return;
     }
-    grid.innerHTML = filtered
+    grid.innerHTML = features
         .map(
-            (trend, index) => `
-        <article class="trend-card" data-score="${trend.score.toFixed(2)}">
-            <span class="tag">${String(index + 1).padStart(2, '0')}</span>
-            <h4>${trend.title}</h4>
+            (trend) => `
+        <article class="feature-card">
+            <p class="eyebrow">${trend.category ? trend.category.toUpperCase() : 'AI'}</p>
+            <h3>${trend.title}</h3>
             <p>${trend.summary || 'Summary unavailable from feed.'}</p>
             <footer>
-                <span>${formatTimeAgo(trend.published_at)}</span>
+                <span>${formatDate(trend.published_at)}</span>
                 <a href="${trend.link}" target="_blank" rel="noopener">Read</a>
             </footer>
         </article>`
         )
         .join('');
+}
+
+function renderSidebar() {
+    const sidebar = document.querySelector('#sidebar-list ul');
+    if (!sidebar) return;
+    const sorted = [...state.trends].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+    const items = sorted.slice(5, 12);
+    if (!items.length) {
+        sidebar.innerHTML = '<li>No additional items.</li>';
+        return;
+    }
+    sidebar.innerHTML = items
+        .map(
+            (trend) => `
+        <li>
+            <p class="eyebrow">${trend.category ? trend.category.toUpperCase() : 'AI'}</p>
+            <a href="${trend.link}" target="_blank" rel="noopener">${trend.title}</a>
+            <small>${formatTimeAgo(trend.published_at)}</small>
+        </li>`
+        )
+        .join('');
+}
+
+function renderMetaStrip() {
+    const strip = document.getElementById('status-strip');
+    if (!strip) return;
+    strip.querySelectorAll('[data-meta="generated"]').forEach((el) => (el.textContent = formatDate(state.meta.generated_at)));
+    strip.querySelectorAll('[data-meta="feeds"]').forEach((el) => (el.textContent = state.sources.length || '10'));
 }
 
 function renderTimeline() {
@@ -205,7 +219,7 @@ function renderTimeline() {
         .map(
             (item) => `
         <article class="timeline-card">
-            <h5>${item.title}</h5>
+            <h4>${item.title}</h4>
             <span>${formatTimeAgo(item.published_at)} · ${capitalize(item.category)}</span>
         </article>`
         )
@@ -232,19 +246,6 @@ function renderSources() {
         .join('');
 }
 
-function setupFilters() {
-    const filterRow = document.getElementById('filter-row');
-    if (!filterRow) return;
-    filterRow.addEventListener('click', (event) => {
-        const button = event.target.closest('button[data-filter]');
-        if (!button) return;
-        state.filter = button.dataset.filter;
-        filterRow.querySelectorAll('button').forEach((btn) => btn.classList.remove('active'));
-        button.classList.add('active');
-        renderTrends();
-    });
-}
-
 function formatTimeAgo(value) {
     if (!value) return '—';
     const date = new Date(value);
@@ -263,19 +264,6 @@ function formatDate(value) {
         dateStyle: 'medium',
         timeStyle: 'short',
     }).format(new Date(value));
-}
-
-function avgAuthority(trends) {
-    if (!trends.length) return 0;
-    const total = trends.reduce((sum, item) => sum + (item.signals?.authority || 0), 0);
-    return total / trends.length;
-}
-
-function medianScore(trends) {
-    if (!trends.length) return 0;
-    const scores = [...trends].map((item) => item.score).sort((a, b) => a - b);
-    const mid = Math.floor(scores.length / 2);
-    return scores.length % 2 ? scores[mid] : (scores[mid - 1] + scores[mid]) / 2;
 }
 
 function capitalize(value = '') {

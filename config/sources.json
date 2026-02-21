@@ -1,45 +1,10 @@
 [
   {
-    "name": "Google Global Top Stories",
-    "url": "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en",
-    "category": "global",
-    "geo": "global",
-    "authority": 0.95
-  },
-  {
-    "name": "Google Entertainment Highlights",
-    "url": "https://news.google.com/rss/search?q=entertainment&hl=en-US&gl=US&ceid=US:en",
-    "category": "culture",
-    "geo": "global",
-    "authority": 0.85
-  },
-  {
-    "name": "Bing Technology News",
-    "url": "https://www.bing.com/news/search?q=technology&format=RSS",
-    "category": "technology",
-    "geo": "global",
-    "authority": 0.8
-  },
-  {
-    "name": "Bing Entertainment Industry",
-    "url": "https://www.bing.com/news/search?q=media+entertainment&format=RSS",
-    "category": "media",
-    "geo": "global",
-    "authority": 0.78
-  },
-  {
-    "name": "Wired",
-    "url": "https://www.wired.com/feed/rss",
+    "name": "The Verge",
+    "url": "https://www.theverge.com/rss/index.xml",
     "category": "technology",
     "geo": "global",
     "authority": 0.82
-  },
-  {
-    "name": "Variety",
-    "url": "https://variety.com/feed/",
-    "category": "media",
-    "geo": "global",
-    "authority": 0.8
   },
   {
     "name": "TechCrunch",
@@ -49,24 +14,66 @@
     "authority": 0.8
   },
   {
-    "name": "Rolling Stone Music",
-    "url": "https://www.rollingstone.com/music/music-news/feed/",
-    "category": "culture",
-    "geo": "global",
-    "authority": 0.75
-  },
-  {
-    "name": "Ars Technica",
-    "url": "http://feeds.arstechnica.com/arstechnica/index",
+    "name": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/feed/",
     "category": "technology",
     "geo": "global",
-    "authority": 0.83
+    "authority": 0.81
   },
   {
-    "name": "IGN Entertainment",
-    "url": "https://feeds.ign.com/ign/all",
-    "category": "gaming",
+    "name": "Wired",
+    "url": "https://www.wired.com/feed/rss",
+    "category": "technology",
+    "geo": "global",
+    "authority": 0.82
+  },
+  {
+    "name": "Google AI Blog",
+    "url": "https://ai.googleblog.com/feeds/posts/default",
+    "category": "technology",
+    "geo": "global",
+    "authority": 0.78
+  },
+  {
+    "name": "Microsoft Research Blog",
+    "url": "https://www.microsoft.com/en-us/research/feed/",
+    "category": "technology",
+    "geo": "global",
+    "authority": 0.78
+  },
+  {
+    "name": "OpenAI Blog",
+    "url": "https://openai.com/blog/rss",
+    "category": "technology",
+    "geo": "global",
+    "authority": 0.8
+  },
+  {
+    "name": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/feed/",
+    "category": "technology",
+    "geo": "global",
+    "authority": 0.79
+  },
+  {
+    "name": "Meta Research",
+    "url": "https://research.facebook.com/blog/rss/",
+    "category": "technology",
     "geo": "global",
     "authority": 0.77
+  },
+  {
+    "name": "Anthropic Blog",
+    "url": "https://www.anthropic.com/news/rss.xml",
+    "category": "technology",
+    "geo": "global",
+    "authority": 0.76
+  },
+  {
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/feed",
+    "category": "technology",
+    "geo": "global",
+    "authority": 0.74
   }
 ]
