@@ -171,7 +171,7 @@ function renderFeatureGrid() {
         <article class="feature-card">
             <p class="eyebrow">${trend.category ? trend.category.toUpperCase() : 'AI'}</p>
             <h3><a class="headline-link" href="${trend.link}" target="_blank" rel="noopener">${trend.title}</a></h3>
-            <img class="card-image" src="${buildThumb(trend)}" alt="${trend.title}" loading="lazy" />
+            <img class="card-image" src="${resolveCardImage(trend)}" alt="${trend.title}" loading="lazy" />
         </article>`
         )
         .join('');
@@ -192,7 +192,7 @@ function renderSidebar() {
         <li>
             <p class="eyebrow">${trend.category ? trend.category.toUpperCase() : 'AI'}</p>
             <a class="headline-link" href="${trend.link}" target="_blank" rel="noopener">${trend.title}</a>
-            <img class="card-image compact" src="${buildThumb(trend)}" alt="${trend.title}" loading="lazy" />
+            <img class="card-image compact" src="${resolveCardImage(trend)}" alt="${trend.title}" loading="lazy" />
         </li>`
         )
         .join('');
@@ -288,6 +288,13 @@ function buildThumb(trend) {
   <text x="32" y="320" font-family="Arial, sans-serif" font-size="22" fill="#ffffff">${title.slice(0, 54)}</text>
 </svg>`;
     return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+}
+
+function resolveCardImage(trend) {
+    if (trend?.image && /^https?:\/\//i.test(trend.image)) {
+        return trend.image;
+    }
+    return buildThumb(trend);
 }
 
 function getHostname(link) {

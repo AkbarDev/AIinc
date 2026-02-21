@@ -79,6 +79,7 @@ class TrendCluster:
     title: str
     link: str
     summary: str
+    image: Optional[str]
     category: str
     geo: str
     published: datetime
@@ -135,13 +136,14 @@ def parse_items(xml_payload: str, source: FeedSource) -> List[Dict[str, str]]:
     for item in items:
         title = _first(item, ["title"])
         summary = _first(item, ["description", "summary", "content"])
-        link = _first(item, ["link"])
+        link = _first(item, ["link"]) or ""
         if not link:
-            link = item.attrib.get("href", "")
+            link_node = item.find("link")
+            if link_node is not None:
+                link = link_node.attrib.get("href", "") or link_node.attrib.get("{http://www.w3.org/1999/xlink}href", "")
         published_raw = _first(item, ["pubDate", "published", "updated"])
         published = _parse_date(published_raw)
-        media_content = item.find("media:content", ns)
-        image = media_content.attrib.get("url") if media_content is not None else None
+        image = _extract_image(item, summary, ns)
 
         if not title or not link:
             continue
@@ -167,6 +169,44 @@ def _first(node: ET.Element, tags: List[str]) -> Optional[str]:
         if child is not None and child.text:
             return child.text
     return None
+
+
+def _extract_image(node: ET.Element, summary: Optional[str], ns: Dict[str, str]) -> Optional[str]:
+    media_content = node.find("media:content", ns)
+    if media_content is not None:
+        url = media_content.attrib.get("url")
+        if _looks_like_image(url):
+            return url
+
+    media_thumbnail = node.find("media:thumbnail", ns)
+    if media_thumbnail is not None:
+        url = media_thumbnail.attrib.get("url")
+        if _looks_like_image(url):
+            return url
+
+    enclosure = node.find("enclosure")
+    if enclosure is not None:
+        url = enclosure.attrib.get("url")
+        mime = (enclosure.attrib.get("type") or "").lower()
+        if _looks_like_image(url) or mime.startswith("image/"):
+            return url
+
+    for content in node.findall("{http://www.w3.org/2005/Atom}content"):
+        src = content.attrib.get("src")
+        if _looks_like_image(src):
+            return src
+
+    if summary:
+        match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', summary, re.IGNORECASE)
+        if match and _looks_like_image(match.group(1)):
+            return match.group(1)
+    return None
+
+
+def _looks_like_image(url: Optional[str]) -> bool:
+    if not url:
+        return False
+    return bool(re.search(r"\.(jpg|jpeg|png|webp|gif|avif)(\?|$)", url, re.IGNORECASE)) or url.startswith("http")
 
 
 def _parse_date(value: Optional[str]) -> Optional[datetime]:
@@ -208,6 +248,7 @@ def build_clusters(entries: List[Dict[str, str]]) -> Dict[str, TrendCluster]:
                 title=entry["title"],
                 link=entry["link"],
                 summary=entry["summary"],
+                image=entry.get("image"),
                 category=entry["category"],
                 geo=entry["geo"],
                 published=published,
@@ -220,8 +261,11 @@ def build_clusters(entries: List[Dict[str, str]]) -> Dict[str, TrendCluster]:
             cluster.category = entry["category"] or cluster.category
             cluster.geo = entry["geo"] or cluster.geo
             cluster.link = entry["link"]
+            cluster.image = entry.get("image") or cluster.image
             cluster.published = published
             cluster.latest_seen = published
+        elif not cluster.image and entry.get("image"):
+            cluster.image = entry.get("image")
         source = FeedSource(
             name=entry["source"],
             url="",
@@ -272,6 +316,7 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
                 "id": cluster.key,
                 "title": cluster.title,
                 "summary": cluster.summary,
+                "image": cluster.image,
                 "link": cluster.link,
                 "category": cluster.category,
                 "geo": cluster.geo,
