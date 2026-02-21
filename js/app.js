@@ -170,12 +170,8 @@ function renderFeatureGrid() {
             (trend) => `
         <article class="feature-card">
             <p class="eyebrow">${trend.category ? trend.category.toUpperCase() : 'AI'}</p>
-            <h3>${trend.title}</h3>
-            <p>${trend.summary || 'Summary unavailable from feed.'}</p>
-            <footer>
-                <span>${formatDate(trend.published_at)}</span>
-                <a href="${trend.link}" target="_blank" rel="noopener">Read</a>
-            </footer>
+            <h3><a class="headline-link" href="${trend.link}" target="_blank" rel="noopener">${trend.title}</a></h3>
+            <img class="card-image" src="${buildThumb(trend)}" alt="${trend.title}" loading="lazy" />
         </article>`
         )
         .join('');
@@ -195,8 +191,8 @@ function renderSidebar() {
             (trend) => `
         <li>
             <p class="eyebrow">${trend.category ? trend.category.toUpperCase() : 'AI'}</p>
-            <a href="${trend.link}" target="_blank" rel="noopener">${trend.title}</a>
-            <small>${formatTimeAgo(trend.published_at)}</small>
+            <a class="headline-link" href="${trend.link}" target="_blank" rel="noopener">${trend.title}</a>
+            <img class="card-image compact" src="${buildThumb(trend)}" alt="${trend.title}" loading="lazy" />
         </li>`
         )
         .join('');
@@ -268,4 +264,40 @@ function formatDate(value) {
 
 function capitalize(value = '') {
     return value.charAt(0).toUpperCase() + value.slice(1);
+}
+
+function buildThumb(trend) {
+    const source = getHostname(trend.link);
+    const label = (trend.category || 'technology').toUpperCase();
+    const title = sanitizeSvgText(trend.title || 'Snapfacts');
+    const sourceLabel = sanitizeSvgText(source);
+    const gradientA = '#05a6ff';
+    const gradientB = '#202938';
+    const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="${gradientA}"/>
+      <stop offset="100%" stop-color="${gradientB}"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#g)"/>
+  <rect x="18" y="18" width="142" height="36" rx="6" fill="#0d1117" fill-opacity="0.7"/>
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="20" fill="#eaf6ff">${label}</text>
+  <text x="32" y="286" font-family="Arial, sans-serif" font-size="16" fill="#d0e9f8">${sourceLabel}</text>
+  <text x="32" y="320" font-family="Arial, sans-serif" font-size="22" fill="#ffffff">${title.slice(0, 54)}</text>
+</svg>`;
+    return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+}
+
+function getHostname(link) {
+    try {
+        return new URL(link).hostname.replace(/^www\./, '');
+    } catch {
+        return 'snapfacts.in';
+    }
+}
+
+function sanitizeSvgText(value = '') {
+    return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 }
