@@ -1,10 +1,33 @@
 {
-  "generated_at": "2026-02-23T13:40:10.741373+00:00",
+  "generated_at": "2026-02-23T14:34:48.436332+00:00",
   "sources_scanned": 108,
   "feeds_polled": 7,
   "feed_pool": 11,
-  "clusters": 16,
+  "clusters": 17,
   "trends": [
+    {
+      "id": "defense secretary summons anthropics amodei over military use of claude",
+      "title": "Defense Secretary summons Anthropic\u2019s Amodei over military use of Claude",
+      "summary": "Defense Secretary Pete Hegseth has summoned Anthropic CEO Dario Amodei to the Pentagon for a tense discussion over the military's use of Claude. Hegseth has threatened to designate Anthropic a \"supply chain risk.\"",
+      "image": null,
+      "link": "https://techcrunch.com/2026/02/23/defense-secretary-summons-anthropics-amodei-over-military-use-of-claude/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-23T14:19:10+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5194,
+      "signals": {
+        "score": 0.5194,
+        "recency": 0.95748413574083,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
     {
       "id": "the download chicagos surveillance network and building better bras",
       "title": "The Download: Chicago\u2019s surveillance network, and building better bras",
@@ -18,10 +41,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5114,
+      "score": 0.479,
       "signals": {
-        "score": 0.5114,
-        "recency": 0.919587003359973,
+        "score": 0.479,
+        "recency": 0.7901158046408322,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -39,10 +62,10 @@
       "published_at": "2026-02-23T13:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.4466,
+      "score": 0.4151,
       "signals": {
-        "score": 0.4466,
-        "recency": 0.8943944365659163,
+        "score": 0.4151,
+        "recency": 0.7684701690340595,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -62,10 +85,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4171,
+      "score": 0.398,
       "signals": {
-        "score": 0.4171,
-        "recency": 0.5424776476536343,
+        "score": 0.398,
+        "recency": 0.466100718593707,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -83,31 +106,10 @@
       "published_at": "2026-02-23T12:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.4123,
+      "score": 0.3856,
       "signals": {
-        "score": 0.4123,
-        "recency": 0.7570885453968857,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "say goodbye to the undersea cable that made the global internet possible",
-      "title": "Say Goodbye to the Undersea Cable That Made the Global Internet Possible",
-      "summary": "History was unmade last year, as engineers began the massive project of ripping the first-ever transoceanic fiber-optic cable from the ocean floor. Just don\u2019t mention sharks.",
-      "image": "https://media.wired.com/photos/69950fe1c4d411f9d42d67bc/master/pass/Sharks%20(1).jpg",
-      "link": "https://www.wired.com/story/say-goodbye-to-the-undersea-cable-that-made-the-global-internet-possible/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-23T11:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3832,
-      "signals": {
-        "score": 0.3832,
-        "recency": 0.6408616178024817,
+        "score": 0.3856,
+        "recency": 0.6504959542109325,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -127,14 +129,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3774,
+      "score": 0.3637,
       "signals": {
-        "score": 0.3774,
-        "recency": 0.3897834492309282,
+        "score": 0.3637,
+        "recency": 0.3349047588749111,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "say goodbye to the undersea cable that made the global internet possible",
+      "title": "Say Goodbye to the Undersea Cable That Made the Global Internet Possible",
+      "summary": "History was unmade last year, as engineers began the massive project of ripping the first-ever transoceanic fiber-optic cable from the ocean floor. Just don\u2019t mention sharks.",
+      "image": "https://media.wired.com/photos/69950fe1c4d411f9d42d67bc/master/pass/Sharks%20(1).jpg",
+      "link": "https://www.wired.com/story/say-goodbye-to-the-undersea-cable-that-made-the-global-internet-possible/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-23T11:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3607,
+      "signals": {
+        "score": 0.3607,
+        "recency": 0.5506329373548361,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
       }
     },
     {
@@ -151,10 +174,10 @@
         "ai",
         "cloud"
       ],
-      "score": 0.328,
+      "score": 0.3269,
       "signals": {
-        "score": 0.328,
-        "recency": 0.031906621179872065,
+        "score": 0.3269,
+        "recency": 0.027414399697682956,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -175,10 +198,10 @@
         "ai",
         "policy"
       ],
-      "score": 0.3268,
+      "score": 0.3258,
       "signals": {
-        "score": 0.3268,
-        "recency": 0.0270083717317695,
+        "score": 0.3258,
+        "recency": 0.0232057883429354,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -198,10 +221,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3118,
+      "score": 0.3077,
       "signals": {
-        "score": 0.3118,
-        "recency": 0.11517176927597006,
+        "score": 0.3077,
+        "recency": 0.09895641719695955,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -221,10 +244,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2992,
+      "score": 0.2965,
       "signals": {
-        "score": 0.2992,
-        "recency": 0.07674580553283018,
+        "score": 0.2965,
+        "recency": 0.06594055121464577,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -244,10 +267,10 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.2759,
+      "score": 0.2737,
       "signals": {
-        "score": 0.2759,
-        "recency": 0.06368934323663367,
+        "score": 0.2737,
+        "recency": 0.05472234437262961,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -267,10 +290,10 @@
       "keywords": [
         "quantum"
       ],
-      "score": 0.2694,
+      "score": 0.2681,
       "signals": {
-        "score": 0.2694,
-        "recency": 0.03769321917020142,
+        "score": 0.2681,
+        "recency": 0.03238628654531859,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -288,10 +311,10 @@
       "published_at": "2026-02-22T23:08:08+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2422,
+      "score": 0.2391,
       "signals": {
-        "score": 0.2422,
-        "recency": 0.08871297350353574,
+        "score": 0.2391,
+        "recency": 0.07622282849335663,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -309,10 +332,10 @@
       "published_at": "2026-02-22T17:39:55+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2289,
+      "score": 0.2277,
       "signals": {
-        "score": 0.2289,
-        "recency": 0.035648004779522555,
+        "score": 0.2277,
+        "recency": 0.030629023547853542,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -330,10 +353,10 @@
       "published_at": "2026-02-22T17:05:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2281,
+      "score": 0.2269,
       "signals": {
-        "score": 0.2281,
-        "recency": 0.03235286040645871,
+        "score": 0.2269,
+        "recency": 0.027797811668805402,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -351,10 +374,10 @@
       "published_at": "2026-02-22T15:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2257,
+      "score": 0.2249,
       "signals": {
-        "score": 0.2257,
-        "recency": 0.02286209308999515,
+        "score": 0.2249,
+        "recency": 0.019643275743974467,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
