@@ -1,10 +1,33 @@
 {
-  "generated_at": "2026-02-22T23:57:55.734708+00:00",
+  "generated_at": "2026-02-23T03:14:08.822525+00:00",
   "sources_scanned": 108,
   "feeds_polled": 7,
   "feed_pool": 11,
-  "clusters": 16,
+  "clusters": 17,
   "trends": [
+    {
+      "id": "nasa delays launch of artemis ii lunar mission once again",
+      "title": "NASA Delays Launch of Artemis II Lunar Mission Once Again",
+      "summary": "A failure in the helium flow of the SLS rocket has prompted NASA to delay the Artemis II moon mission. Rather than March 6, the launch is now targeted for April.",
+      "image": "https://media.wired.com/photos/699b9a09c0678ca26a9a6862/master/pass/artemis.jpg",
+      "link": "https://www.wired.com/story/nasa-delays-artemis-ii-launch-again/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-23T00:42:06+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4469,
+      "signals": {
+        "score": 0.4469,
+        "recency": 0.6555026751681191,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
     {
       "id": "can the creator economy stay afloat in a flood of ai slop",
       "title": "Can the creator economy stay afloat in a flood of AI slop?",
@@ -18,58 +41,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4683,
+      "score": 0.3892,
       "signals": {
-        "score": 0.4683,
-        "recency": 0.7533476593686423,
+        "score": 0.3892,
+        "recency": 0.43680045162941433,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "apple might take a new approach to announcing its next products",
-      "title": "Apple might take a new approach to announcing its next products",
-      "summary": "Apple has invited the tech press to a \u201cspecial Apple experience\u201d on March 4, but it might unfold a bit differently than the company's standard press event.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/02/22/apple-might-take-a-new-approach-to-announcing-its-next-products/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-22T23:08:08+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4377,
-      "signals": {
-        "score": 0.4377,
-        "recency": 0.8708190692705923,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "bill gurley says that right now the worst thing you can do for your career is play it safe",
-      "title": "Bill Gurley says that right now, the worst thing you can do for your career is play it safe",
-      "summary": "\"The number one thing is to get out of your head this ideal that gets passed around in the self-help world: 'go get a mentor,' and everyone runs out and cold calls someone that's ridiculously too high and unachievable, and it doesn't work.\"",
-      "image": null,
-      "link": "https://techcrunch.com/2026/02/22/bill-gurley-says-that-right-now-the-worst-thing-you-can-do-for-your-career-is-play-it-safe/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-22T21:08:50+00:00",
-      "source_count": 1,
-      "keywords": [
-        "bill"
-      ],
-      "score": 0.4163,
-      "signals": {
-        "score": 0.4163,
-        "recency": 0.6251835826196279,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -86,14 +65,58 @@
         "ai",
         "policy"
       ],
-      "score": 0.3863,
+      "score": 0.3584,
       "signals": {
-        "score": 0.3863,
-        "recency": 0.2651179890057039,
+        "score": 0.3584,
+        "recency": 0.15371874577777944,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "bill gurley says that right now the worst thing you can do for your career is play it safe",
+      "title": "Bill Gurley says that right now, the worst thing you can do for your career is play it safe",
+      "summary": "\"The number one thing is to get out of your head this ideal that gets passed around in the self-help world: 'go get a mentor,' and everyone runs out and cold calls someone that's ridiculously too high and unachievable, and it doesn't work.\"",
+      "image": null,
+      "link": "https://techcrunch.com/2026/02/22/bill-gurley-says-that-right-now-the-worst-thing-you-can-do-for-your-career-is-play-it-safe/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-22T21:08:50+00:00",
+      "source_count": 1,
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.3506,
+      "signals": {
+        "score": 0.3506,
+        "recency": 0.36248930735168033,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "apple might take a new approach to announcing its next products",
+      "title": "Apple might take a new approach to announcing its next products",
+      "summary": "Apple has invited the tech press to a \u201cspecial Apple experience\u201d on March 4, but it might unfold a bit differently than the company's standard press event.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/02/22/apple-might-take-a-new-approach-to-announcing-its-next-products/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-22T23:08:08+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3462,
+      "signals": {
+        "score": 0.3462,
+        "recency": 0.5049118531325641,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -109,10 +132,10 @@
       "keywords": [
         "quantum"
       ],
-      "score": 0.3525,
+      "score": 0.3136,
       "signals": {
-        "score": 0.3525,
-        "recency": 0.3700019595701976,
+        "score": 0.3136,
+        "recency": 0.21453179157611887,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -132,35 +155,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3118,
+      "score": 0.2997,
       "signals": {
-        "score": 0.3118,
-        "recency": 0.11521980306487813,
+        "score": 0.2997,
+        "recency": 0.06680589152897798,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "trump says netflix will face consequences if it doesnt fire board member susan rice",
-      "title": "Trump says Netflix will face \u2018consequences\u2019 if it doesn\u2019t fire board member Susan Rice",
-      "summary": "Netflix board member Susan Rice had predicted that corporations that \u201ctake a knee\u201d to Trump will be \u201cheld accountable\u201d when Democrats return to power.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/02/22/trump-says-netflix-will-face-consequences-if-it-doesnt-fire-board-member-susan-rice/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-22T17:39:55+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3075,
-      "signals": {
-        "score": 0.3075,
-        "recency": 0.3499258464402639,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -176,14 +178,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3007,
+      "score": 0.292,
       "signals": {
-        "score": 0.3007,
-        "recency": 0.08263890082678106,
+        "score": 0.292,
+        "recency": 0.047915074473780024,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "trump says netflix will face consequences if it doesnt fire board member susan rice",
+      "title": "Trump says Netflix will face \u2018consequences\u2019 if it doesn\u2019t fire board member Susan Rice",
+      "summary": "Netflix board member Susan Rice had predicted that corporations that \u201ctake a knee\u201d to Trump will be \u201cheld accountable\u201d when Democrats return to power.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/02/22/trump-says-netflix-will-face-consequences-if-it-doesnt-fire-board-member-susan-rice/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-22T17:39:55+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2707,
+      "signals": {
+        "score": 0.2707,
+        "recency": 0.20289140858287047,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -197,10 +220,10 @@
       "published_at": "2026-02-22T17:05:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2994,
+      "score": 0.266,
       "signals": {
-        "score": 0.2994,
-        "recency": 0.3175802441823336,
+        "score": 0.266,
+        "recency": 0.1841370214167511,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -218,10 +241,10 @@
       "published_at": "2026-02-22T15:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2761,
+      "score": 0.2525,
       "signals": {
-        "score": 0.2761,
-        "recency": 0.224417532633079,
+        "score": 0.2525,
+        "recency": 0.13012010907399654,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -239,10 +262,10 @@
       "published_at": "2026-02-22T11:56:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2567,
+      "score": 0.2425,
       "signals": {
-        "score": 0.2567,
-        "recency": 0.13461208404718364,
+        "score": 0.2425,
+        "recency": 0.07804978003895811,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -260,10 +283,10 @@
       "published_at": "2026-02-22T11:30:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2543,
+      "score": 0.2412,
       "signals": {
-        "score": 0.2543,
-        "recency": 0.12523287053625456,
+        "score": 0.2412,
+        "recency": 0.0726115940347221,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -281,34 +304,13 @@
       "published_at": "2026-02-22T10:30:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2495,
+      "score": 0.2384,
       "signals": {
-        "score": 0.2495,
-        "recency": 0.10600733626453174,
+        "score": 0.2384,
+        "recency": 0.0614643873655686,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "the 9000pound monster i dont want to give back",
-      "title": "The 9,000-pound monster I don\u2019t want to give back",
-      "summary": "I thought: other than hotels that use SUVs like the Escalade IQL to ferry guests around, what kind of monster chooses a car like this?",
-      "image": null,
-      "link": "https://techcrunch.com/2026/02/22/the-9000-pound-monster-i-dont-want-to-give-back/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-22T10:59:08+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2487,
-      "signals": {
-        "score": 0.2487,
-        "recency": 0.1149427556742748,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -323,10 +325,10 @@
       "published_at": "2026-02-22T10:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2474,
+      "score": 0.2371,
       "signals": {
-        "score": 0.2474,
-        "recency": 0.09753145763991491,
+        "score": 0.2371,
+        "recency": 0.05654996629430452,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -344,13 +346,34 @@
       "published_at": "2026-02-22T10:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2474,
+      "score": 0.2371,
       "signals": {
-        "score": 0.2474,
-        "recency": 0.09753145763991491,
+        "score": 0.2371,
+        "recency": 0.05654996629430452,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "the 9000pound monster i dont want to give back",
+      "title": "The 9,000-pound monster I don\u2019t want to give back",
+      "summary": "I thought: other than hotels that use SUVs like the Escalade IQL to ferry guests around, what kind of monster chooses a car like this?",
+      "image": null,
+      "link": "https://techcrunch.com/2026/02/22/the-9000-pound-monster-i-dont-want-to-give-back/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-22T10:59:08+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2367,
+      "signals": {
+        "score": 0.2367,
+        "recency": 0.0666452559660564,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     }
