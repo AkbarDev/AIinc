@@ -269,23 +269,33 @@ function capitalize(value = '') {
 function buildThumb(trend) {
     const source = getHostname(trend.link);
     const label = (trend.category || 'technology').toUpperCase();
-    const title = sanitizeSvgText(trend.title || 'Snapfacts');
+    const title = trend.title || 'Snapfacts';
+    const summary = trend.summary || 'Live technology signal from Snapfacts RSS monitoring.';
+    const theme = pickThumbTheme(trend);
     const sourceLabel = sanitizeSvgText(source);
-    const gradientA = '#05a6ff';
-    const gradientB = '#202938';
+    const titleLines = wrapSvgText(title, 36, 2);
+    const summaryLines = wrapSvgText(summary, 64, 2);
+    const noiseX = 60 + (hashString(`${title}-x`) % 520);
+    const noiseY = 80 + (hashString(`${title}-y`) % 180);
+    const radius = 58 + (hashString(`${title}-r`) % 36);
     const svg = `
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="${gradientA}"/>
-      <stop offset="100%" stop-color="${gradientB}"/>
+      <stop offset="0%" stop-color="${theme.gradientA}"/>
+      <stop offset="100%" stop-color="${theme.gradientB}"/>
     </linearGradient>
   </defs>
   <rect width="640" height="360" fill="url(#g)"/>
-  <rect x="18" y="18" width="142" height="36" rx="6" fill="#0d1117" fill-opacity="0.7"/>
-  <text x="32" y="42" font-family="Arial, sans-serif" font-size="20" fill="#eaf6ff">${label}</text>
-  <text x="32" y="286" font-family="Arial, sans-serif" font-size="16" fill="#d0e9f8">${sourceLabel}</text>
-  <text x="32" y="320" font-family="Arial, sans-serif" font-size="22" fill="#ffffff">${title.slice(0, 54)}</text>
+  <rect width="640" height="360" fill="${theme.overlay}" fill-opacity="0.22"/>
+  <circle cx="${noiseX}" cy="${noiseY}" r="${radius}" fill="${theme.accent}" fill-opacity="0.2"/>
+  <rect x="18" y="18" width="210" height="36" rx="6" fill="#0d1117" fill-opacity="0.72"/>
+  <text x="32" y="42" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#eaf6ff">${sanitizeSvgText(label)}</text>
+  <rect x="486" y="18" width="136" height="34" rx="6" fill="${theme.accent}" fill-opacity="0.2"/>
+  <text x="498" y="40" font-family="Arial, sans-serif" font-size="14" fill="#f2f8ff">${sanitizeSvgText(theme.tag)}</text>
+  <text x="32" y="280" font-family="Arial, sans-serif" font-size="16" fill="#d6e8f8">${sourceLabel}</text>
+  <text x="32" y="314" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">${titleLines}</text>
+  <text x="32" y="344" font-family="Arial, sans-serif" font-size="14" fill="#deebf7">${summaryLines}</text>
 </svg>`;
     return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 }
@@ -307,4 +317,53 @@ function getHostname(link) {
 
 function sanitizeSvgText(value = '') {
     return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+}
+
+function wrapSvgText(value, maxChars, maxLines) {
+    const words = String(value).trim().split(/\s+/).filter(Boolean);
+    const lines = [];
+    let current = '';
+    for (const word of words) {
+        const attempt = current ? `${current} ${word}` : word;
+        if (attempt.length <= maxChars) {
+            current = attempt;
+            continue;
+        }
+        if (current) lines.push(current);
+        current = word;
+        if (lines.length >= maxLines - 1) break;
+    }
+    if (lines.length < maxLines && current) lines.push(current);
+    const clipped = lines.slice(0, maxLines).map((line, idx, arr) => {
+        const trimmed = idx === arr.length - 1 && words.join(' ').length > line.length ? `${line.slice(0, Math.max(line.length - 3, 1))}...` : line;
+        return `<tspan x="32" dy="${idx === 0 ? 0 : 20}">${sanitizeSvgText(trimmed)}</tspan>`;
+    });
+    return clipped.join('');
+}
+
+function hashString(value = '') {
+    let hash = 0;
+    for (let i = 0; i < value.length; i += 1) {
+        hash = (hash * 31 + value.charCodeAt(i)) >>> 0;
+    }
+    return hash;
+}
+
+function pickThumbTheme(trend) {
+    const themes = [
+        { tag: 'AI MODELS', gradientA: '#0d4f8b', gradientB: '#171b2b', accent: '#4fd1ff', overlay: '#081421' },
+        { tag: 'CLOUD STACK', gradientA: '#0a6f66', gradientB: '#162423', accent: '#4fffe0', overlay: '#061717' },
+        { tag: 'SECURITY', gradientA: '#6f2f0b', gradientB: '#241611', accent: '#ffb26b', overlay: '#241106' },
+        { tag: 'CHIPS', gradientA: '#3d2a7f', gradientB: '#17132a', accent: '#a58cff', overlay: '#100a1f' },
+        { tag: 'POLICY', gradientA: '#7b2334', gradientB: '#25131a', accent: '#ff8ca8', overlay: '#1b0a10' },
+        { tag: 'STARTUPS', gradientA: '#54400d', gradientB: '#1f1a11', accent: '#ffd96a', overlay: '#1a1306' },
+    ];
+    const text = `${trend?.title || ''} ${trend?.summary || ''}`.toLowerCase();
+    if (/\bchip|gpu|nvidia|semiconductor|silicon\b/.test(text)) return themes[3];
+    if (/\bpolicy|regulation|government|court|law\b/.test(text)) return themes[4];
+    if (/\bsecurity|hack|breach|privacy|surveillance\b/.test(text)) return themes[2];
+    if (/\bcloud|infra|kubernetes|server|datacenter\b/.test(text)) return themes[1];
+    if (/\bstartup|funding|raises|venture|seed\b/.test(text)) return themes[5];
+    if (/\bai|model|llm|gpt|agent|anthropic|openai|hugging\b/.test(text)) return themes[0];
+    return themes[hashString(text) % themes.length];
 }
