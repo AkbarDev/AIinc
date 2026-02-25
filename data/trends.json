@@ -1,10 +1,56 @@
 {
-  "generated_at": "2026-02-25T15:43:32.092947+00:00",
+  "generated_at": "2026-02-25T16:53:27.681331+00:00",
   "sources_scanned": 108,
   "feeds_polled": 7,
   "feed_pool": 11,
-  "clusters": 45,
+  "clusters": 47,
   "trends": [
+    {
+      "id": "kalshi suspended a california politician and a youtuber for insider trading",
+      "title": "Kalshi Suspended a California Politician and a YouTuber for Insider Trading",
+      "summary": "Leading prediction market Kalshi has revealed details of two recent insider trading cases it flagged to authorities, giving a rare look at how the platform enforces its policies.",
+      "image": "https://media.wired.com/photos/699f113794854663df474cba/master/pass/biz-kalshi-insidertrading-2260402751.jpg",
+      "link": "https://www.wired.com/story/kalshi-insider-trading-california-politician-and-youtuber/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T16:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4985,
+      "signals": {
+        "score": 0.4985,
+        "recency": 0.8619967614672305,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "about 12 of us teens turn to ai for emotional support or advice",
+      "title": "About 12% of U.S. teens turn to AI for emotional support or advice",
+      "summary": "General purpose tools like ChatGPT, Claude, and Grok are not designed for this use, making mental health professionals wary.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/02/25/about-12-of-u-s-teens-turn-to-ai-for-emotional-support-or-advice/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T15:52:03+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4908,
+      "signals": {
+        "score": 0.4908,
+        "recency": 0.8431696474860412,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
     {
       "id": "harbinger acquires autonomous driving company phantom ai",
       "title": "Harbinger acquires autonomous driving company Phantom AI",
@@ -19,10 +65,10 @@
         "ai",
         "series"
       ],
-      "score": 0.5075,
+      "score": 0.4744,
       "signals": {
-        "score": 0.5075,
-        "recency": 0.7500638852887346,
+        "score": 0.4744,
+        "recency": 0.6176476692044766,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -43,34 +89,11 @@
         "ai",
         "series"
       ],
-      "score": 0.5075,
+      "score": 0.4744,
       "signals": {
-        "score": 0.5075,
-        "recency": 0.7500638852887346,
+        "score": 0.4744,
+        "recency": 0.6176476692044766,
         "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "us tells diplomats to lobby against foreign data sovereignty laws",
-      "title": "US tells diplomats to lobby against foreign data sovereignty laws",
-      "summary": "The Trump administration has ordered U.S. diplomats to lobby against countries' attempts to regulate how American tech companies handle foreigners' data.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-25T14:56:52+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4996,
-      "signals": {
-        "score": 0.4996,
-        "recency": 0.8784169317583335,
-        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -90,14 +113,58 @@
         "ai",
         "series"
       ],
-      "score": 0.4925,
+      "score": 0.4621,
       "signals": {
-        "score": 0.4925,
-        "recency": 0.6900920882750697,
+        "score": 0.4621,
+        "recency": 0.5682632882603985,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "us tells diplomats to lobby against foreign data sovereignty laws",
+      "title": "US tells diplomats to lobby against foreign data sovereignty laws",
+      "summary": "The Trump administration has ordered U.S. diplomats to lobby against countries' attempts to regulate how American tech companies handle foreigners' data.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T14:56:52+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4608,
+      "signals": {
+        "score": 0.4608,
+        "recency": 0.7233412794983841,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "a white house staffer appears to run massive protrump x account",
+      "title": "A White House Staffer Appears to Run Massive Pro-Trump X Account",
+      "summary": "A popular right-wing account that called a video depicting Barack and Michelle Obama as apes \"a masterpiece\" appears to be run by a White House staffer, according to records reviewed by WIRED.",
+      "image": "https://media.wired.com/photos/699ca8f5f235a3878effca61/master/pass/pol-protrump-meme-2220749802.jpg",
+      "link": "https://www.wired.com/story/a-white-house-staffer-appears-to-run-massive-pro-trump-meme-page/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T16:31:26+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4582,
+      "signals": {
+        "score": 0.4582,
+        "recency": 0.9406454875394478,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
       }
     },
     {
@@ -114,10 +181,10 @@
         "ai",
         "game"
       ],
-      "score": 0.4847,
+      "score": 0.4559,
       "signals": {
-        "score": 0.4847,
-        "recency": 0.6527991453214457,
+        "score": 0.4559,
+        "recency": 0.5375540383620189,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -125,9 +192,51 @@
       }
     },
     {
+      "id": "maga is raging over the epstein files but theyre not mad at donald trump",
+      "title": "MAGA Is Raging Over the Epstein Files. But They\u2019re Not Mad at Donald Trump",
+      "summary": "Trump supporters are angry at the lack of arrests after the latest Epstein file dump but have targeted their ire at Kash Patel, Pam Bondi, and Steve Bannon rather than the president.",
+      "image": "https://media.wired.com/photos/699e50342df982983a45949a/master/pass/politics_trump_epstein_patel_bondi.jpg",
+      "link": "https://www.wired.com/story/maga-is-still-very-angry-about-epstein-but-they-wont-blame-trump/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T16:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4385,
+      "signals": {
+        "score": 0.4385,
+        "recency": 0.8619967614672305,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "have hardwon scaling lessons to share take the stage at techcrunch founder summit 2026",
+      "title": "Have hard-won scaling lessons to share? Take the stage at TechCrunch Founder Summit 2026",
+      "summary": "Apply to speak at TechCrunch Founder Summit 2026 by April 17 for a chance to lead a roundtable or breakout session for 1,000 founders and investors. If\u00a0you\u2019ve\u00a0built, backed, or\u00a0operated\u00a0inside high-growth startups, your experience could shape how the next wave of\u00a0founders\u00a0scales.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/02/25/have-hard-won-scaling-lessons-to-share-take-the-stage-at-techcrunch-founder-summit/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T16:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4355,
+      "signals": {
+        "score": 0.4355,
+        "recency": 0.8619967614672305,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
       "id": "jiras latest update allows ai agents and humans to work side by side",
       "title": "Jira\u2019s latest update allows AI agents and humans to work side by side",
-      "summary": "Atlassian is unveiling \"agents in Jira\" which gives users the ability to assign and manage work given to AI agents the same as humans.",
+      "summary": "Atlassian is unveiling \"agents in Jira,\" which gives users the ability to assign and manage work given to AI agents the same as humans.",
       "image": null,
       "link": "https://techcrunch.com/2026/02/25/jiras-latest-update-allows-ai-agents-and-humans-to-work-side-by-side/",
       "category": "technology",
@@ -137,10 +246,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4675,
+      "score": 0.4344,
       "signals": {
-        "score": 0.4675,
-        "recency": 0.7500638852887346,
+        "score": 0.4344,
+        "recency": 0.6176476692044766,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -150,7 +259,7 @@
     {
       "id": "amazons aipowered alexa gets new personality options",
       "title": "Amazon\u2019s AI-powered Alexa+ gets new personality options",
-      "summary": "Users will be able to choose from Alexa styles like Brief, Chill or Sweet, Amazon says.",
+      "summary": "Users will be able to choose from Alexa styles like Brief, Chill, or Sweet, Amazon says.",
       "image": null,
       "link": "https://techcrunch.com/2026/02/25/amazons-ai-powered-alexa-gets-new-personality-options/",
       "category": "technology",
@@ -160,10 +269,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4675,
+      "score": 0.4344,
       "signals": {
-        "score": 0.4675,
-        "recency": 0.7500638852887346,
+        "score": 0.4344,
+        "recency": 0.6176476692044766,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -183,10 +292,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4675,
+      "score": 0.4344,
       "signals": {
-        "score": 0.4675,
-        "recency": 0.7500638852887346,
+        "score": 0.4344,
+        "recency": 0.6176476692044766,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -204,10 +313,10 @@
       "published_at": "2026-02-25T15:29:52+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.4607,
+      "score": 0.4182,
       "signals": {
-        "score": 0.4607,
-        "recency": 0.9627444547899927,
+        "score": 0.4182,
+        "recency": 0.7927816286097685,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -225,10 +334,10 @@
       "published_at": "2026-02-25T15:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.4415,
+      "score": 0.4024,
       "signals": {
-        "score": 0.4415,
-        "recency": 0.8860957812003101,
+        "score": 0.4024,
+        "recency": 0.7296645054969044,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -248,10 +357,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4174,
+      "score": 0.3936,
       "signals": {
-        "score": 0.4174,
-        "recency": 0.5374442587400053,
+        "score": 0.3936,
+        "recency": 0.4425638938879299,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "how mexicos cjng drug cartel embraced ai drones and social media",
+      "title": "How Mexico's \u2018CJNG\u2019 Drug Cartel Embraced AI, Drones, and Social Media",
+      "summary": "Drug kingpin Nemesio \u201cEl Mencho\u201d Oseguera Cervantes may be dead, but the Jalisco cartel he ran for years will likely outlive him\u2014thanks, in part, to the criminal group\u2019s embrace of technology.",
+      "image": "https://media.wired.com/photos/699dc8a6084ce041e40435b1/master/pass/carteljal.jpg",
+      "link": "https://www.wired.com/story/how-mexicos-cjng-drug-cartel-embraced-ai-drones-and-social-media/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T09:30:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3559,
+      "signals": {
+        "score": 0.3559,
+        "recency": 0.2917561003106412,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -271,101 +403,13 @@
       "keywords": [
         "music"
       ],
-      "score": 0.3752,
+      "score": 0.3552,
       "signals": {
-        "score": 0.3752,
-        "recency": 0.4549367431707972,
+        "score": 0.3552,
+        "recency": 0.37462224827256163,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "how mexicos cjng drug cartel embraced ai drones and social media",
-      "title": "How Mexico's \u2018CJNG\u2019 Drug Cartel Embraced AI, Drones, and Social Media",
-      "summary": "Drug kingpin Nemesio \u201cEl Mencho\u201d Oseguera Cervantes may be dead, but the Jalisco cartel he ran for years will likely outlive him\u2014thanks, in part, to the criminal group\u2019s embrace of technology.",
-      "image": "https://media.wired.com/photos/699dc8a6084ce041e40435b1/master/pass/carteljal.jpg",
-      "link": "https://www.wired.com/story/how-mexicos-cjng-drug-cartel-embraced-ai-drones-and-social-media/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-25T09:30:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3716,
-      "signals": {
-        "score": 0.3716,
-        "recency": 0.3543050918293715,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "best wireless headphones 2026 i compare bose apple sony and more",
-      "title": "Best Wireless Headphones (2026): I Compare Bose, Apple, Sony and More",
-      "summary": "From workout-ready earbuds to gaming over-ears, these WIRED-tested picks sound like a million bucks.",
-      "image": "https://media.wired.com/photos/6827aa9a230796724968cb4d/master/pass/Best%20Wireless%20Headphones%20Update_.png",
-      "link": "https://www.wired.com/gallery/best-wireless-headphones/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-25T11:30:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3466,
-      "signals": {
-        "score": 0.3466,
-        "recency": 0.49447258842833874,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "kubuntu focus zr gen 1 review a powerhouse linux laptop",
-      "title": "Kubuntu Focus Zr Gen 1 Review: A Powerhouse Linux Laptop",
-      "summary": "Need the power of a Linux desktop in a laptop? Kubuntu Focus\u2019 latest laptop is perfect for developers, video editors, and anyone who needs serious computing power.",
-      "image": "https://media.wired.com/photos/699e38bebbe6062950a501c3/master/pass/Review-%20Kubuntu%20Focus%20Zr%20Gen%201%20Linux%20Laptop.png",
-      "link": "https://www.wired.com/review/kubuntu-focus-zr-gen-1-linux-laptop/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-25T11:30:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3466,
-      "signals": {
-        "score": 0.3466,
-        "recency": 0.49447258842833874,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "on running is finally ramping up production of its hyperfoam sprayon shoes",
-      "title": "On Running Is Finally Ramping Up Production of Its \u2018Hyper-Foam\u2019 Spray-On Shoes",
-      "summary": "Swiss shoemaker On\u2019s newest kicks\u2014the LightSpray Cloudmonster 3 Hyper\u2014are laceless shoes with a single-piece, stretchy, sprayed-on toe box.",
-      "image": "https://media.wired.com/photos/699df6b286c146d6aa0bf69a/master/pass/ON-Spray-on-Shoe-Gear-3UG10014837-cloudmonster_3_hyper_ls-ss26-limelight_bloom-u-1x1-g6.jpg",
-      "link": "https://www.wired.com/story/on-lightspray-cloudmaster-3-hyper/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-25T09:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "cloud"
-      ],
-      "score": 0.3445,
-      "signals": {
-        "score": 0.3445,
-        "recency": 0.3259764208123427,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
         "engagement": 0.4
       }
     },
@@ -383,10 +427,10 @@
         "ai",
         "chip"
       ],
-      "score": 0.3406,
+      "score": 0.337,
       "signals": {
-        "score": 0.3406,
-        "recency": 0.0825992809993163,
+        "score": 0.337,
+        "recency": 0.06801721078405794,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -407,14 +451,103 @@
         "ai",
         "chip"
       ],
-      "score": 0.3402,
+      "score": 0.3366,
       "signals": {
-        "score": 0.3402,
-        "recency": 0.08082887852934756,
+        "score": 0.3366,
+        "recency": 0.0665593550192665,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "aidesigned proteins may help spot cancer",
+      "title": "A\u200aI-designed proteins may help spot cancer",
+      "summary": "Researchers at MIT and Microsoft have used artificial intelligence to create molecular sensors that could detect early signs of cancer via a urine test. The researchers developed an AI model to design short proteins that are targeted by enzymes called proteases, which are overactive in cancer cells. Nanoparticles coated with these proteins, called peptides, can&#8230;",
+      "image": null,
+      "link": "https://www.technologyreview.com/2026/02/24/1132083/a-i-designed-proteins-may-help-spot-cancer/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-24T22:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.3322,
+      "signals": {
+        "score": 0.3322,
+        "recency": 0.042916291696046306,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "on running is finally ramping up production of its hyperfoam sprayon shoes",
+      "title": "On Running Is Finally Ramping Up Production of Its \u2018Hyper-Foam\u2019 Spray-On Shoes",
+      "summary": "Swiss shoemaker On\u2019s newest kicks\u2014the LightSpray Cloudmonster 3 Hyper\u2014are laceless shoes with a single-piece, stretchy, sprayed-on toe box.",
+      "image": "https://media.wired.com/photos/699df6b286c146d6aa0bf69a/master/pass/ON-Spray-on-Shoe-Gear-3UG10014837-cloudmonster_3_hyper_ls-ss26-limelight_bloom-u-1x1-g6.jpg",
+      "link": "https://www.wired.com/story/on-lightspray-cloudmonster-3-hyper/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T09:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "cloud"
+      ],
+      "score": 0.3301,
+      "signals": {
+        "score": 0.3301,
+        "recency": 0.26842857052483804,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "best wireless headphones 2026 i compare bose apple sony and more",
+      "title": "Best Wireless Headphones (2026): I Compare Bose, Apple, Sony and More",
+      "summary": "From workout-ready earbuds to gaming over-ears, these WIRED-tested picks sound like a million bucks.",
+      "image": "https://media.wired.com/photos/6827aa9a230796724968cb4d/master/pass/Best%20Wireless%20Headphones%20Update_.png",
+      "link": "https://www.wired.com/gallery/best-wireless-headphones/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T11:30:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3248,
+      "signals": {
+        "score": 0.3248,
+        "recency": 0.40717843868819437,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "kubuntu focus zr gen 1 review a powerhouse linux laptop",
+      "title": "Kubuntu Focus Zr Gen 1 Review: A Powerhouse Linux Laptop",
+      "summary": "Need the power of a Linux desktop in a laptop? Kubuntu Focus\u2019 latest laptop is perfect for developers, video editors, and anyone who needs serious computing power.",
+      "image": "https://media.wired.com/photos/699e38bebbe6062950a501c3/master/pass/Review-%20Kubuntu%20Focus%20Zr%20Gen%201%20Linux%20Laptop.png",
+      "link": "https://www.wired.com/review/kubuntu-focus-zr-gen-1-linux-laptop/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T11:30:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3248,
+      "signals": {
+        "score": 0.3248,
+        "recency": 0.40717843868819437,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
       }
     },
     {
@@ -428,10 +561,10 @@
       "published_at": "2026-02-25T11:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3367,
+      "score": 0.3167,
       "signals": {
-        "score": 0.3367,
-        "recency": 0.4549367431707972,
+        "score": 0.3167,
+        "recency": 0.37462224827256163,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -449,10 +582,10 @@
       "published_at": "2026-02-25T11:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3352,
+      "score": 0.3152,
       "signals": {
-        "score": 0.3352,
-        "recency": 0.4549367431707972,
+        "score": 0.3152,
+        "recency": 0.37462224827256163,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -470,62 +603,14 @@
       "published_at": "2026-02-25T11:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3352,
+      "score": 0.3152,
       "signals": {
-        "score": 0.3352,
-        "recency": 0.4549367431707972,
+        "score": 0.3152,
+        "recency": 0.37462224827256163,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "aidesigned proteins may help spot cancer",
-      "title": "A\u200aI-designed proteins may help spot cancer",
-      "summary": "Researchers at MIT and Microsoft have used artificial intelligence to create molecular sensors that could detect early signs of cancer via a urine test. The researchers developed an AI model to design short proteins that are targeted by enzymes called proteases, which are overactive in cancer cells. Nanoparticles coated with these proteins, called peptides, can&#8230;",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/02/24/1132083/a-i-designed-proteins-may-help-spot-cancer/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-24T22:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.3345,
-      "signals": {
-        "score": 0.3345,
-        "recency": 0.052117027387444795,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "anthropic wont budge as pentagon escalates ai dispute",
-      "title": "Anthropic won\u2019t budge as Pentagon escalates AI dispute",
-      "summary": "The Pentagon has given Anthropic until Friday to loosen AI guardrails or face potential penalties, escalating a high-stakes dispute that raises questions about government leverage, vendor dependence, and investor confidence in defense tech.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/02/24/anthropic-wont-budge-as-pentagon-escalates-ai-dispute/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-24T21:18:45+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "govern"
-      ],
-      "score": 0.3316,
-      "signals": {
-        "score": 0.3316,
-        "recency": 0.0464747141647656,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       }
     },
     {
@@ -539,10 +624,10 @@
       "published_at": "2026-02-25T10:33:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3285,
+      "score": 0.3099,
       "signals": {
-        "score": 0.3285,
-        "recency": 0.4220646001682329,
+        "score": 0.3099,
+        "recency": 0.34755335066862697,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -562,10 +647,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3054,
+      "score": 0.3009,
       "signals": {
-        "score": 0.3054,
-        "recency": 0.1015101083611051,
+        "score": 0.3009,
+        "recency": 0.08358952225222148,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -585,10 +670,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2968,
+      "score": 0.2939,
       "signals": {
-        "score": 0.2968,
-        "recency": 0.06729239792028358,
+        "score": 0.2939,
+        "recency": 0.05541260357395264,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -608,10 +693,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2964,
+      "score": 0.2935,
       "signals": {
-        "score": 0.2964,
-        "recency": 0.06543070977143724,
+        "score": 0.2935,
+        "recency": 0.053879577696459686,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -631,10 +716,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2958,
+      "score": 0.293,
       "signals": {
-        "score": 0.2958,
-        "recency": 0.06320950463147829,
+        "score": 0.293,
+        "recency": 0.052050503927639886,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -654,10 +739,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2945,
+      "score": 0.2922,
       "signals": {
-        "score": 0.2945,
-        "recency": 0.052117027387444795,
+        "score": 0.2922,
+        "recency": 0.042916291696046306,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -677,10 +762,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2927,
+      "score": 0.2904,
       "signals": {
-        "score": 0.2927,
-        "recency": 0.05074325758653326,
+        "score": 0.2904,
+        "recency": 0.041785047101821,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -700,33 +785,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2921,
+      "score": 0.2899,
       "signals": {
-        "score": 0.2921,
-        "recency": 0.048266245111218305,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "cargurus data breach affects 125 million accounts",
-      "title": "CarGurus data breach affects 12.5 million accounts",
-      "summary": "Automotive marketplace CarGurus was the target of a data breach in which the names, email addresses, phone numbers, and physical addresses of millions of customers were stolen.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/02/24/cargurus-data-breach-affects-12-5-million-accounts/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-24T21:27:42+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2919,
-      "signals": {
-        "score": 0.2919,
-        "recency": 0.04764460938876899,
+        "score": 0.2899,
+        "recency": 0.039745326203407455,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -746,10 +808,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2904,
+      "score": 0.2891,
       "signals": {
-        "score": 0.2904,
-        "recency": 0.029761450206753092,
+        "score": 0.2891,
+        "recency": 0.02450736625623565,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -769,74 +831,11 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.2794,
+      "score": 0.2765,
       "signals": {
-        "score": 0.2794,
-        "recency": 0.06556413039584204,
+        "score": 0.2765,
+        "recency": 0.05398944425490048,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "peacock promo codes 40 off february 2026",
-      "title": "Peacock Promo Codes: 40% Off February 2026",
-      "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
-      "image": "https://media.wired.com/photos/66ea03340e63ccab6b8add4b/master/pass/WIRED-Coupons-1.jpg",
-      "link": "https://www.wired.com/story/peacock-promo-code/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-25T06:06:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2733,
-      "signals": {
-        "score": 0.2733,
-        "recency": 0.20103755202836301,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "50 off blue apron promo codes february 2026",
-      "title": "50% Off Blue Apron Promo Codes | February 2026",
-      "summary": "Browse chef-curated meal plans, plus get $25 off with an exclusive Blue Apron coupon code, plus 50% off your first 2 orders, and more top coupons on WIRED.",
-      "image": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg",
-      "link": "https://www.wired.com/story/blue-apron-coupon/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-25T06:05:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2731,
-      "signals": {
-        "score": 0.2731,
-        "recency": 0.20047988927402247,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "hr block coupons and deals 25 off tax prep in 2026",
-      "title": "H&R Block Coupons and Deals: $25 Off Tax Prep in 2026",
-      "summary": "When you visit your local H&R Block store or get help from a tax pro online, you can save up to $25 when you use one of our (unique) codes.",
-      "image": "https://media.wired.com/photos/66ea077015aa1d8092e99428/master/pass/WIRED-Coupons-6.jpg",
-      "link": "https://www.wired.com/story/hr-block-coupon/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-25T06:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2724,
-      "signals": {
-        "score": 0.2724,
-        "recency": 0.19771469356607324,
-        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
         "engagement": 0.4
@@ -855,11 +854,74 @@
       "keywords": [
         "series"
       ],
-      "score": 0.2713,
+      "score": 0.2698,
       "signals": {
-        "score": 0.2713,
-        "recency": 0.03325898811945806,
+        "score": 0.2698,
+        "recency": 0.027387449115984227,
         "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "peacock promo codes 40 off february 2026",
+      "title": "Peacock Promo Codes: 40% Off February 2026",
+      "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
+      "image": "https://media.wired.com/photos/66ea03340e63ccab6b8add4b/master/pass/WIRED-Coupons-1.jpg",
+      "link": "https://www.wired.com/story/peacock-promo-code/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T06:06:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2644,
+      "signals": {
+        "score": 0.2644,
+        "recency": 0.16554639927116763,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "50 off blue apron promo codes february 2026",
+      "title": "50% Off Blue Apron Promo Codes | February 2026",
+      "summary": "Browse chef-curated meal plans, plus get $25 off with an exclusive Blue Apron coupon code, plus 50% off your first 2 orders, and more top coupons on WIRED.",
+      "image": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg",
+      "link": "https://www.wired.com/story/blue-apron-coupon/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T06:05:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2643,
+      "signals": {
+        "score": 0.2643,
+        "recency": 0.1650871862532151,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "hr block coupons and deals 25 off tax prep in 2026",
+      "title": "H&R Block Coupons and Deals: $25 Off Tax Prep in 2026",
+      "summary": "When you visit your local H&R Block store or get help from a tax pro online, you can save up to $25 when you use one of our (unique) codes.",
+      "image": "https://media.wired.com/photos/66ea077015aa1d8092e99428/master/pass/WIRED-Coupons-6.jpg",
+      "link": "https://www.wired.com/story/hr-block-coupon/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-25T06:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2637,
+      "signals": {
+        "score": 0.2637,
+        "recency": 0.16281015796614912,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
         "engagement": 0.4
@@ -876,10 +938,10 @@
       "published_at": "2026-02-24T22:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2345,
+      "score": 0.2322,
       "signals": {
-        "score": 0.2345,
-        "recency": 0.052117027387444795,
+        "score": 0.2322,
+        "recency": 0.042916291696046306,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -897,10 +959,10 @@
       "published_at": "2026-02-24T22:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2345,
+      "score": 0.2322,
       "signals": {
-        "score": 0.2345,
-        "recency": 0.052117027387444795,
+        "score": 0.2322,
+        "recency": 0.042916291696046306,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -918,10 +980,10 @@
       "published_at": "2026-02-24T22:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2345,
+      "score": 0.2322,
       "signals": {
-        "score": 0.2345,
-        "recency": 0.052117027387444795,
+        "score": 0.2322,
+        "recency": 0.042916291696046306,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -939,10 +1001,10 @@
       "published_at": "2026-02-24T22:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2345,
+      "score": 0.2322,
       "signals": {
-        "score": 0.2345,
-        "recency": 0.052117027387444795,
+        "score": 0.2322,
+        "recency": 0.042916291696046306,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -960,10 +1022,10 @@
       "published_at": "2026-02-24T22:35:30+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2344,
+      "score": 0.2318,
       "signals": {
-        "score": 0.2344,
-        "recency": 0.05751828100133562,
+        "score": 0.2318,
+        "recency": 0.04736400844502393,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -981,31 +1043,10 @@
       "published_at": "2026-02-24T19:55:19+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2322,
+      "score": 0.2306,
       "signals": {
-        "score": 0.2322,
-        "recency": 0.03686081726111988,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "the last mystery of antarcticas blood falls has finally been solved",
-      "title": "The Last Mystery of Antarctica\u2019s \u2018Blood Falls\u2019 Has Finally Been Solved",
-      "summary": "New research sheds light on what drives reddish water to emerge from underground to pour onto the Taylor Glacier.",
-      "image": "https://media.wired.com/photos/699dc7921ed484eb6c093656/master/pass/GettyImages-622590238.jpg",
-      "link": "https://www.wired.com/story/the-last-mystery-of-antarcticas-blood-falls-has-finally-been-solved/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-24T16:31:42+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2282,
-      "signals": {
-        "score": 0.2282,
-        "recency": 0.020937614373317655,
+        "score": 0.2306,
+        "recency": 0.030353411639781523,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
