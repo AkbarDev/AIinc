@@ -128,6 +128,35 @@ img {
     color: #fff;
 }
 
+.category-strip {
+    padding: 1rem 0 0.4rem;
+}
+
+.category-pills {
+    display: flex;
+    gap: 0.65rem;
+    overflow-x: auto;
+    padding-bottom: 0.4rem;
+}
+
+.category-pill {
+    border: 1px solid var(--border);
+    background: #fff;
+    color: #1a1f28;
+    border-radius: 999px;
+    padding: 0.45rem 0.95rem;
+    font-weight: 600;
+    font-size: 0.86rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.category-pill.active {
+    background: #0d0d0d;
+    color: #fff;
+    border-color: #0d0d0d;
+}
+
 .front-section {
     padding: 2.5rem 0 1rem;
 }
@@ -209,6 +238,13 @@ img {
     line-height: 1.35;
 }
 
+.card-summary {
+    margin: 0.35rem 0 0;
+    color: rgba(245,246,248,0.82);
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
 .headline-link {
     color: #7dc9ff;
     text-decoration: none;
@@ -266,6 +302,63 @@ img {
 .sidebar a {
     display: block;
     margin-bottom: 0.55rem;
+}
+
+.sidebar .card-summary {
+    font-size: 0.86rem;
+    color: rgba(245,246,248,0.78);
+}
+
+.news-board {
+    padding: 0.5rem 0 1rem;
+}
+
+.news-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.1rem;
+}
+
+.news-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: var(--shadow-card);
+}
+
+.board-image {
+    margin-top: 0;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+    height: 180px;
+}
+
+.news-card-body {
+    padding: 0.9rem 0.95rem 1rem;
+}
+
+.news-card h4 {
+    margin: 0.2rem 0 0;
+    font-size: 1rem;
+    line-height: 1.35;
+}
+
+.news-card .card-summary {
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+}
+
+.news-card-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-size: 0.82rem;
+    color: #6d7482;
+    border-top: 1px solid var(--border);
+    margin-top: 0.75rem;
+    padding-top: 0.65rem;
 }
 
 .eyebrow {
@@ -394,6 +487,9 @@ footer {
     .feature-grid {
         grid-template-columns: 1fr 1fr;
     }
+    .news-card-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 @media (max-width: 640px) {
@@ -409,6 +505,24 @@ footer {
     }
     .method-grid {
         grid-template-columns: 1fr;
+    }
+    .news-card-grid {
+        grid-template-columns: 1fr;
+    }
+    .brand-title {
+        font-size: 1.32rem;
+    }
+    .brand-tagline {
+        letter-spacing: 0.12em;
+        font-size: 0.7rem;
+    }
+    .news-card-meta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .lead-card {
+        min-height: 360px;
+        padding: 1.4rem;
     }
 }
 

@@ -67,11 +67,13 @@ const state = {
     trends: [],
     meta: {},
     sources: [],
+    activeCategory: 'all',
 };
 
 document.addEventListener('DOMContentLoaded', () => {
     renderSkeletons();
     loadData();
+    setupCategoryFilters();
 });
 
 async function loadData() {
@@ -132,6 +134,8 @@ function renderAll() {
     renderLead();
     renderFeatureGrid();
     renderSidebar();
+    renderCategoryPills();
+    renderNewsBoard();
     renderMetaStrip();
     renderTimeline();
     renderSources();
@@ -172,6 +176,7 @@ function renderFeatureGrid() {
             <p class="eyebrow">${trend.category ? trend.category.toUpperCase() : 'AI'}</p>
             <h3><a class="headline-link" href="${trend.link}" target="_blank" rel="noopener">${trend.title}</a></h3>
             <img class="card-image" src="${resolveCardImage(trend)}" alt="${trend.title}" loading="lazy" />
+            <p class="card-summary">${summarize(trend.summary)}</p>
         </article>`
         )
         .join('');
@@ -193,9 +198,64 @@ function renderSidebar() {
             <p class="eyebrow">${trend.category ? trend.category.toUpperCase() : 'AI'}</p>
             <a class="headline-link" href="${trend.link}" target="_blank" rel="noopener">${trend.title}</a>
             <img class="card-image compact" src="${resolveCardImage(trend)}" alt="${trend.title}" loading="lazy" />
+            <p class="card-summary">${summarize(trend.summary, 100)}</p>
         </li>`
         )
         .join('');
+}
+
+function renderCategoryPills() {
+    const container = document.getElementById('category-pills');
+    if (!container) return;
+    const categories = ['all', ...new Set(state.trends.map((item) => item.category).filter(Boolean))];
+    container.innerHTML = categories
+        .map((category) => {
+            const active = state.activeCategory === category ? 'active' : '';
+            const label = category === 'all' ? 'All News' : capitalize(category);
+            return `<button class="category-pill ${active}" data-category="${category}" type="button">${label}</button>`;
+        })
+        .join('');
+}
+
+function renderNewsBoard() {
+    const grid = document.getElementById('news-card-grid');
+    if (!grid) return;
+    const sorted = [...state.trends].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+    const list = state.activeCategory === 'all' ? sorted : sorted.filter((item) => item.category === state.activeCategory);
+    const cards = list.slice(0, 12);
+    if (!cards.length) {
+        grid.innerHTML = '<p>No stories available for this category.</p>';
+        return;
+    }
+    grid.innerHTML = cards
+        .map(
+            (item) => `
+        <article class="news-card">
+            <img class="card-image board-image" src="${resolveCardImage(item)}" alt="${item.title}" loading="lazy" />
+            <div class="news-card-body">
+                <p class="eyebrow">${item.category ? item.category.toUpperCase() : 'TECHNOLOGY'}</p>
+                <h4><a class="headline-link" href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h4>
+                <p class="card-summary">${summarize(item.summary, 150)}</p>
+                <div class="news-card-meta">
+                    <span>${formatDate(item.published_at)}</span>
+                    <span>${item.source_count || 1} sources</span>
+                </div>
+            </div>
+        </article>`
+        )
+        .join('');
+}
+
+function setupCategoryFilters() {
+    const container = document.getElementById('category-pills');
+    if (!container) return;
+    container.addEventListener('click', (event) => {
+        const button = event.target.closest('[data-category]');
+        if (!button) return;
+        state.activeCategory = button.dataset.category || 'all';
+        renderCategoryPills();
+        renderNewsBoard();
+    });
 }
 
 function renderMetaStrip() {
@@ -264,6 +324,13 @@ function formatDate(value) {
 
 function capitalize(value = '') {
     return value.charAt(0).toUpperCase() + value.slice(1);
+}
+
+function summarize(value = '', max = 130) {
+    const plain = String(value || '').replace(/<[^>]*>/g, '').trim();
+    if (!plain) return 'Summary unavailable from feed.';
+    if (plain.length <= max) return plain;
+    return `${plain.slice(0, max - 3).trimEnd()}...`;
 }
 
 function buildThumb(trend) {
