@@ -174,7 +174,6 @@ function renderFeatureGrid() {
         .map(
             (trend) => `
         <article class="feature-card">
-            <p class="eyebrow">${trend.category ? trend.category.toUpperCase() : 'AI'}</p>
             <h3><a class="headline-link" href="${trend.link}" target="_blank" rel="noopener">${trend.title}</a></h3>
             <img class="card-image" src="${resolveCardImage(trend)}" alt="${trend.title}" loading="lazy" />
             <p class="card-summary">${summarize(trend.summary)}</p>
@@ -196,7 +195,6 @@ function renderSidebar() {
         .map(
             (trend) => `
         <li>
-            <p class="eyebrow">${trend.category ? trend.category.toUpperCase() : 'AI'}</p>
             <a class="headline-link" href="${trend.link}" target="_blank" rel="noopener">${trend.title}</a>
             <img class="card-image compact" src="${resolveCardImage(trend)}" alt="${trend.title}" loading="lazy" />
             <p class="card-summary">${summarize(trend.summary, 100)}</p>
@@ -234,12 +232,10 @@ function renderNewsBoard() {
         <article class="news-card">
             <img class="card-image board-image" src="${resolveCardImage(item)}" alt="${item.title}" loading="lazy" />
             <div class="news-card-body">
-                <p class="eyebrow">${item.category ? item.category.toUpperCase() : 'TECHNOLOGY'}</p>
                 <h4><a class="headline-link" href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h4>
                 <p class="card-summary">${summarize(item.summary, 150)}</p>
                 <div class="news-card-meta">
                     <span>${formatDate(item.published_at)}</span>
-                    <span>${item.source_count || 1} sources</span>
                 </div>
             </div>
         </article>`
@@ -391,7 +387,7 @@ function renderTimeline() {
             (item) => `
         <article class="timeline-card">
             <h4>${item.title}</h4>
-            <span>${formatTimeAgo(item.published_at)} · ${capitalize(item.category)}</span>
+            <span>${formatTimeAgo(item.published_at)}</span>
         </article>`
         )
         .join('');
@@ -457,14 +453,11 @@ function summarize(value = '', max = 130) {
 }
 
 function buildThumb(trend) {
-    const source = getHostname(trend.link);
-    const label = (trend.category || 'technology').toUpperCase();
     const title = trend.title || 'Snapfacts';
     const summary = trend.summary || 'Live technology signal from Snapfacts RSS monitoring.';
     const theme = pickThumbTheme(trend);
-    const sourceLabel = sanitizeSvgText(source);
-    const titleLines = wrapSvgText(title, 36, 2);
-    const summaryLines = wrapSvgText(summary, 64, 2);
+    const titleLines = wrapSvgText(title, 28, 3, 320);
+    const summaryLines = wrapSvgText(summary, 58, 2, 312);
     const noiseX = 60 + (hashString(`${title}-x`) % 520);
     const noiseY = 80 + (hashString(`${title}-y`) % 180);
     const radius = 58 + (hashString(`${title}-r`) % 36);
@@ -479,13 +472,9 @@ function buildThumb(trend) {
   <rect width="640" height="360" fill="url(#g)"/>
   <rect width="640" height="360" fill="${theme.overlay}" fill-opacity="0.22"/>
   <circle cx="${noiseX}" cy="${noiseY}" r="${radius}" fill="${theme.accent}" fill-opacity="0.2"/>
-  <rect x="18" y="18" width="210" height="36" rx="6" fill="#0d1117" fill-opacity="0.72"/>
-  <text x="32" y="42" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#eaf6ff">${sanitizeSvgText(label)}</text>
-  <rect x="486" y="18" width="136" height="34" rx="6" fill="${theme.accent}" fill-opacity="0.2"/>
-  <text x="498" y="40" font-family="Arial, sans-serif" font-size="14" fill="#f2f8ff">${sanitizeSvgText(theme.tag)}</text>
-  <text x="32" y="280" font-family="Arial, sans-serif" font-size="16" fill="#d6e8f8">${sourceLabel}</text>
-  <text x="32" y="314" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">${titleLines}</text>
-  <text x="32" y="344" font-family="Arial, sans-serif" font-size="14" fill="#deebf7">${summaryLines}</text>
+  <rect x="36" y="88" width="568" height="182" rx="14" fill="#0d1117" fill-opacity="0.34"/>
+  <text x="320" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#ffffff">${titleLines}</text>
+  <text x="320" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#deebf7">${summaryLines}</text>
 </svg>`;
     return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 }
@@ -493,6 +482,10 @@ function buildThumb(trend) {
 function resolveCardImage(trend) {
     if (trend?.image && /^https?:\/\//i.test(trend.image)) {
         return trend.image;
+    }
+    const brandLogo = detectBrandLogo(trend);
+    if (brandLogo) {
+        return buildBrandLogoCard(brandLogo, trend.title || 'Brand update');
     }
     return buildThumb(trend);
 }
@@ -509,7 +502,7 @@ function sanitizeSvgText(value = '') {
     return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 }
 
-function wrapSvgText(value, maxChars, maxLines) {
+function wrapSvgText(value, maxChars, maxLines, startY = 32) {
     const words = String(value).trim().split(/\s+/).filter(Boolean);
     const lines = [];
     let current = '';
@@ -526,7 +519,8 @@ function wrapSvgText(value, maxChars, maxLines) {
     if (lines.length < maxLines && current) lines.push(current);
     const clipped = lines.slice(0, maxLines).map((line, idx, arr) => {
         const trimmed = idx === arr.length - 1 && words.join(' ').length > line.length ? `${line.slice(0, Math.max(line.length - 3, 1))}...` : line;
-        return `<tspan x="32" dy="${idx === 0 ? 0 : 20}">${sanitizeSvgText(trimmed)}</tspan>`;
+        const yAttr = idx === 0 ? ` y="${startY}"` : '';
+        return `<tspan x="320" dy="${idx === 0 ? 0 : 20}"${yAttr}>${sanitizeSvgText(trimmed)}</tspan>`;
     });
     return clipped.join('');
 }
@@ -556,4 +550,43 @@ function pickThumbTheme(trend) {
     if (/\bstartup|funding|raises|venture|seed\b/.test(text)) return themes[5];
     if (/\bai|model|llm|gpt|agent|anthropic|openai|hugging\b/.test(text)) return themes[0];
     return themes[hashString(text) % themes.length];
+}
+
+function detectBrandLogo(trend) {
+    const text = `${trend?.title || ''} ${trend?.summary || ''}`.toLowerCase();
+    const brandMap = [
+        { match: /\bopenai\b/, logo: 'https://logo.clearbit.com/openai.com' },
+        { match: /\banthropic\b/, logo: 'https://logo.clearbit.com/anthropic.com' },
+        { match: /\bnvidia\b/, logo: 'https://logo.clearbit.com/nvidia.com' },
+        { match: /\bmicrosoft\b/, logo: 'https://logo.clearbit.com/microsoft.com' },
+        { match: /\bgoogle\b/, logo: 'https://logo.clearbit.com/google.com' },
+        { match: /\bmeta\b|facebook\b|instagram\b/, logo: 'https://logo.clearbit.com/meta.com' },
+        { match: /\bapple\b/, logo: 'https://logo.clearbit.com/apple.com' },
+        { match: /\bamazon\b/, logo: 'https://logo.clearbit.com/amazon.com' },
+        { match: /\badobe\b/, logo: 'https://logo.clearbit.com/adobe.com' },
+        { match: /\bsalesforce\b/, logo: 'https://logo.clearbit.com/salesforce.com' },
+        { match: /\bcoca-?cola\b/, logo: 'https://logo.clearbit.com/coca-cola.com' },
+        { match: /\bpepsi\b/, logo: 'https://logo.clearbit.com/pepsico.com' },
+        { match: /\btesla\b/, logo: 'https://logo.clearbit.com/tesla.com' },
+    ];
+    const found = brandMap.find((item) => item.match.test(text));
+    return found ? found.logo : null;
+}
+
+function buildBrandLogoCard(logoUrl, title) {
+    const safeTitle = sanitizeSvgText(title || 'Brand signal');
+    const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#g)"/>
+  <rect x="196" y="70" width="248" height="170" rx="16" fill="#ffffff"/>
+  <image href="${logoUrl}" x="230" y="102" width="180" height="106" preserveAspectRatio="xMidYMid meet"/>
+  <text x="320" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e5e7eb">${safeTitle.slice(0, 58)}</text>
+</svg>`;
+    return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 }
