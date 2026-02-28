@@ -1,34 +1,20 @@
 {
-  "generated_at": "2026-02-28T07:54:57.022314+00:00",
-  "sources_scanned": 108,
-  "feeds_polled": 7,
-  "feed_pool": 11,
-  "clusters": 40,
+  "generated_at": "2026-02-28T08:37:14.759916+00:00",
+  "sources_scanned": 148,
+  "feeds_polled": 11,
+  "feed_pool": 15,
+  "continent_counts": {
+    "NA": 148,
+    "SA": 0,
+    "EU": 0,
+    "AF": 0,
+    "AS": 0,
+    "OC": 0,
+    "global": 0
+  },
+  "top_continent": "NA",
+  "clusters": 33,
   "trends": [
-    {
-      "id": "anthropic hits back after us military labels it a supply chain risk",
-      "title": "Anthropic Hits Back After US Military Labels It a \u2018Supply Chain Risk\u2019",
-      "summary": "Anthropic says it would be \u201clegally unsound\u201d for the Pentagon to blacklist its technology after talks over military use of its artificial intelligence models broke down.",
-      "image": "https://media.wired.com/photos/69a23b028618f79c55732aa9/master/pass/Anthropic-Supply-Chain-Risk-Business-2261589216.jpg",
-      "link": "https://www.wired.com/story/anthropic-supply-chain-risk-shockwaves-silicon-valley/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-28T03:30:41+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.443,
-      "signals": {
-        "score": 0.443,
-        "recency": 0.4799491553093627,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
-      }
-    },
     {
       "id": "india disrupts access to popular developer platform supabase with blocking order",
       "title": "India disrupts access to popular developer platform Supabase with blocking order",
@@ -42,13 +28,13 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.3873,
+      "score": 0.3792,
       "signals": {
-        "score": 0.3873,
-        "recency": 0.5090380481003298,
+        "score": 0.3792,
+        "recency": 0.45261184890682893,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.4
       }
     },
@@ -67,35 +53,11 @@
         "game",
         "govern"
       ],
-      "score": 0.368,
+      "score": 0.3688,
       "signals": {
-        "score": 0.368,
-        "recency": 0.025922604716415786,
+        "score": 0.3688,
+        "recency": 0.023049118023620346,
         "keyword_volume": 0.6,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "trump moves to ban anthropic from the us government",
-      "title": "Trump Moves to Ban Anthropic From the US Government",
-      "summary": "President Donald Trump\u2019s sudden order comes after the Defense Department pressured Anthropic to drop restrictions on how its AI can be used by the military.",
-      "image": "https://media.wired.com/photos/69a0a09c6c9d7076f06f28c6/master/pass/Pentagon-Goes-Nuclear-on-Anthropic-Business-2261852583.jpg",
-      "link": "https://www.wired.com/story/trump-moves-to-ban-anthropic-from-the-us-government/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T21:36:31+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "govern"
-      ],
-      "score": 0.3679,
-      "signals": {
-        "score": 0.3679,
-        "recency": 0.17944771345595525,
-        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.82,
         "engagement": 0.6
@@ -115,13 +77,13 @@
         "ai",
         "award"
       ],
-      "score": 0.367,
+      "score": 0.3634,
       "signals": {
-        "score": 0.367,
-        "recency": 0.18195743106014478,
+        "score": 0.3634,
+        "recency": 0.16178768876277957,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.81,
+        "authority": 0.82,
         "engagement": 0.6
       }
     },
@@ -139,13 +101,13 @@
         "ai",
         "bill"
       ],
-      "score": 0.3464,
+      "score": 0.3495,
       "signals": {
-        "score": 0.3464,
-        "recency": 0.10566294311474772,
+        "score": 0.3495,
+        "recency": 0.09395034462075619,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -163,36 +125,13 @@
         "ai",
         "music"
       ],
-      "score": 0.3421,
+      "score": 0.3457,
       "signals": {
-        "score": 0.3421,
-        "recency": 0.0884985110349105,
+        "score": 0.3457,
+        "recency": 0.0786885672976599,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "openai fires employee for using confidential info on prediction markets",
-      "title": "OpenAI fires employee for using confidential info on prediction markets",
-      "summary": "The company said such trades violates its internal company policies about using confidential information for personal gain.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/02/27/openai-fires-employee-for-using-confidential-info-on-prediction-markets/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T23:00:54+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3367,
-      "signals": {
-        "score": 0.3367,
-        "recency": 0.22684841604681644,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -210,13 +149,36 @@
         "ai",
         "bill"
       ],
-      "score": 0.3331,
+      "score": 0.3376,
       "signals": {
-        "score": 0.3331,
-        "recency": 0.052349345304273695,
+        "score": 0.3376,
+        "recency": 0.04654648911933463,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "openai fires employee for using confidential info on prediction markets",
+      "title": "OpenAI fires employee for using confidential info on prediction markets",
+      "summary": "The company said such trades violates its internal company policies about using confidential information for personal gain.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/02/27/openai-fires-employee-for-using-confidential-info-on-prediction-markets/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-02-27T23:00:54+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3364,
+      "signals": {
+        "score": 0.3364,
+        "recency": 0.2017025670118442,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -233,13 +195,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.327,
+      "score": 0.3278,
       "signals": {
-        "score": 0.327,
-        "recency": 0.18797689582715665,
+        "score": 0.3278,
+        "recency": 0.1671399037647705,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -257,37 +219,14 @@
         "music",
         "streaming"
       ],
-      "score": 0.3152,
+      "score": 0.3195,
       "signals": {
-        "score": 0.3152,
-        "recency": 0.06093681936250763,
+        "score": 0.3195,
+        "recency": 0.05418205295477236,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "openai fires an employee for prediction market insider trading",
-      "title": "OpenAI Fires an Employee for Prediction Market Insider Trading",
-      "summary": "Prediction markets like Polymarket and Kalshi are big business, and some Big Tech employees are testing boundaries by making trades based on insider knowledge.",
-      "image": "https://media.wired.com/photos/69a0b01c157af8f83feddf9b/master/pass/OpenAI-Employee-Fired-Insider-Trading-Business-2210029299.jpg",
-      "link": "https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T19:07:28+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3127,
-      "signals": {
-        "score": 0.3127,
-        "recency": 0.11861181447849375,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
       }
     },
     {
@@ -303,13 +242,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3126,
+      "score": 0.315,
       "signals": {
-        "score": 0.3126,
-        "recency": 0.13055335890661607,
+        "score": 0.315,
+        "recency": 0.11608169050670622,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -326,10 +265,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.31,
+      "score": 0.3126,
       "signals": {
-        "score": 0.31,
-        "recency": 0.11980388303215894,
+        "score": 0.3126,
+        "recency": 0.10652377991736173,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "bing adds geo to official guidelines expands ai abuse definitions via sejournal mattgsouthern",
+      "title": "Bing Adds GEO To Official Guidelines, Expands AI Abuse Definitions via @sejournal, @MattGSouthern",
+      "summary": "<p>Bing rewrote its webmaster guidelines to cover Copilot grounding, meta directive controls for AI answers, and a softened stance on AI-generated content. </p>\n<p>The post <a href=\"https://www.searchenginejournal.com/bing-adds-geo-to-official-guidelines-expands-ai-abuse-definitions/568442/\">Bing Adds GEO To Official Guidelines, Expands AI Abuse Definitions</a> appeared first on <a href=\"https://www.searchenginejournal.com\">Search Engine Journal</a>.</p>",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/bing-adds-geo-to-official-guidelines-expands-ai-abuse-definitions/568442/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-02-27T19:51:47+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3098,
+      "signals": {
+        "score": 0.3098,
+        "recency": 0.11927957384067907,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -349,13 +311,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3018,
+      "score": 0.3054,
       "signals": {
-        "score": 0.3018,
-        "recency": 0.08734253562203222,
+        "score": 0.3054,
+        "recency": 0.07766073024134118,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -372,13 +334,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3009,
+      "score": 0.3046,
       "signals": {
-        "score": 0.3009,
-        "recency": 0.08345673217409336,
+        "score": 0.3046,
+        "recency": 0.07420566300300088,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -395,36 +357,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3007,
+      "score": 0.3044,
       "signals": {
-        "score": 0.3007,
-        "recency": 0.08263397475395302,
+        "score": 0.3044,
+        "recency": 0.0734741071624871,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "wall street has ai psychosis",
-      "title": "Wall Street Has AI Psychosis",
-      "summary": "A \u201cthought experiment\u201d about the impacts of AI sent stocks tumbling earlier this week. It\u2019s probably going to keep happening.",
-      "image": "https://media.wired.com/photos/69a099a68b4e433f4999c9c4/master/pass/Backchannel-Wall-Street-Has-AI-Psychosis-Business-2207816119.jpg",
-      "link": "https://www.wired.com/story/wall-street-has-ai-psychosis/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T16:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3006,
-      "signals": {
-        "score": 0.3006,
-        "recency": 0.07046494534695978,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -441,13 +380,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2988,
+      "score": 0.3027,
       "signals": {
-        "score": 0.2988,
-        "recency": 0.07531576166120688,
+        "score": 0.3027,
+        "recency": 0.06696710838123068,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -464,13 +403,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2975,
+      "score": 0.3015,
       "signals": {
-        "score": 0.2975,
-        "recency": 0.069886648072667,
+        "score": 0.3015,
+        "recency": 0.06213980490479208,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -487,13 +426,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2941,
+      "score": 0.2986,
       "signals": {
-        "score": 0.2941,
-        "recency": 0.05652588587844204,
+        "score": 0.2986,
+        "recency": 0.05026006565524053,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -510,81 +449,152 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2925,
+      "score": 0.2928,
       "signals": {
-        "score": 0.2925,
-        "recency": 0.04394299100351917,
+        "score": 0.2928,
+        "recency": 0.0390719681540954,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.81,
+        "authority": 0.82,
         "engagement": 0.6
       }
     },
     {
-      "id": "huxe will give you a personalized daily audio summary powered by ai",
-      "title": "Huxe Will Give You a Personalized, Daily Audio Summary Powered by AI",
-      "summary": "The app reads your email inbox and your meeting calendar, then gives you a short audio summary. It can help you spend less time scrolling, but of course, there are privacy drawbacks to consider.",
-      "image": "https://media.wired.com/photos/69a150e9d3084ff8755b5f8e/master/pass/Audio-Summary-Powered-by-AI-Gear-2204531017.jpg",
-      "link": "https://www.wired.com/story/huxe-personalized-daily-audio-podcasts-powered-by-ai/",
-      "category": "technology",
+      "id": "ai is moving faster than customer trust",
+      "title": "AI is moving faster than customer trust",
+      "summary": "<div><img width=\"800\" height=\"427\" src=\"https://martech.org/wp-content/uploads/2025/10/New-MarTech-Charts2-800x427.png\" class=\"attachment-large size-large wp-post-image\" alt=\"\" style=\"margin-bottom: 15px;\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://martech.org/wp-content/uploads/2025/10/New-MarTech-Charts2-800x427.png 800w, https://martech.org/wp-content/uploads/2025/10/New-MarTech-Charts2-600x320.png 600w, https://martech.org/wp-content/uploads/2025/10/New-MarTech-Charts2-200x107.png 200w, https://martech.org/wp-content/uploads/2025/10/New-MarTech-Charts2-768x410.png 768w, https://martech.org/wp-content/uploads/2025/10/New-MarTech-Charts2-1536x819.png 1536w, https://martech.org/wp-content/uploads/2025/10/New-MarTech-Charts2.png 1920w\" sizes=\"(max-width: 800px) 100vw, 800px\" /></div>\n<p>Marketers are racing ahead with AI, but unless brands close the trust gap, customers may never fully embrace AI-powered engagement.</p>\n<p>The post <a href=\"https://martech.org/ai-is-moving-faster-than-customer-trust/\">AI is moving faster than customer trust</a> appeared first on <a href=\"https://martech.org\">MarTech</a>.</p>",
+      "image": "https://martech.org/wp-content/uploads/2026/02/Screenshot-2026-02-27-at-9.26.17-AM.png",
+      "link": "https://martech.org/ai-is-moving-faster-than-customer-trust/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-02-27T15:09:15+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2906,
+      "signals": {
+        "score": 0.2906,
+        "recency": 0.05441583972368625,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "googles discover core update finishes rolling out via sejournal mattgsouthern",
+      "title": "Google\u2019s Discover Core Update Finishes Rolling Out via @sejournal, @MattGSouthern",
+      "summary": "<p>Google's February Discover core update is complete after a roughly 22-day rollout. Early data suggests fewer domains in top slots. </p>\n<p>The post <a href=\"https://www.searchenginejournal.com/googles-discover-core-update-finishes-rolling-out/568413/\">Google&#8217;s Discover Core Update Finishes Rolling Out</a> appeared first on <a href=\"https://www.searchenginejournal.com\">Search Engine Journal</a>.</p>",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/googles-discover-core-update-finishes-rolling-out/568413/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-02-27T13:25:15+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2902,
+      "signals": {
+        "score": 0.2902,
+        "recency": 0.0407626570527814,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "discover core update data sitemap tips ai risks seo pulse via sejournal mattgsouthern",
+      "title": "Discover Core Update Data, Sitemap Tips & AI Risks \u2013 SEO Pulse via @sejournal, @MattGSouthern",
+      "summary": "<p>This week's SEO Pulse highlights evolving AI link formats, cross-language sourcing biases in ChatGPT, and mounting pressure on traditional organic traffic.</p>\n<p>The post <a href=\"https://www.searchenginejournal.com/seo-pulse-discover-core-update-data-sitemap-tips-ai-risks/568299/\">Discover Core Update Data, Sitemap Tips &#038; AI Risks \u2013 SEO Pulse</a> appeared first on <a href=\"https://www.searchenginejournal.com\">Search Engine Journal</a>.</p>",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/seo-pulse-discover-core-update-data-sitemap-tips-ai-risks/568299/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-02-27T13:00:40+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2895,
+      "signals": {
+        "score": 0.2895,
+        "recency": 0.03807200963702538,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "what gets b2b brands cited in genai answers",
+      "title": "What gets B2B brands cited in genAI answers",
+      "summary": "<div><img width=\"800\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/02/clear-path-through-a-maze--800x450.png\" class=\"attachment-large size-large wp-post-image\" alt=\"a narrow, intricate maze in the foreground made of tall, gray walls, symbolizing complexity and constraint. The maze gradually opens toward the background into a wide, sunlit open field with a clear horizon and expansive sky, representing freedom and new possibilities.\" style=\"margin-bottom: 15px;\" decoding=\"async\" loading=\"lazy\" srcset=\"https://martech.org/wp-content/uploads/2026/02/clear-path-through-a-maze--800x450.png 800w, https://martech.org/wp-content/uploads/2026/02/clear-path-through-a-maze--600x338.png 600w, https://martech.org/wp-content/uploads/2026/02/clear-path-through-a-maze--200x113.png 200w, https://martech.org/wp-content/uploads/2026/02/clear-path-through-a-maze--768x432.png 768w, https://martech.org/wp-content/uploads/2026/02/clear-path-through-a-maze-.png 1920w\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" /></div>\n<p>A study of 1,000+ prompts across four AI engines reveals what drives B2B brand visibility in generative AI answers \u2014 and where common GEO advice falls short.</p>\n<p>The post <a href=\"https://martech.org/what-gets-b2b-brands-cited-in-genai-answers/\">What gets B2B brands cited in genAI answers</a> appeared first on <a href=\"https://martech.org\">MarTech</a>.</p>",
+      "image": "https://www.youtube.com/embed/lR3_RS9AgPM",
+      "link": "https://martech.org/what-gets-b2b-brands-cited-in-genai-answers/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-02-27T14:03:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2883,
+      "signals": {
+        "score": 0.2883,
+        "recency": 0.04526922786541132,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "how to architect ai agents in your martech stack",
+      "title": "How to architect AI agents in your martech stack",
+      "summary": "<div><img width=\"800\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2025/07/AI-chatbot-robot-hand-concept-800x450.png\" class=\"attachment-large size-large wp-post-image\" alt=\"AI chatbot, robot hand concept\" style=\"margin-bottom: 15px;\" decoding=\"async\" loading=\"lazy\" srcset=\"https://martech.org/wp-content/uploads/2025/07/AI-chatbot-robot-hand-concept-800x450.png 800w, https://martech.org/wp-content/uploads/2025/07/AI-chatbot-robot-hand-concept-600x338.png 600w, https://martech.org/wp-content/uploads/2025/07/AI-chatbot-robot-hand-concept-200x113.png 200w, https://martech.org/wp-content/uploads/2025/07/AI-chatbot-robot-hand-concept-768x432.png 768w, https://martech.org/wp-content/uploads/2025/07/AI-chatbot-robot-hand-concept-1536x864.png 1536w, https://martech.org/wp-content/uploads/2025/07/AI-chatbot-robot-hand-concept.png 1920w\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" /></div>\n<p>AI agents introduce probabilistic decision-making into deterministic stacks. Define intent, enforce guardrails and architect agents that scale.</p>\n<p>The post <a href=\"https://martech.org/how-to-architect-ai-agents-in-your-martech-stack/\">How to architect AI agents in your martech stack</a> appeared first on <a href=\"https://martech.org\">MarTech</a>.</p>",
+      "image": "https://www.youtube.com/embed/I7Qv007VREQ",
+      "link": "https://martech.org/how-to-architect-ai-agents-in-your-martech-stack/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-02-27T13:49:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2879,
+      "signals": {
+        "score": 0.2879,
+        "recency": 0.04354254979438484,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "the data doppelgnger problem by atdata",
+      "title": "The Data Doppelg\u00e4nger problem by AtData",
+      "summary": "<div><img width=\"800\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/02/AtData-Feature-20260227-800x450.jpg\" class=\"attachment-large size-large wp-post-image\" alt=\"\" style=\"margin-bottom: 15px;\" decoding=\"async\" loading=\"lazy\" srcset=\"https://martech.org/wp-content/uploads/2026/02/AtData-Feature-20260227-800x450.jpg 800w, https://martech.org/wp-content/uploads/2026/02/AtData-Feature-20260227-600x338.jpg 600w, https://martech.org/wp-content/uploads/2026/02/AtData-Feature-20260227-200x113.jpg 200w, https://martech.org/wp-content/uploads/2026/02/AtData-Feature-20260227-768x432.jpg 768w, https://martech.org/wp-content/uploads/2026/02/AtData-Feature-20260227-1536x864.jpg 1536w, https://martech.org/wp-content/uploads/2026/02/AtData-Feature-20260227.jpg 1920w\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" /></div>\n<p>AI agents, shared signals and fragmented identities are distorting marketing intelligence. Most brands do not know who is really acting.</p>\n<p>The post <a href=\"https://martech.org/the-data-doppelganger-problem/\">The Data Doppelg\u00e4nger problem</a> appeared first on <a href=\"https://martech.org\">MarTech</a>.</p>",
+      "image": "https://martech.org/wp-content/uploads/2026/02/AtData-Feature-20260227-800x450.jpg",
+      "link": "https://martech.org/the-data-doppelganger-problem/",
+      "category": "digital-media",
       "geo": "global",
       "published_at": "2026-02-27T12:00:00+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.292,
+      "score": 0.285,
       "signals": {
-        "score": 0.292,
-        "recency": 0.03617790923282514,
+        "score": 0.285,
+        "recency": 0.03216763550104029,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.82,
+        "authority": 0.78,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "best red light therapy for hair growth wiredapproved 2026",
-      "title": "Best Red Light Therapy for Hair Growth: WIRED-Approved (2026)",
-      "summary": "After 16 weeks of daily use, our WIRED testers saw visible hair regrowth with these red light therapy devices.",
-      "image": "https://media.wired.com/photos/69a0e86e431f212380560c42/master/pass/The%20Best%20Red%20Light%20Therapy%20for%20Hair%20Growth.png",
-      "link": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T10:30:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.29,
-      "signals": {
-        "score": 0.29,
-        "recency": 0.02817538404041043,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "18 best wireless chargers all tested and reviewed 2026",
-      "title": "18 Best Wireless Chargers, All Tested and Reviewed (2026)",
-      "summary": "Stop fumbling for cables in the dark. These WIRED-tested stands and pads will take the hassle out of refueling your phone, wireless earbuds, and watch.",
-      "image": "https://media.wired.com/photos/685f6984f3c91f1a1ba5e76a/master/pass/The%20Best%20Wireless%20Chargers%20to%20Refuel%20Your%20Phone.png",
-      "link": "https://www.wired.com/gallery/best-wireless-chargers/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T23:51:20+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2882,
-      "signals": {
-        "score": 0.2882,
-        "recency": 0.26096195131592714,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
       }
     },
     {
@@ -600,120 +610,36 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.2726,
+      "score": 0.2772,
       "signals": {
-        "score": 0.2726,
-        "recency": 0.050490339638967534,
+        "score": 0.2772,
+        "recency": 0.04489355179089223,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.4
       }
     },
     {
-      "id": "these deals can have you zipping around on a new escooter this spring",
-      "title": "These Deals Can Have You Zipping Around on a New E-Scooter This Spring",
-      "summary": "With spring just around the corner, now's the smart time to snag an electric scooter.",
-      "image": "https://media.wired.com/photos/69a20ae5eb0d16f48f12ac6f/master/pass/Our%20Favorite%20Electric%20Scooters%20Just%20Dropped%20in%20Price.png",
-      "link": "https://www.wired.com/story/electric-scooters-spring-deals-2026/",
-      "category": "technology",
+      "id": "mobile marketing with rcs what you need to know",
+      "title": "Mobile marketing with RCS: What you need to know",
+      "summary": "<div><img width=\"800\" height=\"448\" src=\"https://martech.org/wp-content/uploads/2025/11/WYNTK-personalize-this-content-NEW.png\" class=\"attachment-large size-large wp-post-image\" alt=\"\" style=\"margin-bottom: 15px;\" decoding=\"async\" loading=\"lazy\" srcset=\"https://martech.org/wp-content/uploads/2025/11/WYNTK-personalize-this-content-NEW.png 1920w, https://martech.org/wp-content/uploads/2025/11/WYNTK-personalize-this-content-NEW-600x336.png 600w\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" /></div>\n<p>RCS is a game changer for mobile marketing. Updated with news that Apple and Google are testing cross-platform RCS encryption.</p>\n<p>The post <a href=\"https://martech.org/mobile-marketing-with-rcs-what-you-need-to-know/\">Mobile marketing with RCS: What you need to know</a> appeared first on <a href=\"https://martech.org\">MarTech</a>.</p>",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/mobile-marketing-with-rcs-what-you-need-to-know/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-02-27T21:55:44+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2703,
-      "signals": {
-        "score": 0.2703,
-        "recency": 0.18928683406939817,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "data broker breaches fueled nearly 21 billion in identitytheft losses",
-      "title": "Data Broker Breaches Fueled Nearly $21 Billion in Identity-Theft Losses",
-      "summary": "A report copublished by WIRED sparked a probe into opt-out pages hidden by data brokers. Now congressional Democrats say breaches tied to the industry have cost people tens of billions of dollars.",
-      "image": "https://media.wired.com/photos/699f3b7fc95722828c3f077b/master/pass/Data-Brokers-Stop-Hiding-Opt-Out-Pages-From-Google-After-US-Senators-Probe-Security-2245425437.jpg",
-      "link": "https://www.wired.com/story/data-broker-breaches-fueled-dollar209-billion-in-identity-theft-losses/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T10:00:00+00:00",
+      "published_at": "2026-02-27T14:22:43+00:00",
       "source_count": 1,
       "keywords": [
-        "bill"
+        "game"
       ],
-      "score": 0.2695,
+      "score": 0.269,
       "signals": {
-        "score": 0.2695,
-        "recency": 0.025922604716415786,
+        "score": 0.269,
+        "recency": 0.047817707639778044,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "the best roku is 20 off",
-      "title": "The Best Roku Is $20 Off",
-      "summary": "The Roku Ultra isn\u2019t just speedier, it also offers some advanced features that some viewers will find really handy.",
-      "image": "https://media.wired.com/photos/69a1fdf1067f37c7d49f5276/master/pass/Our%20Favorite%20Upgraded%20Roku%20Is%20$20%20Off.png",
-      "link": "https://www.wired.com/story/roku-ultra-deal-226/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T20:38:58+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2612,
-      "signals": {
-        "score": 0.2612,
-        "recency": 0.15293649417041297,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "whats an ebike california wants you to know",
-      "title": "What's an E-Bike? California Wants You to Know",
-      "summary": "Cities want to stop kids from getting hurt. A lawmaker thinks warning them away from legal gray-area \u201ce-motos\u201d could help.",
-      "image": "https://media.wired.com/photos/69a15254557a18dd5b8f3939/master/pass/What-Is-An-Ebike-Gear-2242247597.jpg",
-      "link": "https://www.wired.com/story/what-is-an-e-bike-california-might-find-out/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T19:39:15+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2554,
-      "signals": {
-        "score": 0.2554,
-        "recency": 0.1295598756888386,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "everything larry and david ellison will control if paramount buys warner bros",
-      "title": "Everything Larry and David Ellison Will Control If Paramount Buys Warner Bros.",
-      "summary": "Paramount Skydance\u2019s sprawling media empire will get a major boost if the deal is approved.",
-      "image": "https://media.wired.com/photos/69a1b6d718bfb5f977127149/master/pass/cul-elison-2197466221.jpg",
-      "link": "https://www.wired.com/story/everything-the-ellison-family-will-control-if-paramount-acquires-warner-brothers-discovery/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T19:01:01+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2521,
-      "signals": {
-        "score": 0.2521,
-        "recency": 0.11650561055444611,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
+        "authority": 0.78,
         "engagement": 0.4
       }
     },
@@ -728,76 +654,34 @@
       "published_at": "2026-02-27T15:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2349,
+      "score": 0.2393,
       "signals": {
-        "score": 0.2349,
-        "recency": 0.05964728848161737,
+        "score": 0.2393,
+        "recency": 0.0530354648786937,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.4
       }
     },
     {
-      "id": "aventon soltera 3 electric bike review a fun hybrid singlespeed",
-      "title": "Aventon Soltera 3 Electric Bike Review: A Fun Hybrid Single-Speed",
-      "summary": "Aventon\u2019s latest single-speed hybrid bicycle is light, looks cool, and is the most bikey electric bike on the market right now.",
-      "image": "https://media.wired.com/photos/69a0f4daba007c75c32383f5/master/pass/Review-%20Aventon%20Soltera%203%20Electric%20Bike.png",
-      "link": "https://www.wired.com/review/aventon-soltera-3-electric-bike/",
-      "category": "technology",
+      "id": "feeding a dsp with shopper data",
+      "title": "Feeding A DSP With Shopper Data",
+      "summary": "<p>The strategic value of commerce data continues to rise, as Infillion snaps up Catalina. Then, a court filing reveals where agencies spend clients\u2019 money.</p>\n<p>The post <a href=\"https://www.adexchanger.com/the-big-story/feeding-a-dsp-with-shopper-data/\" data-wpel-link=\"internal\">Feeding A DSP With Shopper Data</a> appeared first on <a href=\"https://www.adexchanger.com\" data-wpel-link=\"internal\">AdExchanger</a>.</p>",
+      "image": null,
+      "link": "https://www.adexchanger.com/the-big-story/feeding-a-dsp-with-shopper-data/",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-02-27T12:30:00+00:00",
+      "published_at": "2026-02-27T16:55:35+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2328,
+      "score": 0.2368,
       "signals": {
-        "score": 0.2328,
-        "recency": 0.03932191604836911,
+        "score": 0.2368,
+        "recency": 0.07311442306479309,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "aktiia hilo blood pressure monitor review cuffless bp tracking",
-      "title": "Aktiia Hilo Blood Pressure Monitor Review: Cuffless BP Tracking",
-      "summary": "The Aktiia Hilo Blood Pressure Monitor is the first cuffless monitor to be cleared by the FDA. It\u2019s discreet, highly accurate, and simple to use",
-      "image": "https://media.wired.com/photos/69a100fe53be4bd703cea79b/master/pass/IMG_0121.JPG",
-      "link": "https://www.wired.com/review/aktiia-hilo-blood-pressure-monitor/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T12:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.232,
-      "signals": {
-        "score": 0.232,
-        "recency": 0.03617790923282514,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "love is blind embraces the manosphere",
-      "title": "\u2018Love Is Blind\u2019 Embraces the Manosphere",
-      "summary": "A show that started as an earnest if messy quest for love is now simply a mirror to the hell of modern dating.",
-      "image": "https://media.wired.com/photos/699c9ca53a4e2481eedc1ee2/master/pass/Love-Is-Blind-Embraces-Its-Redpill%20Era-Culture-S10_E6_00_06_33_21R.jpg",
-      "link": "https://www.wired.com/story/love-is-blind-embraces-the-manosphere/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T11:30:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2313,
-      "signals": {
-        "score": 0.2313,
-        "recency": 0.033285283322627396,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
+        "authority": 0.79,
         "engagement": 0.4
       }
     },
@@ -812,76 +696,13 @@
       "published_at": "2026-02-27T13:12:40+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2311,
+      "score": 0.2358,
       "signals": {
-        "score": 0.2311,
-        "recency": 0.04426970319184268,
+        "score": 0.2358,
+        "recency": 0.039362464725362235,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "tin can is a dumb phone for kids can someone teach them how to use it",
-      "title": "Tin Can Is a Dumb Phone for Kids. Can Someone Teach Them How to Use It?",
-      "summary": "With its twirly cord and landline-like features, the Tin Can is giving kids a crash course in phone etiquette. For example: Talk!",
-      "image": "https://media.wired.com/photos/699517b9baf659aa25171151/master/pass/WIRED_TinCan_PrintFinal%20(1).jpg",
-      "link": "https://www.wired.com/story/tin-can-is-a-dumb-phone-for-kids-can-someone-teach-them-how-to-use-it/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T11:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2307,
-      "signals": {
-        "score": 0.2307,
-        "recency": 0.030623939010337903,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "6 great power bank deals for your thirsty phone battery",
-      "title": "6 Great Power Bank Deals for Your Thirsty Phone Battery",
-      "summary": "We\u2019ve tested dozens of portable power banks, and several of our top picks are on sale right now.",
-      "image": "https://media.wired.com/photos/69a0e616d3084ff8755b555c/master/pass/Our%20Favorite%20Power%20Banks%20Are%20Discounted.png",
-      "link": "https://www.wired.com/story/power-bank-deals-february-2026/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T09:36:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2291,
-      "signals": {
-        "score": 0.2291,
-        "recency": 0.024250777782420522,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "preorder googles newest phone and get a free 100 gift card",
-      "title": "Preorder Google\u2019s Newest Phone and Get a Free $100 Gift Card",
-      "summary": "If you\u2019re planning on upgrading to the newest midrange Pixel phone, this deal is worth your while.",
-      "image": "https://media.wired.com/photos/69a09a819c841fa3ea520edd/master/pass/Google%20Pixel%2010a%20SOURCE%20Julian%20Chokkattu.jpg",
-      "link": "https://www.wired.com/story/google-pixel-10a-gift-card-february-2026/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-02-27T09:08:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2286,
-      "signals": {
-        "score": 0.2286,
-        "recency": 0.02243609200903909,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
+        "authority": 0.84,
         "engagement": 0.4
       }
     },
@@ -896,13 +717,55 @@
       "published_at": "2026-02-27T11:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2277,
+      "score": 0.2328,
       "signals": {
-        "score": 0.2277,
-        "recency": 0.030623939010337903,
+        "score": 0.2328,
+        "recency": 0.02722931558457314,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "googles asset guidance ad scheduling updates microsoft negatives ppc pulse via sejournal brookeosmundson",
+      "title": "Google\u2019s Asset Guidance & Ad Scheduling Updates, Microsoft Negatives \u2013 PPC Pulse via @sejournal, @brookeosmundson",
+      "summary": "<p>This week's PPC Pulse recaps Google\u2019s evolving Search asset guidance, revised budget pacing behavior, and Microsoft\u2019s rollout of self-serve negative lists for PMax.</p>\n<p>The post <a href=\"https://www.searchenginejournal.com/ppc-pulse-googles-asset-guidance-ad-scheduling-updates-microsoft-negatives/568271/\">Google&#8217;s Asset Guidance &#038; Ad Scheduling Updates, Microsoft Negatives \u2013 PPC Pulse</a> appeared first on <a href=\"https://www.searchenginejournal.com\">Search Engine Journal</a>.</p>",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/ppc-pulse-googles-asset-guidance-ad-scheduling-updates-microsoft-negatives/568271/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-02-27T12:00:13+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.228,
+      "signals": {
+        "score": 0.228,
+        "recency": 0.03218700147917663,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "how to tell if your cdp is really realtime",
+      "title": "How to tell if your CDP is really real-time",
+      "summary": "<div><img width=\"800\" height=\"533\" src=\"https://martech.org/wp-content/uploads/2026/02/real-time-cdp-data-image2-800x533.png\" class=\"attachment-large size-large wp-post-image\" alt=\"A stopwatch with a bulls-eye is the target for real-time data.\" style=\"margin-bottom: 15px;\" decoding=\"async\" loading=\"lazy\" srcset=\"https://martech.org/wp-content/uploads/2026/02/real-time-cdp-data-image2-800x533.png 800w, https://martech.org/wp-content/uploads/2026/02/real-time-cdp-data-image2-507x338.png 507w, https://martech.org/wp-content/uploads/2026/02/real-time-cdp-data-image2-170x113.png 170w, https://martech.org/wp-content/uploads/2026/02/real-time-cdp-data-image2-768x512.png 768w, https://martech.org/wp-content/uploads/2026/02/real-time-cdp-data-image2.png 1536w\" sizes=\"auto, (max-width: 800px) 100vw, 800px\" /></div>\n<p>Every vendor says they do real-time updates; here's a real-world method to distinguish between platforms. </p>\n<p>The post <a href=\"https://martech.org/how-to-tell-if-your-cdp-is-really-real-time/\">How to tell if your CDP is really real-time</a> appeared first on <a href=\"https://martech.org\">MarTech</a>.</p>",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/how-to-tell-if-your-cdp-is-really-real-time/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-02-27T13:37:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2275,
+      "signals": {
+        "score": 0.2275,
+        "recency": 0.042115055217168476,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.78,
         "engagement": 0.4
       }
     }
