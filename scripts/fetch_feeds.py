@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+from urllib.parse import urlparse, parse_qs
 from xml.etree import ElementTree as ET
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -208,7 +209,25 @@ def _extract_image(node: ET.Element, summary: Optional[str], ns: Dict[str, str])
 def _looks_like_image(url: Optional[str]) -> bool:
     if not url:
         return False
-    return bool(re.search(r"\.(jpg|jpeg|png|webp|gif|avif)(\?|$)", url, re.IGNORECASE)) or url.startswith("http")
+    parsed = urlparse(url)
+    if parsed.scheme not in {"http", "https"}:
+        return False
+
+    path = parsed.path or ""
+    if re.search(r"\.(jpg|jpeg|png|webp|gif|avif)(\?|$)", path, re.IGNORECASE):
+        return True
+
+    query = parse_qs(parsed.query)
+    for key in ("format", "fm", "ext", "type"):
+        value = (query.get(key) or [""])[0].lower()
+        if value in {"jpg", "jpeg", "png", "webp", "gif", "avif", "image"}:
+            return True
+
+    # Allow common image delivery path patterns even without extensions.
+    if re.search(r"/(image|images|img|photo|photos|media)/", path, re.IGNORECASE):
+        return True
+
+    return False
 
 
 def _parse_date(value: Optional[str]) -> Optional[datetime]:

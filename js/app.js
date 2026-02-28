@@ -483,10 +483,6 @@ function resolveCardImage(trend) {
     if (trend?.image && /^https?:\/\//i.test(trend.image)) {
         return trend.image;
     }
-    const brandLogo = detectBrandLogo(trend);
-    if (brandLogo) {
-        return buildBrandLogoCard(brandLogo, trend.title || 'Brand update');
-    }
     return buildThumb(trend);
 }
 
@@ -550,43 +546,4 @@ function pickThumbTheme(trend) {
     if (/\bstartup|funding|raises|venture|seed\b/.test(text)) return themes[5];
     if (/\bai|model|llm|gpt|agent|anthropic|openai|hugging\b/.test(text)) return themes[0];
     return themes[hashString(text) % themes.length];
-}
-
-function detectBrandLogo(trend) {
-    const text = `${trend?.title || ''} ${trend?.summary || ''}`.toLowerCase();
-    const brandMap = [
-        { match: /\bopenai\b/, logo: 'https://logo.clearbit.com/openai.com' },
-        { match: /\banthropic\b/, logo: 'https://logo.clearbit.com/anthropic.com' },
-        { match: /\bnvidia\b/, logo: 'https://logo.clearbit.com/nvidia.com' },
-        { match: /\bmicrosoft\b/, logo: 'https://logo.clearbit.com/microsoft.com' },
-        { match: /\bgoogle\b/, logo: 'https://logo.clearbit.com/google.com' },
-        { match: /\bmeta\b|facebook\b|instagram\b/, logo: 'https://logo.clearbit.com/meta.com' },
-        { match: /\bapple\b/, logo: 'https://logo.clearbit.com/apple.com' },
-        { match: /\bamazon\b/, logo: 'https://logo.clearbit.com/amazon.com' },
-        { match: /\badobe\b/, logo: 'https://logo.clearbit.com/adobe.com' },
-        { match: /\bsalesforce\b/, logo: 'https://logo.clearbit.com/salesforce.com' },
-        { match: /\bcoca-?cola\b/, logo: 'https://logo.clearbit.com/coca-cola.com' },
-        { match: /\bpepsi\b/, logo: 'https://logo.clearbit.com/pepsico.com' },
-        { match: /\btesla\b/, logo: 'https://logo.clearbit.com/tesla.com' },
-    ];
-    const found = brandMap.find((item) => item.match.test(text));
-    return found ? found.logo : null;
-}
-
-function buildBrandLogoCard(logoUrl, title) {
-    const safeTitle = sanitizeSvgText(title || 'Brand signal');
-    const svg = `
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#1f2937"/>
-    </linearGradient>
-  </defs>
-  <rect width="640" height="360" fill="url(#g)"/>
-  <rect x="196" y="70" width="248" height="170" rx="16" fill="#ffffff"/>
-  <image href="${logoUrl}" x="230" y="102" width="180" height="106" preserveAspectRatio="xMidYMid meet"/>
-  <text x="320" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e5e7eb">${safeTitle.slice(0, 58)}</text>
-</svg>`;
-    return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 }
