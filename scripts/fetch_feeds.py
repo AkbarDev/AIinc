@@ -70,6 +70,7 @@ class FeedSource:
     name: str
     url: str
     category: str
+    continent: str
     geo: str
     authority: float = 0.7
 
@@ -156,6 +157,7 @@ def parse_items(xml_payload: str, source: FeedSource) -> List[Dict[str, str]]:
                 "image": image,
                 "source": source.name,
                 "category": source.category,
+                "continent": source.continent,
                 "geo": source.geo,
                 "authority": source.authority,
             }
@@ -270,6 +272,7 @@ def build_clusters(entries: List[Dict[str, str]]) -> Dict[str, TrendCluster]:
             name=entry["source"],
             url="",
             category=entry["category"],
+            continent=entry.get("continent", "global"),
             geo=entry["geo"],
             authority=entry.get("authority", 0.7),
         )
@@ -306,6 +309,10 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     now_utc = datetime.now(timezone.utc)
     cutoff_utc = None if window_hours is None else now_utc - timedelta(hours=window_hours)
     clusters = build_clusters(entries)
+    continent_counts = defaultdict(int)
+    for entry in entries:
+        continent = entry.get("continent", "global")
+        continent_counts[continent] += 1
     payload = []
     for cluster in clusters.values():
         if cutoff_utc and cluster.published < cutoff_utc:
@@ -328,11 +335,16 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
             }
         )
     payload.sort(key=lambda item: item["score"], reverse=True)
+    ordered_continents = ["NA", "SA", "EU", "AF", "AS", "OC", "global"]
+    normalized_counts = {key: continent_counts.get(key, 0) for key in ordered_continents}
+    top_continent = max(normalized_counts, key=normalized_counts.get) if normalized_counts else "global"
     return {
         "generated_at": now_utc.isoformat(),
         "sources_scanned": len(entries),
         "feeds_polled": feeds_polled,
         "feed_pool": feed_pool,
+        "continent_counts": normalized_counts,
+        "top_continent": top_continent,
         "clusters": len(payload),
         "trends": payload,
     }

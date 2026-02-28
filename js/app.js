@@ -131,6 +131,7 @@ function renderSkeletons() {
 }
 
 function renderAll() {
+    renderBrandRadar();
     renderLead();
     renderFeatureGrid();
     renderSidebar();
@@ -263,6 +264,120 @@ function renderMetaStrip() {
     if (!strip) return;
     strip.querySelectorAll('[data-meta="generated"]').forEach((el) => (el.textContent = formatDate(state.meta.generated_at)));
     strip.querySelectorAll('[data-meta="feeds"]').forEach((el) => (el.textContent = state.sources.length || '10'));
+}
+
+function renderBrandRadar() {
+    const mount = document.getElementById('brand-radar');
+    if (!mount) return;
+    const counts = getContinentCounts();
+    const max = Math.max(...Object.values(counts), 1);
+    const angleMap = { NA: -160, SA: 138, EU: -62, AF: 52, AS: 2, OC: 94, global: -20 };
+    const nodeBase = [
+        { key: 'NA', color: '#f97316' },
+        { key: 'SA', color: '#ec4899' },
+        { key: 'EU', color: '#facc15' },
+        { key: 'AF', color: '#22c55e' },
+        { key: 'AS', color: '#38bdf8' },
+        { key: 'OC', color: '#a78bfa' },
+    ];
+    const top = state.meta.top_continent || 'global';
+    const topColor = nodeBase.find((node) => node.key === top)?.color || '#38bdf8';
+    const orbitBase = 58;
+    const nodes = nodeBase.map((node) => {
+        const angle = angleMap[node.key];
+        const rad = (angle * Math.PI) / 180;
+        const ratio = max > 0 ? counts[node.key] / max : 0;
+        const orbit = orbitBase + ratio * 8;
+        const x = Number((Math.cos(rad) * orbit).toFixed(2));
+        const y = Number((Math.sin(rad) * orbit).toFixed(2));
+        const size = Number((3.9 + ratio * 4.6).toFixed(2));
+        return { ...node, angle, x, y, size, value: counts[node.key], ratio, rad };
+    });
+    const wirePoints = nodes.map((node) => `${node.x},${node.y}`).join(' ');
+    const outerNodes = nodes
+        .flatMap((node) => {
+            const spread = 0.15;
+            const satellites = [
+                { angle: node.rad - spread, dist: 14 },
+                { angle: node.rad + spread, dist: 14 },
+            ].map((sat) => {
+                const sx = Number((node.x + Math.cos(sat.angle) * sat.dist).toFixed(2));
+                const sy = Number((node.y + Math.sin(sat.angle) * sat.dist).toFixed(2));
+                return {
+                    x: sx,
+                    y: sy,
+                    r: Number(Math.max(node.size - 2, 2.2).toFixed(2)),
+                    color: node.color,
+                    cls: pulseClass(node.value, max),
+                    parentX: node.x,
+                    parentY: node.y,
+                };
+            });
+            return [
+                { x: node.x, y: node.y, r: node.size, color: node.color, cls: pulseClass(node.value, max), parentX: null, parentY: null },
+                ...satellites,
+            ];
+        })
+        .map(
+            (item) =>
+                `${item.parentX !== null ? `<line x1="${item.parentX}" y1="${item.parentY}" x2="${item.x}" y2="${item.y}" class="line-strike"/>` : ''}<circle cx="${item.x}" cy="${item.y}" r="${item.r}" fill="${item.color}" class="${item.cls}"/>`
+        )
+        .join('');
+    const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 220 220" role="img" aria-label="Live global feed radar">
+  <style>
+    .wire { stroke: #94a3b8; stroke-opacity: 0.52; stroke-width: 2; fill: none; }
+    .wire-core { stroke: #cbd5e1; stroke-opacity: 0.35; stroke-width: 1.1; fill: none; }
+    .line-strike { stroke: #9ca3af; stroke-opacity: 0.55; stroke-width: 1.1; }
+    .pulse-high { animation: pulseHigh 2.1s ease-in-out infinite; transform-origin: center; }
+    .pulse-med { animation: pulseMed 2.8s ease-in-out infinite; transform-origin: center; }
+    .pulse-low { animation: pulseLow 3.4s ease-in-out infinite; transform-origin: center; }
+    @keyframes pulseHigh { 0%,100% { transform: scale(1); opacity: 0.96; } 50% { transform: scale(1.2); opacity: 0.66; } }
+    @keyframes pulseMed { 0%,100% { transform: scale(1); opacity: 0.94; } 50% { transform: scale(1.12); opacity: 0.7; } }
+    @keyframes pulseLow { 0%,100% { transform: scale(1); opacity: 0.9; } 50% { transform: scale(1.08); opacity: 0.72; } }
+  </style>
+  <g transform="translate(110 108)">
+    <polyline points="${wirePoints}" class="wire"/>
+    <polyline points="${wirePoints}" class="wire-core"/>
+    ${outerNodes}
+    <circle cx="0" cy="0" r="31" fill="#071226" fill-opacity="0.78" stroke="${topColor}" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="0" y="7" text-anchor="middle" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#e5e7eb">AI</text>
+    <text x="0" y="24" text-anchor="middle" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="7.2" font-weight="700" fill="#cbd5e1" letter-spacing="1.4">SNAPFACTS</text>
+  </g>
+</svg>`;
+    mount.innerHTML = svg;
+}
+
+function getContinentCounts() {
+    if (state.meta.continent_counts) {
+        return {
+            NA: state.meta.continent_counts.NA || 0,
+            SA: state.meta.continent_counts.SA || 0,
+            EU: state.meta.continent_counts.EU || 0,
+            AF: state.meta.continent_counts.AF || 0,
+            AS: state.meta.continent_counts.AS || 0,
+            OC: state.meta.continent_counts.OC || 0,
+        };
+    }
+    const counts = { NA: 0, SA: 0, EU: 0, AF: 0, AS: 0, OC: 0 };
+    state.sources.forEach((src) => {
+        if (counts[src.continent] !== undefined) counts[src.continent] += 1;
+    });
+    if (!Object.values(counts).some(Boolean)) counts.NA = 1;
+    return counts;
+}
+
+function dotRadius(value, max) {
+    if (max <= 0) return 3.9;
+    return Number((3.9 + (value / max) * 4.6).toFixed(2));
+}
+
+function pulseClass(value, max) {
+    if (max <= 0) return 'pulse-low';
+    const ratio = value / max;
+    if (ratio >= 0.75) return 'pulse-high';
+    if (ratio >= 0.4) return 'pulse-med';
+    return 'pulse-low';
 }
 
 function renderTimeline() {

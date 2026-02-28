@@ -1,8 +1,41 @@
 [
   {
-    "name": "The Verge",
-    "url": "https://www.theverge.com/rss/index.xml",
-    "category": "technology",
+    "name": "OpenAI Blog",
+    "url": "https://openai.com/blog/rss",
+    "category": "ai",
+    "continent": "NA",
+    "geo": "global",
+    "authority": 0.86
+  },
+  {
+    "name": "Anthropic News",
+    "url": "https://www.anthropic.com/news/rss.xml",
+    "category": "ai",
+    "continent": "NA",
+    "geo": "global",
+    "authority": 0.82
+  },
+  {
+    "name": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/feed/",
+    "category": "ai",
+    "continent": "NA",
+    "geo": "global",
+    "authority": 0.84
+  },
+  {
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/feed",
+    "category": "ai",
+    "continent": "EU",
+    "geo": "global",
+    "authority": 0.79
+  },
+  {
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/feed/",
+    "category": "ai",
+    "continent": "NA",
     "geo": "global",
     "authority": 0.82
   },
@@ -10,70 +43,80 @@
     "name": "TechCrunch",
     "url": "https://techcrunch.com/feed/",
     "category": "technology",
+    "continent": "NA",
     "geo": "global",
-    "authority": 0.8
+    "authority": 0.84
+  },
+  {
+    "name": "The Verge",
+    "url": "https://www.theverge.com/rss/index.xml",
+    "category": "technology",
+    "continent": "NA",
+    "geo": "global",
+    "authority": 0.84
   },
   {
     "name": "MIT Technology Review",
     "url": "https://www.technologyreview.com/feed/",
     "category": "technology",
-    "geo": "global",
-    "authority": 0.81
-  },
-  {
-    "name": "Wired",
-    "url": "https://www.wired.com/feed/rss",
-    "category": "technology",
+    "continent": "NA",
     "geo": "global",
     "authority": 0.82
   },
   {
-    "name": "Google AI Blog",
-    "url": "https://ai.googleblog.com/feeds/posts/default",
-    "category": "technology",
-    "geo": "global",
-    "authority": 0.78
-  },
-  {
-    "name": "Microsoft Research Blog",
-    "url": "https://www.microsoft.com/en-us/research/feed/",
-    "category": "technology",
-    "geo": "global",
-    "authority": 0.78
-  },
-  {
-    "name": "OpenAI Blog",
-    "url": "https://openai.com/blog/rss",
-    "category": "technology",
+    "name": "Search Engine Journal",
+    "url": "https://www.searchenginejournal.com/feed/",
+    "category": "digital-media",
+    "continent": "NA",
     "geo": "global",
     "authority": 0.8
   },
   {
-    "name": "NVIDIA Blog",
-    "url": "https://blogs.nvidia.com/feed/",
-    "category": "technology",
+    "name": "Search Engine Land",
+    "url": "https://searchengineland.com/feed",
+    "category": "digital-media",
+    "continent": "NA",
     "geo": "global",
     "authority": 0.79
   },
   {
-    "name": "Meta Research",
-    "url": "https://research.facebook.com/blog/rss/",
-    "category": "technology",
+    "name": "MarTech",
+    "url": "https://martech.org/feed/",
+    "category": "digital-media",
+    "continent": "NA",
+    "geo": "global",
+    "authority": 0.78
+  },
+  {
+    "name": "Social Media Examiner",
+    "url": "https://www.socialmediaexaminer.com/feed/",
+    "category": "social-media",
+    "continent": "NA",
+    "geo": "global",
+    "authority": 0.79
+  },
+  {
+    "name": "Meta Newsroom",
+    "url": "https://about.fb.com/news/feed/",
+    "category": "social-media",
+    "continent": "NA",
     "geo": "global",
     "authority": 0.77
   },
   {
-    "name": "Anthropic Blog",
-    "url": "https://www.anthropic.com/news/rss.xml",
-    "category": "technology",
+    "name": "Digiday",
+    "url": "https://digiday.com/feed/",
+    "category": "advertising",
+    "continent": "NA",
     "geo": "global",
-    "authority": 0.76
+    "authority": 0.81
   },
   {
-    "name": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/feed",
-    "category": "technology",
+    "name": "AdExchanger",
+    "url": "https://www.adexchanger.com/feed/",
+    "category": "advertising",
+    "continent": "NA",
     "geo": "global",
-    "authority": 0.74
+    "authority": 0.79
   }
 ]
