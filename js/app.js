@@ -442,10 +442,18 @@ function capitalize(value = '') {
 }
 
 function summarize(value = '', max = 130) {
-    const plain = String(value || '').replace(/<[^>]*>/g, '').trim();
+    const plain = String(value || '')
+        .replace(/<[^>]*>/g, '')
+        .replace(/\s*(\.\.\.|…|\[\.\.\.\])\s*$/g, '')
+        .trim();
     if (!plain) return 'Summary unavailable from feed.';
     if (plain.length <= max) return plain;
-    return `${plain.slice(0, max - 3).trimEnd()}...`;
+    const clipped = plain.slice(0, max).trimEnd();
+    const lastSpace = clipped.lastIndexOf(' ');
+    if (lastSpace > Math.floor(max * 0.6)) {
+        return clipped.slice(0, lastSpace).trimEnd();
+    }
+    return clipped;
 }
 
 function buildThumb(trend) {
