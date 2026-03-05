@@ -390,6 +390,7 @@ const VISUAL_SIGNALS = [
 
 function buildHeadlineThemeImage(trend) {
     const headline = String(trend?.title || 'Snapfacts').trim();
+    const artHeadline = compactHeadlineForArt(headline);
     const summary = summarize(trend?.summary || 'Fresh headline from monitored RSS feeds.', 110);
     const text = `${headline} ${summary}`;
     const tags = detectVisualSignals(text).slice(0, 4);
@@ -397,7 +398,7 @@ function buildHeadlineThemeImage(trend) {
     const gradientId = `g${hashValue(headline).toString(36)}`;
     const ringX = 560;
     const ringY = 84;
-    const titleLines = wrapForSvg(headline.toUpperCase(), 28, 2);
+    const titleLines = wrapForSvg(artHeadline, 28, 2);
     const chips = tags.length ? tags : [theme];
     const chipMarkup = chips
         .slice(0, 3)
@@ -421,7 +422,6 @@ function buildHeadlineThemeImage(trend) {
   <circle cx="${ringX}" cy="${ringY}" r="14" fill="${theme.accent}" fill-opacity="0.9"/>
   <rect x="28" y="36" width="430" height="208" rx="16" fill="#020617" fill-opacity="0.28"/>
   ${titleLines.map((line, idx) => `<text x="48" y="${86 + idx * 44}" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#f8fbff">${escapeSvg(line)}</text>`).join('')}
-  <text x="48" y="244" font-family="Inter, Arial, sans-serif" font-size="15" fill="#dbeafe">${escapeSvg(summary)}</text>
   ${chipMarkup}
 </svg>`;
 
@@ -436,6 +436,32 @@ function detectVisualSignals(text) {
         }
     });
     return Array.from(unique.values());
+}
+
+
+function compactHeadlineForArt(headline) {
+    const normalized = String(headline || '').replace(/\s+/g, ' ').trim();
+    if (!normalized) return 'SNAPFACTS SIGNAL';
+
+    // Keep fallback art headlines concise and avoid trailing connector words.
+    const splitOn = /\s[-:–—]\s|;\s|\s\|\s/i;
+    let candidate = normalized.split(splitOn)[0] || normalized;
+
+    const words = candidate.split(' ');
+    if (words.length > 7) {
+        const andIdx = words.findIndex((w, i) => i >= 4 && /^and$/i.test(w));
+        if (andIdx > 0) candidate = words.slice(0, andIdx).join(' ');
+    }
+
+    candidate = candidate
+        .replace(/\s+(and|or|with|for|to|from|via|by|amid|as|on|in)$/i, '')
+        .trim();
+
+    const upper = candidate.toUpperCase();
+    if (upper.length <= 56) return upper;
+    const clipped = upper.slice(0, 56).trimEnd();
+    const cut = clipped.lastIndexOf(' ');
+    return (cut > 24 ? clipped.slice(0, cut) : clipped).trim();
 }
 
 function wrapForSvg(value, maxChars, maxLines) {
