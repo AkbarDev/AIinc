@@ -368,5 +368,108 @@ function resolveCardImage(trend) {
     if (trend?.image && /^https?:\/\//i.test(trend.image)) {
         return trend.image;
     }
-    return '';
+    return buildHeadlineThemeImage(trend);
+}
+
+const VISUAL_SIGNALS = [
+    { pattern: /\bmeta\b/i, label: 'META', palette: ['#0a66ff', '#041633'], accent: '#7fb0ff' },
+    { pattern: /\bnetflix\b/i, label: 'NETFLIX', palette: ['#b9090b', '#1b0202'], accent: '#ff7f7f' },
+    { pattern: /\byahoo\b/i, label: 'YAHOO', palette: ['#6001d2', '#15052f'], accent: '#c99bff' },
+    { pattern: /\btarget\b/i, label: 'TARGET', palette: ['#d90429', '#33060f'], accent: '#ff9ca9' },
+    { pattern: /\bgoogle\b/i, label: 'GOOGLE', palette: ['#188038', '#081f12'], accent: '#7ee0a1' },
+    { pattern: /\bmicrosoft\b/i, label: 'MICROSOFT', palette: ['#0b72c7', '#051a2d'], accent: '#7fd2ff' },
+    { pattern: /\bopenai\b/i, label: 'OPENAI', palette: ['#1f7a5a', '#061a13'], accent: '#7ce6be' },
+    { pattern: /\bai|llm|genai|model|agent\b/i, label: 'AI', palette: ['#0e7490', '#072033'], accent: '#89dbff' },
+    { pattern: /\badvertis|campaign|marketing|ad\b/i, label: 'ADS', palette: ['#7c3aed', '#1a0d36'], accent: '#c0a4ff' },
+    { pattern: /\bcredit card|payments|fintech\b/i, label: 'PAYMENTS', palette: ['#1d4ed8', '#071331'], accent: '#9ab8ff' },
+    { pattern: /\be-commerce|ecommerce|retail\b/i, label: 'ECOMMERCE', palette: ['#be185d', '#2b0718'], accent: '#ff99c5' },
+    { pattern: /\bsearch|seo|geo vendors\b/i, label: 'SEARCH', palette: ['#2563eb', '#071736'], accent: '#8db4ff' },
+    { pattern: /\bnews|media|publishing\b/i, label: 'MEDIA', palette: ['#0f766e', '#061f1d'], accent: '#86e8dd' },
+    { pattern: /\bgraph|growth|analytics|insight\b/i, label: 'ANALYTICS', palette: ['#9f1239', '#2a0712'], accent: '#ff9db8' },
+];
+
+function buildHeadlineThemeImage(trend) {
+    const headline = String(trend?.title || 'Snapfacts').trim();
+    const summary = summarize(trend?.summary || 'Fresh headline from monitored RSS feeds.', 110);
+    const text = `${headline} ${summary}`;
+    const tags = detectVisualSignals(text).slice(0, 4);
+    const theme = tags[0] || { label: 'TECH', palette: ['#0b5ed7', '#08162d'], accent: '#8cb8ff' };
+    const gradientId = `g${hashValue(headline).toString(36)}`;
+    const ringX = 560;
+    const ringY = 84;
+    const titleLines = wrapForSvg(headline.toUpperCase(), 28, 2);
+    const chips = tags.length ? tags : [theme];
+    const chipMarkup = chips
+        .slice(0, 3)
+        .map((tag, idx) => {
+            const x = 36 + idx * 182;
+            return `<g transform="translate(${x},288)"><rect width="170" height="36" rx="18" fill="#ffffff" fill-opacity="0.16"/><text x="85" y="23" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#f8fbff">${escapeSvg(tag.label)}</text></g>`;
+        })
+        .join('');
+
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="${escapeSvg(headline)}">
+  <defs>
+    <linearGradient id="${gradientId}" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="${theme.palette[0]}"/>
+      <stop offset="100%" stop-color="${theme.palette[1]}"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#${gradientId})"/>
+  <rect width="640" height="360" fill="#020617" fill-opacity="0.22"/>
+  <circle cx="${ringX}" cy="${ringY}" r="72" fill="none" stroke="${theme.accent}" stroke-width="2" stroke-opacity="0.6"/>
+  <circle cx="${ringX}" cy="${ringY}" r="42" fill="none" stroke="${theme.accent}" stroke-width="1.5" stroke-opacity="0.65"/>
+  <circle cx="${ringX}" cy="${ringY}" r="14" fill="${theme.accent}" fill-opacity="0.9"/>
+  <rect x="28" y="36" width="430" height="208" rx="16" fill="#020617" fill-opacity="0.28"/>
+  ${titleLines.map((line, idx) => `<text x="48" y="${86 + idx * 44}" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#f8fbff">${escapeSvg(line)}</text>`).join('')}
+  <text x="48" y="244" font-family="Inter, Arial, sans-serif" font-size="15" fill="#dbeafe">${escapeSvg(summary)}</text>
+  ${chipMarkup}
+</svg>`;
+
+    return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+}
+
+function detectVisualSignals(text) {
+    const unique = new Map();
+    VISUAL_SIGNALS.forEach((signal) => {
+        if (signal.pattern.test(text) && !unique.has(signal.label)) {
+            unique.set(signal.label, signal);
+        }
+    });
+    return Array.from(unique.values());
+}
+
+function wrapForSvg(value, maxChars, maxLines) {
+    const words = value.split(/\s+/).filter(Boolean);
+    const lines = [];
+    let current = '';
+    for (const word of words) {
+        const next = current ? `${current} ${word}` : word;
+        if (next.length <= maxChars) {
+            current = next;
+            continue;
+        }
+        if (current) lines.push(current);
+        current = word;
+        if (lines.length >= maxLines - 1) break;
+    }
+    if (lines.length < maxLines && current) lines.push(current);
+    if (!lines.length) return [value.slice(0, maxChars)];
+    return lines.slice(0, maxLines);
+}
+
+function escapeSvg(value) {
+    return String(value)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+}
+
+function hashValue(value) {
+    let hash = 0;
+    for (let i = 0; i < value.length; i += 1) {
+        hash = (hash * 31 + value.charCodeAt(i)) >>> 0;
+    }
+    return hash;
 }
