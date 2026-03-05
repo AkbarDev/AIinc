@@ -137,7 +137,8 @@ def parse_items(xml_payload: str, source: FeedSource) -> List[Dict[str, str]]:
 
     for item in items:
         title = _first(item, ["title"])
-        summary = _first(item, ["description", "summary", "content"])
+        raw_summary = _first(item, ["description", "summary", "content"]) or ""
+        summary = summarize_feed_text(raw_summary)
         link = _first(item, ["link"]) or ""
         if not link:
             link_node = item.find("link")
@@ -145,14 +146,14 @@ def parse_items(xml_payload: str, source: FeedSource) -> List[Dict[str, str]]:
                 link = link_node.attrib.get("href", "") or link_node.attrib.get("{http://www.w3.org/1999/xlink}href", "")
         published_raw = _first(item, ["pubDate", "published", "updated"])
         published = _parse_date(published_raw)
-        image = _extract_image(item, summary, ns)
+        image = _extract_image(item, raw_summary, ns)
 
         if not title or not link:
             continue
         entries.append(
             {
                 "title": title.strip(),
-                "summary": (summary or "").strip(),
+                "summary": summary,
                 "link": link.strip(),
                 "published": (published or datetime.now(timezone.utc)).isoformat(),
                 "image": image,
@@ -256,6 +257,27 @@ def detect_keywords(text: str) -> List[str]:
             if word in lowered:
                 hits.append(word)
     return hits
+
+
+def summarize_feed_text(value: str, max_chars: int = 180) -> str:
+    plain = re.sub(r"<[^>]+>", " ", value or "")
+    plain = re.sub(r"\s+", " ", plain).strip()
+    if not plain:
+        return "Summary unavailable from feed."
+
+    parts = [part.strip() for part in re.split(r"(?<=[.!?])\s+", plain) if part.strip()]
+    sentence = parts[0] if parts else plain
+    if len(sentence) < 40 and len(parts) > 1:
+        sentence = f"{sentence} {parts[1]}".strip()
+
+    if len(sentence) > max_chars:
+        clipped = sentence[:max_chars].rstrip()
+        cut = clipped.rfind(" ")
+        sentence = (clipped[:cut] if cut > int(max_chars * 0.6) else clipped).rstrip()
+
+    sentence = re.sub(r"[,:;\-]+$", "", sentence)
+    sentence = re.sub(r"\s+(and|or|with|for|to|from|via|by|amid|as|on|in|of|at|into|over|under)$", "", sentence, flags=re.IGNORECASE)
+    return sentence.strip()
 
 
 def build_clusters(entries: List[Dict[str, str]]) -> Dict[str, TrendCluster]:

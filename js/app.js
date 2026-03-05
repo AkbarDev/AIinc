@@ -352,16 +352,40 @@ function capitalize(value = '') {
 function summarize(value = '', max = 130) {
     const plain = String(value || '')
         .replace(/<[^>]*>/g, '')
+        .replace(/\s+/g, ' ')
         .replace(/\s*(\.\.\.|…|\[\.\.\.\])\s*$/g, '')
         .trim();
     if (!plain) return 'Summary unavailable from feed.';
-    if (plain.length <= max) return plain;
-    const clipped = plain.slice(0, max).trimEnd();
-    const lastSpace = clipped.lastIndexOf(' ');
-    if (lastSpace > Math.floor(max * 0.6)) {
-        return clipped.slice(0, lastSpace).trimEnd();
+
+    const sentence = extractLeadSentence(plain);
+    if (sentence.length <= max) {
+        return trimTrailingConnector(sentence);
     }
-    return clipped;
+
+    const clipped = sentence.slice(0, max).trimEnd();
+    const lastSpace = clipped.lastIndexOf(' ');
+    const compact = lastSpace > Math.floor(max * 0.6) ? clipped.slice(0, lastSpace).trimEnd() : clipped;
+    return trimTrailingConnector(compact);
+}
+
+function extractLeadSentence(text) {
+    const parts = text
+        .split(/(?<=[.!?])\s+/)
+        .map((part) => part.trim())
+        .filter(Boolean);
+    if (!parts.length) return text;
+    const first = parts[0];
+    if (first.length < 35 && parts[1]) {
+        return `${first} ${parts[1]}`.trim();
+    }
+    return first;
+}
+
+function trimTrailingConnector(text) {
+    return String(text)
+        .replace(/[,:;\-]+$/g, '')
+        .replace(/\s+(and|or|with|for|to|from|via|by|amid|as|on|in|of|at|into|over|under)$/i, '')
+        .trim();
 }
 
 function resolveCardImage(trend) {
