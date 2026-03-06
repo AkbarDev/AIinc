@@ -97,7 +97,7 @@ const CATEGORY_COPY = {
     startup: { eyebrow: 'Startup focus', heading: 'AI-native startups shaping analytics and growth stacks' },
     ai: { eyebrow: 'AI focus', heading: 'Models, tooling, and enterprise AI adoption' },
     media: { eyebrow: 'Media focus', heading: 'Digital media distribution and audience growth' },
-    events: { eyebrow: 'Events focus', heading: 'Major launches, conferences, and ecosystem updates' },
+    events: { eyebrow: 'Events focus', heading: 'Open event feeds are not integrated yet. This tab will activate when event sources are added.' },
     brands: { eyebrow: 'Brands focus', heading: 'Insights into how leading global and emerging brands connect with consumers through storytelling, innovation, and purpose-driven marketing.' },
 };
 
@@ -257,8 +257,13 @@ function renderCategoryPills() {
 function renderNewsBoard() {
     const grid = document.getElementById('news-card-grid');
     if (!grid) return;
-    const sorted = [...state.trends].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-    const list = ['all', 'events'].includes(state.activeCategory) ? sorted : sorted.filter((item) => normalizeCategory(item.category) === state.activeCategory);
+
+    if (state.activeCategory === 'events') {
+        grid.innerHTML = '<p>Events feed will appear here once open event sources are connected.</p>';
+        return;
+    }
+
+    const list = getCategoryTrends(state.activeCategory);
     const cards = list.slice(0, 12);
     if (!cards.length) {
         grid.innerHTML = '<p>No stories available for this category.</p>';
@@ -282,6 +287,25 @@ function renderNewsBoard() {
         .join('');
 }
 
+
+function getCategoryTrends(categoryKey) {
+    const sorted = [...state.trends].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+    const unique = dedupeTrends(sorted);
+    if (categoryKey === 'all') return unique;
+    return unique.filter((item) => normalizeCategory(item.category) === categoryKey);
+}
+
+function dedupeTrends(list) {
+    const seen = new Set();
+    const unique = [];
+    for (const item of list) {
+        const key = String(item.id || item.link || item.title || '').trim().toLowerCase();
+        if (!key || seen.has(key)) continue;
+        seen.add(key);
+        unique.push(item);
+    }
+    return unique;
+}
 
 function renderSectionHeading() {
     const eyebrow = document.getElementById('news-eyebrow');
