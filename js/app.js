@@ -88,6 +88,19 @@ const HEADER_CATEGORIES = [
     { key: 'brands', label: 'BRANDS' },
 ];
 
+
+const CATEGORY_COPY = {
+    all: { eyebrow: 'Latest coverage', heading: 'Image-first cards with concise summaries' },
+    commerce: { eyebrow: 'Commerce focus', heading: 'Retail, payments, and ecommerce intelligence' },
+    tech: { eyebrow: 'Tech focus', heading: 'Platform, infrastructure, and product shifts' },
+    ads: { eyebrow: 'Ads focus', heading: 'Campaign, adtech, and performance marketing trends' },
+    startup: { eyebrow: 'Startup focus', heading: 'AI-native startups shaping analytics and growth stacks' },
+    ai: { eyebrow: 'AI focus', heading: 'Models, tooling, and enterprise AI adoption' },
+    media: { eyebrow: 'Media focus', heading: 'Digital media distribution and audience growth' },
+    events: { eyebrow: 'Events focus', heading: 'Major launches, conferences, and ecosystem updates' },
+    brands: { eyebrow: 'Brands focus', heading: 'Insights into how leading global and emerging brands connect with consumers through storytelling, innovation, and purpose-driven marketing.' },
+};
+
 const state = {
     trends: [],
     meta: {},
@@ -161,6 +174,7 @@ function renderAll() {
     renderSidebar();
     renderCategoryPills();
     renderNewsBoard();
+    renderSectionHeading();
     renderMetaStrip();
     renderTimeline();
     renderSources();
@@ -268,6 +282,16 @@ function renderNewsBoard() {
         .join('');
 }
 
+
+function renderSectionHeading() {
+    const eyebrow = document.getElementById('news-eyebrow');
+    const heading = document.getElementById('news-heading');
+    if (!eyebrow || !heading) return;
+    const copy = CATEGORY_COPY[state.activeCategory] || CATEGORY_COPY.all;
+    eyebrow.textContent = copy.eyebrow;
+    heading.textContent = copy.heading;
+}
+
 function setupCategoryFilters() {
     const container = document.getElementById('category-pills');
     if (!container) return;
@@ -277,6 +301,7 @@ function setupCategoryFilters() {
         state.activeCategory = button.dataset.category || 'all';
         renderCategoryPills();
         renderNewsBoard();
+        renderSectionHeading();
     });
 }
 
