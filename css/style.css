@@ -58,23 +58,16 @@ img {
     gap: 0.8rem;
 }
 
-.brand-text {
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
+.brand-logo-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
 }
 
-.brand-title {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 1.65rem;
-    letter-spacing: 0.08em;
-}
-
-.brand-tagline {
-    font-size: 0.78rem;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: rgba(255,255,255,0.6);
+.brand-logo {
+    height: 56px;
+    width: auto;
+    display: block;
 }
 
 .primary-nav {
@@ -593,12 +586,8 @@ footer {
     .news-card-grid {
         grid-template-columns: 1fr;
     }
-    .brand-title {
-        font-size: 1.32rem;
-    }
-    .brand-tagline {
-        letter-spacing: 0.12em;
-        font-size: 0.7rem;
+    .brand-logo {
+        height: 44px;
     }
     .news-card-meta {
         flex-direction: column;
