@@ -63,6 +63,24 @@ const FALLBACK_DATA = {
     ],
 };
 
+const CATEGORY_MAP = {
+    technology: 'tech',
+    advertising: 'ads',
+    'digital-media': 'media',
+    'social-media': 'media',
+    ai: 'ai',
+    commerce: 'commerce',
+};
+
+const CATEGORY_LABELS = {
+    all: 'ALL NEWS',
+    tech: 'TECH',
+    ads: 'ADS',
+    media: 'MEDIA',
+    ai: 'AI',
+    commerce: 'COMMERCE',
+};
+
 const state = {
     trends: [],
     meta: {},
@@ -208,11 +226,11 @@ function renderSidebar() {
 function renderCategoryPills() {
     const container = document.getElementById('category-pills');
     if (!container) return;
-    const categories = ['all', ...new Set(state.trends.map((item) => item.category).filter(Boolean))];
+    const categories = ['all', ...new Set(state.trends.map((item) => normalizeCategory(item.category)).filter(Boolean))];
     container.innerHTML = categories
         .map((category) => {
             const active = state.activeCategory === category ? 'active' : '';
-            const label = category === 'all' ? 'All News' : capitalize(category);
+            const label = CATEGORY_LABELS[category] || String(category || '').toUpperCase();
             return `<button class="category-pill ${active}" data-category="${category}" type="button">${label}</button>`;
         })
         .join('');
@@ -222,7 +240,7 @@ function renderNewsBoard() {
     const grid = document.getElementById('news-card-grid');
     if (!grid) return;
     const sorted = [...state.trends].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-    const list = state.activeCategory === 'all' ? sorted : sorted.filter((item) => item.category === state.activeCategory);
+    const list = state.activeCategory === 'all' ? sorted : sorted.filter((item) => normalizeCategory(item.category) === state.activeCategory);
     const cards = list.slice(0, 12);
     if (!cards.length) {
         grid.innerHTML = '<p>No stories available for this category.</p>';
@@ -343,6 +361,11 @@ function formatDate(value) {
         dateStyle: 'medium',
         timeStyle: 'short',
     }).format(new Date(value));
+}
+
+function normalizeCategory(value = '') {
+    const key = String(value || '').toLowerCase();
+    return CATEGORY_MAP[key] || key;
 }
 
 function capitalize(value = '') {
