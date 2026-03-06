@@ -73,7 +73,8 @@ img {
 .primary-nav {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 0.8rem;
 }
 
 .header-tabs {
@@ -81,6 +82,7 @@ img {
     gap: 0.55rem;
     overflow-x: auto;
     padding: 0;
+    width: 100%;
 }
 
 .masthead .category-pill {
