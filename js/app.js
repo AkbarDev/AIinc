@@ -72,17 +72,21 @@ const CATEGORY_MAP = {
     commerce: 'commerce',
     startup: 'startup',
     startups: 'startup',
+    brand: 'brands',
+    brands: 'brands',
 };
 
-const CATEGORY_LABELS = {
-    all: 'ALL NEWS',
-    tech: 'TECH',
-    ads: 'ADS',
-    media: 'MEDIA',
-    ai: 'AI',
-    commerce: 'COMMERCE',
-    startup: 'STARTUP',
-};
+const HEADER_CATEGORIES = [
+    { key: 'all', label: 'ALL NEWS' },
+    { key: 'commerce', label: 'COMMERCE' },
+    { key: 'tech', label: 'TECH' },
+    { key: 'ads', label: 'ADS' },
+    { key: 'startup', label: 'STARTUP' },
+    { key: 'ai', label: 'AI' },
+    { key: 'media', label: 'MEDIA' },
+    { key: 'events', label: 'EVENTS' },
+    { key: 'brands', label: 'BRANDS' },
+];
 
 const state = {
     trends: [],
@@ -160,7 +164,6 @@ function renderAll() {
     renderMetaStrip();
     renderTimeline();
     renderSources();
-    renderResourceMenu();
 }
 
 function renderLead() {
@@ -229,12 +232,10 @@ function renderSidebar() {
 function renderCategoryPills() {
     const container = document.getElementById('category-pills');
     if (!container) return;
-    const categories = ['all', ...new Set(state.trends.map((item) => normalizeCategory(item.category)).filter(Boolean))];
-    container.innerHTML = categories
-        .map((category) => {
-            const active = state.activeCategory === category ? 'active' : '';
-            const label = CATEGORY_LABELS[category] || String(category || '').toUpperCase();
-            return `<button class="category-pill ${active}" data-category="${category}" type="button">${label}</button>`;
+    container.innerHTML = HEADER_CATEGORIES
+        .map(({ key, label }) => {
+            const active = state.activeCategory === key ? 'active' : '';
+            return `<button class="category-pill ${active}" data-category="${key}" type="button">${label}</button>`;
         })
         .join('');
 }
@@ -243,7 +244,7 @@ function renderNewsBoard() {
     const grid = document.getElementById('news-card-grid');
     if (!grid) return;
     const sorted = [...state.trends].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-    const list = state.activeCategory === 'all' ? sorted : sorted.filter((item) => normalizeCategory(item.category) === state.activeCategory);
+    const list = ['all', 'events'].includes(state.activeCategory) ? sorted : sorted.filter((item) => normalizeCategory(item.category) === state.activeCategory);
     const cards = list.slice(0, 12);
     if (!cards.length) {
         grid.innerHTML = '<p>No stories available for this category.</p>';
@@ -286,21 +287,6 @@ function renderMetaStrip() {
     strip.querySelectorAll('[data-meta="feeds"]').forEach((el) => (el.textContent = state.sources.length || '10'));
 }
 
-
-function renderResourceMenu() {
-    const menu = document.getElementById('resources-menu');
-    if (!menu) return;
-    if (!state.sources.length) {
-        menu.innerHTML = '<span class="dropdown-empty">No resources loaded.</span>';
-        return;
-    }
-    menu.innerHTML = state.sources
-        .map((source) => {
-            const label = source.url ? `${source.name} - ${new URL(source.url).hostname.replace(/^www\./, '')}` : source.name;
-            return `<a href="${source.url}" target="_blank" rel="noopener">${label}</a>`;
-        })
-        .join('');
-}
 
 function renderCardMedia(item, imageUrl) {
     if (imageUrl) {

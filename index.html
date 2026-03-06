@@ -34,30 +34,8 @@
                     <img class="brand-logo" src="assets/images/snapfacts-logo-neon.png" alt="Snapfacts AI Signals" />
                 </a>
             </div>
-            <nav class="primary-nav">
-                <div class="nav-dropdown">
-                    <button class="nav-link">Categories ▾</button>
-                    <div class="dropdown-menu">
-                        <a href="#news-board">TECH</a>
-                        <a href="#news-board">MEDIA</a>
-                        <a href="#news-board">ADS</a>
-                        <a href="#news-board">COMMERCE</a>
-                        <a href="#news-board">STARTUP</a>
-                    </div>
-                </div>
-                <div class="nav-dropdown">
-                    <button class="nav-link">Events ▾</button>
-                    <div class="dropdown-menu">
-                        <a href="#timeline">AI</a>
-                        <a href="#timeline">TECH</a>
-                    </div>
-                </div>
-                <div class="nav-dropdown">
-                    <button class="nav-link">Resources ▾</button>
-                    <div class="dropdown-menu resources-menu" id="resources-menu">
-                        <span class="dropdown-empty">Loading resources...</span>
-                    </div>
-                </div>
+            <nav class="primary-nav" aria-label="Primary categories">
+                <div class="category-pills header-tabs" id="category-pills"></div>
             </nav>
             <div class="nav-actions">
                 <div class="social-links" aria-label="Social channels">
@@ -72,12 +50,6 @@
     </header>
 
     <main>
-        <section class="category-strip" aria-label="News categories">
-            <div class="container">
-                <div class="category-pills" id="category-pills"></div>
-            </div>
-        </section>
-
         <section class="news-board" id="news-board">
             <div class="container">
                 <div class="section-heading">
