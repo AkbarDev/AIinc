@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-03-06T10:20:19.729679+00:00",
-  "sources_scanned": 872,
-  "feeds_polled": 30,
-  "feed_pool": 35,
+  "generated_at": "2026-03-06T11:01:01.327659+00:00",
+  "sources_scanned": 513,
+  "feeds_polled": 31,
+  "feed_pool": 36,
   "continent_counts": {
-    "NA": 687,
+    "NA": 353,
     "SA": 0,
-    "EU": 185,
+    "EU": 160,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 98,
+  "clusters": 97,
   "trends": [
     {
       "id": "fednow pushes fema disaster aid from days to seconds",
@@ -28,10 +28,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4817,
+      "score": 0.4601,
       "signals": {
-        "score": 0.4817,
-        "recency": 0.8067756072072073,
+        "score": 0.4601,
+        "recency": 0.7205455461631735,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -51,10 +51,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4803,
+      "score": 0.4589,
       "signals": {
-        "score": 0.4803,
-        "recency": 0.8013778900444567,
+        "score": 0.4589,
+        "recency": 0.7157247496166196,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -74,10 +74,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4802,
+      "score": 0.4588,
       "signals": {
-        "score": 0.4802,
-        "recency": 0.8007103533150208,
+        "score": 0.4588,
+        "recency": 0.7151285607717928,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -95,10 +95,10 @@
       "published_at": "2026-03-06T09:00:43+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.4204,
+      "score": 0.399,
       "signals": {
-        "score": 0.4204,
-        "recency": 0.8016005259341332,
+        "score": 0.399,
+        "recency": 0.7159235896624631,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -118,13 +118,37 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.386,
+      "score": 0.3818,
       "signals": {
-        "score": 0.386,
-        "recency": 0.15712270382221108,
+        "score": 0.3818,
+        "recency": 0.1403290622929461,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "openai launches gpt54 to automate complex professional work",
+      "title": "OpenAI Launches GPT-5.4 to Automate Complex Professional Work",
+      "summary": "OpenAI has released a new artificial intelligence model that it said is designed for professional work and is its most capable and efficient frontier model for that sort of work.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/OpenAI-GPT-5.4-x.jpg?w=457",
+      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/openai-launches-gpt-5-4-to-automate-complex-professional-work/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-06T01:49:02+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.374,
+      "signals": {
+        "score": 0.374,
+        "recency": 0.2158218011573605,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -141,10 +165,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3845,
+      "score": 0.3735,
       "signals": {
-        "score": 0.3845,
-        "recency": 0.4118794695061759,
+        "score": 0.3735,
+        "recency": 0.36785682990103474,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -164,10 +188,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3845,
+      "score": 0.3735,
       "signals": {
-        "score": 0.3845,
-        "recency": 0.4118794695061759,
+        "score": 0.3735,
+        "recency": 0.36785682990103474,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -187,37 +211,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3845,
+      "score": 0.3735,
       "signals": {
-        "score": 0.3845,
-        "recency": 0.4118794695061759,
+        "score": 0.3735,
+        "recency": 0.36785682990103474,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "openai launches gpt54 to automate complex professional work",
-      "title": "OpenAI Launches GPT-5.4 to Automate Complex Professional Work",
-      "summary": "OpenAI has released a new artificial intelligence model that it said is designed for professional work and is its most capable and efficient frontier model for that sort of work.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/OpenAI-GPT-5.4-x.jpg?w=457",
-      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/openai-launches-gpt-5-4-to-automate-complex-professional-work/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-06T01:49:02+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.3804,
-      "signals": {
-        "score": 0.3804,
-        "recency": 0.2416499076351959,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -234,10 +234,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3661,
+      "score": 0.3641,
       "signals": {
-        "score": 0.3661,
-        "recency": 0.07754946121307585,
+        "score": 0.3641,
+        "recency": 0.0692607936894208,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -257,10 +257,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3637,
+      "score": 0.3619,
       "signals": {
-        "score": 0.3637,
-        "recency": 0.06781896447923444,
+        "score": 0.3619,
+        "recency": 0.060570315171118244,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -268,25 +268,25 @@
       }
     },
     {
-      "id": "costco digital innovations fuel 226 online growth",
-      "title": "Costco Digital Innovations Fuel 22.6% Online Growth",
-      "summary": "Costco is seeing measurable benefits from its latest digital initiatives both in-store and online, Costco President, CEO and Director Ron Vachris said Thursday (March 5).",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Costco-earnings-xxx.jpg?w=457",
-      "link": "https://www.pymnts.com/news/retail/2026/costco-digital-innovations-fuel-22-6-online-growth/",
+      "id": "dominos redefines celebrity meals in socialfirst campaign",
+      "title": "Domino\u2019s redefines celebrity meals in social-first campaign",
+      "summary": "Ahead of March Madness, the pizza brand is hoping influencers will drive sales.",
+      "image": "https://imgproxy.divecdn.com/-o9BRNa1V944np7WxnaeAYEkzwtknYx_iEh1iTrE4Ao/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9CREUtRGVza3RvcC5qcGc=.webp",
+      "link": "https://www.marketingdive.com/news/dominos-redefines-celebrity-meals-in-social-first-campaign/813877/",
       "category": "commerce",
       "geo": "global",
-      "published_at": "2026-03-06T03:01:05+00:00",
-      "source_count": 1,
+      "published_at": "2026-03-05T11:00:00-05:00",
+      "source_count": 2,
       "keywords": [
         "ai"
       ],
-      "score": 0.3538,
+      "score": 0.349,
       "signals": {
-        "score": 0.3538,
-        "recency": 0.29519285985607036,
+        "score": 0.349,
+        "recency": 0.04202435658320411,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
+        "source_signal": 0.4,
+        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -304,10 +304,80 @@
         "ai",
         "series"
       ],
-      "score": 0.3489,
+      "score": 0.3465,
       "signals": {
-        "score": 0.3489,
-        "recency": 0.09164780086105478,
+        "score": 0.3465,
+        "recency": 0.08185226987052684,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "mcdonalds reality tvinspired campaign turns kiosks into confessionals",
+      "title": "McDonald\u2019s reality TV-inspired campaign turns kiosks into confessionals",
+      "summary": "The social-heavy effort comes as the chain faces social media and competitor blowback for a video featuring its CEO.",
+      "image": "https://imgproxy.divecdn.com/fQxF7i_HfxyXhGqZKjpn7BJ68u-UdswBX5zdef9KaOU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9GaXJzdF9Kb2JfQ29uZmVzc2lvbmFsX0Jvb3RoX0ludGVyaW9yLmpwZw==.webp",
+      "link": "https://www.marketingdive.com/news/mcdonalds-reality-tv-inspired-campaign-turns-kiosks-into-confessionals/813871/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-05T09:24:00-05:00",
+      "source_count": 2,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3465,
+      "signals": {
+        "score": 0.3465,
+        "recency": 0.03218764560861701,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.79,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "costco digital innovations fuel 226 online growth",
+      "title": "Costco Digital Innovations Fuel 22.6% Online Growth",
+      "summary": "Costco is seeing measurable benefits from its latest digital initiatives both in-store and online, Costco President, CEO and Director Ron Vachris said Thursday (March 5).",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Costco-earnings-xxx.jpg?w=457",
+      "link": "https://www.pymnts.com/news/retail/2026/costco-digital-innovations-fuel-22-6-online-growth/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-06T03:01:05+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3459,
+      "signals": {
+        "score": 0.3459,
+        "recency": 0.2636419576005263,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "openai launches gpt54 with pro and thinking versions",
+      "title": "OpenAI launches GPT-5.4 with Pro and Thinking versions",
+      "summary": "GPT-5.4 is billed as \"our most capable and efficient frontier model for professional work.\"",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-05T18:00:15+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.3407,
+      "signals": {
+        "score": 0.3407,
+        "recency": 0.05869045731724216,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -327,60 +397,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3465,
+      "score": 0.3394,
       "signals": {
-        "score": 0.3465,
-        "recency": 0.266126430248295,
+        "score": 0.3394,
+        "recency": 0.23768221587104077,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "anthropic to challenge dods supplychain label in court",
-      "title": "Anthropic to challenge DOD\u2019s supply-chain label in court",
-      "summary": "Anthropic CEO Dario Amodei said he plans to challenge the Department of Defense's designation of the AI firm as a supply-chain risk.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-06T01:28:54+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3431,
-      "signals": {
-        "score": 0.3431,
-        "recency": 0.22850637062431314,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "openai launches gpt54 with pro and thinking versions",
-      "title": "OpenAI launches GPT-5.4 with Pro and Thinking versions",
-      "summary": "GPT-5.4 is billed as \"our most capable and efficient frontier model for professional work.\"",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-05T18:00:15+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.3424,
-      "signals": {
-        "score": 0.3424,
-        "recency": 0.06571413783836494,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -398,10 +421,10 @@
         "ai",
         "series"
       ],
-      "score": 0.3415,
+      "score": 0.3394,
       "signals": {
-        "score": 0.3415,
-        "recency": 0.08017800900380956,
+        "score": 0.3394,
+        "recency": 0.07160839615356394,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -409,45 +432,26 @@
       }
     },
     {
-      "id": "paramount skydance is trying to buy wbd now what",
-      "title": "Paramount Skydance Is Trying To Buy WBD. Now What?",
-      "summary": "Late last week, Netflix walked away from plans to acquire Warner Bros., clearing the way for Paramount Skydance to scoop up the whole company with its hostile takeover bid.",
+      "id": "anthropic to challenge dods supplychain label in court",
+      "title": "Anthropic to challenge DOD\u2019s supply-chain label in court",
+      "summary": "Anthropic CEO Dario Amodei said he plans to challenge the Department of Defense's designation of the AI firm as a supply-chain risk.",
       "image": null,
-      "link": "https://www.adexchanger.com/ctv-roundup/paramount-skydance-is-trying-to-buy-wbd-now-what/",
-      "category": "advertising",
+      "link": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-03-06T06:00:25+00:00",
+      "published_at": "2026-03-06T01:28:54+00:00",
       "source_count": 1,
-      "keywords": [],
-      "score": 0.3399,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.337,
       "signals": {
-        "score": 0.3399,
-        "recency": 0.48579030184523336,
-        "keyword_volume": 0.0,
+        "score": 0.337,
+        "recency": 0.20408307607764936,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "inside life360s plan to build an ad platform on top of nativo",
-      "title": "Inside Life360\u2019s Plan To Build An Ad Platform On Top Of Nativo",
-      "summary": "Family-safety app Life360 has been quietly building an ad tech stack.",
-      "image": null,
-      "link": "https://www.adexchanger.com/marketers/inside-life360s-plan-to-build-an-ad-platform-on-top-of-nativo/",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-03-06T06:00:18+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3399,
-      "signals": {
-        "score": 0.3399,
-        "recency": 0.48563289531003495,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
+        "authority": 0.84,
+        "engagement": 0.6
       }
     },
     {
@@ -464,10 +468,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.3359,
+      "score": 0.335,
       "signals": {
-        "score": 0.3359,
-        "recency": 0.03371534176535647,
+        "score": 0.335,
+        "recency": 0.030111767298583496,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.85,
@@ -488,14 +492,80 @@
         "ai",
         "series"
       ],
-      "score": 0.3346,
+      "score": 0.3339,
       "signals": {
-        "score": 0.3346,
-        "recency": 0.028539420652815506,
+        "score": 0.3339,
+        "recency": 0.025489060722409737,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.85,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "regulators are moving on sboms but is your compliance program keeping pace",
+      "title": "Regulators Are Moving On SBOMs \u2014 But Is Your Compliance Program Keeping Pace?",
+      "summary": "Software bill of materials (SBOM) requirements are advancing rapidly, and the time for \u201cwait and see\u201d is quickly running out.",
+      "image": null,
+      "link": "https://www.forrester.com/blogs/regulators-are-moving-on-sboms-but-is-your-compliance-program-keeping-pace/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-05T15:49:51+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.3302,
+      "signals": {
+        "score": 0.3302,
+        "recency": 0.04085605045937537,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "paramount skydance is trying to buy wbd now what",
+      "title": "Paramount Skydance Is Trying To Buy WBD. Now What?",
+      "summary": "Late last week, Netflix walked away from plans to acquire Warner Bros., clearing the way for Paramount Skydance to scoop up the whole company with its hostile takeover bid.",
+      "image": null,
+      "link": "https://www.adexchanger.com/ctv-roundup/paramount-skydance-is-trying-to-buy-wbd-now-what/",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-03-06T06:00:25+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.327,
+      "signals": {
+        "score": 0.327,
+        "recency": 0.43386789986815505,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "inside life360s plan to build an ad platform on top of nativo",
+      "title": "Inside Life360\u2019s Plan To Build An Ad Platform On Top Of Nativo",
+      "summary": "Family-safety app Life360 has been quietly building an ad tech stack.",
+      "image": null,
+      "link": "https://www.adexchanger.com/marketers/inside-life360s-plan-to-build-an-ad-platform-on-top-of-nativo/",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-03-06T06:00:18+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3269,
+      "signals": {
+        "score": 0.3269,
+        "recency": 0.4337273173110462,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
       }
     },
     {
@@ -512,10 +582,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.3275,
+      "score": 0.3269,
       "signals": {
-        "score": 0.3275,
-        "recency": 0.024177118823517394,
+        "score": 0.3269,
+        "recency": 0.021593011900357395,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -536,100 +606,13 @@
         "ai",
         "bill"
       ],
-      "score": 0.3274,
+      "score": 0.3266,
       "signals": {
-        "score": 0.3274,
-        "recency": 0.029753684677508125,
+        "score": 0.3266,
+        "recency": 0.026573541372348044,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "comic ctv tracking",
-      "title": "Comic: CTV Tracking",
-      "summary": "Enjoy this weekly comic strip from AdExchanger.com that highlights the digital advertising ecosystem \u2026 The post Comic: CTV Tracking appeared first on AdExchanger .",
-      "image": null,
-      "link": "https://www.adexchanger.com/comic-strip/comic-ctv-tracking/",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-03-06T05:15:28+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3257,
-      "signals": {
-        "score": 0.3257,
-        "recency": 0.4287679836575932,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "nobodys asking the question wpps biggest restructure in years means nothing until cmos say it does",
-      "title": "\u2018Nobody\u2019s asking the question\u2019: WPP\u2019s biggest restructure in years means nothing until CMOs say it does",
-      "summary": "WPP declared itself transformed. CMOs will decide if that\u2019s true.",
-      "image": null,
-      "link": "https://digiday.com/marketing/nobodys-asking-the-question-wpps-biggest-restructure-in-years-means-nothing-until-cmos-say-it-does/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-03-06T05:01:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3245,
-      "signals": {
-        "score": 0.3245,
-        "recency": 0.4118794695061759,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "why a gen alphafocused skincare brand is giving equity to teen creators",
-      "title": "Why a Gen Alpha\u2013focused skin-care brand is giving equity to teen creators",
-      "summary": "Brands are looking for new ways to build relationships that last, and go deeper than a hashtag-sponsored post.",
-      "image": null,
-      "link": "https://digiday.com/marketing/why-a-gen-alpha-focused-skin-care-brand-is-giving-equity-to-teen-creators/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-03-06T05:01:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3245,
-      "signals": {
-        "score": 0.3245,
-        "recency": 0.4118794695061759,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "how ford is accelerating its global campaign amid return to formula 1",
-      "title": "How Ford is accelerating its global campaign amid return to Formula 1",
-      "summary": "The automaker will utilize Apple TV&rsquo;s sequential ad capabilities to turn ad breaks into a narrative &ldquo;micro-docuseries&rdquo; focused on its engineering prowess.",
-      "image": "https://imgproxy.divecdn.com/4NfqV85zUlUELS1SMyZdrBHdMEpAAXs-1I7u4Do6R_A/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9mb3JkLUZNRFYwMjc1MTAwX0YxX1NvY2lhbF9LVjZfMTkyMHgxMDgwXzAwLmpwZw==.webp",
-      "link": "https://www.marketingdive.com/news/how-ford-is-accelerating-its-global-campaign-as-it-returns-to-formula-1/813790/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-05T06:00:00-05:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "series"
-      ],
-      "score": 0.3236,
-      "signals": {
-        "score": 0.3236,
-        "recency": 0.020449388483378562,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -644,10 +627,10 @@
       "published_at": "2026-03-05T22:38:26+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.3223,
+      "score": 0.3185,
       "signals": {
-        "score": 0.3223,
-        "recency": 0.14231537869748492,
+        "score": 0.3185,
+        "recency": 0.12710437865861407,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -655,41 +638,20 @@
       }
     },
     {
-      "id": "skate where the puck is going malware malware everywhere",
-      "title": "Skate Where The Puck Is Going; Malware, Malware, Everywhere",
-      "summary": "The NHL develops new revenue streams; malware makes its way into the programmatic ecosystem; and Target plans to open 30 new locations this year, along with revamping existing",
+      "id": "comic ctv tracking",
+      "title": "Comic: CTV Tracking",
+      "summary": "Enjoy this weekly comic strip from AdExchanger.com that highlights the digital advertising ecosystem \u2026 The post Comic: CTV Tracking appeared first on AdExchanger .",
       "image": null,
-      "link": "https://www.adexchanger.com/daily-news-roundup/friday-06032026/",
+      "link": "https://www.adexchanger.com/comic-strip/comic-ctv-tracking/",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-03-06T05:03:13+00:00",
+      "published_at": "2026-03-06T05:15:28+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3221,
+      "score": 0.3142,
       "signals": {
-        "score": 0.3221,
-        "recency": 0.4144234031832232,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "target ceo says busy families will be companys focus as it seeks growth",
-      "title": "Target CEO says \u2018busy families\u2019 will be company\u2019s focus as it seeks growth",
-      "summary": "One of the key messages from Target as it looks to turn around its sales slump under new CEO Michael Fiddelke is that it has sharpened its focus.",
-      "image": null,
-      "link": "https://www.modernretail.co/operations/target-ceo-says-busy-families-will-be-companys-focus-as-it-seeks-growth/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-06T05:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3212,
-      "signals": {
-        "score": 0.3212,
-        "recency": 0.4107369474395087,
+        "score": 0.3142,
+        "recency": 0.38294026021847133,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -709,10 +671,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3175,
+      "score": 0.3141,
       "signals": {
-        "score": 0.3175,
-        "recency": 0.1260063885769842,
+        "score": 0.3141,
+        "recency": 0.11253853149024788,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -733,13 +695,97 @@
         "cloud",
         "game"
       ],
-      "score": 0.3144,
+      "score": 0.3135,
       "signals": {
-        "score": 0.3144,
-        "recency": 0.03376220116263488,
+        "score": 0.3135,
+        "recency": 0.030153618254045233,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "nobodys asking the question wpps biggest restructure in years means nothing until cmos say it does",
+      "title": "\u2018Nobody\u2019s asking the question\u2019: WPP\u2019s biggest restructure in years means nothing until CMOs say it does",
+      "summary": "WPP declared itself transformed. CMOs will decide if that\u2019s true.",
+      "image": null,
+      "link": "https://digiday.com/marketing/nobodys-asking-the-question-wpps-biggest-restructure-in-years-means-nothing-until-cmos-say-it-does/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-03-06T05:01:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3135,
+      "signals": {
+        "score": 0.3135,
+        "recency": 0.36785682990103474,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "why a gen alphafocused skincare brand is giving equity to teen creators",
+      "title": "Why a Gen Alpha\u2013focused skin-care brand is giving equity to teen creators",
+      "summary": "Brands are looking for new ways to build relationships that last, and go deeper than a hashtag-sponsored post.",
+      "image": null,
+      "link": "https://digiday.com/marketing/why-a-gen-alpha-focused-skin-care-brand-is-giving-equity-to-teen-creators/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-03-06T05:01:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3135,
+      "signals": {
+        "score": 0.3135,
+        "recency": 0.36785682990103474,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "skate where the puck is going malware malware everywhere",
+      "title": "Skate Where The Puck Is Going; Malware, Malware, Everywhere",
+      "summary": "The NHL develops new revenue streams; malware makes its way into the programmatic ecosystem; and Target plans to open 30 new locations this year, along with revamping existing",
+      "image": null,
+      "link": "https://www.adexchanger.com/daily-news-roundup/friday-06032026/",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-03-06T05:03:13+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.311,
+      "signals": {
+        "score": 0.311,
+        "recency": 0.37012886200557027,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "target ceo says busy families will be companys focus as it seeks growth",
+      "title": "Target CEO says \u2018busy families\u2019 will be company\u2019s focus as it seeks growth",
+      "summary": "One of the key messages from Target as it looks to turn around its sales slump under new CEO Michael Fiddelke is that it has sharpened its focus.",
+      "image": null,
+      "link": "https://www.modernretail.co/operations/target-ceo-says-busy-families-will-be-companys-focus-as-it-seeks-growth/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-06T05:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3102,
+      "signals": {
+        "score": 0.3102,
+        "recency": 0.3668364232611018,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
         "engagement": 0.4
       }
     },
@@ -756,10 +802,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3105,
+      "score": 0.3079,
       "signals": {
-        "score": 0.3105,
-        "recency": 0.09807937041812527,
+        "score": 0.3079,
+        "recency": 0.0875964182530343,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -767,22 +813,22 @@
       }
     },
     {
-      "id": "20vc x saastr the ai power grab anthropic blinks openai raises 110b and every ceo i know wants to cut 40 of their team",
-      "title": "20VC x SaaStr: The AI Power Grab \u2014 Anthropic Blinks, OpenAI Raises $110B, and Every CEO I Know Wants to Cut 40% of Their Team",
-      "summary": "Every week, Harry, Rory, and Jason sit down together to break down the biggest stories in AI and B2B.",
+      "id": "the forrester wave customer experience platforms for healthcare q1 2026 the ai race is on but pace is uneven",
+      "title": "The Forrester Wave\u2122: Customer Experience Platforms For Healthcare, Q1 2026: The AI Race Is On, But Pace Is Uneven",
+      "summary": "The pressure to do more with less is intensifying across healthcare.",
       "image": null,
-      "link": "https://www.saastr.com/20vc-x-saastr-the-ai-power-grab-anthropic-blinks-openai-raises-110b-and-every-ceo-i-know-wants-to-cut-40-of-their-team/",
-      "category": "startup",
+      "link": "https://www.forrester.com/blogs/the-forrester-wave-cx-platforms-for-healthcare-q1-2026-the-ai-race-is-on-but-pace-is-uneven/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-05T21:05:33+00:00",
+      "published_at": "2026-03-05T20:35:37+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.3075,
+      "score": 0.3026,
       "signals": {
-        "score": 0.3075,
-        "recency": 0.10995116496611318,
+        "score": 0.3026,
+        "recency": 0.09036447555988536,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -802,10 +848,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3043,
+      "score": 0.3023,
       "signals": {
-        "score": 0.3043,
-        "recency": 0.07310098694157462,
+        "score": 0.3023,
+        "recency": 0.06528778273703532,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -825,10 +871,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3043,
+      "score": 0.3018,
       "signals": {
-        "score": 0.3043,
-        "recency": 0.0910894388108681,
+        "score": 0.3018,
+        "recency": 0.08135358686026418,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "cartcom raises 180 million to expand logistics network and ai",
+      "title": "Cart.com raises $180 million to expand logistics network and AI",
+      "summary": "Cart.com said March 4 that it has secured a $180 million growth equity investment led, with Springcoast Partners leading the funding to expand its logistics network and further",
+      "image": null,
+      "link": "https://www.digitalcommerce360.com/2026/03/05/cart-com-180-million-funding-logistics-network-ai/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-05T19:05:53+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2991,
+      "signals": {
+        "score": 0.2991,
+        "recency": 0.07042807395448449,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -848,10 +917,10 @@
       "keywords": [
         "series"
       ],
-      "score": 0.303,
+      "score": 0.2984,
       "signals": {
-        "score": 0.303,
-        "recency": 0.17193554112899337,
+        "score": 0.2984,
+        "recency": 0.153558668954443,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -859,25 +928,25 @@
       }
     },
     {
-      "id": "cartcom raises 180 million to expand logistics network and ai",
-      "title": "Cart.com raises $180 million to expand logistics network and AI",
-      "summary": "Cart.com said March 4 that it has secured a $180 million growth equity investment led, with Springcoast Partners leading the funding to expand its logistics network and further",
+      "id": "meta sued over ai smart glasses privacy concerns after workers reviewed nudity sex and other footage",
+      "title": "Meta sued over AI smart glasses\u2019 privacy concerns, after workers reviewed nudity, sex, and other footage",
+      "summary": "Lawyers say Meta's marketing materials promised privacy and user control over sharing footage.",
       "image": null,
-      "link": "https://www.digitalcommerce360.com/2026/03/05/cart-com-180-million-funding-logistics-network-ai/",
-      "category": "commerce",
+      "link": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-03-05T19:05:53+00:00",
+      "published_at": "2026-03-05T16:50:20+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.3012,
+      "score": 0.2981,
       "signals": {
-        "score": 0.3012,
-        "recency": 0.07885643375581433,
+        "score": 0.2981,
+        "recency": 0.04833056535803244,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.81,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -894,36 +963,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3,
+      "score": 0.298,
       "signals": {
-        "score": 0.3,
-        "recency": 0.07399307424548122,
+        "score": 0.298,
+        "recency": 0.06608452166651749,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "meta sued over ai smart glasses privacy concerns after workers reviewed nudity sex and other footage",
-      "title": "Meta sued over AI smart glasses\u2019 privacy concerns, after workers reviewed nudity, sex, and other footage",
-      "summary": "Lawyers say Meta's marketing materials promised privacy and user control over sharing footage.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-05T16:50:20+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2995,
-      "signals": {
-        "score": 0.2995,
-        "recency": 0.05411444345332779,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -940,36 +986,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2994,
+      "score": 0.2979,
       "signals": {
-        "score": 0.2994,
-        "recency": 0.05344469727485413,
+        "score": 0.2979,
+        "recency": 0.04773240321524089,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "what smecs data reveals about ai max performance via sejournal brookeosmundson",
-      "title": "What SMEC\u2019s Data Reveals About AI Max Performance via @sejournal, @brookeosmundson",
-      "summary": "New SMEC study analyzes AI Max in Google Ads Search campaigns, showing a 13% conversion value lift but higher CPA and unpredictable ROAS results.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/what-smecs-data-reveals-about-ai-max-performance/568866/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-05T18:36:51+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2982,
-      "signals": {
-        "score": 0.2982,
-        "recency": 0.07274649722672644,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -986,13 +1009,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2975,
+      "score": 0.2965,
       "signals": {
-        "score": 0.2975,
-        "recency": 0.040094534010858655,
+        "score": 0.2965,
+        "recency": 0.03580913657890524,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "what smecs data reveals about ai max performance via sejournal brookeosmundson",
+      "title": "What SMEC\u2019s Data Reveals About AI Max Performance via @sejournal, @brookeosmundson",
+      "summary": "New SMEC study analyzes AI Max in Google Ads Search campaigns, showing a 13% conversion value lift but higher CPA and unpredictable ROAS results.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/what-smecs-data-reveals-about-ai-max-performance/568866/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-05T18:36:51+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2962,
+      "signals": {
+        "score": 0.2962,
+        "recency": 0.06497118171078627,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1009,56 +1055,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2959,
+      "score": 0.2943,
       "signals": {
-        "score": 0.2959,
-        "recency": 0.057458033598980406,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "usreportedly considering sweeping new chip exportcontrols",
-      "title": "US\u00a0reportedly considering sweeping new chip export\u00a0controls",
-      "summary": "In an alleged drafted proposal, the U.S.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/05/us-reportedly-considering-sweeping-new-chip-export-controls/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-05T21:24:50+00:00",
-      "source_count": 1,
-      "keywords": [
-        "chip"
-      ],
-      "score": 0.295,
-      "signals": {
-        "score": 0.295,
-        "recency": 0.11600126859108187,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "pitch deck how chatgpt ads are being sold to criteo advertisers",
-      "title": "Pitch deck: How ChatGPT ads are being sold to Criteo advertisers",
-      "summary": "OpenAI has the ad inventory. Criteo has relationships with advertisers.",
-      "image": null,
-      "link": "https://digiday.com/marketing/pitch-deck-how-chatgpt-ads-are-being-sold-to-criteo-advertisers/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-03-05T16:46:15+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2949,
-      "signals": {
-        "score": 0.2949,
-        "recency": 0.053504113274602146,
+        "score": 0.2943,
+        "recency": 0.05131678478028912,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1078,13 +1078,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2949,
+      "score": 0.2941,
       "signals": {
-        "score": 0.2949,
-        "recency": 0.029753684677508125,
+        "score": 0.2941,
+        "recency": 0.026573541372348044,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "pitch deck how chatgpt ads are being sold to criteo advertisers",
+      "title": "Pitch deck: How ChatGPT ads are being sold to Criteo advertisers",
+      "summary": "OpenAI has the ad inventory. Criteo has relationships with advertisers.",
+      "image": null,
+      "link": "https://digiday.com/marketing/pitch-deck-how-chatgpt-ads-are-being-sold-to-criteo-advertisers/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-03-05T16:46:15+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2934,
+      "signals": {
+        "score": 0.2934,
+        "recency": 0.04778546869417558,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
         "engagement": 0.6
       }
     },
@@ -1101,10 +1124,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2948,
+      "score": 0.2932,
       "signals": {
-        "score": 0.2948,
-        "recency": 0.05925450837971276,
+        "score": 0.2932,
+        "recency": 0.05292124814096515,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1124,13 +1147,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2935,
+      "score": 0.2922,
       "signals": {
-        "score": 0.2935,
-        "recency": 0.04806191214152626,
+        "score": 0.2922,
+        "recency": 0.0429249427279327,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "architecting data and ai in the era of enterprise intelligence meet shylaja nathan principal analyst",
+      "title": "Architecting Data And AI In The Era Of Enterprise Intelligence: Meet Shylaja Nathan, Principal Analyst",
+      "summary": "Across industries, competitive advantage increasingly depends on an organization\u2019s ability to apply AI to decisions, operations, and customer experiences.",
+      "image": null,
+      "link": "https://www.forrester.com/blogs/architecting-data-and-ai-in-the-era-of-enterprise-intelligence-meet-shylaja-nathan-principal-analyst/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-05T16:54:29+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2922,
+      "signals": {
+        "score": 0.2922,
+        "recency": 0.04889093306698975,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1147,10 +1193,56 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2935,
+      "score": 0.2921,
       "signals": {
-        "score": 0.2935,
-        "recency": 0.054049344884873264,
+        "score": 0.2921,
+        "recency": 0.04827242467660569,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "usreportedly considering sweeping new chip exportcontrols",
+      "title": "US\u00a0reportedly considering sweeping new chip export\u00a0controls",
+      "summary": "In an alleged drafted proposal, the U.S.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/05/us-reportedly-considering-sweeping-new-chip-export-controls/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-05T21:24:50+00:00",
+      "source_count": 1,
+      "keywords": [
+        "chip"
+      ],
+      "score": 0.2919,
+      "signals": {
+        "score": 0.2919,
+        "recency": 0.10360278209442048,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "exclusive beehiiv taps former calendly exec as its first cmo",
+      "title": "Exclusive: Beehiiv Taps Former Calendly Exec as Its First CMO",
+      "summary": "Darren Chait, who built and sold Hugo to Calendly, joins the newsletter platform as it eyes $50M in revenue and a broader identity.",
+      "image": null,
+      "link": "https://www.adweek.com/media/exclusive-beehiiv-taps-former-calendly-exec-as-its-first-cmo/",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-03-05T16:26:08+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2913,
+      "signals": {
+        "score": 0.2913,
+        "recency": 0.04518846980269968,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1170,59 +1262,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2932,
+      "score": 0.2913,
       "signals": {
-        "score": 0.2932,
-        "recency": 0.07077322539632722,
+        "score": 0.2913,
+        "recency": 0.06320881778200396,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.77,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "exclusive beehiiv taps former calendly exec as its first cmo",
-      "title": "Exclusive: Beehiiv Taps Former Calendly Exec as Its First CMO",
-      "summary": "Darren Chait, who built and sold Hugo to Calendly, joins the newsletter platform as it eyes $50M in revenue and a broader identity.",
-      "image": null,
-      "link": "https://www.adweek.com/media/exclusive-beehiiv-taps-former-calendly-exec-as-its-first-cmo/",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-03-05T16:26:08+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2926,
-      "signals": {
-        "score": 0.2926,
-        "recency": 0.05059632296385273,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "foot locker exec jumps to rei",
-      "title": "Foot Locker exec jumps to REI",
-      "summary": "Kim Waldmann is now chief commercial officer at the outdoor retailer, which also just brought on former Patagonia CEO Rose Marcario to its board.",
-      "image": "https://imgproxy.divecdn.com/oG76SH0icIr4ycShT3IDjYj6uJR65i2oZKuY0ggFTxQ/g:nowe:0:48/c:640:361/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9iZW5kX3JldGFpbF8tXzcuanBlZw==.webp",
-      "link": "https://www.retaildive.com/news/rei-hires-foot-locker-exec-kim-waldmann-patagonia-rose-marcario-board/813878/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-05T11:13:00-05:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2922,
-      "signals": {
-        "score": 0.2922,
-        "recency": 0.04878375770154666,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1239,13 +1285,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2921,
+      "score": 0.2912,
       "signals": {
-        "score": 0.2921,
-        "recency": 0.036520012077497346,
+        "score": 0.2912,
+        "recency": 0.03261666789772883,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "foot locker exec jumps to rei",
+      "title": "Foot Locker exec jumps to REI",
+      "summary": "Kim Waldmann is now chief commercial officer at the outdoor retailer, which also just brought on former Patagonia CEO Rose Marcario to its board.",
+      "image": "https://imgproxy.divecdn.com/oG76SH0icIr4ycShT3IDjYj6uJR65i2oZKuY0ggFTxQ/g:nowe:0:48/c:640:361/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9iZW5kX3JldGFpbF8tXzcuanBlZw==.webp",
+      "link": "https://www.retaildive.com/news/rei-hires-foot-locker-exec-kim-waldmann-patagonia-rose-marcario-board/813878/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-05T11:13:00-05:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2909,
+      "signals": {
+        "score": 0.2909,
+        "recency": 0.04356963574869821,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1262,36 +1331,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2919,
+      "score": 0.2907,
       "signals": {
-        "score": 0.2919,
-        "recency": 0.04778015502428561,
+        "score": 0.2907,
+        "recency": 0.04267330046939897,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the latest aipowered martech news and releases",
-      "title": "The latest AI-powered martech news and releases",
-      "summary": "AI layoffs are spreading across tech \u2014 so if companies truly believe AI can replace workers, maybe it\u2019s time to start with the corner office.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-05T16:57:39+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2908,
-      "signals": {
-        "score": 0.2908,
-        "recency": 0.05522552198610053,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
         "engagement": 0.6
       }
     },
@@ -1308,10 +1354,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2908,
+      "score": 0.2897,
       "signals": {
-        "score": 0.2908,
-        "recency": 0.04329135575903145,
+        "score": 0.2897,
+        "recency": 0.03866427455276798,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1331,10 +1377,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2907,
+      "score": 0.2897,
       "signals": {
-        "score": 0.2907,
-        "recency": 0.03666061356950915,
+        "score": 0.2897,
+        "recency": 0.03274224157391336,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1342,48 +1388,25 @@
       }
     },
     {
-      "id": "dominos redefines celebrity meals in socialfirst campaign",
-      "title": "Domino\u2019s redefines celebrity meals in social-first campaign",
-      "summary": "Ahead of March Madness, the pizza brand is hoping influencers will drive sales.",
-      "image": "https://imgproxy.divecdn.com/-o9BRNa1V944np7WxnaeAYEkzwtknYx_iEh1iTrE4Ao/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9CREUtRGVza3RvcC5qcGc=.webp",
-      "link": "https://www.marketingdive.com/news/dominos-redefines-celebrity-meals-in-social-first-campaign/813877/",
-      "category": "commerce",
+      "id": "the latest aipowered martech news and releases",
+      "title": "The latest AI-powered martech news and releases",
+      "summary": "AI layoffs are spreading across tech \u2014 so if companies truly believe AI can replace workers, maybe it\u2019s time to start with the corner office.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-03-05T11:00:00-05:00",
+      "published_at": "2026-03-05T16:57:39+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.2903,
+      "score": 0.2893,
       "signals": {
-        "score": 0.2903,
-        "recency": 0.047053549883755465,
+        "score": 0.2893,
+        "recency": 0.04932288922240688,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "if youre behind on ai put your 1020 best engineers in a different building today",
-      "title": "If You\u2019re Behind on AI, Put Your 10-20 Best Engineers in a Different Building. Today.",
-      "summary": "Not every B2B company needs to panic right now.",
-      "image": null,
-      "link": "https://www.saastr.com/if-youre-behind-on-ai-put-your-10-20-best-engineers-in-a-different-building-today/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-03-05T15:10:46+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2903,
-      "signals": {
-        "score": 0.2903,
-        "recency": 0.04103917314425902,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.78,
         "engagement": 0.6
       }
     },
@@ -1400,10 +1423,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2892,
+      "score": 0.2882,
       "signals": {
-        "score": 0.2892,
-        "recency": 0.03673196744523633,
+        "score": 0.2882,
+        "recency": 0.032805968980762795,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1423,10 +1446,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.288,
+      "score": 0.2871,
       "signals": {
-        "score": 0.288,
-        "recency": 0.031874157495674675,
+        "score": 0.2871,
+        "recency": 0.028467373103551533,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1446,10 +1469,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2878,
+      "score": 0.2869,
       "signals": {
-        "score": 0.2878,
-        "recency": 0.031069915883076057,
+        "score": 0.2869,
+        "recency": 0.027749090712735285,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1457,45 +1480,22 @@
       }
     },
     {
-      "id": "crowdstrike just had its best quarter ever so much for ai disrupting cybersecurity but the markets want to see acceleration",
-      "title": "CrowdStrike Just Had Its Best Quarter Ever. So Much for AI Disrupting Cybersecurity. But The Markets Want to See \u2026 Acceleration.",
-      "summary": "CrowdStrike at $5.25B ARR just posted its largest quarter of net new ARR ever \u2014 $331M, up 47% year-over-year.",
+      "id": "mens wearhouse grows its audience through a campaign run solely on digital audio",
+      "title": "Men\u2019s Wearhouse Grows Its Audience Through A Campaign Run Solely On Digital Audio",
+      "summary": "It can be hard to measure the effect of advertising on in-person sales.",
       "image": null,
-      "link": "https://www.saastr.com/crowdstrike-just-had-its-best-quarter-ever-so-much-for-ai-disrupting-cybersecurity-but-the-markets-want-to-see-acceleration/",
-      "category": "startup",
+      "link": "https://www.adexchanger.com/marketers/mens-wearhouse-grows-its-audience-through-a-campaign-run-solely-on-digital-audio/",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-03-05T13:29:08+00:00",
+      "published_at": "2026-03-05T14:00:21+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.2877,
+      "score": 0.286,
       "signals": {
-        "score": 0.2877,
-        "recency": 0.030945024851827097,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "mcdonalds reality tvinspired campaign turns kiosks into confessionals",
-      "title": "McDonald\u2019s reality TV-inspired campaign turns kiosks into confessionals",
-      "summary": "The social-heavy effort comes as the chain faces social media and competitor blowback for a video featuring its CEO.",
-      "image": "https://imgproxy.divecdn.com/fQxF7i_HfxyXhGqZKjpn7BJ68u-UdswBX5zdef9KaOU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9GaXJzdF9Kb2JfQ29uZmVzc2lvbmFsX0Jvb3RoX0ludGVyaW9yLmpwZw==.webp",
-      "link": "https://www.marketingdive.com/news/mcdonalds-reality-tv-inspired-campaign-turns-kiosks-into-confessionals/813871/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-05T09:24:00-05:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2875,
-      "signals": {
-        "score": 0.2875,
-        "recency": 0.03603964727662292,
+        "score": 0.286,
+        "recency": 0.030141056863577473,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1515,36 +1515,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2869,
+      "score": 0.2859,
       "signals": {
-        "score": 0.2869,
-        "recency": 0.039725001763131866,
+        "score": 0.2859,
+        "recency": 0.035479100800821985,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "mens wearhouse grows its audience through a campaign run solely on digital audio",
-      "title": "Men\u2019s Wearhouse Grows Its Audience Through A Campaign Run Solely On Digital Audio",
-      "summary": "It can be hard to measure the effect of advertising on in-person sales.",
-      "image": null,
-      "link": "https://www.adexchanger.com/marketers/mens-wearhouse-grows-its-audience-through-a-campaign-run-solely-on-digital-audio/",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-03-05T14:00:21+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2869,
-      "signals": {
-        "score": 0.2869,
-        "recency": 0.03374813650915672,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -1561,10 +1538,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2856,
+      "score": 0.285,
       "signals": {
-        "score": 0.2856,
-        "recency": 0.022231668776859906,
+        "score": 0.285,
+        "recency": 0.01985549609809544,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1584,10 +1561,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2855,
+      "score": 0.2845,
       "signals": {
-        "score": 0.2855,
-        "recency": 0.04012610231519078,
+        "score": 0.2845,
+        "recency": 0.035837330789145645,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.77,
@@ -1607,10 +1584,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2845,
+      "score": 0.2837,
       "signals": {
-        "score": 0.2845,
-        "recency": 0.029919442938998998,
+        "score": 0.2837,
+        "recency": 0.026721583003738524,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "seller central ai remakes data analysis",
+      "title": "Seller Central AI Remakes Data Analysis",
+      "summary": "The new \"dynamic canvas experience\" hints at a broader shift from reporting to conversational business intelligence.",
+      "image": null,
+      "link": "https://www.practicalecommerce.com/seller-central-ai-remakes-data-analysis",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-05T13:09:43+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2835,
+      "signals": {
+        "score": 0.2835,
+        "recency": 0.026186397841118043,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1628,10 +1628,10 @@
       "published_at": "2026-03-06T01:32:07+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2776,
+      "score": 0.2715,
       "signals": {
-        "score": 0.2776,
-        "recency": 0.23055726628323703,
+        "score": 0.2715,
+        "recency": 0.20591476721888066,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1651,36 +1651,13 @@
       "keywords": [
         "game"
       ],
-      "score": 0.2722,
+      "score": 0.2709,
       "signals": {
-        "score": 0.2722,
-        "recency": 0.048747634965173675,
+        "score": 0.2709,
+        "recency": 0.043537373894749896,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "how wynn slots improved retention with customer data infrastructure for gaming analytics",
-      "title": "How Wynn Slots improved retention with customer data infrastructure for gaming analytics",
-      "summary": "Learn how Wynn Slots built a warehouse-first architecture with RudderStack and BigQuery ML to analyze billions of player events and improve retention.",
-      "image": null,
-      "link": "https://www.rudderstack.com/blog/wynn-slots-gaming-analytics-customer-data-infrastructure",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-03-05T17:46:19+00:00",
-      "source_count": 1,
-      "keywords": [
-        "bill"
-      ],
-      "score": 0.2713,
-      "signals": {
-        "score": 0.2713,
-        "recency": 0.06321934755073666,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.77,
         "engagement": 0.4
       }
     },
@@ -1695,10 +1672,10 @@
       "published_at": "2026-03-06T00:23:34+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2676,
+      "score": 0.2626,
       "signals": {
-        "score": 0.2676,
-        "recency": 0.19058201153258758,
+        "score": 0.2626,
+        "recency": 0.17021216105428844,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1716,10 +1693,10 @@
       "published_at": "2026-03-05T23:57:02+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2643,
+      "score": 0.2595,
       "signals": {
-        "score": 0.2643,
-        "recency": 0.17704056815972716,
+        "score": 0.2595,
+        "recency": 0.15811805877383933,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1737,10 +1714,10 @@
       "published_at": "2026-03-05T21:33:24+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2557,
+      "score": 0.2525,
       "signals": {
-        "score": 0.2557,
-        "recency": 0.11879477488037707,
+        "score": 0.2525,
+        "recency": 0.10609771190755433,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1758,10 +1735,10 @@
       "published_at": "2026-03-05T20:45:38+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.252,
+      "score": 0.2492,
       "signals": {
-        "score": 0.252,
-        "recency": 0.10403342464125251,
+        "score": 0.2492,
+        "recency": 0.09291408925568093,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1779,10 +1756,10 @@
       "published_at": "2026-03-05T20:34:37+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2512,
+      "score": 0.2485,
       "signals": {
-        "score": 0.2512,
-        "recency": 0.10089802834006052,
+        "score": 0.2485,
+        "recency": 0.0901138114335725,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1800,10 +1777,10 @@
       "published_at": "2026-03-05T20:32:57+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2511,
+      "score": 0.2484,
       "signals": {
-        "score": 0.2511,
-        "recency": 0.10043198746920412,
+        "score": 0.2484,
+        "recency": 0.08969758209938622,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1821,10 +1798,10 @@
       "published_at": "2026-03-05T18:35:01+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2441,
+      "score": 0.2422,
       "signals": {
-        "score": 0.2441,
-        "recency": 0.07237697067652224,
+        "score": 0.2422,
+        "recency": 0.06464115102126107,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1842,10 +1819,10 @@
       "published_at": "2026-03-05T18:06:55+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2427,
+      "score": 0.2409,
       "signals": {
-        "score": 0.2427,
-        "recency": 0.06694240405101257,
+        "score": 0.2409,
+        "recency": 0.05978744356858607,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1863,10 +1840,10 @@
       "published_at": "2026-03-05T19:17:39+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2419,
+      "score": 0.2397,
       "signals": {
-        "score": 0.2419,
-        "recency": 0.0814764555977644,
+        "score": 0.2397,
+        "recency": 0.07276806174316154,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1884,10 +1861,10 @@
       "published_at": "2026-03-05T17:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2399,
+      "score": 0.2384,
       "signals": {
-        "score": 0.2399,
-        "recency": 0.055587201117467615,
+        "score": 0.2384,
+        "recency": 0.04964591124354715,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1905,10 +1882,10 @@
       "published_at": "2026-03-05T13:42:00-05:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2384,
+      "score": 0.2365,
       "signals": {
-        "score": 0.2384,
-        "recency": 0.0737946556532632,
+        "score": 0.2365,
+        "recency": 0.06590731051682301,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1926,10 +1903,10 @@
       "published_at": "2026-03-05T12:38:00-05:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2354,
+      "score": 0.2338,
       "signals": {
-        "score": 0.2354,
-        "recency": 0.06177560432982394,
+        "score": 0.2338,
+        "recency": 0.05517288346815479,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1947,31 +1924,10 @@
       "published_at": "2026-03-05T12:17:00-05:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2346,
+      "score": 0.233,
       "signals": {
-        "score": 0.2346,
-        "recency": 0.0582751175016813,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "adweek commerce advantage amazon and walmart at the top while the rest battle for scraps",
-      "title": "ADWEEK Commerce Advantage: Amazon and Walmart at the Top, While the Rest Battle for Scraps",
-      "summary": "The bigger are getting bigger in advertising and technology.",
-      "image": null,
-      "link": "https://www.adweek.com/commerce/adweek-commerce-advantage-amazon-and-walmart-at-the-top-while-the-rest-battle-for-scraps/",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-03-05T16:20:48+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2325,
-      "signals": {
-        "score": 0.2325,
-        "recency": 0.04985227289933971,
+        "score": 0.233,
+        "recency": 0.052046536847249594,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1989,10 +1945,52 @@
       "published_at": "2026-03-05T11:23:00-05:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2325,
+      "score": 0.2312,
       "signals": {
-        "score": 0.2325,
-        "recency": 0.05015785846080459,
+        "score": 0.2312,
+        "recency": 0.04479686940972839,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "adweek commerce advantage amazon and walmart at the top while the rest battle for scraps",
+      "title": "ADWEEK Commerce Advantage: Amazon and Walmart at the Top, While the Rest Battle for Scraps",
+      "summary": "The bigger are getting bigger in advertising and technology.",
+      "image": null,
+      "link": "https://www.adweek.com/commerce/adweek-commerce-advantage-amazon-and-walmart-at-the-top-while-the-rest-battle-for-scraps/",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-03-05T16:20:48+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2311,
+      "signals": {
+        "score": 0.2311,
+        "recency": 0.04452394554673813,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "stop treating revenue enablement platforms as set and forget",
+      "title": "Stop Treating Revenue Enablement Platforms As \u201cSet And Forget\u201d",
+      "summary": "Revenue enablement platforms aren\u2019t plug\u2011and\u2011play solutions that deliver value on day one.",
+      "image": null,
+      "link": "https://www.forrester.com/blogs/stop-treating-revenue-enablement-platforms-as-set-and-forget/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-05T16:14:50+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2309,
+      "signals": {
+        "score": 0.2309,
+        "recency": 0.04379208409160869,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2010,13 +2008,34 @@
       "published_at": "2026-03-05T16:41:15+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2317,
+      "score": 0.2303,
       "signals": {
-        "score": 0.2317,
-        "recency": 0.0527661372864853,
+        "score": 0.2303,
+        "recency": 0.04712636930313958,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "three surprising insightsfromthe forrester wave merchant payment providers q1 2026",
+      "title": "Three Surprising Insights\u00a0From\u00a0The Forrester Wave\u2122: Merchant Payment Providers, Q1 2026",
+      "summary": "Learn about three takeaways from our just-published report, \u201cThe Forrester Wave\u2122: Merchant Payment Providers, Q1 2026.\u201d",
+      "image": null,
+      "link": "https://www.forrester.com/blogs/three-surprising-insights-from-forresters-payment-providers-wave/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-05T15:23:51+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2295,
+      "signals": {
+        "score": 0.2295,
+        "recency": 0.038009369768082765,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -2031,10 +2050,10 @@
       "published_at": "2026-03-05T14:28:42+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2291,
+      "score": 0.2282,
       "signals": {
-        "score": 0.2291,
-        "recency": 0.03651324973845964,
+        "score": 0.2282,
+        "recency": 0.03261062833328026,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2052,10 +2071,31 @@
       "published_at": "2026-03-05T09:22:00-05:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.229,
+      "score": 0.228,
       "signals": {
-        "score": 0.229,
-        "recency": 0.035839982152860536,
+        "score": 0.228,
+        "recency": 0.03200932115958075,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "week of feb 23 cable news ratings viewers turn to cable during iran war",
+      "title": "Week of Feb. 23 Cable News Ratings: Viewers Turn to Cable During Iran War",
+      "summary": "All three networks had over a million total viewers during primetime.",
+      "image": "https://static-www.adweek.com/wp-content/uploads/2025/11/new-cable-news-ratings-2025.jpg?w=1024",
+      "link": "https://www.adweek.com/tvnewser/week-of-feb-23-2026-cable-news-ratings/",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-03-05T13:58:50+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2275,
+      "signals": {
+        "score": 0.2275,
+        "recency": 0.030014340819770464,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2073,55 +2113,13 @@
       "published_at": "2026-03-05T15:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2285,
+      "score": 0.2274,
       "signals": {
-        "score": 0.2285,
-        "recency": 0.03982997006782788,
+        "score": 0.2274,
+        "recency": 0.03557284984796885,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "week of feb 23 cable news ratings viewers turn to cable during iran war",
-      "title": "Week of Feb. 23 Cable News Ratings: Viewers Turn to Cable During Iran War",
-      "summary": "All three networks had over a million total viewers during primetime.",
-      "image": "https://static-www.adweek.com/wp-content/uploads/2025/11/new-cable-news-ratings-2025.jpg?w=1024",
-      "link": "https://www.adweek.com/tvnewser/week-of-feb-23-2026-cable-news-ratings/",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-03-05T13:58:50+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2284,
-      "signals": {
-        "score": 0.2284,
-        "recency": 0.033606255938622855,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "how much wildfire prevention is too much",
-      "title": "How much wildfire prevention is too much?",
-      "summary": "The race to prevent the worst wildfires has been an increasingly high-tech one.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/03/05/1133960/wildfire-prevention-limits/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-05T11:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2281,
-      "signals": {
-        "score": 0.2281,
-        "recency": 0.020449388483378562,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
         "engagement": 0.4
       }
     },
@@ -2136,10 +2134,10 @@
       "published_at": "2026-03-05T13:40:44+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.228,
+      "score": 0.2271,
       "signals": {
-        "score": 0.228,
-        "recency": 0.03195838093500602,
+        "score": 0.2271,
+        "recency": 0.028542594544991518,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2157,34 +2155,13 @@
       "published_at": "2026-03-05T13:40:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.225,
+      "score": 0.2241,
       "signals": {
-        "score": 0.225,
-        "recency": 0.0318933467903667,
+        "score": 0.2241,
+        "recency": 0.028484511401612157,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "what clickable reels links and hashtag limits mean for your 2026 instagram strategy",
-      "title": "What Clickable Reels Links and Hashtag Limits Mean for Your 2026 Instagram Strategy",
-      "summary": "Are hashtags and reels part of your Instagram marketing?",
-      "image": "https://www.socialmediaexaminer.com/wp-content/uploads/2026/02/SMMP708_PRIMARY.jpg",
-      "link": "https://www.socialmediaexaminer.com/what-clickable-reels-links-and-hashtag-limits-mean-for-your-2026-instagram-strategy/",
-      "category": "social-media",
-      "geo": "global",
-      "published_at": "2026-03-05T11:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2236,
-      "signals": {
-        "score": 0.2236,
-        "recency": 0.020449388483378562,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.4
       }
     },
@@ -2199,10 +2176,10 @@
       "published_at": "2026-03-05T12:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.223,
+      "score": 0.2224,
       "signals": {
-        "score": 0.223,
-        "recency": 0.02415809802157409,
+        "score": 0.2224,
+        "recency": 0.021576024086147,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
