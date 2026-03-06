@@ -70,6 +70,8 @@ const CATEGORY_MAP = {
     'social-media': 'media',
     ai: 'ai',
     commerce: 'commerce',
+    startup: 'startup',
+    startups: 'startup',
 };
 
 const CATEGORY_LABELS = {
@@ -79,6 +81,7 @@ const CATEGORY_LABELS = {
     media: 'MEDIA',
     ai: 'AI',
     commerce: 'COMMERCE',
+    startup: 'STARTUP',
 };
 
 const state = {
