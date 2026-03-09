@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-09T19:08:37.748503+00:00",
-  "sources_scanned": 503,
-  "feeds_polled": 30,
+  "generated_at": "2026-03-09T19:52:50.299456+00:00",
+  "sources_scanned": 493,
+  "feeds_polled": 29,
   "feed_pool": 35,
   "continent_counts": {
-    "NA": 343,
+    "NA": 333,
     "SA": 0,
     "EU": 160,
     "AF": 0,
@@ -13,8 +13,32 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 86,
+  "clusters": 89,
   "trends": [
+    {
+      "id": "dify secures 30 million to help businesses deploy ai agents",
+      "title": "Dify Secures $30 Million to Help Businesses Deploy AI Agents",
+      "summary": "Dify raised $30 million in a Series Pre-A funding round to accelerate work on its open-source platform for agentic workflow development.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Dify.png?w=457",
+      "link": "https://www.pymnts.com/news/fintech-investments/2026/dify-secures-30-million-dollars-help-businesses-deploy-ai-agents/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-09T19:22:48+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "series"
+      ],
+      "score": 0.55,
+      "signals": {
+        "score": 0.55,
+        "recency": 0.9199464753217342,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
     {
       "id": "periwinkle is making selfhosted social media on blueskys at protocol even easier",
       "title": "Periwinkle is making self-hosted social media on Bluesky\u2019s AT Protocol even easier",
@@ -28,10 +52,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5642,
+      "score": 0.5391,
       "signals": {
-        "score": 0.5642,
-        "recency": 0.8698112043638871,
+        "score": 0.5391,
+        "recency": 0.7692937581520857,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -53,14 +77,58 @@
         "artificial intelligence",
         "govern"
       ],
-      "score": 0.5543,
+      "score": 0.5319,
       "signals": {
-        "score": 0.5543,
-        "recency": 0.7772969698426628,
+        "score": 0.5319,
+        "recency": 0.6874706880417797,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "anthropic launches code review tool to check flood of aigenerated code",
+      "title": "Anthropic launches code review tool to check flood of AI-generated code",
+      "summary": "Anthropic launched Code Review in Claude Code, a multi-agent system that automatically analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-09T19:41:34+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5283,
+      "signals": {
+        "score": 0.5283,
+        "recency": 0.9691749271588597,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "bluesky ceo jay graber steps down",
+      "title": "Bluesky CEO Jay Graber steps down",
+      "summary": "Bluesky's board will search for a replacement while Graber becomes Chief Innovation Officer.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/09/bluesky-ceo-jay-graber-steps-down/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-09T19:32:05+00:00",
+      "source_count": 2,
+      "keywords": [],
+      "score": 0.5227,
+      "signals": {
+        "score": 0.5227,
+        "recency": 0.9439776843341469,
+        "keyword_volume": 0.0,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.4
       }
     },
     {
@@ -77,11 +145,34 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.5421,
+      "score": 0.5165,
       "signals": {
-        "score": 0.5421,
-        "recency": 0.8885747496450771,
+        "score": 0.5165,
+        "recency": 0.7858889436282028,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "3 ai search changes every marketer needs a plan for in q2 via sejournal mattgsouthern",
+      "title": "3 AI Search Changes Every Marketer Needs A Plan For In Q2 via @sejournal, @MattGSouthern",
+      "summary": "AI search changed how people find you, click on you, and convert.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/3-ai-search-changes-every-marketer-needs-a-plan-for-in-q2/569129/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-09T19:23:40+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5105,
+      "signals": {
+        "score": 0.5105,
+        "recency": 0.9221638292470645,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -101,10 +192,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.5307,
+      "score": 0.5063,
       "signals": {
-        "score": 0.5307,
-        "recency": 0.8426597164307378,
+        "score": 0.5063,
+        "recency": 0.7452799605754162,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -126,10 +217,10 @@
         "artificial intelligence",
         "series"
       ],
-      "score": 0.5077,
+      "score": 0.4907,
       "signals": {
-        "score": 0.5077,
-        "recency": 0.5909600417352312,
+        "score": 0.4907,
+        "recency": 0.5226672973897649,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -149,10 +240,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5007,
+      "score": 0.4752,
       "signals": {
-        "score": 0.5007,
-        "recency": 0.8826297568444778,
+        "score": 0.4752,
+        "recency": 0.7806309682988267,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -173,106 +264,13 @@
         "ai",
         "streaming"
       ],
-      "score": 0.4913,
+      "score": 0.4713,
       "signals": {
-        "score": 0.4913,
-        "recency": 0.691062235338392,
+        "score": 0.4713,
+        "recency": 0.6112014440297371,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "openai acquires promptfoo to secure its ai agents",
-      "title": "OpenAI acquires Promptfoo to secure its AI agents",
-      "summary": "This deal underscores how frontier labs are scrambling to prove their technology can be used safely in critical business operations.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-09T17:49:04+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4864,
-      "signals": {
-        "score": 0.4864,
-        "recency": 0.8017111683956163,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "gm figured out how to navigate ev uncertainty with the chevy bolt",
-      "title": "GM figured out how to navigate EV uncertainty with the Chevy Bolt",
-      "summary": "The 2027 Chevy Bolt might not be a groundbreaking new EV, but incremental improvements have made it better without inflating the price.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/09/gm-figured-out-how-to-navigate-ev-uncertainty-with-the-chevy-bolt/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-09T17:29:58+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4761,
-      "signals": {
-        "score": 0.4761,
-        "recency": 0.7602846086831163,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "anthropic sues defense department over supply chain risk designation",
-      "title": "Anthropic sues Defense Department over supply chain risk designation",
-      "summary": "Anthropic filed suit against the Department of Defense on Monday after the agency labeled it a supply chain risk.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-09T17:25:40+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4738,
-      "signals": {
-        "score": 0.4738,
-        "recency": 0.7512574509298144,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "russian government hackers targeting signal and whatsapp users dutch spies warn",
-      "title": "Russian government hackers targeting Signal and WhatsApp users, Dutch spies warn",
-      "summary": "Dutch intelligence is accusing Russia-backed hackers of running a \u201clarge-scale global\u201d hacking campaign against Signal and WhatsApp users.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/09/russian-government-hackers-targeting-signal-and-whatsapp-users-dutch-spies-warn/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-09T15:56:03+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "govern"
-      ],
-      "score": 0.4724,
-      "signals": {
-        "score": 0.4724,
-        "recency": 0.5857032246167312,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -298,24 +296,96 @@
       }
     },
     {
-      "id": "it looks like the doj isnt going to break up live nation and ticketmaster",
-      "title": "It looks like the DOJ isn\u2019t going to break up Live Nation and Ticketmaster",
-      "summary": "The DOJ and Live Nation agreed to a tentative settlement, but dozens of State Attorneys General don't want to drop the lawsuit.",
+      "id": "openai acquires promptfoo to secure its ai agents",
+      "title": "OpenAI acquires Promptfoo to secure its AI agents",
+      "summary": "This deal underscores how frontier labs are scrambling to prove their technology can be used safely in critical business operations.",
       "image": null,
-      "link": "https://techcrunch.com/2026/03/09/it-looks-like-the-doj-isnt-going-to-break-up-live-nation-and-ticketmaster/",
+      "link": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/",
       "category": "technology",
       "geo": "global",
-      "published_at": "2026-03-09T18:49:48+00:00",
+      "published_at": "2026-03-09T17:49:04+00:00",
       "source_count": 1,
-      "keywords": [],
+      "keywords": [
+        "ai"
+      ],
       "score": 0.4633,
       "signals": {
         "score": 0.4633,
-        "recency": 0.9490411010712512,
-        "keyword_volume": 0.0,
+        "recency": 0.7090635238926448,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "russian government hackers targeting signal and whatsapp users dutch spies warn",
+      "title": "Russian government hackers targeting Signal and WhatsApp users, Dutch spies warn",
+      "summary": "Dutch intelligence is accusing Russia-backed hackers of running a \u201clarge-scale global\u201d hacking campaign against Signal and WhatsApp users.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/09/russian-government-hackers-targeting-signal-and-whatsapp-users-dutch-spies-warn/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-09T15:56:03+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "govern"
+      ],
+      "score": 0.4555,
+      "signals": {
+        "score": 0.4555,
+        "recency": 0.5180179705281196,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "gm figured out how to navigate ev uncertainty with the chevy bolt",
+      "title": "GM figured out how to navigate EV uncertainty with the Chevy Bolt",
+      "summary": "The 2027 Chevy Bolt might not be a groundbreaking new EV, but incremental improvements have made it better without inflating the price.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/09/gm-figured-out-how-to-navigate-ev-uncertainty-with-the-chevy-bolt/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-09T17:29:58+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4541,
+      "signals": {
+        "score": 0.4541,
+        "recency": 0.6724243156959102,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "anthropic sues defense department over supply chain risk designation",
+      "title": "Anthropic sues Defense Department over supply chain risk designation",
+      "summary": "Anthropic filed suit against the Department of Defense on Monday after the agency labeled it a supply chain risk.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-09T17:25:40+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4521,
+      "signals": {
+        "score": 0.4521,
+        "recency": 0.6644403577075236,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
       }
     },
     {
@@ -332,14 +402,35 @@
         "ai",
         "bill"
       ],
-      "score": 0.4547,
+      "score": 0.4398,
       "signals": {
-        "score": 0.4547,
-        "recency": 0.5147797527283432,
+        "score": 0.4398,
+        "recency": 0.4552905833014703,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "it looks like the doj isnt going to break up live nation and ticketmaster",
+      "title": "It looks like the DOJ isn\u2019t going to break up Live Nation and Ticketmaster",
+      "summary": "The DOJ and Live Nation agreed to a tentative settlement, but dozens of State Attorneys General don't want to drop the lawsuit.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/09/it-looks-like-the-doj-isnt-going-to-break-up-live-nation-and-ticketmaster/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-09T18:49:48+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4358,
+      "signals": {
+        "score": 0.4358,
+        "recency": 0.8393676600404668,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       }
     },
     {
@@ -353,10 +444,10 @@
       "published_at": "2026-03-09T18:41:35+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.4519,
+      "score": 0.4251,
       "signals": {
-        "score": 0.4519,
-        "recency": 0.9276254426465965,
+        "score": 0.4251,
+        "recency": 0.8204268459072982,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -376,10 +467,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.444,
+      "score": 0.4251,
       "signals": {
-        "score": 0.444,
-        "recency": 0.6560210312665264,
+        "score": 0.4251,
+        "recency": 0.5802096846279554,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -399,10 +490,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4427,
+      "score": 0.4239,
       "signals": {
-        "score": 0.4427,
-        "recency": 0.650817903741149,
+        "score": 0.4239,
+        "recency": 0.5756078428626847,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -422,10 +513,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4369,
+      "score": 0.4188,
       "signals": {
-        "score": 0.4369,
-        "recency": 0.6277354214137223,
+        "score": 0.4188,
+        "recency": 0.5551928269511209,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -445,35 +536,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4336,
+      "score": 0.4159,
       "signals": {
-        "score": 0.4336,
-        "recency": 0.6144229834104599,
+        "score": 0.4159,
+        "recency": 0.5434188058643428,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "fed says americans hold dim view of future job prospects",
-      "title": "Fed Says Americans Hold Dim View of Future Job Prospects",
-      "summary": "Americans\u2019 expectations about their ability to switch jobs is at an all-time low.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2021/05/jobs-unemployment-economy.jpg?w=457",
-      "link": "https://www.pymnts.com/economy/2026/fed-says-americans-hold-dim-view-of-future-job-prospects/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-09T18:07:21+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4309,
-      "signals": {
-        "score": 0.4309,
-        "recency": 0.8434793673096604,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -489,10 +559,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4252,
+      "score": 0.4086,
       "signals": {
-        "score": 0.4252,
-        "recency": 0.5747171653724878,
+        "score": 0.4086,
+        "recency": 0.508301486352147,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -512,14 +582,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4251,
+      "score": 0.4081,
       "signals": {
-        "score": 0.4251,
-        "recency": 0.5862186531871606,
+        "score": 0.4081,
+        "recency": 0.5184738349502095,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "fed says americans hold dim view of future job prospects",
+      "title": "Fed Says Americans Hold Dim View of Future Job Prospects",
+      "summary": "Americans\u2019 expectations about their ability to switch jobs is at an all-time low.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2021/05/jobs-unemployment-economy.jpg?w=457",
+      "link": "https://www.pymnts.com/economy/2026/fed-says-americans-hold-dim-view-of-future-job-prospects/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-09T18:07:21+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4065,
+      "signals": {
+        "score": 0.4065,
+        "recency": 0.7460048906543294,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -535,10 +626,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4197,
+      "score": 0.4036,
       "signals": {
-        "score": 0.4197,
-        "recency": 0.5589983670718751,
+        "score": 0.4036,
+        "recency": 0.49439918967254004,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -546,46 +637,24 @@
       }
     },
     {
-      "id": "xprize founder peter diamandis launches new contest to manifest a new star trek",
-      "title": "Xprize founder Peter Diamandis launches new contest to manifest a new Star Trek",
-      "summary": "The famed author and investor has launched the Future Vision Xprize with sponsors like Google, Marc Benioff, Ben Horowitz, to fund optimistic sci-fi films.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/09/xprize-founder-peter-diamandis-launches-new-contest-to-manifest-a-new-star-trek/",
-      "category": "technology",
+      "id": "costco ties digital personalization to 470m in sales growth",
+      "title": "Costco ties digital personalization to $470M in sales growth",
+      "summary": "Personalized product recommendation carousels and modernized display pages are driving e-commerce sales and traffic, CFO Gary Millerchip said.",
+      "image": "https://imgproxy.divecdn.com/74uTdbS6Yg5qN0seziJYmLiCEbSxGzqOQ-UaTKwQydE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xODU4MDIzODYxLmpwZw==.webp",
+      "link": "https://www.retaildive.com/news/costco-digital-personalization-sales-growth/814119/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-09T16:00:00+00:00",
+      "published_at": "2026-03-09T09:00:00-04:00",
       "source_count": 1,
       "keywords": [
-        "film"
+        "ai",
+        "chip"
       ],
-      "score": 0.414,
+      "score": 0.3994,
       "signals": {
-        "score": 0.414,
-        "recency": 0.5921650761608398,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "tariff refund claims could expose major supplier enablement gaps",
-      "title": "Tariff Refund Claims Could Expose Major Supplier Enablement Gaps",
-      "summary": "First came the tariffs and their unpredictability, now come the refunds.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2025/04/tariffs-CBP-Customs-and-Border-Patrol.jpg?w=457",
-      "link": "https://www.pymnts.com/legal/2026/tariff-refund-claims-could-expose-major-supplier-enablement-gaps/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-09T15:23:06+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4136,
-      "signals": {
-        "score": 0.4136,
-        "recency": 0.5344752587895512,
-        "keyword_volume": 0.2,
+        "score": 0.3994,
+        "recency": 0.3176601676013246,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -604,10 +673,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4122,
+      "score": 0.3973,
       "signals": {
-        "score": 0.4122,
-        "recency": 0.5168334243957964,
+        "score": 0.3973,
+        "recency": 0.4571069277991488,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -627,10 +696,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4115,
+      "score": 0.397,
       "signals": {
-        "score": 0.4115,
-        "recency": 0.502046551913487,
+        "score": 0.397,
+        "recency": 0.4440288613794934,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -650,10 +719,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4114,
+      "score": 0.397,
       "signals": {
-        "score": 0.4114,
-        "recency": 0.5017909451489259,
+        "score": 0.397,
+        "recency": 0.4438027931390157,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -661,27 +730,26 @@
       }
     },
     {
-      "id": "costco ties digital personalization to 470m in sales growth",
-      "title": "Costco ties digital personalization to $470M in sales growth",
-      "summary": "Personalized product recommendation carousels and modernized display pages are driving e-commerce sales and traffic, CFO Gary Millerchip said.",
-      "image": "https://imgproxy.divecdn.com/74uTdbS6Yg5qN0seziJYmLiCEbSxGzqOQ-UaTKwQydE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xODU4MDIzODYxLmpwZw==.webp",
-      "link": "https://www.retaildive.com/news/costco-digital-personalization-sales-growth/814119/",
-      "category": "brands",
+      "id": "xprize founder peter diamandis launches new contest to manifest a new star trek",
+      "title": "Xprize founder Peter Diamandis launches new contest to manifest a new \u2018Star Trek\u2019",
+      "summary": "The famed author and investor has launched the Future Vision Xprize with sponsors like Google, Marc Benioff, and Ben Horowitz to fund optimistic sci-fi films.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/09/xprize-founder-peter-diamandis-launches-new-contest-to-manifest-a-new-star-trek/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-03-09T09:00:00-04:00",
+      "published_at": "2026-03-09T16:00:00+00:00",
       "source_count": 1,
       "keywords": [
-        "ai",
-        "chip"
+        "film"
       ],
-      "score": 0.4098,
+      "score": 0.3969,
       "signals": {
-        "score": 0.4098,
-        "recency": 0.35916627430261605,
-        "keyword_volume": 0.4,
+        "score": 0.3969,
+        "recency": 0.5237330751784716,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
+        "authority": 0.84,
+        "engagement": 0.4
       }
     },
     {
@@ -697,10 +765,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4064,
+      "score": 0.3918,
       "signals": {
-        "score": 0.4064,
-        "recency": 0.5054515092491064,
+        "score": 0.3918,
+        "recency": 0.44704033376789726,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -720,10 +788,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.406,
+      "score": 0.3914,
       "signals": {
-        "score": 0.406,
-        "recency": 0.5038161233128189,
+        "score": 0.3914,
+        "recency": 0.44559393690999993,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -743,10 +811,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3977,
+      "score": 0.3839,
       "signals": {
-        "score": 0.3977,
-        "recency": 0.4768103268667414,
+        "score": 0.3839,
+        "recency": 0.4217089943665354,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -766,10 +834,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3965,
+      "score": 0.3837,
       "signals": {
-        "score": 0.3965,
-        "recency": 0.44182552773114114,
+        "score": 0.3837,
+        "recency": 0.3907671216127758,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -789,10 +857,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3928,
+      "score": 0.3796,
       "signals": {
-        "score": 0.3928,
-        "recency": 0.45735143857134036,
+        "score": 0.3796,
+        "recency": 0.40449882136447773,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -812,10 +880,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3922,
+      "score": 0.3791,
       "signals": {
-        "score": 0.3922,
-        "recency": 0.454817642086476,
+        "score": 0.3791,
+        "recency": 0.4022578364122784,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -835,10 +903,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3897,
+      "score": 0.377,
       "signals": {
-        "score": 0.3897,
-        "recency": 0.43868667807132733,
+        "score": 0.377,
+        "recency": 0.3879910048658797,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -858,10 +926,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3884,
+      "score": 0.3762,
       "signals": {
-        "score": 0.3884,
-        "recency": 0.4216416620506724,
+        "score": 0.3762,
+        "recency": 0.37291575133211796,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -881,10 +949,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3824,
+      "score": 0.3705,
       "signals": {
-        "score": 0.3824,
-        "recency": 0.40942660771956213,
+        "score": 0.3705,
+        "recency": 0.36211229765703695,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -904,10 +972,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.382,
+      "score": 0.3699,
       "signals": {
-        "score": 0.382,
-        "recency": 0.4201801672875371,
+        "score": 0.3699,
+        "recency": 0.371623150370885,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -925,10 +993,10 @@
       "published_at": "2026-03-09T16:14:30+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3801,
+      "score": 0.3623,
       "signals": {
-        "score": 0.3801,
-        "recency": 0.616503018424473,
+        "score": 0.3623,
+        "recency": 0.5452584670977115,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -946,10 +1014,10 @@
       "published_at": "2026-03-09T16:21:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3784,
+      "score": 0.3603,
       "signals": {
-        "score": 0.3784,
-        "recency": 0.6277354214137223,
+        "score": 0.3603,
+        "recency": 0.5551928269511209,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -967,55 +1035,13 @@
       "published_at": "2026-03-09T12:24:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3782,
+      "score": 0.36,
       "signals": {
-        "score": 0.3782,
-        "recency": 0.6329884069661181,
+        "score": 0.36,
+        "recency": 0.5598387650315307,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "qualcomms partnership with neura robotics is just the beginning",
-      "title": "Qualcomm\u2019s partnership with Neura Robotics is just the beginning",
-      "summary": "Neura Robotics is going to build new robots on top of Qualcomm's new IQ10 processors that were released at CES.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/09/qualcomms-partnership-with-neura-robotics-is-just-the-beginning/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-09T15:58:11+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3733,
-      "signals": {
-        "score": 0.3733,
-        "recency": 0.5891843628368627,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "salt typhoon is hacking the worlds phone and internet giants heres everywhere thats been hit",
-      "title": "Salt Typhoon is hacking the world\u2019s phone and internet giants \u2014 here\u2019s everywhere that\u2019s been hit",
-      "summary": "Salt Typhoon is by far one of the most prolific hacking groups in recent years, breaching some of the top American phone companies.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/09/salt-typhoon-china-who-has-been-hacked-global-telecom-giants/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-09T15:50:02+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.37,
-      "signals": {
-        "score": 0.37,
-        "recency": 0.5759957347353364,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.4
       }
     },
@@ -1032,10 +1058,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3688,
+      "score": 0.3582,
       "signals": {
-        "score": 0.3688,
-        "recency": 0.3672370906727146,
+        "score": 0.3582,
+        "recency": 0.3247983012854602,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1055,14 +1081,56 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3677,
+      "score": 0.3576,
       "signals": {
-        "score": 0.3677,
-        "recency": 0.350736574212582,
+        "score": 0.3576,
+        "recency": 0.31020462365130175,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "qualcomms partnership with neura robotics is just the beginning",
+      "title": "Qualcomm\u2019s partnership with Neura Robotics is just the beginning",
+      "summary": "Neura Robotics is going to build new robots on top of Qualcomm's new IQ10 processors that were released at CES.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/09/qualcomms-partnership-with-neura-robotics-is-just-the-beginning/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-09T15:58:11+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3563,
+      "signals": {
+        "score": 0.3563,
+        "recency": 0.5210968201572991,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "salt typhoon is hacking the worlds phone and internet giants heres everywhere thats been hit",
+      "title": "Salt Typhoon is hacking the world\u2019s phone and internet giants \u2014 here\u2019s everywhere that\u2019s been hit",
+      "summary": "Salt Typhoon is by far one of the most prolific hacking groups in recent years, breaching some of the top American phone companies.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/09/salt-typhoon-china-who-has-been-hacked-global-telecom-giants/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-09T15:50:02+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3534,
+      "signals": {
+        "score": 0.3534,
+        "recency": 0.5094323012063006,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       }
     },
     {
@@ -1078,10 +1146,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.361,
+      "score": 0.3513,
       "signals": {
-        "score": 0.361,
-        "recency": 0.33600255839787935,
+        "score": 0.3513,
+        "recency": 0.29717330565735356,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1101,10 +1169,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3576,
+      "score": 0.3483,
       "signals": {
-        "score": 0.3576,
-        "recency": 0.32229011157694337,
+        "score": 0.3483,
+        "recency": 0.2850455017208049,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1124,10 +1192,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.356,
+      "score": 0.3472,
       "signals": {
-        "score": 0.356,
-        "recency": 0.304083994031222,
+        "score": 0.3472,
+        "recency": 0.2689433263086712,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1147,10 +1215,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3546,
+      "score": 0.3458,
       "signals": {
-        "score": 0.3546,
-        "recency": 0.3044361468512172,
+        "score": 0.3458,
+        "recency": 0.26925478351338267,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1170,55 +1238,13 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.3528,
+      "score": 0.3427,
       "signals": {
-        "score": 0.3528,
-        "recency": 0.34700562716730293,
+        "score": 0.3427,
+        "recency": 0.3069048336974252,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "cbp says it cant comply with court order for tariff refunds yet",
-      "title": "CBP says it can\u2019t comply with court order for tariff refunds yet",
-      "summary": "The agency is confident it can implement a process that streamlines returns for now-defunct Trump administration levies in 45 days, according to a court filing.",
-      "image": "https://imgproxy.divecdn.com/9mivfkk6Ch7ii3MCQn9cWQECymCp8PsSpiuSl99xOjc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTk5MTY2NzUzXzEuanBn.webp",
-      "link": "https://www.retaildive.com/news/trump-tariff-refunds-cbp-cant-comply/814174/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-09T11:02:00-04:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.346,
-      "signals": {
-        "score": 0.346,
-        "recency": 0.5040494255190294,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "belk adds michael strahans brand to menswear assortment",
-      "title": "Belk adds Michael Strahan\u2019s brand to menswear assortment",
-      "summary": "The label will offer the department store&rsquo;s customers an assortment of suit separates, blazers, dress shirts, polos and T-shirts.",
-      "image": "https://imgproxy.divecdn.com/S53FufxVnKQKMhJ8Ba-fNu0yf8B8WC3OxE4qJa-WjRY/g:nowe:0:162/c:1199:677/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9CZWxrX0luY19fTWljaGFlbF9TdHJhaGFuLmpwZw==.webp",
-      "link": "https://www.retaildive.com/news/belk-michael-strahan-brand-stores-online/814035/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-09T10:57:00-04:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3443,
-      "signals": {
-        "score": 0.3443,
-        "recency": 0.4970971306375494,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1236,36 +1262,13 @@
         "ai",
         "bill"
       ],
-      "score": 0.3416,
+      "score": 0.3393,
       "signals": {
-        "score": 0.3416,
-        "recency": 0.08036375118879205,
+        "score": 0.3393,
+        "recency": 0.07107672545611529,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "a new wave of mampa shows that retail medias easy growth is gone",
-      "title": "A New Wave of M&amp;A Shows that Retail Media\u2019s Easy Growth Is Gone",
-      "summary": "Companies are in a land grab for data.",
-      "image": null,
-      "link": "https://www.adweek.com/commerce/a-new-wave-of-ma-shows-that-retail-medias-easy-growth-is-gone/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-09T09:58:22+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3342,
-      "signals": {
-        "score": 0.3342,
-        "recency": 0.21685922359904702,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1282,10 +1285,10 @@
       "keywords": [
         "game"
       ],
-      "score": 0.3335,
+      "score": 0.3327,
       "signals": {
-        "score": 0.3335,
-        "recency": 0.026833874694680012,
+        "score": 0.3327,
+        "recency": 0.023732888477505102,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -1293,45 +1296,68 @@
       }
     },
     {
-      "id": "the usability imperative for securing digital asset devices",
-      "title": "The usability imperative for securing digital asset devices",
-      "summary": "When Tony Fadell started working on the iPod, usability often trumped security.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/03/09/1132352/the-usability-imperative-for-securing-digital-asset-devices/",
-      "category": "technology",
+      "id": "cbp says it cant comply with court order for tariff refunds yet",
+      "title": "CBP says it can\u2019t comply with court order for tariff refunds yet",
+      "summary": "The agency is confident it can implement a process that streamlines returns for now-defunct Trump administration levies in 45 days, according to a court filing.",
+      "image": "https://imgproxy.divecdn.com/9mivfkk6Ch7ii3MCQn9cWQECymCp8PsSpiuSl99xOjc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTk5MTY2NzUzXzEuanBn.webp",
+      "link": "https://www.retaildive.com/news/trump-tariff-refunds-cbp-cant-comply/814174/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-09T14:00:00+00:00",
+      "published_at": "2026-03-09T11:02:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3291,
+      "score": 0.3315,
       "signals": {
-        "score": 0.3291,
-        "recency": 0.4243048180975544,
+        "score": 0.3315,
+        "recency": 0.4458002781598029,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.82,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
     {
-      "id": "anheuserbusch boosts marketing efforts through extended mlb tieup",
-      "title": "Anheuser-Busch boosts marketing efforts through extended MLB tie-up",
-      "summary": "The deal, which continues a nearly 50-year partnership, includes&nbsp;MLB.TV integrations,&nbsp;the collective use of athletes and player endorsements and more.",
-      "image": "https://imgproxy.divecdn.com/en1-qZ5aSJetqBVu5TMRBIeb-3fNXp-m0afDloHruA0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy04OTUwOTcxMi5qcGc=.webp",
-      "link": "https://www.marketingdive.com/news/anheuser-busch-boosts-marketing-efforts-through-extended-mlb-tie-up/814111/",
+      "id": "belk adds michael strahans brand to menswear assortment",
+      "title": "Belk adds Michael Strahan\u2019s brand to menswear assortment",
+      "summary": "The label will offer the department store&rsquo;s customers an assortment of suit separates, blazers, dress shirts, polos and T-shirts.",
+      "image": "https://imgproxy.divecdn.com/S53FufxVnKQKMhJ8Ba-fNu0yf8B8WC3OxE4qJa-WjRY/g:nowe:0:162/c:1199:677/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9CZWxrX0luY19fTWljaGFlbF9TdHJhaGFuLmpwZw==.webp",
+      "link": "https://www.retaildive.com/news/belk-michael-strahan-brand-stores-online/814035/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-09T10:07:00-04:00",
+      "published_at": "2026-03-09T10:57:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3267,
+      "score": 0.3299,
       "signals": {
-        "score": 0.3267,
-        "recency": 0.43263592393469036,
+        "score": 0.3299,
+        "recency": 0.43965140696761507,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.79,
+        "authority": 0.8,
         "engagement": 0.4
+      }
+    },
+    {
+      "id": "a new wave of mampa shows that retail medias easy growth is gone",
+      "title": "A New Wave of M&amp;A Shows that Retail Media\u2019s Easy Growth Is Gone",
+      "summary": "Companies are in a land grab for data.",
+      "image": null,
+      "link": "https://www.adweek.com/commerce/a-new-wave-of-ma-shows-that-retail-medias-easy-growth-is-gone/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-09T09:58:22+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3279,
+      "signals": {
+        "score": 0.3279,
+        "recency": 0.1917984572691953,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
       }
     },
     {
@@ -1347,10 +1373,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3261,
+      "score": 0.3208,
       "signals": {
-        "score": 0.3261,
-        "recency": 0.18440211380611876,
+        "score": 0.3208,
+        "recency": 0.16309216808128238,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1370,10 +1396,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3259,
+      "score": 0.3206,
       "signals": {
-        "score": 0.3259,
-        "recency": 0.18363537015715511,
+        "score": 0.3206,
+        "recency": 0.1624140311473234,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1393,10 +1419,10 @@
       "keywords": [
         "series"
       ],
-      "score": 0.3259,
+      "score": 0.3185,
       "signals": {
-        "score": 0.3259,
-        "recency": 0.25768770444319244,
+        "score": 0.3185,
+        "recency": 0.22790870201041277,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1416,13 +1442,55 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.3257,
+      "score": 0.3181,
       "signals": {
-        "score": 0.3257,
-        "recency": 0.26273516614081893,
+        "score": 0.3181,
+        "recency": 0.23237286706027033,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "the usability imperative for securing digital asset devices",
+      "title": "The usability imperative for securing digital asset devices",
+      "summary": "When Tony Fadell started working on the iPod, usability often trumped security.",
+      "image": null,
+      "link": "https://www.technologyreview.com/2026/03/09/1132352/the-usability-imperative-for-securing-digital-asset-devices/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-09T14:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3168,
+      "signals": {
+        "score": 0.3168,
+        "recency": 0.3752711467484711,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "anheuserbusch boosts marketing efforts through extended mlb tieup",
+      "title": "Anheuser-Busch boosts marketing efforts through extended MLB tie-up",
+      "summary": "The deal, which continues a nearly 50-year partnership, includes&nbsp;MLB.TV integrations,&nbsp;the collective use of athletes and player endorsements and more.",
+      "image": "https://imgproxy.divecdn.com/en1-qZ5aSJetqBVu5TMRBIeb-3fNXp-m0afDloHruA0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy04OTUwOTcxMi5qcGc=.webp",
+      "link": "https://www.marketingdive.com/news/anheuser-busch-boosts-marketing-efforts-through-extended-mlb-tie-up/814111/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-09T10:07:00-04:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3142,
+      "signals": {
+        "score": 0.3142,
+        "recency": 0.3826394902313539,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
         "engagement": 0.4
       }
     },
@@ -1437,10 +1505,10 @@
       "published_at": "2026-03-09T13:57:33+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3254,
+      "score": 0.3132,
       "signals": {
-        "score": 0.3254,
-        "recency": 0.4214269917962305,
+        "score": 0.3132,
+        "recency": 0.3727258888815373,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1458,10 +1526,10 @@
       "published_at": "2026-03-09T13:30:12+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3176,
+      "score": 0.3064,
       "signals": {
-        "score": 0.3176,
-        "recency": 0.3905962156225011,
+        "score": 0.3064,
+        "recency": 0.3454579903416702,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1479,10 +1547,10 @@
       "published_at": "2026-03-09T13:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3158,
+      "score": 0.3054,
       "signals": {
-        "score": 0.3158,
-        "recency": 0.35916627430261605,
+        "score": 0.3054,
+        "recency": 0.3176601676013246,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1502,10 +1570,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3016,
+      "score": 0.2993,
       "signals": {
-        "score": 0.3016,
-        "recency": 0.08036375118879205,
+        "score": 0.2993,
+        "recency": 0.07107672545611529,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1525,10 +1593,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3016,
+      "score": 0.2993,
       "signals": {
-        "score": 0.3016,
-        "recency": 0.08036375118879205,
+        "score": 0.2993,
+        "recency": 0.07107672545611529,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1548,35 +1616,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3016,
+      "score": 0.2993,
       "signals": {
-        "score": 0.3016,
-        "recency": 0.08036375118879205,
+        "score": 0.2993,
+        "recency": 0.07107672545611529,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "why direct traffic in ga4 isnt what it looks like",
-      "title": "Why direct traffic in GA4 isn\u2019t what it looks like",
-      "summary": "Direct traffic isn\u2019t always intentional.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/why-direct-traffic-in-ga4-isnt-what-it-looks-like/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-09T12:32:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3001,
-      "signals": {
-        "score": 0.3001,
-        "recency": 0.33228986093133667,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.4
       }
     },
     {
@@ -1592,14 +1639,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2991,
+      "score": 0.2969,
       "signals": {
-        "score": 0.2991,
-        "recency": 0.07654706736037632,
+        "score": 0.2969,
+        "recency": 0.06770110666515303,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "why direct traffic in ga4 isnt what it looks like",
+      "title": "Why direct traffic in GA4 isn\u2019t what it looks like",
+      "summary": "Direct traffic isn\u2019t always intentional.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/why-direct-traffic-in-ga4-isnt-what-it-looks-like/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-09T12:32:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2905,
+      "signals": {
+        "score": 0.2905,
+        "recency": 0.29388965631760156,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.4
       }
     },
     {
@@ -1613,10 +1681,10 @@
       "published_at": "2026-03-09T12:00:47+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2962,
+      "score": 0.2874,
       "signals": {
-        "score": 0.2962,
-        "recency": 0.30468994937662447,
+        "score": 0.2874,
+        "recency": 0.26947925601686334,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1634,10 +1702,10 @@
       "published_at": "2026-03-09T12:00:12+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.296,
+      "score": 0.2873,
       "signals": {
-        "score": 0.296,
-        "recency": 0.3041966385915311,
+        "score": 0.2873,
+        "recency": 0.2690429533963666,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1655,10 +1723,10 @@
       "published_at": "2026-03-09T12:00:07+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.296,
+      "score": 0.2872,
       "signals": {
-        "score": 0.296,
-        "recency": 0.30412623085232654,
+        "score": 0.2872,
+        "recency": 0.2689806821425313,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1676,10 +1744,10 @@
       "published_at": "2026-03-09T12:13:51+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2945,
+      "score": 0.2854,
       "signals": {
-        "score": 0.2945,
-        "recency": 0.31595221899300635,
+        "score": 0.2854,
+        "recency": 0.27944003103912196,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.77,
@@ -1697,10 +1765,10 @@
       "published_at": "2026-03-09T11:00:03+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2843,
+      "score": 0.2769,
       "signals": {
-        "score": 0.2843,
-        "recency": 0.2573896273168842,
+        "score": 0.2769,
+        "recency": 0.22764507138394305,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1718,34 +1786,13 @@
       "published_at": "2026-03-09T11:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2813,
+      "score": 0.2739,
       "signals": {
-        "score": 0.2813,
-        "recency": 0.25735388123995856,
+        "score": 0.2739,
+        "recency": 0.22761345620846668,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "women in advertising are closing every gap they can the pay gap persists anyway",
-      "title": "Women in Advertising Are Closing Every Gap They Can. The Pay Gap Persists Anyway",
-      "summary": "A new study finds women in advertising earn up to 8% less than men even after controlling for every known variable, pointing to managerial gatekeeping, workplace social dynamics",
-      "image": null,
-      "link": "https://www.adweek.com/agencies/women-in-advertising-pay-gap-persists/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-09T10:08:17+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2757,
-      "signals": {
-        "score": 0.2757,
-        "recency": 0.22291592894689957,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1762,13 +1809,34 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.2715,
+      "score": 0.2709,
       "signals": {
-        "score": 0.2715,
-        "recency": 0.022005346375008224,
+        "score": 0.2709,
+        "recency": 0.019462356345074584,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "women in advertising are closing every gap they can the pay gap persists anyway",
+      "title": "Women in Advertising Are Closing Every Gap They Can. The Pay Gap Persists Anyway",
+      "summary": "A new study finds women in advertising earn up to 8% less than men even after controlling for every known variable, pointing to managerial gatekeeping, workplace social dynamics",
+      "image": null,
+      "link": "https://www.adweek.com/agencies/women-in-advertising-pay-gap-persists/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-09T10:08:17+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2693,
+      "signals": {
+        "score": 0.2693,
+        "recency": 0.19715523537885057,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1783,10 +1851,10 @@
       "published_at": "2026-03-09T04:35:06+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2481,
+      "score": 0.2455,
       "signals": {
-        "score": 0.2481,
-        "recency": 0.08834816605985754,
+        "score": 0.2455,
+        "recency": 0.07813844240341467,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1804,10 +1872,10 @@
       "published_at": "2026-03-09T06:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.248,
+      "score": 0.2447,
       "signals": {
-        "score": 0.248,
-        "recency": 0.11184553573922935,
+        "score": 0.2447,
+        "recency": 0.09892040030030393,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1825,10 +1893,10 @@
       "published_at": "2026-03-09T06:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.248,
+      "score": 0.2447,
       "signals": {
-        "score": 0.248,
-        "recency": 0.11184553573922935,
+        "score": 0.2447,
+        "recency": 0.09892040030030393,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1846,10 +1914,10 @@
       "published_at": "2026-03-09T04:01:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2416,
+      "score": 0.2393,
       "signals": {
-        "score": 0.2416,
-        "recency": 0.08036375118879205,
+        "score": 0.2393,
+        "recency": 0.07107672545611529,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1867,10 +1935,10 @@
       "published_at": "2026-03-09T04:01:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2416,
+      "score": 0.2393,
       "signals": {
-        "score": 0.2416,
-        "recency": 0.08036375118879205,
+        "score": 0.2393,
+        "recency": 0.07107672545611529,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1888,10 +1956,10 @@
       "published_at": "2026-03-09T04:35:19+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2406,
+      "score": 0.238,
       "signals": {
-        "score": 0.2406,
-        "recency": 0.08840135457140495,
+        "score": 0.238,
+        "recency": 0.07818548432438965,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1909,10 +1977,10 @@
       "published_at": "2026-03-09T04:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2385,
+      "score": 0.2362,
       "signals": {
-        "score": 0.2385,
-        "recency": 0.08014082830505757,
+        "score": 0.2362,
+        "recency": 0.07087956406966062,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1930,10 +1998,10 @@
       "published_at": "2026-03-09T04:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2385,
+      "score": 0.2362,
       "signals": {
-        "score": 0.2385,
-        "recency": 0.08014082830505757,
+        "score": 0.2362,
+        "recency": 0.07087956406966062,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
