@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-10T14:36:54.182697+00:00",
-  "sources_scanned": 503,
-  "feeds_polled": 30,
+  "generated_at": "2026-03-10T15:44:10.388831+00:00",
+  "sources_scanned": 493,
+  "feeds_polled": 29,
   "feed_pool": 35,
   "continent_counts": {
-    "NA": 343,
+    "NA": 333,
     "SA": 0,
     "EU": 160,
     "AF": 0,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 102,
+  "clusters": 104,
   "trends": [
     {
       "id": "legora reaches 555 billion valuation as ai legaltech boom endures",
@@ -30,10 +30,10 @@
         "bill",
         "series"
       ],
-      "score": 0.675,
+      "score": 0.6327,
       "signals": {
-        "score": 0.675,
-        "recency": 0.9930712128653776,
+        "score": 0.6327,
+        "recency": 0.8238108736128202,
         "keyword_volume": 0.6,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -41,26 +41,50 @@
       }
     },
     {
-      "id": "youtube expands ai deepfake detection for politicians government officials and journalists",
-      "title": "YouTube expands AI deepfake detection for politicians, government officials, and journalists",
-      "summary": "YouTube's AI deepfake detection tool is becoming available to politicians, journalists, and officials, letting them flag unauthorized likenesses for removal.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/10/youtube-ai-deepfake-detection-politicians-government-officials-journalists/",
-      "category": "technology",
+      "id": "nvidia and comfyui streamline local ai video generation for game developers and creators at gdc",
+      "title": "NVIDIA and ComfyUI Streamline Local AI Video Generation for Game Developers and Creators at GDC",
+      "summary": "Game developers and artists are building cinematic worlds and iconic characters \u2014 raising the bar for immersive experiences on NVIDIA RTX AI PCs.",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtc-2026-nv-blog-1280x680-1.jpg",
+      "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-flux-ltx-video-comfyui-gdc/",
+      "category": "ai",
       "geo": "global",
-      "published_at": "2026-03-10T14:00:00+00:00",
+      "published_at": "2026-03-10T15:30:05+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "game"
+      ],
+      "score": 0.5664,
+      "signals": {
+        "score": 0.5664,
+        "recency": 0.9616176391710265,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "building an aiready data ecosystem at capital one",
+      "title": "Building an AI-Ready Data Ecosystem at Capital One",
+      "summary": "The financial services giant puts a premium on well-managed and governable data as the foundation for AI systems.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/bltfcb450e56459c5b8/69b032fbd5142c2892a08eff/AI_jobs2.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/agentic-ai/building-ai-ready-data-ecosystem-at-capital-one",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-03-10T14:57:51+00:00",
       "source_count": 1,
       "keywords": [
         "ai",
         "govern"
       ],
-      "score": 0.5516,
+      "score": 0.5398,
       "signals": {
-        "score": 0.5516,
-        "recency": 0.9025705156037193,
+        "score": 0.5398,
+        "recency": 0.8792593190314943,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -78,13 +102,83 @@
         "ai",
         "series"
       ],
-      "score": 0.5484,
+      "score": 0.5209,
       "signals": {
-        "score": 0.5484,
-        "recency": 0.6467200344307937,
+        "score": 0.5209,
+        "recency": 0.5364922370572927,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.845,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "youtube expands ai deepfake detection to politicians government officials and journalists",
+      "title": "YouTube expands AI deepfake detection to politicians, government officials, and journalists",
+      "summary": "YouTube's AI deepfake detection tool is becoming available to politicians, journalists, and officials, letting them flag unauthorized likenesses for removal.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/10/youtube-expands-ai-deepfake-detection-to-politicians-government-officials-and-journalists/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-10T14:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "govern"
+      ],
+      "score": 0.5132,
+      "signals": {
+        "score": 0.5132,
+        "recency": 0.7487352319993894,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "nvidia virtualizes game development with rtx pro server",
+      "title": "NVIDIA Virtualizes Game Development With RTX PRO Server",
+      "summary": "Game development teams are working across larger worlds, more complex pipelines and more distributed teams than ever.",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gdc-rtx-pro-server-1920x1080-1.jpg",
+      "link": "https://blogs.nvidia.com/blog/gdc-2026-virtual-game-development/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-03-10T15:30:07+00:00",
+      "source_count": 1,
+      "keywords": [
+        "game"
+      ],
+      "score": 0.5064,
+      "signals": {
+        "score": 0.5064,
+        "recency": 0.961706681963608,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "google gives in to users complaints over aipowered ask photos search feature",
+      "title": "Google gives in to users\u2019 complaints over AI-powered \u2018Ask Photos\u2019 search feature",
+      "summary": "The option appears on the Google Photos Search screen and lets users pick which experience they want.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-10T14:58:29+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5062,
+      "signals": {
+        "score": 0.5062,
+        "recency": 0.8808075255788349,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -102,13 +196,59 @@
         "ai",
         "game"
       ],
-      "score": 0.5442,
+      "score": 0.5058,
       "signals": {
-        "score": 0.5442,
-        "recency": 0.9029048628922114,
+        "score": 0.5058,
+        "recency": 0.7490125927044974,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "cfos tackle b2b payments delinquency by using data and ai",
+      "title": "CFOs Tackle B2B Payments Delinquency by Using Data and AI",
+      "summary": "Even small improvements in payments behavior can materially affect working capital.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/04/GenAI-procurement-B2B-payments.jpg?w=457",
+      "link": "https://www.pymnts.com/news/b2b-payments/2026/chief-financial-officers-tackle-b2b-payment-delinquency-using-data-ai/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-10T14:58:21+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5001,
+      "signals": {
+        "score": 0.5001,
+        "recency": 0.8804813609739425,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "mastercard offers small businesses insights from virtual cfo",
+      "title": "Mastercard Offers Small Businesses Insights From Virtual CFO",
+      "summary": "Mastercard has introduced an agentic AI offering designed to help small businesses.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Mastercard-small-businesses.png?w=457",
+      "link": "https://www.pymnts.com/smbs/2026/mastercard-offers-small-businesses-insights-from-virtual-cfo/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-10T14:43:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4909,
+      "signals": {
+        "score": 0.4909,
+        "recency": 0.8437277488785843,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -125,10 +265,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5327,
+      "score": 0.4906,
       "signals": {
-        "score": 0.5327,
-        "recency": 0.986701134009971,
+        "score": 0.4906,
+        "recency": 0.8185265192192279,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -136,71 +276,25 @@
       }
     },
     {
-      "id": "the marketing data most companies still fail to measure",
-      "title": "The marketing data most companies still fail to measure",
-      "summary": "Privacy changes are weakening attribution models, making phone conversations one of the most valuable signals in marketing data.",
-      "image": "https://martech.org/wp-content/uploads/2026/03/lead-sources-call-analytics-2.png",
-      "link": "https://martech.org/the-marketing-data-most-companies-still-fail-to-measure/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-10T14:24:34+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.5186,
-      "signals": {
-        "score": 0.5186,
-        "recency": 0.966312771210735,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "armadin raises record 190 million to combat aidriven cyberattacks",
-      "title": "Armadin Raises Record $190 Million to Combat AI-Driven Cyberattacks",
-      "summary": "Cybersecurity company Armadin raised a record $189.9 million, according to a Tuesday (March 10) press release.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Armadin.png?w=457",
-      "link": "https://www.pymnts.com/cybersecurity/2026/armadin-raises-record-190-million-dollars-combat-ai-driven-cyberattacks/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-10T14:17:25+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.5168,
-      "signals": {
-        "score": 0.5168,
-        "recency": 0.9473100580450907,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "best buy wants to be at the forefront of agentic ai discovery",
-      "title": "Best Buy wants to be at the forefront of agentic AI discovery",
-      "summary": "&ldquo;As agentic commerce matures, we want to serve our customers in new ways, both on and off of platforms,&rdquo; CEO Corie Barry said.",
-      "image": "https://imgproxy.divecdn.com/tQqVVCEYSduwu42k4htNYg4FBg6c3M8rUnoCmRYAsZU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNjQ3MDE4MTE5LmpwZw==.webp",
-      "link": "https://www.retaildive.com/news/best-buy-forefront-agentic-ai-discovery/814222/",
+      "id": "old spice reworks boyz ii men song for sequel to clingy moms campaign",
+      "title": "Old Spice reworks Boyz II Men song for sequel to clingy moms campaign",
+      "summary": "A new iteration of the P&amp;G brand&rsquo;s oddball &ldquo;Mom Song&rdquo; creative has an R&amp;B twist and promotes a Swagger Signature Scent Control system.",
+      "image": "https://imgproxy.divecdn.com/xZ6FoDoSOb2zS2D-qjySBGg7y1U2HKHggDZevffU3EI/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Nb21Tb25nX1BSc3RpbGxfMDFfMTkyMHgxMDgwLmpwZw==.webp",
+      "link": "https://www.marketingdive.com/news/old-spice-reworks-boyz-ii-men-song-for-sequel-to-clingy-moms-campaign/814305/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-10T10:13:00-04:00",
+      "published_at": "2026-03-10T10:40:00-04:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.5139,
+      "score": 0.4877,
       "signals": {
-        "score": 0.5139,
-        "recency": 0.9357589693136596,
+        "score": 0.4877,
+        "recency": 0.8367258991981809,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -218,10 +312,10 @@
         "ai",
         "series"
       ],
-      "score": 0.513,
+      "score": 0.4803,
       "signals": {
-        "score": 0.513,
-        "recency": 0.765886401496664,
+        "score": 0.4803,
+        "recency": 0.6353477347154539,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -242,11 +336,57 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.5111,
+      "score": 0.4785,
       "signals": {
-        "score": 0.5111,
-        "recency": 0.7643278504826586,
+        "score": 0.4785,
+        "recency": 0.6340548251478577,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "the marketing data most companies still fail to measure",
+      "title": "The marketing data most companies still fail to measure",
+      "summary": "Privacy changes are weakening attribution models, making phone conversations one of the most valuable signals in marketing data.",
+      "image": "https://martech.org/wp-content/uploads/2026/03/lead-sources-call-analytics-2.png",
+      "link": "https://martech.org/the-marketing-data-most-companies-still-fail-to-measure/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-10T14:24:34+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4774,
+      "signals": {
+        "score": 0.4774,
+        "recency": 0.8016131752902357,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "armadin raises record 190 million to combat aidriven cyberattacks",
+      "title": "Armadin Raises Record $190 Million to Combat AI-Driven Cyberattacks",
+      "summary": "Cybersecurity company Armadin raised a record $189.9 million, according to a Tuesday (March 10) press release.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Armadin.png?w=457",
+      "link": "https://www.pymnts.com/cybersecurity/2026/armadin-raises-record-190-million-dollars-combat-ai-driven-cyberattacks/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-10T14:17:25+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4765,
+      "signals": {
+        "score": 0.4765,
+        "recency": 0.7858493090828629,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -266,13 +406,36 @@
         "ai",
         "series"
       ],
-      "score": 0.507,
+      "score": 0.4761,
       "signals": {
-        "score": 0.507,
-        "recency": 0.7239610275082978,
+        "score": 0.4761,
+        "recency": 0.6005681755816797,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "best buy wants to be at the forefront of agentic ai discovery",
+      "title": "Best Buy wants to be at the forefront of agentic AI discovery",
+      "summary": "&ldquo;As agentic commerce matures, we want to serve our customers in new ways, both on and off of platforms,&rdquo; CEO Corie Barry said.",
+      "image": "https://imgproxy.divecdn.com/tQqVVCEYSduwu42k4htNYg4FBg6c3M8rUnoCmRYAsZU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNjQ3MDE4MTE5LmpwZw==.webp",
+      "link": "https://www.retaildive.com/news/best-buy-forefront-agentic-ai-discovery/814222/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-10T10:13:00-04:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4741,
+      "signals": {
+        "score": 0.4741,
+        "recency": 0.7762670028235137,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -289,14 +452,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5061,
+      "score": 0.4676,
       "signals": {
-        "score": 0.5061,
-        "recency": 0.9044528309088556,
+        "score": 0.4676,
+        "recency": 0.7502967230544618,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "kohls rules out major store closures despite disappointing q4",
+      "title": "Kohl\u2019s rules out major store closures despite disappointing Q4",
+      "summary": "The struggling department store is simplifying promotions and adding value-priced merchandise to appeal to its lower- to middle-income customer.",
+      "image": null,
+      "link": "https://www.retaildive.com/news/kohls-rules-out-major-store-closures-disappointing-q4/814282/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-10T11:39:00-04:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4664,
+      "signals": {
+        "score": 0.4664,
+        "recency": 0.9857329002813214,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -312,14 +496,37 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5041,
+      "score": 0.4657,
       "signals": {
-        "score": 0.5041,
-        "recency": 0.9025705156037193,
+        "score": 0.4657,
+        "recency": 0.7487352319993894,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "why tecovas made a short film about texas instead of a traditional ad",
+      "title": "Why Tecovas made a short film about Texas instead of a traditional ad",
+      "summary": "The Western wear brand is following up a Super Bowl play with a 14-minute short by filmmaker Jeff Nichols that features actor Michael Shannon.",
+      "image": "https://imgproxy.divecdn.com/-S5dZHdDka-Bdk_MpUBGcG2PDoOz5sKYRvAgtfFDlCY/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS90ZWNvdmFzLmpwZw==.webp",
+      "link": "https://www.marketingdive.com/news/why-tecovas-made-a-short-film-about-texas-instead-of-a-traditional-ad/814183/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-10T10:35:00-04:00",
+      "source_count": 1,
+      "keywords": [
+        "film"
+      ],
+      "score": 0.4648,
+      "signals": {
+        "score": 0.4648,
+        "recency": 0.8251850365531986,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
       }
     },
     {
@@ -335,14 +542,56 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4982,
+      "score": 0.461,
       "signals": {
-        "score": 0.4982,
-        "recency": 0.8729807345122628,
+        "score": 0.461,
+        "recency": 0.7241887713879395,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "thinking machineslab inksmassive compute deal with nvidia",
+      "title": "Thinking Machines\u00a0Lab inks\u00a0massive compute deal with Nvidia",
+      "summary": "The multi-year deal involves at least a gigawatt of compute power and also includes a strategic investment from Nvidia.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-10T15:08:39+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4525,
+      "signals": {
+        "score": 0.4525,
+        "recency": 0.906036751816885,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "the brand house collective coo exits after less than a year",
+      "title": "The Brand House Collective COO exits after less than a year",
+      "summary": "James Schisler resigned from his role while the company is in the process of being acquired by Bed Bath &amp; Beyond Inc.",
+      "image": null,
+      "link": "https://www.retaildive.com/news/coo-exit-kirklands-home-bed-bath-beyond-operator/814304/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-10T11:14:00-04:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4499,
+      "signals": {
+        "score": 0.4499,
+        "recency": 0.9196020124195561,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -358,14 +607,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4807,
+      "score": 0.4475,
       "signals": {
-        "score": 0.4807,
-        "recency": 0.7786860375014417,
+        "score": 0.4475,
+        "recency": 0.6459657842394123,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "princess polly plots next wave of us store openings",
+      "title": "Princess Polly plots next wave of US store openings",
+      "summary": "The apparel brand will open eight stores across Florida, Texas, Minnesota, Tennessee and North Carolina throughout this year and into 2027.",
+      "image": "https://imgproxy.divecdn.com/L1S6q3fKJGxxHzl0GLjhyeDR5QHVwjAHMQYBa99kHWI/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9NSUFNSS1TVE9SRS01LmpwZw==.webp",
+      "link": "https://www.retaildive.com/news/princess-polly-eight-leases-store-openings-US/814281/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-10T11:07:00-04:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4455,
+      "signals": {
+        "score": 0.4455,
+        "recency": 0.901893585380411,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -381,10 +651,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.477,
+      "score": 0.4444,
       "signals": {
-        "score": 0.477,
-        "recency": 0.7640094468836471,
+        "score": 0.4444,
+        "recency": 0.6337906906692172,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -404,10 +674,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.474,
+      "score": 0.4414,
       "signals": {
-        "score": 0.474,
-        "recency": 0.7640094468836471,
+        "score": 0.4414,
+        "recency": 0.6337906906692172,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "the download ais role in the iran war and an escalating legal fight",
+      "title": "The Download: AI\u2019s role in the Iran war, and an escalating legal fight",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
+      "image": null,
+      "link": "https://www.technologyreview.com/2026/03/10/1134077/the-download-ai-iran-war-theater-anthropic-sues-us/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-10T12:55:32+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4395,
+      "signals": {
+        "score": 0.4395,
+        "recency": 0.625975574282643,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -427,36 +720,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4723,
+      "score": 0.439,
       "signals": {
-        "score": 0.4723,
-        "recency": 0.78117748406306,
+        "score": 0.439,
+        "recency": 0.6480325854334216,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the download ais role in the iran war and an escalating legal fight",
-      "title": "The Download: AI\u2019s role in the Iran war, and an escalating legal fight",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/03/10/1134077/the-download-ai-iran-war-theater-anthropic-sues-us/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-10T12:55:32+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4716,
-      "signals": {
-        "score": 0.4716,
-        "recency": 0.7545886351933818,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
         "engagement": 0.6
       }
     },
@@ -473,14 +743,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4715,
+      "score": 0.4389,
       "signals": {
-        "score": 0.4715,
-        "recency": 0.7659573201874321,
+        "score": 0.4389,
+        "recency": 0.6354065659330345,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "petal pup eyes launch with dillards von maur",
+      "title": "Petal & Pup eyes launch with Dillard\u2019s, Von Maur",
+      "summary": "The Australian-founded fashion brand has a successful partnership with Nordstrom and is ready for additional growth.&nbsp",
+      "image": "https://imgproxy.divecdn.com/L0SbrOeYVflrLo6UkvIZdCDcoN5HPshWDe6-27SrK3k/g:nowe:10:961/c:1771:1001/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9QZXRhbF9IZXJvX0ltYWdlcnlfX19NdXNlLmpwZw==.webp",
+      "link": "https://www.retaildive.com/news/petal-pup-launch-dillards-von-maur/814245/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-10T10:51:00-04:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4357,
+      "signals": {
+        "score": 0.4357,
+        "recency": 0.8626871340290347,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -496,33 +787,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4664,
+      "score": 0.4341,
       "signals": {
-        "score": 0.4664,
-        "recency": 0.7576691560628256,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "how shaping ai buying can boost b2b cmo strategic influence",
-      "title": "How shaping AI buying can boost B2B CMO strategic influence",
-      "summary": "As AI increasingly evaluates vendors before buyers do, CMOs who control structured data, proof and category language can influence who makes the shortlist.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/how-shaping-ai-buying-can-boost-b2b-cmo-strategic-influence/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-10T12:43:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4592,
-      "signals": {
-        "score": 0.4592,
-        "recency": 0.7287698180675689,
+        "score": 0.4341,
+        "recency": 0.6285310471991488,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -543,10 +811,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.457,
+      "score": 0.4336,
       "signals": {
-        "score": 0.457,
-        "recency": 0.547816986666614,
+        "score": 0.4336,
+        "recency": 0.4544463524056906,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -567,79 +835,14 @@
         "ai",
         "bill"
       ],
-      "score": 0.456,
+      "score": 0.4328,
       "signals": {
-        "score": 0.456,
-        "recency": 0.5440510678008927,
+        "score": 0.4328,
+        "recency": 0.45132230161201864,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "how pokmon go is helping robots deliver pizza on time",
-      "title": "How Pok\u00e9mon Go is helping robots deliver pizza on time",
-      "summary": "Pok\u00e9mon Go was the world\u2019s first augmented-reality megahit.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-10T13:47:26+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4409,
-      "signals": {
-        "score": 0.4409,
-        "recency": 0.871607679099867,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "the boring infrastructure that could make agentic ai happen for ad tech",
-      "title": "The Boring Infrastructure That Could Make Agentic AI Happen For Ad Tech",
-      "summary": "For all the talk about AI transforming marketing, many brands still wait weeks just to push a single audience from a CRM into paid media \u2013 a lag that\u2019s hard to square with the",
-      "image": null,
-      "link": "https://www.adexchanger.com/ai/the-boring-infrastructure-that-could-make-ai-in-ads-happen/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-10T11:57:52+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4392,
-      "signals": {
-        "score": 0.4392,
-        "recency": 0.642898952318665,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "timesensitive offers in google ads",
-      "title": "Time-Sensitive Offers in Google Ads",
-      "summary": "A date-specific ad message does not automatically show, but workarounds can increase its chances.",
-      "image": null,
-      "link": "https://www.practicalecommerce.com/time-sensitive-offers-in-google-ads",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-10T13:54:29+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4392,
-      "signals": {
-        "score": 0.4392,
-        "recency": 0.8888448929891574,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.4
       }
     },
     {
@@ -656,10 +859,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.4371,
+      "score": 0.4285,
       "signals": {
-        "score": 0.4371,
-        "recency": 0.20139070369190876,
+        "score": 0.4285,
+        "recency": 0.16706541222479554,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -667,25 +870,69 @@
       }
     },
     {
-      "id": "middle east conflict knocks fragile consumer confidence as online retail growth stays muted",
-      "title": "Middle East conflict knocks fragile consumer confidence as online retail growth stays muted",
-      "summary": "The fragile return of consumer confidence seen in January has been knocked off course by the outbreak of conflict in the Middle East, according to new data from Barclays.",
-      "image": null,
-      "link": "https://internetretailing.net/middle-east-conflict-knocks-fragile-consumer-confidence-as-online-retail-growth-stays-muted/",
-      "category": "commerce",
+      "id": "why the future of marketing looks like product management",
+      "title": "Why the future of marketing looks like product management",
+      "summary": "Marketing leaders are shifting from channel optimization to product thinking, connecting media, UX, data and outcomes across the entire customer journey.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/why-the-future-of-marketing-looks-like-product-management/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-03-10T11:50:13+00:00",
+      "published_at": "2026-03-10T14:43:30+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4282,
+      "signals": {
+        "score": 0.4282,
+        "recency": 0.8449004071317521,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "how shaping ai buying can boost b2b cmo strategic influence",
+      "title": "How shaping AI buying can boost B2B CMO strategic influence",
+      "summary": "As AI increasingly evaluates vendors before buyers do, CMOs who control structured data, proof and category language can influence who makes the shortlist.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/how-shaping-ai-buying-can-boost-b2b-cmo-strategic-influence/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-10T12:43:00+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.4328,
+      "score": 0.4281,
       "signals": {
-        "score": 0.4328,
-        "recency": 0.6293814813721201,
+        "score": 0.4281,
+        "recency": 0.6045573496714449,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.77,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "the boring infrastructure that could make agentic ai happen for ad tech",
+      "title": "The Boring Infrastructure That Could Make Agentic AI Happen For Ad Tech",
+      "summary": "For all the talk about AI transforming marketing, many brands still wait weeks just to push a single audience from a CRM into paid media \u2013 a lag that\u2019s hard to square with the",
+      "image": null,
+      "link": "https://www.adexchanger.com/ai/the-boring-infrastructure-that-could-make-ai-in-ads-happen/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-10T11:57:52+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4118,
+      "signals": {
+        "score": 0.4118,
+        "recency": 0.5333224251121288,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -703,14 +950,58 @@
         "ai",
         "policy"
       ],
-      "score": 0.4308,
+      "score": 0.4111,
       "signals": {
-        "score": 0.4308,
-        "recency": 0.4611266558091375,
+        "score": 0.4111,
+        "recency": 0.3825316334285697,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.77,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "middle east conflict knocks fragile consumer confidence as online retail growth stays muted",
+      "title": "Middle East conflict knocks fragile consumer confidence as online retail growth stays muted",
+      "summary": "The fragile return of consumer confidence seen in January has been knocked off course by the outbreak of conflict in the Middle East, according to new data from Barclays.",
+      "image": null,
+      "link": "https://internetretailing.net/middle-east-conflict-knocks-fragile-consumer-confidence-as-online-retail-growth-stays-muted/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-10T11:50:13+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.406,
+      "signals": {
+        "score": 0.406,
+        "recency": 0.5221088893603694,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.77,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "how pokmon go is giving delivery robots an inchperfect view of the world",
+      "title": "How Pok\u00e9mon Go is giving delivery robots an inch-perfect view of the world",
+      "summary": "Pok\u00e9mon Go was the world\u2019s first augmented-reality megahit.",
+      "image": null,
+      "link": "https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-10T13:47:26+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4038,
+      "signals": {
+        "score": 0.4038,
+        "recency": 0.7230497413122001,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
       }
     },
     {
@@ -726,57 +1017,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4291,
+      "score": 0.4037,
       "signals": {
-        "score": 0.4291,
-        "recency": 0.5962796591356969,
+        "score": 0.4037,
+        "recency": 0.494648984429603,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "organic rankings vs product grids the new ecommerce divide via sejournal kevinindig",
-      "title": "Organic Rankings Vs. Product Grids: The New Ecommerce Divide via @sejournal, @Kevin_Indig",
-      "summary": "Ranking No. 1 in Google means less when product grids dominate the SERP.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/organic-rankings-vs-product-grids-the-new-ecommerce-divide/569159/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-10T13:30:10+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4277,
-      "signals": {
-        "score": 0.4277,
-        "recency": 0.8307894974378699,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "will features even exist how ai is forcing saas to rethink the product itself",
-      "title": "Will Features Even Exist? How AI Is Forcing SaaS To Rethink The Product Itself",
-      "summary": "With SaaS customers gaining the ability to build their own workflows or features with AI coding tools, vendors who aren\u2019t prepared for the shift could find themselves on the",
-      "image": "https://news.crunchbase.com/wp-content/uploads/AI-generated.jpg",
-      "link": "https://news.crunchbase.com/enterprise/ai-forcing-saas-to-rethink-product-sagie/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-03-10T11:00:10+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4184,
-      "signals": {
-        "score": 0.4184,
-        "recency": 0.5476901918548513,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.81,
         "engagement": 0.6
       }
     },
@@ -794,13 +1041,80 @@
         "ai",
         "music"
       ],
-      "score": 0.4181,
+      "score": 0.4013,
       "signals": {
-        "score": 0.4181,
-        "recency": 0.3922555291326863,
+        "score": 0.4013,
+        "recency": 0.3253989904730662,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "timesensitive offers in google ads",
+      "title": "Time-Sensitive Offers in Google Ads",
+      "summary": "A date-specific ad message does not automatically show, but workarounds can increase its chances.",
+      "image": null,
+      "link": "https://www.practicalecommerce.com/time-sensitive-offers-in-google-ads",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-10T13:54:29+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4013,
+      "signals": {
+        "score": 0.4013,
+        "recency": 0.7373490222185658,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "how washington8217s ai power struggle became a marketing headache",
+      "title": "How Washington&#8217;s AI Power Struggle Became a Marketing Headache",
+      "summary": "As Anthropic sues the Department of War and OpenAI deepens ties with Washington, industry leaders are watching the geopolitical alliances behind AI platforms.",
+      "image": null,
+      "link": "https://www.adweek.com/media/ai-brand-safety-iran-war/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-10T11:06:12+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3955,
+      "signals": {
+        "score": 0.3955,
+        "recency": 0.46201975408034746,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "will features even exist how ai is forcing saas to rethink the product itself",
+      "title": "Will Features Even Exist? How AI Is Forcing SaaS To Rethink The Product Itself",
+      "summary": "With SaaS customers gaining the ability to build their own workflows or features with AI coding tools, vendors who aren\u2019t prepared for the shift could find themselves on the",
+      "image": "https://news.crunchbase.com/wp-content/uploads/AI-generated.jpg",
+      "link": "https://news.crunchbase.com/enterprise/ai-forcing-saas-to-rethink-product-sagie/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-03-10T11:00:10+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3951,
+      "signals": {
+        "score": 0.3951,
+        "recency": 0.45434116866529556,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
         "engagement": 0.6
       }
     },
@@ -817,13 +1131,57 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4174,
+      "score": 0.3939,
       "signals": {
-        "score": 0.4174,
-        "recency": 0.5494171186024455,
+        "score": 0.3939,
+        "recency": 0.4557737557891292,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "organic rankings vs product grids the new ecommerce divide via sejournal kevinindig",
+      "title": "Organic Rankings Vs. Product Grids: The New Ecommerce Divide via @sejournal, @Kevin_Indig",
+      "summary": "Ranking No. 1 in Google means less when product grids dominate the SERP.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/organic-rankings-vs-product-grids-the-new-ecommerce-divide/569159/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-10T13:30:10+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3923,
+      "signals": {
+        "score": 0.3923,
+        "recency": 0.6891886632156637,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "mckinseys organize to value a blueprint for evolving to positionless marketing by optimove",
+      "title": "McKinsey\u2019s \u2018Organize to Value\u2019 a blueprint for evolving to positionless marketing by Optimove",
+      "summary": "Analysis shows that unclear objectives, uncommitted leaders, a stagnant culture are the culprits behind failing operational transformations...",
+      "image": "https://martech.org/wp-content/uploads/2026/03/Optimove-20260310-800x450.jpg",
+      "link": "https://martech.org/mckinseys-organize-to-value-a-blueprint-for-evolving-to-positionless-marketing/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-10T11:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3905,
+      "signals": {
+        "score": 0.3905,
+        "recency": 0.4541308742146813,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
         "engagement": 0.6
       }
     },
@@ -838,10 +1196,10 @@
       "published_at": "2026-03-10T13:00:11+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.4171,
+      "score": 0.3845,
       "signals": {
-        "score": 0.4171,
-        "recency": 0.7643986248564664,
+        "score": 0.3845,
+        "recency": 0.634113536646047,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -859,10 +1217,10 @@
       "published_at": "2026-03-10T13:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.417,
+      "score": 0.3844,
       "signals": {
-        "score": 0.417,
-        "recency": 0.7640094468836471,
+        "score": 0.3844,
+        "recency": 0.6337906906692172,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -880,10 +1238,10 @@
       "published_at": "2026-03-10T13:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.417,
+      "score": 0.3844,
       "signals": {
-        "score": 0.417,
-        "recency": 0.7640094468836471,
+        "score": 0.3844,
+        "recency": 0.6337906906692172,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -901,85 +1259,14 @@
       "published_at": "2026-03-10T13:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.417,
+      "score": 0.3844,
       "signals": {
-        "score": 0.417,
-        "recency": 0.7640094468836471,
+        "score": 0.3844,
+        "recency": 0.6337906906692172,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "mckinseys organize to value a blueprint for evolving to positionless marketing by optimove",
-      "title": "McKinsey\u2019s \u2018Organize to Value\u2019 a blueprint for evolving to positionless marketing by Optimove",
-      "summary": "Analysis shows that unclear objectives, uncommitted leaders, a stagnant culture are the culprits behind failing operational transformations...",
-      "image": "https://martech.org/wp-content/uploads/2026/03/Optimove-20260310-800x450.jpg",
-      "link": "https://martech.org/mckinseys-organize-to-value-a-blueprint-for-evolving-to-positionless-marketing/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-10T11:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4139,
-      "signals": {
-        "score": 0.4139,
-        "recency": 0.5474366902662956,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "71 of services firms cite ai skill gaps",
-      "title": "71% of Services Firms Cite AI Skill Gaps",
-      "summary": "Just months before Block\u2019s dramatic announcement of letting go of 40% of its workforce, a growing number of large companies said they were ready for artificial intelligence (AI)",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Ai-skills-gap-services.jpeg?w=457",
-      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/71percent-of-services-firms-cite-ai-skill-gaps/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-10T08:00:32+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.4031,
-      "signals": {
-        "score": 0.4031,
-        "recency": 0.3325294083230595,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "ai wants the checkout but spreedly says merchants keep the keys",
-      "title": "AI Wants the Checkout but Spreedly Says Merchants Keep the Keys",
-      "summary": "Every day seems to bring another announcement about artificial intelligence agents that can search, compare and buy on a consumer\u2019s behalf.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/agentic-commerce-AI-retail.jpeg?w=457",
-      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-wants-the-checkout-but-spreedly-says-merchants-keep-the-keys/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-10T08:00:03+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.403,
-      "signals": {
-        "score": 0.403,
-        "recency": 0.3320832563697974,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       }
     },
     {
@@ -995,10 +1282,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4019,
+      "score": 0.3821,
       "signals": {
-        "score": 0.4019,
-        "recency": 0.46345951875273855,
+        "score": 0.3821,
+        "recency": 0.3844668802010965,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1018,10 +1305,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.398,
+      "score": 0.3771,
       "signals": {
-        "score": 0.398,
-        "recency": 0.48986787391701164,
+        "score": 0.3771,
+        "recency": 0.40637416122657793,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.77,
@@ -1041,10 +1328,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.395,
+      "score": 0.3754,
       "signals": {
-        "score": 0.395,
-        "recency": 0.45989010626969956,
+        "score": 0.3754,
+        "recency": 0.3815058429886167,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1064,10 +1351,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3943,
+      "score": 0.3746,
       "signals": {
-        "score": 0.3943,
-        "recency": 0.4633951538450227,
+        "score": 0.3746,
+        "recency": 0.3844134857313259,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1087,10 +1374,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3878,
+      "score": 0.3694,
       "signals": {
-        "score": 0.3878,
-        "recency": 0.43126739435534345,
+        "score": 0.3694,
+        "recency": 0.3577616230355504,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1110,10 +1397,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3869,
+      "score": 0.3687,
       "signals": {
-        "score": 0.3869,
-        "recency": 0.4277874458665946,
+        "score": 0.3687,
+        "recency": 0.3548748014587051,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1133,10 +1420,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3835,
+      "score": 0.3659,
       "signals": {
-        "score": 0.3835,
-        "recency": 0.41403117181589477,
+        "score": 0.3659,
+        "recency": 0.3434631645120799,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "ikea8217s global campaign is a love letter to the feeling of home",
+      "title": "Ikea&#8217;s Global Campaign Is a Love Letter to the Feeling of Home",
+      "summary": "Ikea's global campaign wants to remind people that there's no feeling like home.",
+      "image": null,
+      "link": "https://www.adweek.com/creativity/ikeas-global-campaign-is-a-love-letter-to-the-feeling-of-home/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-10T09:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3613,
+      "signals": {
+        "score": 0.3613,
+        "recency": 0.3253989904730662,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1154,142 +1464,10 @@
       "published_at": "2026-03-10T12:00:10+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3818,
+      "score": 0.3542,
       "signals": {
-        "score": 0.3818,
-        "recency": 0.647019511172112,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "ikea8217s global campaign is a love letter to the feeling of home",
-      "title": "Ikea&#8217;s Global Campaign Is a Love Letter to the Feeling of Home",
-      "summary": "Ikea's global campaign wants to remind people that there's no feeling like home.",
-      "image": null,
-      "link": "https://www.adweek.com/creativity/ikeas-global-campaign-is-a-love-letter-to-the-feeling-of-home/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-10T09:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3781,
-      "signals": {
-        "score": 0.3781,
-        "recency": 0.3922555291326863,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "kraken fed approval is spdi bank models biggest test yet",
-      "title": "Kraken Fed Approval Is SPDI Bank Model\u2019s Biggest Test Yet",
-      "summary": "&#160; The question of who is allowed to connect directly to the core settlement systems that move money across the United States has historically been a straightforward one,",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Kracken-banking-1.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/kraken-fed-approval-is-spdi-bank-models-biggest-test-yet/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-10T08:02:26+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3636,
-      "signals": {
-        "score": 0.3636,
-        "recency": 0.3342890640962427,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "visa says ai cuts cfo cash flow uncertainty from 68 to 17",
-      "title": "Visa Says AI Cuts CFO Cash Flow Uncertainty From 68% to 17%",
-      "summary": "Watch more: Office of the CFO With Ben Ellis of Visa Commercial Solutions Picture a manufacturing company with $4 million sitting in accounts receivable, another $2 million tied",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Visa-video-Ben-Ellis.png?w=457",
-      "link": "https://www.pymnts.com/working-capital/2026/visa-says-ai-cuts-cfo-cash-flow-uncertainty-from-68-to-17/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-10T08:00:44+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3632,
-      "signals": {
-        "score": 0.3632,
-        "recency": 0.33271419820901005,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "uzbekistans uzum valuation leaps over 50 in seven months to 23b",
-      "title": "Uzbekistan\u2019s Uzum valuation leaps over 50% in seven months to $2.3B",
-      "summary": "Uzum now reaches 20 million users and processes $11B in payments as it expands its e-commerce and fintech ecosystem across Uzbekistan.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/10/uzbekistans-uzum-valuation-rises-1-5x-in-seven-months-to-2-3b/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-10T07:15:00+00:00",
-      "source_count": 2,
-      "keywords": [],
-      "score": 0.36,
-      "signals": {
-        "score": 0.36,
-        "recency": 0.29302174485564536,
-        "keyword_volume": 0.0,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "community marketing how to use it to drive customer advocacy and reduce cac",
-      "title": "Community marketing: How to use it to drive customer advocacy and reduce CAC",
-      "summary": "Community marketing is a growth strategy centered on participation.",
-      "image": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/Community-marketing-1-20260226-1746209.webp",
-      "link": "https://blog.hubspot.com/marketing/community-marketing",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-10T11:00:05+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3569,
-      "signals": {
-        "score": 0.3569,
-        "recency": 0.5475634263903426,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "competitor analysis tools marketing teams actually use in 2026",
-      "title": "Competitor analysis tools marketing teams actually use in 2026",
-      "summary": "Competitor analysis tools are software platforms that help marketing teams monitor and compare competitor strategies across SEO, social, PPC, and market intelligence .",
-      "image": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/Competitor-analysis-tools-1-20260227-1780148.webp",
-      "link": "https://blog.hubspot.com/marketing/competitor-analysis-tools",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-10T11:00:02+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3569,
-      "signals": {
-        "score": 0.3569,
-        "recency": 0.5474873811954937,
+        "score": 0.3542,
+        "recency": 0.5367406705962937,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1310,13 +1488,59 @@
         "ai",
         "series"
       ],
-      "score": 0.3562,
+      "score": 0.3511,
       "signals": {
-        "score": 0.3562,
-        "recency": 0.12080552315929713,
+        "score": 0.3511,
+        "recency": 0.10021527387140719,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "kraken fed approval is spdi bank models biggest test yet",
+      "title": "Kraken Fed Approval Is SPDI Bank Model\u2019s Biggest Test Yet",
+      "summary": "&#160; The question of who is allowed to connect directly to the core settlement systems that move money across the United States has historically been a straightforward one,",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Kracken-banking-1.jpg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/kraken-fed-approval-is-spdi-bank-models-biggest-test-yet/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-10T08:02:26+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3493,
+      "signals": {
+        "score": 0.3493,
+        "recency": 0.27731240455327766,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "visa says ai cuts cfo cash flow uncertainty from 68 to 17",
+      "title": "Visa Says AI Cuts CFO Cash Flow Uncertainty From 68% to 17%",
+      "summary": "Watch more: Office of the CFO With Ben Ellis of Visa Commercial Solutions Picture a manufacturing company with $4 million sitting in accounts receivable, another $2 million tied",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Visa-video-Ben-Ellis.png?w=457",
+      "link": "https://www.pymnts.com/working-capital/2026/visa-says-ai-cuts-cfo-cash-flow-uncertainty-from-68-to-17/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-10T08:00:44+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.349,
+      "signals": {
+        "score": 0.349,
+        "recency": 0.2760059608405044,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1334,10 +1558,55 @@
         "ai",
         "bill"
       ],
-      "score": 0.3521,
+      "score": 0.3477,
       "signals": {
-        "score": 0.3521,
-        "recency": 0.10449463283722886,
+        "score": 0.3477,
+        "recency": 0.086684432747884,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "uzbekistans uzum valuation leaps over 50 in seven months to 23b",
+      "title": "Uzbekistan\u2019s Uzum valuation leaps over 50% in seven months to $2.3B",
+      "summary": "Uzum now reaches 20 million users and processes $11B in payments as it expands its e-commerce and fintech ecosystem across Uzbekistan.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/10/uzbekistans-uzum-valuation-rises-1-5x-in-seven-months-to-2-3b/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-10T07:15:00+00:00",
+      "source_count": 2,
+      "keywords": [],
+      "score": 0.3475,
+      "signals": {
+        "score": 0.3475,
+        "recency": 0.2430787404667282,
+        "keyword_volume": 0.0,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "electric air taxis are about to take flight in 26 states",
+      "title": "Electric air taxis are about to take flight in 26 states",
+      "summary": "The federal government has selected eight proposals to test electric aircraft across 26 states.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/09/electric-air-taxis-are-about-to-take-flight-in-26-states/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-09T22:30:35+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "govern"
+      ],
+      "score": 0.3402,
+      "signals": {
+        "score": 0.3402,
+        "recency": 0.05663756528828597,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1357,10 +1626,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3487,
+      "score": 0.337,
       "signals": {
-        "score": 0.3487,
-        "recency": 0.2747973337594866,
+        "score": 0.337,
+        "recency": 0.22796052151958304,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1380,10 +1649,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3463,
+      "score": 0.336,
       "signals": {
-        "score": 0.3463,
-        "recency": 0.24105264154995015,
+        "score": 0.336,
+        "recency": 0.19996731820365687,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1391,47 +1660,65 @@
       }
     },
     {
-      "id": "electric air taxis are about to take flight in 26 states",
-      "title": "Electric air taxis are about to take flight in 26 states",
-      "summary": "The federal government has selected eight proposals to test electric aircraft across 26 states.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/09/electric-air-taxis-are-about-to-take-flight-in-26-states/",
-      "category": "technology",
+      "id": "community marketing how to use it to drive customer advocacy and reduce cac",
+      "title": "Community marketing: How to use it to drive customer advocacy and reduce CAC",
+      "summary": "Community marketing is a growth strategy centered on participation.",
+      "image": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/Community-marketing-1-20260226-1746209.webp",
+      "link": "https://blog.hubspot.com/marketing/community-marketing",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-09T22:30:35+00:00",
+      "published_at": "2026-03-10T11:00:05+00:00",
       "source_count": 1,
-      "keywords": [
-        "ai",
-        "govern"
-      ],
-      "score": 0.3431,
+      "keywords": [],
+      "score": 0.3336,
       "signals": {
-        "score": 0.3431,
-        "recency": 0.06827433025728016,
-        "keyword_volume": 0.4,
+        "score": 0.3336,
+        "recency": 0.4542360092701707,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
-      "id": "whoop launches a new blood test focused on womens health",
-      "title": "Whoop launches a new blood test focused on women\u2019s health",
-      "summary": "The wearable maker is launching a new panel focused on women's health through its Whoop Labs blood testing service.",
+      "id": "how time turned events into its biggest revenue driver",
+      "title": "How Time Turned Events Into Its Biggest Revenue Driver",
+      "summary": "The business is on pace to generate more than 50% of its total revenue in 2026.",
       "image": null,
-      "link": "https://techcrunch.com/2026/03/10/whoop-launches-a-new-blood-test-focused-on-womens-health/",
-      "category": "technology",
+      "link": "https://www.adweek.com/media/time-events-revenue-driver/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-10T10:00:00+00:00",
+      "published_at": "2026-03-10T11:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3418,
+      "score": 0.3335,
       "signals": {
-        "score": 0.3418,
-        "recency": 0.4633951538450227,
+        "score": 0.3335,
+        "recency": 0.4541308742146813,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "competitor analysis tools marketing teams actually use in 2026",
+      "title": "Competitor analysis tools marketing teams actually use in 2026",
+      "summary": "Competitor analysis tools are software platforms that help marketing teams monitor and compare competitor strategies across SEO, social, PPC, and market intelligence .",
+      "image": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/Competitor-analysis-tools-1-20260227-1780148.webp",
+      "link": "https://blog.hubspot.com/marketing/competitor-analysis-tools",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-10T11:00:02+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3335,
+      "signals": {
+        "score": 0.3335,
+        "recency": 0.4541729253164814,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1448,33 +1735,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3395,
+      "score": 0.3293,
       "signals": {
-        "score": 0.3395,
-        "recency": 0.23791500486077632,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "teva pharmaceuticals8217 dipesh patel on building digital capabilities in a trustfirst category",
-      "title": "Teva Pharmaceuticals&#8217; Dipesh Patel on Building Digital Capabilities in a Trust-First Category",
-      "summary": "Plus, the necessary guardrails around AI's role in content creation.",
-      "image": null,
-      "link": "https://www.adweek.com/brand-marketing/teva-pharmaceuticals-dipesh-patel-on-building-digital-capabilities-in-a-trust-first-category/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-10T05:42:14+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3366,
-      "signals": {
-        "score": 0.3366,
-        "recency": 0.2264584842441171,
+        "score": 0.3293,
+        "recency": 0.1973644643614538,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1495,14 +1759,35 @@
         "ai",
         "streaming"
       ],
-      "score": 0.3252,
+      "score": 0.3241,
       "signals": {
-        "score": 0.3252,
-        "recency": 0.02692417544858305,
+        "score": 0.3241,
+        "recency": 0.0223351842347774,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "whoop launches a new blood test focused on womens health",
+      "title": "Whoop launches a new blood test focused on women\u2019s health",
+      "summary": "The wearable maker is launching a new panel focused on women's health through its Whoop Labs blood testing service.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/10/whoop-launches-a-new-blood-test-focused-on-womens-health/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-10T10:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3221,
+      "signals": {
+        "score": 0.3221,
+        "recency": 0.3844134857313259,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       }
     },
     {
@@ -1518,10 +1803,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3242,
+      "score": 0.317,
       "signals": {
-        "score": 0.3242,
-        "recency": 0.17094774617817415,
+        "score": 0.317,
+        "recency": 0.14181119168165363,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1541,10 +1826,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3242,
+      "score": 0.317,
       "signals": {
-        "score": 0.3242,
-        "recency": 0.17094774617817415,
+        "score": 0.317,
+        "recency": 0.14181119168165363,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1562,10 +1847,10 @@
       "published_at": "2026-03-10T04:01:00+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.3227,
+      "score": 0.3155,
       "signals": {
-        "score": 0.3227,
-        "recency": 0.17094774617817415,
+        "score": 0.3155,
+        "recency": 0.14181119168165363,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.8,
@@ -1585,10 +1870,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3211,
+      "score": 0.3139,
       "signals": {
-        "score": 0.3211,
-        "recency": 0.1704735502380615,
+        "score": 0.3139,
+        "recency": 0.14141781830960642,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1608,10 +1893,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3211,
+      "score": 0.3139,
       "signals": {
-        "score": 0.3211,
-        "recency": 0.1704735502380615,
+        "score": 0.3139,
+        "recency": 0.14141781830960642,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1631,10 +1916,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.315,
+      "score": 0.3101,
       "signals": {
-        "score": 0.315,
-        "recency": 0.11607404451668975,
+        "score": 0.3101,
+        "recency": 0.09629023455544508,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1654,34 +1939,13 @@
       "keywords": [
         "game"
       ],
-      "score": 0.3089,
+      "score": 0.3003,
       "signals": {
-        "score": 0.3089,
-        "recency": 0.20173597414173888,
+        "score": 0.3003,
+        "recency": 0.1673518343335248,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "why younger americans are more optimistic about the economy",
-      "title": "Why Younger Americans Are More Optimistic About the Economy",
-      "summary": "How do Americans feel about the economy right now?",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/economy-optimism-half-full.jpg?w=457",
-      "link": "https://www.pymnts.com/economy/2026/why-younger-americans-are-more-optimistic-about-the-economy/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-10T08:01:36+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3034,
-      "signals": {
-        "score": 0.3034,
-        "recency": 0.3335161417494252,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1698,36 +1962,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3002,
+      "score": 0.2968,
       "signals": {
-        "score": 0.3002,
-        "recency": 0.08086222825536138,
+        "score": 0.2968,
+        "recency": 0.06707996570469417,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "openai and google employees rush to anthropics defense in dod lawsuit",
-      "title": "OpenAI and Google employees rush to Anthropic\u2019s defense in DOD lawsuit",
-      "summary": "More than 30 OpenAI and Google DeepMind employees signed onto a statement supporting Anthropic's lawsuit against the Defense Department after the agency labeled the AI firm a",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-09T21:15:17+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2998,
-      "signals": {
-        "score": 0.2998,
-        "recency": 0.05538823414582054,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -1744,10 +1985,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2998,
+      "score": 0.2964,
       "signals": {
-        "score": 0.2998,
-        "recency": 0.07902654888329268,
+        "score": 0.2964,
+        "recency": 0.06555716189406556,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1767,36 +2008,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2979,
+      "score": 0.2961,
       "signals": {
-        "score": 0.2979,
-        "recency": 0.04158337818214178,
+        "score": 0.2961,
+        "recency": 0.03449585353416786,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "anthropic launches code review tool to check flood of aigenerated code",
-      "title": "Anthropic launches code review tool to check flood of AI-generated code",
-      "summary": "Anthropic launched Code Review in Claude Code, a multi-agent system that automatically analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-09T19:41:34+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2967,
-      "signals": {
-        "score": 0.2967,
-        "recency": 0.04269334772370606,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -1813,10 +2031,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.296,
+      "score": 0.2945,
       "signals": {
-        "score": 0.296,
-        "recency": 0.033888336355073836,
+        "score": 0.2945,
+        "recency": 0.028112364567900363,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
@@ -1836,14 +2054,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.292,
+      "score": 0.29,
       "signals": {
-        "score": 0.292,
-        "recency": 0.04803421106007227,
+        "score": 0.29,
+        "recency": 0.03984719813045778,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "why younger americans are more optimistic about the economy",
+      "title": "Why Younger Americans Are More Optimistic About the Economy",
+      "summary": "How do Americans feel about the economy right now?",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/economy-optimism-half-full.jpg?w=457",
+      "link": "https://www.pymnts.com/economy/2026/why-younger-americans-are-more-optimistic-about-the-economy/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-10T08:01:36+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2892,
+      "signals": {
+        "score": 0.2892,
+        "recency": 0.276671220088843,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -1859,59 +2098,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.291,
+      "score": 0.2891,
       "signals": {
-        "score": 0.291,
-        "recency": 0.043849182697497914,
+        "score": 0.2891,
+        "recency": 0.03637547140351036,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "abb robotics taps nvidia omniverse to deliver industrialgrade physical ai at scale",
-      "title": "ABB Robotics Taps NVIDIA Omniverse to Deliver Industrial\u2011Grade Physical AI at Scale",
-      "summary": "ABB Robotics and NVIDIA today announced a breakthrough partnership that brings industrial\u2011grade physical AI to the factory floor.",
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/03/2.24-scaled.jpg",
-      "link": "https://blogs.nvidia.com/blog/abb-robotics-omniverse/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-03-09T15:00:34+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2909,
-      "signals": {
-        "score": 0.2909,
-        "recency": 0.019560017543797534,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "how ai is driving revenue cutting costs and boosting productivity for every industry in 2026",
-      "title": "How AI Is Driving Revenue, Cutting Costs and Boosting Productivity for Every Industry in 2026",
-      "summary": "AI is everywhere and accelerating everything \u2014 becoming essential infrastructure to create the intelligence that will advance every industry.",
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/03/industry-press-state-of-the-ai-report-overreaching-blog-1920x1080-2.png",
-      "link": "https://blogs.nvidia.com/blog/state-of-ai-report-2026/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-03-09T15:00:23+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2909,
-      "signals": {
-        "score": 0.2909,
-        "recency": 0.019550058959717887,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -1928,10 +2121,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2902,
+      "score": 0.2884,
       "signals": {
-        "score": 0.2902,
-        "recency": 0.040622451032326354,
+        "score": 0.2884,
+        "recency": 0.033698708048011235,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1951,36 +2144,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2886,
+      "score": 0.2871,
       "signals": {
-        "score": 0.2886,
-        "recency": 0.03438775440794329,
+        "score": 0.2871,
+        "recency": 0.028526661163252528,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "how ai is turning the iran conflict into theater",
-      "title": "How AI is turning the Iran conflict into theater",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/03/09/1134063/how-ai-is-turning-the-iran-conflict-into-theater/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-09T15:11:01+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.288,
-      "signals": {
-        "score": 0.288,
-        "recency": 0.020136122456916643,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
         "engagement": 0.6
       }
     },
@@ -1997,10 +2167,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2871,
+      "score": 0.2861,
       "signals": {
-        "score": 0.2871,
-        "recency": 0.02239130573561751,
+        "score": 0.2861,
+        "recency": 0.018574902686149457,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2020,10 +2190,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2863,
+      "score": 0.2853,
       "signals": {
-        "score": 0.2863,
-        "recency": 0.025356233533475298,
+        "score": 0.2853,
+        "recency": 0.021034484363383402,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2043,56 +2213,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2861,
+      "score": 0.2851,
       "signals": {
-        "score": 0.2861,
-        "recency": 0.024456926970053947,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "marketers report highest rates of ai brain fry report finds via sejournal mattgsouthern",
-      "title": "Marketers Report Highest Rates Of AI \u2018Brain Fry,\u2019 Report Finds via @sejournal, @MattGSouthern",
-      "summary": "A study of U.S. workers finds 14% report \"brain fry\" from AI overuse.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/marketers-report-highest-rates-of-ai-brain-fry-report-finds/569110/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-09T15:01:50+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2849,
-      "signals": {
-        "score": 0.2849,
-        "recency": 0.01962896104611621,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "primark is retails best kept secret its ready to move beyond that",
-      "title": "Primark is retail\u2019s \u2018best kept secret.\u2019 It\u2019s ready to move beyond that.",
-      "summary": "The fashion retailer has a new CEO, is expanding in the U.S.",
-      "image": "https://imgproxy.divecdn.com/sNSy3LvUdj6rxGvYK_4qdl7qCXLh7yJLdQ9_SZ_uv_U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9wcmltYXJrX1VkWkxKTjEuanBn.webp",
-      "link": "https://www.retaildive.com/news/primark-names-ceo-eoin-tonge-retail-expansion/808909/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-09T11:03:00-04:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2849,
-      "signals": {
-        "score": 0.2849,
-        "recency": 0.019692676606919784,
+        "score": 0.2851,
+        "recency": 0.0202884567713437,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2112,58 +2236,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2842,
+      "score": 0.2832,
       "signals": {
-        "score": 0.2842,
-        "recency": 0.0228394102043711,
+        "score": 0.2832,
+        "recency": 0.018946631650891648,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "horizon media pilots ai solution to detect cultural shifts midcampaign",
-      "title": "Horizon Media pilots AI solution to detect cultural shifts mid-campaign",
-      "summary": "The tool developed by Sightly and Vurvey Labs&nbsp;helps brands quickly&nbsp;respond to news developments that could&nbsp;affect perceptions of campaign messaging.",
-      "image": "https://imgproxy.divecdn.com/f_ZeGAH6bbQwAMyIen7B1dqlfxp83KFdSlxd2aN8AN8/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjA3NTcyOTI5LmpwZw==.webp",
-      "link": "https://www.marketingdive.com/news/horizon-media-pilots-ai-solution-to-detect-cultural-shifts-mid-campaign/814129/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-09T10:42:00-04:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2831,
-      "signals": {
-        "score": 0.2831,
-        "recency": 0.018576799946201865,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "exclusive mntn hires tiktok and nbcuniversal veterans to chase the smb market",
-      "title": "Exclusive: MNTN Hires TikTok and NBCUniversal Veterans to Chase the SMB Market",
-      "summary": "The performance TV company has hired Garland Hill as its first chief revenue officer and Peter Blacker as its global head of premium content.",
-      "image": null,
-      "link": "https://www.adweek.com/convergent-tv/mntn-hires-garland-hill-tiktok-nbcuniversal-peter-blacker/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-10T06:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2795,
-      "signals": {
-        "score": 0.2795,
-        "recency": 0.23791500486077632,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -2177,10 +2257,10 @@
       "published_at": "2026-03-10T04:01:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2642,
+      "score": 0.257,
       "signals": {
-        "score": 0.2642,
-        "recency": 0.17094774617817415,
+        "score": 0.257,
+        "recency": 0.14181119168165363,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2198,10 +2278,10 @@
       "published_at": "2026-03-10T04:01:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2642,
+      "score": 0.257,
       "signals": {
-        "score": 0.2642,
-        "recency": 0.17094774617817415,
+        "score": 0.257,
+        "recency": 0.14181119168165363,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2219,10 +2299,10 @@
       "published_at": "2026-03-10T04:03:06+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2615,
+      "score": 0.2542,
       "signals": {
-        "score": 0.2615,
-        "recency": 0.17194785551381925,
+        "score": 0.2542,
+        "recency": 0.14264084109131564,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2240,10 +2320,10 @@
       "published_at": "2026-03-09T19:57:38+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2312,
+      "score": 0.2293,
       "signals": {
-        "score": 0.2312,
-        "recency": 0.044641894054695534,
+        "score": 0.2293,
+        "recency": 0.03703307201385483,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2261,10 +2341,10 @@
       "published_at": "2026-03-09T16:21:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2276,
+      "score": 0.2266,
       "signals": {
-        "score": 0.2276,
-        "recency": 0.024456926970053947,
+        "score": 0.2266,
+        "recency": 0.0202884567713437,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2282,52 +2362,10 @@
       "published_at": "2026-03-09T12:24:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2262,
+      "score": 0.2251,
       "signals": {
-        "score": 0.2262,
-        "recency": 0.024661586257465774,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "cbp says it cant comply with court order for tariff refunds yet",
-      "title": "CBP says it can\u2019t comply with court order for tariff refunds yet",
-      "summary": "The agency is confident it can implement a process that streamlines returns for now-defunct Trump administration levies in 45 days, according to a court filing.",
-      "image": "https://imgproxy.divecdn.com/9mivfkk6Ch7ii3MCQn9cWQECymCp8PsSpiuSl99xOjc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTk5MTY2NzUzXzEuanBn.webp",
-      "link": "https://www.retaildive.com/news/trump-tariff-refunds-cbp-cant-comply/814174/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-09T11:02:00-04:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2249,
-      "signals": {
-        "score": 0.2249,
-        "recency": 0.019638050631990464,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "belk adds michael strahans brand to menswear assortment",
-      "title": "Belk adds Michael Strahan\u2019s brand to menswear assortment",
-      "summary": "The label will offer the department store&rsquo;s customers an assortment of suit separates, blazers, dress shirts, polos and T-shirts.",
-      "image": "https://imgproxy.divecdn.com/S53FufxVnKQKMhJ8Ba-fNu0yf8B8WC3OxE4qJa-WjRY/g:nowe:0:162/c:1199:677/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9CZWxrX0luY19fTWljaGFlbF9TdHJhaGFuLmpwZw==.webp",
-      "link": "https://www.retaildive.com/news/belk-michael-strahan-brand-stores-online/814035/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-09T10:57:00-04:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2248,
-      "signals": {
-        "score": 0.2248,
-        "recency": 0.01936718529224635,
+        "score": 0.2251,
+        "recency": 0.020458233665660516,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
