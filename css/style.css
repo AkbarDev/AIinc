@@ -269,14 +269,24 @@ img {
 }
 
 .headline-link {
-    color: #7dc9ff;
+    color: #10243b;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .headline-link:hover {
-    color: #b7e4ff;
+    color: #0a4b8f;
     text-decoration: underline;
+}
+
+.feature-card .headline-link,
+.sidebar .headline-link {
+    color: #d8eeff;
+}
+
+.feature-card .headline-link:hover,
+.sidebar .headline-link:hover {
+    color: #ffffff;
 }
 
 .card-image {
