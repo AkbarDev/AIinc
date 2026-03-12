@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-12T19:28:02.455297+00:00",
-  "sources_scanned": 493,
-  "feeds_polled": 29,
+  "generated_at": "2026-03-12T20:01:31.291756+00:00",
+  "sources_scanned": 503,
+  "feeds_polled": 30,
   "feed_pool": 35,
   "continent_counts": {
-    "NA": 333,
+    "NA": 343,
     "SA": 0,
     "EU": 160,
     "AF": 0,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 99,
+  "clusters": 100,
   "trends": [
     {
       "id": "cftc aims to clear path for prediction market boom",
@@ -30,10 +30,10 @@
         "govern",
         "regulation"
       ],
-      "score": 0.5533,
+      "score": 0.5362,
       "signals": {
-        "score": 0.5533,
-        "recency": 0.7733590731442417,
+        "score": 0.5362,
+        "recency": 0.7046785714043714,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -53,10 +53,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5151,
+      "score": 0.4944,
       "signals": {
-        "score": 0.5151,
-        "recency": 0.9344051525474266,
+        "score": 0.4944,
+        "recency": 0.8514224645130578,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -76,10 +76,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5127,
+      "score": 0.492,
       "signals": {
-        "score": 0.5127,
-        "recency": 0.9307784112995728,
+        "score": 0.492,
+        "recency": 0.8481178070387486,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -99,10 +99,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4933,
+      "score": 0.4749,
       "signals": {
-        "score": 0.4933,
-        "recency": 0.8290500246776991,
+        "score": 0.4749,
+        "recency": 0.7554237188133128,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -123,36 +123,13 @@
         "ai",
         "cloud"
       ],
-      "score": 0.4792,
+      "score": 0.4653,
       "signals": {
-        "score": 0.4792,
-        "recency": 0.6248444376125877,
+        "score": 0.4653,
+        "recency": 0.5693532292271712,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.82,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "ai safety from a hardware perspective",
-      "title": "AI Safety From a Hardware Perspective",
-      "summary": "Lenovo engineers are thinking about safety issues related to building and deploying personal agents on laptops and PCs.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt48bd9ef985fb80b7/69b303170e51ba062e0b6990/Lenovo2.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/responsible-ai/ai-safety-from-a-hardware-perspective",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-03-12T18:05:07+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4786,
-      "signals": {
-        "score": 0.4786,
-        "recency": 0.7942594144548303,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -169,10 +146,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4758,
+      "score": 0.4643,
       "signals": {
-        "score": 0.4758,
-        "recency": 0.5162186916457089,
+        "score": 0.4643,
+        "recency": 0.4703743226056188,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -193,11 +170,34 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.4758,
+      "score": 0.4619,
       "signals": {
-        "score": 0.4758,
-        "recency": 0.6231111670539397,
+        "score": 0.4619,
+        "recency": 0.5677738870256769,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "ai safety from a hardware perspective",
+      "title": "AI Safety From a Hardware Perspective",
+      "summary": "Lenovo engineers are thinking about safety issues related to building and deploying personal agents on laptops and PCs.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt48bd9ef985fb80b7/69b303170e51ba062e0b6990/Lenovo2.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/responsible-ai/ai-safety-from-a-hardware-perspective",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-03-12T18:05:07+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4609,
+      "signals": {
+        "score": 0.4609,
+        "recency": 0.7237227944154622,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -216,34 +216,13 @@
       "keywords": [
         "studio"
       ],
-      "score": 0.4754,
+      "score": 0.4568,
       "signals": {
-        "score": 0.4754,
-        "recency": 0.837731097861338,
+        "score": 0.4568,
+        "recency": 0.7633338429221982,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "petco builds around integrated omnichannel experiences",
-      "title": "Petco builds around \u201cintegrated omnichannel\u201d experiences",
-      "summary": "Petco seeks to better integrate ecommerce into its business through what it calls &#8220;integrated omnichannel&#8221; as its net sales and comparable sales each decreased in its",
-      "image": null,
-      "link": "https://www.digitalcommerce360.com/2026/03/12/petco-integrated-omnichannel-ecommerce-sales-q4-2025/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-12T19:23:57+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4687,
-      "signals": {
-        "score": 0.4687,
-        "recency": 0.9887006514760425,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.81,
         "engagement": 0.4
       }
     },
@@ -260,14 +239,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4637,
+      "score": 0.4474,
       "signals": {
-        "score": 0.4637,
-        "recency": 0.7346549014263285,
+        "score": 0.4474,
+        "recency": 0.6694116412283527,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "petco builds around integrated omnichannel experiences",
+      "title": "Petco builds around \u201cintegrated omnichannel\u201d experiences",
+      "summary": "Petco seeks to better integrate ecommerce into its business through what it calls &#8220;integrated omnichannel&#8221; as its net sales and comparable sales each decreased in its",
+      "image": null,
+      "link": "https://www.digitalcommerce360.com/2026/03/12/petco-integrated-omnichannel-ecommerce-sales-q4-2025/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-12T19:23:57+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4467,
+      "signals": {
+        "score": 0.4467,
+        "recency": 0.9008960867247265,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
       }
     },
     {
@@ -283,10 +283,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4613,
+      "score": 0.4458,
       "signals": {
-        "score": 0.4613,
-        "recency": 0.7013209876674605,
+        "score": 0.4458,
+        "recency": 0.6390380469399795,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "lucid motors shows off robotaxi concept called lunar",
+      "title": "Lucid Motors shows off robotaxi concept called \u2018Lunar\u2019",
+      "summary": "The concept was a highlight of Lucid's investor day, in which the company detailed its ambitions to push deeper into autonomy while pumping out new, affordable EVs.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/12/lucid-motors-shows-off-robotaxi-concept-called-lunar/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-12T17:19:20+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4453,
+      "signals": {
+        "score": 0.4453,
+        "recency": 0.6372949081083151,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -306,36 +329,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4612,
+      "score": 0.4449,
       "signals": {
-        "score": 0.4612,
-        "recency": 0.7306186257618844,
+        "score": 0.4449,
+        "recency": 0.6657338192853699,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "lucid motors shows off robotaxi concept called lunar",
-      "title": "Lucid Motors shows off robotaxi concept called \u2018Lunar\u2019",
-      "summary": "The concept was a highlight of Lucid's investor day, in which the company detailed its ambitions to push deeper into autonomy while pumping out new, affordable EVs.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/12/lucid-motors-shows-off-robotaxi-concept-called-lunar/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-12T17:19:20+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4609,
-      "signals": {
-        "score": 0.4609,
-        "recency": 0.6994079562714143,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -350,37 +350,14 @@
       "published_at": "2026-03-12T17:04:50+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.4547,
+      "score": 0.4398,
       "signals": {
-        "score": 0.4547,
-        "recency": 0.6717971418070164,
+        "score": 0.4398,
+        "recency": 0.6121361558963863,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "webflow buys ai contentgeneration platform vidoso to bolster its marketing suite",
-      "title": "Webflow buys AI content-generation platform Vidoso to bolster its marketing suite",
-      "summary": "Founded in 2024, Vidoso uses large language models to help organizations generate marketing collateral like images, presentations, video clips, blog posts, and social media",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/12/webflow-buys-ai-content-generation-platform-vidoso-to-bolster-its-marketing-suite/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-12T17:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4517,
-      "signals": {
-        "score": 0.4517,
-        "recency": 0.6628379206423821,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
       }
     },
     {
@@ -397,11 +374,34 @@
         "ai",
         "series"
       ],
-      "score": 0.449,
+      "score": 0.438,
       "signals": {
-        "score": 0.449,
-        "recency": 0.49183872452958527,
+        "score": 0.438,
+        "recency": 0.44815949252878695,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "webflow buys ai contentgeneration platform vidoso to bolster its marketing suite",
+      "title": "Webflow buys AI content-generation platform Vidoso to bolster its marketing suite",
+      "summary": "Founded in 2024, Vidoso uses large language models to help organizations generate marketing collateral like images, presentations, video clips, blog posts, and social media",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/12/webflow-buys-ai-content-generation-platform-vidoso-to-bolster-its-marketing-suite/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-12T17:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.437,
+      "signals": {
+        "score": 0.437,
+        "recency": 0.6039725855828938,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -420,10 +420,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4482,
+      "score": 0.4338,
       "signals": {
-        "score": 0.4482,
-        "recency": 0.6487810609786554,
+        "score": 0.4338,
+        "recency": 0.5911640880424257,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -443,10 +443,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4463,
+      "score": 0.4316,
       "signals": {
-        "score": 0.4463,
-        "recency": 0.6652974277352779,
+        "score": 0.4316,
+        "recency": 0.606213668677108,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -466,10 +466,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4457,
+      "score": 0.431,
       "signals": {
-        "score": 0.4457,
-        "recency": 0.6628379206423821,
+        "score": 0.431,
+        "recency": 0.6039725855828938,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -489,10 +489,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4439,
+      "score": 0.4299,
       "signals": {
-        "score": 0.4439,
-        "recency": 0.631679628420924,
+        "score": 0.4299,
+        "recency": 0.5755814001523689,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -510,14 +510,38 @@
       "published_at": "2026-03-12T18:42:01+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.44,
+      "score": 0.4205,
       "signals": {
-        "score": 0.44,
-        "recency": 0.879989632667546,
+        "score": 0.4205,
+        "recency": 0.8018394801752914,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.4
+      }
+    },
+    {
+      "id": "honda scraps 3 evs planned for the us blaming tariffs and chinese competition",
+      "title": "Honda scraps 3 EVs planned for the US, blaming tariffs and Chinese competition",
+      "summary": "The Japanese automaker said the change of plans will cost it up to $15.7 billion.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/12/honda-scraps-3-evs-planned-for-the-us-blaming-tariffs-and-chinese-competition/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-12T14:00:58+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.4178,
+      "signals": {
+        "score": 0.4178,
+        "recency": 0.3673128708422915,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
       }
     },
     {
@@ -533,10 +557,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4283,
+      "score": 0.4151,
       "signals": {
-        "score": 0.4283,
-        "recency": 0.5931334320662865,
+        "score": 0.4151,
+        "recency": 0.5404584158576051,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -556,37 +580,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4271,
+      "score": 0.4136,
       "signals": {
-        "score": 0.4271,
-        "recency": 0.60626521191209,
+        "score": 0.4136,
+        "recency": 0.5524239881035152,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.77,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "honda scraps 3 evs planned for the us blaming tariffs and chinese competition",
-      "title": "Honda scraps 3 EVs planned for the US, blaming tariffs and Chinese competition",
-      "summary": "The Japanese automaker said the change of plans will cost it up to $15.7 billion.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/12/honda-scraps-3-evs-planned-for-the-us-blaming-tariffs-and-chinese-competition/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-12T14:00:58+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.4268,
-      "signals": {
-        "score": 0.4268,
-        "recency": 0.4031125010406168,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -603,10 +603,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4238,
+      "score": 0.411,
       "signals": {
-        "score": 0.4238,
-        "recency": 0.5752839989305597,
+        "score": 0.411,
+        "recency": 0.5241941558530988,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "yellow rose by kendra scott expands beyond texas with new flagship",
+      "title": "Yellow Rose by Kendra Scott expands beyond Texas with new flagship",
+      "summary": "The Western brand, which launched in 2023, is opening its first store outside the state with a location featuring a cocktail bar and hat customization in Nashville, Tennessee.",
+      "image": "https://imgproxy.divecdn.com/K53yW1HGWiOrRblFStrFSxaVchl9iD2QS43RU0I4KO0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjYtMDMtMTFfMTM1MzM3LnBuZw==.webp",
+      "link": "https://www.retaildive.com/news/yellow-rose-kendra-scott-opens-flagship-nashville-store/814524/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-12T11:57:00-04:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4068,
+      "signals": {
+        "score": 0.4068,
+        "recency": 0.5070090273196911,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -624,102 +647,14 @@
       "published_at": "2026-03-12T18:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.4218,
+      "score": 0.4044,
       "signals": {
-        "score": 0.4218,
-        "recency": 0.7830504795930907,
+        "score": 0.4044,
+        "recency": 0.7135093030637392,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "why every business workflow is becoming a cfo data problem",
-      "title": "Why Every Business Workflow Is Becoming a CFO Data Problem",
-      "summary": "As software eats the business world, workflows across B2B are becoming data problems for chief financial officers.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/B2B-CFO-data-software.jpeg?w=457",
-      "link": "https://www.pymnts.com/news/b2b-payments/2026/why-every-business-workflow-is-becoming-cfo-data-problem/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-12T18:10:34+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4216,
-      "signals": {
-        "score": 0.4216,
-        "recency": 0.8063750970712117,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "feds relaxed capital requirements could be days away",
-      "title": "Fed\u2019s Relaxed Capital Requirements Could Be Days Away",
-      "summary": "The Federal Reserve is set to unveil relaxed capital requirements for U.S.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2025/02/Federal-Reserve-bank-regulations.jpg?w=457",
-      "link": "https://www.pymnts.com/bank-regulation/2026/feds-relaxed-capital-requirements-could-be-days-away/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-12T18:09:53+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4212,
-      "signals": {
-        "score": 0.4212,
-        "recency": 0.8048459294264879,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "yellow rose by kendra scott expands beyond texas with new flagship",
-      "title": "Yellow Rose by Kendra Scott expands beyond Texas with new flagship",
-      "summary": "The Western brand, which launched in 2023, is opening its first store outside the state with a location featuring a cocktail bar and hat customization in Nashville, Tennessee.",
-      "image": "https://imgproxy.divecdn.com/K53yW1HGWiOrRblFStrFSxaVchl9iD2QS43RU0I4KO0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjYtMDMtMTFfMTM1MzM3LnBuZw==.webp",
-      "link": "https://www.retaildive.com/news/yellow-rose-kendra-scott-opens-flagship-nashville-store/814524/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-12T11:57:00-04:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4191,
-      "signals": {
-        "score": 0.4191,
-        "recency": 0.5564239461153103,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "facebook marketplaces new meta ai tools make selling faster and easier",
-      "title": "Facebook Marketplace\u2019s New Meta AI Tools Make Selling Faster and Easier",
-      "summary": "List items with a single click, respond to buyer inquiries with AI, and more with new Facebook Marketplace features.",
-      "image": "https://about.fb.com/wp-content/uploads/2026/03/Facebook-Marketplace-Selling-Updates_Header.jpg?fit=1920%2C1080",
-      "link": "https://about.fb.com/news/2026/03/facebook-marketplace-new-meta-ai-tools-make-selling-faster-and-easier/",
-      "category": "social-media",
-      "geo": "global",
-      "published_at": "2026-03-12T16:00:40+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.416,
-      "signals": {
-        "score": 0.416,
-        "recency": 0.5621201864362687,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.77,
-        "engagement": 0.6
       }
     },
     {
@@ -736,14 +671,79 @@
         "ai",
         "game"
       ],
-      "score": 0.4113,
+      "score": 0.4037,
       "signals": {
-        "score": 0.4113,
-        "recency": 0.3411483865312138,
+        "score": 0.4037,
+        "recency": 0.31085166775160383,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "why every business workflow is becoming a cfo data problem",
+      "title": "Why Every Business Workflow Is Becoming a CFO Data Problem",
+      "summary": "As software eats the business world, workflows across B2B are becoming data problems for chief financial officers.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/B2B-CFO-data-software.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/b2b-payments/2026/why-every-business-workflow-is-becoming-cfo-data-problem/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-12T18:10:34+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4037,
+      "signals": {
+        "score": 0.4037,
+        "recency": 0.7347625070330291,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "facebook marketplaces new meta ai tools make selling faster and easier",
+      "title": "Facebook Marketplace\u2019s New Meta AI Tools Make Selling Faster and Easier",
+      "summary": "List items with a single click, respond to buyer inquiries with AI, and more with new Facebook Marketplace features.",
+      "image": "https://about.fb.com/wp-content/uploads/2026/03/Facebook-Marketplace-Selling-Updates_Header.jpg?fit=1920%2C1080",
+      "link": "https://about.fb.com/news/2026/03/facebook-marketplace-new-meta-ai-tools-make-selling-faster-and-easier/",
+      "category": "social-media",
+      "geo": "global",
+      "published_at": "2026-03-12T16:00:40+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4035,
+      "signals": {
+        "score": 0.4035,
+        "recency": 0.5121993957153564,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.77,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "feds relaxed capital requirements could be days away",
+      "title": "Fed\u2019s Relaxed Capital Requirements Could Be Days Away",
+      "summary": "The Federal Reserve is set to unveil relaxed capital requirements for U.S.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/02/Federal-Reserve-bank-regulations.jpg?w=457",
+      "link": "https://www.pymnts.com/bank-regulation/2026/feds-relaxed-capital-requirements-could-be-days-away/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-12T18:09:53+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4033,
+      "signals": {
+        "score": 0.4033,
+        "recency": 0.7333691417661802,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -760,10 +760,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.4081,
+      "score": 0.4005,
       "signals": {
-        "score": 0.4081,
-        "recency": 0.34031233560176566,
+        "score": 0.4005,
+        "recency": 0.31008986486463497,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -783,10 +783,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.408,
+      "score": 0.3967,
       "signals": {
-        "score": 0.408,
-        "recency": 0.5059266042234336,
+        "score": 0.3967,
+        "recency": 0.4609962552713715,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -806,10 +806,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4069,
+      "score": 0.3956,
       "signals": {
-        "score": 0.4069,
-        "recency": 0.5076863471626986,
+        "score": 0.3956,
+        "recency": 0.4625997188933064,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -829,10 +829,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.405,
+      "score": 0.3944,
       "signals": {
-        "score": 0.405,
-        "recency": 0.47606684473681654,
+        "score": 0.3944,
+        "recency": 0.43378828243158946,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "uber wayve and nissan plan to launch a robotaxi service in tokyo this year",
+      "title": "Uber, Wayve, and Nissan plan to launch a robotaxi service in Tokyo this year",
+      "summary": "Nissan will integrate Wayve's self-driving software into the Leaf with the goal of making the vehicles available on the Uber app in Tokyo.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/12/uber-wayve-and-nissan-plan-to-launch-a-robotaxi-service-in-tokyo-this-year/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-12T14:58:46+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3938,
+      "signals": {
+        "score": 0.3938,
+        "recency": 0.4312851833242324,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -852,36 +875,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4049,
+      "score": 0.3938,
       "signals": {
-        "score": 0.4049,
-        "recency": 0.4995262385523193,
+        "score": 0.3938,
+        "recency": 0.45516429351620724,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "uber wayve and nissan plan to launch a robotaxi service in tokyo this year",
-      "title": "Uber, Wayve, and Nissan plan to launch a robotaxi service in Tokyo this year",
-      "summary": "Nissan will integrate Wayve's self-driving software into the Leaf with the goal of making the vehicles available on the Uber app in Tokyo.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/12/uber-wayve-and-nissan-plan-to-launch-a-robotaxi-service-in-tokyo-this-year/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-12T14:58:46+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4043,
-      "signals": {
-        "score": 0.4043,
-        "recency": 0.4733197846101037,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -898,10 +898,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3958,
+      "score": 0.3855,
       "signals": {
-        "score": 0.3958,
-        "recency": 0.46321771177330007,
+        "score": 0.3855,
+        "recency": 0.42208025575298247,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -921,35 +921,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3945,
+      "score": 0.3844,
       "signals": {
-        "score": 0.3945,
-        "recency": 0.4581417549550583,
+        "score": 0.3844,
+        "recency": 0.41745508469932663,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "trulioo names new execs amid increased id verification demand",
-      "title": "Trulioo Names New Execs Amid Increased ID Verification Demand",
-      "summary": "Identity verification/fraud protection platform Trulioo has named three new executives from the payments field.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2025/10/Trulioo-KYB.jpg?w=457",
-      "link": "https://www.pymnts.com/personnel/2026/trulioo-names-new-execs-amid-increased-id-verification-demand/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-12T17:13:53+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3922,
-      "signals": {
-        "score": 0.3922,
-        "recency": 0.6888994412536098,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -965,10 +944,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3884,
+      "score": 0.3793,
       "signals": {
-        "score": 0.3884,
-        "recency": 0.40950799325037035,
+        "score": 0.3793,
+        "recency": 0.3731403919386352,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -988,57 +967,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.387,
+      "score": 0.3772,
       "signals": {
-        "score": 0.387,
-        "recency": 0.4399536522648967,
+        "score": 0.3772,
+        "recency": 0.4008822317189509,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "law enforcement shuts down botnet made of tens of thousands of hacked routers",
-      "title": "Law enforcement shuts down botnet made of tens of thousands of hacked routers",
-      "summary": "An international law enforcement operation shut down a service called SocksEscort, which allegedly helped cybercriminals all over the world launch ransomware and DDoS attacks,",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/12/law-enforcement-shuts-down-botnet-made-of-tens-of-thousands-of-hacked-routers/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-12T16:43:49+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3844,
-      "signals": {
-        "score": 0.3844,
-        "recency": 0.6337007203148065,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "fords new ai tool offers indepth insight into its cvs",
-      "title": "Ford\u2019s New AI Tool Offers In-Depth Insight Into Its CVs",
-      "summary": "The manufacturer continues to support its truck business with AI technology advances.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blta5033a2e4e306a62/69b2cc6c83adfb71dd4cfa09/Ford.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/generative-ai/ford-s-new-ai-tool-offers-insight-into-cvs",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-03-12T14:09:53+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3833,
-      "signals": {
-        "score": 0.3833,
-        "recency": 0.41322167835125634,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1056,10 +991,10 @@
         "ai",
         "semiconductor"
       ],
-      "score": 0.3825,
+      "score": 0.3771,
       "signals": {
-        "score": 0.3825,
-        "recency": 0.24407033028652175,
+        "score": 0.3771,
+        "recency": 0.22239492318779666,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1067,20 +1002,64 @@
       }
     },
     {
-      "id": "tesla becomes a utility in the uk setting up showdown with octopus energy",
-      "title": "Tesla becomes a utility in the UK, setting up showdown with Octopus Energy",
-      "summary": "The new Tesla Energy Ventures division was approved by Ofgem to sell electricity directly to customers.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/12/tesla-becomes-a-utility-in-the-uk-setting-up-showdown-with-octopus-energy/",
-      "category": "technology",
+      "id": "trulioo names new execs amid increased id verification demand",
+      "title": "Trulioo Names New Execs Amid Increased ID Verification Demand",
+      "summary": "Identity verification/fraud protection platform Trulioo has named three new executives from the payments field.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/10/Trulioo-KYB.jpg?w=457",
+      "link": "https://www.pymnts.com/personnel/2026/trulioo-names-new-execs-amid-increased-id-verification-demand/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-03-12T16:36:41+00:00",
+      "published_at": "2026-03-12T17:13:53+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3813,
+      "score": 0.3769,
       "signals": {
-        "score": 0.3813,
-        "recency": 0.6212676442377764,
+        "score": 0.3769,
+        "recency": 0.6277196336886063,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "fords new ai tool offers indepth insight into its cvs",
+      "title": "Ford\u2019s New AI Tool Offers In-Depth Insight Into Its CVs",
+      "summary": "The manufacturer continues to support its truck business with AI technology advances.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blta5033a2e4e306a62/69b2cc6c83adfb71dd4cfa09/Ford.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/generative-ai/ford-s-new-ai-tool-offers-insight-into-cvs",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-03-12T14:09:53+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3741,
+      "signals": {
+        "score": 0.3741,
+        "recency": 0.3765242719529968,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "law enforcement shuts down botnet made of tens of thousands of hacked routers",
+      "title": "Law enforcement shuts down botnet made of tens of thousands of hacked routers",
+      "summary": "An international law enforcement operation shut down a service called SocksEscort, which allegedly helped cybercriminals all over the world launch ransomware and DDoS attacks,",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/12/law-enforcement-shuts-down-botnet-made-of-tens-of-thousands-of-hacked-routers/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-12T16:43:49+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3704,
+      "signals": {
+        "score": 0.3704,
+        "recency": 0.5774230028411013,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1100,10 +1079,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.379,
+      "score": 0.3701,
       "signals": {
-        "score": 0.379,
-        "recency": 0.40203152128977415,
+        "score": 0.3701,
+        "recency": 0.36632789078193756,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1111,44 +1090,23 @@
       }
     },
     {
-      "id": "chatgpts default premium models search the web differently via sejournal mattgsouthern",
-      "title": "ChatGPT\u2019s Default & Premium Models Search The Web Differently via @sejournal, @MattGSouthern",
-      "summary": "An analysis of ChatGPT conversations found the default and premium models cite almost entirely different sources for the same queries.",
+      "id": "tesla becomes a utility in the uk setting up showdown with octopus energy",
+      "title": "Tesla becomes a utility in the UK, setting up showdown with Octopus Energy",
+      "summary": "The new Tesla Energy Ventures division was approved by Ofgem to sell electricity directly to customers.",
       "image": null,
-      "link": "https://www.searchenginejournal.com/chatgpts-default-premium-models-search-the-web-differently/569594/",
-      "category": "digital-media",
+      "link": "https://techcrunch.com/2026/03/12/tesla-becomes-a-utility-in-the-uk-setting-up-showdown-with-octopus-energy/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-03-12T16:38:54+00:00",
+      "published_at": "2026-03-12T16:36:41+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3763,
+      "score": 0.3675,
       "signals": {
-        "score": 0.3763,
-        "recency": 0.6251048437090956,
+        "score": 0.3675,
+        "recency": 0.5660940838533114,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "mastercard move modernizes xborder payments for hong kong banks",
-      "title": "Mastercard Move Modernizes X-Border Payments for Hong Kong Banks",
-      "summary": "Mastercard began rolling out a suite of solutions designed to help banks support the cross-border payment needs of small- to medium-sized businesses (SMBs) in the Asia-Pacific",
-      "image": "https://www.pymnts.com/wp-content/uploads/2023/07/Mastercard-4.jpg?w=457",
-      "link": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/mastercard-move-modernizes-cross-border-payments-hong-kong-banks/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-12T16:39:04+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3763,
-      "signals": {
-        "score": 0.3763,
-        "recency": 0.6253943111008721,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.4
       }
     },
@@ -1165,10 +1123,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3725,
+      "score": 0.3643,
       "signals": {
-        "score": 0.3725,
-        "recency": 0.3701266748588986,
+        "score": 0.3643,
+        "recency": 0.3372564511563861,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1188,10 +1146,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3725,
+      "score": 0.3642,
       "signals": {
-        "score": 0.3725,
-        "recency": 0.37610329636947126,
+        "score": 0.3642,
+        "recency": 0.3427023006384022,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1211,14 +1169,56 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3711,
+      "score": 0.3635,
       "signals": {
-        "score": 0.3711,
-        "recency": 0.34031233560176566,
+        "score": 0.3635,
+        "recency": 0.31008986486463497,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "mastercard move modernizes xborder payments for hong kong banks",
+      "title": "Mastercard Move Modernizes X-Border Payments for Hong Kong Banks",
+      "summary": "Mastercard began rolling out a suite of solutions designed to help banks support the cross-border payment needs of small- to medium-sized businesses (SMBs) in the Asia-Pacific",
+      "image": "https://www.pymnts.com/wp-content/uploads/2023/07/Mastercard-4.jpg?w=457",
+      "link": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/mastercard-move-modernizes-cross-border-payments-hong-kong-banks/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-12T16:39:04+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3625,
+      "signals": {
+        "score": 0.3625,
+        "recency": 0.5698542695299662,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "chatgpts default premium models search the web differently via sejournal mattgsouthern",
+      "title": "ChatGPT\u2019s Default & Premium Models Search The Web Differently via @sejournal, @MattGSouthern",
+      "summary": "An analysis of ChatGPT conversations found the default and premium models cite almost entirely different sources for the same queries.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/chatgpts-default-premium-models-search-the-web-differently/569594/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-12T16:38:54+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3624,
+      "signals": {
+        "score": 0.3624,
+        "recency": 0.5695905091692376,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -1234,36 +1234,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3687,
+      "score": 0.3611,
       "signals": {
-        "score": 0.3687,
-        "recency": 0.34296952945947634,
+        "score": 0.3611,
+        "recency": 0.31251107854999727,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "why dove turned reddit product feedback into a realworld campaign",
-      "title": "Why Dove turned Reddit product feedback into a real-world campaign",
-      "summary": "Emily Barfoot, head of Dove U.S., discusses how the campaign came together, navigating Reddit and the brand&rsquo;s larger social media strategy.",
-      "image": "https://imgproxy.divecdn.com/rVyCdjfO3N9HPKGY91WactVyE1BMHV1q-5Fanr0-4sc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9ET1ZFX19yZWFsX1Jldmlld3MuanBn.webp",
-      "link": "https://www.marketingdive.com/news/why-dove-turned-reddit-product-feedback-into-a-real-world-campaign/814523/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-12T09:05:21-04:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3649,
-      "signals": {
-        "score": 0.3649,
-        "recency": 0.34540752132076014,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -1280,10 +1257,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3643,
+      "score": 0.3573,
       "signals": {
-        "score": 0.3643,
-        "recency": 0.3131024635998643,
+        "score": 0.3573,
+        "recency": 0.28529644820186906,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1291,24 +1268,49 @@
       }
     },
     {
-      "id": "the year ctv goes full funnel",
-      "title": "The Year CTV Goes Full Funnel",
-      "summary": "2026 is the year CTV will bridge the gap between branding and performance.",
+      "id": "furniturecom was built for seo now its trying to crack ai search",
+      "title": "Furniture.com was built for SEO. Now it\u2019s trying to crack AI search",
+      "summary": "Furniture.com is among many dot-com companies grappling with how AI and chatbots are changing the way shoppers search for information.",
       "image": null,
-      "link": "https://www.adexchanger.com/the-big-story/the-year-ctv-goes-full-funnel/",
+      "link": "https://digiday.com/marketing/furniture-com-was-built-for-seo-now-its-trying-to-crack-ai-search/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-12T16:10:13+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3628,
+      "published_at": "2026-03-12T04:01:00+00:00",
+      "source_count": 2,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3573,
       "signals": {
-        "score": 0.3628,
-        "recency": 0.5772315349002186,
-        "keyword_volume": 0.0,
+        "score": 0.3573,
+        "recency": 0.06938286395217419,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "why dove turned reddit product feedback into a realworld campaign",
+      "title": "Why Dove turned Reddit product feedback into a real-world campaign",
+      "summary": "Emily Barfoot, head of Dove U.S., discusses how the campaign came together, navigating Reddit and the brand&rsquo;s larger social media strategy.",
+      "image": "https://imgproxy.divecdn.com/rVyCdjfO3N9HPKGY91WactVyE1BMHV1q-5Fanr0-4sc/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9ET1ZFX19yZWFsX1Jldmlld3MuanBn.webp",
+      "link": "https://www.marketingdive.com/news/why-dove-turned-reddit-product-feedback-into-a-real-world-campaign/814523/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-12T09:05:21-04:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3572,
+      "signals": {
+        "score": 0.3572,
+        "recency": 0.3147325571381002,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.4
+        "engagement": 0.6
       }
     },
     {
@@ -1324,10 +1326,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3617,
+      "score": 0.3542,
       "signals": {
-        "score": 0.3617,
-        "recency": 0.3388659396096979,
+        "score": 0.3542,
+        "recency": 0.3087719204623907,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1347,36 +1349,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3591,
+      "score": 0.3518,
       "signals": {
-        "score": 0.3591,
-        "recency": 0.328242517873676,
+        "score": 0.3518,
+        "recency": 0.29909194396463024,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "furniturecom was built for seo now its trying to crack ai search",
-      "title": "Furniture.com was built for SEO. Now it\u2019s trying to crack AI search",
-      "summary": "Furniture.com is among many dot-com companies grappling with how AI and chatbots are changing the way shoppers search for information.",
-      "image": null,
-      "link": "https://digiday.com/marketing/furniture-com-was-built-for-seo-now-its-trying-to-crack-ai-search/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-12T04:01:00+00:00",
-      "source_count": 2,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.359,
-      "signals": {
-        "score": 0.359,
-        "recency": 0.07614516679740997,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1393,10 +1372,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3584,
+      "score": 0.3515,
       "signals": {
-        "score": 0.3584,
-        "recency": 0.3136828201782492,
+        "score": 0.3515,
+        "recency": 0.285825264451349,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1416,14 +1395,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3583,
+      "score": 0.3514,
       "signals": {
-        "score": 0.3583,
-        "recency": 0.31336349106586925,
+        "score": 0.3514,
+        "recency": 0.2855342943308267,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "the year ctv goes full funnel",
+      "title": "The Year CTV Goes Full Funnel",
+      "summary": "2026 is the year CTV will bridge the gap between branding and performance.",
+      "image": null,
+      "link": "https://www.adexchanger.com/the-big-story/the-year-ctv-goes-full-funnel/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-12T16:10:13+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.35,
+      "signals": {
+        "score": 0.35,
+        "recency": 0.5259687349749008,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
       }
     },
     {
@@ -1437,13 +1437,34 @@
       "published_at": "2026-03-12T15:49:11+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3576,
+      "score": 0.3455,
       "signals": {
-        "score": 0.3576,
-        "recency": 0.5444725531969088,
+        "score": 0.3455,
+        "recency": 0.49611901415440857,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "bdg names avi zimak chief commercial officer in dual leadership shakeup",
+      "title": "BDG Names Avi Zimak Chief Commercial Officer in Dual Leadership Shake-Up",
+      "summary": "The media group also elevated Amber Estabrook to the role of chief business officer of prestige revenue and partnerships.",
+      "image": null,
+      "link": "https://www.adweek.com/media/bdg-avi-zimak-chief-commercial-officer-amber-estabrook/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-12T15:44:54+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3426,
+      "signals": {
+        "score": 0.3426,
+        "recency": 0.49025109453797283,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1458,57 +1479,13 @@
       "published_at": "2026-03-12T15:16:16+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3502,
+      "score": 0.3392,
       "signals": {
-        "score": 0.3502,
-        "recency": 0.4968967949840667,
+        "score": 0.3392,
+        "recency": 0.45276836567155,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "rivian r2 launch heres what 57990 gets you",
-      "title": "Rivian R2 launch: Here\u2019s what $57,990 gets you",
-      "summary": "Two years after revealing what its affordable next-generation EV would look like, Rivian has shared all of the pricing, colors, and performance specs for its upcoming R2 SUV.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/12/rivian-r2-launch-heres-what-57990-gets-you/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-12T15:02:09+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3454,
-      "signals": {
-        "score": 0.3454,
-        "recency": 0.4777890827343458,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "coinbases oscars ad turns a video game npc into a financial rebel",
-      "title": "Coinbase\u2019s Oscars Ad Turns a Video Game NPC Into a Financial Rebel",
-      "summary": "Coinbase's Oscars ad encourages people to break away from the financial systems they\u2019ve always known.",
-      "image": null,
-      "link": "https://www.adweek.com/creativity/coinbases-oscars-ad-turns-a-video-game-npc-into-a-financial-rebel/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-12T13:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "game"
-      ],
-      "score": 0.3451,
-      "signals": {
-        "score": 0.3451,
-        "recency": 0.34031233560176566,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1525,10 +1502,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3444,
+      "score": 0.3386,
       "signals": {
-        "score": 0.3444,
-        "recency": 0.2574288727652661,
+        "score": 0.3386,
+        "recency": 0.2345671197221877,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1548,14 +1525,58 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3442,
+      "score": 0.3381,
       "signals": {
-        "score": 0.3442,
-        "recency": 0.2746666757993429,
+        "score": 0.3381,
+        "recency": 0.2502740672941825,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.77,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "coinbases oscars ad turns a video game npc into a financial rebel",
+      "title": "Coinbase\u2019s Oscars Ad Turns a Video Game NPC Into a Financial Rebel",
+      "summary": "Coinbase's Oscars ad encourages people to break away from the financial systems they\u2019ve always known.",
+      "image": null,
+      "link": "https://www.adweek.com/creativity/coinbases-oscars-ad-turns-a-video-game-npc-into-a-financial-rebel/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-12T13:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "game"
+      ],
+      "score": 0.3375,
+      "signals": {
+        "score": 0.3375,
+        "recency": 0.31008986486463497,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "rivian r2 launch heres what 57990 gets you",
+      "title": "Rivian R2 launch: Here\u2019s what $57,990 gets you",
+      "summary": "Two years after revealing what its affordable next-generation EV would look like, Rivian has shared all of the pricing, colors, and performance specs for its upcoming R2 SUV.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/12/rivian-r2-launch-heres-what-57990-gets-you/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-12T15:02:09+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3348,
+      "signals": {
+        "score": 0.3348,
+        "recency": 0.43535757185206914,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       }
     },
     {
@@ -1569,10 +1590,10 @@
       "published_at": "2026-03-12T11:15:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3438,
+      "score": 0.3328,
       "signals": {
-        "score": 0.3438,
-        "recency": 0.4951515265892371,
+        "score": 0.3328,
+        "recency": 0.45117809113816215,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1590,10 +1611,10 @@
       "published_at": "2026-03-12T14:27:11+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3284,
+      "score": 0.3188,
       "signals": {
-        "score": 0.3284,
-        "recency": 0.43356414529795806,
+        "score": 0.3188,
+        "recency": 0.3950601643277525,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1611,37 +1632,14 @@
       "published_at": "2026-03-12T14:14:40+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3217,
+      "score": 0.3124,
       "signals": {
-        "score": 0.3217,
-        "recency": 0.41874880837113654,
+        "score": 0.3124,
+        "recency": 0.3815605484015812,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "exclusive newsguard taps startup pangram to identify aigenerated news and misinformation",
-      "title": "EXCLUSIVE: NewsGuard Taps Startup Pangram to Identify AI-Generated News and Misinformation",
-      "summary": "A new AI-powered tool created by Pangram can spot AI-generated misinformation posing as reputable news.",
-      "image": null,
-      "link": "https://www.adweek.com/media/newsguard-tracking-ai-slop-content-farms/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-12T06:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3065,
-      "signals": {
-        "score": 0.3065,
-        "recency": 0.10597435844429637,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       }
     },
     {
@@ -1657,13 +1655,59 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3065,
+      "score": 0.3048,
       "signals": {
-        "score": 0.3065,
-        "recency": 0.07593394594330817,
+        "score": 0.3048,
+        "recency": 0.06919040120765095,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "exclusive newsguard taps startup pangram to identify aigenerated news and misinformation",
+      "title": "EXCLUSIVE: NewsGuard Taps Startup Pangram to Identify AI-Generated News and Misinformation",
+      "summary": "A new AI-powered tool created by Pangram can spot AI-generated misinformation posing as reputable news.",
+      "image": null,
+      "link": "https://www.adweek.com/media/newsguard-tracking-ai-slop-content-farms/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-12T06:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3041,
+      "signals": {
+        "score": 0.3041,
+        "recency": 0.09656298362208925,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "delta cmo alicia tillman to depart ranjan goswami named marketing and product chief",
+      "title": "Delta CMO Alicia Tillman to Depart; Ranjan Goswami Named Marketing and Product Chief",
+      "summary": "Airline announces leadership reshuffle as COO John Laughter's three-decade tenure ends.",
+      "image": null,
+      "link": "https://www.adweek.com/brand-marketing/delta-cmo-alicia-tillman-to-depart-ranjan-goswami-named-marketing-and-product-chief/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-12T05:38:15+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3027,
+      "signals": {
+        "score": 0.3027,
+        "recency": 0.0909017096281458,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1680,57 +1724,13 @@
       "keywords": [
         "console"
       ],
-      "score": 0.3058,
+      "score": 0.3018,
       "signals": {
-        "score": 0.3058,
-        "recency": 0.18330659369409988,
+        "score": 0.3018,
+        "recency": 0.16702749480675907,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "delta cmo alicia tillman to depart ranjan goswami named marketing and product chief",
-      "title": "Delta CMO Alicia Tillman to Depart; Ranjan Goswami Named Marketing and Product Chief",
-      "summary": "Airline announces leadership reshuffle as COO John Laughter's three-decade tenure ends.",
-      "image": null,
-      "link": "https://www.adweek.com/brand-marketing/delta-cmo-alicia-tillman-to-depart-ranjan-goswami-named-marketing-and-product-chief/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-12T05:38:15+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3049,
-      "signals": {
-        "score": 0.3049,
-        "recency": 0.09976131637598672,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "brands that win are clearer not louder",
-      "title": "Brands that win are clearer, not louder",
-      "summary": "Your marketing may look desperate \u2014 and everyone can tell.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/brands-that-win-are-clearer-not-louder/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-12T12:54:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3007,
-      "signals": {
-        "score": 0.3007,
-        "recency": 0.3346874674476986,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.78,
         "engagement": 0.4
       }
     },
@@ -1747,10 +1747,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3005,
+      "score": 0.2988,
       "signals": {
-        "score": 0.3005,
-        "recency": 0.07614516679740997,
+        "score": 0.2988,
+        "recency": 0.06938286395217419,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1770,10 +1770,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3005,
+      "score": 0.2988,
       "signals": {
-        "score": 0.3005,
-        "recency": 0.07614516679740997,
+        "score": 0.2988,
+        "recency": 0.06938286395217419,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1793,10 +1793,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3005,
+      "score": 0.2988,
       "signals": {
-        "score": 0.3005,
-        "recency": 0.07614516679740997,
+        "score": 0.2988,
+        "recency": 0.06938286395217419,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1816,10 +1816,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2995,
+      "score": 0.2976,
       "signals": {
-        "score": 0.2995,
-        "recency": 0.08380739399735902,
+        "score": 0.2976,
+        "recency": 0.07636462378992133,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1839,10 +1839,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2977,
+      "score": 0.2959,
       "signals": {
-        "score": 0.2977,
-        "recency": 0.07660128331356096,
+        "score": 0.2959,
+        "recency": 0.06979847365555356,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1862,10 +1862,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2975,
+      "score": 0.2958,
       "signals": {
-        "score": 0.2975,
-        "recency": 0.07593394594330817,
+        "score": 0.2958,
+        "recency": 0.06919040120765095,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1885,10 +1885,54 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2954,
+      "score": 0.2947,
       "signals": {
-        "score": 0.2954,
-        "recency": 0.031705310814050695,
+        "score": 0.2947,
+        "recency": 0.028889624375312294,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.85,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "brands that win are clearer not louder",
+      "title": "Brands that win are clearer, not louder",
+      "summary": "Your marketing may look desperate \u2014 and everyone can tell.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/brands-that-win-are-clearer-not-louder/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-12T12:54:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2932,
+      "signals": {
+        "score": 0.2932,
+        "recency": 0.30496453021377146,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "quince hits 10b valuation with giant 500m round led by iconiq",
+      "title": "Quince hits $10B valuation with giant $500M round led by Iconiq",
+      "summary": "E-commerce company Quince has raised another massive round, less than a year after its previous raise.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/11/quince-series-e-10b-valuation-with-500m-round-led-by-iconiq/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-03-11T20:50:17+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2927,
+      "signals": {
+        "score": 0.2927,
+        "recency": 0.020972346460565824,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
@@ -1906,57 +1950,13 @@
       "published_at": "2026-03-12T11:38:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2952,
+      "score": 0.2892,
       "signals": {
-        "score": 0.2952,
-        "recency": 0.27099111985204305,
+        "score": 0.2892,
+        "recency": 0.24692493025809711,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.85,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "quince hits 10b valuation with giant 500m round led by iconiq",
-      "title": "Quince hits $10B valuation with giant $500M round led by Iconiq",
-      "summary": "E-commerce company Quince has raised another massive round, less than a year after its previous raise.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/11/quince-series-e-10b-valuation-with-500m-round-led-by-iconiq/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-03-11T20:50:17+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2933,
-      "signals": {
-        "score": 0.2933,
-        "recency": 0.023016386588965734,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.85,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "huggies invites 18 babies to poop all over 500k worth of luxury goods",
-      "title": "Huggies Invites 18 Babies to Poop All Over $500K Worth of Luxury Goods",
-      "summary": "Huggies' 'Expensive Sh*t' livestream demonstrates how its diapers prevent costly messes.",
-      "image": null,
-      "link": "https://www.adweek.com/creativity/huggies-invites-18-babies-to-poop-all-over-500k-worth-of-luxury-goods/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-12T12:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.292,
-      "signals": {
-        "score": 0.292,
-        "recency": 0.28806817284173614,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1973,10 +1973,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2886,
+      "score": 0.2879,
       "signals": {
-        "score": 0.2886,
-        "recency": 0.034521309257780436,
+        "score": 0.2879,
+        "recency": 0.031455539523028285,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1996,10 +1996,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2867,
+      "score": 0.2862,
       "signals": {
-        "score": 0.2867,
-        "recency": 0.02076158846006024,
+        "score": 0.2862,
+        "recency": 0.01891779252894599,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2007,23 +2007,23 @@
       }
     },
     {
-      "id": "john lewis partnership reports sales growth and rising profits rewarding partners with 2 bonus",
-      "title": "John Lewis Partnership reports sales growth and rising profits, rewarding partners with 2% bonus",
-      "summary": "The John Lewis Partnership has reported another year of growth.",
+      "id": "huggies invites 18 babies to poop all over 500k worth of luxury goods",
+      "title": "Huggies Invites 18 Babies to Poop All Over $500K Worth of Luxury Goods",
+      "summary": "Huggies' 'Expensive Sh*t' livestream demonstrates how its diapers prevent costly messes.",
       "image": null,
-      "link": "https://internetretailing.net/john-lewis-partnership-reports-sales-growth-and-rising-profits-rewarding-partners-with-2-bonus/",
-      "category": "commerce",
+      "link": "https://www.adweek.com/creativity/huggies-invites-18-babies-to-poop-all-over-500k-worth-of-luxury-goods/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-12T11:27:49+00:00",
+      "published_at": "2026-03-12T12:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2814,
+      "score": 0.2856,
       "signals": {
-        "score": 0.2814,
-        "recency": 0.26343298657345066,
+        "score": 0.2856,
+        "recency": 0.2624854036817137,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.77,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -2040,13 +2040,34 @@
       "keywords": [
         "cloud"
       ],
-      "score": 0.28,
+      "score": 0.2781,
       "signals": {
-        "score": 0.28,
-        "recency": 0.08606435337929831,
+        "score": 0.2781,
+        "recency": 0.07842114703793401,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "john lewis partnership reports sales growth and rising profits rewarding partners with 2 bonus",
+      "title": "John Lewis Partnership reports sales growth and rising profits, rewarding partners with 2% bonus",
+      "summary": "The John Lewis Partnership has reported another year of growth.",
+      "image": null,
+      "link": "https://internetretailing.net/john-lewis-partnership-reports-sales-growth-and-rising-profits-rewarding-partners-with-2-bonus/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-12T11:27:49+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2755,
+      "signals": {
+        "score": 0.2755,
+        "recency": 0.2400380199648123,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.77,
         "engagement": 0.4
       }
     },
@@ -2061,10 +2082,10 @@
       "published_at": "2026-03-12T10:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2746,
+      "score": 0.27,
       "signals": {
-        "score": 0.2746,
-        "recency": 0.20640986542088605,
+        "score": 0.27,
+        "recency": 0.1880790103065484,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -2082,10 +2103,10 @@
       "published_at": "2026-03-12T10:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2701,
+      "score": 0.2655,
       "signals": {
-        "score": 0.2701,
-        "recency": 0.20640986542088605,
+        "score": 0.2655,
+        "recency": 0.1880790103065484,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2103,10 +2124,10 @@
       "published_at": "2026-03-12T09:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2637,
+      "score": 0.2598,
       "signals": {
-        "score": 0.2637,
-        "recency": 0.17472217891591113,
+        "score": 0.2598,
+        "recency": 0.1592054450600067,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2124,10 +2145,10 @@
       "published_at": "2026-03-12T04:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2375,
+      "score": 0.2358,
       "signals": {
-        "score": 0.2375,
-        "recency": 0.07593394594330817,
+        "score": 0.2358,
+        "recency": 0.06919040120765095,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2145,10 +2166,10 @@
       "published_at": "2026-03-12T04:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2375,
+      "score": 0.2358,
       "signals": {
-        "score": 0.2375,
-        "recency": 0.07593394594330817,
+        "score": 0.2358,
+        "recency": 0.06919040120765095,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2166,10 +2187,10 @@
       "published_at": "2026-03-11T22:41:27+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2353,
+      "score": 0.2346,
       "signals": {
-        "score": 0.2353,
-        "recency": 0.031343368667161975,
+        "score": 0.2346,
+        "recency": 0.02855982560025738,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.85,
@@ -2187,10 +2208,10 @@
       "published_at": "2026-03-11T22:17:44+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2348,
+      "score": 0.2342,
       "signals": {
-        "score": 0.2348,
-        "recency": 0.02934502685937089,
+        "score": 0.2342,
+        "recency": 0.026738952607112548,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.85,
@@ -2208,10 +2229,10 @@
       "published_at": "2026-03-11T21:40:49+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2341,
+      "score": 0.2335,
       "signals": {
-        "score": 0.2341,
-        "recency": 0.02648495386352574,
+        "score": 0.2335,
+        "recency": 0.02413287708176799,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.85,
@@ -2229,10 +2250,10 @@
       "published_at": "2026-03-11T22:10:49+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2272,
+      "score": 0.2266,
       "signals": {
-        "score": 0.2272,
-        "recency": 0.02878660360564905,
+        "score": 0.2266,
+        "recency": 0.026230121826771684,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
