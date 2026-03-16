@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-16T18:34:17.977074+00:00",
-  "sources_scanned": 493,
-  "feeds_polled": 29,
+  "generated_at": "2026-03-16T19:39:41.237397+00:00",
+  "sources_scanned": 503,
+  "feeds_polled": 30,
   "feed_pool": 35,
   "continent_counts": {
-    "NA": 333,
+    "NA": 343,
     "SA": 0,
     "EU": 160,
     "AF": 0,
@@ -13,8 +13,78 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 88,
+  "clusters": 93,
   "trends": [
+    {
+      "id": "apple acquires video editing software company motionvfx",
+      "title": "Apple acquires video editing software company MotionVFX",
+      "summary": "The move could help Apple better compete with Adobe Premiere Pro, and the Adobe Creative Cloud suite.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/16/apple-acquires-video-editing-software-company-motionvfx/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-16T19:23:44+00:00",
+      "source_count": 2,
+      "keywords": [
+        "cloud"
+      ],
+      "score": 0.5659,
+      "signals": {
+        "score": 0.5659,
+        "recency": 0.9566510853140309,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "nvidias dlss 5 uses generative ai to boost photorealism in video games with ambitions beyond gaming",
+      "title": "Nvidia\u2019s DLSS 5 uses generative AI to boost photorealism in video games, with ambitions beyond gaming",
+      "summary": "Nvidia\u2019s new DLSS 5 uses generative AI and structured graphics data to make video games more realistic.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/16/nvidias-dlss-5-uses-generative-ai-to-boost-photo-realism-in-video-games-with-ambitions-beyond-gaming/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-16T19:12:19+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "game"
+      ],
+      "score": 0.5577,
+      "signals": {
+        "score": 0.5577,
+        "recency": 0.926788857431908,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "fuse raises 25m to disrupt aging loan origination systems used by us credit unions",
+      "title": "Fuse raises $25M  to disrupt aging loan origination systems used by US credit unions",
+      "summary": "The startup also announced a $5 million \"rescue fund\" to help credit unions ditch legacy software for its AI-native platform.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-16T17:43:27+00:00",
+      "source_count": 2,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5278,
+      "signals": {
+        "score": 0.5278,
+        "recency": 0.7240597510173807,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.6
+      }
+    },
     {
       "id": "openai plans 10 billion in partnerships with pe firms",
       "title": "OpenAI Plans $10 Billion in Partnerships With PE Firms",
@@ -29,10 +99,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.5684,
+      "score": 0.5271,
       "signals": {
-        "score": 0.5684,
-        "recency": 0.9934945363624911,
+        "score": 0.5271,
+        "recency": 0.828482853015776,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -40,25 +110,25 @@
       }
     },
     {
-      "id": "fuse raises 25m to disrupt aging loan origination systems used by us credit unions",
-      "title": "Fuse raises $25M  to disrupt aging loan origination systems used by U.S. credit unions",
-      "summary": "The startup also announced a $5M 'rescue fund' to help credit unions ditch legacy software for its AI-native platform.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/",
-      "category": "technology",
+      "id": "low mortgage rates fuel march home builder optimism",
+      "title": "Low Mortgage Rates Fuel March Home Builder Optimism",
+      "summary": "Home builder sentiment inched up in March after one metric of mortgage rates dipped to its lowest level since August 2022, the National Association of Home Builders (NAHB) said",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/mortgage-rates-home-builder.png?w=457",
+      "link": "https://www.pymnts.com/economy/2026/low-mortgage-rates-fuel-march-home-builder-optimism/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-03-16T17:43:27+00:00",
-      "source_count": 2,
+      "published_at": "2026-03-16T19:29:09+00:00",
+      "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.5638,
+      "score": 0.5228,
       "signals": {
-        "score": 0.5638,
-        "recency": 0.8682731380827451,
+        "score": 0.5228,
+        "recency": 0.971153974772501,
         "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -76,13 +146,36 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.5623,
+      "score": 0.5221,
       "signals": {
-        "score": 0.5623,
-        "recency": 0.9693240112784751,
+        "score": 0.5221,
+        "recency": 0.8083268633776118,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "elon musks xai faces child porn lawsuit from minors grok allegedly undressed",
+      "title": "Elon Musk\u2019s xAI faces child porn lawsuit from minors Grok allegedly undressed",
+      "summary": "The three plaintiffs are seeking to represent anyone who had real images of them as a minor altered into sexual content by Grok.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/16/elon-musks-xai-faces-child-porn-lawsuit-from-minors-grok-allegedly-undressed/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-16T19:18:44+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5219,
+      "signals": {
+        "score": 0.5219,
+        "recency": 0.9434561085774886,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -99,14 +192,37 @@
       "keywords": [
         "chip"
       ],
-      "score": 0.5463,
+      "score": 0.5098,
       "signals": {
-        "score": 0.5463,
-        "recency": 0.8781776719048254,
+        "score": 0.5098,
+        "recency": 0.7323192191255319,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.4
+      }
+    },
+    {
+      "id": "targets tech chief has a central role in the retailers turnaround plan",
+      "title": "Target\u2019s Tech Chief Has a Central Role in the Retailer\u2019s Turnaround Plan",
+      "summary": "Prat Vemana, Target&#8217;s chief information and product officer, says improved technology is a throughline in the retailer&#8217;s recovery plan after several...",
+      "image": null,
+      "link": "https://retailwire.com/targets-tech-chief-has-a-central-role-in-the-retailers-turnaround-plan/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-16T19:12:35+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5074,
+      "signals": {
+        "score": 0.5074,
+        "recency": 0.927475622022526,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.77,
+        "engagement": 0.6
       }
     },
     {
@@ -123,13 +239,59 @@
         "ai",
         "bill"
       ],
-      "score": 0.5355,
+      "score": 0.4999,
       "signals": {
-        "score": 0.5355,
-        "recency": 0.8558611818227945,
+        "score": 0.4999,
+        "recency": 0.7137093237554446,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "shopify bets big on agentic ai",
+      "title": "Shopify Bets Big on Agentic AI",
+      "summary": "Shopify\u2019s president says the company is making a significant push towards agentic shopping.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2023/01/Shopify.jpg?w=457",
+      "link": "https://www.pymnts.com/news/ecommerce/2026/shopify-bets-big-on-agentic-ai/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-16T18:47:21+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4962,
+      "signals": {
+        "score": 0.4962,
+        "recency": 0.864692470262825,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "the macbook neo is the most repairable macbook in years according to ifixit",
+      "title": "The MacBook Neo is \u2018the most repairable MacBook\u2019 in years, according to iFixit",
+      "summary": "Apple\u2019s new MacBook Neo isn\u2019t just the most affordable MacBook \u2014 it\u2019s also the company's most repairable laptop in \u201cabout fourteen years.\"",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/16/macbook-neo-ifixit-most-repairable-macbook-in-years-battery-replacement/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-16T18:36:42+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4959,
+      "signals": {
+        "score": 0.4959,
+        "recency": 0.8394866589054764,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -147,10 +309,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.5287,
+      "score": 0.4943,
       "signals": {
-        "score": 0.5287,
-        "recency": 0.8289532396199888,
+        "score": 0.4943,
+        "recency": 0.6912705806028299,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -170,10 +332,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5075,
+      "score": 0.4697,
       "signals": {
-        "score": 0.5075,
-        "recency": 0.9100898923260365,
+        "score": 0.4697,
+        "recency": 0.7589310689676398,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -193,10 +355,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5047,
+      "score": 0.4674,
       "signals": {
-        "score": 0.5047,
-        "recency": 0.8987845741150606,
+        "score": 0.4674,
+        "recency": 0.7495034758175321,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -216,13 +378,37 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5001,
+      "score": 0.4646,
       "signals": {
-        "score": 0.5001,
-        "recency": 0.8565746967309005,
+        "score": 0.4646,
+        "recency": 0.7143043294098302,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "ai innovation vs adoption why they are misaligned",
+      "title": "AI Innovation vs. Adoption: Why They Are Misaligned",
+      "summary": "Enterprises face challenges in adoption, such as the need to adopt a strong data foundation and an effective governance structure.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt9cff3bb3969d6b90/69b82d38cfe56229bc2234f9/Deloitte.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/agentic-ai/ai-innovation-and-adoption-are-misaligned",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-03-16T16:02:18+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "govern"
+      ],
+      "score": 0.4567,
+      "signals": {
+        "score": 0.4567,
+        "recency": 0.546700814521687,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -239,10 +425,10 @@
       "keywords": [
         "chip"
       ],
-      "score": 0.4881,
+      "score": 0.4512,
       "signals": {
-        "score": 0.4881,
-        "recency": 0.8885653468050544,
+        "score": 0.4512,
+        "recency": 0.740981582352059,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -262,35 +448,11 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4841,
+      "score": 0.4502,
       "signals": {
-        "score": 0.4841,
-        "recency": 0.8164983233018452,
+        "score": 0.4502,
+        "recency": 0.6808843286128506,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "ai innovation vs adoption why they are misaligned",
-      "title": "AI Innovation vs. Adoption: Why They Are Misaligned",
-      "summary": "Enterprises face challenges in adoption, such as the need to adopt a strong data foundation and an effective governance structure.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt9cff3bb3969d6b90/69b82d38cfe56229bc2234f9/Deloitte.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/agentic-ai/ai-innovation-and-adoption-are-misaligned",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-03-16T16:02:18+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "govern"
-      ],
-      "score": 0.4839,
-      "signals": {
-        "score": 0.4839,
-        "recency": 0.6555890327423314,
-        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -309,13 +471,37 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4788,
+      "score": 0.4463,
       "signals": {
-        "score": 0.4788,
-        "recency": 0.7832491031660808,
+        "score": 0.4463,
+        "recency": 0.6531575442668752,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "state lawmakers draft rounding rules as us mint stops penny production",
+      "title": "State lawmakers draft rounding rules as U.S. Mint stops penny production",
+      "summary": "The U.S. Mint has halted production of new pennies, prompting at least six state legislatures to introduce bills standardizing how retailers round cash transactions to the",
+      "image": null,
+      "link": "https://retailwire.com/state-lawmakers-draft-rounding-rules-as-u-s-mint-stops-penny-production/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-16T15:44:53+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.4457,
+      "signals": {
+        "score": 0.4457,
+        "recency": 0.520881238252751,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.77,
         "engagement": 0.6
       }
     },
@@ -332,36 +518,11 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4778,
+      "score": 0.4449,
       "signals": {
-        "score": 0.4778,
-        "recency": 0.79108426240222,
+        "score": 0.4449,
+        "recency": 0.659691344746097,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "meta signs 27 billion ai infrastructure agreement with nebius",
-      "title": "Meta Signs $27 Billion AI Infrastructure Agreement With Nebius",
-      "summary": "Meta has formed a $27 billion infrastructure agreement with AI cloud company Nebius.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/01/Meta-AI.jpeg?w=457",
-      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/meta-signs-27-billion-ai-infrastructure-agreement-with-nebius/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-16T13:25:06+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "bill",
-        "cloud"
-      ],
-      "score": 0.4659,
-      "signals": {
-        "score": 0.4659,
-        "recency": 0.42363297335623895,
-        "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -381,10 +542,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.4623,
+      "score": 0.4386,
       "signals": {
-        "score": 0.4623,
-        "recency": 0.5690189557837877,
+        "score": 0.4386,
+        "recency": 0.4745093512379465,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -392,8 +553,32 @@
       }
     },
     {
+      "id": "apple quietly launches airpods max 2",
+      "title": "Apple quietly launches AirPods Max 2",
+      "summary": "The successor to its premium headphones cost $549 and are launching with enhanced active noise cancellation, the H2 chip, live translation, better sound quality, and more.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/16/apple-quietly-launches-airpods-max-2/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-16T14:12:50+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "chip"
+      ],
+      "score": 0.4268,
+      "signals": {
+        "score": 0.4268,
+        "recency": 0.4033592571220883,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
       "id": "the latest enterprise software earnings reveals cios risks and leverage",
-      "title": "The Latest Enterprise Software Earnings Reveals CIOs\u2019 Risks and Leverage",
+      "title": "The Latest Enterprise Software Earnings Reveals CIOs\u2019 Risks And Leverage",
       "summary": "Enterprise AI adoption is early and uneven, but consumption pricing shifts budget risk to CIOs now.",
       "image": null,
       "link": "https://www.forrester.com/blogs/the-latest-enterprise-software-earnings-reveals-cios-risks-and-leverage/",
@@ -404,10 +589,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4501,
+      "score": 0.4219,
       "signals": {
-        "score": 0.4501,
-        "recency": 0.6804828615346535,
+        "score": 0.4219,
+        "recency": 0.5674599727711737,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -427,35 +612,11 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4473,
+      "score": 0.4205,
       "signals": {
-        "score": 0.4473,
-        "recency": 0.6453802472457028,
+        "score": 0.4205,
+        "recency": 0.5381876285659396,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "apple quietly launches airpods max 2",
-      "title": "Apple quietly launches AirPods Max 2",
-      "summary": "The successor to its premium headphones cost $549 and are launching with enhanced active noise cancellation, the H2 chip, live translation, better sound quality, and more.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/16/apple-quietly-launches-airpods-max-2/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-16T14:12:50+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "chip"
-      ],
-      "score": 0.4469,
-      "signals": {
-        "score": 0.4469,
-        "recency": 0.48369766095134525,
-        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -474,35 +635,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4456,
+      "score": 0.4181,
       "signals": {
-        "score": 0.4456,
-        "recency": 0.6623617758904168,
+        "score": 0.4181,
+        "recency": 0.5523486579276637,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "supplyhouse expands ohio fulfillment center to increase capacity and delivery speed",
-      "title": "SupplyHouse expands Ohio fulfillment center to increase capacity and delivery speed",
-      "summary": "SupplyHouse has expanded its Ohio fulfillment operations with the opening of a larger distribution center near Columbus.",
-      "image": null,
-      "link": "https://www.digitalcommerce360.com/2026/03/16/supplyhouse-ohio-fulfillment-center-capacity/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-16T17:54:59+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4456,
-      "signals": {
-        "score": 0.4456,
-        "recency": 0.8965404190424443,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.4
       }
     },
     {
@@ -518,10 +658,77 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4445,
+      "score": 0.4172,
       "signals": {
-        "score": 0.4445,
-        "recency": 0.6579607172136086,
+        "score": 0.4172,
+        "recency": 0.5486785807250233,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "why jcpenneys spring campaign bowed with a paris texas fashion show",
+      "title": "Why JCPenney\u2019s spring campaign bowed with a Paris, Texas fashion show",
+      "summary": "Marisa Thalberg, chief customer and marketing officer at parent Catalyst Brands, digs into the &ldquo;Exactly What You Are (and Aren&rsquo;t) Looking For&rdquo; effort.",
+      "image": "https://imgproxy.divecdn.com/8V_50Ixy0Y-ry33W4_ZzDk3vfg6cDRsEIhL1J5v2OXw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMTEyOV9pSklpOHhDLmpwZw==.webp",
+      "link": "https://www.marketingdive.com/news/why-jcpenneys-spring-campaign-bowed-with-a-paris-texas-fashion-show/814762/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-16T12:00:00-04:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4143,
+      "signals": {
+        "score": 0.4143,
+        "recency": 0.5432191376285388,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "supplyhouse expands ohio fulfillment center to increase capacity and delivery speed",
+      "title": "SupplyHouse expands Ohio fulfillment center to increase capacity and delivery speed",
+      "summary": "SupplyHouse has expanded its Ohio fulfillment operations with the opening of a larger distribution center near Columbus.",
+      "image": null,
+      "link": "https://www.digitalcommerce360.com/2026/03/16/supplyhouse-ohio-fulfillment-center-capacity/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-16T17:54:59+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4084,
+      "signals": {
+        "score": 0.4084,
+        "recency": 0.7476320573757375,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "musk courts bankers and lenders to teach grok finance",
+      "title": "Musk Courts Bankers and Lenders to Teach Grok Finance",
+      "summary": "xAI reportedly wants its Grok chatbot to get better at offering financial strategies.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2024/08/Grok-X-AI.jpg?w=457",
+      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/musk-courts-bankers-and-lenders-to-teach-grok-finance/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-16T15:35:41+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4069,
+      "signals": {
+        "score": 0.4069,
+        "recency": 0.5077384793553087,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -539,10 +746,10 @@
       "published_at": "2026-03-16T17:51:44+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.4421,
+      "score": 0.4052,
       "signals": {
-        "score": 0.4421,
-        "recency": 0.888483076044796,
+        "score": 0.4052,
+        "recency": 0.740912976122549,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -550,48 +757,26 @@
       }
     },
     {
-      "id": "why jcpenneys spring campaign bowed with a paris texas fashion show",
-      "title": "Why JCPenney\u2019s spring campaign bowed with a Paris, Texas fashion show",
-      "summary": "Marisa Thalberg, chief customer and marketing officer at parent Catalyst Brands, digs into the &ldquo;Exactly What You Are (and Aren&rsquo;t) Looking For&rdquo; effort.",
-      "image": "https://imgproxy.divecdn.com/8V_50Ixy0Y-ry33W4_ZzDk3vfg6cDRsEIhL1J5v2OXw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMTEyOV9pSklpOHhDLmpwZw==.webp",
-      "link": "https://www.marketingdive.com/news/why-jcpenneys-spring-campaign-bowed-with-a-paris-texas-fashion-show/814762/",
-      "category": "brands",
+      "id": "the download glass chips and aifree logos",
+      "title": "The Download: glass chips and \u201cAI-free\u201d logos",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
+      "image": null,
+      "link": "https://www.technologyreview.com/2026/03/16/1134301/the-download-glass-ai-chips-ai-free-logo/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-03-16T12:00:00-04:00",
+      "published_at": "2026-03-16T12:35:00+00:00",
       "source_count": 1,
       "keywords": [
-        "ai"
+        "ai",
+        "chip"
       ],
-      "score": 0.4414,
+      "score": 0.3998,
       "signals": {
-        "score": 0.4414,
-        "recency": 0.6514138986908166,
-        "keyword_volume": 0.2,
+        "score": 0.3998,
+        "recency": 0.307374957557049,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "musk courts bankers and lenders to teach grok finance",
-      "title": "Musk Courts Bankers and Lenders to Teach Grok Finance",
-      "summary": "xAI reportedly wants its Grok chatbot to get better at offering financial strategies.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/08/Grok-X-AI.jpg?w=457",
-      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/musk-courts-bankers-and-lenders-to-teach-grok-finance/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-16T15:35:41+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4322,
-      "signals": {
-        "score": 0.4322,
-        "recency": 0.6088664397872495,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.82,
         "engagement": 0.6
       }
     },
@@ -608,10 +793,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4164,
+      "score": 0.3935,
       "signals": {
-        "score": 0.4164,
-        "recency": 0.5514099605815221,
+        "score": 0.3935,
+        "recency": 0.45982507261339733,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -631,37 +816,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4156,
+      "score": 0.3931,
       "signals": {
-        "score": 0.4156,
-        "recency": 0.5425219593138312,
+        "score": 0.3931,
+        "recency": 0.4524132989414204,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the download glass chips and aifree logos",
-      "title": "The Download: glass chips and \u201cAI-free\u201d logos",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/03/16/1134301/the-download-glass-ai-chips-ai-free-logo/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-16T12:35:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "chip"
-      ],
-      "score": 0.4151,
-      "signals": {
-        "score": 0.4151,
-        "recency": 0.36859584943246354,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.82,
         "engagement": 0.6
       }
     },
@@ -678,10 +839,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4104,
+      "score": 0.3887,
       "signals": {
-        "score": 0.4104,
-        "recency": 0.5216114734615972,
+        "score": 0.3887,
+        "recency": 0.43497588147938426,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -701,35 +862,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4051,
+      "score": 0.3843,
       "signals": {
-        "score": 0.4051,
-        "recency": 0.500324226051527,
+        "score": 0.3843,
+        "recency": 0.41722427961177944,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "visa and fiserv team to enhance merchant payment acceptance",
-      "title": "Visa and Fiserv Team to Enhance Merchant Payment Acceptance",
-      "summary": "Visa has expanded its partnership with payments and financial technology provider Fiserv.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2023/12/Visa-FinTech.jpg?w=457",
-      "link": "https://www.pymnts.com/partnerships/2026/visa-and-fiserv-team-to-enhance-merchant-payment-acceptance/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-16T16:45:29+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4048,
-      "signals": {
-        "score": 0.4048,
-        "recency": 0.739140350094165,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -745,10 +885,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3974,
+      "score": 0.3774,
       "signals": {
-        "score": 0.3974,
-        "recency": 0.4815972540345616,
+        "score": 0.3774,
+        "recency": 0.4016077113901085,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -768,14 +908,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3968,
+      "score": 0.3774,
       "signals": {
-        "score": 0.3968,
-        "recency": 0.4672340988697045,
+        "score": 0.3774,
+        "recency": 0.3896301641226041,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "visa and fiserv team to enhance merchant payment acceptance",
+      "title": "Visa and Fiserv Team to Enhance Merchant Payment Acceptance",
+      "summary": "Visa has expanded its partnership with payments and financial technology provider Fiserv.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2023/12/Visa-FinTech.jpg?w=457",
+      "link": "https://www.pymnts.com/partnerships/2026/visa-and-fiserv-team-to-enhance-merchant-payment-acceptance/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-16T16:45:29+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3741,
+      "signals": {
+        "score": 0.3741,
+        "recency": 0.6163749105930291,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -791,10 +952,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3915,
+      "score": 0.3727,
       "signals": {
-        "score": 0.3915,
-        "recency": 0.45208375054381866,
+        "score": 0.3727,
+        "recency": 0.37699617033017824,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -814,54 +975,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3893,
+      "score": 0.3711,
       "signals": {
-        "score": 0.3893,
-        "recency": 0.4370198260462022,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "antonio gracias says hes longing for proentropic startups those that are built to survive chaos",
-      "title": "Antonio Gracias says he\u2019s longing for \u2018proentropic\u2019 startups \u2014 those that are built to survive chaos",
-      "summary": "Antonio Gracias talks at the Upfront Summit in LA about the future of technology.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/16/antonio-gracias-says-hes-loomg-for-proentropic-startups-those-that-are-built-to-survive-chaos/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-16T15:57:02+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3875,
-      "signals": {
-        "score": 0.3875,
-        "recency": 0.6460678236999899,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "youre not scaling content youre scaling disappointment",
-      "title": "You\u2019re Not Scaling Content. You\u2019re Scaling Disappointment",
-      "summary": "Pedro Dias traces the recurring cycle of mass-produced SEO content and explains why the \u201cpublish more pages\u201d playbook always ends the same way.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/youre-not-scaling-content-youre-scaling-disappointment/569235/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-16T13:30:07+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3874,
-      "signals": {
-        "score": 0.3874,
-        "recency": 0.42957770153458086,
+        "score": 0.3711,
+        "recency": 0.3644342460431122,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -879,10 +996,10 @@
       "published_at": "2026-03-16T13:02:47+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.3863,
+      "score": 0.3698,
       "signals": {
-        "score": 0.3863,
-        "recency": 0.39816906867152196,
+        "score": 0.3698,
+        "recency": 0.3320362960458764,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -890,24 +1007,26 @@
       }
     },
     {
-      "id": "prevent mdr to ir handoff chaos before a breach",
-      "title": "Prevent MDR to IR Handoff Chaos Before A Breach",
-      "summary": "Security leaders often assume that once they\u2019ve invested in managed detection and response (MDR) services, the hardest parts of breach detection and response are behind them.",
+      "id": "youre not scaling content youre scaling disappointment",
+      "title": "You\u2019re Not Scaling Content. You\u2019re Scaling Disappointment",
+      "summary": "Pedro Dias traces the recurring cycle of mass-produced SEO content and explains why the \u201cpublish more pages\u201d playbook always ends the same way.",
       "image": null,
-      "link": "https://www.forrester.com/blogs/prevent-mdr-to-ir-handoff-chaos-before-a-breach/",
-      "category": "brands",
+      "link": "https://www.searchenginejournal.com/youre-not-scaling-content-youre-scaling-disappointment/569235/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-03-16T16:05:19+00:00",
+      "published_at": "2026-03-16T13:30:07+00:00",
       "source_count": 1,
-      "keywords": [],
-      "score": 0.3853,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3696,
       "signals": {
-        "score": 0.3853,
-        "recency": 0.6611057075910954,
-        "keyword_volume": 0.0,
+        "score": 0.3696,
+        "recency": 0.35822820029024743,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
+        "engagement": 0.6
       }
     },
     {
@@ -923,10 +1042,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3818,
+      "score": 0.3654,
       "signals": {
-        "score": 0.3818,
-        "recency": 0.3951025017189196,
+        "score": 0.3654,
+        "recency": 0.3294790619143654,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -946,10 +1065,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3814,
+      "score": 0.364,
       "signals": {
-        "score": 0.3814,
-        "recency": 0.41746116648441345,
+        "score": 0.364,
+        "recency": 0.3481241270823745,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -969,36 +1088,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3801,
+      "score": 0.3632,
       "signals": {
-        "score": 0.3801,
-        "recency": 0.4062314239909212,
+        "score": 0.3632,
+        "recency": 0.33875955711331907,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "too many workflows are breaking marketing automation",
-      "title": "Too many workflows are breaking marketing automation",
-      "summary": "Marketing automation breaks when teams build new workflows for every campaign instead of designing systems that scale and stay manageable.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/too-many-workflows-are-breaking-marketing-automation/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-16T13:12:53+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3794,
-      "signals": {
-        "score": 0.3794,
-        "recency": 0.40949810115446994,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
         "engagement": 0.6
       }
     },
@@ -1015,10 +1111,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.379,
+      "score": 0.3626,
       "signals": {
-        "score": 0.379,
-        "recency": 0.39614651022605274,
+        "score": 0.3626,
+        "recency": 0.3303496687621185,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1026,43 +1122,22 @@
       }
     },
     {
-      "id": "new study released into the state of buying in the public sector in 2026",
-      "title": "New study released into the state of buying in the public sector in 2026",
-      "summary": "Our brand new global study into public sector purchasing reveals a market full of opportunity, but also increasing complexity.",
-      "image": null,
-      "link": "https://www.forrester.com/blogs/new-study-released-into-the-state-of-buying-in-the-public-sector-in-2026/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-16T15:46:07+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3767,
-      "signals": {
-        "score": 0.3767,
-        "recency": 0.626770480899277,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "5 linkedin ad tactics for b2b marketers",
-      "title": "5 LinkedIn ad tactics for B2B marketers",
-      "summary": "Five LinkedIn ad tactics \u2014 from video to Thought Leader Ads \u2014 that helped improve B2B campaign performance in 2025 and are worth testing in 2026.",
+      "id": "too many workflows are breaking marketing automation",
+      "title": "Too many workflows are breaking marketing automation",
+      "summary": "Marketing automation breaks when teams build new workflows for every campaign instead of designing systems that scale and stay manageable.",
       "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/5-linkedin-ad-tactics-for-b2b-marketers/",
+      "link": "https://martech.org/too-many-workflows-are-breaking-marketing-automation/",
       "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-03-16T12:31:00+00:00",
+      "published_at": "2026-03-16T13:12:53+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.3681,
+      "score": 0.3624,
       "signals": {
-        "score": 0.3681,
-        "recency": 0.3645230087883588,
+        "score": 0.3624,
+        "recency": 0.3414836647125891,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1070,47 +1145,24 @@
       }
     },
     {
-      "id": "urban outfitters taps vans as latest on rotation partner",
-      "title": "Urban Outfitters taps Vans as latest On Rotation partner",
-      "summary": "The collaboration celebrates the skateboarding brand&rsquo;s 60th &ldquo;Off the Wall&rdquo; anniversary and features sneakers, apparel and accessories.",
-      "image": "https://imgproxy.divecdn.com/lBEbUkYRCd6IgxbVCzO2gRvb9cSGSVTdJaCjUCmwbsA/g:nowe:0:911/c:1790:1011/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9VcmJhbl9PdXRmaXR0ZXJzX1ZhbnMuanBn.webp",
-      "link": "https://www.retaildive.com/news/urban-outfitters-on-rotation-vans/814777/",
-      "category": "brands",
+      "id": "antonio gracias says hes longing for proentropic startups those that are built to survive chaos",
+      "title": "Antonio Gracias says he\u2019s longing for \u2018proentropic\u2019 startups \u2014 those that are built to survive chaos",
+      "summary": "Antonio Gracias talks at the Upfront Summit in LA about the future of technology.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/16/antonio-gracias-says-hes-loomg-for-proentropic-startups-those-that-are-built-to-survive-chaos/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-03-16T11:16:00-04:00",
+      "published_at": "2026-03-16T15:57:02+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3641,
+      "score": 0.3607,
       "signals": {
-        "score": 0.3641,
-        "recency": 0.5764698310043447,
+        "score": 0.3607,
+        "recency": 0.5387610039411077,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "how ai agents decide which brands to recommend trust is the new ranking factor via sejournal purnavirji",
-      "title": "How AI Agents Decide Which Brands To Recommend: Trust Is The New Ranking Factor via @sejournal, @purnavirji",
-      "summary": "Discover how AI agents decide which brands to recommend and why trust is essential in the new marketing landscape.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/how-ai-agents-decide-which-brands-to-recommend-trust-is-the-new-ranking-factor/568067/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-16T12:00:42+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3638,
-      "signals": {
-        "score": 0.3638,
-        "recency": 0.33509799352586994,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       }
     },
     {
@@ -1128,10 +1180,10 @@
         "hollywood",
         "studio"
       ],
-      "score": 0.3636,
+      "score": 0.3599,
       "signals": {
-        "score": 0.3636,
-        "recency": 0.08840451182077279,
+        "score": 0.3599,
+        "recency": 0.07372121284219872,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1151,14 +1203,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3621,
+      "score": 0.3584,
       "signals": {
-        "score": 0.3621,
-        "recency": 0.08840451182077279,
+        "score": 0.3584,
+        "recency": 0.07372121284219872,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "prevent mdr to ir handoff chaos before a breach",
+      "title": "Prevent MDR to IR Handoff Chaos Before A Breach",
+      "summary": "Security leaders often assume that once they\u2019ve invested in managed detection and response (MDR) services, the hardest parts of breach detection and response are behind them.",
+      "image": null,
+      "link": "https://www.forrester.com/blogs/prevent-mdr-to-ir-handoff-chaos-before-a-breach/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-16T16:05:19+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3578,
+      "signals": {
+        "score": 0.3578,
+        "recency": 0.5513012127630285,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -1174,10 +1247,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.359,
+      "score": 0.357,
       "signals": {
-        "score": 0.359,
-        "recency": 0.049195979167781956,
+        "score": 0.357,
+        "recency": 0.04102491124617266,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -1185,68 +1258,70 @@
       }
     },
     {
-      "id": "trade finance faces stress test as global risks rise",
-      "title": "Trade Finance Faces Stress Test as Global Risks Rise",
-      "summary": "The war in Iran is increasingly giving the freight sector a fright.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2022/04/supply-chain.jpg?w=457",
-      "link": "https://www.pymnts.com/supply-chain/2026/trade-finance-faces-stress-test-as-global-risks-rise/",
-      "category": "commerce",
+      "id": "5 linkedin ad tactics for b2b marketers",
+      "title": "5 LinkedIn ad tactics for B2B marketers",
+      "summary": "Five LinkedIn ad tactics \u2014 from video to Thought Leader Ads \u2014 that helped improve B2B campaign performance in 2025 and are worth testing in 2026.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/5-linkedin-ad-tactics-for-b2b-marketers/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-03-16T14:59:25+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3576,
-      "signals": {
-        "score": 0.3576,
-        "recency": 0.5505171957196707,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "securing digital assets against futurethreats",
-      "title": "Securing digital assets against future\u00a0threats",
-      "summary": "Summary unavailable from feed.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/03/16/1134287/securing-digital-assets-against-future-threats/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-16T11:00:00+00:00",
+      "published_at": "2026-03-16T12:31:00+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.3538,
+      "score": 0.353,
       "signals": {
-        "score": 0.3538,
-        "recency": 0.2831033133676403,
+        "score": 0.353,
+        "recency": 0.3039785839352464,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.82,
+        "authority": 0.78,
         "engagement": 0.6
       }
     },
     {
-      "id": "weather the laptop refresh storm smart moves to control spend amid increasing prices",
-      "title": "Weather The Laptop Refresh Storm: Smart Moves To Control Spend Amid Increasing Prices",
-      "summary": "Laptop pricing predictability just broke.",
+      "id": "new study released into the state of buying in the public sector in 2026",
+      "title": "New study released into the state of buying in the public sector in 2026",
+      "summary": "Our brand new global study into public sector purchasing reveals a market full of opportunity, but also increasing complexity.",
       "image": null,
-      "link": "https://www.forrester.com/blogs/weather-the-laptop-refresh-storm-smart-moves-to-control-spend-amid-increasing-prices/",
+      "link": "https://www.forrester.com/blogs/new-study-released-into-the-state-of-buying-in-the-public-sector-in-2026/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-16T14:46:19+00:00",
+      "published_at": "2026-03-16T15:46:07+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3527,
+      "score": 0.3507,
       "signals": {
-        "score": 0.3527,
-        "recency": 0.530844589537701,
+        "score": 0.3507,
+        "recency": 0.5226687990683022,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.4
+      }
+    },
+    {
+      "id": "how ai agents decide which brands to recommend trust is the new ranking factor via sejournal purnavirji",
+      "title": "How AI Agents Decide Which Brands To Recommend: Trust Is The New Ranking Factor via @sejournal, @purnavirji",
+      "summary": "Discover how AI agents decide which brands to recommend and why trust is essential in the new marketing landscape.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/how-ai-agents-decide-which-brands-to-recommend-trust-is-the-new-ranking-factor/568067/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-16T12:00:42+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3499,
+      "signals": {
+        "score": 0.3499,
+        "recency": 0.2794408338999459,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
       }
     },
     {
@@ -1263,14 +1338,100 @@
         "ai",
         "bill"
       ],
-      "score": 0.3507,
+      "score": 0.3466,
       "signals": {
-        "score": 0.3507,
-        "recency": 0.09862920864697093,
+        "score": 0.3466,
+        "recency": 0.08224766737994085,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "securing digital assets against futurethreats",
+      "title": "Securing digital assets against future\u00a0threats",
+      "summary": "Summary unavailable from feed.",
+      "image": null,
+      "link": "https://www.technologyreview.com/2026/03/16/1134287/securing-digital-assets-against-future-threats/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-16T11:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.342,
+      "signals": {
+        "score": 0.342,
+        "recency": 0.2360820640401229,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "urban outfitters taps vans as latest on rotation partner",
+      "title": "Urban Outfitters taps Vans as latest On Rotation partner",
+      "summary": "The collaboration celebrates the skateboarding brand&rsquo;s 60th &ldquo;Off the Wall&rdquo; anniversary and features sneakers, apparel and accessories.",
+      "image": "https://imgproxy.divecdn.com/lBEbUkYRCd6IgxbVCzO2gRvb9cSGSVTdJaCjUCmwbsA/g:nowe:0:911/c:1790:1011/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9VcmJhbl9PdXRmaXR0ZXJzX1ZhbnMuanBn.webp",
+      "link": "https://www.retaildive.com/news/urban-outfitters-on-rotation-vans/814777/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-16T11:16:00-04:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3402,
+      "signals": {
+        "score": 0.3402,
+        "recency": 0.48072269427533515,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "trade finance faces stress test as global risks rise",
+      "title": "Trade Finance Faces Stress Test as Global Risks Rise",
+      "summary": "The war in Iran is increasingly giving the freight sector a fright.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2022/04/supply-chain.jpg?w=457",
+      "link": "https://www.pymnts.com/supply-chain/2026/trade-finance-faces-stress-test-as-global-risks-rise/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-16T14:59:25+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3348,
+      "signals": {
+        "score": 0.3348,
+        "recency": 0.45908058902265003,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "weather the laptop refresh storm smart moves to control spend amid increasing prices",
+      "title": "Weather The Laptop Refresh Storm: Smart Moves To Control Spend Amid Increasing Prices",
+      "summary": "Laptop pricing predictability just broke.",
+      "image": null,
+      "link": "https://www.forrester.com/blogs/weather-the-laptop-refresh-storm-smart-moves-to-control-spend-amid-increasing-prices/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-16T14:46:19+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3307,
+      "signals": {
+        "score": 0.3307,
+        "recency": 0.44267544908542616,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -1284,10 +1445,10 @@
       "published_at": "2026-03-16T14:35:02+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3486,
+      "score": 0.3273,
       "signals": {
-        "score": 0.3486,
-        "recency": 0.5144645807071481,
+        "score": 0.3273,
+        "recency": 0.42901603179457093,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1305,34 +1466,13 @@
       "published_at": "2026-03-16T10:31:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3457,
+      "score": 0.3246,
       "signals": {
-        "score": 0.3457,
-        "recency": 0.5087328402947993,
+        "score": 0.3246,
+        "recency": 0.4242362887001047,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "crypto firm blockfills files for bankruptcy after suspending transactions",
-      "title": "Crypto Firm BlockFills Files for Bankruptcy After Suspending Transactions",
-      "summary": "Cryptocurrency platform BlockFills says it is seeking bankruptcy protection after suspending client accounts last month.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/06/Chapter-11-bankruptcy.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/crypto-firm-blockfills-files-for-bankruptcy-after-suspending-transactions/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-16T14:00:16+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3368,
-      "signals": {
-        "score": 0.3368,
-        "recency": 0.4671043296443564,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1349,10 +1489,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3307,
+      "score": 0.3223,
       "signals": {
-        "score": 0.3307,
-        "recency": 0.2028523881550974,
+        "score": 0.3223,
+        "recency": 0.16916019074963456,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1372,10 +1512,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3307,
+      "score": 0.3223,
       "signals": {
-        "score": 0.3307,
-        "recency": 0.2028523881550974,
+        "score": 0.3223,
+        "recency": 0.16916019074963456,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1395,10 +1535,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3307,
+      "score": 0.3223,
       "signals": {
-        "score": 0.3307,
-        "recency": 0.2028523881550974,
+        "score": 0.3223,
+        "recency": 0.16916019074963456,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1418,56 +1558,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3307,
+      "score": 0.3223,
       "signals": {
-        "score": 0.3307,
-        "recency": 0.2028523881550974,
+        "score": 0.3223,
+        "recency": 0.16916019074963456,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "cmos are driving growth so why arent more becoming ceos",
-      "title": "CMOs Are Driving Growth, So Why Aren\u2019t More Becoming CEOs?",
-      "summary": "Marketers say experience gaps are stalling progression, finds NewtonX.",
-      "image": null,
-      "link": "https://www.adweek.com/brand-marketing/cmos-are-driving-growth-so-why-arent-more-becoming-ceos/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-16T13:38:02+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3298,
-      "signals": {
-        "score": 0.3298,
-        "recency": 0.4391290693120971,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "nielsen sports continues to prop up adsupported tv",
-      "title": "Nielsen: Sports continues to prop up ad-supported TV",
-      "summary": "Broadcast TV without sports accounted for just 9.8% of total ad-supported viewership in Q4 2025.&nbsp",
-      "image": "https://imgproxy.divecdn.com/YAgSABC_5qStcyU5IY8U4SzXxB_Lwz1ENkEobeNHEtE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9zcG9ydHNfc3RyZWFtaW5nLmpwZw==.webp",
-      "link": "https://www.marketingdive.com/news/nielsen-sports-continues-to-prop-up-ad-supported-tv/814781/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-16T09:29:04-04:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3256,
-      "signals": {
-        "score": 0.3256,
-        "recency": 0.42832659199344564,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
       }
     },
     {
@@ -1484,13 +1582,101 @@
         "music",
         "regulation"
       ],
-      "score": 0.3246,
+      "score": 0.3203,
       "signals": {
-        "score": 0.3246,
-        "recency": 0.10441341801344244,
+        "score": 0.3203,
+        "recency": 0.08707116474502999,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "cmos are driving growth so why arent more becoming ceos",
+      "title": "CMOs Are Driving Growth, So Why Aren\u2019t More Becoming CEOs?",
+      "summary": "Marketers say experience gaps are stalling progression, finds NewtonX.",
+      "image": null,
+      "link": "https://www.adweek.com/brand-marketing/cmos-are-driving-growth-so-why-arent-more-becoming-ceos/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-16T13:38:02+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3115,
+      "signals": {
+        "score": 0.3115,
+        "recency": 0.3661931604756273,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "uber emboldens st patricks day partygoers to irish exit with a quick getaway",
+      "title": "Uber Emboldens St Patrick\u2019s Day Partygoers to \u2018Irish Exit\u2019 with a Quick Getaway",
+      "summary": "Uber's St. Patrick's Day campaign encourages people to \"Irish exit\" via its popular ride.",
+      "image": null,
+      "link": "https://www.adweek.com/creativity/uber-emboldens-st-patricks-day-partygoers-to-irish-exit-with-a-quick-getaway/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-16T06:34:23+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3082,
+      "signals": {
+        "score": 0.3082,
+        "recency": 0.11288339683006743,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "nielsen sports continues to prop up adsupported tv",
+      "title": "Nielsen: Sports continues to prop up ad-supported TV",
+      "summary": "Broadcast TV without sports accounted for just 9.8% of total ad-supported viewership in Q4 2025.&nbsp",
+      "image": "https://imgproxy.divecdn.com/YAgSABC_5qStcyU5IY8U4SzXxB_Lwz1ENkEobeNHEtE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9zcG9ydHNfc3RyZWFtaW5nLmpwZw==.webp",
+      "link": "https://www.marketingdive.com/news/nielsen-sports-continues-to-prop-up-ad-supported-tv/814781/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-16T09:29:04-04:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3078,
+      "signals": {
+        "score": 0.3078,
+        "recency": 0.35718489027279127,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "search console adds brand filters",
+      "title": "Search Console Adds Brand Filters",
+      "summary": "Search Console had already provided tools for branded queries, but the new filter makes the process easier and quicker.",
+      "image": null,
+      "link": "https://www.practicalecommerce.com/search-console-adds-brand-filters",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-16T10:00:55+00:00",
+      "source_count": 1,
+      "keywords": [
+        "console"
+      ],
+      "score": 0.3071,
+      "signals": {
+        "score": 0.3071,
+        "recency": 0.2003486508702713,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
         "engagement": 0.4
       }
     },
@@ -1505,10 +1691,10 @@
       "published_at": "2026-03-16T13:00:55+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.319,
+      "score": 0.3026,
       "signals": {
-        "score": 0.319,
-        "recency": 0.3961098316917309,
+        "score": 0.3026,
+        "recency": 0.33031908224589,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1526,80 +1712,13 @@
       "published_at": "2026-03-16T13:11:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3188,
+      "score": 0.3019,
       "signals": {
-        "score": 0.3188,
-        "recency": 0.40736141331614895,
+        "score": 0.3019,
+        "recency": 0.33970186403678704,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "search console adds brand filters",
-      "title": "Search Console Adds Brand Filters",
-      "summary": "Search Console had already provided tools for branded queries, but the new filter makes the process easier and quicker.",
-      "image": null,
-      "link": "https://www.practicalecommerce.com/search-console-adds-brand-filters",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-16T10:00:55+00:00",
-      "source_count": 1,
-      "keywords": [
-        "console"
-      ],
-      "score": 0.3171,
-      "signals": {
-        "score": 0.3171,
-        "recency": 0.24025275753464573,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "uber emboldens st patricks day partygoers to irish exit with a quick getaway",
-      "title": "Uber Emboldens St Patrick\u2019s Day Partygoers to \u2018Irish Exit\u2019 with a Quick Getaway",
-      "summary": "Uber's St. Patrick's Day campaign encourages people to \"Irish exit\" via its popular ride.",
-      "image": null,
-      "link": "https://www.adweek.com/creativity/uber-emboldens-st-patricks-day-partygoers-to-irish-exit-with-a-quick-getaway/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-16T06:34:23+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3138,
-      "signals": {
-        "score": 0.3138,
-        "recency": 0.13536675815133056,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "jcpenney takes on fashion elitism with a runway show in paris texas",
-      "title": "JCPenney Takes on Fashion Elitism With a Runway Show in Paris, Texas",
-      "summary": "JCPenney hosted \"The Other Paris Runway\u201d as a direct counterpoint to the exclusivity of traditional fashion shows.",
-      "image": null,
-      "link": "https://www.adweek.com/creativity/jcpenney-takes-on-fashion-elitism-with-a-runway-show-in-paris-texas/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-16T12:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3036,
-      "signals": {
-        "score": 0.3036,
-        "recency": 0.3344470471636279,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1616,10 +1735,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.303,
+      "score": 0.3002,
       "signals": {
-        "score": 0.303,
-        "recency": 0.06814550709475672,
+        "score": 0.3002,
+        "recency": 0.056827070579350956,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1639,10 +1758,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3028,
+      "score": 0.2988,
       "signals": {
-        "score": 0.3028,
-        "recency": 0.09728684190024395,
+        "score": 0.2988,
+        "recency": 0.08112825726602749,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1662,10 +1781,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3008,
+      "score": 0.2971,
       "signals": {
-        "score": 0.3008,
-        "recency": 0.08906179141997723,
+        "score": 0.2971,
+        "recency": 0.0742693234332964,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1685,10 +1804,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3005,
+      "score": 0.2969,
       "signals": {
-        "score": 0.3005,
-        "recency": 0.08815928448358779,
+        "score": 0.2969,
+        "recency": 0.0735167158505068,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1708,10 +1827,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3005,
+      "score": 0.2969,
       "signals": {
-        "score": 0.3005,
-        "recency": 0.08815928448358779,
+        "score": 0.2969,
+        "recency": 0.0735167158505068,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1719,47 +1838,24 @@
       }
     },
     {
-      "id": "small and midsized startup purchases are still well below the 2021 peak",
-      "title": "Small And Mid-Sized Startup Purchases Are Still Well Below The 2021 Peak",
-      "summary": "Small and mid-sized deals are not a long-term growth area for M&#038;A, by many measures, but collectively they can add up to a tidy sum.",
-      "image": "https://news.crunchbase.com/wp-content/uploads/2021/02/Antitrust-2.jpg",
-      "link": "https://news.crunchbase.com/ma/data-small-midsized-venture-backed-startup-acquisitions/",
-      "category": "startup",
+      "id": "jcpenney takes on fashion elitism with a runway show in paris texas",
+      "title": "JCPenney Takes on Fashion Elitism With a Runway Show in Paris, Texas",
+      "summary": "JCPenney hosted \"The Other Paris Runway\u201d as a direct counterpoint to the exclusivity of traditional fashion shows.",
+      "image": null,
+      "link": "https://www.adweek.com/creativity/jcpenney-takes-on-fashion-elitism-with-a-runway-show-in-paris-texas/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-16T11:00:57+00:00",
+      "published_at": "2026-03-16T12:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2925,
+      "score": 0.2897,
       "signals": {
-        "score": 0.2925,
-        "recency": 0.2838513781515066,
+        "score": 0.2897,
+        "recency": 0.2788980046446135,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.81,
+        "authority": 0.8,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "lawyer behind ai psychosis cases warns of mass casualty risks",
-      "title": "Lawyer behind AI psychosis cases warns of mass casualty risks",
-      "summary": "AI chatbots have been linked to suicides for years.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/15/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-15T18:49:32+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2908,
-      "signals": {
-        "score": 0.2908,
-        "recency": 0.01910731326428829,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
       }
     },
     {
@@ -1775,34 +1871,13 @@
       "keywords": [
         "hollywood"
       ],
-      "score": 0.2908,
+      "score": 0.2857,
       "signals": {
-        "score": 0.2908,
-        "recency": 0.12303619281199438,
+        "score": 0.2857,
+        "recency": 0.10260084209249076,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "breaking through creative ops bottlenecks your 2026 technology roadmap by canto",
-      "title": "Breaking Through Creative Ops Bottlenecks: Your 2026 Technology Roadmap by Canto",
-      "summary": "How to win at creative operations without sacrificing quality or burning out teams?",
-      "image": "https://martech.org/wp-content/uploads/2026/03/how-to-choose-a-dam-feature.jpg",
-      "link": "https://martech.org/breaking-through-creative-ops-bottlenecks-your-2026-technology-roadmap/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-16T11:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2878,
-      "signals": {
-        "score": 0.2878,
-        "recency": 0.2831033133676403,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.78,
         "engagement": 0.4
       }
     },
@@ -1819,14 +1894,56 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2869,
+      "score": 0.2857,
       "signals": {
-        "score": 0.2869,
-        "recency": 0.02745308540619342,
+        "score": 0.2857,
+        "recency": 0.02289334232746121,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "small and midsized startup purchases are still well below the 2021 peak",
+      "title": "Small And Mid-Sized Startup Purchases Are Still Well Below The 2021 Peak",
+      "summary": "Small and mid-sized deals are not a long-term growth area for M&#038;A, by many measures, but collectively they can add up to a tidy sum.",
+      "image": "https://news.crunchbase.com/wp-content/uploads/2021/02/Antitrust-2.jpg",
+      "link": "https://news.crunchbase.com/ma/data-small-midsized-venture-backed-startup-acquisitions/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-03-16T11:00:57+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2807,
+      "signals": {
+        "score": 0.2807,
+        "recency": 0.2367058811057379,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "breaking through creative ops bottlenecks your 2026 technology roadmap by canto",
+      "title": "Breaking Through Creative Ops Bottlenecks: Your 2026 Technology Roadmap by Canto",
+      "summary": "How to win at creative operations without sacrificing quality or burning out teams?",
+      "image": "https://martech.org/wp-content/uploads/2026/03/how-to-choose-a-dam-feature.jpg",
+      "link": "https://martech.org/breaking-through-creative-ops-bottlenecks-your-2026-technology-roadmap/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-16T11:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.276,
+      "signals": {
+        "score": 0.276,
+        "recency": 0.2360820640401229,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.4
       }
     },
     {
@@ -1840,10 +1957,10 @@
       "published_at": "2026-03-16T09:47:27+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2779,
+      "score": 0.2682,
       "signals": {
-        "score": 0.2779,
-        "recency": 0.23143154275391056,
+        "score": 0.2682,
+        "recency": 0.19299257097136593,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1863,10 +1980,33 @@
       "keywords": [
         "film"
       ],
-      "score": 0.267,
+      "score": 0.2658,
       "signals": {
-        "score": 0.267,
-        "recency": 0.027996007085768587,
+        "score": 0.2658,
+        "recency": 0.023346088956250354,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "exclusive disney cruise line ad delivers a powerfully quiet moment during oscars",
+      "title": "EXCLUSIVE: Disney Cruise Line Ad Delivers a Powerfully Quiet Moment During Oscars",
+      "summary": "The ad debuted during the 98th Academy Awards, showcasing a heartwarming father and son story.",
+      "image": "https://static-www.adweek.com/wp-content/uploads/2026/03/PR6-e1773514326481.jpg?w=1024",
+      "link": "https://www.adweek.com/brand-marketing/exclusive-disney-cruise-line-ad-delivers-a-powerfully-quiet-moment-during-oscars/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-15T19:52:51+00:00",
+      "source_count": 1,
+      "keywords": [
+        "award"
+      ],
+      "score": 0.2647,
+      "signals": {
+        "score": 0.2647,
+        "recency": 0.018997708420674615,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1884,36 +2024,13 @@
       "published_at": "2026-03-16T09:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2662,
+      "score": 0.2578,
       "signals": {
-        "score": 0.2662,
-        "recency": 0.2028523881550974,
+        "score": 0.2578,
+        "recency": 0.16916019074963456,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.77,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "exclusive disney cruise line ad delivers a powerfully quiet moment during oscars",
-      "title": "EXCLUSIVE: Disney Cruise Line Ad Delivers a Powerfully Quiet Moment During Oscars",
-      "summary": "The ad debuted during the 98th Academy Awards, showcasing a heartwarming father and son story.",
-      "image": "https://static-www.adweek.com/wp-content/uploads/2026/03/PR6-e1773514326481.jpg?w=1024",
-      "link": "https://www.adweek.com/brand-marketing/exclusive-disney-cruise-line-ad-delivers-a-powerfully-quiet-moment-during-oscars/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-15T19:52:51+00:00",
-      "source_count": 1,
-      "keywords": [
-        "award"
-      ],
-      "score": 0.2657,
-      "signals": {
-        "score": 0.2657,
-        "recency": 0.022781545146823366,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1928,10 +2045,10 @@
       "published_at": "2026-03-16T04:01:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2436,
+      "score": 0.2399,
       "signals": {
-        "score": 0.2436,
-        "recency": 0.08840451182077279,
+        "score": 0.2399,
+        "recency": 0.07372121284219872,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1949,10 +2066,10 @@
       "published_at": "2026-03-16T04:01:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2436,
+      "score": 0.2399,
       "signals": {
-        "score": 0.2436,
-        "recency": 0.08840451182077279,
+        "score": 0.2399,
+        "recency": 0.07372121284219872,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1970,10 +2087,10 @@
       "published_at": "2026-03-15T21:01:51+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2329,
+      "score": 0.2318,
       "signals": {
-        "score": 0.2329,
-        "recency": 0.02759452687648558,
+        "score": 0.2318,
+        "recency": 0.023011291474188716,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1991,10 +2108,10 @@
       "published_at": "2026-03-16T00:07:52+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2316,
+      "score": 0.2296,
       "signals": {
-        "score": 0.2316,
-        "recency": 0.04626244063289045,
+        "score": 0.2296,
+        "recency": 0.03857861055113606,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
