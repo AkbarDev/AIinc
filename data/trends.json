@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-17T17:57:59.513354+00:00",
-  "sources_scanned": 487,
-  "feeds_polled": 29,
+  "generated_at": "2026-03-17T19:16:44.882839+00:00",
+  "sources_scanned": 477,
+  "feeds_polled": 28,
   "feed_pool": 35,
   "continent_counts": {
-    "NA": 327,
+    "NA": 317,
     "SA": 0,
     "EU": 160,
     "AF": 0,
@@ -13,8 +13,32 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 95,
+  "clusters": 97,
   "trends": [
+    {
+      "id": "mastercard unveils gen ai model as insights engine for commerce",
+      "title": "Mastercard Unveils Gen AI Model as Insights Engine for Commerce",
+      "summary": "Mastercard is developing a new generative artificial intelligence foundation model designed to serve as an \u201cinsights engine\u201d for payments and commerce, according to a Tuesday",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Mastercard-AI-commerce.png?w=457",
+      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/mastercard-unveils-gen-ai-model-as-insights-engine-for-commerce/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-17T19:10:04+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.5654,
+      "signals": {
+        "score": 0.5654,
+        "recency": 0.981611774255612,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
     {
       "id": "openai teams with aws to strengthen government partnerships",
       "title": "OpenAI Teams With AWS to Strengthen Government Partnerships",
@@ -30,10 +54,10 @@
         "artificial intelligence",
         "govern"
       ],
-      "score": 0.5952,
+      "score": 0.549,
       "signals": {
-        "score": 0.5952,
-        "recency": 0.9408705716059387,
+        "score": 0.549,
+        "recency": 0.7559978111569373,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -41,25 +65,71 @@
       }
     },
     {
-      "id": "gartner twothirds of b2b buyers prefer repfree purchasing as ai reshapes sales",
-      "title": "Gartner: Two-thirds of B2B buyers prefer rep-free purchasing as AI reshapes sales",
-      "summary": "Nearly seven in 10 B2B buyers prefer to complete purchases without interacting with a sales representative, underscoring a shift toward rep-free, self-directed, digital buying",
+      "id": "google removes what people suggest expands health ai tools via sejournal mattgsouthern",
+      "title": "Google Removes \u2018What People Suggest,\u2019 Expands Health AI Tools via @sejournal, @MattGSouthern",
+      "summary": "Google confirmed it removed \"What People Suggest\" from health searches.",
       "image": null,
-      "link": "https://www.digitalcommerce360.com/2026/03/17/gartner-b2b-buyers-rep-free-purchasing-ai-reshapes-sales/",
-      "category": "commerce",
+      "link": "https://www.searchenginejournal.com/google-removes-what-people-suggest-expands-health-ai-tools/569942/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-03-17T17:53:06+00:00",
+      "published_at": "2026-03-17T18:49:48+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.5281,
+      "score": 0.512,
       "signals": {
-        "score": 0.5281,
-        "recency": 0.98650332679511,
+        "score": 0.512,
+        "recency": 0.9278773814440567,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.81,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "uk debuts rules to protect lenders against bank runs",
+      "title": "UK Debuts Rules to Protect Lenders Against Bank Runs",
+      "summary": "The Bank of England has unveiled proposed guidelines to protect banks from collapse.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2023/04/Bank-England.jpg?w=457",
+      "link": "https://www.pymnts.com/bank-regulation/2026/uk-debuts-rules-to-protect-lenders-against-bank-runs/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-17T18:35:27+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5029,
+      "signals": {
+        "score": 0.5029,
+        "recency": 0.8916186162393652,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "visa launches agentic ready program to help banks test ai payments",
+      "title": "Visa Launches Agentic Ready Program to Help Banks Test AI Payments",
+      "summary": "Visa has launched Visa Agentic Ready, a program that gives banks a structured way to test payments made by AI agents on behalf of consumers.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/12/Visa.jpeg?w=457",
+      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/visa-launches-agentic-ready-program-to-help-banks-test-ai-payments/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-17T18:19:45+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4934,
+      "signals": {
+        "score": 0.4934,
+        "recency": 0.8535698426583357,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -78,14 +148,37 @@
         "film",
         "streaming"
       ],
-      "score": 0.5261,
+      "score": 0.4907,
       "signals": {
-        "score": 0.5261,
-        "recency": 0.7205393516664119,
+        "score": 0.4907,
+        "recency": 0.5789597306486824,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
+      }
+    },
+    {
+      "id": "gartner twothirds of b2b buyers prefer repfree purchasing as ai reshapes sales",
+      "title": "Gartner: Two-thirds of B2B buyers prefer rep-free purchasing as AI reshapes sales",
+      "summary": "Nearly seven in 10 B2B buyers prefer to complete purchases without interacting with a sales representative, underscoring a shift toward rep-free, self-directed, digital buying",
+      "image": null,
+      "link": "https://www.digitalcommerce360.com/2026/03/17/gartner-b2b-buyers-rep-free-purchasing-ai-reshapes-sales/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-17T17:53:06+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4797,
+      "signals": {
+        "score": 0.4797,
+        "recency": 0.7926641328394085,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.6
       }
     },
     {
@@ -101,10 +194,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5181,
+      "score": 0.4716,
       "signals": {
-        "score": 0.5181,
-        "recency": 0.9462873990526728,
+        "score": 0.4716,
+        "recency": 0.7603502798351276,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -124,11 +217,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5092,
+      "score": 0.4654,
       "signals": {
-        "score": 0.5092,
-        "recency": 0.8929971277313798,
+        "score": 0.4654,
+        "recency": 0.7175310763328948,
         "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "openai expands government footprint with aws deal report says",
+      "title": "OpenAI expands government footprint with AWS deal, report says",
+      "summary": "OpenAI has reportedly signed a partnership with AWS to sell its AI systems to the U.S.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-17T15:37:03+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "govern"
+      ],
+      "score": 0.4618,
+      "signals": {
+        "score": 0.4618,
+        "recency": 0.5432029056281593,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -147,13 +264,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.505,
+      "score": 0.4611,
       "signals": {
-        "score": 0.505,
-        "recency": 0.8939898981992045,
+        "score": 0.4611,
+        "recency": 0.7183287761688835,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "ripple launches crossborder payments expansion in brazil",
+      "title": "Ripple Launches Cross-Border Payments Expansion in Brazil",
+      "summary": "Blockchain company Ripple has undertaken what it calls a major expansion in Brazil.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/07/stablecoins-Ripple.jpg?w=457",
+      "link": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/ripple-launches-cross-border-payments-expansion-in-brazil/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-17T17:09:55+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4558,
+      "signals": {
+        "score": 0.4558,
+        "recency": 0.7030625673074442,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -170,10 +310,10 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.5035,
+      "score": 0.4557,
       "signals": {
-        "score": 0.5035,
-        "recency": 0.974113482721125,
+        "score": 0.4557,
+        "recency": 0.782708783737012,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -181,50 +321,24 @@
       }
     },
     {
-      "id": "ripple launches crossborder payments expansion in brazil",
-      "title": "Ripple Launches Cross-Border Payments Expansion in Brazil",
-      "summary": "Blockchain company Ripple has undertaken what it calls a major expansion in Brazil.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2025/07/stablecoins-Ripple.jpg?w=457",
-      "link": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/ripple-launches-cross-border-payments-expansion-in-brazil/",
+      "id": "mastercard and visa secure appeal in uk multilateral interchange fee battle",
+      "title": "Mastercard and Visa Secure Appeal in UK Multilateral Interchange Fee Battle",
+      "summary": "The London Court of Appeal ruled Tuesday (March 17) that Mastercard and Visa can challenge last year\u2019s judgment that they breached competition law with their multilateral",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/11/visa-mastercard-5.jpg?w=457",
+      "link": "https://www.pymnts.com/legal/2026/mastercard-and-visa-secure-appeal-in-uk-multilateral-interchange-fee-battle/",
       "category": "commerce",
       "geo": "global",
-      "published_at": "2026-03-17T17:09:55+00:00",
+      "published_at": "2026-03-17T18:54:24+00:00",
       "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4987,
+      "keywords": [],
+      "score": 0.455,
       "signals": {
-        "score": 0.4987,
-        "recency": 0.8749904693043814,
-        "keyword_volume": 0.2,
+        "score": 0.455,
+        "recency": 0.9398096641074996,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "openai expands government footprint with aws deal report says",
-      "title": "OpenAI expands government footprint with AWS deal, report says",
-      "summary": "OpenAI has reportedly signed a partnership with AWS to sell its AI systems to the U.S.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-17T15:37:03+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "govern"
-      ],
-      "score": 0.495,
-      "signals": {
-        "score": 0.495,
-        "recency": 0.6760385027229627,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
+        "engagement": 0.4
       }
     },
     {
@@ -240,10 +354,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4936,
+      "score": 0.4516,
       "signals": {
-        "score": 0.4936,
-        "recency": 0.8543751657521178,
+        "score": 0.4516,
+        "recency": 0.6864979888923223,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -263,10 +377,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4858,
+      "score": 0.4454,
       "signals": {
-        "score": 0.4858,
-        "recency": 0.8233104643253559,
+        "score": 0.4454,
+        "recency": 0.6615372270281369,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -274,27 +388,24 @@
       }
     },
     {
-      "id": "alibaba debuts wukong ai tool for enterprise clients",
-      "title": "Alibaba Debuts Wukong AI Tool for Enterprise Clients",
-      "summary": "Alibaba has introduced an artificial intelligence (AI) tool designed for its enterprise customers.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/01/Alibaba.jpeg?w=457",
-      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/alibaba-debuts-wukong-ai-tool-for-enterprise-clients/",
+      "id": "washington eyes a national framework for financial data sharing",
+      "title": "Washington Eyes a National Framework for Financial Data Sharing",
+      "summary": "Financial data now circulates through banks, FinTech platforms and intermediaries in ways that stretch beyond the structure of existing privacy law, banking and FinTech",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Congress-financial-data-consumer-privacy-banking-regulation.jpeg?w=457",
+      "link": "https://www.pymnts.com/politics/2026/washington-eyes-a-national-framework-for-financial-data-sharing/",
       "category": "commerce",
       "geo": "global",
-      "published_at": "2026-03-17T15:29:45+00:00",
+      "published_at": "2026-03-17T18:34:49+00:00",
       "source_count": 1,
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.4856,
+      "keywords": [],
+      "score": 0.4425,
       "signals": {
-        "score": 0.4856,
-        "recency": 0.6624679990241699,
-        "keyword_volume": 0.4,
+        "score": 0.4425,
+        "recency": 0.8900514069009966,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
+        "engagement": 0.4
       }
     },
     {
@@ -310,10 +421,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4818,
+      "score": 0.4422,
       "signals": {
-        "score": 0.4818,
-        "recency": 0.8072320248289632,
+        "score": 0.4422,
+        "recency": 0.6486180589375198,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -333,13 +444,57 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4795,
+      "score": 0.44,
       "signals": {
-        "score": 0.4795,
-        "recency": 0.8041361130031706,
+        "score": 0.44,
+        "recency": 0.6461304664519357,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "the pentagon is developing alternatives to anthropic report says",
+      "title": "The Pentagon is developing alternatives to Anthropic, report says",
+      "summary": "After their dramatic falling-out, it doesn't seem as though Anthropic and the Pentagon are getting back together.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-17T18:20:15+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4397,
+      "signals": {
+        "score": 0.4397,
+        "recency": 0.8547561799833541,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "nivai exits stealth to wring more power performance out of gpus",
+      "title": "Niv-AI exits stealth to wring more power performance out of GPUs",
+      "summary": "The company raised $12 million in seed funding to measure and manage GPU power surges.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-17T13:00:00+00:00",
+      "source_count": 2,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4345,
+      "signals": {
+        "score": 0.4345,
+        "recency": 0.35115682737739384,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.845,
         "engagement": 0.6
       }
     },
@@ -356,14 +511,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4688,
+      "score": 0.4317,
       "signals": {
-        "score": 0.4688,
-        "recency": 0.7553809966832584,
+        "score": 0.4317,
+        "recency": 0.6069553000338358,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "smartly is planning to acquire incrmntal within the next few weeks",
+      "title": "Smartly Is Planning To Acquire INCRMNTAL Within The Next Few Weeks",
+      "summary": "Last-click isn\u2019t dead yet, but Smartly is making moves like it knows how this movie ends.",
+      "image": null,
+      "link": "https://www.adexchanger.com/measurement/smartly-is-planning-to-acquire-incrmntal-within-the-next-few-weeks/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-17T18:17:55+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4308,
+      "signals": {
+        "score": 0.4308,
+        "recency": 0.8492340088884588,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
       }
     },
     {
@@ -379,10 +555,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4661,
+      "score": 0.4307,
       "signals": {
-        "score": 0.4661,
-        "recency": 0.7205393516664119,
+        "score": 0.4307,
+        "recency": 0.5789597306486824,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -402,10 +578,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4627,
+      "score": 0.4268,
       "signals": {
-        "score": 0.4627,
-        "recency": 0.7306166619901923,
+        "score": 0.4268,
+        "recency": 0.5870569384656126,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -413,26 +589,24 @@
       }
     },
     {
-      "id": "nivai exits stealth to wring more power performance out of gpus",
-      "title": "Niv-AI exits stealth to wring more power performance out of GPUs",
-      "summary": "The company raised $12 million in seed funding to measure and manage GPU power surges.",
+      "id": "ulta beauty adds tiktok shop to its online sales efforts",
+      "title": "Ulta Beauty adds TikTok Shop to its online sales efforts",
+      "summary": "Ulta Beauty previewed a major new initiative in its social video plans, announcing during its fourth-quarter earnings call on March 12 that it would launch on TikTok Shop.",
       "image": null,
-      "link": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
-      "category": "technology",
+      "link": "https://www.digitalcommerce360.com/2026/03/17/ulta-beauty-adds-tiktok-shop-online-sales/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-03-17T13:00:00+00:00",
-      "source_count": 2,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.456,
+      "published_at": "2026-03-17T18:01:23+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4243,
       "signals": {
-        "score": 0.456,
-        "recency": 0.437029208315142,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.6
+        "score": 0.4243,
+        "recency": 0.8111141945156235,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
       }
     },
     {
@@ -448,10 +622,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4559,
+      "score": 0.4214,
       "signals": {
-        "score": 0.4559,
-        "recency": 0.7036933111745967,
+        "score": 0.4214,
+        "recency": 0.565423788381155,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -471,10 +645,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.453,
+      "score": 0.419,
       "signals": {
-        "score": 0.453,
-        "recency": 0.6921263665932705,
+        "score": 0.419,
+        "recency": 0.5561296462864244,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -494,36 +668,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4513,
+      "score": 0.4177,
       "signals": {
-        "score": 0.4513,
-        "recency": 0.6853982328157586,
+        "score": 0.4177,
+        "recency": 0.5507235313940345,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "ais boys club could widen the wealth gap for women says rana el kaliouby",
-      "title": "AI\u2019s \u2018boys\u2019 club\u2019 could widen the wealth gap for women, says Rana el Kaliouby",
-      "summary": "AI investor Rana el Kaliouby warns that if women are shut out of AI funding and leadership, the consequences will be grim.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/17/ais-boys-club-could-widen-the-wealth-gap-for-women-says-rana-el-kaliouby/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-17T15:16:21+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4456,
-      "signals": {
-        "score": 0.4456,
-        "recency": 0.63826274916481,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -541,11 +692,34 @@
         "ai",
         "series"
       ],
-      "score": 0.44,
+      "score": 0.4176,
       "signals": {
-        "score": 0.44,
-        "recency": 0.4560877459340357,
+        "score": 0.4176,
+        "recency": 0.3664705306204903,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "ais boys club could widen the wealth gap for women says rana el kaliouby",
+      "title": "AI\u2019s \u2018boys\u2019 club\u2019 could widen the wealth gap for women, says Rana el Kaliouby",
+      "summary": "AI investor Rana el Kaliouby warns that if women are shut out of AI funding and leadership, the consequences will be grim.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/17/ais-boys-club-could-widen-the-wealth-gap-for-women-says-rana-el-kaliouby/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-17T15:16:21+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4142,
+      "signals": {
+        "score": 0.4142,
+        "recency": 0.5128497541250551,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -564,10 +738,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4385,
+      "score": 0.4085,
       "signals": {
-        "score": 0.4385,
-        "recency": 0.6099233932501491,
+        "score": 0.4085,
+        "recency": 0.49007883144170195,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -585,34 +759,13 @@
       "published_at": "2026-03-17T16:46:02+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.4307,
+      "score": 0.3905,
       "signals": {
-        "score": 0.4307,
-        "recency": 0.8188250128347084,
+        "score": 0.3905,
+        "recency": 0.6579331271537067,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "klarnas merchant base jumps 47 to pass 1 million",
-      "title": "Klarna\u2019s Merchant Base Jumps 47% to Pass 1 Million",
-      "summary": "Digital bank/pay later company Klarna says its global merchant base now exceeds 1 million.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2023/11/klarna-3.jpg?w=457",
-      "link": "https://www.pymnts.com/bnpl/2026/klarna-merchant-base-jumps-47percent-to-pass-1-million/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-17T16:39:39+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4211,
-      "signals": {
-        "score": 0.4211,
-        "recency": 0.80443399635335,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -629,10 +782,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4153,
+      "score": 0.3884,
       "signals": {
-        "score": 0.4153,
-        "recency": 0.5473016052123987,
+        "score": 0.3884,
+        "recency": 0.43976167187057547,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -652,10 +805,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4131,
+      "score": 0.3869,
       "signals": {
-        "score": 0.4131,
-        "recency": 0.5323079915625432,
+        "score": 0.3869,
+        "recency": 0.4277141709254923,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -663,24 +816,27 @@
       }
     },
     {
-      "id": "ernesta secures 20m to fuel store expansion",
-      "title": "Ernesta secures $20M to fuel store expansion",
-      "summary": "The DTC rug brand plans to use the fresh capital to expand its brick-and-mortar footprint and improve its technology platform.",
-      "image": "https://imgproxy.divecdn.com/kokL9HzxMtneTQHJ8N-jXecVP-sbORuwUN1qTCqnW6Q/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Fcm5lc3RhX0JldGhlc2RhX1Nob3dyb29tX0V4dGVyaW9yXzEuanBn.webp",
-      "link": "https://www.retaildive.com/news/ernesta-secures-twenty-million-funding-store-expansion/814778/",
-      "category": "brands",
+      "id": "the rising investors behind the new unicorn class",
+      "title": "The Rising Investors Behind The New Unicorn Class",
+      "summary": "The race to back the next generation of billion-dollar startups accelerated last year as the stable of unicorn startups filled up again.",
+      "image": "https://news.crunchbase.com/wp-content/uploads/Rise-of-Unicorns.jpg",
+      "link": "https://news.crunchbase.com/venture/unicorn-investment-momentum-ai-sequoia-a16z-2025/",
+      "category": "startup",
       "geo": "global",
-      "published_at": "2026-03-17T12:23:00-04:00",
+      "published_at": "2026-03-17T11:00:07+00:00",
       "source_count": 1,
-      "keywords": [],
-      "score": 0.412,
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.3844,
       "signals": {
-        "score": 0.412,
-        "recency": 0.7680761792810203,
-        "keyword_volume": 0.0,
+        "score": 0.3844,
+        "recency": 0.25169641680522653,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
+        "authority": 0.81,
+        "engagement": 0.6
       }
     },
     {
@@ -696,10 +852,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4085,
+      "score": 0.3833,
       "signals": {
-        "score": 0.4085,
-        "recency": 0.5141660806695177,
+        "score": 0.3833,
+        "recency": 0.41313698534945564,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -719,14 +875,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4076,
+      "score": 0.3822,
       "signals": {
-        "score": 0.4076,
-        "recency": 0.5162890059695225,
+        "score": 0.3822,
+        "recency": 0.41484277457114843,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "klarnas merchant base jumps 47 to pass 1 million",
+      "title": "Klarna\u2019s Merchant Base Jumps 47% to Pass 1 Million",
+      "summary": "Digital bank/pay later company Klarna says its global merchant base now exceeds 1 million.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2023/11/klarna-3.jpg?w=457",
+      "link": "https://www.pymnts.com/bnpl/2026/klarna-merchant-base-jumps-47percent-to-pass-1-million/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-17T16:39:39+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3816,
+      "signals": {
+        "score": 0.3816,
+        "recency": 0.6463698183537934,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -742,78 +919,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4059,
+      "score": 0.3812,
       "signals": {
-        "score": 0.4059,
-        "recency": 0.5035417849933304,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "stryker says its restoring systems after proiran hackers wiped thousands of employee devices",
-      "title": "Stryker says it\u2019s restoring systems after pro-Iran hackers wiped thousands of employee devices",
-      "summary": "The hack, which brought ongoing widespread disruption to the company's operations, is thought to be the first major cyberattack in the United States in response to the Trump",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/17/stryker-says-its-restoring-systems-after-pro-iran-hackers-wiped-thousands-of-employee-devices/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-17T15:52:50+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4026,
-      "signals": {
-        "score": 0.4026,
-        "recency": 0.7063371151257027,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "the rising investors behind the new unicorn class",
-      "title": "The Rising Investors Behind The New Unicorn Class",
-      "summary": "The race to back the next generation of billion-dollar startups accelerated last year as the stable of unicorn startups filled up again.",
-      "image": "https://news.crunchbase.com/wp-content/uploads/Rise-of-Unicorns.jpg",
-      "link": "https://news.crunchbase.com/venture/unicorn-investment-momentum-ai-sequoia-a16z-2025/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-03-17T11:00:07+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.3998,
-      "signals": {
-        "score": 0.3998,
-        "recency": 0.3132466100507532,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the brand tax how google profits from demand you already own via sejournal kevinindig",
-      "title": "The Brand Tax: How Google Profits From Demand You Already Own via @sejournal, @Kevin_Indig",
-      "summary": "If your paid search looks efficient, branded keywords may be hiding the truth.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/the-brand-tax-how-google-profits-from-demand-you-already-own/569887/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-17T13:30:08+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3988,
-      "signals": {
-        "score": 0.3988,
-        "recency": 0.47518477805150056,
+        "score": 0.3812,
+        "recency": 0.4046002699725762,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -834,13 +943,36 @@
         "ai",
         "bill"
       ],
-      "score": 0.3963,
+      "score": 0.3804,
       "signals": {
-        "score": 0.3963,
-        "recency": 0.32304053441359565,
+        "score": 0.3804,
+        "recency": 0.2595659215005508,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.77,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "the brand tax how google profits from demand you already own via sejournal kevinindig",
+      "title": "The Brand Tax: How Google Profits From Demand You Already Own via @sejournal, @Kevin_Indig",
+      "summary": "If your paid search looks efficient, branded keywords may be hiding the truth.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/the-brand-tax-how-google-profits-from-demand-you-already-own/569887/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-17T13:30:08+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3755,
+      "signals": {
+        "score": 0.3755,
+        "recency": 0.38181516453305336,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -855,13 +987,34 @@
       "published_at": "2026-03-17T13:00:00+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.396,
+      "score": 0.3745,
       "signals": {
-        "score": 0.396,
-        "recency": 0.437029208315142,
+        "score": 0.3745,
+        "recency": 0.35115682737739384,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "ernesta secures 20m to fuel store expansion",
+      "title": "Ernesta secures $20M to fuel store expansion",
+      "summary": "The DTC rug brand plans to use the fresh capital to expand its brick-and-mortar footprint and improve its technology platform.",
+      "image": "https://imgproxy.divecdn.com/kokL9HzxMtneTQHJ8N-jXecVP-sbORuwUN1qTCqnW6Q/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Fcm5lc3RhX0JldGhlc2RhX1Nob3dyb29tX0V4dGVyaW9yXzEuanBn.webp",
+      "link": "https://www.retaildive.com/news/ernesta-secures-twenty-million-funding-store-expansion/814778/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-17T12:23:00-04:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3743,
+      "signals": {
+        "score": 0.3743,
+        "recency": 0.6171559913358966,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -878,13 +1031,37 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3953,
+      "score": 0.3738,
       "signals": {
-        "score": 0.3953,
-        "recency": 0.437029208315142,
+        "score": 0.3738,
+        "recency": 0.35115682737739384,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "opinion retails 210 billion paid advertising blind spot",
+      "title": "OPINION: Retail\u2019s $210 billion paid advertising blind spot",
+      "summary": "Vlad Zhovtenko, CEO and co-founder of RedTrack explains why ecommerce retailers are losing visibility into paid advertising (and how to fix it).",
+      "image": null,
+      "link": "https://internetretailing.net/opinion-retails-210-billion-paid-advertising-blind-spot/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-17T10:11:49+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.3705,
+      "signals": {
+        "score": 0.3705,
+        "recency": 0.22009449996041283,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.77,
         "engagement": 0.6
       }
     },
@@ -901,14 +1078,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3895,
+      "score": 0.368,
       "signals": {
-        "score": 0.3895,
-        "recency": 0.43806230197929485,
+        "score": 0.368,
+        "recency": 0.3519869272576426,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "stryker says its restoring systems after proiran hackers wiped thousands of employee devices",
+      "title": "Stryker says it\u2019s restoring systems after pro-Iran hackers wiped thousands of employee devices",
+      "summary": "The hack, which brought ongoing widespread disruption to the company's operations, is thought to be the first major cyberattack in the United States in response to the Trump",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/17/stryker-says-its-restoring-systems-after-pro-iran-hackers-wiped-thousands-of-employee-devices/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-17T15:52:50+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3679,
+      "signals": {
+        "score": 0.3679,
+        "recency": 0.5675481081978039,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       }
     },
     {
@@ -924,10 +1122,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3894,
+      "score": 0.3679,
       "signals": {
-        "score": 0.3894,
-        "recency": 0.43777846470373233,
+        "score": 0.3679,
+        "recency": 0.35175886150075136,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -947,10 +1145,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3878,
+      "score": 0.3663,
       "signals": {
-        "score": 0.3878,
-        "recency": 0.437029208315142,
+        "score": 0.3663,
+        "recency": 0.35115682737739384,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -970,10 +1168,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3875,
+      "score": 0.3658,
       "signals": {
-        "score": 0.3875,
-        "recency": 0.4419121657125453,
+        "score": 0.3658,
+        "recency": 0.3550803267574505,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -993,80 +1191,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3863,
+      "score": 0.3648,
       "signals": {
-        "score": 0.3863,
-        "recency": 0.437029208315142,
+        "score": 0.3648,
+        "recency": 0.35115682737739384,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "oura enters indias smart ring market with the ring 4",
-      "title": "Oura enters India\u2019s smart ring market with the Ring 4",
-      "summary": "Finnish smart ring maker Oura is finally launching in India, taking on local rivals such as Ultrahuman in a relatively young smart ring market that is becoming price-sensitive",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/17/oura-enters-indias-smart-ring-market-with-the-ring-4/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-17T15:14:22+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3847,
-      "signals": {
-        "score": 0.3847,
-        "recency": 0.6347560626961382,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "opinion retails 210 billion paid advertising blind spot",
-      "title": "OPINION: Retail\u2019s $210 billion paid advertising blind spot",
-      "summary": "Vlad Zhovtenko, CEO and co-founder of RedTrack explains why ecommerce retailers are losing visibility into paid advertising (and how to fix it).",
-      "image": null,
-      "link": "https://internetretailing.net/opinion-retails-210-billion-paid-advertising-blind-spot/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-17T10:11:49+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.384,
-      "signals": {
-        "score": 0.384,
-        "recency": 0.2739167163303984,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.77,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the us consumer is hitting a rough patch",
-      "title": "The US consumer is hitting a rough patch",
-      "summary": "Even before the Iran war&rsquo;s oil price spikes, people were getting more cautious about spending.",
-      "image": "https://imgproxy.divecdn.com/T9y-CzEZGmwmsdNy16VJ02enkbvwzvIImIkQEXAxL8A/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTgzODIzMDcyLmpwZw==.webp",
-      "link": "https://www.retaildive.com/news/iran-war-us-consumer-sentiment-spending-rough-patch/814797/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-17T11:24:00-04:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.383,
-      "signals": {
-        "score": 0.383,
-        "recency": 0.6519709665551404,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -1082,35 +1214,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3826,
+      "score": 0.3631,
       "signals": {
-        "score": 0.3826,
-        "recency": 0.39852801978275415,
+        "score": 0.3631,
+        "recency": 0.32022078246768393,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "irs warns of most dangerous 2026 tax scams targeting smbs",
-      "title": "IRS Warns of Most Dangerous 2026 Tax Scams Targeting SMBs",
-      "summary": "The \u201cDirty Dozen\u201d list of tax scams released by the IRS this year reads less like a seasonal advisory and more like a snapshot of a rapidly professionalizing fraud economy.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/IRS-tax-scams-SMBs.png-.png?w=457",
-      "link": "https://www.pymnts.com/fraud-prevention/2026/irs-warns-of-most-dangerous-2026-tax-scams-targeting-smbs/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-17T15:21:05+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3817,
-      "signals": {
-        "score": 0.3817,
-        "recency": 0.6467101343905315,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -1126,36 +1237,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3801,
+      "score": 0.3598,
       "signals": {
-        "score": 0.3801,
-        "recency": 0.4122651448338206,
+        "score": 0.3598,
+        "recency": 0.33125868373020206,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "ppc automation layering how smart advertisers combine automation with strategy via sejournal brookeosmundson",
-      "title": "PPC Automation Layering: How Smart Advertisers Combine Automation With Strategy via @sejournal, @brookeosmundson",
-      "summary": "See how PPC automation layering helps marketers shape automated campaign performance instead of relying on a single feature.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/ppc-automation-layering-how-smart-advertisers-combine-automation-with-strategy/568043/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-17T12:00:24+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3726,
-      "signals": {
-        "score": 0.3726,
-        "recency": 0.37034850789874746,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1172,14 +1260,58 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3722,
+      "score": 0.3552,
       "signals": {
-        "score": 0.3722,
-        "recency": 0.34471966192832043,
+        "score": 0.3552,
+        "recency": 0.2769852918619276,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "ppc automation layering how smart advertisers combine automation with strategy via sejournal brookeosmundson",
+      "title": "PPC Automation Layering: How Smart Advertisers Combine Automation With Strategy via @sejournal, @brookeosmundson",
+      "summary": "See how PPC automation layering helps marketers shape automated campaign performance instead of relying on a single feature.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/ppc-automation-layering-how-smart-advertisers-combine-automation-with-strategy/568043/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-17T12:00:24+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3544,
+      "signals": {
+        "score": 0.3544,
+        "recency": 0.2975782958742118,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "oura enters indias smart ring market with the ring 4",
+      "title": "Oura enters India\u2019s smart ring market with the Ring 4",
+      "summary": "Finnish smart ring maker Oura is finally launching in India, taking on local rivals such as Ultrahuman in a relatively young smart ring market that is becoming price-sensitive",
+      "image": null,
+      "link": "https://techcrunch.com/2026/03/17/oura-enters-indias-smart-ring-market-with-the-ring-4/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-03-17T15:14:22+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3535,
+      "signals": {
+        "score": 0.3535,
+        "recency": 0.5100321005872209,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       }
     },
     {
@@ -1195,10 +1327,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.371,
+      "score": 0.3528,
       "signals": {
-        "score": 0.371,
-        "recency": 0.3701256800248485,
+        "score": 0.3528,
+        "recency": 0.2973992517102043,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1218,14 +1350,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.371,
+      "score": 0.3528,
       "signals": {
-        "score": 0.371,
-        "recency": 0.36993723808218093,
+        "score": 0.3528,
+        "recency": 0.29724783694553203,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "the us consumer is hitting a rough patch",
+      "title": "The US consumer is hitting a rough patch",
+      "summary": "Even before the Iran war&rsquo;s oil price spikes, people were getting more cautious about spending.",
+      "image": "https://imgproxy.divecdn.com/T9y-CzEZGmwmsdNy16VJ02enkbvwzvIImIkQEXAxL8A/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTgzODIzMDcyLmpwZw==.webp",
+      "link": "https://www.retaildive.com/news/iran-war-us-consumer-sentiment-spending-rough-patch/814797/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-17T11:24:00-04:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.351,
+      "signals": {
+        "score": 0.351,
+        "recency": 0.5238644278269484,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -1239,10 +1392,10 @@
       "published_at": "2026-03-17T14:59:53+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3694,
+      "score": 0.3395,
       "signals": {
-        "score": 0.3694,
-        "recency": 0.6097257649160648,
+        "score": 0.3395,
+        "recency": 0.4899200353304204,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1250,20 +1403,20 @@
       }
     },
     {
-      "id": "citi downgrades crypto outlook as digital asset legislation slows",
-      "title": "Citi Downgrades Crypto Outlook as Digital Asset Legislation Slows",
-      "summary": "Citigroup has reportedly reduced its 12-month forecast for bitcoin and ethereum.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/12/Bitcoin-crypto-retail-investors.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/citi-downgrades-crypto-outlook-as-digital-asset-legislation-slows/",
-      "category": "commerce",
+      "id": "publicis advises clients to avoid the trade desk according to a leaked memo",
+      "title": "Publicis Advises Clients to Avoid The Trade Desk, According to a Leaked Memo",
+      "summary": "French advertising titan Publicis is advising its clients to avoid working with demand-side platform (DSP) The Trade Desk.",
+      "image": null,
+      "link": "https://www.adweek.com/programmatic/publicis-tells-clients-dont-use-trade-desk/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-17T14:25:11+00:00",
+      "published_at": "2026-03-17T14:46:21+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3584,
+      "score": 0.338,
       "signals": {
-        "score": 0.3584,
-        "recency": 0.5536985480084893,
+        "score": 0.338,
+        "recency": 0.47184455182677865,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1283,10 +1436,10 @@
       "keywords": [
         "series"
       ],
-      "score": 0.3541,
+      "score": 0.3359,
       "signals": {
-        "score": 0.3541,
-        "recency": 0.37046854769837234,
+        "score": 0.3359,
+        "recency": 0.2976747489130322,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1294,26 +1447,27 @@
       }
     },
     {
-      "id": "exclusive shaq will headline walmart and vizio8217s first joint newfront event",
-      "title": "EXCLUSIVE: Shaq Will Headline Walmart and Vizio&#8217;s First Joint NewFront Event",
-      "summary": "Execs from L\u2019Oreal, NBCUniversal, and Universal Studios will also be on stage.",
+      "id": "jensen huang just put nvidias blackwell and vera rubin sales projections into the 1 trillion stratosphere",
+      "title": "Jensen Huang just put Nvidia\u2019s Blackwell and Vera Rubin sales projections into the $1 trillion stratosphere",
+      "summary": "Nvidia CEO Jensen Huang said he expects $1 trillion worth of orders for the chips.",
       "image": null,
-      "link": "https://www.adweek.com/commerce/shaq-headline-walmart-and-vizios-first-joint-newfront-event/",
-      "category": "brands",
+      "link": "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-03-17T11:38:07+00:00",
+      "published_at": "2026-03-16T21:41:37+00:00",
       "source_count": 1,
       "keywords": [
-        "studio"
+        "ai",
+        "chip"
       ],
-      "score": 0.347,
+      "score": 0.3328,
       "signals": {
-        "score": 0.347,
-        "recency": 0.348119679551075,
-        "keyword_volume": 0.2,
+        "score": 0.3328,
+        "recency": 0.027389729586299545,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
+        "authority": 0.84,
+        "engagement": 0.6
       }
     },
     {
@@ -1329,10 +1483,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3449,
+      "score": 0.3319,
       "signals": {
-        "score": 0.3449,
-        "recency": 0.2657228198404993,
+        "score": 0.3319,
+        "recency": 0.2135106317875175,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1352,10 +1506,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3448,
+      "score": 0.3317,
       "signals": {
-        "score": 0.3448,
-        "recency": 0.265071614033073,
+        "score": 0.3317,
+        "recency": 0.21298738217180602,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1363,92 +1517,26 @@
       }
     },
     {
-      "id": "a look back at gap8217s most iconic dance ads",
-      "title": "A Look Back at Gap&#8217;s Most Iconic Dance Ads",
-      "summary": "From 'Khaki Swing' to Katseye, Madonna to Young Miko, Gap's commercials have been in step since 1998.",
+      "id": "exclusive shaq will headline walmart and vizio8217s first joint newfront event",
+      "title": "EXCLUSIVE: Shaq Will Headline Walmart and Vizio&#8217;s First Joint NewFront Event",
+      "summary": "Execs from L\u2019Oreal, NBCUniversal, and Universal Studios will also be on stage.",
       "image": null,
-      "link": "https://www.adweek.com/brand-marketing/a-look-back-at-gaps-most-iconic-dance-ads/",
+      "link": "https://www.adweek.com/commerce/shaq-headline-walmart-and-vizios-first-joint-newfront-event/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-17T13:40:59+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3424,
-      "signals": {
-        "score": 0.3424,
-        "recency": 0.489724321552544,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "sec enforcement director exits after 6 months",
-      "title": "SEC Enforcement Director Exits After 6 Months",
-      "summary": "The Securities and Exchange Commission (SEC) is seeking a new enforcement director.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2025/04/SEC-offices.jpg?w=457",
-      "link": "https://www.pymnts.com/personnel/2026/sec-enforcement-director-exits-after-6-months/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-17T13:31:40+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3393,
-      "signals": {
-        "score": 0.3393,
-        "recency": 0.47721302957556017,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "how to track ai visibility prompts the right way via sejournal lorenbaker",
-      "title": "How To Track AI Visibility & Prompts The Right Way via @sejournal, @lorenbaker",
-      "summary": "Learn how to effectively track AI prompts for better insights and smarter decision-making in search and content strategies.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/how-to-track-ai-visibility-prompts-the-right-way/569866/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-17T09:00:28+00:00",
+      "published_at": "2026-03-17T11:38:07+00:00",
       "source_count": 1,
       "keywords": [
-        "ai"
+        "studio"
       ],
-      "score": 0.3362,
+      "score": 0.3299,
       "signals": {
-        "score": 0.3362,
-        "recency": 0.2246693263981143,
+        "score": 0.3299,
+        "recency": 0.2797172360402965,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "jensen huang just put nvidias blackwell and vera rubin sales projections into the 1 trillion stratosphere",
-      "title": "Jensen Huang just put Nvidia\u2019s Blackwell and Vera Rubin sales projections into the $1 trillion stratosphere",
-      "summary": "Nvidia CEO Jensen Huang said he expects $1 trillion worth of orders for the chips.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-03-16T21:41:37+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "chip"
-      ],
-      "score": 0.3345,
-      "signals": {
-        "score": 0.3345,
-        "recency": 0.034087652307559564,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
+        "engagement": 0.4
       }
     },
     {
@@ -1465,10 +1553,10 @@
         "ai",
         "chip"
       ],
-      "score": 0.327,
+      "score": 0.3256,
       "signals": {
-        "score": 0.327,
-        "recency": 0.0279189476807781,
+        "score": 0.3256,
+        "recency": 0.022433120955677326,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1476,89 +1564,46 @@
       }
     },
     {
-      "id": "reinventing a 77yearold brand nascar8217s modern playbook with tim clark and jimmie johnson",
-      "title": "Reinventing a 77-Year-Old Brand: NASCAR&#8217;s Modern Playbook with Tim Clark and Jimmie Johnson",
-      "summary": "Turning stock car racing into a lifestyle brand.",
+      "id": "how to track ai visibility prompts the right way via sejournal lorenbaker",
+      "title": "How To Track AI Visibility & Prompts The Right Way via @sejournal, @lorenbaker",
+      "summary": "Learn how to effectively track AI prompts for better insights and smarter decision-making in search and content strategies.",
       "image": null,
-      "link": "https://www.adweek.com/brand-marketing/reinventing-nascar-playbook-tim-clark-jimmie-johnson/",
-      "category": "brands",
+      "link": "https://www.searchenginejournal.com/how-to-track-ai-visibility-prompts-the-right-way/569866/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-03-17T12:52:08+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3269,
-      "signals": {
-        "score": 0.3269,
-        "recency": 0.42758289638869257,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "amazon brings 1hour delivery to hundreds of cities",
-      "title": "Amazon Brings 1-Hour Delivery to Hundreds of Cities",
-      "summary": "Amazon says it has begun offering one-hour and three-hour delivery options in the U.S.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Amazon-1-hour-delivery.png?w=457",
-      "link": "https://www.pymnts.com/news/delivery/2026/amazon-brings-1-hour-delivery-to-hundreds-of-cities/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-17T12:46:23+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3252,
-      "signals": {
-        "score": 0.3252,
-        "recency": 0.42080769886487973,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "facebook cofounder chris hughes warns ai could harm workerseven if it doesn8217t entirely replace them",
-      "title": "Facebook Co-Founder Chris Hughes Warns AI Could Harm Workers\u2014Even If It Doesn&#8217;t Entirely Replace Them",
-      "summary": "At a panel on the future of work, economists, technologists, and policymakers debated whether AI will hollow out the middle class or simply accelerate trends already underway.",
-      "image": null,
-      "link": "https://www.adweek.com/media/facebook-co-founder-chris-hughes-ai-harm-workers/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-16T18:02:11+00:00",
+      "published_at": "2026-03-17T09:00:28+00:00",
       "source_count": 1,
       "keywords": [
-        "ai",
-        "policy"
+        "ai"
       ],
-      "score": 0.3246,
+      "score": 0.3251,
       "signals": {
-        "score": 0.3246,
-        "recency": 0.01853013228545003,
-        "keyword_volume": 0.4,
+        "score": 0.3251,
+        "recency": 0.18052378734852742,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
       }
     },
     {
-      "id": "eu law tightens marketplace selling",
-      "title": "E.U. Law Tightens Marketplace Selling",
-      "summary": "Verification and transparency are becoming routine for marketplace sellers in the E.U.",
+      "id": "a look back at gap8217s most iconic dance ads",
+      "title": "A Look Back at Gap&#8217;s Most Iconic Dance Ads",
+      "summary": "From 'Khaki Swing' to Katseye, Madonna to Young Miko, Gap's commercials have been in step since 1998.",
       "image": null,
-      "link": "https://www.practicalecommerce.com/e-u-law-tightens-marketplace-selling",
+      "link": "https://www.adweek.com/brand-marketing/a-look-back-at-gaps-most-iconic-dance-ads/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-17T12:35:25+00:00",
+      "published_at": "2026-03-17T13:40:59+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.319,
+      "score": 0.3184,
       "signals": {
-        "score": 0.319,
-        "recency": 0.4081819349776743,
+        "score": 0.3184,
+        "recency": 0.3934978161046168,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.78,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1575,14 +1620,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.314,
+      "score": 0.3073,
       "signals": {
-        "score": 0.314,
-        "recency": 0.1360923044141795,
+        "score": 0.3073,
+        "recency": 0.1093513681449423,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "reinventing a 77yearold brand nascar8217s modern playbook with tim clark and jimmie johnson",
+      "title": "Reinventing a 77-Year-Old Brand: NASCAR&#8217;s Modern Playbook with Tim Clark and Jimmie Johnson",
+      "summary": "Turning stock car racing into a lifestyle brand.",
+      "image": null,
+      "link": "https://www.adweek.com/brand-marketing/reinventing-nascar-playbook-tim-clark-jimmie-johnson/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-17T12:52:08+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3059,
+      "signals": {
+        "score": 0.3059,
+        "recency": 0.34356663234375384,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -1598,10 +1664,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3104,
+      "score": 0.3056,
       "signals": {
-        "score": 0.3104,
-        "recency": 0.09778564712810799,
+        "score": 0.3056,
+        "recency": 0.07857163080914846,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1621,10 +1687,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3059,
+      "score": 0.3011,
       "signals": {
-        "score": 0.3059,
-        "recency": 0.09778564712810799,
+        "score": 0.3011,
+        "recency": 0.07857163080914846,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1644,10 +1710,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3059,
+      "score": 0.3011,
       "signals": {
-        "score": 0.3059,
-        "recency": 0.09778564712810799,
+        "score": 0.3011,
+        "recency": 0.07857163080914846,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1667,10 +1733,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3059,
+      "score": 0.3011,
       "signals": {
-        "score": 0.3059,
-        "recency": 0.09778564712810799,
+        "score": 0.3011,
+        "recency": 0.07857163080914846,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1690,10 +1756,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3059,
+      "score": 0.3011,
       "signals": {
-        "score": 0.3059,
-        "recency": 0.09778564712810799,
+        "score": 0.3011,
+        "recency": 0.07857163080914846,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1701,23 +1767,23 @@
       }
     },
     {
-      "id": "at sxsw marketers say the era of spectacle is over",
-      "title": "At SXSW, Marketers Say the Era of Spectacle Is Over",
-      "summary": "Panelists at ADWEEK House argued that experiential marketing has outgrown the pop-up.",
+      "id": "eu law tightens marketplace selling",
+      "title": "E.U. Law Tightens Marketplace Selling",
+      "summary": "Verification and transparency are becoming routine for marketplace sellers in the E.U.",
       "image": null,
-      "link": "https://www.adweek.com/brand-marketing/sxsw-marketers-experential-specatacle/",
+      "link": "https://www.practicalecommerce.com/e-u-law-tightens-marketplace-selling",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-17T11:26:45+00:00",
+      "published_at": "2026-03-17T12:35:25+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3043,
+      "score": 0.299,
       "signals": {
-        "score": 0.3043,
-        "recency": 0.33729983515019174,
+        "score": 0.299,
+        "recency": 0.3279777885604529,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.78,
         "engagement": 0.4
       }
     },
@@ -1734,10 +1800,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3031,
+      "score": 0.2983,
       "signals": {
-        "score": 0.3031,
-        "recency": 0.09853091940227773,
+        "score": 0.2983,
+        "recency": 0.07917046366139358,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1757,36 +1823,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3029,
+      "score": 0.2981,
       "signals": {
-        "score": 0.3029,
-        "recency": 0.0975143972408991,
+        "score": 0.2981,
+        "recency": 0.07835367912993244,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "hotelscom gets refreshingly literal in new brand push",
-      "title": "Hotels.com Gets Refreshingly Literal in New Brand Push",
-      "summary": "Hotels.com's new global campaign emphasizes that its name is refreshingly literal.",
-      "image": null,
-      "link": "https://www.adweek.com/creativity/hotelscom-gets-refreshingly-literal-in-new-brand-push/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-17T02:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2975,
-      "signals": {
-        "score": 0.2975,
-        "recency": 0.06987211885483455,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1803,10 +1846,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2962,
+      "score": 0.2942,
       "signals": {
-        "score": 0.2962,
-        "recency": 0.04074614126105153,
+        "score": 0.2942,
+        "recency": 0.03273988424770059,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1814,25 +1857,69 @@
       }
     },
     {
-      "id": "warren presses pentagon over decision to grant xai access to classified networks",
-      "title": "Warren presses Pentagon over decision to grant xAI access to classified networks",
-      "summary": "Sen. Elizabeth Warren noted that Grok, xAI's controversial chatbot, has created harmful outputs for users and poses a potential national security risk.",
+      "id": "hotelscom gets refreshingly literal in new brand push",
+      "title": "Hotels.com Gets Refreshingly Literal in New Brand Push",
+      "summary": "Hotels.com's new global campaign emphasizes that its name is refreshingly literal.",
       "image": null,
-      "link": "https://techcrunch.com/2026/03/16/warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks/",
-      "category": "technology",
+      "link": "https://www.adweek.com/creativity/hotelscom-gets-refreshingly-literal-in-new-brand-push/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-03-16T20:58:36+00:00",
+      "published_at": "2026-03-17T02:00:00+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.2936,
+      "score": 0.294,
       "signals": {
-        "score": 0.2936,
-        "recency": 0.030248435845591393,
+        "score": 0.294,
+        "recency": 0.05614286439524864,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "at sxsw marketers say the era of spectacle is over",
+      "title": "At SXSW, Marketers Say the Era of Spectacle Is Over",
+      "summary": "Panelists at ADWEEK House argued that experiential marketing has outgrown the pop-up.",
+      "image": null,
+      "link": "https://www.adweek.com/brand-marketing/sxsw-marketers-experential-specatacle/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-17T11:26:45+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2878,
+      "signals": {
+        "score": 0.2878,
+        "recency": 0.2710233955366398,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "why an ai event strategy is becoming a leadership issue not a technology one",
+      "title": "Why An AI Event Strategy Is Becoming A Leadership Issue, Not A Technology One",
+      "summary": "B2B event teams are operating under sustained pressure.",
+      "image": null,
+      "link": "https://www.forrester.com/blogs/why-an-ai-event-strategy-is-becoming-a-leadership-issue-not-a-technology-one/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-16T21:13:48+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2863,
+      "signals": {
+        "score": 0.2863,
+        "recency": 0.025353064035698016,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1847,10 +1934,10 @@
       "published_at": "2026-03-17T10:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2923,
+      "score": 0.2792,
       "signals": {
-        "score": 0.2923,
-        "recency": 0.265071614033073,
+        "score": 0.2792,
+        "recency": 0.21298738217180602,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1868,37 +1955,14 @@
       "published_at": "2026-03-17T10:39:16+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2894,
+      "score": 0.2749,
       "signals": {
-        "score": 0.2894,
-        "recency": 0.2956197810644749,
+        "score": 0.2749,
+        "recency": 0.23753310408887848,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.77,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "why an ai event strategy is becoming a leadership issue not a technology one",
-      "title": "Why An AI Event Strategy Is Becoming A Leadership Issue, Not A Technology One",
-      "summary": "B2B event teams are operating under sustained pressure.",
-      "image": null,
-      "link": "https://www.forrester.com/blogs/why-an-ai-event-strategy-is-becoming-a-leadership-issue-not-a-technology-one/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-16T21:13:48+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2879,
-      "signals": {
-        "score": 0.2879,
-        "recency": 0.031552937719124347,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       }
     },
     {
@@ -1912,96 +1976,10 @@
       "published_at": "2026-03-17T10:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2863,
+      "score": 0.2732,
       "signals": {
-        "score": 0.2863,
-        "recency": 0.265071614033073,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "little spoon launches baby formula in bid to expand feeding portfolio",
-      "title": "Little Spoon launches baby formula in bid to expand feeding portfolio",
-      "summary": "Little Spoon is launching infant formula as part of its strategy to become an end-to-end baby and kid food company.",
-      "image": null,
-      "link": "https://www.modernretail.co/operations/little-spoon-launches-baby-formula-in-bid-to-expand-feeding-portfolio/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-03-17T10:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2848,
-      "signals": {
-        "score": 0.2848,
-        "recency": 0.265071614033073,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "targets tech chief has a central role in the retailers turnaround plan",
-      "title": "Target\u2019s Tech Chief Has a Central Role in the Retailer\u2019s Turnaround Plan",
-      "summary": "Prat Vemana, Target&#8217;s chief information and product officer, says improved technology is a throughline in the retailer&#8217;s recovery plan after several...",
-      "image": null,
-      "link": "https://retailwire.com/targets-tech-chief-has-a-central-role-in-the-retailers-turnaround-plan/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-16T19:12:35+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2811,
-      "signals": {
-        "score": 0.2811,
-        "recency": 0.022532387864296927,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.77,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "vibe coding plugins validate with official wordpress plugin checker via sejournal martinibuster",
-      "title": "Vibe Coding Plugins? Validate With Official WordPress Plugin Checker via @sejournal, @martinibuster",
-      "summary": "The official WordPress Plugin Checker provides automated code review for security and best practices, perfect for checking vibe coded plugins.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/vibe-coding-plugins-validate-with-official-wordpress-plugin-checker/569895/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-03-17T09:17:15+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2788,
-      "signals": {
-        "score": 0.2788,
-        "recency": 0.23539148721555583,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "myfitnesspal is launching an ad business",
-      "title": "MyFitnessPal Is Launching an Ad Business",
-      "summary": "The nutrition and food tracking app has more than 5.7 million monthly active users.",
-      "image": null,
-      "link": "https://www.adweek.com/commerce/myfitnesspal-is-launching-an-ad-business/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-03-17T09:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2761,
-      "signals": {
-        "score": 0.2761,
-        "recency": 0.2243782770662547,
+        "score": 0.2732,
+        "recency": 0.21298738217180602,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2021,13 +1999,76 @@
       "keywords": [
         "cloud"
       ],
-      "score": 0.2733,
+      "score": 0.2722,
       "signals": {
-        "score": 0.2733,
-        "recency": 0.02324118585250838,
+        "score": 0.2722,
+        "recency": 0.018674498027074885,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "little spoon launches baby formula in bid to expand feeding portfolio",
+      "title": "Little Spoon launches baby formula in bid to expand feeding portfolio",
+      "summary": "Little Spoon is launching infant formula as part of its strategy to become an end-to-end baby and kid food company.",
+      "image": null,
+      "link": "https://www.modernretail.co/operations/little-spoon-launches-baby-formula-in-bid-to-expand-feeding-portfolio/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-03-17T10:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2717,
+      "signals": {
+        "score": 0.2717,
+        "recency": 0.21298738217180602,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "vibe coding plugins validate with official wordpress plugin checker via sejournal martinibuster",
+      "title": "Vibe Coding Plugins? Validate With Official WordPress Plugin Checker via @sejournal, @martinibuster",
+      "summary": "The official WordPress Plugin Checker provides automated code review for security and best practices, perfect for checking vibe coded plugins.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/vibe-coding-plugins-validate-with-official-wordpress-plugin-checker/569895/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-03-17T09:17:15+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2673,
+      "signals": {
+        "score": 0.2673,
+        "recency": 0.1891391382304482,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "myfitnesspal is launching an ad business",
+      "title": "MyFitnessPal Is Launching an Ad Business",
+      "summary": "The nutrition and food tracking app has more than 5.7 million monthly active users.",
+      "image": null,
+      "link": "https://www.adweek.com/commerce/myfitnesspal-is-launching-an-ad-business/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-03-17T09:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2651,
+      "signals": {
+        "score": 0.2651,
+        "recency": 0.18028992664072682,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -2042,10 +2083,10 @@
       "published_at": "2026-03-17T05:17:16+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2502,
+      "score": 0.2443,
       "signals": {
-        "score": 0.2502,
-        "recency": 0.12085961443400792,
+        "score": 0.2443,
+        "recency": 0.09711176725766421,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2063,10 +2104,10 @@
       "published_at": "2026-03-17T04:54:52+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2484,
+      "score": 0.2428,
       "signals": {
-        "score": 0.2484,
-        "recency": 0.11356864303009266,
+        "score": 0.2428,
+        "recency": 0.09125340736321073,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2084,10 +2125,10 @@
       "published_at": "2026-03-17T04:01:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2459,
+      "score": 0.2411,
       "signals": {
-        "score": 0.2459,
-        "recency": 0.09778564712810799,
+        "score": 0.2411,
+        "recency": 0.07857163080914846,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2105,10 +2146,10 @@
       "published_at": "2026-03-17T04:01:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2459,
+      "score": 0.2411,
       "signals": {
-        "score": 0.2459,
-        "recency": 0.09778564712810799,
+        "score": 0.2411,
+        "recency": 0.07857163080914846,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2126,10 +2167,10 @@
       "published_at": "2026-03-17T00:27:10+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2395,
+      "score": 0.2368,
       "signals": {
-        "score": 0.2395,
-        "recency": 0.05398986411694405,
+        "score": 0.2368,
+        "recency": 0.04338133249018771,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2147,10 +2188,10 @@
       "published_at": "2026-03-17T00:20:34+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2333,
+      "score": 0.2306,
       "signals": {
-        "score": 0.2333,
-        "recency": 0.053009068043358906,
+        "score": 0.2306,
+        "recency": 0.042593254185691376,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
