@@ -1519,10 +1519,10 @@ footer {
 }
 
 .site-footer .footer-grid {
-    display: grid;
-    grid-template-columns: 1.15fr 1fr;
+    display: flex;
+    justify-content: center;
     gap: 1.2rem;
-    align-items: start;
+    align-items: stretch;
 }
 
 .footer-brand-block h3 {
@@ -1553,6 +1553,7 @@ footer {
 .footer-links-block {
     display: grid;
     gap: 1rem;
+    width: min(760px, 100%);
 }
 
 .footer-chip-row {
@@ -1584,18 +1585,20 @@ footer {
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 18px;
     background: rgba(255,255,255,0.04);
+    overflow: hidden;
 }
 
 .site-footer .status-grid {
     padding: 1rem 1.05rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.55rem;
+    text-align: center;
 }
 
 .site-footer .footer-note {
     margin-top: 1.25rem;
     color: rgba(255,255,255,0.6);
-    text-align: left;
+    text-align: center;
 }
 
 .source-grid {
