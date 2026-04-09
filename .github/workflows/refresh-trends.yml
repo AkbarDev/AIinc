@@ -1,0 +1,100 @@
+name: Refresh Trend Data
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: snapfacts-pages
+  cancel-in-progress: true
+
+jobs:
+  update-trends:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install jq (for Slack payload)
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Validate sitemap and robots
+        run: python scripts/validate_seo.py
+
+      - name: Fetch RSS feeds and compute trend scores
+        if: github.event_name != 'push'
+        run: python scripts/fetch_feeds.py
+
+      - name: Commit updated data artifacts
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data/trends.json data/badges/*.json sitemap.xml robots.txt || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: refresh trends snapshot"
+            git push
+          fi
+
+      - name: Ensure Pages marker
+        run: touch .nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy-pages:
+    runs-on: ubuntu-latest
+    needs: update-trends
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  notify-failure:
+    runs-on: ubuntu-latest
+    needs:
+      - update-trends
+      - deploy-pages
+    if: ${{ failure() }}
+    env:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+    steps:
+      - name: Install jq (for Slack payload)
+        if: ${{ env.SLACK_WEBHOOK_URL != '' }}
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Send Slack alert (if webhook configured)
+        if: ${{ env.SLACK_WEBHOOK_URL != '' }}
+        env:
+          WORKFLOW_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          payload=$(jq -n \
+            --arg text "TrendGrid refresh or Pages deploy failed in ${{ github.repository }} on ${{ github.ref_name }}. Run details: $WORKFLOW_URL" \
+            '{text: $text}')
+          curl -X POST -H 'Content-type: application/json' -d "$payload" "$SLACK_WEBHOOK_URL"

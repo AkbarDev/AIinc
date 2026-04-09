@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: snapfacts
+      POSTGRES_USER: snapfacts
+      POSTGRES_PASSWORD: snapfacts
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: .
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://snapfacts:snapfacts@db:5432/snapfacts
+      CORS_ORIGINS: http://localhost:8000,http://localhost:8834,http://localhost:4321,https://www.snapfacts.in
+    depends_on:
+      - db
+    ports:
+      - "8834:8834"
+
+volumes:
+  postgres_data:

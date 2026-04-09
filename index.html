@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snapfacts | Real-Time AI + Tech Intelligence</title>
+    <meta name="description" content="Global TrendGrid scans open RSS feeds to surface high-signal, trustworthy trending news across technology, media, policy, and culture." />
+    <meta name="keywords" content="trending news, global trends, RSS aggregation, technology intelligence, media monitoring" />
+    <meta name="author" content="AIinc" />
+    <link rel="canonical" href="https://www.snapfacts.in/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.snapfacts.in/" />
+    <meta property="og:title" content="Global TrendGrid | Real-Time News Intelligence" />
+    <meta property="og:description" content="Detect trending stories from Google News, Bing, Wired, Variety, TechCrunch, and more in one open-source dashboard." />
+    <meta property="og:image" content="https://www.snapfacts.in/assets/images/og-image.jpg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Global TrendGrid | Real-Time News Intelligence" />
+    <meta property="twitter:description" content="Open-source trend detection from globally trusted feeds." />
+    <meta property="twitter:image" content="https://www.snapfacts.in/assets/images/og-image.jpg" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Snapfacts",
+      "url": "https://www.snapfacts.in/",
+      "description": "Real-time AI, media, startup, commerce, and brand intelligence from open RSS feeds."
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Snapfacts",
+      "url": "https://www.snapfacts.in/",
+      "logo": "https://www.snapfacts.in/assets/images/snapfacts-logo-neon.png"
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-8XFHbRmq9Vc3rroWAtxEvsC0BpvyEukgqS0bkkCm1cW0XkyR3O6jwxKF1u9IiiaivGi99ZTSdKCbFf8Cj8BkVA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+        window.SNAPFACTS_API_BASE = window.SNAPFACTS_API_BASE || (window.location.hostname === "localhost" ? "http://localhost:8834" : "https://api.snapfacts.in");
+    </script>
+</head>
+<body>
+    <header class="masthead">
+        <div class="container nav-row">
+            <div class="brand">
+                <a href="/" class="brand-logo-link" aria-label="Snapfacts home">
+                    <img class="brand-logo" src="assets/images/snapfacts-logo-neon.png" alt="Snapfacts AI Signals" />
+                </a>
+            </div>
+            <nav class="primary-nav" aria-label="Primary categories">
+                <div class="category-pills header-tabs" id="category-pills"></div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="front-section">
+            <div class="container">
+                <div class="editorial-intro">
+                    <p class="eyebrow">Live editorial front page</p>
+                    <div class="editorial-copy">
+                        <h1>AI, commerce, ads, startup, and media signals in one readable daily flow.</h1>
+                        <p>Snapfacts surfaces high-signal RSS coverage with a cleaner editorial hierarchy: one lead story, fast-moving secondary stories, and a modular category feed for deeper browsing.</p>
+                    </div>
+                </div>
+                <div class="front-grid front-grid-single">
+                    <article class="lead-card" id="lead-card"></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-board" id="news-board">
+            <div class="container">
+                <div class="section-heading board-heading">
+                    <div>
+                        <p class="eyebrow" id="news-eyebrow">Latest coverage</p>
+                        <h3 id="news-heading">Image-first cards with concise summaries</h3>
+                    </div>
+                    <p class="board-note">Category view updates instantly from the live feed snapshot without duplicating the top editorial picks.</p>
+                </div>
+                <div class="news-board-shell">
+                    <div class="news-card-grid" id="news-card-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline" id="timeline">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Recency map</p>
+                        <h3>Freshest clusters</h3>
+                    </div>
+                </div>
+                <div class="timeline-list" id="timeline-list"></div>
+            </div>
+        </section>
+
+        <section class="methodology" id="methodology">
+            <div class="container method-grid">
+                <div>
+                    <p class="eyebrow">Scoring inputs</p>
+                    <h3>Trend score = weighted editorial signals</h3>
+                    <p>We prioritize coverage breadth, velocity, and trust. Signals are recalculated each time the ingestion job runs so the homepage stays fresh without becoming visually noisy.</p>
+                </div>
+                <div class="model-card">
+                    <code>score = (source × 0.30) + (recency × 0.25) + (keywords × 0.20) + (authority × 0.15) + (engagement × 0.10)</code>
+                    <ul>
+                        <li><strong>Source</strong>: distinct publishers referencing the same topic</li>
+                        <li><strong>Recency</strong>: time decay with 6h half-life</li>
+                        <li><strong>Keywords</strong>: AI, semiconductor, infrastructure, enterprise</li>
+                        <li><strong>Authority</strong>: feed credibility tier</li>
+                        <li><strong>Engagement</strong>: boost for models, chips, and enterprise adoption stories</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="sources" id="sources">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Feed inventory</p>
+                        <h3>Trusted sources behind the Snapfacts view</h3>
+                    </div>
+                </div>
+                <div class="source-grid" id="source-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand-block">
+                <p class="eyebrow">Snapfacts</p>
+                <h3>AI signals shaped into a cleaner global tech front page.</h3>
+                <p class="footer-copy">Snapfacts aggregates trusted RSS sources across AI, commerce, media, advertising, and brand intelligence to help readers scan the market faster.</p>
+            </div>
+            <div class="footer-links-block">
+                <div>
+                    <p class="footer-kicker">Explore</p>
+                    <div class="footer-chip-row" id="footer-category-links"></div>
+                </div>
+                <div class="status-strip footer-status" id="status-strip">
+                    <div class="status-grid">
+                        <span>Last refresh: <strong data-meta="generated">—</strong></span>
+                        <span>Feeds monitored: <strong data-meta="feeds">—</strong></span>
+                        <span>Latency budget: &lt; 15 mins</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer-note">&copy; Snapfacts — Global AI, media, commerce, and advertising signals from trusted open feeds.</p>
+    </footer>
+
+    <dialog class="story-dialog" id="story-dialog">
+        <form method="dialog" class="story-dialog-panel">
+            <button class="story-dialog-close" type="submit" aria-label="Close story preview">Close</button>
+            <div class="story-dialog-media" id="story-dialog-media"></div>
+            <div class="story-dialog-copy">
+                <p class="eyebrow" id="story-dialog-category">Story preview</p>
+                <h2 id="story-dialog-title">Story title</h2>
+                <p class="story-dialog-meta" id="story-dialog-meta">Updated now</p>
+                <p class="story-dialog-summary" id="story-dialog-summary">Summary preview.</p>
+                <a class="story-dialog-link" id="story-dialog-link" href="#" target="_blank" rel="noopener">Open source article</a>
+            </div>
+        </form>
+    </dialog>
+
+    <script id="news-article-schema" type="application/ld+json">{"@context":"https://schema.org","@graph":[]}</script>
+    <script src="js/app.js" defer></script>
+</body>
+</html>

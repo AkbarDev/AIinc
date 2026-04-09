@@ -1,0 +1,18 @@
+[Unit]
+Description=Snapfacts FastAPI service
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+Type=simple
+User=snapfacts
+Group=www-data
+WorkingDirectory=/srv/snapfacts/backend
+EnvironmentFile=/srv/snapfacts/backend/.env
+ExecStart=/srv/snapfacts/backend/.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8834
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
