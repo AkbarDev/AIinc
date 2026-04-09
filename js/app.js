@@ -84,7 +84,6 @@ const HEADER_CATEGORIES = [
     { key: 'startup', label: 'STARTUP' },
     { key: 'ai', label: 'AI' },
     { key: 'media', label: 'MEDIA' },
-    { key: 'saved', label: 'SAVED' },
     { key: 'brands', label: 'BRANDS' },
 ];
 
@@ -97,7 +96,6 @@ const CATEGORY_COPY = {
     startup: { eyebrow: 'Startup focus', heading: 'AI-native startups shaping analytics and growth stacks' },
     ai: { eyebrow: 'AI focus', heading: 'Models, tooling, and enterprise AI adoption' },
     media: { eyebrow: 'Media focus', heading: 'Digital media distribution and audience growth' },
-    saved: { eyebrow: 'Saved focus', heading: 'Your saved stories stored for quick access.' },
     brands: { eyebrow: 'Brands focus', heading: 'Insights into how leading global and emerging brands connect with consumers through storytelling, innovation, and purpose-driven marketing.' },
 };
 
@@ -134,16 +132,11 @@ const CATEGORY_FILTERS = {
 };
 
 const API_BASE = String(window.SNAPFACTS_API_BASE || '').replace(/\/$/, '');
-const STORAGE_USER_KEY = 'snapfacts_user_key';
-const STORAGE_SAVED_KEY = 'snapfacts_saved_articles';
 
 const state = {
     trends: [],
     meta: {},
-    sources: [],
     activeCategory: 'all',
-    savedIds: new Set(),
-    savedRecords: [],
     carouselIndex: 0,
 };
 
@@ -151,8 +144,6 @@ document.addEventListener('DOMContentLoaded', () => {
     renderSkeletons();
     loadData();
     setupCategoryFilters();
-    setupSaveActions();
-    setupStoryPreview();
     setupHeroCarousel();
 });
 
@@ -168,31 +159,12 @@ async function loadData() {
         state.trends = FALLBACK_DATA.trends;
         state.meta = FALLBACK_DATA;
     }
-
-    try {
-        const res = await fetch('config/sources.json');
-        if (res.ok) {
-            state.sources = await res.json();
-        }
-    } catch (error) {
-        console.warn('Failed to load sources list', error);
-    }
-
-    await loadSavedArticles();
     renderAll();
 }
 
 function renderSkeletons() {
-    const lead = document.getElementById('lead-card');
     const carouselTrack = document.getElementById('hero-carousel-track');
     const carouselDots = document.getElementById('hero-carousel-dots');
-    if (lead) {
-        lead.innerHTML = `
-            <div class="skeleton-block"></div>
-            <div class="skeleton-line"></div>
-            <div class="skeleton-line short"></div>
-        `;
-    }
     if (carouselTrack) {
         carouselTrack.innerHTML = `
             <article class="hero-carousel-slide is-active">
@@ -211,24 +183,16 @@ function renderSkeletons() {
 
 function renderAll() {
     renderHeroCarousel();
-    renderLead();
     renderCategoryPills();
     renderNewsBoard();
     renderSectionHeading();
     renderNewsArticleSchema();
     renderMetaStrip();
-    renderTimeline();
-    renderSources();
-    renderFooterLinks();
     syncActiveCategoryTheme();
 }
 
 function getCarouselStories() {
-    const baseStories = state.activeCategory === 'saved'
-        ? getCategoryTrends('saved')
-        : getCategoryTrends(state.activeCategory === 'all' ? 'all' : state.activeCategory);
-
-    return [...baseStories]
+    return [...getCategoryTrends(state.activeCategory)]
         .sort((a, b) => (b.score || 0) - (a.score || 0))
         .slice(0, 5);
 }
@@ -270,7 +234,6 @@ function renderHeroCarousel() {
                         <span>Score ${story.score ? story.score.toFixed(2) : '—'}</span>
                     </div>
                     <div class="story-actions hero-carousel-actions">
-                        ${renderPreviewButton(story, 'Preview')}
                         <a href="${story.link}" target="_blank" rel="noopener">Read full story</a>
                     </div>
                 </div>
@@ -326,36 +289,6 @@ function moveHeroCarousel(direction) {
     renderHeroCarousel();
 }
 
-function renderLead() {
-    const card = document.getElementById('lead-card');
-    if (!card) return;
-    const topStory = [...state.trends].sort((a, b) => b.score - a.score)[0];
-    if (!topStory) return;
-
-    const image = resolveCardImage(topStory);
-    const theme = normalizeCategory(topStory.category || 'all');
-    card.dataset.themeCategory = theme;
-    card.classList.toggle('has-image', Boolean(image));
-    card.style.backgroundImage = image
-        ? `linear-gradient(180deg, rgba(5, 8, 18, 0.04), rgba(5, 8, 18, 0.92)), url(${image})`
-        : '';
-
-    card.innerHTML = `
-        <p class="eyebrow">${topStory.category ? topStory.category.toUpperCase() : 'LEAD STORY'}</p>
-        <h1>${topStory.title}</h1>
-        <p class="lead-copy">${summarize(topStory.summary, 180)}</p>
-        <div class="lead-meta">
-            <span>${formatDate(topStory.published_at)}</span>
-            <span>${topStory.source_count || 1} sources</span>
-            <span>Score ${topStory.score ? topStory.score.toFixed(2) : '—'}</span>
-        </div>
-        <div class="story-actions hero-actions">
-            ${renderPreviewButton(topStory, 'Preview')}
-            <a href="${topStory.link}" target="_blank" rel="noopener">Read full story</a>
-        </div>
-    `;
-}
-
 function renderCategoryPills() {
     const container = document.getElementById('category-pills');
     if (!container) return;
@@ -389,10 +322,6 @@ function renderNewsBoard() {
                 <p class="card-summary">${summarize(item.summary, 150)}</p>
                 <div class="news-card-meta">
                     <span>${formatDate(item.published_at)}</span>
-                    <div class="story-actions compact-actions">
-                        ${renderPreviewButton(item, 'Preview')}
-                        ${renderSaveButton(item)}
-                    </div>
                 </div>
             </div>
         </article>`;
@@ -404,7 +333,6 @@ function renderNewsBoard() {
 function getCategoryTrends(categoryKey) {
     const sorted = [...state.trends].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
     const unique = dedupeTrends(sorted);
-    if (categoryKey === 'saved') return getSavedTrends(unique);
     if (categoryKey === 'all') return unique;
     return unique.filter((item) => matchesCategory(item, categoryKey));
 }
@@ -419,23 +347,6 @@ function matchesCategory(item, categoryKey) {
 
     const haystack = `${item.title || ''} ${item.summary || ''}`;
     return (config.keywords || []).some((pattern) => pattern.test(haystack));
-}
-
-function getSavedTrends(uniqueFeedTrends) {
-    const feedSaved = uniqueFeedTrends.filter((item) => state.savedIds.has(getArticleId(item)));
-    const seen = new Set(feedSaved.map((item) => getArticleId(item)));
-    const extraSaved = state.savedRecords
-        .filter((record) => !seen.has(record.article_id))
-        .map((record) => ({
-            id: record.article_id,
-            title: record.title,
-            summary: record.summary || 'Saved article from Snapfacts.',
-            link: record.link,
-            category: record.category || 'saved',
-            published_at: record.saved_at || state.meta.generated_at || new Date().toISOString(),
-            image: null,
-        }));
-    return [...feedSaved, ...extraSaved];
 }
 
 function dedupeTrends(list) {
@@ -520,213 +431,8 @@ function setupCategoryFilters() {
     });
 }
 
-function setupSaveActions() {
-    const container = document.getElementById('news-card-grid');
-    if (!container) return;
-    container.addEventListener('click', async (event) => {
-        const button = event.target.closest('.save-btn');
-        if (!button) return;
-        event.preventDefault();
-        const articleId = button.dataset.saveId;
-        if (!articleId) return;
-        const article = findArticleById(articleId);
-        if (!article) return;
-        await toggleSave(article);
-        renderNewsBoard();
-        renderNewsArticleSchema();
-    });
-}
-
-function renderSaveButton(item) {
-    const articleId = getArticleId(item);
-    const isSaved = state.savedIds.has(articleId);
-    const label = isSaved ? 'Saved' : 'Save';
-    return `<button class="save-btn ${isSaved ? 'is-saved' : ''}" type="button" data-save-id="${escapeAttr(articleId)}" aria-pressed="${isSaved}">${label}</button>`;
-}
-
-function renderPreviewButton(item, label = 'Preview') {
-    const articleId = getArticleId(item);
-    return `<button class="preview-btn" type="button" data-preview-id="${escapeAttr(articleId)}">${label}</button>`;
-}
-
 function syncActiveCategoryTheme() {
     document.body.dataset.activeCategory = state.activeCategory || 'all';
-}
-
-function getUserKey() {
-    const existing = localStorage.getItem(STORAGE_USER_KEY);
-    if (existing) return existing;
-    const generated = `sf_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 10)}`;
-    localStorage.setItem(STORAGE_USER_KEY, generated);
-    return generated;
-}
-
-function getArticleId(item) {
-    return String(item.id || item.link || item.title || '').trim().toLowerCase();
-}
-
-function findArticleById(articleId) {
-    const normalized = articleId.toLowerCase();
-    const inFeed = dedupeTrends([...state.trends]).find((item) => getArticleId(item) === normalized);
-    if (inFeed) return inFeed;
-    const inSaved = state.savedRecords.find((item) => item.article_id === normalized);
-    if (!inSaved) return null;
-    return {
-        id: inSaved.article_id,
-        title: inSaved.title,
-        link: inSaved.link,
-        category: inSaved.category || 'saved',
-        summary: inSaved.summary || '',
-    };
-}
-
-function readLocalSavedRecords() {
-    try {
-        const raw = localStorage.getItem(STORAGE_SAVED_KEY);
-        if (!raw) return [];
-        const parsed = JSON.parse(raw);
-        return Array.isArray(parsed) ? parsed : [];
-    } catch {
-        return [];
-    }
-}
-
-function writeLocalSavedRecords(records) {
-    localStorage.setItem(STORAGE_SAVED_KEY, JSON.stringify(records));
-}
-
-async function loadSavedArticles() {
-    if (!API_BASE) {
-        state.savedRecords = readLocalSavedRecords();
-        state.savedIds = new Set(state.savedRecords.map((item) => item.article_id));
-        return;
-    }
-    try {
-        const userKey = encodeURIComponent(getUserKey());
-        const response = await fetch(`${API_BASE}/v1/saved?user_key=${userKey}`);
-        if (!response.ok) throw new Error(`Save API failed: ${response.status}`);
-        const payload = await response.json();
-        state.savedRecords = Array.isArray(payload) ? payload : [];
-        state.savedIds = new Set(state.savedRecords.map((item) => item.article_id));
-    } catch (error) {
-        console.warn('Falling back to browser saved storage', error);
-        state.savedRecords = readLocalSavedRecords();
-        state.savedIds = new Set(state.savedRecords.map((item) => item.article_id));
-    }
-}
-
-async function toggleSave(article) {
-    const articleId = getArticleId(article);
-    const userKey = getUserKey();
-    const isSaved = state.savedIds.has(articleId);
-
-    if (!API_BASE) {
-        updateLocalSaved(article, articleId, isSaved);
-        return;
-    }
-
-    try {
-        if (isSaved) {
-            const params = new URLSearchParams({ user_key: userKey, article_id: articleId });
-            const response = await fetch(`${API_BASE}/v1/saved?${params.toString()}`, { method: 'DELETE' });
-            if (!response.ok) throw new Error(`Delete failed: ${response.status}`);
-            state.savedIds.delete(articleId);
-            state.savedRecords = state.savedRecords.filter((item) => item.article_id !== articleId);
-        } else {
-            const payload = {
-                user_key: userKey,
-                article_id: articleId,
-                title: article.title || 'Untitled',
-                link: article.link,
-                category: normalizeCategory(article.category || 'all'),
-            };
-            const response = await fetch(`${API_BASE}/v1/saved`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload),
-            });
-            if (!response.ok) throw new Error(`Save failed: ${response.status}`);
-            const created = await response.json();
-            state.savedIds.add(articleId);
-            if (!state.savedRecords.some((item) => item.article_id === articleId)) {
-                state.savedRecords.unshift(created);
-            }
-        }
-    } catch (error) {
-        console.warn('Save API unavailable; using browser storage fallback', error);
-        updateLocalSaved(article, articleId, isSaved);
-    }
-}
-
-function updateLocalSaved(article, articleId, isSaved) {
-    if (isSaved) {
-        state.savedIds.delete(articleId);
-        state.savedRecords = state.savedRecords.filter((item) => item.article_id !== articleId);
-    } else {
-        state.savedIds.add(articleId);
-        state.savedRecords.unshift({
-            article_id: articleId,
-            title: article.title || 'Untitled',
-            link: article.link,
-            category: normalizeCategory(article.category || 'all'),
-            saved_at: new Date().toISOString(),
-        });
-    }
-    writeLocalSavedRecords(state.savedRecords);
-}
-
-function setupStoryPreview() {
-    document.body.addEventListener('click', (event) => {
-        const button = event.target.closest('.preview-btn');
-        if (!button) return;
-        const articleId = button.dataset.previewId;
-        if (!articleId) return;
-        const article = findArticleById(articleId);
-        if (!article) return;
-        openStoryPreview(article);
-    });
-
-    const dialog = document.getElementById('story-dialog');
-    if (dialog) {
-        dialog.addEventListener('click', (event) => {
-            const rect = dialog.getBoundingClientRect();
-            const inDialog = rect.top <= event.clientY && event.clientY <= rect.bottom
-                && rect.left <= event.clientX && event.clientX <= rect.right;
-            if (!inDialog) dialog.close();
-        });
-    }
-}
-
-function openStoryPreview(article) {
-    const dialog = document.getElementById('story-dialog');
-    if (!dialog) return;
-
-    const image = resolveCardImage(article);
-    const media = document.getElementById('story-dialog-media');
-    const category = document.getElementById('story-dialog-category');
-    const title = document.getElementById('story-dialog-title');
-    const meta = document.getElementById('story-dialog-meta');
-    const summary = document.getElementById('story-dialog-summary');
-    const link = document.getElementById('story-dialog-link');
-    const theme = normalizeCategory(article.category || 'all');
-
-    dialog.dataset.themeCategory = theme;
-    if (media) {
-        media.innerHTML = image
-            ? `<img src="${image}" alt="${escapeAttr(article.title || 'Story image')}" loading="lazy" />`
-            : `<div class="story-dialog-fallback"><span>${escapeHtml(article.title || 'Story preview')}</span></div>`;
-    }
-    if (category) category.textContent = (article.category || 'Story preview').toUpperCase();
-    if (title) title.textContent = article.title || 'Untitled story';
-    if (meta) meta.textContent = `${formatDate(article.published_at)} · ${article.source_count || 1} source${article.source_count === 1 ? '' : 's'}`;
-    if (summary) summary.textContent = summarize(article.summary || 'Summary unavailable from feed.', 260);
-    if (link) link.href = article.link || '#';
-
-    if (typeof dialog.showModal === 'function') {
-        dialog.showModal();
-    } else {
-        dialog.setAttribute('open', 'open');
-    }
 }
 
 function renderMetaStrip() {
@@ -737,7 +443,7 @@ function renderMetaStrip() {
     const feedPool = Number(state.meta.feed_pool || 0);
     const feedLabel = feedPool > 0
         ? `${feedsPolled}/${feedPool}`
-        : `${state.sources.length || 0}`;
+        : `${feedsPolled || 0}`;
     strip.querySelectorAll('[data-meta="feeds"]').forEach((el) => (el.textContent = feedLabel));
 }
 
@@ -747,69 +453,6 @@ function renderCardMedia(item, imageUrl) {
         return `<img class="card-image board-image" src="${imageUrl}" alt="${item.title}" loading="lazy" />`;
     }
     return `<div class="board-image image-fallback"><span>${item.title}</span></div>`;
-}
-
-function renderTimeline() {
-    const container = document.getElementById('timeline-list');
-    if (!container) return;
-    const sorted = [...state.trends]
-        .sort((a, b) => new Date(b.published_at) - new Date(a.published_at))
-        .slice(0, 6);
-    container.innerHTML = sorted
-        .map(
-            (item) => `
-        <article class="timeline-card">
-            <h4>${item.title}</h4>
-            <span>${formatTimeAgo(item.published_at)}</span>
-        </article>`
-        )
-        .join('');
-}
-
-function renderFooterLinks() {
-    const mount = document.getElementById('footer-category-links');
-    if (!mount) return;
-    mount.innerHTML = HEADER_CATEGORIES
-        .filter((item) => item.key !== 'saved')
-        .map((item) => `<button class="footer-chip" type="button" data-category-jump="${item.key}">${item.label}</button>`)
-        .join('');
-}
-
-function renderSources() {
-    const grid = document.getElementById('source-grid');
-    if (!grid || !state.sources.length) {
-        if (grid) {
-            grid.innerHTML = '<p>Source list available once config loads.</p>';
-        }
-        return;
-    }
-    grid.innerHTML = state.sources
-        .slice(0, 12)
-        .map(
-            (source) => `
-        <article class="source-card source-card-${normalizeCategory(source.category || 'all')}">
-            <p class="eyebrow">${normalizeCategory(source.category || 'all').toUpperCase()}</p>
-            <strong>${source.name}</strong>
-            <p class="source-copy">Coverage focus: ${capitalize(source.geo || 'global')} with authority ${(source.authority || 0.7).toFixed(2)}.</p>
-            <div class="source-meta-row">
-                <span>${capitalize(source.category || 'general')}</span>
-                <span>${capitalize(source.geo || 'global')}</span>
-            </div>
-        </article>`
-        )
-        .join('');
-}
-
-function formatTimeAgo(value) {
-    if (!value) return '—';
-    const date = new Date(value);
-    const diff = Date.now() - date.getTime();
-    const minutes = Math.max(Math.round(diff / 60000), 1);
-    if (minutes < 60) return `${minutes}m ago`;
-    const hours = Math.round(minutes / 60);
-    if (hours < 24) return `${hours}h ago`;
-    const days = Math.round(hours / 24);
-    return `${days}d ago`;
 }
 
 function formatDate(value) {
@@ -874,10 +517,6 @@ function escapeAttr(value = '') {
         .replaceAll('"', '&quot;')
         .replaceAll('<', '&lt;')
         .replaceAll('>', '&gt;');
-}
-
-function escapeHtml(value = '') {
-    return escapeAttr(value).replaceAll("'", '&#39;');
 }
 
 function resolveCardImage(trend) {
