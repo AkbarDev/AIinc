@@ -116,10 +116,15 @@
         <div class="container footer-grid">
             <div class="footer-links-block">
                 <div class="status-strip footer-status" id="status-strip">
-                    <div class="status-grid">
-                        <span>Last refresh: <strong data-meta="generated">—</strong></span>
-                        <span>Feeds polled: <strong data-meta="feeds">—</strong></span>
-                        <span>Latency budget: &lt; 15 mins</span>
+                    <div class="status-grid footer-stat-grid">
+                        <article class="footer-stat-card">
+                            <span class="footer-stat-label">Last Refresh</span>
+                            <strong class="footer-stat-value" data-meta="generated">—</strong>
+                        </article>
+                        <article class="footer-stat-card">
+                            <span class="footer-stat-label">Feeds Fetched</span>
+                            <strong class="footer-stat-value" data-meta="feeds">—</strong>
+                        </article>
                     </div>
                 </div>
             </div>

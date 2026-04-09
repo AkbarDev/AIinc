@@ -1582,17 +1582,46 @@ footer {
 
 .site-footer .footer-status {
     margin-top: 0;
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 18px;
-    background: rgba(255,255,255,0.04);
-    overflow: hidden;
+    border: none;
+    background: transparent;
+    overflow: visible;
 }
 
 .site-footer .status-grid {
-    padding: 1rem 1.05rem;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.55rem;
+    padding: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
     text-align: center;
+}
+
+.footer-stat-card {
+    min-height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.55rem;
+    padding: 1.1rem 1rem;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.1);
+    background:
+        linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03)),
+        radial-gradient(circle at top right, rgba(9, 145, 255, 0.16), transparent 46%);
+    box-shadow: 0 18px 34px rgba(2, 6, 14, 0.22);
+}
+
+.footer-stat-label {
+    color: rgba(255,255,255,0.58);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.footer-stat-value {
+    color: #f8fbff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(1.05rem, 2vw, 1.35rem);
+    line-height: 1.2;
 }
 
 .site-footer .footer-note {
