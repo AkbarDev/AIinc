@@ -85,7 +85,6 @@ const HEADER_CATEGORIES = [
     { key: 'ai', label: 'AI' },
     { key: 'media', label: 'MEDIA' },
     { key: 'saved', label: 'SAVED' },
-    { key: 'events', label: 'EVENTS' },
     { key: 'brands', label: 'BRANDS' },
 ];
 
@@ -99,7 +98,6 @@ const CATEGORY_COPY = {
     ai: { eyebrow: 'AI focus', heading: 'Models, tooling, and enterprise AI adoption' },
     media: { eyebrow: 'Media focus', heading: 'Digital media distribution and audience growth' },
     saved: { eyebrow: 'Saved focus', heading: 'Your saved stories stored for quick access.' },
-    events: { eyebrow: 'Events focus', heading: 'Open event feeds are not integrated yet. This tab will activate when event sources are added.' },
     brands: { eyebrow: 'Brands focus', heading: 'Insights into how leading global and emerging brands connect with consumers through storytelling, innovation, and purpose-driven marketing.' },
 };
 
@@ -252,11 +250,6 @@ function renderNewsBoard() {
     const grid = document.getElementById('news-card-grid');
     if (!grid) return;
 
-    if (state.activeCategory === 'events') {
-        grid.innerHTML = '<p>Events feed will appear here once open event sources are connected.</p>';
-        return;
-    }
-
     const list = getCategoryTrends(state.activeCategory);
     const cards = state.activeCategory === 'all' ? list.slice(4, 16) : list.slice(0, 12);
     if (!cards.length) {
@@ -289,7 +282,6 @@ function renderNewsBoard() {
 function getCategoryTrends(categoryKey) {
     const sorted = [...state.trends].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
     const unique = dedupeTrends(sorted);
-    if (categoryKey === 'events') return [];
     if (categoryKey === 'saved') return getSavedTrends(unique);
     if (categoryKey === 'all') return unique;
     return unique.filter((item) => matchesCategory(item, categoryKey));
@@ -619,7 +611,12 @@ function renderMetaStrip() {
     const strip = document.getElementById('status-strip');
     if (!strip) return;
     strip.querySelectorAll('[data-meta="generated"]').forEach((el) => (el.textContent = formatDate(state.meta.generated_at)));
-    strip.querySelectorAll('[data-meta="feeds"]').forEach((el) => (el.textContent = state.sources.length || '10'));
+    const feedsPolled = Number(state.meta.feeds_polled || 0);
+    const feedPool = Number(state.meta.feed_pool || 0);
+    const feedLabel = feedPool > 0
+        ? `${feedsPolled}/${feedPool}`
+        : `${state.sources.length || 0}`;
+    strip.querySelectorAll('[data-meta="feeds"]').forEach((el) => (el.textContent = feedLabel));
 }
 
 
@@ -651,7 +648,7 @@ function renderFooterLinks() {
     const mount = document.getElementById('footer-category-links');
     if (!mount) return;
     mount.innerHTML = HEADER_CATEGORIES
-        .filter((item) => item.key !== 'events' && item.key !== 'saved')
+        .filter((item) => item.key !== 'saved')
         .map((item) => `<button class="footer-chip" type="button" data-category-jump="${item.key}">${item.label}</button>`)
         .join('');
 }
