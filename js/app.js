@@ -224,8 +224,12 @@ function renderAll() {
 }
 
 function getCarouselStories() {
-    return [...state.trends]
-        .sort((a, b) => b.score - a.score)
+    const baseStories = state.activeCategory === 'saved'
+        ? getCategoryTrends('saved')
+        : getCategoryTrends(state.activeCategory === 'all' ? 'all' : state.activeCategory);
+
+    return [...baseStories]
+        .sort((a, b) => (b.score || 0) - (a.score || 0))
         .slice(0, 5);
 }
 
@@ -236,7 +240,7 @@ function renderHeroCarousel() {
 
     const stories = getCarouselStories();
     if (!stories.length) {
-        track.innerHTML = '<article class="hero-carousel-slide is-active"><div class="hero-carousel-panel"><p>No trending stories available yet.</p></div></article>';
+        track.innerHTML = '<article class="hero-carousel-slide is-active"><div class="hero-carousel-panel"><div class="hero-carousel-copy"><p class="eyebrow">TRENDING</p><h2>No trending stories available yet.</h2><p>The carousel will populate automatically when stories are available for this section.</p></div></div></article>';
         dots.innerHTML = '';
         return;
     }
@@ -249,16 +253,20 @@ function renderHeroCarousel() {
         .map((story, index) => {
             const image = resolveCardImage(story);
             const isActive = index === state.carouselIndex ? 'is-active' : '';
+            const theme = normalizeCategory(story.category || 'all');
+            const sourceBadge = story.source_count ? `${story.source_count} source${story.source_count === 1 ? '' : 's'}` : 'Live feed';
             return `
-        <article class="hero-carousel-slide ${isActive}" data-carousel-index="${index}">
+        <article class="hero-carousel-slide ${isActive}" data-carousel-index="${index}" data-theme-category="${theme}">
             <div class="hero-carousel-panel" style="background-image: linear-gradient(135deg, rgba(6, 10, 20, 0.12), rgba(6, 10, 20, 0.92)), url(${image});">
                 <div class="hero-carousel-copy">
-                    <p class="eyebrow">${story.category ? story.category.toUpperCase() : 'TRENDING'}</p>
+                    <div class="hero-carousel-tags">
+                        <span class="hero-carousel-tag">${story.category ? story.category.toUpperCase() : 'TRENDING'}</span>
+                        <span class="hero-carousel-tag hero-carousel-tag-muted">${sourceBadge}</span>
+                    </div>
                     <h2>${story.title}</h2>
                     <p>${summarize(story.summary, 190)}</p>
                     <div class="hero-carousel-meta">
                         <span>${formatDate(story.published_at)}</span>
-                        <span>${story.source_count || 1} sources</span>
                         <span>Score ${story.score ? story.score.toFixed(2) : '—'}</span>
                     </div>
                     <div class="story-actions hero-carousel-actions">
