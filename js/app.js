@@ -144,6 +144,7 @@ const state = {
     activeCategory: 'all',
     savedIds: new Set(),
     savedRecords: [],
+    carouselIndex: 0,
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -152,6 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupCategoryFilters();
     setupSaveActions();
     setupStoryPreview();
+    setupHeroCarousel();
 });
 
 async function loadData() {
@@ -182,6 +184,8 @@ async function loadData() {
 
 function renderSkeletons() {
     const lead = document.getElementById('lead-card');
+    const carouselTrack = document.getElementById('hero-carousel-track');
+    const carouselDots = document.getElementById('hero-carousel-dots');
     if (lead) {
         lead.innerHTML = `
             <div class="skeleton-block"></div>
@@ -189,9 +193,24 @@ function renderSkeletons() {
             <div class="skeleton-line short"></div>
         `;
     }
+    if (carouselTrack) {
+        carouselTrack.innerHTML = `
+            <article class="hero-carousel-slide is-active">
+                <div class="hero-carousel-panel">
+                    <div class="skeleton-line short"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                </div>
+            </article>
+        `;
+    }
+    if (carouselDots) {
+        carouselDots.innerHTML = '<span class="hero-carousel-dot active" aria-hidden="true"></span>';
+    }
 }
 
 function renderAll() {
+    renderHeroCarousel();
     renderLead();
     renderCategoryPills();
     renderNewsBoard();
@@ -202,6 +221,101 @@ function renderAll() {
     renderSources();
     renderFooterLinks();
     syncActiveCategoryTheme();
+}
+
+function getCarouselStories() {
+    return [...state.trends]
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 5);
+}
+
+function renderHeroCarousel() {
+    const track = document.getElementById('hero-carousel-track');
+    const dots = document.getElementById('hero-carousel-dots');
+    if (!track || !dots) return;
+
+    const stories = getCarouselStories();
+    if (!stories.length) {
+        track.innerHTML = '<article class="hero-carousel-slide is-active"><div class="hero-carousel-panel"><p>No trending stories available yet.</p></div></article>';
+        dots.innerHTML = '';
+        return;
+    }
+
+    if (state.carouselIndex >= stories.length) {
+        state.carouselIndex = 0;
+    }
+
+    track.innerHTML = stories
+        .map((story, index) => {
+            const image = resolveCardImage(story);
+            const isActive = index === state.carouselIndex ? 'is-active' : '';
+            return `
+        <article class="hero-carousel-slide ${isActive}" data-carousel-index="${index}">
+            <div class="hero-carousel-panel" style="background-image: linear-gradient(135deg, rgba(6, 10, 20, 0.12), rgba(6, 10, 20, 0.92)), url(${image});">
+                <div class="hero-carousel-copy">
+                    <p class="eyebrow">${story.category ? story.category.toUpperCase() : 'TRENDING'}</p>
+                    <h2>${story.title}</h2>
+                    <p>${summarize(story.summary, 190)}</p>
+                    <div class="hero-carousel-meta">
+                        <span>${formatDate(story.published_at)}</span>
+                        <span>${story.source_count || 1} sources</span>
+                        <span>Score ${story.score ? story.score.toFixed(2) : '—'}</span>
+                    </div>
+                    <div class="story-actions hero-carousel-actions">
+                        ${renderPreviewButton(story, 'Preview')}
+                        <a href="${story.link}" target="_blank" rel="noopener">Read full story</a>
+                    </div>
+                </div>
+            </div>
+        </article>`;
+        })
+        .join('');
+
+    dots.innerHTML = stories
+        .map((story, index) => {
+            const active = index === state.carouselIndex ? 'active' : '';
+            return `<button class="hero-carousel-dot ${active}" type="button" data-carousel-target="${index}" aria-label="Show trending story ${index + 1}: ${escapeAttr(story.title)}"></button>`;
+        })
+        .join('');
+}
+
+function setupHeroCarousel() {
+    const prev = document.getElementById('hero-carousel-prev');
+    const next = document.getElementById('hero-carousel-next');
+    const dots = document.getElementById('hero-carousel-dots');
+
+    if (prev) {
+        prev.addEventListener('click', () => {
+            moveHeroCarousel(-1);
+        });
+    }
+
+    if (next) {
+        next.addEventListener('click', () => {
+            moveHeroCarousel(1);
+        });
+    }
+
+    if (dots) {
+        dots.addEventListener('click', (event) => {
+            const button = event.target.closest('[data-carousel-target]');
+            if (!button) return;
+            state.carouselIndex = Number(button.dataset.carouselTarget || 0);
+            renderHeroCarousel();
+        });
+    }
+
+    window.setInterval(() => {
+        if (!getCarouselStories().length) return;
+        moveHeroCarousel(1);
+    }, 6000);
+}
+
+function moveHeroCarousel(direction) {
+    const stories = getCarouselStories();
+    if (!stories.length) return;
+    state.carouselIndex = (state.carouselIndex + direction + stories.length) % stories.length;
+    renderHeroCarousel();
 }
 
 function renderLead() {
