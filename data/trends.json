@@ -1,20 +1,44 @@
 {
-  "generated_at": "2026-04-10T09:56:17.132819+00:00",
-  "sources_scanned": 493,
-  "feeds_polled": 29,
+  "generated_at": "2026-04-10T11:04:22.225051+00:00",
+  "sources_scanned": 503,
+  "feeds_polled": 30,
   "feed_pool": 35,
   "continent_counts": {
     "NA": 343,
     "SA": 0,
-    "EU": 150,
+    "EU": 160,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 106,
+  "clusters": 105,
   "trends": [
+    {
+      "id": "fintech startups globally raise more money in far fewer deals in q1 2026",
+      "title": "Fintech Startups Globally Raise More Money In Far Fewer Deals In Q1 2026",
+      "summary": "Global venture funding to financial technology startups totaled $12 billion across 751 deals in 2026 as of April 6, per Crunchbase data.",
+      "image": "https://news.crunchbase.com/wp-content/uploads/money-increasing.jpg",
+      "link": "https://news.crunchbase.com/fintech/global-startup-venture-funding-up-deals-down-q1-2026/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-04-10T11:00:16+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.5687,
+      "signals": {
+        "score": 0.5687,
+        "recency": 0.9886654180167532,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.6
+      }
+    },
     {
       "id": "black hat asia",
       "title": "Black Hat Asia",
@@ -23,7 +47,7 @@
       "link": "https://aibusiness.com/events/black-hat-asia",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-10T09:56:13.170323+00:00",
+      "published_at": "2026-04-10T11:04:18.349648+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -46,7 +70,7 @@
       "link": "https://aibusiness.com/events/black-hat-usa",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-10T09:56:13.170352+00:00",
+      "published_at": "2026-04-10T11:04:18.349676+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -75,10 +99,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.5018,
+      "score": 0.4705,
       "signals": {
-        "score": 0.5018,
-        "recency": 0.7271538067998452,
+        "score": 0.4705,
+        "recency": 0.6018530896934583,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -99,10 +123,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.5013,
+      "score": 0.4701,
       "signals": {
-        "score": 0.5013,
-        "recency": 0.7252038832949436,
+        "score": 0.4701,
+        "recency": 0.6002391704990369,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -123,14 +147,56 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.5012,
+      "score": 0.47,
       "signals": {
-        "score": 0.5012,
-        "recency": 0.724901777953221,
+        "score": 0.47,
+        "recency": 0.599989122941521,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "google answers if outbound links pass poor signals via sejournal martinibuster",
+      "title": "Google Answers If Outbound Links Pass \u201cPoor Signals\u201d via @sejournal, @martinibuster",
+      "summary": "Google's Mueller answers whether links pass negative signals and says unhelpful links may be ignored.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/google-answers-if-outbound-links-pass-poor-signals/571687/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-10T10:52:01+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4616,
+      "signals": {
+        "score": 0.4616,
+        "recency": 0.9662661408552045,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "constellations",
+      "title": "Constellations",
+      "summary": "I. We had crash-landed on the planet.",
+      "image": null,
+      "link": "https://www.technologyreview.com/2026/04/10/1135106/jeff-vandermeer-constellations-science-fiction/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-10T10:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4321,
+      "signals": {
+        "score": 0.4321,
+        "recency": 0.8362675214738724,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
       }
     },
     {
@@ -146,10 +212,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4625,
+      "score": 0.4311,
       "signals": {
-        "score": 0.4625,
-        "recency": 0.7300547273643989,
+        "score": 0.4311,
+        "recency": 0.6042541333081726,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -170,10 +236,10 @@
         "ai",
         "chip"
       ],
-      "score": 0.4147,
+      "score": 0.3986,
       "signals": {
-        "score": 0.4147,
-        "recency": 0.3727287643520709,
+        "score": 0.3986,
+        "recency": 0.30850138766400875,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -193,10 +259,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4116,
+      "score": 0.3889,
       "signals": {
-        "score": 0.4116,
-        "recency": 0.5262892580353064,
+        "score": 0.3889,
+        "recency": 0.43560084958506506,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "ads of the week 9 campaigns that caught our eye from on to cocacola",
+      "title": "Ads of the Week: 9 Campaigns That Caught Our Eye, From On to Coca-Cola",
+      "summary": "On, Coca-Cola, WNBA, Wise, AT&;T, and more are behind the week's standout ads.",
+      "image": null,
+      "link": "https://www.adweek.com/creativity/ads-of-the-week-9-campaigns-that-caught-our-eye-from-on-to-coca-cola/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-10T06:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3873,
+      "signals": {
+        "score": 0.3873,
+        "recency": 0.4293540616156418,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -216,10 +305,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4032,
+      "score": 0.3817,
       "signals": {
-        "score": 0.4032,
-        "recency": 0.49877110250826334,
+        "score": 0.3817,
+        "recency": 0.41282453077638875,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -237,10 +326,10 @@
       "published_at": "2026-04-10T08:00:53+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.4014,
+      "score": 0.3702,
       "signals": {
-        "score": 0.4014,
-        "recency": 0.7257412703643196,
+        "score": 0.3702,
+        "recency": 0.6006839568221514,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -258,14 +347,58 @@
       "published_at": "2026-04-10T08:00:02+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.401,
+      "score": 0.3698,
       "signals": {
-        "score": 0.401,
-        "recency": 0.7240297359436676,
+        "score": 0.3698,
+        "recency": 0.599267348300607,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.4
+      }
+    },
+    {
+      "id": "primark launches first uk mobile app to power phygital growth",
+      "title": "Primark launches first UK mobile app to power \u2018phygital\u2019 growth",
+      "summary": "Primark has launched its first-ever mobile customer app in the UK, following successful rollouts in Ireland and Italy.",
+      "image": null,
+      "link": "https://internetretailing.net/primark-launches-first-uk-mobile-app-to-power-phygital-growth/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-10T08:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3653,
+      "signals": {
+        "score": 0.3653,
+        "recency": 0.5992118631519683,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.77,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "how to make the startup battlefield top 20 and what every company gets regardless",
+      "title": "How to make the Startup Battlefield Top 20 \u2014 and what every company gets regardless",
+      "summary": "Every founder who applies to Startup Battlefield wants the same thing: the Disrupt Main Stage.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/09/how-to-make-the-startup-battlefield-top-20-and-what-every-company-gets-regardless/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-09T18:01:48+00:00",
+      "source_count": 2,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3613,
+      "signals": {
+        "score": 0.3613,
+        "recency": 0.05839801485172197,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.6
       }
     },
     {
@@ -281,11 +414,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.377,
+      "score": 0.3603,
       "signals": {
-        "score": 0.377,
-        "recency": 0.38817366653997065,
+        "score": 0.3603,
+        "recency": 0.3212848758543681,
         "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "new stablecoin rules push banks into the crypto front line",
+      "title": "New Stablecoin Rules Push Banks Into the Crypto Front Line",
+      "summary": "Rules governing stablecoins are taking concrete form, and the details suggest that banks and FinTechs will face a more exacting set of responsibilities than some may have",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/stablecoins-crypto-regulation-banking.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/regulation/2026/new-stablecoin-rules-push-banks-into-the-crypto-front-line/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-09T23:55:17+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "govern"
+      ],
+      "score": 0.359,
+      "signals": {
+        "score": 0.359,
+        "recency": 0.1558945855429444,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -304,10 +461,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3747,
+      "score": 0.3586,
       "signals": {
-        "score": 0.3747,
-        "recency": 0.3727287643520709,
+        "score": 0.3586,
+        "recency": 0.30850138766400875,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -327,10 +484,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3747,
+      "score": 0.3586,
       "signals": {
-        "score": 0.3747,
-        "recency": 0.3727287643520709,
+        "score": 0.3586,
+        "recency": 0.30850138766400875,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -350,60 +507,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3723,
+      "score": 0.3562,
       "signals": {
-        "score": 0.3723,
-        "recency": 0.37527404185492,
+        "score": 0.3562,
+        "recency": 0.31060807144245,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "new stablecoin rules push banks into the crypto front line",
-      "title": "New Stablecoin Rules Push Banks Into the Crypto Front Line",
-      "summary": "Rules governing stablecoins are taking concrete form, and the details suggest that banks and FinTechs will face a more exacting set of responsibilities than some may have",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/stablecoins-crypto-regulation-banking.jpeg?w=457",
-      "link": "https://www.pymnts.com/news/regulation/2026/new-stablecoin-rules-push-banks-into-the-crypto-front-line/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-09T23:55:17+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "govern"
-      ],
-      "score": 0.3671,
-      "signals": {
-        "score": 0.3671,
-        "recency": 0.18835051822160365,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "how to make the startup battlefield top 20 and what every company gets regardless",
-      "title": "How to make the Startup Battlefield Top 20 \u2014 and what every company gets regardless",
-      "summary": "Every founder who applies to Startup Battlefield wants the same thing: the Disrupt Main Stage.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/09/how-to-make-the-startup-battlefield-top-20-and-what-every-company-gets-regardless/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-09T18:01:48+00:00",
-      "source_count": 2,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3644,
-      "signals": {
-        "score": 0.3644,
-        "recency": 0.07055598706091526,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
         "engagement": 0.6
       }
     },
@@ -420,37 +530,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3565,
+      "score": 0.3433,
       "signals": {
-        "score": 0.3565,
-        "recency": 0.3059283676208908,
+        "score": 0.3433,
+        "recency": 0.2532118123507134,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "bloom pacsun and more chase coachella crowds on the way to the show with roadside activations",
-      "title": "Bloom, Pacsun and more chase Coachella crowds on the way to the show with roadside activations",
-      "summary": "Brands are chasing Coachella audiences beyond festival gates with roadside pop-ups and festival-themed collabs.",
-      "image": null,
-      "link": "https://www.modernretail.co/marketing/bloom-pacsun-and-more-chase-coachella-crowds-on-the-way-to-the-show-with-roadside-activations/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-10T04:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "festival"
-      ],
-      "score": 0.3514,
-      "signals": {
-        "score": 0.3514,
-        "recency": 0.3716948433395369,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
       }
     },
     {
@@ -467,10 +554,10 @@
         "ai",
         "chip"
       ],
-      "score": 0.345,
+      "score": 0.3417,
       "signals": {
-        "score": 0.345,
-        "recency": 0.07583670902046184,
+        "score": 0.3417,
+        "recency": 0.06276878042764918,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -478,21 +565,23 @@
       }
     },
     {
-      "id": "how advertisers can and cannot get in front of chatbot shoppers",
-      "title": "How Advertisers Can \u2013 And Cannot \u2013 Get In Front Of Chatbot Shoppers",
-      "summary": "I\u2019m not a major LLM user, in general, though I often put some generic shopping prompts through the major systems (ChatGPT, Gemini and Claude, namely) to see what comes out the",
+      "id": "bloom pacsun and more chase coachella crowds on the way to the show with roadside activations",
+      "title": "Bloom, Pacsun and more chase Coachella crowds on the way to the show with roadside activations",
+      "summary": "Brands are chasing Coachella audiences beyond festival gates with roadside pop-ups and festival-themed collabs.",
       "image": null,
-      "link": "https://www.adexchanger.com/commerce/456024/",
-      "category": "brands",
+      "link": "https://www.modernretail.co/marketing/bloom-pacsun-and-more-chase-coachella-crowds-on-the-way-to-the-show-with-roadside-activations/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-04-10T05:34:16+00:00",
+      "published_at": "2026-04-10T04:00:00+00:00",
       "source_count": 1,
-      "keywords": [],
-      "score": 0.3392,
+      "keywords": [
+        "festival"
+      ],
+      "score": 0.3354,
       "signals": {
-        "score": 0.3392,
-        "recency": 0.4829557603021449,
-        "keyword_volume": 0.0,
+        "score": 0.3354,
+        "recency": 0.3076456284696353,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.4
@@ -512,35 +601,14 @@
         "ai",
         "bill"
       ],
-      "score": 0.3357,
+      "score": 0.3341,
       "signals": {
-        "score": 0.3357,
-        "recency": 0.03895389469876556,
+        "score": 0.3341,
+        "recency": 0.03224148957319419,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "google march core update left 4 losers for every winner in germany via sejournal mattgsouthern",
-      "title": "Google March Core Update Left 4 Losers For Every Winner In Germany via @sejournal, @MattGSouthern",
-      "summary": "SISTRIX analyzed German search results after the March core update and found uneven visibility shifts across categories, with some site types hit harder than others.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/google-march-core-update-left-4-losers-for-every-winner-in-germany/571639/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-10T05:15:41+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3347,
-      "signals": {
-        "score": 0.3347,
-        "recency": 0.45865793175724084,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -557,10 +625,10 @@
         "ai",
         "cloud"
       ],
-      "score": 0.3336,
+      "score": 0.3323,
       "signals": {
-        "score": 0.3336,
-        "recency": 0.030591191037326684,
+        "score": 0.3323,
+        "recency": 0.02531981909610738,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -581,10 +649,10 @@
         "ai",
         "govern"
       ],
-      "score": 0.3273,
+      "score": 0.326,
       "signals": {
-        "score": 0.3273,
-        "recency": 0.029180184639965585,
+        "score": 0.326,
+        "recency": 0.02415195261189497,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -592,27 +660,24 @@
       }
     },
     {
-      "id": "global investors help boost latin americas latestage funding boom in q1",
-      "title": "Global Investors Help Boost Latin America\u2019s Late-Stage Funding Boom In Q1",
-      "summary": "Startups in Latin America raised a combined $1.03 billion across seed- and growth-stage deals in the three-month period ending March 31 \u2014 up year over year, but down from Q4 2025.",
-      "image": "https://news.crunchbase.com/wp-content/uploads/inflating-ai-latin-america.jpg",
-      "link": "https://news.crunchbase.com/venture/global-vcs-boost-late-stage-boom-latin-america-q1-2026/",
-      "category": "startup",
+      "id": "how advertisers can and cannot get in front of chatbot shoppers",
+      "title": "How Advertisers Can \u2013 And Cannot \u2013 Get In Front Of Chatbot Shoppers",
+      "summary": "I\u2019m not a major LLM user, in general, though I often put some generic shopping prompts through the major systems (ChatGPT, Gemini and Claude, namely) to see what comes out the",
+      "image": null,
+      "link": "https://www.adexchanger.com/commerce/456024/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-04-09T11:00:32+00:00",
+      "published_at": "2026-04-10T05:34:16+00:00",
       "source_count": 1,
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.327,
+      "keywords": [],
+      "score": 0.3184,
       "signals": {
-        "score": 0.327,
-        "recency": 0.0218941910368038,
-        "keyword_volume": 0.4,
+        "score": 0.3184,
+        "recency": 0.39973443555540367,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
+        "authority": 0.79,
+        "engagement": 0.4
       }
     },
     {
@@ -628,10 +693,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3245,
+      "score": 0.3169,
       "signals": {
-        "score": 0.3245,
-        "recency": 0.17811422462865117,
+        "score": 0.3169,
+        "recency": 0.14742217589822176,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -651,14 +716,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3215,
+      "score": 0.3154,
       "signals": {
-        "score": 0.3215,
-        "recency": 0.1419376701799668,
+        "score": 0.3154,
+        "recency": 0.11747944457260899,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "google march core update left 4 losers for every winner in germany via sejournal mattgsouthern",
+      "title": "Google March Core Update Left 4 Losers For Every Winner In Germany via @sejournal, @MattGSouthern",
+      "summary": "SISTRIX analyzed German search results after the March core update and found uneven visibility shifts across categories, with some site types hit harder than others.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/google-march-core-update-left-4-losers-for-every-winner-in-germany/571639/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-10T05:15:41+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3149,
+      "signals": {
+        "score": 0.3149,
+        "recency": 0.37962352773116975,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -674,10 +760,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3174,
+      "score": 0.312,
       "signals": {
-        "score": 0.3174,
-        "recency": 0.12552078371817313,
+        "score": 0.312,
+        "recency": 0.1038914611944282,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -695,58 +781,14 @@
       "published_at": "2026-04-09T21:17:30+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.3171,
+      "score": 0.3119,
       "signals": {
-        "score": 0.3171,
-        "recency": 0.12151256201096629,
+        "score": 0.3119,
+        "recency": 0.10057392287433674,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "comic benchmarking",
-      "title": "Comic: Benchmarking",
-      "summary": "Enjoy this weekly comic strip from AdExchanger.com that highlights the digital advertising ecosystem \u2026 The post Comic: Benchmarking appeared first on AdExchanger .",
-      "image": null,
-      "link": "https://www.adexchanger.com/comic-strip/comic-benchmarking/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-10T04:15:40+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3156,
-      "signals": {
-        "score": 0.3156,
-        "recency": 0.38822758329334467,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "dont go chasing ai yet a framework for prioritizing seo vs ai search via sejournal hethrcampbell",
-      "title": "Don\u2019t Go Chasing AI Yet: A Framework for Prioritizing SEO vs. AI Search via @sejournal, @hethr_campbell",
-      "summary": "Discover the essential questions to consider before investing in AI visibility over traditional SEO in our informative webinar.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/dont-go-chasing-ai-yet-a-framework-for-prioritizing-seo-vs-ai-search/571603/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-09T22:10:34+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3152,
-      "signals": {
-        "score": 0.3152,
-        "recency": 0.14081191389563621,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       }
     },
     {
@@ -762,10 +804,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3151,
+      "score": 0.3101,
       "signals": {
-        "score": 0.3151,
-        "recency": 0.11626254839283702,
+        "score": 0.3101,
+        "recency": 0.09622857408092315,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -773,24 +815,26 @@
       }
     },
     {
-      "id": "how did nikes embattled heritage brand converse reach a 15year revenue low",
-      "title": "How did Nike\u2019s embattled heritage brand Converse reach a 15-year revenue low?",
-      "summary": "The last few years have seen Converse continue to underperform compared to the rest of Nike\u2019s portfolio.",
+      "id": "dont go chasing ai yet a framework for prioritizing seo vs ai search via sejournal hethrcampbell",
+      "title": "Don\u2019t Go Chasing AI Yet: A Framework for Prioritizing SEO vs. AI Search via @sejournal, @hethr_campbell",
+      "summary": "Discover the essential questions to consider before investing in AI visibility over traditional SEO in our informative webinar.",
       "image": null,
-      "link": "https://digiday.com/marketing/how-did-nikes-embattled-heritage-brand-converse-reach-a-15-year-revenue-low/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "brands",
+      "link": "https://www.searchenginejournal.com/dont-go-chasing-ai-yet-a-framework-for-prioritizing-seo-vs-ai-search/571603/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-04-10T04:01:00+00:00",
+      "published_at": "2026-04-09T22:10:34+00:00",
       "source_count": 1,
-      "keywords": [],
-      "score": 0.3147,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3091,
       "signals": {
-        "score": 0.3147,
-        "recency": 0.3727287643520709,
-        "keyword_volume": 0.0,
+        "score": 0.3091,
+        "recency": 0.11654767485397412,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.4
+        "authority": 0.8,
+        "engagement": 0.6
       }
     },
     {
@@ -806,10 +850,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3113,
+      "score": 0.307,
       "signals": {
-        "score": 0.3113,
-        "recency": 0.10127521606620947,
+        "score": 0.307,
+        "recency": 0.08382380884048436,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -829,10 +873,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3108,
+      "score": 0.3065,
       "signals": {
-        "score": 0.3108,
-        "recency": 0.09912746402106903,
+        "score": 0.3065,
+        "recency": 0.08204615025962374,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -850,10 +894,10 @@
       "published_at": "2026-04-09T19:33:54+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.3095,
+      "score": 0.3056,
       "signals": {
-        "score": 0.3095,
-        "recency": 0.09112569987606471,
+        "score": 0.3056,
+        "recency": 0.07542322340613784,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -873,10 +917,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3073,
+      "score": 0.3037,
       "signals": {
-        "score": 0.3073,
-        "recency": 0.08530005129795563,
+        "score": 0.3037,
+        "recency": 0.07060143114786208,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -896,10 +940,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3062,
+      "score": 0.3027,
       "signals": {
-        "score": 0.3062,
-        "recency": 0.0806829202368976,
+        "score": 0.3027,
+        "recency": 0.06677990870153552,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -919,10 +963,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3031,
+      "score": 0.3001,
       "signals": {
-        "score": 0.3031,
-        "recency": 0.06827132713151464,
+        "score": 0.3001,
+        "recency": 0.05650703989628576,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -940,13 +984,55 @@
       "published_at": "2026-04-09T17:20:50+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.3025,
+      "score": 0.2998,
       "signals": {
-        "score": 0.3025,
-        "recency": 0.06296696608811639,
+        "score": 0.2998,
+        "recency": 0.05211670864454051,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "comic benchmarking",
+      "title": "Comic: Benchmarking",
+      "summary": "Enjoy this weekly comic strip from AdExchanger.com that highlights the digital advertising ecosystem \u2026 The post Comic: Benchmarking appeared first on AdExchanger .",
+      "image": null,
+      "link": "https://www.adexchanger.com/comic-strip/comic-benchmarking/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-10T04:15:40+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2988,
+      "signals": {
+        "score": 0.2988,
+        "recency": 0.3213295018527483,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "how did nikes embattled heritage brand converse reach a 15year revenue low",
+      "title": "How did Nike\u2019s embattled heritage brand Converse reach a 15-year revenue low?",
+      "summary": "The last few years have seen Converse continue to underperform compared to the rest of Nike\u2019s portfolio.",
+      "image": null,
+      "link": "https://digiday.com/marketing/how-did-nikes-embattled-heritage-brand-converse-reach-a-15-year-revenue-low/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-10T04:01:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2986,
+      "signals": {
+        "score": 0.2986,
+        "recency": 0.30850138766400875,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.81,
         "engagement": 0.4
       }
     },
@@ -963,10 +1049,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3009,
+      "score": 0.2975,
       "signals": {
-        "score": 0.3009,
-        "recency": 0.07742604355428034,
+        "score": 0.2975,
+        "recency": 0.06408424613901613,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -986,10 +1072,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2985,
+      "score": 0.2964,
       "signals": {
-        "score": 0.2985,
-        "recency": 0.0500757153484932,
+        "score": 0.2964,
+        "recency": 0.04144683520772181,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1009,13 +1095,57 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2976,
+      "score": 0.2956,
       "signals": {
-        "score": 0.2976,
-        "recency": 0.046431616228758,
+        "score": 0.2956,
+        "recency": 0.03843067508609087,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "final 2 days to save up to 500 on your techcrunch disrupt 2026 ticket",
+      "title": "Final 2 days to save up to $500 on your TechCrunch Disrupt 2026 ticket",
+      "summary": "Ticket discounts of up to $500 will end tomorrow, April 10, at 11:59 p.m.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/09/final-2-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-ticket/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-09T14:00:00+00:00",
+      "source_count": 2,
+      "keywords": [],
+      "score": 0.2942,
+      "signals": {
+        "score": 0.2942,
+        "recency": 0.029833001997582174,
+        "keyword_volume": 0.0,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "new future ofworkai is driving rapid changeuneven benefits",
+      "title": "New Future of\u00a0Work:\u00a0AI is driving rapid change,\u00a0uneven benefits",
+      "summary": "For the past five years, the New Future of Work report has captured how work is changing.",
+      "image": null,
+      "link": "https://www.microsoft.com/en-us/research/blog/new-future-of-work-ai-is-driving-rapid-change-uneven-benefits/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-04-09T16:11:44+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2938,
+      "signals": {
+        "score": 0.2938,
+        "recency": 0.04301466724487551,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
         "engagement": 0.6
       }
     },
@@ -1032,123 +1162,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2964,
+      "score": 0.2938,
       "signals": {
-        "score": 0.2964,
-        "recency": 0.05948428100848598,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "applovin8217s ceo is no longer board chair and two top execs are stepping down",
-      "title": "AppLovin&#8217;s CEO Is No Longer Board Chair and Two Top Execs Are Stepping Down",
-      "summary": "Public adtech company AppLovin is undergoing a substantive power shift with a slate of changes to its C-suite and board of directors.",
-      "image": null,
-      "link": "https://www.adweek.com/media/applovins-ceo-is-no-longer-board-chair-and-two-top-execs-are-stepping-down/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-09T17:28:37+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2961,
-      "signals": {
-        "score": 0.2961,
-        "recency": 0.0643431585039942,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "new future ofworkai is driving rapid changeuneven benefits",
-      "title": "New Future of\u00a0Work:\u00a0AI is driving rapid change,\u00a0uneven benefits",
-      "summary": "For the past five years, the New Future of Work report has captured how work is changing.",
-      "image": null,
-      "link": "https://www.microsoft.com/en-us/research/blog/new-future-of-work-ai-is-driving-rapid-change-uneven-benefits/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-04-09T16:11:44+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.296,
-      "signals": {
-        "score": 0.296,
-        "recency": 0.051969956740225115,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "ideas steering ai toward the work future we want",
-      "title": "Ideas: Steering AI toward the work future we want",
-      "summary": "Microsoft Chief Scientist Jaime Teevan and researchers Jenna Butler, Jake Hofman, and Rebecca Janssen unpack the New Future of Work Report 2025 and explore the ideal AI-driven",
-      "image": null,
-      "link": "https://www.microsoft.com/en-us/research/podcast/ideas-steering-ai-toward-the-work-future-we-want/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-04-09T16:10:37+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.296,
-      "signals": {
-        "score": 0.296,
-        "recency": 0.0518090033894452,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "final 2 days to save up to 500 on your techcrunch disrupt 2026 ticket",
-      "title": "Final 2 days to save up to $500 on your TechCrunch Disrupt 2026 ticket",
-      "summary": "Ticket discounts of up to $500 will end tomorrow, April 10, at 11:59 p.m.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/09/final-2-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-ticket/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-09T14:00:00+00:00",
-      "source_count": 2,
-      "keywords": [],
-      "score": 0.2958,
-      "signals": {
-        "score": 0.2958,
-        "recency": 0.03604398040368663,
-        "keyword_volume": 0.0,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "rezolve ai takes merger proposal to commercecoms shareholders",
-      "title": "Rezolve Ai takes merger proposal to Commerce.com\u2019s shareholders",
-      "summary": "The ecommerce platform Commerce.com&#8217;s board of directors publicly rebuffed the terms of a proposed acquisition by the technology company Rezolve Ai.",
-      "image": null,
-      "link": "https://www.digitalcommerce360.com/2026/04/09/rezolve-ai-takes-merger-proposal-to-commerce-com-shareholders/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-09T16:40:59+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2956,
-      "signals": {
-        "score": 0.2956,
-        "recency": 0.05636879902331132,
+        "score": 0.2938,
+        "recency": 0.04923414823434409,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1168,13 +1185,82 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2951,
+      "score": 0.2938,
       "signals": {
-        "score": 0.2951,
-        "recency": 0.030510570704036153,
+        "score": 0.2938,
+        "recency": 0.025253090989578498,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "ideas steering ai toward the work future we want",
+      "title": "Ideas: Steering AI toward the work future we want",
+      "summary": "Microsoft Chief Scientist Jaime Teevan and researchers Jenna Butler, Jake Hofman, and Rebecca Janssen unpack the New Future of Work Report 2025 and explore the ideal AI-driven",
+      "image": null,
+      "link": "https://www.microsoft.com/en-us/research/podcast/ideas-steering-ai-toward-the-work-future-we-want/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-04-09T16:10:37+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2937,
+      "signals": {
+        "score": 0.2937,
+        "recency": 0.042881448838318986,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "applovin8217s ceo is no longer board chair and two top execs are stepping down",
+      "title": "AppLovin&#8217;s CEO Is No Longer Board Chair and Two Top Execs Are Stepping Down",
+      "summary": "Public adtech company AppLovin is undergoing a substantive power shift with a slate of changes to its C-suite and board of directors.",
+      "image": null,
+      "link": "https://www.adweek.com/media/applovins-ceo-is-no-longer-board-chair-and-two-top-execs-are-stepping-down/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-09T17:28:37+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2933,
+      "signals": {
+        "score": 0.2933,
+        "recency": 0.05325576017636697,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "rezolve ai takes merger proposal to commercecoms shareholders",
+      "title": "Rezolve Ai takes merger proposal to Commerce.com\u2019s shareholders",
+      "summary": "The ecommerce platform Commerce.com&#8217;s board of directors publicly rebuffed the terms of a proposed acquisition by the technology company Rezolve Ai.",
+      "image": null,
+      "link": "https://www.digitalcommerce360.com/2026/04/09/rezolve-ai-takes-merger-proposal-to-commerce-com-shareholders/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-09T16:40:59+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2932,
+      "signals": {
+        "score": 0.2932,
+        "recency": 0.04665551570690988,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
         "engagement": 0.6
       }
     },
@@ -1191,10 +1277,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2935,
+      "score": 0.2912,
       "signals": {
-        "score": 0.2935,
-        "recency": 0.05399831452936894,
+        "score": 0.2912,
+        "recency": 0.04469350518945366,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1214,10 +1300,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.293,
+      "score": 0.2907,
       "signals": {
-        "score": 0.293,
-        "recency": 0.05186419976553928,
+        "score": 0.2907,
+        "recency": 0.04292713395910286,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1237,10 +1323,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2924,
+      "score": 0.2903,
       "signals": {
-        "score": 0.2924,
-        "recency": 0.04974759361650752,
+        "score": 0.2903,
+        "recency": 0.04117525431748313,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1260,10 +1346,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.292,
+      "score": 0.2899,
       "signals": {
-        "score": 0.292,
-        "recency": 0.04794989144287257,
+        "score": 0.2899,
+        "recency": 0.03968732618256428,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1283,33 +1369,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2906,
+      "score": 0.2888,
       "signals": {
-        "score": 0.2906,
-        "recency": 0.04256122273935622,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "levi strauss finance growth chief set to retire with 3m severance",
-      "title": "Levi Strauss finance, growth chief set to retire with $3M severance",
-      "summary": "Harmit Singh will remain until a successor is appointed, then serve as a special adviser through Nov.",
-      "image": "https://imgproxy.divecdn.com/sSJTHXSBTUSEtLq8lX_ZWLOkys3uE5ZVB24IZO2JRlU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xOTcxMDg5NDYxLmpwZw==.webp",
-      "link": "https://www.retaildive.com/news/levi-strauss-chief-financial-officer-harmit-singh-retires/817055/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-09T10:36:00-04:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.29,
-      "signals": {
-        "score": 0.29,
-        "recency": 0.039834758913842985,
+        "score": 0.2888,
+        "recency": 0.03522721488531508,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1329,10 +1392,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2899,
+      "score": 0.2887,
       "signals": {
-        "score": 0.2899,
-        "recency": 0.027696718619025756,
+        "score": 0.2887,
+        "recency": 0.02292411250460435,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -1340,25 +1403,25 @@
       }
     },
     {
-      "id": "kotex displays art inspired by menstruation to confront taboos",
-      "title": "Kotex displays art inspired by menstruation to confront taboos",
-      "summary": "The mobile-heavy campaign strategically places QR codes near major museums to draw attention to a virtual gallery.",
-      "image": "https://imgproxy.divecdn.com/EAHqsWbNrCfjgRzJEEVuiKdP0ATedxRxAKAWQH7iH-s/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8xMF9yN1hKZTFuLmpwZw==.webp",
-      "link": "https://www.marketingdive.com/news/kotex-displays-art-inspired-by-menstruation-to-confront-taboos/817008/",
+      "id": "levi strauss finance growth chief set to retire with 3m severance",
+      "title": "Levi Strauss finance, growth chief set to retire with $3M severance",
+      "summary": "Harmit Singh will remain until a successor is appointed, then serve as a special adviser through Nov.",
+      "image": "https://imgproxy.divecdn.com/sSJTHXSBTUSEtLq8lX_ZWLOkys3uE5ZVB24IZO2JRlU/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xOTcxMDg5NDYxLmpwZw==.webp",
+      "link": "https://www.retaildive.com/news/levi-strauss-chief-financial-officer-harmit-singh-retires/817055/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-04-09T11:25:00-04:00",
+      "published_at": "2026-04-09T10:36:00-04:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.2899,
+      "score": 0.2882,
       "signals": {
-        "score": 0.2899,
-        "recency": 0.045643033189701934,
+        "score": 0.2882,
+        "recency": 0.032970566206620526,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.79,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1375,10 +1438,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2896,
+      "score": 0.2879,
       "signals": {
-        "score": 0.2896,
-        "recency": 0.038315364660297266,
+        "score": 0.2879,
+        "recency": 0.0317129888998559,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1386,45 +1449,22 @@
       }
     },
     {
-      "id": "canva expands into marketing automation with new acquisitions",
-      "title": "Canva expands into marketing automation with new acquisitions",
-      "summary": "With Simtheory and Ortto, Canva is moving beyond design into AI-driven workflows, campaign execution and customer data.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/canva-expands-into-marketing-automation-with-new-acquisitions/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-09T15:54:27+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2894,
-      "signals": {
-        "score": 0.2894,
-        "recency": 0.04953386303306155,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "svedka addresses gen zs digital burnout with y2kinspired flip phone",
-      "title": "Svedka addresses Gen Z\u2019s digital burnout with Y2K-inspired flip phone",
-      "summary": "The Svedphone includes only two features &mdash; the ability to call and text &mdash; and follows the&nbsp;brand&rsquo;s poorly received AI-generated Super Bowl ad.&nbsp",
-      "image": "https://imgproxy.divecdn.com/u6dx1Y6ljZmup75frOywVb8DLDpBsxs8yUyojMjn_NQ/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TdmVka2FfU1ZFRFBIT05FUy5qcGc=.webp",
-      "link": "https://www.marketingdive.com/news/svedka-addresses-gen-zs-digital-burnout-with-y2k-inspired-flip-phone/816992/",
+      "id": "kotex displays art inspired by menstruation to confront taboos",
+      "title": "Kotex displays art inspired by menstruation to confront taboos",
+      "summary": "The mobile-heavy campaign strategically places QR codes near major museums to draw attention to a virtual gallery.",
+      "image": "https://imgproxy.divecdn.com/EAHqsWbNrCfjgRzJEEVuiKdP0ATedxRxAKAWQH7iH-s/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8xMF9yN1hKZTFuLmpwZw==.webp",
+      "link": "https://www.marketingdive.com/news/kotex-displays-art-inspired-by-menstruation-to-confront-taboos/817008/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-04-09T11:00:00-04:00",
+      "published_at": "2026-04-09T11:25:00-04:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.2891,
+      "score": 0.2879,
       "signals": {
-        "score": 0.2891,
-        "recency": 0.0425809315710205,
+        "score": 0.2879,
+        "recency": 0.037777978044423045,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1444,10 +1484,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2891,
+      "score": 0.2878,
       "signals": {
-        "score": 0.2891,
-        "recency": 0.03056853928639068,
+        "score": 0.2878,
+        "recency": 0.02530107061929227,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1455,48 +1495,48 @@
       }
     },
     {
-      "id": "the latest aipowered martech news and releases",
-      "title": "The latest AI-powered martech news and releases",
-      "summary": "AI marketing is becoming more transactional and citation-driven, with ads, commerce and trust signals converging inside chatbot conversations.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-      "category": "digital-media",
+      "id": "svedka addresses gen zs digital burnout with y2kinspired flip phone",
+      "title": "Svedka addresses Gen Z\u2019s digital burnout with Y2K-inspired flip phone",
+      "summary": "The Svedphone includes only two features &mdash; the ability to call and text &mdash; and follows the&nbsp;brand&rsquo;s poorly received AI-generated Super Bowl ad.&nbsp",
+      "image": "https://imgproxy.divecdn.com/u6dx1Y6ljZmup75frOywVb8DLDpBsxs8yUyojMjn_NQ/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TdmVka2FfU1ZFRFBIT05FUy5qcGc=.webp",
+      "link": "https://www.marketingdive.com/news/svedka-addresses-gen-zs-digital-burnout-with-y2k-inspired-flip-phone/816992/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-04-09T15:36:13+00:00",
+      "published_at": "2026-04-09T11:00:00-04:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.2888,
+      "score": 0.2873,
       "signals": {
-        "score": 0.2888,
-        "recency": 0.04708753843261934,
+        "score": 0.2873,
+        "recency": 0.03524352755688531,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.78,
+        "authority": 0.79,
         "engagement": 0.6
       }
     },
     {
-      "id": "publicis leans on microsoft in race to lead agentic ai for marketers",
-      "title": "Publicis leans on Microsoft in race to lead agentic AI for marketers",
-      "summary": "The Epsilon identity solution and consultancy arm Sapient are in focus while Publicis is also taking over Microsoft&rsquo;s sizable global media business.",
-      "image": "https://imgproxy.divecdn.com/nVrw5rdF9p8cPaeSAY4NsHBBdWAS4A5HVCLPASAcT4U/g:nowe:0:305/c:3000:1694/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTU5ODY3MDU1XzZwa3RQM0UuanBn.webp",
-      "link": "https://www.marketingdive.com/news/publicis-race-to-lead-in-agentic-ai-gets-a-boost-from-microsoft/817060/",
-      "category": "brands",
+      "id": "canva expands into marketing automation with new acquisitions",
+      "title": "Canva expands into marketing automation with new acquisitions",
+      "summary": "With Simtheory and Ortto, Canva is moving beyond design into AI-driven workflows, campaign execution and customer data.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/canva-expands-into-marketing-automation-with-new-acquisitions/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-04-09T10:48:00-04:00",
+      "published_at": "2026-04-09T15:54:27+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.2888,
+      "score": 0.2872,
       "signals": {
-        "score": 0.2888,
-        "recency": 0.041184962589013586,
+        "score": 0.2872,
+        "recency": 0.0409983530748491,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.79,
+        "authority": 0.78,
         "engagement": 0.6
       }
     },
@@ -1513,13 +1553,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2885,
+      "score": 0.2871,
       "signals": {
-        "score": 0.2885,
-        "recency": 0.03409930175654373,
+        "score": 0.2871,
+        "recency": 0.02822342388453516,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "publicis leans on microsoft in race to lead agentic ai for marketers",
+      "title": "Publicis leans on Microsoft in race to lead agentic AI for marketers",
+      "summary": "The Epsilon identity solution and consultancy arm Sapient are in focus while Publicis is also taking over Microsoft&rsquo;s sizable global media business.",
+      "image": "https://imgproxy.divecdn.com/nVrw5rdF9p8cPaeSAY4NsHBBdWAS4A5HVCLPASAcT4U/g:nowe:0:305/c:3000:1694/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTU5ODY3MDU1XzZwa3RQM0UuanBn.webp",
+      "link": "https://www.marketingdive.com/news/publicis-race-to-lead-in-agentic-ai-gets-a-boost-from-microsoft/817060/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-09T10:48:00-04:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.287,
+      "signals": {
+        "score": 0.287,
+        "recency": 0.03408810729080073,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -1536,10 +1599,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2883,
+      "score": 0.2869,
       "signals": {
-        "score": 0.2883,
-        "recency": 0.03323891580165565,
+        "score": 0.2869,
+        "recency": 0.027511296765848712,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1559,13 +1622,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2882,
+      "score": 0.2868,
       "signals": {
-        "score": 0.2882,
-        "recency": 0.03268801147801245,
+        "score": 0.2868,
+        "recency": 0.027055322436608364,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "the latest aipowered martech news and releases",
+      "title": "The latest AI-powered martech news and releases",
+      "summary": "AI marketing is becoming more transactional and citation-driven, with ads, commerce and trust signals converging inside chatbot conversations.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-09T15:36:13+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2867,
+      "signals": {
+        "score": 0.2867,
+        "recency": 0.03897357096492815,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
         "engagement": 0.6
       }
     },
@@ -1582,10 +1668,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2878,
+      "score": 0.2864,
       "signals": {
-        "score": 0.2878,
-        "recency": 0.03109379834630254,
+        "score": 0.2864,
+        "recency": 0.025735818791056235,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1605,10 +1691,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2876,
+      "score": 0.2863,
       "signals": {
-        "score": 0.2876,
-        "recency": 0.030510570704036153,
+        "score": 0.2863,
+        "recency": 0.025253090989578498,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1628,10 +1714,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2876,
+      "score": 0.2863,
       "signals": {
-        "score": 0.2876,
-        "recency": 0.030517634153640907,
+        "score": 0.2863,
+        "recency": 0.02525893728912169,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "code in openai8217s ads manager suggests the company is building conversion tracking into chatgpt",
+      "title": "Code in OpenAI&#8217;s Ads Manager Suggests the Company Is Building Conversion Tracking Into ChatGPT",
+      "summary": "ADWEEK reviewed OpenAI's ads manager and found infrastructure for conversion-based campaigns and expanded performance-based metrics.",
+      "image": null,
+      "link": "https://www.adweek.com/media/openai-performance-marketing-expansion/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-09T12:56:01+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2862,
+      "signals": {
+        "score": 0.2862,
+        "recency": 0.024975210397994285,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1651,36 +1760,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2875,
+      "score": 0.286,
       "signals": {
-        "score": 0.2875,
-        "recency": 0.03604731796379384,
+        "score": 0.286,
+        "recency": 0.029835764440470845,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "code in openai8217s ads manager suggests the company is building conversion tracking into chatgpt",
-      "title": "Code in OpenAI&#8217;s Ads Manager Suggests the Company Is Building Conversion Tracking Into ChatGPT",
-      "summary": "ADWEEK reviewed OpenAI's ads manager and found infrastructure for conversion-based campaigns and expanded performance-based metrics.",
-      "image": null,
-      "link": "https://www.adweek.com/media/openai-performance-marketing-expansion/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-09T12:56:01+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2875,
-      "signals": {
-        "score": 0.2875,
-        "recency": 0.03017483772622727,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1697,10 +1783,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.287,
+      "score": 0.2858,
       "signals": {
-        "score": 0.287,
-        "recency": 0.028123111807764486,
+        "score": 0.2858,
+        "recency": 0.023277031042150145,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1720,59 +1806,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2857,
+      "score": 0.2847,
       "signals": {
-        "score": 0.2857,
-        "recency": 0.022662511712806862,
+        "score": 0.2847,
+        "recency": 0.018757383330761247,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "aeo strategy for saas 6 tactics that convert prospects into trials",
-      "title": "AEO strategy for SaaS: 6 tactics that convert prospects into trials",
-      "summary": "An AEO strategy for SaaS won\u2019t stray too far away from a good SEO strategy, but some tactics benefit AI search more than others, and it helps to know what these are.",
-      "image": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/aeo-for-saas-companies-1-20260401-215306.webp",
-      "link": "https://blog.hubspot.com/marketing/aeo-for-saas-companies",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-09T11:00:03+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2855,
-      "signals": {
-        "score": 0.2855,
-        "recency": 0.02186481578200927,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "how to make ai work with context instead of prompts",
-      "title": "How to make AI work with context instead of prompts",
-      "summary": "AI struggles in enterprises not because of prompts, but because it lacks context.",
-      "image": "https://martech.org/wp-content/uploads/2026/04/image-1.jpeg",
-      "link": "https://martech.org/how-to-make-ai-work-with-context-instead-of-prompts/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-09T12:49:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2844,
-      "signals": {
-        "score": 0.2844,
-        "recency": 0.029592402274687356,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
         "engagement": 0.6
       }
     },
@@ -1789,13 +1829,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2844,
+      "score": 0.2834,
       "signals": {
-        "score": 0.2844,
-        "recency": 0.02376165635625882,
+        "score": 0.2834,
+        "recency": 0.019667127037657172,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "how to make ai work with context instead of prompts",
+      "title": "How to make AI work with context instead of prompts",
+      "summary": "AI struggles in enterprises not because of prompts, but because it lacks context.",
+      "image": "https://martech.org/wp-content/uploads/2026/04/image-1.jpeg",
+      "link": "https://martech.org/how-to-make-ai-work-with-context-instead-of-prompts/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-09T12:49:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2831,
+      "signals": {
+        "score": 0.2831,
+        "recency": 0.02449313827958096,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
         "engagement": 0.6
       }
     },
@@ -1812,36 +1875,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2843,
+      "score": 0.283,
       "signals": {
-        "score": 0.2843,
-        "recency": 0.02918423772484553,
+        "score": 0.283,
+        "recency": 0.024155307282715595,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "ads and ai leveraging ai creative in 2026",
-      "title": "Ads and AI: Leveraging AI Creative in 2026",
-      "summary": "Are your competitors producing more creative than you can match because they've figured out how to use AI to do it at scale?",
-      "image": "https://www.socialmediaexaminer.com/wp-content/uploads/2026/04/SMMP713_PRIMARY.jpg",
-      "link": "https://www.socialmediaexaminer.com/ads-and-ai-leveraging-ai-creative-in-2026/",
-      "category": "social-media",
-      "geo": "global",
-      "published_at": "2026-04-09T10:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2831,
-      "signals": {
-        "score": 0.2831,
-        "recency": 0.018505596577327994,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -1858,10 +1898,10 @@
       "keywords": [
         "policy"
       ],
-      "score": 0.2788,
+      "score": 0.2753,
       "signals": {
-        "score": 0.2788,
-        "recency": 0.08125645311951896,
+        "score": 0.2753,
+        "recency": 0.06725461231199392,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1881,10 +1921,10 @@
       "keywords": [
         "game"
       ],
-      "score": 0.2751,
+      "score": 0.2738,
       "signals": {
-        "score": 0.2751,
-        "recency": 0.030510570704036153,
+        "score": 0.2738,
+        "recency": 0.025253090989578498,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
@@ -1904,32 +1944,11 @@
       "keywords": [
         "game"
       ],
-      "score": 0.2708,
+      "score": 0.2689,
       "signals": {
-        "score": 0.2708,
-        "recency": 0.04317845839185516,
+        "score": 0.2689,
+        "recency": 0.03573809055020408,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "treasury to give crypto firms same cybersecurity intel as banks",
-      "title": "Treasury to Give Crypto Firms Same Cybersecurity Intel as Banks",
-      "summary": "The Treasury Department will provide eligible U.S.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2025/03/treasury-secretary-US-crypto.png?w=457",
-      "link": "https://www.pymnts.com/cybersecurity/2026/treasury-to-give-crypto-firms-same-cybersecurity-intel-as-banks/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-10T00:14:43+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2697,
-      "signals": {
-        "score": 0.2697,
-        "recency": 0.1987973903235908,
-        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.4
@@ -1948,13 +1967,34 @@
       "keywords": [
         "policy"
       ],
-      "score": 0.2679,
+      "score": 0.2663,
       "signals": {
-        "score": 0.2679,
-        "recency": 0.0375775402205922,
+        "score": 0.2663,
+        "recency": 0.031102303905106123,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "treasury to give crypto firms same cybersecurity intel as banks",
+      "title": "Treasury to Give Crypto Firms Same Cybersecurity Intel as Banks",
+      "summary": "The Treasury Department will provide eligible U.S.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/03/treasury-secretary-US-crypto.png?w=457",
+      "link": "https://www.pymnts.com/cybersecurity/2026/treasury-to-give-crypto-firms-same-cybersecurity-intel-as-banks/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-10T00:14:43+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2611,
+      "signals": {
+        "score": 0.2611,
+        "recency": 0.16454128751083227,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1969,10 +2009,10 @@
       "published_at": "2026-04-09T21:26:18+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2571,
+      "score": 0.2518,
       "signals": {
-        "score": 0.2571,
-        "recency": 0.12451947046039023,
+        "score": 0.2518,
+        "recency": 0.10306269089533578,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1990,10 +2030,10 @@
       "published_at": "2026-04-09T22:06:45+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2548,
+      "score": 0.2488,
       "signals": {
-        "score": 0.2548,
-        "recency": 0.13932693253096262,
+        "score": 0.2488,
+        "recency": 0.11531858052192445,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2011,10 +2051,10 @@
       "published_at": "2026-04-09T19:33:45+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2428,
+      "score": 0.2388,
       "signals": {
-        "score": 0.2428,
-        "recency": 0.0910877387435682,
+        "score": 0.2388,
+        "recency": 0.07539180360929755,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2032,10 +2072,10 @@
       "published_at": "2026-04-09T15:25:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2422,
+      "score": 0.2384,
       "signals": {
-        "score": 0.2422,
-        "recency": 0.08890048948057092,
+        "score": 0.2384,
+        "recency": 0.07358145383933891,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2053,10 +2093,10 @@
       "published_at": "2026-04-09T15:46:28+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2381,
+      "score": 0.236,
       "signals": {
-        "score": 0.2381,
-        "recency": 0.04844749389646677,
+        "score": 0.236,
+        "recency": 0.04009918344210708,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2074,10 +2114,10 @@
       "published_at": "2026-04-09T13:49:56+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2348,
+      "score": 0.2333,
       "signals": {
-        "score": 0.2348,
-        "recency": 0.035050045363545744,
+        "score": 0.2333,
+        "recency": 0.02901033852629261,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2095,10 +2135,10 @@
       "published_at": "2026-04-09T12:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.234,
+      "score": 0.2328,
       "signals": {
-        "score": 0.234,
-        "recency": 0.025826640516949564,
+        "score": 0.2328,
+        "recency": 0.021376280019678024,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.85,
@@ -2116,10 +2156,10 @@
       "published_at": "2026-04-09T16:55:33+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2332,
+      "score": 0.2306,
       "signals": {
-        "score": 0.2332,
-        "recency": 0.05869642133151327,
+        "score": 0.2306,
+        "recency": 0.04858204990741965,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2137,10 +2177,10 @@
       "published_at": "2026-04-09T16:44:12+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2327,
+      "score": 0.2303,
       "signals": {
-        "score": 0.2327,
-        "recency": 0.05687472157111514,
+        "score": 0.2303,
+        "recency": 0.047074259369796534,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2158,10 +2198,10 @@
       "published_at": "2026-04-09T15:50:28+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2322,
+      "score": 0.2301,
       "signals": {
-        "score": 0.2322,
-        "recency": 0.048988801077328725,
+        "score": 0.2301,
+        "recency": 0.04054721437617974,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2179,10 +2219,10 @@
       "published_at": "2026-04-09T15:30:31+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2316,
+      "score": 0.2296,
       "signals": {
-        "score": 0.2316,
-        "recency": 0.04634785700484359,
+        "score": 0.2296,
+        "recency": 0.03836134897209432,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2200,10 +2240,10 @@
       "published_at": "2026-04-09T15:22:55+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2313,
+      "score": 0.2294,
       "signals": {
-        "score": 0.2313,
-        "recency": 0.045379658081933255,
+        "score": 0.2294,
+        "recency": 0.03755998685620863,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2221,10 +2261,10 @@
       "published_at": "2026-04-09T14:51:39+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2304,
+      "score": 0.2286,
       "signals": {
-        "score": 0.2304,
-        "recency": 0.04160465636762296,
+        "score": 0.2286,
+        "recency": 0.03443548083821133,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2242,10 +2282,10 @@
       "published_at": "2026-04-09T14:41:20+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2301,
+      "score": 0.2284,
       "signals": {
-        "score": 0.2301,
-        "recency": 0.04042929659920696,
+        "score": 0.2284,
+        "recency": 0.033462655142316625,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2263,73 +2303,10 @@
       "published_at": "2026-04-09T13:04:53+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2277,
+      "score": 0.2264,
       "signals": {
-        "score": 0.2277,
-        "recency": 0.0309272607175921,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "is fake grass a bad idea the astroturf wars are far from over",
-      "title": "Is fake grass a bad idea? The AstroTurf wars are far from over.",
-      "summary": "A rare warm spell in January melted enough snow to uncover Cornell University\u2019s newest athletic field, built for field hockey.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/04/09/1135092/astroturf-fake-grass-artificial-heated-debates/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-09T10:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2276,
-      "signals": {
-        "score": 0.2276,
-        "recency": 0.018505596577327994,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "desalination technology by the numbers",
-      "title": "Desalination technology, by the numbers",
-      "summary": "When I started digging into desalination technology for a new story, I couldn\u2019t help but obsess over the numbers.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/04/09/1135495/desalination-technology-numbers/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-09T10:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2276,
-      "signals": {
-        "score": 0.2276,
-        "recency": 0.018505596577327994,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "disney reportedly planning first large layoff under new ceo",
-      "title": "Disney Reportedly Planning First Large Layoff Under New CEO",
-      "summary": "Disney could lay off 1,000 employees, with many of those cuts affecting the marketing department.",
-      "image": null,
-      "link": "https://www.adweek.com/convergent-tv/disney-reportedly-planning-first-large-layoff-under-new-ceo/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-09T12:11:08+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2267,
-      "signals": {
-        "score": 0.2267,
-        "recency": 0.026637832061494233,
+        "score": 0.2264,
+        "recency": 0.02559797837070456,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2347,10 +2324,10 @@
       "published_at": "2026-04-09T09:00:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2261,
+      "score": 0.2248,
       "signals": {
-        "score": 0.2261,
-        "recency": 0.030510570704036153,
+        "score": 0.2248,
+        "recency": 0.025253090989578498,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2368,10 +2345,10 @@
       "published_at": "2026-04-09T12:00:08+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.225,
+      "score": 0.2238,
       "signals": {
-        "score": 0.225,
-        "recency": 0.02583620771095647,
+        "score": 0.2238,
+        "recency": 0.021384198626744254,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2389,10 +2366,10 @@
       "published_at": "2026-04-09T11:16:35+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2227,
+      "score": 0.2217,
       "signals": {
-        "score": 0.2227,
-        "recency": 0.02289239330998506,
+        "score": 0.2217,
+        "recency": 0.018947652498345267,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
