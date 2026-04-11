@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T11:55:38.648071+00:00",
+  "generated_at": "2026-04-11T13:15:22.166702+00:00",
   "sources_scanned": 503,
   "feeds_polled": 30,
   "feed_pool": 35,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 58,
+  "clusters": 49,
   "trends": [
     {
       "id": "black hat asia",
@@ -23,7 +23,7 @@
       "link": "https://aibusiness.com/events/black-hat-asia",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-11T11:55:34.318625+00:00",
+      "published_at": "2026-04-11T13:15:16.110413+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -46,7 +46,7 @@
       "link": "https://aibusiness.com/events/black-hat-usa",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-11T11:55:34.318651+00:00",
+      "published_at": "2026-04-11T13:15:16.110443+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -55,6 +55,29 @@
       "signals": {
         "score": 0.5296,
         "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "what pichais interview reveals about googles search direction via sejournal mattgsouthern",
+      "title": "What Pichai\u2019s Interview Reveals About Google\u2019s Search Direction via @sejournal, @MattGSouthern",
+      "summary": "Sundar Pichai outlines search as an \u201cagent manager,\u201d signaling a shift from link-based results to task completion and multi-step workflows.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/what-pichais-interview-reveals-about-googles-search-direction/571574/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-11T12:00:21+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.483,
+      "signals": {
+        "score": 0.483,
+        "recency": 0.8118924914202649,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -77,10 +100,10 @@
         "chip",
         "semiconductor"
       ],
-      "score": 0.4097,
+      "score": 0.408,
       "signals": {
-        "score": 0.4097,
-        "recency": 0.03261467409572149,
+        "score": 0.408,
+        "recency": 0.026135724072041046,
         "keyword_volume": 0.8,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -101,10 +124,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.3933,
+      "score": 0.392,
       "signals": {
-        "score": 0.3933,
-        "recency": 0.026234546936173254,
+        "score": 0.392,
+        "recency": 0.02102301797854792,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -126,10 +149,10 @@
         "artificial intelligence",
         "quantum"
       ],
-      "score": 0.3886,
+      "score": 0.3829,
       "signals": {
-        "score": 0.3886,
-        "recency": 0.11426408594619197,
+        "score": 0.3829,
+        "recency": 0.0915653675664176,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -149,57 +172,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3568,
+      "score": 0.3548,
       "signals": {
-        "score": 0.3568,
-        "recency": 0.040208075892127056,
+        "score": 0.3548,
+        "recency": 0.032220686121225875,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the side hustle has entered its weird era",
-      "title": "The Side Hustle Has Entered Its Weird Era",
-      "summary": "There was a time when the side hustle had a uniform: a rideshare decal, a delivery bag, maybe a second phone buzzing with low-margin urgency.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/side-hustle.png?w=457",
-      "link": "https://www.pymnts.com/the-weekender/2026/the-side-hustle-has-entered-its-weird-era/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-11T08:00:20+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.35,
-      "signals": {
-        "score": 0.35,
-        "recency": 0.5201484047372904,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "modern retail podcast has the latest sneaker bubble officially burst",
-      "title": "Modern Retail Podcast: Has the latest sneaker bubble officially burst?",
-      "summary": "Allbirds' downward trajectory is indicative of how fierce the sneaker competition has become, as newer and legacy players vie for market share.",
-      "image": null,
-      "link": "https://www.modernretail.co/podcasts/modern-retail-podcast-has-the-latest-sneaker-bubble-officially-burst/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-11T04:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3452,
-      "signals": {
-        "score": 0.3452,
-        "recency": 0.26680593848712975,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -217,13 +196,36 @@
         "ai",
         "govern"
       ],
-      "score": 0.3416,
+      "score": 0.3385,
       "signals": {
-        "score": 0.3416,
-        "recency": 0.06238802961270013,
+        "score": 0.3385,
+        "recency": 0.04999456142257633,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "modern retail podcast has the latest sneaker bubble officially burst",
+      "title": "Modern Retail Podcast: Has the latest sneaker bubble officially burst?",
+      "summary": "Allbirds' downward trajectory is indicative of how fierce the sneaker competition has become, as newer and legacy players vie for market share.",
+      "image": null,
+      "link": "https://www.modernretail.co/podcasts/modern-retail-podcast-has-the-latest-sneaker-bubble-officially-burst/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-11T04:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.332,
+      "signals": {
+        "score": 0.332,
+        "recency": 0.21380457056280516,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -241,14 +243,35 @@
         "ai",
         "bill"
       ],
-      "score": 0.3346,
+      "score": 0.3317,
       "signals": {
-        "score": 0.3346,
-        "recency": 0.058364437485040374,
+        "score": 0.3317,
+        "recency": 0.04677026142441238,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "the side hustle has entered its weird era",
+      "title": "The Side Hustle Has Entered Its Weird Era",
+      "summary": "There was a time when the side hustle had a uniform: a rideshare decal, a delivery bag, maybe a second phone buzzing with low-margin urgency.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/side-hustle.png?w=457",
+      "link": "https://www.pymnts.com/the-weekender/2026/the-side-hustle-has-entered-its-weird-era/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-11T08:00:20+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3242,
+      "signals": {
+        "score": 0.3242,
+        "recency": 0.4168202062307138,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -265,37 +288,13 @@
         "ai",
         "streaming"
       ],
-      "score": 0.325,
+      "score": 0.3237,
       "signals": {
-        "score": 0.325,
-        "recency": 0.025872696893006367,
+        "score": 0.3237,
+        "recency": 0.02073304994587927,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "south korean chipmaker partners with skt arm for sovereign ai",
-      "title": "South Korean Chipmaker Partners with SKT, Arm for Sovereign AI",
-      "summary": "Rebellions said it will work with the companies to boost AI and telecom data centers, as it pushes its market expansion.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blta688cbcd851dd871/69d8e8444005c40e375f2e9f/AI_chip_pic.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/generative-ai/south-korean-chipmaker-partners-skt-arm-sovereign-ai",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-04-10T12:01:02+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "chip"
-      ],
-      "score": 0.3246,
-      "signals": {
-        "score": 0.3246,
-        "recency": 0.01859188649666241,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -312,10 +311,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3158,
+      "score": 0.3087,
       "signals": {
-        "score": 0.3158,
-        "recency": 0.14334747414680346,
+        "score": 0.3087,
+        "recency": 0.11487130056027052,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -335,10 +334,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3137,
+      "score": 0.307,
       "signals": {
-        "score": 0.3137,
-        "recency": 0.13475603783091392,
+        "score": 0.307,
+        "recency": 0.1079865649263781,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -358,10 +357,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3027,
+      "score": 0.2994,
       "signals": {
-        "score": 0.3027,
-        "recency": 0.06671062026329523,
+        "score": 0.2994,
+        "recency": 0.05345846347441864,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -381,33 +380,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2999,
+      "score": 0.2959,
       "signals": {
-        "score": 0.2999,
-        "recency": 0.07949453193938019,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "ai is the new sales associate in physical retail",
-      "title": "AI Is the New Sales Associate in Physical Retail",
-      "summary": "Walk into a Guitar Center on a busy Saturday, and the sales floor tells the story.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/AI-physical-retail-shopping-assistants.jpeg?w=457",
-      "link": "https://www.pymnts.com/news/retail/2026/ai-is-the-new-sales-associate-in-physical-retail/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-10T19:51:16+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2972,
-      "signals": {
-        "score": 0.2972,
-        "recency": 0.06864367400072192,
+        "score": 0.2959,
+        "recency": 0.06370283345177587,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -427,14 +403,58 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2961,
+      "score": 0.2941,
       "signals": {
-        "score": 0.2961,
-        "recency": 0.040527653150500796,
+        "score": 0.2941,
+        "recency": 0.03247677891614517,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "ai is the new sales associate in physical retail",
+      "title": "AI Is the New Sales Associate in Physical Retail",
+      "summary": "Walk into a Guitar Center on a busy Saturday, and the sales floor tells the story.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/AI-physical-retail-shopping-assistants.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/retail/2026/ai-is-the-new-sales-associate-in-physical-retail/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-10T19:51:16+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2938,
+      "signals": {
+        "score": 0.2938,
+        "recency": 0.05500751341891705,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "last 24 hours save up to 500 on your techcrunch disrupt 2026 pass",
+      "title": "Last 24 hours: Save up to $500 on your TechCrunch Disrupt 2026 pass",
+      "summary": "This is it. Tonight is your last chance to lock in savings of up to $500 for your TechCrunch Disrupt 2026 pass.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/10/final-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-10T14:00:00+00:00",
+      "source_count": 2,
+      "keywords": [],
+      "score": 0.2919,
+      "signals": {
+        "score": 0.2919,
+        "recency": 0.02073304994587927,
+        "keyword_volume": 0.0,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.4
       }
     },
     {
@@ -450,35 +470,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.294,
+      "score": 0.2915,
       "signals": {
-        "score": 0.294,
-        "recency": 0.04997956213599362,
+        "score": 0.2915,
+        "recency": 0.04005105313620529,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "last 24 hours save up to 500 on your techcrunch disrupt 2026 pass",
-      "title": "Last 24 hours: Save up to $500 on your TechCrunch Disrupt 2026 pass",
-      "summary": "This is it. Tonight is your last chance to lock in savings of up to $500 for your TechCrunch Disrupt 2026 pass.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/10/final-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-10T14:00:00+00:00",
-      "source_count": 2,
-      "keywords": [],
-      "score": 0.2932,
-      "signals": {
-        "score": 0.2932,
-        "recency": 0.025872696893006367,
-        "keyword_volume": 0.0,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.4
       }
     },
     {
@@ -494,33 +493,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2923,
+      "score": 0.2911,
       "signals": {
-        "score": 0.2923,
-        "recency": 0.025306432413930373,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "snap gets closer to releasing new ai glasses after yearslong hiatus",
-      "title": "Snap gets closer to releasing new AI glasses after years-long hiatus",
-      "summary": "Specs has long been teasing the next version of its augmented reality glasses.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/10/snap-gets-closer-to-releasing-new-ai-glasses-after-years-long-hiatus/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-10T12:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2906,
-      "signals": {
-        "score": 0.2906,
-        "recency": 0.018538597412824265,
+        "score": 0.2911,
+        "recency": 0.020279274687126345,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -540,10 +516,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2892,
+      "score": 0.2874,
       "signals": {
-        "score": 0.2892,
-        "recency": 0.0369196450003622,
+        "score": 0.2874,
+        "recency": 0.029585506564781462,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -563,10 +539,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2886,
+      "score": 0.2869,
       "signals": {
-        "score": 0.2886,
-        "recency": 0.034538585782726484,
+        "score": 0.2869,
+        "recency": 0.027677448047051845,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -586,10 +562,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2885,
+      "score": 0.2868,
       "signals": {
-        "score": 0.2885,
-        "recency": 0.03407955000915841,
+        "score": 0.2868,
+        "recency": 0.02730960036346132,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -609,36 +585,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2881,
+      "score": 0.2865,
       "signals": {
-        "score": 0.2881,
-        "recency": 0.03241146806295318,
+        "score": 0.2865,
+        "recency": 0.025972885198145838,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the download an exclusive jeff vandermeer story and ai models too scary to release",
-      "title": "The Download: an exclusive Jeff VanderMeer story and AI models too scary to release",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/04/10/1135618/the-download-jeff-vandermeer-short-story-and-ai-models-too-danger-to-release/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-10T12:10:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2878,
-      "signals": {
-        "score": 0.2878,
-        "recency": 0.019060777375597637,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
         "engagement": 0.6
       }
     },
@@ -655,10 +608,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2878,
+      "score": 0.2863,
       "signals": {
-        "score": 0.2878,
-        "recency": 0.03133873603304649,
+        "score": 0.2863,
+        "recency": 0.025113252866558033,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -678,10 +631,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2878,
+      "score": 0.2862,
       "signals": {
-        "score": 0.2878,
-        "recency": 0.031116097061863787,
+        "score": 0.2862,
+        "recency": 0.024934841434285662,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -701,10 +654,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2874,
+      "score": 0.2859,
       "signals": {
-        "score": 0.2874,
-        "recency": 0.02948093532362777,
+        "score": 0.2859,
+        "recency": 0.02362450683219003,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -724,10 +677,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.286,
+      "score": 0.2848,
       "signals": {
-        "score": 0.286,
-        "recency": 0.02385588246722321,
+        "score": 0.2848,
+        "recency": 0.019116878489372345,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -747,79 +700,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2839,
+      "score": 0.2825,
       "signals": {
-        "score": 0.2839,
-        "recency": 0.027583451689444205,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "campaign trail cheetos soundtracks a heist with megan thee stallion nickelback",
-      "title": "Campaign Trail: Cheetos soundtracks a heist with Megan Thee Stallion, Nickelback",
-      "summary": "Chris Bellinger, chief creative officer at PepsiCo Foods U.S., explains how the brand and Gut Miami went big on the relaunch of Flamin&rsquo; Hot Dill Pickle snacks.",
-      "image": "https://imgproxy.divecdn.com/OfmhmpOkLFUuvTjL061F_3rvFEk8ClxnRqePSAJDZPw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9QaWNrbGVzX0JhY2tfVGVhc2VyX0ltYWdlLmpwZw==.webp",
-      "link": "https://www.marketingdive.com/news/campaign-trail-cheetos-heist-megan-thee-stallion-nickelback/816896/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-10T08:00:00-04:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2831,
-      "signals": {
-        "score": 0.2831,
-        "recency": 0.018538597412824265,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "dell agents drive more ecommerce traffic but conversions lag",
-      "title": "Dell: Agents drive more ecommerce traffic, but conversions lag",
-      "summary": "Dell sees rising traffic from AI platforms, but the impact remains inconsistent as search continues to drive most ecommerce performance.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/dell-agents-drive-more-ecommerce-traffic-but-conversions-lag/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-10T12:56:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2824,
-      "signals": {
-        "score": 0.2824,
-        "recency": 0.02165877016511493,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "a 6step ai workflow for building better seasonal campaigns",
-      "title": "A 6-step AI workflow for building better seasonal campaigns",
-      "summary": "Turn scattered inputs into clear campaign strategy by combining CRM data, research and structured prompting into a repeatable system.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/a-6-step-ai-workflow-for-building-better-seasonal-campaigns/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-10T12:10:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2818,
-      "signals": {
-        "score": 0.2818,
-        "recency": 0.019060777375597637,
+        "score": 0.2825,
+        "recency": 0.022103960940831863,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -839,10 +723,10 @@
       "keywords": [
         "regulation"
       ],
-      "score": 0.2812,
+      "score": 0.277,
       "signals": {
-        "score": 0.2812,
-        "recency": 0.08482152556272105,
+        "score": 0.277,
+        "recency": 0.0679716124395574,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -862,10 +746,10 @@
       "keywords": [
         "music"
       ],
-      "score": 0.2732,
+      "score": 0.2718,
       "signals": {
-        "score": 0.2732,
-        "recency": 0.028810345314636176,
+        "score": 0.2718,
+        "recency": 0.023087130454028673,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -883,10 +767,10 @@
       "published_at": "2026-04-11T00:44:17+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2647,
+      "score": 0.257,
       "signals": {
-        "score": 0.2647,
-        "recency": 0.15491307677020874,
+        "score": 0.257,
+        "recency": 0.12413938025976534,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -904,10 +788,10 @@
       "published_at": "2026-04-10T23:36:32+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2521,
+      "score": 0.2457,
       "signals": {
-        "score": 0.2521,
-        "recency": 0.12833829665935984,
+        "score": 0.2457,
+        "recency": 0.10284371689627866,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -925,10 +809,10 @@
       "published_at": "2026-04-10T21:18:09+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2478,
+      "score": 0.2435,
       "signals": {
-        "score": 0.2478,
-        "recency": 0.08738044987430121,
+        "score": 0.2435,
+        "recency": 0.07002220290483113,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -946,10 +830,10 @@
       "published_at": "2026-04-10T22:43:18+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2477,
+      "score": 0.2422,
       "signals": {
-        "score": 0.2477,
-        "recency": 0.11069728899623862,
+        "score": 0.2422,
+        "recency": 0.0887071197534429,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -967,10 +851,10 @@
       "published_at": "2026-04-10T20:27:52+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.245,
+      "score": 0.2412,
       "signals": {
-        "score": 0.245,
-        "recency": 0.07598953595965004,
+        "score": 0.2412,
+        "recency": 0.06089410976099224,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -988,10 +872,10 @@
       "published_at": "2026-04-10T21:16:22+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2432,
+      "score": 0.2389,
       "signals": {
-        "score": 0.2432,
-        "recency": 0.08694866337030317,
+        "score": 0.2389,
+        "recency": 0.06967619138580129,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1009,10 +893,10 @@
       "published_at": "2026-04-10T20:53:54+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2419,
+      "score": 0.2379,
       "signals": {
-        "score": 0.2419,
-        "recency": 0.08168827354310432,
+        "score": 0.2379,
+        "recency": 0.06546078525813201,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1030,34 +914,13 @@
       "published_at": "2026-04-10T20:25:05+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2404,
+      "score": 0.2366,
       "signals": {
-        "score": 0.2404,
-        "recency": 0.07540428959559939,
+        "score": 0.2366,
+        "recency": 0.060425123394913516,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "project glasswing the 10 consequences nobodys writing about yet",
-      "title": "Project Glasswing: The 10 Consequences Nobody\u2019s Writing About Yet",
-      "summary": "Anthropic\u2019s Project Glasswing and Claude Mythos Preview prove that autonomous zero-day discovery now operates at scale.",
-      "image": null,
-      "link": "https://www.forrester.com/blogs/project-glasswing-the-10-consequences-nobodys-writing-about-yet/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-10T18:47:47+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2344,
-      "signals": {
-        "score": 0.2344,
-        "recency": 0.057546101213854936,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1072,13 +935,34 @@
       "published_at": "2026-04-10T14:39:32+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2332,
+      "score": 0.2318,
       "signals": {
-        "score": 0.2332,
-        "recency": 0.028875776304153087,
+        "score": 0.2318,
+        "recency": 0.023139563487170625,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "project glasswing the 10 consequences nobodys writing about yet",
+      "title": "Project Glasswing: The 10 Consequences Nobody\u2019s Writing About Yet",
+      "summary": "Anthropic\u2019s Project Glasswing and Claude Mythos Preview prove that autonomous zero-day discovery now operates at scale.",
+      "image": null,
+      "link": "https://www.forrester.com/blogs/project-glasswing-the-10-consequences-nobodys-writing-about-yet/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-10T18:47:47+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2315,
+      "signals": {
+        "score": 0.2315,
+        "recency": 0.046114488782960456,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1093,10 +977,10 @@
       "published_at": "2026-04-10T16:03:07+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2306,
+      "score": 0.2288,
       "signals": {
-        "score": 0.2306,
-        "recency": 0.03642221823126813,
+        "score": 0.2288,
+        "recency": 0.029186894309913204,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1114,10 +998,10 @@
       "published_at": "2026-04-10T16:49:27+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2304,
+      "score": 0.2283,
       "signals": {
-        "score": 0.2304,
-        "recency": 0.041424922112369034,
+        "score": 0.2283,
+        "recency": 0.03319580416033338,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1135,34 +1019,13 @@
       "published_at": "2026-04-10T14:04:20+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2295,
+      "score": 0.2282,
       "signals": {
-        "score": 0.2295,
-        "recency": 0.02618600939788314,
+        "score": 0.2282,
+        "recency": 0.020984122489230338,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "revolving door roundup cnn names alex maccallum coo",
-      "title": "Revolving Door Roundup: CNN Names Alex MacCallum COO",
-      "summary": "CNN names new COO and other moves from around the news industry.",
-      "image": null,
-      "link": "https://www.adweek.com/tvnewser/revolving-door-roundup-cnn-names-alex-maccallum-coo/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-10T16:02:03+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2291,
-      "signals": {
-        "score": 0.2291,
-        "recency": 0.03631446026788243,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1177,13 +1040,34 @@
       "published_at": "2026-04-10T14:54:17+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.229,
+      "score": 0.2275,
       "signals": {
-        "score": 0.229,
-        "recency": 0.030083452678672493,
+        "score": 0.2275,
+        "recency": 0.024107333283064504,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "revolving door roundup cnn names alex maccallum coo",
+      "title": "Revolving Door Roundup: CNN Names Alex MacCallum COO",
+      "summary": "CNN names new COO and other moves from around the news industry.",
+      "image": null,
+      "link": "https://www.adweek.com/tvnewser/revolving-door-roundup-cnn-names-alex-maccallum-coo/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-10T16:02:03+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2273,
+      "signals": {
+        "score": 0.2273,
+        "recency": 0.02910054261468093,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1198,10 +1082,10 @@
       "published_at": "2026-04-10T11:08:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2278,
+      "score": 0.2263,
       "signals": {
-        "score": 0.2278,
-        "recency": 0.031251804782255733,
+        "score": 0.2263,
+        "recency": 0.025043590628718804,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1219,97 +1103,13 @@
       "published_at": "2026-04-10T14:07:06+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2266,
+      "score": 0.2253,
       "signals": {
-        "score": 0.2266,
-        "recency": 0.026388029014140748,
+        "score": 0.2253,
+        "recency": 0.021146010629892187,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "youtuber jesser launches parent company preps business expansion",
-      "title": "YouTuber Jesser Launches Parent Company, Preps Business Expansion",
-      "summary": "The media company, which generates an eight-figure revenue, has content and product debuts coming later this year.",
-      "image": null,
-      "link": "https://www.adweek.com/media/youtuber-jesser-parent-company-jesserco/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-10T13:08:07+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2256,
-      "signals": {
-        "score": 0.2256,
-        "recency": 0.02240015477169273,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "core update done gsc bug fixed mueller on gurus seo pulse via sejournal mattgsouthern",
-      "title": "Core Update Done, GSC Bug Fixed, Mueller On Gurus \u2013 SEO Pulse via @sejournal, @MattGSouthern",
-      "summary": "Google's March core update finished rolling out.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/seo-pulse-core-update-done-gsc-bug-fixed-mueller-on-gurus/571626/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-10T12:30:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.225,
-      "signals": {
-        "score": 0.225,
-        "recency": 0.020149676600442465,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "ecomfuel founder on 2026 industry trends",
-      "title": "EcomFuel Founder on 2026 Industry Trends",
-      "summary": "Andrew Youderian recaps his company's annual trends report, addressing the state of ecommerce among 300 participating businesses.",
-      "image": null,
-      "link": "https://www.practicalecommerce.com/ecomfuel-founder-on-2026-industry-trends",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-10T13:03:17+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2225,
-      "signals": {
-        "score": 0.2225,
-        "recency": 0.0221014218235563,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "marketing that pleases everyone converts no one",
-      "title": "Marketing that pleases everyone converts no one",
-      "summary": "Safe marketing gets approved but ignored.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/marketing-that-pleases-everyone-converts-no-one/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-10T12:55:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2224,
-      "signals": {
-        "score": 0.2224,
-        "recency": 0.021598690397409623,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.78,
         "engagement": 0.4
       }
     }
