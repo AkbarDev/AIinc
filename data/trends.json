@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T09:58:39.672073+00:00",
+  "generated_at": "2026-04-11T10:50:14.415637+00:00",
   "sources_scanned": 503,
   "feeds_polled": 30,
   "feed_pool": 35,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 63,
+  "clusters": 62,
   "trends": [
     {
       "id": "black hat asia",
@@ -23,7 +23,7 @@
       "link": "https://aibusiness.com/events/black-hat-asia",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-11T09:58:36.713492+00:00",
+      "published_at": "2026-04-11T10:50:09.478910+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -46,7 +46,7 @@
       "link": "https://aibusiness.com/events/black-hat-usa",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-11T09:58:36.713518+00:00",
+      "published_at": "2026-04-11T10:50:09.478938+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -77,59 +77,13 @@
         "chip",
         "semiconductor"
       ],
-      "score": 0.4128,
+      "score": 0.4113,
       "signals": {
-        "score": 0.4128,
-        "recency": 0.04513756854714874,
+        "score": 0.4113,
+        "recency": 0.039112407351872235,
         "keyword_volume": 0.8,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the side hustle has entered its weird era",
-      "title": "The Side Hustle Has Entered Its Weird Era",
-      "summary": "There was a time when the side hustle had a uniform: a rideshare decal, a delivery bag, maybe a second phone buzzing with low-margin urgency.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/side-hustle.png?w=457",
-      "link": "https://www.pymnts.com/the-weekender/2026/the-side-hustle-has-entered-its-weird-era/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-11T08:00:20+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4,
-      "signals": {
-        "score": 0.4,
-        "recency": 0.7198672047009493,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "bmo accelerates quantum push with new tech institute",
-      "title": "BMO Accelerates Quantum Push With New Tech Institute",
-      "summary": "BMO has established an enterprise-wide organization focused on artificial intelligence (AI) and quantum computing.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2023/11/BMO-Financial-Group.jpg?w=457",
-      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/bmo-accelerates-quantum-push-with-new-tech-institute/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-10T22:54:43+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "artificial intelligence",
-        "quantum"
-      ],
-      "score": 0.3995,
-      "signals": {
-        "score": 0.3995,
-        "recency": 0.1581374996032882,
-        "keyword_volume": 0.6,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -147,11 +101,80 @@
         "ai",
         "bill"
       ],
-      "score": 0.3958,
+      "score": 0.3946,
       "signals": {
-        "score": 0.3958,
-        "recency": 0.03630769564520205,
+        "score": 0.3946,
+        "recency": 0.03146118472463985,
         "keyword_volume": 0.4,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "bmo accelerates quantum push with new tech institute",
+      "title": "BMO Accelerates Quantum Push With New Tech Institute",
+      "summary": "BMO has established an enterprise-wide organization focused on artificial intelligence (AI) and quantum computing.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2023/11/BMO-Financial-Group.jpg?w=457",
+      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/bmo-accelerates-quantum-push-with-new-tech-institute/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-10T22:54:43+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "artificial intelligence",
+        "quantum"
+      ],
+      "score": 0.3943,
+      "signals": {
+        "score": 0.3943,
+        "recency": 0.13702861056039425,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "the side hustle has entered its weird era",
+      "title": "The Side Hustle Has Entered Its Weird Era",
+      "summary": "There was a time when the side hustle had a uniform: a rideshare decal, a delivery bag, maybe a second phone buzzing with low-margin urgency.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/side-hustle.png?w=457",
+      "link": "https://www.pymnts.com/the-weekender/2026/the-side-hustle-has-entered-its-weird-era/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-11T08:00:20+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3759,
+      "signals": {
+        "score": 0.3759,
+        "recency": 0.6237761637538557,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "techcrunch is heading to tokyo and bringing the startup battlefield with it",
+      "title": "TechCrunch is heading to Tokyo \u2014 and bringing the Startup Battlefield with it",
+      "summary": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-10T16:38:43+00:00",
+      "source_count": 2,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3588,
+      "signals": {
+        "score": 0.3588,
+        "recency": 0.04821862203842077,
+        "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.6
@@ -170,36 +193,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3708,
+      "score": 0.3585,
       "signals": {
-        "score": 0.3708,
-        "recency": 0.3692500897572666,
+        "score": 0.3585,
+        "recency": 0.3199609635644385,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "techcrunch is heading to tokyo and bringing the startup battlefield with it",
-      "title": "TechCrunch is heading to Tokyo \u2014 and bringing the Startup Battlefield with it",
-      "summary": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-10T16:38:43+00:00",
-      "source_count": 2,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3607,
-      "signals": {
-        "score": 0.3607,
-        "recency": 0.055646571123270136,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
         "engagement": 0.6
       }
     },
@@ -217,10 +217,10 @@
         "ai",
         "govern"
       ],
-      "score": 0.3476,
+      "score": 0.3447,
       "signals": {
-        "score": 0.3476,
-        "recency": 0.0863428515305696,
+        "score": 0.3447,
+        "recency": 0.07481742791391874,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -241,34 +241,11 @@
         "ai",
         "bill"
       ],
-      "score": 0.3402,
+      "score": 0.3375,
       "signals": {
-        "score": 0.3402,
-        "recency": 0.08077434071439578,
+        "score": 0.3375,
+        "recency": 0.0699922264155705,
         "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "cftc names task force to set ai and prediction market rules",
-      "title": "CFTC Names Task Force to Set AI and Prediction Market Rules",
-      "summary": "The Commodity Futures Trading Commission (CFTC) has announced the members of its newly formed Innovation Task Force (ITF).",
-      "image": "https://www.pymnts.com/wp-content/uploads/2022/03/CFTC.jpg?w=457",
-      "link": "https://www.pymnts.com/news/regulation/2026/cftc-names-task-force-to-set-ai-and-prediction-market-rules/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-11T00:16:21+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3296,
-      "signals": {
-        "score": 0.3296,
-        "recency": 0.19838789194618295,
-        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -288,10 +265,10 @@
         "ai",
         "streaming"
       ],
-      "score": 0.3275,
+      "score": 0.3263,
       "signals": {
-        "score": 0.3275,
-        "recency": 0.035806907837870355,
+        "score": 0.3263,
+        "recency": 0.03102724427663481,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -312,36 +289,13 @@
         "ai",
         "bill"
       ],
-      "score": 0.3269,
+      "score": 0.3262,
       "signals": {
-        "score": 0.3269,
-        "recency": 0.021734080791038658,
+        "score": 0.3262,
+        "recency": 0.018832920085840643,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "walmart marketplace powers general merchandise surge",
-      "title": "Walmart Marketplace Powers General Merchandise Surge",
-      "summary": "Walmart\u2019s marketplace is playing a key role in its efforts to grow its general merchandise business, Walmart Chief Financial Officer John David Rainey said Wednesday (April 8).",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/03/Walmart-1.jpg?w=457",
-      "link": "https://www.pymnts.com/walmart/2026/walmart-marketplace-powers-general-merchandise-surge/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-10T23:54:06+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3266,
-      "signals": {
-        "score": 0.3266,
-        "recency": 0.18649764449226777,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -359,11 +313,57 @@
         "ai",
         "chip"
       ],
-      "score": 0.3264,
+      "score": 0.3256,
       "signals": {
-        "score": 0.3264,
-        "recency": 0.025730520829395507,
+        "score": 0.3256,
+        "recency": 0.02229589772882711,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "cftc names task force to set ai and prediction market rules",
+      "title": "CFTC Names Task Force to Set AI and Prediction Market Rules",
+      "summary": "The Commodity Futures Trading Commission (CFTC) has announced the members of its newly formed Innovation Task Force (ITF).",
+      "image": "https://www.pymnts.com/wp-content/uploads/2022/03/CFTC.jpg?w=457",
+      "link": "https://www.pymnts.com/news/regulation/2026/cftc-names-task-force-to-set-ai-and-prediction-market-rules/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-11T00:16:21+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.323,
+      "signals": {
+        "score": 0.323,
+        "recency": 0.17190620348486793,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "walmart marketplace powers general merchandise surge",
+      "title": "Walmart Marketplace Powers General Merchandise Surge",
+      "summary": "Walmart\u2019s marketplace is playing a key role in its efforts to grow its general merchandise business, Walmart Chief Financial Officer John David Rainey said Wednesday (April 8).",
+      "image": "https://www.pymnts.com/wp-content/uploads/2024/03/Walmart-1.jpg?w=457",
+      "link": "https://www.pymnts.com/walmart/2026/walmart-marketplace-powers-general-merchandise-surge/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-10T23:54:06+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3204,
+      "signals": {
+        "score": 0.3204,
+        "recency": 0.16160311856246415,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -382,10 +382,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3091,
+      "score": 0.306,
       "signals": {
-        "score": 0.3091,
-        "recency": 0.0923251658477345,
+        "score": 0.306,
+        "recency": 0.08000119660175758,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -405,10 +405,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3075,
+      "score": 0.3038,
       "signals": {
-        "score": 0.3075,
-        "recency": 0.11001765260649925,
+        "score": 0.3038,
+        "recency": 0.0953320124044206,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -428,10 +428,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3038,
+      "score": 0.3006,
       "signals": {
-        "score": 0.3038,
-        "recency": 0.09500044462937547,
+        "score": 0.3006,
+        "recency": 0.08231936740393679,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -451,10 +451,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3,
+      "score": 0.2982,
       "signals": {
-        "score": 0.3,
-        "recency": 0.056088854874553944,
+        "score": 0.2982,
+        "recency": 0.04860186780911967,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -474,10 +474,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2988,
+      "score": 0.2965,
       "signals": {
-        "score": 0.2988,
-        "recency": 0.0691699664160015,
+        "score": 0.2965,
+        "recency": 0.059936855042424984,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -495,10 +495,10 @@
       "published_at": "2026-04-10T14:00:00+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.2957,
+      "score": 0.2945,
       "signals": {
-        "score": 0.2957,
-        "recency": 0.035806907837870355,
+        "score": 0.2945,
+        "recency": 0.03102724427663481,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -518,10 +518,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2948,
+      "score": 0.2936,
       "signals": {
-        "score": 0.2948,
-        "recency": 0.03502321759877454,
+        "score": 0.2936,
+        "recency": 0.030348164457854054,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "snap gets closer to releasing new ai glasses after yearslong hiatus",
+      "title": "Snap gets closer to releasing new AI glasses after years-long hiatus",
+      "summary": "Specs has long been teasing the next version of its augmented reality glasses.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/10/snap-gets-closer-to-releasing-new-ai-glasses-after-years-long-hiatus/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-10T12:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2916,
+      "signals": {
+        "score": 0.2916,
+        "recency": 0.02223199200503025,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -541,36 +564,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2928,
+      "score": 0.2911,
       "signals": {
-        "score": 0.2928,
-        "recency": 0.05109549775200291,
+        "score": 0.2911,
+        "recency": 0.04427504595945389,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "snap gets closer to releasing new ai glasses after yearslong hiatus",
-      "title": "Snap gets closer to releasing new AI glasses after years-long hiatus",
-      "summary": "Specs has long been teasing the next version of its augmented reality glasses.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/10/snap-gets-closer-to-releasing-new-ai-glasses-after-years-long-hiatus/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-10T12:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2924,
-      "signals": {
-        "score": 0.2924,
-        "recency": 0.025656770600664142,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -587,10 +587,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.292,
+      "score": 0.2904,
       "signals": {
-        "score": 0.292,
-        "recency": 0.04780019505066606,
+        "score": 0.2904,
+        "recency": 0.04141961475766503,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -610,10 +610,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2918,
+      "score": 0.2902,
       "signals": {
-        "score": 0.2918,
-        "recency": 0.04716490559064532,
+        "score": 0.2902,
+        "recency": 0.040869126529201244,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -633,10 +633,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2912,
+      "score": 0.2897,
       "signals": {
-        "score": 0.2912,
-        "recency": 0.04485633850307854,
+        "score": 0.2897,
+        "recency": 0.03886871713112481,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -656,10 +656,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2908,
+      "score": 0.2894,
       "signals": {
-        "score": 0.2908,
-        "recency": 0.04337171488272521,
+        "score": 0.2894,
+        "recency": 0.03758226760199658,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -679,10 +679,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2908,
+      "score": 0.2893,
       "signals": {
-        "score": 0.2908,
-        "recency": 0.043063590331379624,
+        "score": 0.2893,
+        "recency": 0.03731527287110513,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -702,10 +702,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2902,
+      "score": 0.2888,
       "signals": {
-        "score": 0.2902,
-        "recency": 0.04080058366055763,
+        "score": 0.2888,
+        "recency": 0.035354342284940755,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -725,13 +725,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2896,
+      "score": 0.2887,
       "signals": {
-        "score": 0.2896,
-        "recency": 0.02637944941065177,
+        "score": 0.2887,
+        "recency": 0.022858204468629784,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "what i learned about the future of search and ai from sundar pichais latest interview via sejournal mariehaynes",
+      "title": "What I Learned About The Future Of Search And AI From Sundar Pichai\u2019s Latest Interview via @sejournal, @marie_haynes",
+      "summary": "Explore key takeaways from Sundar Pichai on agentic systems, robotics, and the future of AI-driven search and productivity.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/what-i-learned-about-the-future-of-search-and-ai-from-sundar-pichais-latest-interview/571376/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-10T13:30:47+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2872,
+      "signals": {
+        "score": 0.2872,
+        "recency": 0.028608625370836475,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -748,37 +771,14 @@
       "keywords": [
         "regulation"
       ],
-      "score": 0.2893,
+      "score": 0.2854,
       "signals": {
-        "score": 0.2893,
-        "recency": 0.11739002551809344,
+        "score": 0.2854,
+        "recency": 0.10172028855108503,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "what i learned about the future of search and ai from sundar pichais latest interview via sejournal mariehaynes",
-      "title": "What I Learned About The Future Of Search And AI From Sundar Pichai\u2019s Latest Interview via @sejournal, @marie_haynes",
-      "summary": "Explore key takeaways from Sundar Pichai on agentic systems, robotics, and the future of AI-driven search and productivity.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/what-i-learned-about-the-future-of-search-and-ai-from-sundar-pichais-latest-interview/571376/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-10T13:30:47+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2883,
-      "signals": {
-        "score": 0.2883,
-        "recency": 0.0330157071923116,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       }
     },
     {
@@ -794,10 +794,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2865,
+      "score": 0.2853,
       "signals": {
-        "score": 0.2865,
-        "recency": 0.0381745326580646,
+        "score": 0.2853,
+        "recency": 0.03307882812141172,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -817,10 +817,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2859,
+      "score": 0.2851,
       "signals": {
-        "score": 0.2859,
-        "recency": 0.023651312469467067,
+        "score": 0.2851,
+        "recency": 0.020494231246548738,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -840,10 +840,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2859,
+      "score": 0.2851,
       "signals": {
-        "score": 0.2859,
-        "recency": 0.02346263954982679,
+        "score": 0.2851,
+        "recency": 0.020330743218133353,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -863,10 +863,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2849,
+      "score": 0.2841,
       "signals": {
-        "score": 0.2849,
-        "recency": 0.025656770600664142,
+        "score": 0.2841,
+        "recency": 0.02223199200503025,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -886,10 +886,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2845,
+      "score": 0.2835,
       "signals": {
-        "score": 0.2845,
-        "recency": 0.02997498059019584,
+        "score": 0.2835,
+        "recency": 0.02597378833074654,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -909,35 +909,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2836,
+      "score": 0.2827,
       "signals": {
-        "score": 0.2836,
-        "recency": 0.02637944941065177,
+        "score": 0.2827,
+        "recency": 0.022858204468629784,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "nasa artemis ii splashes down in pacific ocean in perfect landing for moon mission",
-      "title": "NASA Artemis II splashes down in Pacific Ocean in \u2018perfect\u2019 landing for Moon mission",
-      "summary": "The Integrity craft splashed down in the Pacific Ocean off the coast of San Diego just after 5:07 p.m.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/10/nasa-artemis-ii-landing-pacific-ocean-splash-down/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-11T00:44:17+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2796,
-      "signals": {
-        "score": 0.2796,
-        "recency": 0.21439428157530765,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       }
     },
     {
@@ -953,11 +932,32 @@
       "keywords": [
         "music"
       ],
-      "score": 0.276,
+      "score": 0.2746,
       "signals": {
-        "score": 0.276,
-        "recency": 0.039872510535894336,
+        "score": 0.2746,
+        "recency": 0.034550152443251825,
         "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "nasa artemis ii splashes down in pacific ocean in perfect landing for moon mission",
+      "title": "NASA Artemis II splashes down in Pacific Ocean in \u2018perfect\u2019 landing for Moon mission",
+      "summary": "The Integrity craft splashed down in the Pacific Ocean off the coast of San Diego just after 5:07 p.m.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/10/nasa-artemis-ii-landing-pacific-ocean-splash-down/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-11T00:44:17+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2724,
+      "signals": {
+        "score": 0.2724,
+        "recency": 0.1857759898193526,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -974,10 +974,10 @@
       "published_at": "2026-04-10T23:36:32+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2644,
+      "score": 0.2585,
       "signals": {
-        "score": 0.2644,
-        "recency": 0.17761571511291258,
+        "score": 0.2585,
+        "recency": 0.15390678818540746,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -995,10 +995,10 @@
       "published_at": "2026-04-10T22:43:18+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2583,
+      "score": 0.2532,
       "signals": {
-        "score": 0.2583,
-        "recency": 0.15320117734080693,
+        "score": 0.2532,
+        "recency": 0.1327512103067982,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1016,10 +1016,10 @@
       "published_at": "2026-04-10T21:18:09+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2562,
+      "score": 0.2522,
       "signals": {
-        "score": 0.2562,
-        "recency": 0.12093148729023695,
+        "score": 0.2522,
+        "recency": 0.10478902042813493,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1037,10 +1037,10 @@
       "published_at": "2026-04-10T20:27:52+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2523,
+      "score": 0.2488,
       "signals": {
-        "score": 0.2523,
-        "recency": 0.10516686072588054,
+        "score": 0.2488,
+        "recency": 0.09112872556109554,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1058,10 +1058,10 @@
       "published_at": "2026-04-10T21:16:22+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2516,
+      "score": 0.2476,
       "signals": {
-        "score": 0.2516,
-        "recency": 0.12033390986650601,
+        "score": 0.2476,
+        "recency": 0.10427121026747391,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1079,10 +1079,10 @@
       "published_at": "2026-04-10T20:53:54+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2498,
+      "score": 0.246,
       "signals": {
-        "score": 0.2498,
-        "recency": 0.11305371427991077,
+        "score": 0.246,
+        "recency": 0.0979628072110093,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1100,10 +1100,10 @@
       "published_at": "2026-04-10T20:25:05+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2476,
+      "score": 0.2441,
       "signals": {
-        "score": 0.2476,
-        "recency": 0.1043569002216984,
+        "score": 0.2441,
+        "recency": 0.0904268821477666,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1121,10 +1121,10 @@
       "published_at": "2026-04-10T18:47:47+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2399,
+      "score": 0.2373,
       "signals": {
-        "score": 0.2399,
-        "recency": 0.07964179192893678,
+        "score": 0.2373,
+        "recency": 0.06901085522371132,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1142,34 +1142,13 @@
       "published_at": "2026-04-10T14:39:32+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.236,
+      "score": 0.2347,
       "signals": {
-        "score": 0.236,
-        "recency": 0.039963064737532535,
+        "score": 0.2347,
+        "recency": 0.034628619071736616,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "context graphs are a convergence not an invention",
-      "title": "Context Graphs Are A Convergence, Not An Invention",
-      "summary": "We\u2019ve Been Building The Foundation For 40 Years A year ago, I wrote about the graphic future of IT management \u2014 IT management platforms converging on graph architectures",
-      "image": null,
-      "link": "https://www.forrester.com/blogs/context-graphs-are-a-convergence-not-an-invention/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-10T16:49:27+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2343,
-      "signals": {
-        "score": 0.2343,
-        "recency": 0.057330643743965626,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1184,10 +1163,10 @@
       "published_at": "2026-04-10T16:03:07+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2341,
+      "score": 0.2324,
       "signals": {
-        "score": 0.2341,
-        "recency": 0.05040707649654982,
+        "score": 0.2324,
+        "recency": 0.0436785182013217,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1195,20 +1174,20 @@
       }
     },
     {
-      "id": "revolving door roundup cnn names alex maccallum coo",
-      "title": "Revolving Door Roundup: CNN Names Alex MacCallum COO",
-      "summary": "CNN names new COO and other moves from around the news industry.",
+      "id": "context graphs are a convergence not an invention",
+      "title": "Context Graphs Are A Convergence, Not An Invention",
+      "summary": "We\u2019ve Been Building The Foundation For 40 Years A year ago, I wrote about the graphic future of IT management \u2014 IT management platforms converging on graph architectures",
       "image": null,
-      "link": "https://www.adweek.com/tvnewser/revolving-door-roundup-cnn-names-alex-maccallum-coo/",
+      "link": "https://www.forrester.com/blogs/context-graphs-are-a-convergence-not-an-invention/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-04-10T16:02:03+00:00",
+      "published_at": "2026-04-10T16:49:27+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2326,
+      "score": 0.2324,
       "signals": {
-        "score": 0.2326,
-        "recency": 0.05025794324307784,
+        "score": 0.2324,
+        "recency": 0.04967789723801363,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1226,13 +1205,34 @@
       "published_at": "2026-04-10T14:04:20+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2321,
+      "score": 0.2309,
       "signals": {
-        "score": 0.2321,
-        "recency": 0.036240521389367064,
+        "score": 0.2309,
+        "recency": 0.03140297718395162,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "revolving door roundup cnn names alex maccallum coo",
+      "title": "Revolving Door Roundup: CNN Names Alex MacCallum COO",
+      "summary": "CNN names new COO and other moves from around the news industry.",
+      "image": null,
+      "link": "https://www.adweek.com/tvnewser/revolving-door-roundup-cnn-names-alex-maccallum-coo/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-10T16:02:03+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2309,
+      "signals": {
+        "score": 0.2309,
+        "recency": 0.04354929191051224,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1247,10 +1247,10 @@
       "published_at": "2026-04-10T14:54:17+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2319,
+      "score": 0.2305,
       "signals": {
-        "score": 0.2319,
-        "recency": 0.04163444661237985,
+        "score": 0.2305,
+        "recency": 0.03607689754205963,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1268,10 +1268,10 @@
       "published_at": "2026-04-10T11:08:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2308,
+      "score": 0.2294,
       "signals": {
-        "score": 0.2308,
-        "recency": 0.04325140507125994,
+        "score": 0.2294,
+        "recency": 0.03747801727336975,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1289,10 +1289,10 @@
       "published_at": "2026-04-10T14:07:06+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2291,
+      "score": 0.2279,
       "signals": {
-        "score": 0.2291,
-        "recency": 0.036520109474470555,
+        "score": 0.2279,
+        "recency": 0.03164524462163769,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1310,34 +1310,13 @@
       "published_at": "2026-04-10T13:08:07+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2278,
+      "score": 0.2267,
       "signals": {
-        "score": 0.2278,
-        "recency": 0.031001030962521853,
+        "score": 0.2267,
+        "recency": 0.02686287698610987,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "constellations",
-      "title": "Constellations",
-      "summary": "I. We had crash-landed on the planet.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/04/10/1135106/jeff-vandermeer-constellations-science-fiction/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-10T10:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2276,
-      "signals": {
-        "score": 0.2276,
-        "recency": 0.01838387946358494,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.82,
         "engagement": 0.4
       }
     },
@@ -1352,10 +1331,10 @@
       "published_at": "2026-04-10T12:30:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.227,
+      "score": 0.226,
       "signals": {
-        "score": 0.227,
-        "recency": 0.02788644786349906,
+        "score": 0.226,
+        "recency": 0.024164042139190958,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1373,10 +1352,10 @@
       "published_at": "2026-04-10T10:52:01+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2253,
+      "score": 0.2246,
       "signals": {
-        "score": 0.2253,
-        "recency": 0.021241671841945923,
+        "score": 0.2246,
+        "recency": 0.01840624004922091,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1394,10 +1373,10 @@
       "published_at": "2026-04-10T13:03:17+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2246,
+      "score": 0.2236,
       "signals": {
-        "score": 0.2246,
-        "recency": 0.030587595007766484,
+        "score": 0.2236,
+        "recency": 0.026504628281166644,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1415,10 +1394,10 @@
       "published_at": "2026-04-10T12:55:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2245,
+      "score": 0.2235,
       "signals": {
-        "score": 0.2245,
-        "recency": 0.029891832292434653,
+        "score": 0.2235,
+        "recency": 0.025901739033513053,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
