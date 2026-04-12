@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-12T15:04:45.841669+00:00",
-  "sources_scanned": 493,
-  "feeds_polled": 29,
+  "generated_at": "2026-04-12T15:51:03.581351+00:00",
+  "sources_scanned": 503,
+  "feeds_polled": 30,
   "feed_pool": 35,
   "continent_counts": {
-    "NA": 333,
+    "NA": 343,
     "SA": 0,
     "EU": 160,
     "AF": 0,
@@ -13,31 +13,8 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 13,
+  "clusters": 14,
   "trends": [
-    {
-      "id": "at the humanx conference everyone was talking about claude",
-      "title": "At the HumanX conference, everyone was talking about Claude",
-      "summary": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-12T15:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.5327,
-      "signals": {
-        "score": 0.5327,
-        "recency": 0.9868537660045853,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
     {
       "id": "black hat asia",
       "title": "Black Hat Asia",
@@ -46,7 +23,7 @@
       "link": "https://aibusiness.com/events/black-hat-asia",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-12T15:04:23.980729+00:00",
+      "published_at": "2026-04-12T15:51:00.286612+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -69,7 +46,7 @@
       "link": "https://aibusiness.com/events/black-hat-usa",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-12T15:04:23.980755+00:00",
+      "published_at": "2026-04-12T15:51:00.286638+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -81,6 +58,52 @@
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "from llms to hallucinations heres a simple guide to common ai terms",
+      "title": "From LLMs to hallucinations, here\u2019s a simple guide to common AI terms",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-12T15:07:08+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5073,
+      "signals": {
+        "score": 0.5073,
+        "recency": 0.8851327412231952,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "at the humanx conference everyone was talking about claude",
+      "title": "At the HumanX conference, everyone was talking about Claude",
+      "summary": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-12T15:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5029,
+      "signals": {
+        "score": 0.5029,
+        "recency": 0.8677666212913271,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -97,10 +120,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4429,
+      "score": 0.4232,
       "signals": {
-        "score": 0.4429,
-        "recency": 0.6515386263845783,
+        "score": 0.4232,
+        "recency": 0.5729151490676996,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -120,10 +143,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4427,
+      "score": 0.423,
       "signals": {
-        "score": 0.4427,
-        "recency": 0.6507247119041263,
+        "score": 0.423,
+        "recency": 0.5721994525348877,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -143,35 +166,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4375,
+      "score": 0.4181,
       "signals": {
-        "score": 0.4375,
-        "recency": 0.6418979122043628,
+        "score": 0.4181,
+        "recency": 0.5644378140671236,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "slate auto everything you need to know about the bezosbacked ev startup",
-      "title": "Slate Auto: Everything you need to know about the Bezos-backed EV startup",
-      "summary": "Slate auto burst onto the scene in April 2025.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/12/slate-auto-everything-you-need-to-know-about-the-bezos-backed-ev-startup/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-12T14:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4348,
-      "signals": {
-        "score": 0.4348,
-        "recency": 0.8353536780623598,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       }
     },
     {
@@ -187,14 +189,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4297,
+      "score": 0.4117,
       "signals": {
-        "score": 0.4297,
-        "recency": 0.5989451451412633,
+        "score": 0.4117,
+        "recency": 0.5266683097763671,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "slate auto everything you need to know about the bezosbacked ev startup",
+      "title": "Slate Auto: Everything you need to know about the Bezos-backed EV startup",
+      "summary": "Slate auto burst onto the scene in April 2025.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/12/slate-auto-everything-you-need-to-know-about-the-bezos-backed-ev-startup/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-12T14:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4096,
+      "signals": {
+        "score": 0.4096,
+        "recency": 0.7345485863931828,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       }
     },
     {
@@ -210,10 +233,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3801,
+      "score": 0.3761,
       "signals": {
-        "score": 0.3801,
-        "recency": 0.1335561339353484,
+        "score": 0.3761,
+        "recency": 0.11743944147574015,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "kalshi wins temporary pause in arizona criminal case",
+      "title": "Kalshi wins temporary pause in Arizona criminal case",
+      "summary": "The Commodity Futures Trading Commission announced Friday that it has won a temporary restraining order preventing Arizona from pursuing its criminal case against Kalshi.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-11T21:20:24+00:00",
+      "source_count": 2,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3582,
+      "signals": {
+        "score": 0.3582,
+        "recency": 0.04572245233882256,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -231,37 +277,14 @@
       "published_at": "2026-04-12T12:00:02+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3697,
+      "score": 0.3516,
       "signals": {
-        "score": 0.3697,
-        "recency": 0.5986124902510991,
+        "score": 0.3516,
+        "recency": 0.5263757975318606,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "kalshi wins temporary pause in arizona criminal case",
-      "title": "Kalshi wins temporary pause in Arizona criminal case",
-      "summary": "The Commodity Futures Trading Commission announced Friday that it has won a temporary restraining order preventing Arizona from pursuing its criminal case against Kalshi.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-11T21:20:24+00:00",
-      "source_count": 2,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3597,
-      "signals": {
-        "score": 0.3597,
-        "recency": 0.05199713053538159,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.6
       }
     },
     {
@@ -277,10 +300,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2926,
+      "score": 0.2918,
       "signals": {
-        "score": 0.2926,
-        "recency": 0.026545857794205534,
+        "score": 0.2918,
+        "recency": 0.023342474965283518,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -298,10 +321,10 @@
       "published_at": "2026-04-11T20:32:23+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2374,
+      "score": 0.236,
       "signals": {
-        "score": 0.2374,
-        "recency": 0.04550439457765856,
+        "score": 0.236,
+        "recency": 0.04001321786147865,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
