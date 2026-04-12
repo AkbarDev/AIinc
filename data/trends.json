@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-12T22:52:49.953352+00:00",
-  "sources_scanned": 503,
-  "feeds_polled": 30,
+  "generated_at": "2026-04-12T23:35:17.933406+00:00",
+  "sources_scanned": 493,
+  "feeds_polled": 29,
   "feed_pool": 35,
   "continent_counts": {
-    "NA": 343,
+    "NA": 333,
     "SA": 0,
     "EU": 160,
     "AF": 0,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 18,
+  "clusters": 20,
   "trends": [
     {
       "id": "black hat asia",
@@ -23,7 +23,7 @@
       "link": "https://aibusiness.com/events/black-hat-asia",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-12T22:52:46.590028+00:00",
+      "published_at": "2026-04-12T23:34:55.398368+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -46,7 +46,7 @@
       "link": "https://aibusiness.com/events/black-hat-usa",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-12T22:52:46.590057+00:00",
+      "published_at": "2026-04-12T23:34:55.398397+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -55,6 +55,29 @@
       "signals": {
         "score": 0.5296,
         "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "openai says axios breach did not affect user data",
+      "title": "OpenAI Says Axios Breach Did Not Affect User Data",
+      "summary": "OpenAI says there is no indication that a breach involving a third-party developer tool compromised user data.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/OpenAI-data-breach-1.jpg?w=457",
+      "link": "https://www.pymnts.com/cybersecurity/2026/openai-says-axios-breach-did-not-affect-user-data/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-12T23:23:49+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5222,
+      "signals": {
+        "score": 0.5222,
+        "recency": 0.9686082175601731,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -74,10 +97,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5164,
+      "score": 0.4901,
       "signals": {
-        "score": 0.5164,
-        "recency": 0.9456112205883288,
+        "score": 0.4901,
+        "recency": 0.8403928601414857,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -97,10 +120,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5018,
+      "score": 0.4772,
       "signals": {
-        "score": 0.5018,
-        "recency": 0.8873741405879122,
+        "score": 0.4772,
+        "recency": 0.7886358323458674,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -120,14 +143,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4763,
+      "score": 0.4551,
       "signals": {
-        "score": 0.4763,
-        "recency": 0.7612635821989379,
+        "score": 0.4551,
+        "recency": 0.6765576224525763,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "robinhood blocks some prediction markets over insider trading worries",
+      "title": "Robinhood Blocks Some Prediction Markets Over Insider Trading Worries",
+      "summary": "Insider trading concerns have caused Robinhood to bar some prediction markets from its platform.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/11/Robinhood-prediction-markets.jpg?w=457",
+      "link": "https://www.pymnts.com/markets/2026/robinhood-blocks-some-prediction-markets-over-insider-trading-worries/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-12T23:05:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4498,
+      "signals": {
+        "score": 0.4498,
+        "recency": 0.9192808645112188,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -143,10 +187,10 @@
       "keywords": [
         "artificial intelligence"
       ],
-      "score": 0.4272,
+      "score": 0.4086,
       "signals": {
-        "score": 0.4272,
-        "recency": 0.6687096976542961,
+        "score": 0.4086,
+        "recency": 0.5943022282100217,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -166,10 +210,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3804,
+      "score": 0.3699,
       "signals": {
-        "score": 0.3804,
-        "recency": 0.37771741153366717,
+        "score": 0.3699,
+        "recency": 0.3356887152909647,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -187,10 +231,10 @@
       "published_at": "2026-04-12T19:58:42+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.3801,
+      "score": 0.363,
       "signals": {
-        "score": 0.3801,
-        "recency": 0.6164971716916965,
+        "score": 0.363,
+        "recency": 0.5478994010506522,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -210,10 +254,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3668,
+      "score": 0.3578,
       "signals": {
-        "score": 0.3668,
-        "recency": 0.32300404488860174,
+        "score": 0.3578,
+        "recency": 0.28706331652062383,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -233,10 +277,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3558,
+      "score": 0.3548,
       "signals": {
-        "score": 0.3558,
-        "recency": 0.036391364689226394,
+        "score": 0.3548,
+        "recency": 0.03234208984597608,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -256,10 +300,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3546,
+      "score": 0.3469,
       "signals": {
-        "score": 0.3546,
-        "recency": 0.27427913467113946,
+        "score": 0.3469,
+        "recency": 0.24376003736503846,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -279,10 +323,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3532,
+      "score": 0.3457,
       "signals": {
-        "score": 0.3532,
-        "recency": 0.2688978352053377,
+        "score": 0.3457,
+        "recency": 0.23897751622857255,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -302,10 +346,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3244,
+      "score": 0.3194,
       "signals": {
-        "score": 0.3244,
-        "recency": 0.17753119278936652,
+        "score": 0.3194,
+        "recency": 0.1577772594320109,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -325,10 +369,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3243,
+      "score": 0.3194,
       "signals": {
-        "score": 0.3243,
-        "recency": 0.17730941743685213,
+        "score": 0.3194,
+        "recency": 0.15758016106986109,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -348,10 +392,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3208,
+      "score": 0.3163,
       "signals": {
-        "score": 0.3208,
-        "recency": 0.1632005252280551,
+        "score": 0.3163,
+        "recency": 0.14504116828020083,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -371,10 +415,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3207,
+      "score": 0.3159,
       "signals": {
-        "score": 0.3207,
-        "recency": 0.17490429176086977,
+        "score": 0.3159,
+        "recency": 0.15544265423636455,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -392,10 +436,10 @@
       "published_at": "2026-04-12T14:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2829,
+      "score": 0.2766,
       "signals": {
-        "score": 0.2829,
-        "recency": 0.22761710336396634,
+        "score": 0.2766,
+        "recency": 0.20229010014723683,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -413,10 +457,10 @@
       "published_at": "2026-04-12T12:00:02+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2608,
+      "score": 0.2562,
       "signals": {
-        "score": 0.2608,
-        "recency": 0.163109883450198,
+        "score": 0.2562,
+        "recency": 0.14496061223213044,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
