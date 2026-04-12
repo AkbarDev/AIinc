@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-11T23:26:46.252269+00:00",
-  "sources_scanned": 503,
-  "feeds_polled": 30,
+  "generated_at": "2026-04-12T00:02:10.770844+00:00",
+  "sources_scanned": 493,
+  "feeds_polled": 29,
   "feed_pool": 35,
   "continent_counts": {
-    "NA": 343,
+    "NA": 333,
     "SA": 0,
     "EU": 160,
     "AF": 0,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 13,
+  "clusters": 11,
   "trends": [
     {
       "id": "black hat asia",
@@ -23,7 +23,7 @@
       "link": "https://aibusiness.com/events/black-hat-asia",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-11T23:26:43.458826+00:00",
+      "published_at": "2026-04-12T00:01:48.914280+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -46,7 +46,7 @@
       "link": "https://aibusiness.com/events/black-hat-usa",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-11T23:26:43.458853+00:00",
+      "published_at": "2026-04-12T00:01:48.914300+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -74,10 +74,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5227,
+      "score": 0.5063,
       "signals": {
-        "score": 0.5227,
-        "recency": 0.7039624955294156,
+        "score": 0.5063,
+        "recency": 0.6380187935641638,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -99,11 +99,34 @@
         "bill",
         "chip"
       ],
-      "score": 0.4182,
+      "score": 0.4133,
       "signals": {
-        "score": 0.4182,
-        "recency": 0.2088727221110047,
+        "score": 0.4133,
+        "recency": 0.1893065653582926,
         "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "sam altman responds to incendiary new yorker article after attack on his home",
+      "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home",
+      "summary": "The OpenAI CEO's new blog post responds to both an apparent attack on his home and an in-depth New Yorker profile raising questions about his trustworthiness.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-11T17:18:22+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3674,
+      "signals": {
+        "score": 0.3674,
+        "recency": 0.32572482345848314,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -120,37 +143,14 @@
       "published_at": "2026-04-11T20:32:23+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.38,
+      "score": 0.3656,
       "signals": {
-        "score": 0.38,
-        "recency": 0.6160606717066148,
+        "score": 0.3656,
+        "recency": 0.5583511749855125,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "sam altman responds to incendiary new yorker article after attack on his home",
-      "title": "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after attack on his home",
-      "summary": "The OpenAI CEO's new blog post responds to both an apparent attack on his home and an in-depth New Yorker profile raising questions about his trustworthiness.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-11T17:18:22+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3758,
-      "signals": {
-        "score": 0.3758,
-        "recency": 0.35939076072788473,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
       }
     },
     {
@@ -166,10 +166,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3171,
+      "score": 0.3137,
       "signals": {
-        "score": 0.3171,
-        "recency": 0.14856619803085236,
+        "score": 0.3137,
+        "recency": 0.1346492562231936,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -189,10 +189,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2883,
+      "score": 0.2874,
       "signals": {
-        "score": 0.2883,
-        "recency": 0.03912356932205299,
+        "score": 0.2874,
+        "recency": 0.03545866812124389,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -212,33 +212,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2853,
+      "score": 0.2848,
       "signals": {
-        "score": 0.2853,
-        "recency": 0.021020015048106577,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "walmart marketplace powers general merchandise surge",
-      "title": "Walmart Marketplace Powers General Merchandise Surge",
-      "summary": "Walmart\u2019s marketplace is playing a key role in its efforts to grow its general merchandise business, Walmart Chief Financial Officer John David Rainey said Wednesday (April 8).",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/03/Walmart-1.jpg?w=457",
-      "link": "https://www.pymnts.com/walmart/2026/walmart-marketplace-powers-general-merchandise-surge/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-10T23:54:06+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2849,
-      "signals": {
-        "score": 0.2849,
-        "recency": 0.019760194310282465,
+        "score": 0.2848,
+        "recency": 0.019050964684713283,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -256,10 +233,10 @@
       "published_at": "2026-04-11T08:00:20+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2391,
+      "score": 0.2373,
       "signals": {
-        "score": 0.2391,
-        "recency": 0.07627289814419297,
+        "score": 0.2373,
+        "recency": 0.06912803276402231,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -277,34 +254,13 @@
       "published_at": "2026-04-11T00:44:17+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2317,
+      "score": 0.2311,
       "signals": {
-        "score": 0.2317,
-        "recency": 0.022715958019068387,
+        "score": 0.2311,
+        "recency": 0.020588040161259685,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "fed finds stablecoins idle confirms pymnts usage gap",
-      "title": "Fed Finds Stablecoins Idle, Confirms PYMNTS Usage Gap",
-      "summary": "Stablecoins were supposed to change payments.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/stablecoins-digital-assets-spend.jpeg?w=457",
-      "link": "https://www.pymnts.com/blockchain/2026/fed-finds-stablecoins-idle-confirms-pymnts-usage-gap/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-10T23:36:32+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2247,
-      "signals": {
-        "score": 0.2247,
-        "recency": 0.018819117274891068,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     }
