@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-12T14:22:38.621249+00:00",
-  "sources_scanned": 503,
-  "feeds_polled": 30,
+  "generated_at": "2026-04-12T15:04:45.841669+00:00",
+  "sources_scanned": 493,
+  "feeds_polled": 29,
   "feed_pool": 35,
   "continent_counts": {
-    "NA": 343,
+    "NA": 333,
     "SA": 0,
     "EU": 160,
     "AF": 0,
@@ -13,8 +13,31 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 12,
+  "clusters": 13,
   "trends": [
+    {
+      "id": "at the humanx conference everyone was talking about claude",
+      "title": "At the HumanX conference, everyone was talking about Claude",
+      "summary": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-12T15:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5327,
+      "signals": {
+        "score": 0.5327,
+        "recency": 0.9868537660045853,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
     {
       "id": "black hat asia",
       "title": "Black Hat Asia",
@@ -23,7 +46,7 @@
       "link": "https://aibusiness.com/events/black-hat-asia",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-12T14:22:34.910945+00:00",
+      "published_at": "2026-04-12T15:04:23.980729+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -46,7 +69,7 @@
       "link": "https://aibusiness.com/events/black-hat-usa",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-12T14:22:34.910973+00:00",
+      "published_at": "2026-04-12T15:04:23.980755+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -74,10 +97,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4631,
+      "score": 0.4429,
       "signals": {
-        "score": 0.4631,
-        "recency": 0.7324079215092085,
+        "score": 0.4429,
+        "recency": 0.6515386263845783,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -97,35 +120,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4629,
+      "score": 0.4427,
       "signals": {
-        "score": 0.4629,
-        "recency": 0.7314929835626711,
+        "score": 0.4427,
+        "recency": 0.6507247119041263,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "slate auto everything you need to know about the bezosbacked ev startup",
-      "title": "Slate Auto: Everything you need to know about the Bezos-backed EV startup",
-      "summary": "Slate auto burst onto the scene in April 2025.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/12/slate-auto-everything-you-need-to-know-about-the-bezos-backed-ev-startup/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-12T14:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4608,
-      "signals": {
-        "score": 0.4608,
-        "recency": 0.939038187911812,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       }
     },
     {
@@ -141,14 +143,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4574,
+      "score": 0.4375,
       "signals": {
-        "score": 0.4574,
-        "recency": 0.7215705971378548,
+        "score": 0.4375,
+        "recency": 0.6418979122043628,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "slate auto everything you need to know about the bezosbacked ev startup",
+      "title": "Slate Auto: Everything you need to know about the Bezos-backed EV startup",
+      "summary": "Slate auto burst onto the scene in April 2025.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/12/slate-auto-everything-you-need-to-know-about-the-bezos-backed-ev-startup/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-12T14:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4348,
+      "signals": {
+        "score": 0.4348,
+        "recency": 0.8353536780623598,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       }
     },
     {
@@ -164,35 +187,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4483,
+      "score": 0.4297,
       "signals": {
-        "score": 0.4483,
-        "recency": 0.6732865114769305,
+        "score": 0.4297,
+        "recency": 0.5989451451412633,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "why b2b summit north america is built for meaningful connections",
-      "title": "Why B2B Summit North America Is Built For Meaningful Connections",
-      "summary": "Discover how B2B Summit North America is designed for meaningful networking \u2014 from workshops and roundtables to wellness, Marketplace breaks, and evening events.",
-      "image": null,
-      "link": "https://www.forrester.com/blogs/why-b2b-summit-north-america-is-built-for-meaningful-connections/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-12T12:00:02+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3882,
-      "signals": {
-        "score": 0.3882,
-        "recency": 0.6729125672979999,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -208,14 +210,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3843,
+      "score": 0.3801,
       "signals": {
-        "score": 0.3843,
-        "recency": 0.1501331870424764,
+        "score": 0.3801,
+        "recency": 0.1335561339353484,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "why b2b summit north america is built for meaningful connections",
+      "title": "Why B2B Summit North America Is Built For Meaningful Connections",
+      "summary": "Discover how B2B Summit North America is designed for meaningful networking \u2014 from workshops and roundtables to wellness, Marketplace breaks, and evening events.",
+      "image": null,
+      "link": "https://www.forrester.com/blogs/why-b2b-summit-north-america-is-built-for-meaningful-connections/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-12T12:00:02+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3697,
+      "signals": {
+        "score": 0.3697,
+        "recency": 0.5986124902510991,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -231,10 +254,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3614,
+      "score": 0.3597,
       "signals": {
-        "score": 0.3614,
-        "recency": 0.058451039980832745,
+        "score": 0.3597,
+        "recency": 0.05199713053538159,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -254,10 +277,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2935,
+      "score": 0.2926,
       "signals": {
-        "score": 0.2935,
-        "recency": 0.029840742734809095,
+        "score": 0.2926,
+        "recency": 0.026545857794205534,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -275,10 +298,10 @@
       "published_at": "2026-04-11T20:32:23+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2388,
+      "score": 0.2374,
       "signals": {
-        "score": 0.2388,
-        "recency": 0.05115242243901237,
+        "score": 0.2374,
+        "recency": 0.04550439457765856,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
