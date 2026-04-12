@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T22:01:58.044943+00:00",
+  "generated_at": "2026-04-12T22:52:49.953352+00:00",
   "sources_scanned": 503,
   "feeds_polled": 30,
   "feed_pool": 35,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 16,
+  "clusters": 18,
   "trends": [
     {
       "id": "black hat asia",
@@ -23,7 +23,7 @@
       "link": "https://aibusiness.com/events/black-hat-asia",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-12T22:01:54.033166+00:00",
+      "published_at": "2026-04-12T22:52:46.590028+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -46,7 +46,7 @@
       "link": "https://aibusiness.com/events/black-hat-usa",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-12T22:01:54.033195+00:00",
+      "published_at": "2026-04-12T22:52:46.590057+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -55,6 +55,52 @@
       "signals": {
         "score": 0.5296,
         "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "anthropic gains on openai amid rising adoption among enterprises",
+      "title": "Anthropic Gains On OpenAI Amid Rising Adoption Among Enterprises",
+      "summary": "Anthropic is reportedly catching up to rival OpenAI as more businesses adopt its tools.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/Claude-ChatGPT-adoption-1.jpg?w=457",
+      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-gains-on-openai-amid-rising-adoption-among-enterprises/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-12T22:32:42+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5164,
+      "signals": {
+        "score": 0.5164,
+        "recency": 0.9456112205883288,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "federal reserve wants banks info on private credit dealings",
+      "title": "Federal Reserve Wants Banks\u2019 Info on Private Credit Dealings",
+      "summary": "The Federal Reserve wants America\u2019s biggest banks to share details about their private credit exposure.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/private-credit-1.jpg?w=457",
+      "link": "https://www.pymnts.com/bank-regulation/2026/federal-reserve-wants-banks-info-on-private-credit-dealings/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-12T22:09:49+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5018,
+      "signals": {
+        "score": 0.5018,
+        "recency": 0.8873741405879122,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -74,10 +120,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5052,
+      "score": 0.4763,
       "signals": {
-        "score": 0.5052,
-        "recency": 0.8767936875997278,
+        "score": 0.4763,
+        "recency": 0.7612635821989379,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -97,34 +143,13 @@
       "keywords": [
         "artificial intelligence"
       ],
-      "score": 0.4525,
+      "score": 0.4272,
       "signals": {
-        "score": 0.4525,
-        "recency": 0.7701937350613846,
+        "score": 0.4272,
+        "recency": 0.6687096976542961,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "apple reportedly testing four designs for upcoming smart glasses",
-      "title": "Apple reportedly testing four designs for upcoming smart glasses",
-      "summary": "These glasses are a step back from an ambitious plan that once called for Apple to launch a variety of mixed and augmented reality devices.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-12T19:58:42+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.4035,
-      "signals": {
-        "score": 0.4035,
-        "recency": 0.7100573851188218,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.4
       }
     },
@@ -141,14 +166,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3948,
+      "score": 0.3804,
       "signals": {
-        "score": 0.3948,
-        "recency": 0.4350401751422308,
+        "score": 0.3804,
+        "recency": 0.37771741153366717,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "apple reportedly testing four designs for upcoming smart glasses",
+      "title": "Apple reportedly testing four designs for upcoming smart glasses",
+      "summary": "These glasses are a step back from an ambitious plan that once called for Apple to launch a variety of mixed and augmented reality devices.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-12T19:58:42+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3801,
+      "signals": {
+        "score": 0.3801,
+        "recency": 0.6164971716916965,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       }
     },
     {
@@ -164,56 +210,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.379,
+      "score": 0.3668,
       "signals": {
-        "score": 0.379,
-        "recency": 0.3720234544905572,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "from llms to hallucinations heres a simple guide to common ai terms",
-      "title": "From LLMs to hallucinations, here\u2019s a simple guide to common AI terms",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-12T15:07:08+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.365,
-      "signals": {
-        "score": 0.365,
-        "recency": 0.3159040042679007,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "at the humanx conference everyone was talking about claude",
-      "title": "At the HumanX conference, everyone was talking about Claude",
-      "summary": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-12T15:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3634,
-      "signals": {
-        "score": 0.3634,
-        "recency": 0.30970603353472864,
+        "score": 0.3668,
+        "recency": 0.32300404488860174,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -233,13 +233,59 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3572,
+      "score": 0.3558,
       "signals": {
-        "score": 0.3572,
-        "recency": 0.04191415376851037,
+        "score": 0.3558,
+        "recency": 0.036391364689226394,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "from llms to hallucinations heres a simple guide to common ai terms",
+      "title": "From LLMs to hallucinations, here\u2019s a simple guide to common AI terms",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-12T15:07:08+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3546,
+      "signals": {
+        "score": 0.3546,
+        "recency": 0.27427913467113946,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "at the humanx conference everyone was talking about claude",
+      "title": "At the HumanX conference, everyone was talking about Claude",
+      "summary": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-12T15:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3532,
+      "signals": {
+        "score": 0.3532,
+        "recency": 0.2688978352053377,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -256,10 +302,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3311,
+      "score": 0.3244,
       "signals": {
-        "score": 0.3311,
-        "recency": 0.2044735001510808,
+        "score": 0.3244,
+        "recency": 0.17753119278936652,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -279,10 +325,33 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3311,
+      "score": 0.3243,
       "signals": {
-        "score": 0.3311,
-        "recency": 0.20421806795427438,
+        "score": 0.3243,
+        "recency": 0.17730941743685213,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "how ai agents see your website and how to build for them via sejournal slobodanmanic",
+      "title": "How AI Agents See Your Website (And How To Build For Them) via @sejournal, @slobodanmanic",
+      "summary": "Websites built with semantic HTML, accessible patterns, and visible server-rendered content are better positioned for the agentic web.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/how-ai-agents-see-your-website-and-how-to-build-for-them/570443/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-12T12:00:14+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3208,
+      "signals": {
+        "score": 0.3208,
+        "recency": 0.1632005252280551,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -302,36 +371,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3274,
+      "score": 0.3207,
       "signals": {
-        "score": 0.3274,
-        "recency": 0.20144793805459618,
+        "score": 0.3207,
+        "recency": 0.17490429176086977,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "how ai agents see your website and how to build for them via sejournal slobodanmanic",
-      "title": "How AI Agents See Your Website (And How To Build For Them) via @sejournal, @slobodanmanic",
-      "summary": "Websites built with semantic HTML, accessible patterns, and visible server-rendered content are better positioned for the agentic web.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/how-ai-agents-see-your-website-and-how-to-build-for-them/570443/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-12T12:00:14+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.327,
-      "signals": {
-        "score": 0.327,
-        "recency": 0.18796799647185125,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -346,10 +392,10 @@
       "published_at": "2026-04-12T14:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2915,
+      "score": 0.2829,
       "signals": {
-        "score": 0.2915,
-        "recency": 0.26216049747550746,
+        "score": 0.2829,
+        "recency": 0.22761710336396634,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -367,10 +413,10 @@
       "published_at": "2026-04-12T12:00:02+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.267,
+      "score": 0.2608,
       "signals": {
-        "score": 0.267,
-        "recency": 0.18786359880918052,
+        "score": 0.2608,
+        "recency": 0.163109883450198,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
