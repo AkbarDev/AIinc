@@ -692,7 +692,7 @@ img {
 .model-card code {
     display: block;
     background: #0f1115;
-    color: #fff;
+    color: #000;
     padding: 0.8rem;
     border-radius: 10px;
     margin-bottom: 1rem;
@@ -954,6 +954,7 @@ footer {
 .model-card code {
     display: block;
     background: #f2f1ff;
+    color: #000;
     border-radius: var(--radius);
     padding: 0.9rem;
     font-size: 0.9rem;
