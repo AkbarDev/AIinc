@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-17T10:22:13.876523+00:00",
-  "sources_scanned": 493,
-  "feeds_polled": 28,
+  "generated_at": "2026-04-17T11:29:37.525002+00:00",
+  "sources_scanned": 503,
+  "feeds_polled": 29,
   "feed_pool": 35,
   "continent_counts": {
-    "NA": 333,
+    "NA": 343,
     "SA": 0,
     "EU": 160,
     "AF": 0,
@@ -13,32 +13,8 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 102,
+  "clusters": 101,
   "trends": [
-    {
-      "id": "the case for fixing everything",
-      "title": "The case for fixing everything",
-      "summary": "The handsome new book Maintenance: Of Everything, Part One, by the tech industry legend Stewart Brand, promises to be the first in a series offering \u201ca comprehensive overview",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/04/17/1135408/book-review-stewart-brand-fixing-everything-maintenance/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-17T10:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "series"
-      ],
-      "score": 0.558,
-      "signals": {
-        "score": 0.558,
-        "recency": 0.9401145563072402,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
-      }
-    },
     {
       "id": "black hat usa",
       "title": "Black Hat USA",
@@ -47,7 +23,7 @@
       "link": "https://aibusiness.com/events/black-hat-usa",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-17T10:22:10.520988+00:00",
+      "published_at": "2026-04-17T11:29:32.786526+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -70,7 +46,7 @@
       "link": "https://aibusiness.com/events/black-hat-asia",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-04-17T10:22:10.521017+00:00",
+      "published_at": "2026-04-17T11:29:32.786555+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
@@ -83,6 +59,99 @@
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "the case for fixing everything",
+      "title": "The case for fixing everything",
+      "summary": "The handsome new book Maintenance: Of Everything, Part One, by the tech industry legend Stewart Brand, promises to be the first in a series offering \u201ca comprehensive overview",
+      "image": null,
+      "link": "https://www.technologyreview.com/2026/04/17/1135408/book-review-stewart-brand-fixing-everything-maintenance/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-17T10:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai",
+        "series"
+      ],
+      "score": 0.5179,
+      "signals": {
+        "score": 0.5179,
+        "recency": 0.7796115541594233,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "uber eats lets customers return their retail purchases",
+      "title": "Uber Eats Lets Customers Return Their Retail Purchases",
+      "summary": "Uber Eats has begun offering returns on retail items purchased on its app.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/Uber-Eats-returns-2.jpg?w=457",
+      "link": "https://www.pymnts.com/news/delivery/2026/uber-eats-lets-customers-return-their-retail-purchases/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-17T11:00:11+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5104,
+      "signals": {
+        "score": 0.5104,
+        "recency": 0.9214713758576895,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "financial officials sound alarm about anthropics banking risk",
+      "title": "Financial Officials Sound Alarm About Anthropic\u2019s Banking Risk",
+      "summary": "A new warning from top financial officials is pushing AI risk to the center of the global banking conversation.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/03/Anthropic-Claude-Pentagon.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/2026/financial-officials-sound-alarm-about-anthropics-banking-risk/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-17T10:56:24+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.508,
+      "signals": {
+        "score": 0.508,
+        "recency": 0.9118381022156266,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "sector snapshot autonomous vehicle funding more than triples in 2026 to hit record amount",
+      "title": "Sector Snapshot: Autonomous Vehicle Funding More Than Triples In 2026 To Hit Record Amount",
+      "summary": "Several multibillion-dollar megadeals drove a spike in first-quarter investment in autonomous vehicles, signaling that investors aren't just paying for research, but betting",
+      "image": "https://news.crunchbase.com/wp-content/uploads/Autonomous_Vehicle.jpg",
+      "link": "https://news.crunchbase.com/venture/record-funding-autonomous-vehicles-q1-2026/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-04-17T11:00:42+00:00",
+      "source_count": 1,
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.4922,
+      "signals": {
+        "score": 0.4922,
+        "recency": 0.9227948073823894,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
       }
     },
     {
@@ -100,10 +169,10 @@
         "award",
         "studio"
       ],
-      "score": 0.4584,
+      "score": 0.453,
       "signals": {
-        "score": 0.4584,
-        "recency": 0.1265726625875745,
+        "score": 0.453,
+        "recency": 0.10496328296585408,
         "keyword_volume": 0.6,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -111,23 +180,23 @@
       }
     },
     {
-      "id": "how robots learn a brief contemporary history",
-      "title": "How robots learn: A brief, contemporary history",
-      "summary": "Roboticists used to dream big but build small.",
+      "id": "uk shoppers turn to multisupermarket shopping as grocery affordability tightens",
+      "title": "UK shoppers turn to multi-supermarket shopping as grocery affordability tightens",
+      "summary": "New research shows that UK workers now need to work an average of 68 minutes to afford a typical grocery basket - an increase of two minutes compared to Q4 2005.",
       "image": null,
-      "link": "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
-      "category": "technology",
+      "link": "https://internetretailing.net/uk-shoppers-turn-to-multi-supermarket-shopping-as-grocery-affordability-tightens/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-04-17T10:00:00+00:00",
+      "published_at": "2026-04-17T10:39:19+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.458,
+      "score": 0.4329,
       "signals": {
-        "score": 0.458,
-        "recency": 0.9401145563072402,
+        "score": 0.4329,
+        "recency": 0.8695786214118195,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.82,
+        "authority": 0.77,
         "engagement": 0.4
       }
     },
@@ -144,14 +213,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4486,
+      "score": 0.4198,
       "signals": {
-        "score": 0.4486,
-        "recency": 0.6744952944115515,
+        "score": 0.4198,
+        "recency": 0.5593406901547385,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "how robots learn a brief contemporary history",
+      "title": "How robots learn: A brief, contemporary history",
+      "summary": "Roboticists used to dream big but build small.",
+      "image": null,
+      "link": "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-17T10:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4179,
+      "signals": {
+        "score": 0.4179,
+        "recency": 0.7796115541594233,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
       }
     },
     {
@@ -167,10 +257,10 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.4302,
+      "score": 0.4011,
       "signals": {
-        "score": 0.4302,
-        "recency": 0.6807696242079666,
+        "score": 0.4011,
+        "recency": 0.5645438220189082,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -190,119 +280,11 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4007,
+      "score": 0.3801,
       "signals": {
-        "score": 0.4007,
-        "recency": 0.48267090705986676,
+        "score": 0.3801,
+        "recency": 0.4002659181010528,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "what if clearing had its stripe moment",
-      "title": "What If Clearing Had Its Stripe Moment?",
-      "summary": "Watch more: Need to Know With Lorum\u2019s George Davis The financial system has a clearing problem, and it\u2019s not about broken technology.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/Need-to-Know-Davis-Lorum.png?w=457",
-      "link": "https://www.pymnts.com/news/payments-innovation/2026/what-if-clearing-had-its-stripe-moment/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-17T08:02:23+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3895,
-      "signals": {
-        "score": 0.3895,
-        "recency": 0.6780959338519246,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "the hidden cost of swiping personal credit cards for business",
-      "title": "The Hidden Cost of Swiping Personal Credit Cards for Business",
-      "summary": "Watch more: Need to Know With Capital One\u2019s Nat Hewett Small business spending continues to underpin broad economic activity, but the systems that support that spending have room",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/Capital-One-business-cards-with-overlay.png?w=457",
-      "link": "https://www.pymnts.com/smbs/2026/the-hidden-cost-of-swiping-personal-credit-cards-for-business/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-17T08:01:58+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3893,
-      "signals": {
-        "score": 0.3893,
-        "recency": 0.6773115546058885,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "podcast why the biggest market in the world is money and up for grabs",
-      "title": "Podcast: Why the Biggest Market in the World Is Money. And Up for Grabs",
-      "summary": "\ufeff Explore more conversations like this From the Block.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/Money-up-for-grabs-1.jpg?w=457",
-      "link": "https://www.pymnts.com/blockchain/2026/podcast-why-the-biggest-market-in-the-world-is-money-and-up-for-grabs/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-17T08:00:19+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3886,
-      "signals": {
-        "score": 0.3886,
-        "recency": 0.6742143132473545,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "44 of healthcare treasurers lack cash flow visibility as payment friction persists",
-      "title": "44% of Healthcare Treasurers Lack Cash Flow Visibility as Payment Friction Persists",
-      "summary": "Payment friction isn\u2019t a single-industry problem\u2014it\u2019s systemic.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/healthcare-cash-flow-embedded-payments.jpeg?w=457",
-      "link": "https://www.pymnts.com/healthcare-financing/2026/44percent-healthcare-treasurers-lack-cash-flow-visibility-as-payment-friction-persists/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-17T08:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3884,
-      "signals": {
-        "score": 0.3884,
-        "recency": 0.6736215151203231,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "openai targets pharma giants with purposebuilt ai model",
-      "title": "OpenAI Targets Pharma Giants With Purpose-Built AI Model",
-      "summary": "OpenAI has introduced an artificial intelligence model that is purpose-built for scientific research and drug discovery.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/OpenAI-drug1.jpg?w=457",
-      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/openai-targets-pharma-giants-with-purpose-built-ai-model/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-17T02:18:28+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.3852,
-      "signals": {
-        "score": 0.3852,
-        "recency": 0.26085500047596855,
-        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -321,10 +303,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3839,
+      "score": 0.3775,
       "signals": {
-        "score": 0.3839,
-        "recency": 0.1484381544161213,
+        "score": 0.3775,
+        "recency": 0.12309574347563744,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -332,26 +314,27 @@
       }
     },
     {
-      "id": "benoit vatere8217s case for keeping liquid death dangerous at scale",
-      "title": "Benoit Vatere&#8217;s Case for Keeping Liquid Death Dangerous at Scale",
-      "summary": "Building the cult favorite beverage brand to $1 billion using mystique.",
-      "image": null,
-      "link": "https://www.adweek.com/brand-marketing/benoit-vateres-case-for-keeping-liquid-death-dangerous-at-scale/",
-      "category": "brands",
+      "id": "openai targets pharma giants with purposebuilt ai model",
+      "title": "OpenAI Targets Pharma Giants With Purpose-Built AI Model",
+      "summary": "OpenAI has introduced an artificial intelligence model that is purpose-built for scientific research and drug discovery.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/OpenAI-drug1.jpg?w=457",
+      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/openai-targets-pharma-giants-with-purpose-built-ai-model/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-04-17T06:00:00+00:00",
+      "published_at": "2026-04-17T02:18:28+00:00",
       "source_count": 1,
       "keywords": [
-        "bill"
+        "ai",
+        "artificial intelligence"
       ],
-      "score": 0.3807,
+      "score": 0.3741,
       "signals": {
-        "score": 0.3807,
-        "recency": 0.48267090705986676,
-        "keyword_volume": 0.2,
+        "score": 0.3741,
+        "recency": 0.2163199909701906,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
+        "engagement": 0.6
       }
     },
     {
@@ -367,10 +350,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3723,
+      "score": 0.3679,
       "signals": {
-        "score": 0.3723,
-        "recency": 0.10222324965795229,
+        "score": 0.3679,
+        "recency": 0.08477097392269063,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -378,27 +361,133 @@
       }
     },
     {
-      "id": "cftc chairman says ai helps agency run more like a business",
-      "title": "CFTC Chairman Says AI Helps Agency Run More Like a Business",
-      "summary": "The Commodity Futures Trading Commission (CFTC) is using artificial intelligence to boost efficiency, CFTC Chairman Michael S.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/CFTC-AI-1.jpg?w=457",
-      "link": "https://www.pymnts.com/news/regulation/2026/cftc-chairman-says-ai-helps-agency-run-more-like-a-business/",
+      "id": "slash a ramp competitor founded by teenagers raises 100m at 14b valuation",
+      "title": "Slash, a Ramp competitor founded by teenagers, raises $100M at $1.4B valuation",
+      "summary": "Five years later the founders, now 24 years old, say their startup has achieved $300 million in annualized revenue.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/16/slash-a-ramp-competitor-founded-by-teenagers-raises-100m-at-1-4b-valuation/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-16T19:20:46+00:00",
+      "source_count": 2,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3637,
+      "signals": {
+        "score": 0.3637,
+        "recency": 0.06779449339831246,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "what if clearing had its stripe moment",
+      "title": "What If Clearing Had Its Stripe Moment?",
+      "summary": "Watch more: Need to Know With Lorum\u2019s George Davis The financial system has a clearing problem, and it\u2019s not about broken technology.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/Need-to-Know-Davis-Lorum.png?w=457",
+      "link": "https://www.pymnts.com/news/payments-innovation/2026/what-if-clearing-had-its-stripe-moment/",
       "category": "commerce",
       "geo": "global",
-      "published_at": "2026-04-17T00:57:00+00:00",
+      "published_at": "2026-04-17T08:02:23+00:00",
       "source_count": 1,
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.372,
+      "keywords": [],
+      "score": 0.3606,
       "signals": {
-        "score": 0.372,
-        "recency": 0.20802710899535629,
-        "keyword_volume": 0.4,
+        "score": 0.3606,
+        "recency": 0.5623266029791322,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "the hidden cost of swiping personal credit cards for business",
+      "title": "The Hidden Cost of Swiping Personal Credit Cards for Business",
+      "summary": "Watch more: Need to Know With Capital One\u2019s Nat Hewett Small business spending continues to underpin broad economic activity, but the systems that support that spending have room",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/Capital-One-business-cards-with-overlay.png?w=457",
+      "link": "https://www.pymnts.com/smbs/2026/the-hidden-cost-of-swiping-personal-credit-cards-for-business/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-17T08:01:58+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3604,
+      "signals": {
+        "score": 0.3604,
+        "recency": 0.5616761385022768,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "benoit vatere8217s case for keeping liquid death dangerous at scale",
+      "title": "Benoit Vatere&#8217;s Case for Keeping Liquid Death Dangerous at Scale",
+      "summary": "Building the cult favorite beverage brand to $1 billion using mystique.",
+      "image": null,
+      "link": "https://www.adweek.com/brand-marketing/benoit-vateres-case-for-keeping-liquid-death-dangerous-at-scale/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-17T06:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.3601,
+      "signals": {
+        "score": 0.3601,
+        "recency": 0.4002659181010528,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "podcast why the biggest market in the world is money and up for grabs",
+      "title": "Podcast: Why the Biggest Market in the World Is Money. And Up for Grabs",
+      "summary": "\ufeff Explore more conversations like this From the Block.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/Money-up-for-grabs-1.jpg?w=457",
+      "link": "https://www.pymnts.com/blockchain/2026/podcast-why-the-biggest-market-in-the-world-is-money-and-up-for-grabs/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-17T08:00:19+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3598,
+      "signals": {
+        "score": 0.3598,
+        "recency": 0.5591076800809772,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "44 of healthcare treasurers lack cash flow visibility as payment friction persists",
+      "title": "44% of Healthcare Treasurers Lack Cash Flow Visibility as Payment Friction Persists",
+      "summary": "Payment friction isn\u2019t a single-industry problem\u2014it\u2019s systemic.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/healthcare-cash-flow-embedded-payments.jpeg?w=457",
+      "link": "https://www.pymnts.com/healthcare-financing/2026/44percent-healthcare-treasurers-lack-cash-flow-visibility-as-payment-friction-persists/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-17T08:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3597,
+      "signals": {
+        "score": 0.3597,
+        "recency": 0.5586160886403203,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -414,10 +503,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3682,
+      "score": 0.3534,
       "signals": {
-        "score": 0.3682,
-        "recency": 0.34681084430107073,
+        "score": 0.3534,
+        "recency": 0.28760084556816184,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -437,10 +526,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3682,
+      "score": 0.3534,
       "signals": {
-        "score": 0.3682,
-        "recency": 0.34681084430107073,
+        "score": 0.3534,
+        "recency": 0.28760084556816184,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -460,36 +549,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3682,
+      "score": 0.3534,
       "signals": {
-        "score": 0.3682,
-        "recency": 0.34681084430107073,
+        "score": 0.3534,
+        "recency": 0.28760084556816184,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "slash a ramp competitor founded by teenagers raises 100m at 14b valuation",
-      "title": "Slash, a Ramp competitor founded by teenagers, raises $100M at $1.4B valuation",
-      "summary": "Five years later the founders, now 24 years old, say their startup has achieved $300 million in annualized revenue.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/16/slash-a-ramp-competitor-founded-by-teenagers-raises-100m-at-1-4b-valuation/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-16T19:20:46+00:00",
-      "source_count": 2,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3672,
-      "signals": {
-        "score": 0.3672,
-        "recency": 0.08175172589629878,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
         "engagement": 0.6
       }
     },
@@ -506,10 +572,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3658,
+      "score": 0.3509,
       "signals": {
-        "score": 0.3658,
-        "recency": 0.3490983152445039,
+        "score": 0.3509,
+        "recency": 0.2894977833033985,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -529,10 +595,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.365,
+      "score": 0.3502,
       "signals": {
-        "score": 0.365,
-        "recency": 0.345848817611446,
+        "score": 0.3502,
+        "recency": 0.2868030628749683,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -552,10 +618,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3582,
+      "score": 0.3459,
       "signals": {
-        "score": 0.3582,
-        "recency": 0.28879698247573926,
+        "score": 0.3459,
+        "recency": 0.23949152029817253,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -576,36 +642,13 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.3447,
+      "score": 0.3407,
       "signals": {
-        "score": 0.3447,
-        "recency": 0.0927913652049481,
+        "score": 0.3407,
+        "recency": 0.07694936745172816,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "california claims amazon punishes sellers for lower prices on other sites",
-      "title": "California Claims Amazon Punishes Sellers for Lower Prices on Other Sites",
-      "summary": "Amazon pressures sellers using its platform to raise their prices on competitors\u2019 websites if those prices are even a penny lower than Amazon\u2019s, The Guardian reported Thursday",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/Amazon-sellers-111.jpg?w=457",
-      "link": "https://www.pymnts.com/amazon/2026/california-claims-amazon-punishes-sellers-for-lower-prices-on-other-sites/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-17T01:43:57+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3393,
-      "signals": {
-        "score": 0.3393,
-        "recency": 0.23700590811601904,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -623,10 +666,10 @@
         "ai",
         "game"
       ],
-      "score": 0.3377,
+      "score": 0.3357,
       "signals": {
-        "score": 0.3377,
-        "recency": 0.04680554768849266,
+        "score": 0.3357,
+        "recency": 0.03881457374731189,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -647,11 +690,34 @@
         "ai",
         "chip"
       ],
-      "score": 0.3312,
+      "score": 0.3293,
       "signals": {
-        "score": 0.3312,
-        "recency": 0.04496611219117567,
+        "score": 0.3293,
+        "recency": 0.03728917967994182,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "california claims amazon punishes sellers for lower prices on other sites",
+      "title": "California Claims Amazon Punishes Sellers for Lower Prices on Other Sites",
+      "summary": "Amazon pressures sellers using its platform to raise their prices on competitors\u2019 websites if those prices are even a penny lower than Amazon\u2019s, The Guardian reported Thursday",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/Amazon-sellers-111.jpg?w=457",
+      "link": "https://www.pymnts.com/amazon/2026/california-claims-amazon-punishes-sellers-for-lower-prices-on-other-sites/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-17T01:43:57+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3291,
+      "signals": {
+        "score": 0.3291,
+        "recency": 0.19654258423258505,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -671,35 +737,14 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.329,
+      "score": 0.328,
       "signals": {
-        "score": 0.329,
-        "recency": 0.024030769448968495,
+        "score": 0.328,
+        "recency": 0.019928066629822945,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.82,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "hot take youtube shouldnt rely on creators to convince brands its tv",
-      "title": "Hot Take: YouTube Shouldn\u2019t Rely On Creators To Convince Brands It\u2019s TV",
-      "summary": "Platforms using talent to corroborate sales pitches is nothing new \u2013 the TV upfronts have always included publishers peacocking their talent to impress buyers.",
-      "image": null,
-      "link": "https://www.adexchanger.com/ctv-roundup/hot-take-youtube-shouldnt-rely-on-creators-to-convince-brands-its-tv/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-17T05:15:41+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3252,
-      "signals": {
-        "score": 0.3252,
-        "recency": 0.42676487508181715,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
       }
     },
     {
@@ -715,14 +760,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3146,
+      "score": 0.3098,
       "signals": {
-        "score": 0.3146,
-        "recency": 0.11455949887337344,
+        "score": 0.3098,
+        "recency": 0.0950010914746513,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "hot take youtube shouldnt rely on creators to convince brands its tv",
+      "title": "Hot Take: YouTube Shouldn\u2019t Rely On Creators To Convince Brands It\u2019s TV",
+      "summary": "Platforms using talent to corroborate sales pitches is nothing new \u2013 the TV upfronts have always included publishers peacocking their talent to impress buyers.",
+      "image": null,
+      "link": "https://www.adexchanger.com/ctv-roundup/hot-take-youtube-shouldnt-rely-on-creators-to-convince-brands-its-tv/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-17T05:15:41+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.307,
+      "signals": {
+        "score": 0.307,
+        "recency": 0.3539045590678567,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
       }
     },
     {
@@ -738,10 +804,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3105,
+      "score": 0.3064,
       "signals": {
-        "score": 0.3105,
-        "recency": 0.0981922863803157,
+        "score": 0.3064,
+        "recency": 0.08142820518822715,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -759,100 +825,14 @@
       "published_at": "2026-04-16T19:50:10+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.3089,
+      "score": 0.3051,
       "signals": {
-        "score": 0.3089,
-        "recency": 0.08870831147178591,
+        "score": 0.3051,
+        "recency": 0.07356340151250203,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "comic but but you need a licensing deal",
-      "title": "Comic: \u2018But, But\u2026 You Need A Licensing Deal!\u2019",
-      "summary": "Enjoy this weekly comic strip from AdExchanger.com that highlights the digital advertising ecosystem \u2026 The post Comic: &#8216;But, But&#8230; You Need A Licensing Deal!&#8217",
-      "image": null,
-      "link": "https://www.adexchanger.com/comic-strip/comic-but-but-you-need-a-licensing-deal/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-17T04:15:26+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3087,
-      "signals": {
-        "score": 0.3087,
-        "recency": 0.3609978875382011,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "everything is coming down chatgpt ads are getting cheaper",
-      "title": "\u2018Everything is coming down\u2019: ChatGPT ads are getting cheaper",
-      "summary": "While the pilot CPM started out at $60, advertisers are now seeing that price drop to as low as $25, just nine weeks into the test.",
-      "image": null,
-      "link": "https://digiday.com/marketing/everything-is-coming-down-chatgpt-ads-are-getting-cheaper/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-17T04:01:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3082,
-      "signals": {
-        "score": 0.3082,
-        "recency": 0.34681084430107073,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "future of marketing briefing why brand builders are back in fashion",
-      "title": "Future of Marketing Briefing: Why brand builders are back in fashion",
-      "summary": "For the better part of a decade, CPG companies hired marketers who could optimize a media plan.",
-      "image": null,
-      "link": "https://digiday.com/marketing/future-of-marketing-briefing-why-brand-builders-are-back-in-fashion/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-17T04:01:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3082,
-      "signals": {
-        "score": 0.3082,
-        "recency": 0.34681084430107073,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "google ai mode in chrome gets sidebyside browsing via sejournal mattgsouthern",
-      "title": "Google AI Mode in Chrome Gets Side-by-Side Browsing via @sejournal, @MattGSouthern",
-      "summary": "Google is updating AI Mode in Chrome with side-by-side page viewing and a plus menu for adding tabs, images, and files as context.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/google-ai-mode-in-chrome-gets-side-by-side-browsing/572273/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-16T21:02:14+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3071,
-      "signals": {
-        "score": 0.3071,
-        "recency": 0.1083686427124815,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       }
     },
     {
@@ -868,10 +848,56 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3063,
+      "score": 0.3029,
       "signals": {
-        "score": 0.3063,
-        "recency": 0.08127999191821879,
+        "score": 0.3029,
+        "recency": 0.06740329717936941,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "google ai mode in chrome gets sidebyside browsing via sejournal mattgsouthern",
+      "title": "Google AI Mode in Chrome Gets Side-by-Side Browsing via @sejournal, @MattGSouthern",
+      "summary": "Google is updating AI Mode in Chrome with side-by-side page viewing and a plus menu for adding tabs, images, and files as context.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/google-ai-mode-in-chrome-gets-side-by-side-browsing/572273/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-16T21:02:14+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3025,
+      "signals": {
+        "score": 0.3025,
+        "recency": 0.0898671820369242,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "european police email 75000 people asking them to stop ddos attacks",
+      "title": "European police email 75,000 people asking them to stop DDoS attacks",
+      "summary": "Europol coordinated an operation against for-hire distributed denial-of-service (DDoS) services, including the arrest of four people and the takedown of 53 domains.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/16/european-police-email-75000-people-asking-them-to-stop-ddos-attacks/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-16T18:53:09+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3017,
+      "signals": {
+        "score": 0.3017,
+        "recency": 0.06278825353582287,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -891,80 +917,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3056,
+      "score": 0.3012,
       "signals": {
-        "score": 0.3056,
-        "recency": 0.10231794464855097,
+        "score": 0.3012,
+        "recency": 0.08484950191515327,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "goop kitchen expands delivery business with new york city launch",
-      "title": "Goop Kitchen expands delivery business with New York City launch",
-      "summary": "Five years after launching in Los Angeles in 2021, Goop Kitchen is coming to New York City with three locations this year.",
-      "image": null,
-      "link": "https://www.modernretail.co/operations/goop-kitchen-expands-delivery-business-with-new-york-city-launch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-17T04:00:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.305,
-      "signals": {
-        "score": 0.305,
-        "recency": 0.345848817611446,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "global finance chiefs call for mythos information sharing",
-      "title": "Global Finance Chiefs Call for Mythos Information Sharing",
-      "summary": "Government officials and bankers outside the United States are concerned that they may not receive the same information-sharing as their American counterparts when it comes",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/Anthropic-Claude-Mythos-banks.jpg?w=457",
-      "link": "https://www.pymnts.com/cybersecurity/2026/global-finance-chiefs-call-for-mythos-information-sharing/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-17T00:05:05+00:00",
-      "source_count": 1,
-      "keywords": [
-        "govern"
-      ],
-      "score": 0.305,
-      "signals": {
-        "score": 0.305,
-        "recency": 0.18008976840846055,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "european police email 75000 people asking them to stop ddos attacks",
-      "title": "European police email 75,000 people asking them to stop DDoS attacks",
-      "summary": "Europol coordinated an operation against for-hire distributed denial-of-service (DDoS) services, including the arrest of four people and the takedown of 53 domains.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/16/european-police-email-75000-people-asking-them-to-stop-ddos-attacks/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-16T18:53:09+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3049,
-      "signals": {
-        "score": 0.3049,
-        "recency": 0.07571482336197642,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -981,10 +940,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3037,
+      "score": 0.3007,
       "signals": {
-        "score": 0.3037,
-        "recency": 0.07074326175715875,
+        "score": 0.3007,
+        "recency": 0.05866547206910926,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1004,10 +963,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2998,
+      "score": 0.2975,
       "signals": {
-        "score": 0.2998,
-        "recency": 0.055294221141680366,
+        "score": 0.2975,
+        "recency": 0.04585400086732844,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1027,10 +986,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2982,
+      "score": 0.2961,
       "signals": {
-        "score": 0.2982,
-        "recency": 0.04879697888836058,
+        "score": 0.2961,
+        "recency": 0.040466013736528694,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1050,10 +1009,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2982,
+      "score": 0.2961,
       "signals": {
-        "score": 0.2982,
-        "recency": 0.048668378838210506,
+        "score": 0.2961,
+        "recency": 0.04035936919593538,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1073,10 +1032,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2977,
+      "score": 0.2957,
       "signals": {
-        "score": 0.2977,
-        "recency": 0.04680554768849266,
+        "score": 0.2957,
+        "recency": 0.03881457374731189,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1096,14 +1055,77 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2967,
+      "score": 0.2938,
       "signals": {
-        "score": 0.2967,
-        "recency": 0.06678716995208618,
+        "score": 0.2938,
+        "recency": 0.05538479222019302,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "everything is coming down chatgpt ads are getting cheaper",
+      "title": "\u2018Everything is coming down\u2019: ChatGPT ads are getting cheaper",
+      "summary": "While the pilot CPM started out at $60, advertisers are now seeing that price drop to as low as $25, just nine weeks into the test.",
+      "image": null,
+      "link": "https://digiday.com/marketing/everything-is-coming-down-chatgpt-ads-are-getting-cheaper/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-17T04:01:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2934,
+      "signals": {
+        "score": 0.2934,
+        "recency": 0.28760084556816184,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "future of marketing briefing why brand builders are back in fashion",
+      "title": "Future of Marketing Briefing: Why brand builders are back in fashion",
+      "summary": "For the better part of a decade, CPG companies hired marketers who could optimize a media plan.",
+      "image": null,
+      "link": "https://digiday.com/marketing/future-of-marketing-briefing-why-brand-builders-are-back-in-fashion/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-17T04:01:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2934,
+      "signals": {
+        "score": 0.2934,
+        "recency": 0.28760084556816184,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "comic but but you need a licensing deal",
+      "title": "Comic: \u2018But, But\u2026 You Need A Licensing Deal!\u2019",
+      "summary": "Enjoy this weekly comic strip from AdExchanger.com that highlights the digital advertising ecosystem \u2026 The post Comic: &#8216;But, But&#8230; You Need A Licensing Deal!&#8217",
+      "image": null,
+      "link": "https://www.adexchanger.com/comic-strip/comic-but-but-you-need-a-licensing-deal/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-17T04:15:26+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2933,
+      "signals": {
+        "score": 0.2933,
+        "recency": 0.2993657765043141,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
       }
     },
     {
@@ -1119,10 +1141,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2952,
+      "score": 0.2929,
       "signals": {
-        "score": 0.2952,
-        "recency": 0.05499042854634716,
+        "score": 0.2929,
+        "recency": 0.045602073891194646,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1142,36 +1164,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2942,
+      "score": 0.292,
       "signals": {
-        "score": 0.2942,
-        "recency": 0.05087313932268166,
+        "score": 0.292,
+        "recency": 0.04218771738639367,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "millennials gen zers warm up to ai shopping tools",
-      "title": "Millennials, Gen Zers warm up to AI shopping tools",
-      "summary": "While younger shoppers are open to using the technology, consumers overall are wary of surveillance pricing, per a new report.&nbsp",
-      "image": "https://imgproxy.divecdn.com/GS_Nj3qsw0vNn481ifobmw5j5KB1aYbWGAYqNPfit1E/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTk4NzU1Mzg1X3VMejkxdmUuanBn.webp",
-      "link": "https://www.retaildive.com/news/millennials-gen-zers-warm-up-to-ai-shopping-tools/817509/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-16T12:55:00-04:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2936,
-      "signals": {
-        "score": 0.2936,
-        "recency": 0.054531554404737066,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1188,13 +1187,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2931,
+      "score": 0.2919,
       "signals": {
-        "score": 0.2931,
-        "recency": 0.028403460760577384,
+        "score": 0.2919,
+        "recency": 0.023554221172832398,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "millennials gen zers warm up to ai shopping tools",
+      "title": "Millennials, Gen Zers warm up to AI shopping tools",
+      "summary": "While younger shoppers are open to using the technology, consumers overall are wary of surveillance pricing, per a new report.&nbsp",
+      "image": "https://imgproxy.divecdn.com/GS_Nj3qsw0vNn481ifobmw5j5KB1aYbWGAYqNPfit1E/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTk4NzU1Mzg1X3VMejkxdmUuanBn.webp",
+      "link": "https://www.retaildive.com/news/millennials-gen-zers-warm-up-to-ai-shopping-tools/817509/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-16T12:55:00-04:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2913,
+      "signals": {
+        "score": 0.2913,
+        "recency": 0.04522154198654099,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1211,10 +1233,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2931,
+      "score": 0.2909,
       "signals": {
-        "score": 0.2931,
-        "recency": 0.052526920537867935,
+        "score": 0.2909,
+        "recency": 0.04355915338295504,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1234,14 +1256,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2926,
+      "score": 0.2905,
       "signals": {
-        "score": 0.2926,
-        "recency": 0.0504579655910299,
+        "score": 0.2905,
+        "recency": 0.041843425048818786,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "goop kitchen expands delivery business with new york city launch",
+      "title": "Goop Kitchen expands delivery business with New York City launch",
+      "summary": "Five years after launching in Los Angeles in 2021, Goop Kitchen is coming to New York City with three locations this year.",
+      "image": null,
+      "link": "https://www.modernretail.co/operations/goop-kitchen-expands-delivery-business-with-new-york-city-launch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-04-17T04:00:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2902,
+      "signals": {
+        "score": 0.2902,
+        "recency": 0.2868030628749683,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
       }
     },
     {
@@ -1257,10 +1300,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2914,
+      "score": 0.2892,
       "signals": {
-        "score": 0.2914,
-        "recency": 0.05163481636415295,
+        "score": 0.2892,
+        "recency": 0.04281935553951566,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1280,10 +1323,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2911,
+      "score": 0.289,
       "signals": {
-        "score": 0.2911,
-        "recency": 0.05045095802690103,
+        "score": 0.289,
+        "recency": 0.04183761386557018,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1303,56 +1346,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2909,
+      "score": 0.289,
       "signals": {
-        "score": 0.2909,
-        "recency": 0.04348993421789712,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "for luxury retailers value is a vibe",
-      "title": "For luxury retailers, value is a vibe",
-      "summary": "Chief executives at Ralph Lauren and Tapestry are utilizing experiences and storytelling to provide value beyond pricing to shoppers.",
-      "image": "https://imgproxy.divecdn.com/naaLWV-ierdakNeAeHysyqqKyh2O2UirzgHGgCPWmd0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9UYXBlc3RyeV9DRU8uanBn.webp",
-      "link": "https://www.retaildive.com/news/luxury-retail-ceos-sell-value-vibes/817613/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-16T11:23:00-04:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2906,
-      "signals": {
-        "score": 0.2906,
-        "recency": 0.04223393135370739,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "openai updates agents sdk aims at building secure agents",
-      "title": "OpenAI Updates Agents SDK, Aims at Building Secure Agents",
-      "summary": "The features enable faster agent deployment.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt90a48c28010f363e/69e0fe87c3e9c2e64427cd3c/OpenAI.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/agentic-ai/openai-updates-agents-sdk-aims-building-secure-agents",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-04-16T15:16:48+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2904,
-      "signals": {
-        "score": 0.2904,
-        "recency": 0.041512796796663635,
+        "score": 0.289,
+        "recency": 0.036065025244460994,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1372,10 +1369,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2901,
+      "score": 0.2889,
       "signals": {
-        "score": 0.2901,
-        "recency": 0.02838899971771258,
+        "score": 0.2889,
+        "recency": 0.023542229021421744,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -1395,13 +1392,59 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2901,
+      "score": 0.2889,
       "signals": {
-        "score": 0.2901,
-        "recency": 0.02838899971771258,
+        "score": 0.2889,
+        "recency": 0.023542229021421744,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "for luxury retailers value is a vibe",
+      "title": "For luxury retailers, value is a vibe",
+      "summary": "Chief executives at Ralph Lauren and Tapestry are utilizing experiences and storytelling to provide value beyond pricing to shoppers.",
+      "image": "https://imgproxy.divecdn.com/naaLWV-ierdakNeAeHysyqqKyh2O2UirzgHGgCPWmd0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9UYXBlc3RyeV9DRU8uanBn.webp",
+      "link": "https://www.retaildive.com/news/luxury-retail-ceos-sell-value-vibes/817613/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-16T11:23:00-04:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2888,
+      "signals": {
+        "score": 0.2888,
+        "recency": 0.03502345606716211,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "openai updates agents sdk aims at building secure agents",
+      "title": "OpenAI Updates Agents SDK, Aims at Building Secure Agents",
+      "summary": "The features enable faster agent deployment.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt90a48c28010f363e/69e0fe87c3e9c2e64427cd3c/OpenAI.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/agentic-ai/openai-updates-agents-sdk-aims-building-secure-agents",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-04-16T15:16:48+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2886,
+      "signals": {
+        "score": 0.2886,
+        "recency": 0.034425438698956166,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1418,36 +1461,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2899,
+      "score": 0.2885,
       "signals": {
-        "score": 0.2899,
-        "recency": 0.03354074590820628,
+        "score": 0.2885,
+        "recency": 0.027814432687730137,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "gen z workers pick humanonly output over aiassisted via sejournal mattgsouthern",
-      "title": "Gen Z Workers Pick Human-Only Output Over AI-Assisted via @sejournal, @MattGSouthern",
-      "summary": "Gen Z workers surveyed by Gallup said they would trust work done without AI over AI-assisted output by more than 2-to-1, with the gap widening.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/gen-z-workers-pick-human-only-output-over-ai-assisted/572230/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-16T14:47:19+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2896,
-      "signals": {
-        "score": 0.2896,
-        "recency": 0.03824847109505309,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1464,13 +1484,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2892,
+      "score": 0.2881,
       "signals": {
-        "score": 0.2892,
-        "recency": 0.024707648396002393,
+        "score": 0.2881,
+        "recency": 0.020489384018575762,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "gen z workers pick humanonly output over aiassisted via sejournal mattgsouthern",
+      "title": "Gen Z Workers Pick Human-Only Output Over AI-Assisted via @sejournal, @MattGSouthern",
+      "summary": "Gen Z workers surveyed by Gallup said they would trust work done without AI over AI-assisted output by more than 2-to-1, with the gap widening.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/gen-z-workers-pick-human-only-output-over-ai-assisted/572230/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-16T14:47:19+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2879,
+      "signals": {
+        "score": 0.2879,
+        "recency": 0.03171842175464726,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1487,33 +1530,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.289,
+      "score": 0.287,
       "signals": {
-        "score": 0.289,
-        "recency": 0.048161818077441874,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the latest aipowered martech news and releases",
-      "title": "The latest AI-powered martech news and releases",
-      "summary": "That meeting that could\u2019ve been an email is protecting you from being replaced by AI.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-16T15:36:13+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.288,
-      "signals": {
-        "score": 0.288,
-        "recency": 0.04381327796974226,
+        "score": 0.287,
+        "recency": 0.0399392920688135,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1533,10 +1553,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.288,
+      "score": 0.2866,
       "signals": {
-        "score": 0.288,
-        "recency": 0.031876892232717204,
+        "score": 0.2866,
+        "recency": 0.02643464387248497,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1556,13 +1576,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2877,
+      "score": 0.2864,
       "signals": {
-        "score": 0.2877,
-        "recency": 0.030907588499169695,
+        "score": 0.2864,
+        "recency": 0.025630826523744182,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "the latest aipowered martech news and releases",
+      "title": "The latest AI-powered martech news and releases",
+      "summary": "That meeting that could\u2019ve been an email is protecting you from being replaced by AI.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-16T15:36:13+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2861,
+      "signals": {
+        "score": 0.2861,
+        "recency": 0.036333165465471835,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
         "engagement": 0.6
       }
     },
@@ -1579,56 +1622,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2874,
+      "score": 0.2859,
       "signals": {
-        "score": 0.2874,
-        "recency": 0.035770117829823436,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "adobe and canva releases push ai deeper into creative workflows",
-      "title": "Adobe and Canva releases push AI deeper into creative workflows",
-      "summary": "Adobe and Canva are rolling out AI tools that turn design into conversation, intensifying competition and reshaping how marketers create.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/adobe-and-canva-releases-push-ai-deeper-into-creative-workflows/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-16T15:07:18+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2871,
-      "signals": {
-        "score": 0.2871,
-        "recency": 0.04043164811034972,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "marketplace briefing how doordash is winning over apparel brands",
-      "title": "Marketplace Briefing: How DoorDash is winning over apparel brands",
-      "summary": "DoorDash is expanding beyond food delivery into retail and apparel partnerships.",
-      "image": null,
-      "link": "https://www.modernretail.co/technology/marketplace-briefing-how-doordash-is-winning-over-apparel-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-16T14:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2869,
-      "signals": {
-        "score": 0.2869,
-        "recency": 0.033537640427359634,
+        "score": 0.2859,
+        "recency": 0.029663190476821664,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1648,10 +1645,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2868,
+      "score": 0.2857,
       "signals": {
-        "score": 0.2868,
-        "recency": 0.027304910315819535,
+        "score": 0.2857,
+        "recency": 0.022643223024985087,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1659,25 +1656,25 @@
       }
     },
     {
-      "id": "these 3 charts show how venture capital has concentrated at the top in 2026",
-      "title": "These 3 Charts Show How Venture Capital Has Concentrated At The Top In 2026",
-      "summary": "In the first quarter of 2026, a handful of large, well-funded AI companies, almost all based in the U.S., captured the vast majority of venture dollars, even as global startup",
-      "image": "https://news.crunchbase.com/wp-content/uploads/concentrated-capital.jpg",
-      "link": "https://news.crunchbase.com/venture/capital-concentrated-ai-global-q1-2026/",
-      "category": "startup",
+      "id": "marketplace briefing how doordash is winning over apparel brands",
+      "title": "Marketplace Briefing: How DoorDash is winning over apparel brands",
+      "summary": "DoorDash is expanding beyond food delivery into retail and apparel partnerships.",
+      "image": null,
+      "link": "https://www.modernretail.co/technology/marketplace-briefing-how-doordash-is-winning-over-apparel-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-04-16T11:00:19+00:00",
+      "published_at": "2026-04-16T14:00:00+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.2866,
+      "score": 0.2855,
       "signals": {
-        "score": 0.2866,
-        "recency": 0.02035950812594552,
+        "score": 0.2855,
+        "recency": 0.02781185739652438,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.81,
+        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -1694,10 +1691,56 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2865,
+      "score": 0.2854,
       "signals": {
-        "score": 0.2865,
-        "recency": 0.02615665334328107,
+        "score": 0.2854,
+        "recency": 0.021691004599124934,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "adobe and canva releases push ai deeper into creative workflows",
+      "title": "Adobe and Canva releases push AI deeper into creative workflows",
+      "summary": "Adobe and Canva are rolling out AI tools that turn design into conversation, intensifying competition and reshaping how marketers create.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/adobe-and-canva-releases-push-ai-deeper-into-creative-workflows/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-16T15:07:18+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2854,
+      "signals": {
+        "score": 0.2854,
+        "recency": 0.033528871358348845,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "should you use autogenerated creative ask a ppc via sejournal navahf",
+      "title": "Should You Use Auto-Generated Creative? \u2013 Ask A PPC via @sejournal, @navahf",
+      "summary": "The role of auto-generated creative continues to evolve as advertisers weigh efficiency and scale against control and compliance.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/ask-a-ppc-should-you-use-autogenerated-creative/571280/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-04-16T12:00:11+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.285,
+      "signals": {
+        "score": 0.285,
+        "recency": 0.019938217766834194,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1717,36 +1760,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2861,
+      "score": 0.2848,
       "signals": {
-        "score": 0.2861,
-        "recency": 0.030221331997079402,
+        "score": 0.2848,
+        "recency": 0.025061732582418405,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "should you use autogenerated creative ask a ppc via sejournal navahf",
-      "title": "Should You Use Auto-Generated Creative? \u2013 Ask A PPC via @sejournal, @navahf",
-      "summary": "The role of auto-generated creative continues to evolve as advertisers weigh efficiency and scale against control and compliance.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/ask-a-ppc-should-you-use-autogenerated-creative/571280/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-04-16T12:00:11+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.286,
-      "signals": {
-        "score": 0.286,
-        "recency": 0.02404301045747642,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1763,10 +1783,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2842,
+      "score": 0.2829,
       "signals": {
-        "score": 0.2842,
-        "recency": 0.028626563188367555,
+        "score": 0.2829,
+        "recency": 0.02373923397717558,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1786,36 +1806,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2833,
+      "score": 0.2822,
       "signals": {
-        "score": 0.2833,
-        "recency": 0.025192776127280034,
+        "score": 0.2822,
+        "recency": 0.020891687314498343,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "lidl and iceland ad bans send warning shot to retailers over hfss and retail media",
-      "title": "Lidl and Iceland ad bans send warning shot to retailers over HFSS and retail media",
-      "summary": "The Advertising Standards Authority (ASA) decision to ban ads from Lidl and Iceland shows retailers that the UK\u2019s restrictions on advertising foods high in fat, salt and sugar",
-      "image": null,
-      "link": "https://internetretailing.net/lidl-and-iceland-ad-bans-send-warning-shot-to-retailers-over-hfss-and-retail-media/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-16T10:42:09+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2803,
-      "signals": {
-        "score": 0.2803,
-        "recency": 0.019357599271423366,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.77,
         "engagement": 0.6
       }
     },
@@ -1832,10 +1829,10 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.2783,
+      "score": 0.2762,
       "signals": {
-        "score": 0.2783,
-        "recency": 0.04904838656577331,
+        "score": 0.2762,
+        "recency": 0.040674499318206374,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1855,10 +1852,10 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.2759,
+      "score": 0.2742,
       "signals": {
-        "score": 0.2759,
-        "recency": 0.039620040741805154,
+        "score": 0.2742,
+        "recency": 0.03285582733651851,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1878,10 +1875,10 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.2728,
+      "score": 0.2706,
       "signals": {
-        "score": 0.2728,
-        "recency": 0.05121579766234437,
+        "score": 0.2706,
+        "recency": 0.042471874672266846,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1901,10 +1898,10 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.2728,
+      "score": 0.2706,
       "signals": {
-        "score": 0.2728,
-        "recency": 0.051298853495804486,
+        "score": 0.2706,
+        "recency": 0.042540750626767786,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1924,36 +1921,13 @@
       "keywords": [
         "festival"
       ],
-      "score": 0.2697,
+      "score": 0.2681,
       "signals": {
-        "score": 0.2697,
-        "recency": 0.03899585817911119,
+        "score": 0.2681,
+        "recency": 0.03233820963289259,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "uk brands increase media spend despite economic storm clouds",
-      "title": "U.K. brands increase media spend despite economic storm clouds",
-      "summary": "The IPA's quarterly Bellwether report provides a window into CMO thinking amid ongoing Iran stalemate and other troubling indicators.",
-      "image": null,
-      "link": "https://digiday.com/media-buying/uk-brands-increase-media-spend-despite-economic-stormclouds/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-16T11:01:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "cloud"
-      ],
-      "score": 0.2666,
-      "signals": {
-        "score": 0.2666,
-        "recency": 0.0203981901891211,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.81,
         "engagement": 0.4
       }
     },
@@ -1968,10 +1942,10 @@
       "published_at": "2026-04-16T23:25:21+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2588,
+      "score": 0.2519,
       "signals": {
-        "score": 0.2588,
-        "recency": 0.1612708209617912,
+        "score": 0.2519,
+        "recency": 0.13373752648235626,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1989,10 +1963,10 @@
       "published_at": "2026-04-16T17:11:20+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2403,
+      "score": 0.2378,
       "signals": {
-        "score": 0.2403,
-        "recency": 0.05706265555507589,
+        "score": 0.2378,
+        "recency": 0.04732051565768737,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2010,34 +1984,13 @@
       "published_at": "2026-04-16T17:03:18+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.24,
+      "score": 0.2376,
       "signals": {
-        "score": 0.24,
-        "recency": 0.05580341507547778,
+        "score": 0.2376,
+        "recency": 0.04627626161356734,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "what does it really take to go from products to platforms",
-      "title": "What Does It Really Take To Go From Products To Platforms?",
-      "summary": "For years, B2B vendors have optimized individual products \u2014 adding features, updating interfaces, creating APIs \u2014 but have found they have too many products with too much",
-      "image": null,
-      "link": "https://www.forrester.com/blogs/what-does-it-really-take-to-go-from-products-to-platforms/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-16T18:25:50+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2375,
-      "signals": {
-        "score": 0.2375,
-        "recency": 0.07018217271436843,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -2052,13 +2005,34 @@
       "published_at": "2026-04-16T14:52:08+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2372,
+      "score": 0.2355,
       "signals": {
-        "score": 0.2372,
-        "recency": 0.03876366030712297,
+        "score": 0.2355,
+        "recency": 0.03214565422287501,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.85,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "what does it really take to go from products to platforms",
+      "title": "What Does It Really Take To Go From Products To Platforms?",
+      "summary": "For years, B2B vendors have optimized individual products \u2014 adding features, updating interfaces, creating APIs \u2014 but have found they have too many products with too much",
+      "image": null,
+      "link": "https://www.forrester.com/blogs/what-does-it-really-take-to-go-from-products-to-platforms/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-16T18:25:50+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2346,
+      "signals": {
+        "score": 0.2346,
+        "recency": 0.05820017611369951,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -2073,10 +2047,10 @@
       "published_at": "2026-04-16T16:54:56+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2336,
+      "score": 0.2313,
       "signals": {
-        "score": 0.2336,
-        "recency": 0.05452145690371885,
+        "score": 0.2313,
+        "recency": 0.04521316840226967,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2094,10 +2068,10 @@
       "published_at": "2026-04-16T11:57:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2316,
+      "score": 0.2296,
       "signals": {
-        "score": 0.2316,
-        "recency": 0.04641712214534871,
+        "score": 0.2296,
+        "recency": 0.03849246295843617,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2115,10 +2089,10 @@
       "published_at": "2026-04-16T15:30:02+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2308,
+      "score": 0.2289,
       "signals": {
-        "score": 0.2308,
-        "recency": 0.04306717024080223,
+        "score": 0.2289,
+        "recency": 0.03571443852179583,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2136,10 +2110,31 @@
       "published_at": "2026-04-16T11:22:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2305,
+      "score": 0.2287,
       "signals": {
-        "score": 0.2305,
-        "recency": 0.04211677766650959,
+        "score": 0.2287,
+        "recency": 0.03492630368553052,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "what dove netflix and nike didn8217t do on reddit is why they8217re winning",
+      "title": "What Dove, Netflix, and Nike Didn&#8217;t Do on Reddit Is Why They&#8217;re Winning",
+      "summary": "Reddit's global head of insights Rob Gage dishes on how brands are hacking the platform at Social Media Week.",
+      "image": null,
+      "link": "https://www.adweek.com/social-marketing/what-dove-netflix-and-nike-didnt-do-on-reddit-is-why-theyre-winning/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-04-16T15:00:30+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.2282,
+      "signals": {
+        "score": 0.2282,
+        "recency": 0.03290149213436597,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2157,34 +2152,13 @@
       "published_at": "2026-04-16T12:00:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2302,
+      "score": 0.2282,
       "signals": {
-        "score": 0.2302,
-        "recency": 0.04680554768849266,
+        "score": 0.2282,
+        "recency": 0.03881457374731189,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "what dove netflix and nike didn8217t do on reddit is why they8217re winning",
-      "title": "What Dove, Netflix, and Nike Didn&#8217;t Do on Reddit Is Why They&#8217;re Winning",
-      "summary": "Reddit's global head of insights Rob Gage dishes on how brands are hacking the platform at Social Media Week.",
-      "image": null,
-      "link": "https://www.adweek.com/social-marketing/what-dove-netflix-and-nike-didnt-do-on-reddit-is-why-theyre-winning/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-04-16T15:00:30+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2299,
-      "signals": {
-        "score": 0.2299,
-        "recency": 0.03967510680764035,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -2199,10 +2173,10 @@
       "published_at": "2026-04-16T14:51:31+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2297,
+      "score": 0.228,
       "signals": {
-        "score": 0.2297,
-        "recency": 0.03869731643123152,
+        "score": 0.228,
+        "recency": 0.03209063704242003,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2220,10 +2194,10 @@
       "published_at": "2026-04-16T14:43:56+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2295,
+      "score": 0.2279,
       "signals": {
-        "score": 0.2295,
-        "recency": 0.03789069016975034,
+        "score": 0.2279,
+        "recency": 0.03142172371784684,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2241,10 +2215,10 @@
       "published_at": "2026-04-16T10:45:00-04:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2295,
+      "score": 0.2279,
       "signals": {
-        "score": 0.2295,
-        "recency": 0.03800312536977403,
+        "score": 0.2279,
+        "recency": 0.031514963185786775,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2262,10 +2236,10 @@
       "published_at": "2026-04-16T13:00:37+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2256,
+      "score": 0.2244,
       "signals": {
-        "score": 0.2256,
-        "recency": 0.02843767069667571,
+        "score": 0.2244,
+        "recency": 0.023582590546830894,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2283,10 +2257,10 @@
       "published_at": "2026-04-16T12:35:58+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2251,
+      "score": 0.224,
       "signals": {
-        "score": 0.2251,
-        "recency": 0.026555648563792777,
+        "score": 0.224,
+        "recency": 0.02202188053533759,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2304,10 +2278,10 @@
       "published_at": "2026-04-16T11:51:38+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2229,
+      "score": 0.2219,
       "signals": {
-        "score": 0.2229,
-        "recency": 0.023478716474664103,
+        "score": 0.2219,
+        "recency": 0.01947026404141677,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
