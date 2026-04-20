@@ -26,7 +26,7 @@ USER_AGENT = "SnapFacts-TrendBot/1.0 (+https://www.snapfacts.in)"
 IST = timezone(timedelta(hours=5, minutes=30))
 
 KEYWORD_SIGNALS = {
-    "technology": ["ai", "artificial intelligence", "quantum", "chip", "semiconductor", "cloud", "open source"],
+    "technology": ["ai", "artificial intelligence", "quantum", "cloud", "open source", "platform", "enterprise"],
     "media": ["streaming", "box office", "studio", "series", "film", "hollywood"],
     "gaming": ["game", "esports", "console", "dlc"],
     "culture": ["music", "tour", "festival", "award", "grammys"],
@@ -35,9 +35,9 @@ KEYWORD_SIGNALS = {
 
 SAMPLE_ITEMS = [
     {
-        "title": "IBM and Samsung unveil 2nm chip alliance for AI compute surge",
-        "summary": "Partnership targets 30% efficiency boost for data centers as both companies co-develop packaging pipelines.",
-        "link": "https://newsroom.ibm.com/ibm-samsung-2nm-alliance",
+        "title": "IBM and Samsung expand AI infrastructure alliance for compute efficiency",
+        "summary": "Partnership targets a major efficiency boost for data centers as both companies co-develop compute infrastructure pipelines.",
+        "link": "https://newsroom.ibm.com/ibm-samsung-ai-infrastructure-alliance",
         "published": datetime(2026, 2, 6, 8, 30, tzinfo=timezone.utc).isoformat(),
         "source": "Sample Feed",
         "category": "technology",
