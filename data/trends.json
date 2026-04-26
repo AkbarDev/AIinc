@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-26T01:51:00.260886+00:00",
-  "sources_scanned": 803,
+  "generated_at": "2026-04-26T04:55:32.589025+00:00",
+  "sources_scanned": 703,
   "feeds_polled": 32,
   "feed_pool": 38,
   "continent_counts": {
     "NA": 443,
     "SA": 0,
-    "EU": 360,
+    "EU": 260,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 17,
+  "clusters": 13,
   "trends": [
     {
       "id": "maines governor vetoes data center moratorium",
@@ -29,34 +29,11 @@
         "ai",
         "govern"
       ],
-      "score": 0.4365,
+      "score": 0.3922,
       "signals": {
-        "score": 0.4365,
-        "recency": 0.44206056811774774,
+        "score": 0.3922,
+        "recency": 0.2647640681127626,
         "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "anthropic created a test marketplace for agentonagent commerce",
-      "title": "Anthropic created a test marketplace for agent-on-agent commerce",
-      "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-25T21:43:37+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4117,
-      "signals": {
-        "score": 0.4117,
-        "recency": 0.5029884838969927,
-        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -75,10 +52,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3881,
+      "score": 0.3715,
       "signals": {
-        "score": 0.3881,
-        "recency": 0.16529689174448814,
+        "score": 0.3715,
+        "recency": 0.09900154110331864,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -86,45 +63,22 @@
       }
     },
     {
-      "id": "openai ceo apologizes to tumbler ridge community",
-      "title": "OpenAI CEO apologizes to Tumbler Ridge community",
-      "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is \u201cdeeply sorry\u201d that his company failed to alert law enforcement about the suspect in a",
+      "id": "anthropic created a test marketplace for agentonagent commerce",
+      "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+      "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
       "image": null,
-      "link": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+      "link": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
       "category": "technology",
       "geo": "global",
-      "published_at": "2026-04-25T17:17:56+00:00",
+      "published_at": "2026-04-25T21:43:37+00:00",
       "source_count": 1,
       "keywords": [
         "ai"
       ],
-      "score": 0.3461,
+      "score": 0.3613,
       "signals": {
-        "score": 0.3461,
-        "recency": 0.24046102440858358,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "why cohere is merging with aleph alpha",
-      "title": "Why Cohere is merging with Aleph Alpha",
-      "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl\u2019s owner, Schwarz Group.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-25T16:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3344,
-      "signals": {
-        "score": 0.3344,
-        "recency": 0.19365467250150065,
+        "score": 0.3613,
+        "recency": 0.3012557256067371,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -145,13 +99,59 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.3328,
+      "score": 0.3277,
       "signals": {
-        "score": 0.3328,
-        "recency": 0.05111776506948153,
+        "score": 0.3277,
+        "recency": 0.030616047683817448,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "openai ceo apologizes to tumbler ridge community",
+      "title": "OpenAI CEO apologizes to Tumbler Ridge community",
+      "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is \u201cdeeply sorry\u201d that his company failed to alert law enforcement about the suspect in a",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-25T17:17:56+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.322,
+      "signals": {
+        "score": 0.322,
+        "recency": 0.1440197195512378,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "why cohere is merging with aleph alpha",
+      "title": "Why Cohere is merging with Aleph Alpha",
+      "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl\u2019s owner, Schwarz Group.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-25T16:00:00+00:00",
+      "source_count": 1,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.315,
+      "signals": {
+        "score": 0.315,
+        "recency": 0.11598591369245347,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -166,38 +166,14 @@
       "published_at": "2026-04-25T14:57:26+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.3274,
+      "score": 0.3111,
       "signals": {
-        "score": 0.3274,
-        "recency": 0.16276057207475725,
+        "score": 0.3111,
+        "recency": 0.09748245896339454,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "wpp integrates google earth ai into marketing platform contentgrip",
-      "title": "WPP integrates Google Earth AI into marketing platform - ContentGrip",
-      "summary": "WPP integrates Google Earth AI into marketing platform &nbsp;&nbsp; ContentGrip",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SV2pGN0RqZ0JObVhpVTVCUlFWSlRCZnpVcTBIaUptMU1tWTcybGpVNlBUbU9TNkxfazFGVk9TQWxJYy1udWRlSmVPQkh1WG9CMEhrUkJhdkoybzhySkViNGpYU1pqaUU5d2VubmFaZjh6N29UTDYxR0pB?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-04-25T07:04:44+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai",
-        "platform"
-      ],
-      "score": 0.3249,
-      "signals": {
-        "score": 0.3249,
-        "recency": 0.04378208355349636,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
       }
     },
     {
@@ -213,57 +189,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3094,
+      "score": 0.2976,
       "signals": {
-        "score": 0.3094,
-        "recency": 0.11776786288198389,
+        "score": 0.2976,
+        "recency": 0.07053490113887453,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "lachy groom to back india startup pronto at a 200m valuation sources say",
-      "title": "Lachy Groom to back India startup Pronto at a $200M valuation, sources say",
-      "summary": "This round, should it occur, would double the house-help startup's valuation in a matter of weeks.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/24/lachy-groom-to-back-pronto-as-indias-house-help-startup-scales-fast-sources-say/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-25T03:30:00+00:00",
-      "source_count": 2,
-      "keywords": [],
-      "score": 0.2928,
-      "signals": {
-        "score": 0.2928,
-        "recency": 0.024112809189209085,
-        "keyword_volume": 0.0,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "modern retail podcast what it takes to build a true lifestyle brand",
-      "title": "Modern Retail Podcast: What it takes to build a true lifestyle brand",
-      "summary": "The latest episode of the Modern Retail Podcast \u2014 recorded live at the Modern Retail Marketing Summit in Huntington Beach, California \u2014 gets into what it means to be a lifestyle",
-      "image": null,
-      "link": "https://www.modernretail.co/operations/modern-retail-podcast-what-it-takes-to-build-a-true-lifestyle-brand/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-04-25T04:00:00+00:00",
-      "source_count": 1,
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2851,
-      "signals": {
-        "score": 0.2851,
-        "recency": 0.02620830995308406,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -278,10 +210,10 @@
       "published_at": "2026-04-25T16:33:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2791,
+      "score": 0.2578,
       "signals": {
-        "score": 0.2791,
-        "recency": 0.21224541029940489,
+        "score": 0.2578,
+        "recency": 0.12712049506791728,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -299,10 +231,10 @@
       "published_at": "2026-04-25T15:00:07+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.267,
+      "score": 0.2506,
       "signals": {
-        "score": 0.267,
-        "recency": 0.16397827370952048,
+        "score": 0.2506,
+        "recency": 0.09821177902001085,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -320,10 +252,10 @@
       "published_at": "2026-04-25T15:00:00+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.267,
+      "score": 0.2505,
       "signals": {
-        "score": 0.267,
-        "recency": 0.16392514121219728,
+        "score": 0.2505,
+        "recency": 0.09817995628540192,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -341,10 +273,10 @@
       "published_at": "2026-04-25T12:00:14+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2449,
+      "score": 0.2349,
       "signals": {
-        "score": 0.2449,
-        "recency": 0.09949008746568981,
+        "score": 0.2349,
+        "recency": 0.05958776284089257,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -362,31 +294,10 @@
       "published_at": "2026-04-25T09:57:17+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2317,
+      "score": 0.2246,
       "signals": {
-        "score": 0.2317,
-        "recency": 0.07070598607322123,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "short interest in publicis groupe sa otcmktspubgy declines by 975 marketbeat",
-      "title": "Short Interest in Publicis Groupe SA (OTCMKTS:PUBGY) Declines By 97.5% - MarketBeat",
-      "summary": "Short Interest in Publicis Groupe SA (OTCMKTS:PUBGY) Declines By 97.5% &nbsp;&nbsp; MarketBeat",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN19TVmFZeGkzeE5FZW1FdTI2eno0LVRXdEdyYjFLLXNIRmpkMVZTOVdlYzk5NUtHV1V1Q1NkQjhiMDluclAtcEIteWZraWNNenJCRUo2NFktcjJ5TkM2QlJPeTlxbEdORFQwc2llY2p5ZzlOQXJKY2RnbDFJbmF0NS1ZQW5PWGJWZnZaSVVyaTRBSXctSnQzVDlSTzAySTQ2S1QxdFBOLUkxWUdVYXE4RE5heWRXQVNBeWV3?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-04-25T03:16:42+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.2198,
-      "signals": {
-        "score": 0.2198,
-        "recency": 0.02323822974876917,
+        "score": 0.2246,
+        "recency": 0.04234805332757931,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
