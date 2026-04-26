@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-26T19:55:01.315618+00:00",
-  "sources_scanned": 793,
-  "feeds_polled": 31,
+  "generated_at": "2026-04-26T20:47:54.145175+00:00",
+  "sources_scanned": 803,
+  "feeds_polled": 32,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 433,
+    "NA": 443,
     "SA": 0,
     "EU": 360,
     "AF": 0,
@@ -13,8 +13,29 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 10,
+  "clusters": 11,
   "trends": [
+    {
+      "id": "what tim cook built",
+      "title": "What Tim Cook built",
+      "summary": "On the latest episode of Equity, we discuss how Apple has changed since Cook became CEO in 2011, and what challenges incoming CEO John Ternus will be facing.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/26/what-tim-cook-built/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-26T20:22:51+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.4592,
+      "signals": {
+        "score": 0.4592,
+        "recency": 0.9327761290092261,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
     {
       "id": "to buy this bay area home youll need anthropic equity",
       "title": "To buy this Bay Area home, you\u2019ll need Anthropic equity",
@@ -26,10 +47,10 @@
       "published_at": "2026-04-26T15:30:00+00:00",
       "source_count": 2,
       "keywords": [],
-      "score": 0.4065,
+      "score": 0.3901,
       "signals": {
-        "score": 0.4065,
-        "recency": 0.4789437985004223,
+        "score": 0.3901,
+        "recency": 0.4135146745062137,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -49,32 +70,11 @@
       "keywords": [
         "platform"
       ],
-      "score": 0.3762,
+      "score": 0.3611,
       "signals": {
-        "score": 0.3762,
-        "recency": 0.44064956673166555,
+        "score": 0.3611,
+        "recency": 0.3804518666467045,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "techcrunch mobility elons admission",
-      "title": "TechCrunch Mobility: Elon\u2019s admission",
-      "summary": "Welcome back to TechCrunch Mobility \u2014 your central hub for news and insights on the future of transportation.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/04/26/techcrunch-mobility-elons-admission/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-04-26T16:03:00+00:00",
-      "source_count": 1,
-      "keywords": [],
-      "score": 0.3572,
-      "signals": {
-        "score": 0.3572,
-        "recency": 0.5249221292209714,
-        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -93,14 +93,35 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3495,
+      "score": 0.3396,
       "signals": {
-        "score": 0.3495,
-        "recency": 0.2900909140983201,
+        "score": 0.3396,
+        "recency": 0.2504612238349529,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "techcrunch mobility elons admission",
+      "title": "TechCrunch Mobility: Elon\u2019s admission",
+      "summary": "Welcome back to TechCrunch Mobility \u2014 your central hub for news and insights on the future of transportation.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/04/26/techcrunch-mobility-elons-admission/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-04-26T16:03:00+00:00",
+      "source_count": 1,
+      "keywords": [],
+      "score": 0.3393,
+      "signals": {
+        "score": 0.3393,
+        "recency": 0.4532118467459961,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       }
     },
     {
@@ -116,10 +137,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3468,
+      "score": 0.3377,
       "signals": {
-        "score": 0.3468,
-        "recency": 0.267366478697954,
+        "score": 0.3377,
+        "recency": 0.2308412025770482,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -140,10 +161,10 @@
         "ai",
         "govern"
       ],
-      "score": 0.3314,
+      "score": 0.3307,
       "signals": {
-        "score": 0.3314,
-        "recency": 0.021764647155856645,
+        "score": 0.3307,
+        "recency": 0.01879135091126713,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -163,10 +184,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3008,
+      "score": 0.298,
       "signals": {
-        "score": 0.3008,
-        "recency": 0.0832934818213292,
+        "score": 0.298,
+        "recency": 0.07191465289179604,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -186,10 +207,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2922,
+      "score": 0.2913,
       "signals": {
-        "score": 0.2922,
-        "recency": 0.024764404846354383,
+        "score": 0.2913,
+        "recency": 0.021381307872537992,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -207,10 +228,10 @@
       "published_at": "2026-04-26T12:34:59+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2876,
+      "score": 0.2776,
       "signals": {
-        "score": 0.2876,
-        "recency": 0.29454325024470185,
+        "score": 0.2776,
+        "recency": 0.25430532065409495,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -228,10 +249,10 @@
       "published_at": "2026-04-26T07:12:32+00:00",
       "source_count": 1,
       "keywords": [],
-      "score": 0.2441,
+      "score": 0.24,
       "signals": {
-        "score": 0.2441,
-        "recency": 0.12026906099033773,
+        "score": 0.24,
+        "recency": 0.10383895096732032,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
