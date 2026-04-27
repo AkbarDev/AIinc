@@ -191,6 +191,7 @@ img {
 .hero-carousel-track {
     position: relative;
     min-height: 340px;
+    touch-action: pan-y;
 }
 
 .hero-carousel-slide {
@@ -554,6 +555,8 @@ img {
     border-radius: 14px;
     overflow: hidden;
     box-shadow: var(--shadow-card);
+    content-visibility: auto;
+    contain-intrinsic-size: 360px;
 }
 
 .board-image {
@@ -562,6 +565,8 @@ img {
     border-bottom: 1px solid var(--border);
     border-radius: 0;
     height: 180px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .image-fallback {

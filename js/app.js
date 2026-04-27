@@ -140,6 +140,12 @@ const state = {
     carouselIndex: 0,
 };
 
+const carouselTouch = {
+    startX: 0,
+    startY: 0,
+    isTracking: false,
+};
+
 document.addEventListener('DOMContentLoaded', () => {
     renderSkeletons();
     loadData();
@@ -254,6 +260,7 @@ function setupHeroCarousel() {
     const prev = document.getElementById('hero-carousel-prev');
     const next = document.getElementById('hero-carousel-next');
     const dots = document.getElementById('hero-carousel-dots');
+    const track = document.getElementById('hero-carousel-track');
 
     if (prev) {
         prev.addEventListener('click', () => {
@@ -276,6 +283,12 @@ function setupHeroCarousel() {
         });
     }
 
+    if (track) {
+        track.addEventListener('touchstart', handleCarouselTouchStart, { passive: true });
+        track.addEventListener('touchend', handleCarouselTouchEnd, { passive: true });
+        track.addEventListener('touchcancel', resetCarouselTouch, { passive: true });
+    }
+
     window.setInterval(() => {
         if (!getCarouselStories().length) return;
         moveHeroCarousel(1);
@@ -287,6 +300,47 @@ function moveHeroCarousel(direction) {
     if (!stories.length) return;
     state.carouselIndex = (state.carouselIndex + direction + stories.length) % stories.length;
     renderHeroCarousel();
+}
+
+function handleCarouselTouchStart(event) {
+    const touch = event.changedTouches?.[0];
+    if (!touch) return;
+    carouselTouch.startX = touch.clientX;
+    carouselTouch.startY = touch.clientY;
+    carouselTouch.isTracking = true;
+}
+
+function handleCarouselTouchEnd(event) {
+    if (!carouselTouch.isTracking) return;
+    const touch = event.changedTouches?.[0];
+    if (!touch) {
+        resetCarouselTouch();
+        return;
+    }
+
+    const deltaX = touch.clientX - carouselTouch.startX;
+    const deltaY = touch.clientY - carouselTouch.startY;
+    const minSwipe = 42;
+
+    // Ignore mostly vertical gestures so page scrolling remains natural.
+    if (Math.abs(deltaY) > Math.abs(deltaX)) {
+        resetCarouselTouch();
+        return;
+    }
+
+    if (deltaX <= -minSwipe) {
+        moveHeroCarousel(1);
+    } else if (deltaX >= minSwipe) {
+        moveHeroCarousel(-1);
+    }
+
+    resetCarouselTouch();
+}
+
+function resetCarouselTouch() {
+    carouselTouch.startX = 0;
+    carouselTouch.startY = 0;
+    carouselTouch.isTracking = false;
 }
 
 function renderCategoryPills() {
@@ -380,7 +434,7 @@ function renderNewsArticleSchema() {
         },
         image: item.image && /^https?:\/\//i.test(item.image)
             ? [item.image]
-            : ['https://www.snapfacts.in/assets/images/snapfacts-logo-neon.png']
+            : ['https://www.snapfacts.in/assets/images/og-image.jpg']
     }));
 
     const payload = {
@@ -450,7 +504,7 @@ function renderMetaStrip() {
 
 function renderCardMedia(item, imageUrl) {
     if (imageUrl) {
-        return `<img class="card-image board-image" src="${imageUrl}" alt="${item.title}" loading="lazy" />`;
+        return `<img class="card-image board-image" src="${imageUrl}" alt="${item.title}" loading="lazy" decoding="async" fetchpriority="low" width="640" height="360" sizes="(max-width: 768px) 96vw, (max-width: 1024px) 48vw, 24vw" />`;
     }
     return `<div class="board-image image-fallback"><span>${item.title}</span></div>`;
 }
