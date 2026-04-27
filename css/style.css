@@ -2286,3 +2286,114 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         letter-spacing: 0.16em;
     }
 }
+
+/* Mobile UX Polish Pass */
+@media (max-width: 768px) {
+    .masthead {
+        top: 0;
+        z-index: 60;
+        backdrop-filter: blur(8px);
+    }
+
+    .primary-nav {
+        position: relative;
+    }
+
+    .header-tabs {
+        scroll-padding-inline: 0.2rem;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior-x: contain;
+    }
+
+    .masthead .category-pill {
+        min-height: 44px;
+        min-width: 84px;
+        font-weight: 700;
+        touch-action: manipulation;
+    }
+
+    .hero-carousel-controls {
+        margin-top: 0.7rem;
+        justify-content: space-between;
+    }
+
+    .hero-carousel-arrow {
+        min-height: 44px;
+        min-width: 78px;
+        border-width: 1.5px;
+        font-size: 0.82rem;
+        font-weight: 800;
+        touch-action: manipulation;
+    }
+
+    .hero-carousel-dots {
+        min-height: 44px;
+    }
+
+    .hero-carousel-dot {
+        min-width: 12px;
+        min-height: 12px;
+    }
+
+    .news-card {
+        border-radius: 16px;
+    }
+
+    .news-card-body {
+        padding: 0.95rem 0.95rem 1rem;
+    }
+
+    .news-card h4 {
+        line-height: 1.34;
+    }
+
+    .news-card .card-summary {
+        margin-top: 0.45rem;
+        line-height: 1.52;
+    }
+
+    .news-card-meta {
+        margin-top: 0.65rem;
+    }
+
+    .footer-stat-card {
+        border-radius: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .masthead .category-pill {
+        min-width: 76px;
+        min-height: 42px;
+        padding: 0.38rem 0.72rem;
+    }
+
+    .hero-carousel-copy h2 {
+        font-size: clamp(1.2rem, 7.8vw, 1.58rem);
+    }
+
+    .hero-carousel-copy p:not(.eyebrow) {
+        font-size: 0.88rem;
+        line-height: 1.44;
+    }
+
+    .hero-carousel-meta {
+        gap: 0.45rem;
+        line-height: 1.3;
+    }
+
+    .hero-carousel-arrow {
+        min-width: 64px;
+        min-height: 42px;
+        padding-inline: 0.58rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-carousel-slide,
+    .hero-carousel-arrow,
+    .preview-btn {
+        animation: none !important;
+        transition: none !important;
+    }
+}
