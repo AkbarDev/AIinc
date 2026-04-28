@@ -450,14 +450,15 @@ function renderNewsBoard() {
     if (!grid) return;
 
     const list = getEditorialTrends(state.activeCategory);
-    const cards = state.activeCategory === 'all' && !isMobileViewport() ? list.slice(4, 16) : list.slice(0, 12);
+    const mobileReader = isMobileViewport();
+    const cards = state.activeCategory === 'all' && !mobileReader ? list.slice(4, 16) : list.slice(0, 12);
     if (!cards.length) {
         grid.innerHTML = '<p>No stories available for this category.</p>';
         return;
     }
 
-    grid.classList.toggle('is-compact', state.density === 'compact');
-    grid.classList.toggle('is-brief-mode', state.briefMode);
+    grid.classList.toggle('is-compact', !mobileReader && state.density === 'compact');
+    grid.classList.toggle('is-brief-mode', !mobileReader && state.briefMode);
 
     grid.innerHTML = cards
         .map((item) => {
@@ -470,7 +471,7 @@ function renderNewsBoard() {
             const sourceLabel = getSourceSummary(item, sourceName);
             const storySignal = getStorySignalLabel(item);
             const whyItMatters = buildWhyItMatters(item);
-            const storyBrief = buildStoryBrief(item, whyItMatters, state.briefMode ? 48 : 72);
+            const storyBrief = buildStoryBrief(item, whyItMatters, mobileReader ? 72 : state.briefMode ? 48 : 72);
             const storyHref = escapeAttr(item.link);
             return `
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">

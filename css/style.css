@@ -2071,12 +2071,37 @@ body[data-active-category="saved"] .masthead .category-pill.active {
 }
 
 @media (max-width: 768px) {
+    html,
+    body {
+        min-height: 100%;
+    }
+
+    .masthead,
     .front-section {
         display: none;
     }
 
-    .board-heading {
-        margin-bottom: 0.8rem;
+    .methodology,
+    .site-footer,
+    .board-heading,
+    .mobile-context-bar,
+    .mobile-reader-tools,
+    .mobile-category-rail,
+    .quick-brief {
+        display: none !important;
+    }
+
+    .news-board {
+        padding: 0;
+    }
+
+    .news-board .container {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .news-board-shell {
+        margin: 0;
     }
 
     .mobile-context-bar {
@@ -2223,26 +2248,18 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         text-decoration: underline;
     }
 
-    .news-board {
-        padding-top: 0.9rem;
-    }
-
-    .news-board-shell {
-        margin-top: 0.2rem;
-    }
-
     .news-card-grid {
         display: flex;
         flex-direction: column;
         gap: 0;
-        height: calc(100svh - 92px);
-        min-height: 520px;
+        height: 100svh;
+        min-height: 100svh;
         overflow-y: auto;
         scroll-snap-type: y mandatory;
         scroll-behavior: smooth;
         -webkit-overflow-scrolling: touch;
         overscroll-behavior-y: contain;
-        border-radius: 18px;
+        border-radius: 0;
         background: #e8edf5;
     }
 
@@ -2254,14 +2271,14 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         flex-direction: column;
         scroll-snap-align: start;
         scroll-snap-stop: always;
-        border-radius: 18px;
-        border: 1px solid #d8e1ee;
+        border-radius: 0;
+        border: none;
         box-shadow: none;
         overflow: hidden;
     }
 
     .news-card-grid .board-image {
-        flex: 0 0 48%;
+        flex: 0 0 50%;
         height: auto;
         min-height: 0;
         max-height: none;
@@ -2281,7 +2298,8 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         flex-direction: column;
         justify-content: flex-start;
         padding: 0.86rem 0.92rem 0.92rem;
-        overflow: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     .news-card-grid .story-kicker {
@@ -2296,23 +2314,19 @@ body[data-active-category="saved"] .masthead .category-pill.active {
 
     .news-card-grid .news-card .card-summary {
         color: #283348;
-        font-size: 0.92rem;
+        font-size: 0.94rem;
         line-height: 1.48;
         margin-top: 0.48rem;
-        display: -webkit-box;
-        -webkit-line-clamp: 5;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+        display: block;
+        overflow: visible;
     }
 
     .news-card-grid .card-insight {
         font-size: 0.8rem;
         line-height: 1.38;
         margin-top: 0.5rem;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+        display: block;
+        overflow: visible;
     }
 
     .news-card-grid .news-card-meta {
@@ -2330,11 +2344,11 @@ body[data-active-category="saved"] .masthead .category-pill.active {
     }
 
     .news-card-grid.is-compact .news-card {
-        border-radius: 18px;
+        border-radius: 0;
     }
 
     .news-card-grid.is-compact .board-image {
-        flex-basis: 44%;
+        flex-basis: 50%;
         height: auto;
     }
 
@@ -2361,13 +2375,11 @@ body[data-active-category="saved"] .masthead .category-pill.active {
     .news-card-grid.is-compact .news-card .card-summary {
         font-size: 0.84rem;
         margin-top: 0.38rem;
-        -webkit-line-clamp: 4;
     }
 
     .news-card-grid.is-compact .card-insight {
         font-size: 0.78rem;
         padding: 0.34rem 0.45rem;
-        -webkit-line-clamp: 2;
     }
 
     .news-card-grid.is-compact .news-card-meta {
@@ -2390,17 +2402,17 @@ body[data-active-category="saved"] .masthead .category-pill.active {
 
 @media (max-width: 480px) {
     .news-card-grid {
-        height: calc(100svh - 78px);
-        min-height: 500px;
-        border-radius: 16px;
+        height: 100svh;
+        min-height: 100svh;
+        border-radius: 0;
     }
 
     .news-card-grid .news-card {
-        border-radius: 16px;
+        border-radius: 0;
     }
 
     .news-card-grid .board-image {
-        flex-basis: 46%;
+        flex-basis: 50%;
     }
 
     .news-card-grid .news-card-body {
@@ -2414,12 +2426,10 @@ body[data-active-category="saved"] .masthead .category-pill.active {
     .news-card-grid .news-card .card-summary {
         font-size: 0.86rem;
         line-height: 1.42;
-        -webkit-line-clamp: 5;
     }
 
     .news-card-grid .card-insight {
         font-size: 0.76rem;
-        -webkit-line-clamp: 2;
     }
 
     .mobile-context-bar {
