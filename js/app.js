@@ -450,7 +450,7 @@ function renderNewsBoard() {
     if (!grid) return;
 
     const list = getEditorialTrends(state.activeCategory);
-    const cards = state.activeCategory === 'all' ? list.slice(4, 16) : list.slice(0, 12);
+    const cards = state.activeCategory === 'all' && !isMobileViewport() ? list.slice(4, 16) : list.slice(0, 12);
     if (!cards.length) {
         grid.innerHTML = '<p>No stories available for this category.</p>';
         return;
@@ -469,19 +469,19 @@ function renderNewsBoard() {
             const sourceName = getPrimarySource(item);
             const sourceLabel = getSourceSummary(item, sourceName);
             const storySignal = getStorySignalLabel(item);
-            const shortSummary = summarizeWords(item.summary, state.briefMode ? 42 : 60);
             const whyItMatters = buildWhyItMatters(item);
+            const storyBrief = buildStoryBrief(item, whyItMatters, state.briefMode ? 48 : 72);
             const storyHref = escapeAttr(item.link);
             return `
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">
             ${renderCardMedia(item, image)}
-            <div class="news-card-body ${image ? '' : 'centered-text'}">
+            <div class="news-card-body">
                 <div class="story-kicker">
                     <span>${escapeHtml(categoryLabel)}</span>
                     <span>${escapeHtml(storySignal)}</span>
                 </div>
                 <h4><a class="headline-link" href="${storyHref}" target="_blank" rel="noopener">${escapeHtml(headline)}</a></h4>
-                <p class="card-summary">${escapeHtml(shortSummary)}</p>
+                <p class="card-summary">${escapeHtml(storyBrief)}</p>
                 <p class="card-insight"><strong>Why it matters:</strong> ${escapeHtml(whyItMatters)}</p>
                 <div class="news-card-meta">
                     <span class="source-name">${escapeHtml(sourceLabel)}</span>
@@ -490,7 +490,6 @@ function renderNewsBoard() {
                 <div class="card-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
                     <button class="card-action-btn ${isSaved ? 'is-active' : ''}" type="button" data-action="save">${isSaved ? 'Saved' : 'Save'}</button>
                     <button class="card-action-btn" type="button" data-action="share">Share</button>
-                    <a class="card-action-link" href="${storyHref}" target="_blank" rel="noopener">Open source</a>
                 </div>
             </div>
         </article>`;
@@ -866,6 +865,48 @@ function summarizeWords(value = '', maxWords = 60) {
     return trimTrailingConnector(words.slice(0, maxWords).join(' '));
 }
 
+function buildStoryBrief(item, whyItMatters, maxWords = 72) {
+    const summary = summarizeWords(item.summary, maxWords);
+    const headline = cleanHeadline(item.title || '');
+    const sourceName = getPrimarySource(item);
+    const signal = getStorySignalLabel(item).toLowerCase();
+    const weakSummary = isWeakSummary(summary, headline, sourceName);
+
+    if (!weakSummary) {
+        return summarizeWords(`${summary}. ${whyItMatters}`, maxWords);
+    }
+
+    const fallback = `Snapfacts is tracking this ${signal} from ${sourceName}. The RSS feed has limited article detail, so the key takeaway is the market context: ${whyItMatters}`;
+    return summarizeWords(fallback, maxWords);
+}
+
+function isWeakSummary(summary = '', headline = '', sourceName = '') {
+    const cleanSummary = normalizeComparableText(summary);
+    if (!cleanSummary || cleanSummary === normalizeComparableText('Summary unavailable from feed.')) return true;
+    if (cleanSummary.length < 65) return true;
+
+    const cleanHeadline = normalizeComparableText(headline);
+    const cleanSource = normalizeComparableText(sourceName);
+    if (cleanHeadline && (cleanSummary.includes(cleanHeadline) || cleanHeadline.includes(cleanSummary))) return true;
+    if (cleanSource && cleanSummary.endsWith(cleanSource)) return true;
+
+    const summaryWords = new Set(cleanSummary.split(' ').filter((word) => word.length > 3));
+    const headlineWords = cleanHeadline.split(' ').filter((word) => word.length > 3);
+    if (!summaryWords.size || !headlineWords.length) return false;
+
+    const overlap = headlineWords.filter((word) => summaryWords.has(word)).length / headlineWords.length;
+    return overlap > 0.72;
+}
+
+function normalizeComparableText(value = '') {
+    return String(value || '')
+        .replace(/&nbsp;/gi, ' ')
+        .replace(/[^a-z0-9 ]/gi, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .toLowerCase();
+}
+
 function getStorySignalLabel(item) {
     const text = `${item.title || ''} ${item.summary || ''}`.toLowerCase();
     const patterns = [
@@ -933,6 +974,10 @@ function formatDate(value) {
 function normalizeCategory(value = '') {
     const key = String(value || '').toLowerCase();
     return CATEGORY_MAP[key] || key;
+}
+
+function isMobileViewport() {
+    return window.matchMedia('(max-width: 768px)').matches;
 }
 
 function capitalize(value = '') {
