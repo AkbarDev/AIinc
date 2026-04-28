@@ -139,6 +139,10 @@ const state = {
     activeCategory: 'all',
     carouselIndex: 0,
     mobileMenuOpen: false,
+    density: 'comfortable',
+    briefMode: false,
+    followedTopics: [],
+    savedStoryIds: [],
 };
 
 const carouselTouch = {
@@ -147,11 +151,20 @@ const carouselTouch = {
     isTracking: false,
 };
 
+const STORAGE_KEYS = {
+    density: 'snapfacts_density_mode',
+    brief: 'snapfacts_brief_mode',
+    follows: 'snapfacts_followed_topics',
+    saved: 'snapfacts_saved_story_ids',
+};
+
 document.addEventListener('DOMContentLoaded', () => {
+    hydrateReaderPrefs();
     renderSkeletons();
     loadData();
     setupCategoryFilters();
     setupHeroCarousel();
+    setupReaderInteractions();
 });
 
 async function loadData() {
@@ -192,6 +205,7 @@ function renderAll() {
     renderHeroCarousel();
     renderCategoryPills();
     renderMobileCategoryMenu();
+    renderMobileReaderChrome();
     renderNewsBoard();
     renderSectionHeading();
     renderNewsArticleSchema();
@@ -377,27 +391,106 @@ function renderMobileCategoryMenu() {
     allNews.classList.toggle('active', state.activeCategory === 'all');
 }
 
+function renderMobileReaderChrome() {
+    const contextCategory = document.getElementById('mobile-context-category');
+    const contextMeta = document.getElementById('mobile-context-meta');
+    const densityBtn = document.getElementById('density-toggle');
+    const briefBtn = document.getElementById('brief-toggle');
+    const followBtn = document.getElementById('follow-topic-toggle');
+    const rail = document.getElementById('mobile-category-rail');
+    const briefSection = document.getElementById('quick-brief');
+    const briefList = document.getElementById('quick-brief-list');
+
+    const activeLabel = (HEADER_CATEGORIES.find((item) => item.key === state.activeCategory)?.label || 'ALL NEWS').toUpperCase();
+    const latestTime = formatDate(state.meta.generated_at);
+
+    if (contextCategory) contextCategory.textContent = activeLabel;
+    if (contextMeta) contextMeta.textContent = `Updated ${latestTime}`;
+
+    if (densityBtn) {
+        const isCompact = state.density === 'compact';
+        densityBtn.textContent = isCompact ? 'Compact' : 'Comfortable';
+        densityBtn.setAttribute('aria-pressed', isCompact ? 'true' : 'false');
+    }
+    if (briefBtn) {
+        briefBtn.textContent = state.briefMode ? 'Shorts On' : 'Shorts';
+        briefBtn.setAttribute('aria-pressed', state.briefMode ? 'true' : 'false');
+    }
+    if (followBtn) {
+        const isFollowed = state.activeCategory !== 'all' && state.followedTopics.includes(state.activeCategory);
+        followBtn.textContent = isFollowed ? 'Following' : 'Follow Topic';
+        followBtn.setAttribute('aria-pressed', isFollowed ? 'true' : 'false');
+    }
+
+    if (rail) {
+        rail.innerHTML = HEADER_CATEGORIES
+            .map(({ key, label }) => {
+                const active = key === state.activeCategory ? 'active' : '';
+                const followed = state.followedTopics.includes(key) ? 'followed' : '';
+                return `<button class="mobile-rail-pill ${active} ${followed}" data-mobile-rail="${key}" type="button">${label}</button>`;
+            })
+            .join('');
+    }
+
+    if (briefSection && briefList) {
+        const briefItems = getEditorialTrends(state.activeCategory).slice(0, 5);
+        briefSection.classList.toggle('is-active', state.briefMode);
+        briefList.innerHTML = briefItems
+            .map((item) => {
+                const sourceName = getPrimarySource(item);
+                const headline = cleanHeadline(item.title);
+                return `<li><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener">${escapeHtml(headline)}</a><span>${escapeHtml(sourceName)} - ${escapeHtml(formatDate(item.published_at))}</span></li>`;
+            })
+            .join('');
+    }
+}
+
 function renderNewsBoard() {
     const grid = document.getElementById('news-card-grid');
     if (!grid) return;
 
-    const list = getCategoryTrends(state.activeCategory);
+    const list = getEditorialTrends(state.activeCategory);
     const cards = state.activeCategory === 'all' ? list.slice(4, 16) : list.slice(0, 12);
     if (!cards.length) {
         grid.innerHTML = '<p>No stories available for this category.</p>';
         return;
     }
+
+    grid.classList.toggle('is-compact', state.density === 'compact');
+    grid.classList.toggle('is-brief-mode', state.briefMode);
+
     grid.innerHTML = cards
         .map((item) => {
             const image = resolveCardImage(item);
+            const storyId = String(item.id || item.link || item.title || '').toLowerCase();
+            const isSaved = state.savedStoryIds.includes(storyId);
+            const headline = cleanHeadline(item.title);
+            const categoryLabel = getCategoryLabel(item);
+            const sourceName = getPrimarySource(item);
+            const sourceLabel = getSourceSummary(item, sourceName);
+            const storySignal = getStorySignalLabel(item);
+            const shortSummary = summarizeWords(item.summary, state.briefMode ? 42 : 60);
+            const whyItMatters = buildWhyItMatters(item);
+            const storyHref = escapeAttr(item.link);
             return `
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">
             ${renderCardMedia(item, image)}
             <div class="news-card-body ${image ? '' : 'centered-text'}">
-                <h4><a class="headline-link" href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h4>
-                <p class="card-summary">${summarize(item.summary, 150)}</p>
+                <div class="story-kicker">
+                    <span>${escapeHtml(categoryLabel)}</span>
+                    <span>${escapeHtml(storySignal)}</span>
+                </div>
+                <h4><a class="headline-link" href="${storyHref}" target="_blank" rel="noopener">${escapeHtml(headline)}</a></h4>
+                <p class="card-summary">${escapeHtml(shortSummary)}</p>
+                <p class="card-insight"><strong>Why it matters:</strong> ${escapeHtml(whyItMatters)}</p>
                 <div class="news-card-meta">
-                    <span>${formatDate(item.published_at)}</span>
+                    <span class="source-name">${escapeHtml(sourceLabel)}</span>
+                    <span>${escapeHtml(formatDate(item.published_at))}</span>
+                </div>
+                <div class="card-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
+                    <button class="card-action-btn ${isSaved ? 'is-active' : ''}" type="button" data-action="save">${isSaved ? 'Saved' : 'Save'}</button>
+                    <button class="card-action-btn" type="button" data-action="share">Share</button>
+                    <a class="card-action-link" href="${storyHref}" target="_blank" rel="noopener">Open source</a>
                 </div>
             </div>
         </article>`;
@@ -409,8 +502,24 @@ function renderNewsBoard() {
 function getCategoryTrends(categoryKey) {
     const sorted = [...state.trends].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
     const unique = dedupeTrends(sorted);
-    if (categoryKey === 'all') return unique;
+    if (categoryKey === 'all') {
+        return prioritizeFollowedTopics(unique);
+    }
     return unique.filter((item) => matchesCategory(item, categoryKey));
+}
+
+function getEditorialTrends(categoryKey) {
+    return [...getCategoryTrends(categoryKey)].sort((a, b) => (b.score || 0) - (a.score || 0));
+}
+
+function prioritizeFollowedTopics(list) {
+    if (!state.followedTopics.length) return list;
+    return [...list].sort((a, b) => {
+        const aFollowed = state.followedTopics.includes(normalizeCategory(a.category || '')) ? 1 : 0;
+        const bFollowed = state.followedTopics.includes(normalizeCategory(b.category || '')) ? 1 : 0;
+        if (aFollowed !== bFollowed) return bFollowed - aFollowed;
+        return new Date(b.published_at) - new Date(a.published_at);
+    });
 }
 
 function matchesCategory(item, categoryKey) {
@@ -551,10 +660,242 @@ function setActiveCategory(nextCategory) {
     state.activeCategory = nextCategory || 'all';
     renderCategoryPills();
     renderMobileCategoryMenu();
+    renderMobileReaderChrome();
     renderNewsBoard();
     renderSectionHeading();
     renderNewsArticleSchema();
     syncActiveCategoryTheme();
+}
+
+function setupReaderInteractions() {
+    const densityBtn = document.getElementById('density-toggle');
+    const briefBtn = document.getElementById('brief-toggle');
+    const followBtn = document.getElementById('follow-topic-toggle');
+    const rail = document.getElementById('mobile-category-rail');
+    const board = document.getElementById('news-card-grid');
+
+    if (densityBtn) {
+        densityBtn.addEventListener('click', () => {
+            state.density = state.density === 'compact' ? 'comfortable' : 'compact';
+            persistReaderPrefs();
+            renderMobileReaderChrome();
+            renderNewsBoard();
+        });
+    }
+
+    if (briefBtn) {
+        briefBtn.addEventListener('click', () => {
+            state.briefMode = !state.briefMode;
+            persistReaderPrefs();
+            renderMobileReaderChrome();
+            renderNewsBoard();
+        });
+    }
+
+    if (followBtn) {
+        followBtn.addEventListener('click', () => {
+            if (state.activeCategory === 'all') return;
+            const key = state.activeCategory;
+            if (state.followedTopics.includes(key)) {
+                state.followedTopics = state.followedTopics.filter((topic) => topic !== key);
+            } else {
+                state.followedTopics = [...state.followedTopics, key];
+            }
+            persistReaderPrefs();
+            renderMobileReaderChrome();
+            renderNewsBoard();
+        });
+    }
+
+    if (rail) {
+        rail.addEventListener('click', (event) => {
+            const button = event.target.closest('[data-mobile-rail]');
+            if (!button) return;
+            setActiveCategory(button.dataset.mobileRail || 'all');
+        });
+    }
+
+    if (board) {
+        board.addEventListener('click', async (event) => {
+            const shell = event.target.closest('[data-story-actions]');
+            if (!shell) return;
+            const action = event.target.closest('[data-action]')?.dataset.action;
+            if (!action) return;
+
+            const storyId = shell.dataset.storyId || '';
+            const storyLink = shell.dataset.storyLink || '';
+            const storyTitle = shell.dataset.storyTitle || 'Snapfacts story';
+
+            if (action === 'save') {
+                toggleSavedStory(storyId);
+                renderNewsBoard();
+                return;
+            }
+
+            if (action === 'share') {
+                await shareStory(storyTitle, storyLink);
+            }
+        });
+    }
+}
+
+function hydrateReaderPrefs() {
+    state.density = safeStorageGet(STORAGE_KEYS.density, 'comfortable');
+    state.briefMode = safeStorageGet(STORAGE_KEYS.brief, 'false') === 'true';
+    state.followedTopics = safeStorageArrayGet(STORAGE_KEYS.follows);
+    state.savedStoryIds = safeStorageArrayGet(STORAGE_KEYS.saved);
+}
+
+function persistReaderPrefs() {
+    safeStorageSet(STORAGE_KEYS.density, state.density);
+    safeStorageSet(STORAGE_KEYS.brief, state.briefMode ? 'true' : 'false');
+    safeStorageSet(STORAGE_KEYS.follows, JSON.stringify(state.followedTopics));
+    safeStorageSet(STORAGE_KEYS.saved, JSON.stringify(state.savedStoryIds));
+}
+
+function toggleSavedStory(storyId) {
+    if (!storyId) return;
+    if (state.savedStoryIds.includes(storyId)) {
+        state.savedStoryIds = state.savedStoryIds.filter((id) => id !== storyId);
+    } else {
+        state.savedStoryIds = [storyId, ...state.savedStoryIds].slice(0, 120);
+    }
+    persistReaderPrefs();
+}
+
+async function shareStory(title, url) {
+    if (!url) return;
+    try {
+        if (navigator.share) {
+            await navigator.share({ title, url });
+            return;
+        }
+    } catch (error) {
+        // Ignore cancellation and fall back to clipboard.
+    }
+
+    try {
+        await navigator.clipboard.writeText(url);
+    } catch (error) {
+        window.prompt('Copy story URL', url);
+    }
+}
+
+function safeStorageGet(key, fallback = '') {
+    try {
+        return window.localStorage.getItem(key) ?? fallback;
+    } catch (error) {
+        return fallback;
+    }
+}
+
+function safeStorageArrayGet(key) {
+    try {
+        const raw = window.localStorage.getItem(key);
+        if (!raw) return [];
+        const value = JSON.parse(raw);
+        return Array.isArray(value) ? value : [];
+    } catch (error) {
+        return [];
+    }
+}
+
+function safeStorageSet(key, value) {
+    try {
+        window.localStorage.setItem(key, value);
+    } catch (error) {
+        // Ignore storage write failures in restricted contexts.
+    }
+}
+
+function cleanHeadline(title = '') {
+    const original = String(title || '').trim();
+    const publisher = extractPublisherFromTitle(original);
+    if (!publisher) return original;
+    const suffixPattern = new RegExp(`\\s+-\\s+${escapeRegExp(publisher)}$`);
+    return original.replace(suffixPattern, '').trim() || original;
+}
+
+function getCategoryLabel(item) {
+    const category = normalizeCategory(item.category || 'all');
+    const found = HEADER_CATEGORIES.find((entry) => entry.key === category);
+    return found ? found.label : category.toUpperCase();
+}
+
+function getPrimarySource(item) {
+    const names = Array.isArray(item.source_names) ? item.source_names.filter(Boolean) : [];
+    if (names.length) return names[0];
+
+    const publisher = extractPublisherFromTitle(item.title || '');
+    if (publisher) return publisher;
+
+    try {
+        const hostname = new URL(item.link || '').hostname.replace(/^www\./, '');
+        return hostname || 'Live feed';
+    } catch (error) {
+        return 'Live feed';
+    }
+}
+
+function getSourceSummary(item, sourceName) {
+    const count = Number(item.source_count || 0);
+    if (count > 1 && sourceName && sourceName !== 'Live feed') {
+        return `${sourceName} + ${count - 1} more`;
+    }
+    return sourceName || (count ? `${count} source${count === 1 ? '' : 's'}` : 'Live feed');
+}
+
+function extractPublisherFromTitle(title = '') {
+    const text = String(title || '').trim();
+    const match = text.match(/\s+-\s+([^|-]{2,48})$/);
+    if (!match) return '';
+    return match[1].replace(/\s+/g, ' ').trim();
+}
+
+function summarizeWords(value = '', maxWords = 60) {
+    const plain = String(value || '')
+        .replace(/<[^>]*>/g, ' ')
+        .replace(/&nbsp;/gi, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    if (!plain) return 'Summary unavailable from feed.';
+
+    const words = plain.split(' ').filter(Boolean);
+    if (words.length <= maxWords) return trimTrailingConnector(plain);
+
+    return trimTrailingConnector(words.slice(0, maxWords).join(' '));
+}
+
+function getStorySignalLabel(item) {
+    const text = `${item.title || ''} ${item.summary || ''}`.toLowerCase();
+    const patterns = [
+        { label: 'Product Launch', test: /\blaunch|unveil|introduc|rollout|release\b/ },
+        { label: 'Partnership', test: /\bpartner|alliance|collaborat|team up|deal\b/ },
+        { label: 'Funding', test: /\bfunding|fundraise|raises|series [a-z]|seed\b/ },
+        { label: 'Retail Expansion', test: /\bretail|store|marketplace|commerce|ecommerce|quick commerce\b/ },
+        { label: 'Ad Campaign', test: /\badvertis|campaign|media buying|adtech|marketing\b/ },
+        { label: 'AI Signal', test: /\bai|artificial intelligence|llm|agentic|model\b/ },
+    ];
+    return patterns.find((pattern) => pattern.test.test(text))?.label || 'Market Signal';
+}
+
+function escapeRegExp(value = '') {
+    return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function buildWhyItMatters(item) {
+    const category = normalizeCategory(item.category || 'all');
+    const playbooks = {
+        ai: 'AI adoption may shift platform, tooling, or operating priorities.',
+        tech: 'Platform and infrastructure moves can ripple across teams quickly.',
+        commerce: 'Retail and ecommerce signals can affect demand, margins, or channel strategy.',
+        ads: 'Campaign and adtech movement can change budget and media planning decisions.',
+        media: 'Audience and distribution changes can reshape publisher growth plans.',
+        startup: 'Funding and product momentum can show where growth bets are forming.',
+        brands: 'Brand moves signal where consumer attention and positioning are shifting.',
+        all: 'Cross-category momentum makes this useful for market watchers.',
+    };
+    return playbooks[category] || playbooks.all;
 }
 
 function syncActiveCategoryTheme() {
@@ -576,9 +917,9 @@ function renderMetaStrip() {
 
 function renderCardMedia(item, imageUrl) {
     if (imageUrl) {
-        return `<img class="card-image board-image" src="${imageUrl}" alt="${item.title}" loading="lazy" decoding="async" fetchpriority="low" width="640" height="360" sizes="(max-width: 768px) 96vw, (max-width: 1024px) 48vw, 24vw" />`;
+        return `<img class="card-image board-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(cleanHeadline(item.title))}" loading="lazy" decoding="async" fetchpriority="low" width="640" height="360" sizes="(max-width: 768px) 96vw, (max-width: 1024px) 48vw, 24vw" />`;
     }
-    return `<div class="board-image image-fallback"><span>${item.title}</span></div>`;
+    return `<div class="board-image image-fallback"><span>${escapeHtml(cleanHeadline(item.title))}</span></div>`;
 }
 
 function formatDate(value) {
@@ -637,6 +978,15 @@ function trimTrailingConnector(text) {
         .trim();
 }
 
+function escapeHtml(value = '') {
+    return String(value)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+}
+
 function escapeAttr(value = '') {
     return String(value)
         .replaceAll('&', '&amp;')
@@ -651,6 +1001,44 @@ function resolveCardImage(trend) {
     }
     return buildHeadlineThemeImage(trend);
 }
+
+const ENTITY_VISUALS = [
+    { pattern: /\bopenai|chatgpt\b/i, label: 'OpenAI', mark: 'OA', palette: ['#0f766e', '#061b18'], accent: '#89f0d0' },
+    { pattern: /\bnvidia|nvda\b/i, label: 'NVIDIA', mark: 'NV', palette: ['#3f6212', '#102006'], accent: '#bef264' },
+    { pattern: /\badobe|adbe\b/i, label: 'Adobe', mark: 'AD', palette: ['#b91c1c', '#260909'], accent: '#fca5a5' },
+    { pattern: /\bwpp\b/i, label: 'WPP', mark: 'WP', palette: ['#1d4ed8', '#071a3b'], accent: '#93c5fd' },
+    { pattern: /\bpublicis\b/i, label: 'Publicis', mark: 'PB', palette: ['#be123c', '#2b0712'], accent: '#fda4af' },
+    { pattern: /\bomnicom|omc\b/i, label: 'Omnicom', mark: 'OM', palette: ['#0369a1', '#082f49'], accent: '#7dd3fc' },
+    { pattern: /\bamazon|aws\b/i, label: 'Amazon', mark: 'AM', palette: ['#92400e', '#211006'], accent: '#fbbf24' },
+    { pattern: /\bshopify\b/i, label: 'Shopify', mark: 'SH', palette: ['#15803d', '#052e16'], accent: '#86efac' },
+    { pattern: /\bwalmart\b/i, label: 'Walmart', mark: 'WM', palette: ['#1d4ed8', '#082154'], accent: '#fde047' },
+    { pattern: /\bflipkart\b/i, label: 'Flipkart', mark: 'FK', palette: ['#1e40af', '#08163e'], accent: '#facc15' },
+    { pattern: /\breliance|jio\b/i, label: 'Reliance', mark: 'RJ', palette: ['#0f4c81', '#071d34'], accent: '#93c5fd' },
+    { pattern: /\bmeta|facebook|instagram\b/i, label: 'Meta', mark: 'ME', palette: ['#0a66ff', '#041633'], accent: '#7fb0ff' },
+    { pattern: /\bgoogle|alphabet\b/i, label: 'Google', mark: 'GO', palette: ['#188038', '#081f12'], accent: '#fdd663' },
+    { pattern: /\bmicrosoft|azure\b/i, label: 'Microsoft', mark: 'MS', palette: ['#0b72c7', '#051a2d'], accent: '#7fd2ff' },
+    { pattern: /\bapple\b/i, label: 'Apple', mark: 'AP', palette: ['#334155', '#020617'], accent: '#cbd5e1' },
+    { pattern: /\bnetflix\b/i, label: 'Netflix', mark: 'NF', palette: ['#b9090b', '#1b0202'], accent: '#ff7f7f' },
+    { pattern: /\btarget\b/i, label: 'Target', mark: 'TG', palette: ['#d90429', '#33060f'], accent: '#ff9ca9' },
+];
+
+const SOURCE_VISUALS = [
+    { pattern: /\bdigiday\b/i, label: 'Digiday', mark: 'DI', palette: ['#111827', '#020617'], accent: '#60a5fa' },
+    { pattern: /\badexchanger\b/i, label: 'AdExchanger', mark: 'AX', palette: ['#0f766e', '#042f2e'], accent: '#5eead4' },
+    { pattern: /\badweek\b/i, label: 'Adweek', mark: 'AW', palette: ['#1d4ed8', '#071a3b'], accent: '#93c5fd' },
+    { pattern: /\bmarketing week\b/i, label: 'Marketing Week', mark: 'MW', palette: ['#9f1239', '#300610'], accent: '#fda4af' },
+    { pattern: /\bretail dive\b/i, label: 'Retail Dive', mark: 'RD', palette: ['#be185d', '#2b0718'], accent: '#f9a8d4' },
+    { pattern: /\bmodern retail\b/i, label: 'Modern Retail', mark: 'MR', palette: ['#92400e', '#241006'], accent: '#fdba74' },
+    { pattern: /\bdigital commerce 360\b/i, label: 'Digital Commerce 360', mark: 'DC', palette: ['#1e40af', '#071946'], accent: '#93c5fd' },
+    { pattern: /\byahoo finance|yahoo\b/i, label: 'Yahoo Finance', mark: 'YF', palette: ['#6001d2', '#15052f'], accent: '#c99bff' },
+    { pattern: /\bmarketbeat\b/i, label: 'MarketBeat', mark: 'MB', palette: ['#155e75', '#06252f'], accent: '#67e8f9' },
+    { pattern: /\bhuman resources online\b/i, label: 'HR Online', mark: 'HR', palette: ['#4f46e5', '#171044'], accent: '#c4b5fd' },
+    { pattern: /\btechcrunch\b/i, label: 'TechCrunch', mark: 'TC', palette: ['#15803d', '#052e16'], accent: '#86efac' },
+    { pattern: /\bthe verge\b/i, label: 'The Verge', mark: 'TV', palette: ['#7c3aed', '#1e103f'], accent: '#c4b5fd' },
+    { pattern: /\bmit technology review\b/i, label: 'MIT Tech Review', mark: 'MIT', palette: ['#991b1b', '#260707'], accent: '#fca5a5' },
+    { pattern: /\bsearch engine journal\b/i, label: 'Search Engine Journal', mark: 'SEJ', palette: ['#2563eb', '#071736'], accent: '#8db4ff' },
+    { pattern: /\bgoogle news\b/i, label: 'Google News', mark: 'GN', palette: ['#188038', '#081f12'], accent: '#fdd663' },
+];
 
 const VISUAL_SIGNALS = [
     { pattern: /\bmeta\b/i, label: 'META', palette: ['#0a66ff', '#041633'], accent: '#7fb0ff' },
@@ -670,17 +1058,21 @@ const VISUAL_SIGNALS = [
 ];
 
 function buildHeadlineThemeImage(trend) {
-    const headline = String(trend?.title || 'Snapfacts').trim();
+    const headline = cleanHeadline(String(trend?.title || 'Snapfacts').trim());
     const artHeadline = compactHeadlineForArt(headline);
     const summary = summarize(trend?.summary || 'Fresh headline from monitored RSS feeds.', 110);
-    const text = `${headline} ${summary}`;
+    const sourceName = getPrimarySource(trend);
+    const text = `${headline} ${summary} ${sourceName}`;
     const tags = detectVisualSignals(text).slice(0, 4);
-    const theme = tags[0] || { label: 'TECH', palette: ['#0b5ed7', '#08162d'], accent: '#8cb8ff' };
+    const association = getVisualAssociation(trend, text);
+    const theme = association || tags[0] || { label: 'TECH', mark: 'SF', palette: ['#0b5ed7', '#08162d'], accent: '#8cb8ff' };
+    const sourceLabel = association?.source === 'entity' ? 'ENTITY SIGNAL' : association?.source === 'publisher' ? 'SOURCE SIGNAL' : 'TOPIC SIGNAL';
+    const mark = theme.mark || initialsFromLabel(theme.label || sourceName || 'SF');
     const gradientId = `g${hashValue(headline).toString(36)}`;
     const ringX = 560;
     const ringY = 84;
     const titleLines = wrapForSvg(artHeadline, 28, 2);
-    const chips = tags.length ? tags : [theme];
+    const chips = [theme, ...tags.filter((tag) => tag.label !== theme.label)].slice(0, 3);
     const chipMarkup = chips
         .slice(0, 3)
         .map((tag, idx) => {
@@ -699,14 +1091,66 @@ function buildHeadlineThemeImage(trend) {
   <rect width="640" height="360" fill="url(#${gradientId})"/>
   <rect width="640" height="360" fill="#020617" fill-opacity="0.22"/>
   <circle cx="${ringX}" cy="${ringY}" r="72" fill="none" stroke="${theme.accent}" stroke-width="2" stroke-opacity="0.6"/>
-  <circle cx="${ringX}" cy="${ringY}" r="42" fill="none" stroke="${theme.accent}" stroke-width="1.5" stroke-opacity="0.65"/>
-  <circle cx="${ringX}" cy="${ringY}" r="14" fill="${theme.accent}" fill-opacity="0.9"/>
+  <circle cx="${ringX}" cy="${ringY}" r="42" fill="#ffffff" fill-opacity="0.12" stroke="${theme.accent}" stroke-width="1.5" stroke-opacity="0.75"/>
+  <text x="${ringX}" y="${ringY + 11}" text-anchor="middle" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="${mark.length > 2 ? 25 : 31}" font-weight="800" fill="#ffffff">${escapeSvg(mark)}</text>
+  <text x="${ringX}" y="${ringY + 98}" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" fill="${theme.accent}">${escapeSvg(sourceLabel)}</text>
+  <text x="${ringX}" y="${ringY + 118}" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff" fill-opacity="0.84">${escapeSvg(theme.label)}</text>
   <rect x="28" y="36" width="430" height="208" rx="16" fill="#020617" fill-opacity="0.28"/>
+  <text x="48" y="66" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" fill="${theme.accent}">${escapeSvg(sourceName.toUpperCase())}</text>
   ${titleLines.map((line, idx) => `<text x="48" y="${86 + idx * 44}" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#f8fbff">${escapeSvg(line)}</text>`).join('')}
   ${chipMarkup}
 </svg>`;
 
     return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+}
+
+function getVisualAssociation(trend, text) {
+    const entity = ENTITY_VISUALS.find((visual) => visual.pattern.test(text));
+    if (entity) return { ...entity, source: 'entity' };
+
+    const sourceName = getPrimarySource(trend);
+    const source = SOURCE_VISUALS.find((visual) => visual.pattern.test(sourceName));
+    if (source) return { ...source, source: 'publisher' };
+
+    if (sourceName && sourceName !== 'Live feed') {
+        return {
+            label: sourceName,
+            mark: initialsFromLabel(sourceName),
+            palette: paletteFromText(sourceName),
+            accent: accentFromText(sourceName),
+            source: 'publisher',
+        };
+    }
+
+    return null;
+}
+
+function initialsFromLabel(label = '') {
+    const words = String(label)
+        .replace(/[^a-z0-9 ]/gi, ' ')
+        .split(/\s+/)
+        .filter(Boolean);
+    if (!words.length) return 'SF';
+    if (words.length === 1) return words[0].slice(0, 3).toUpperCase();
+    return words.slice(0, 2).map((word) => word[0]).join('').toUpperCase();
+}
+
+function paletteFromText(value = '') {
+    const palettes = [
+        ['#0f766e', '#042f2e'],
+        ['#1d4ed8', '#071a3b'],
+        ['#be185d', '#2b0718'],
+        ['#92400e', '#211006'],
+        ['#334155', '#020617'],
+        ['#9f1239', '#2a0712'],
+        ['#15803d', '#052e16'],
+    ];
+    return palettes[hashValue(String(value)) % palettes.length];
+}
+
+function accentFromText(value = '') {
+    const accents = ['#5eead4', '#93c5fd', '#f9a8d4', '#fdba74', '#cbd5e1', '#fda4af', '#86efac'];
+    return accents[hashValue(String(value)) % accents.length];
 }
 
 function detectVisualSignals(text) {

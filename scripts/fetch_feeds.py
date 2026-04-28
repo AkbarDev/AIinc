@@ -100,6 +100,10 @@ class TrendCluster:
         return len(self.sources)
 
     @property
+    def source_names(self) -> List[str]:
+        return sorted(self.sources)
+
+    @property
     def authority_score(self) -> float:
         return self.authority_total / max(self.source_count, 1)
 
@@ -370,6 +374,7 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
                 "geo": cluster.geo,
                 "published_at": cluster.published.isoformat(),
                 "source_count": cluster.source_count,
+                "source_names": cluster.source_names,
                 "keywords": sorted(cluster.keyword_hits),
                 "score": score_block["score"],
                 "signals": score_block,
