@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-06T22:36:39.402771+00:00",
-  "sources_scanned": 805,
-  "feeds_polled": 32,
+  "generated_at": "2026-05-06T23:34:54.297454+00:00",
+  "sources_scanned": 770,
+  "feeds_polled": 30,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 445,
+    "NA": 410,
     "SA": 0,
     "EU": 360,
     "AF": 0,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 117,
+  "clusters": 114,
   "trends": [
     {
       "id": "a 20minute pitch wins indian startup pronto backing from lachy groom",
@@ -33,10 +33,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.6322,
+      "score": 0.5955,
       "signals": {
-        "score": 0.6322,
-        "recency": 0.9816790382348973,
+        "score": 0.5955,
+        "recency": 0.8350267248823798,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -60,10 +60,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.5636,
+      "score": 0.5272,
       "signals": {
-        "score": 0.5636,
-        "recency": 0.9745244370554277,
+        "score": 0.5272,
+        "recency": 0.8289409443390016,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -88,14 +88,40 @@
         "bill",
         "series"
       ],
-      "score": 0.5472,
+      "score": 0.5202,
       "signals": {
-        "score": 0.5472,
-        "recency": 0.7217449469151015,
+        "score": 0.5202,
+        "recency": 0.6139239973042139,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.4
+      }
+    },
+    {
+      "id": "chime leans on ai pushes upmarket in first profitable quarter",
+      "title": "Chime Leans on AI, Pushes Upmarket in First Profitable Quarter",
+      "summary": "The FinTech landscape is undoubtedly a mature one these days.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/Chime-earnings-xxx1.jpg?w=457",
+      "link": "https://www.pymnts.com/earnings/2026/chime-leans-on-ai-pushes-upmarket-in-first-profitable-quarter/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-06T23:13:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5155,
+      "signals": {
+        "score": 0.5155,
+        "recency": 0.9418387678727863,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
       }
     },
     {
@@ -115,37 +141,11 @@
         "ai",
         "cloud"
       ],
-      "score": 0.5354,
+      "score": 0.5041,
       "signals": {
-        "score": 0.5354,
-        "recency": 0.8377331350241689,
+        "score": 0.5041,
+        "recency": 0.7125847948454371,
         "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "barry diller trusts sam altman but trust is irrelevant as agi nears he says",
-      "title": "Barry Diller trusts Sam Altman. But \u2018trust is irrelevant\u2019 as AGI nears, he says.",
-      "summary": "Barry Diller defended OpenAI CEO Sam Altman, while warning that AGI remains an unpredictable force needing guardrails.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-06T21:57:56+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.5105,
-      "signals": {
-        "score": 0.5105,
-        "recency": 0.8980182004695599,
-        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -168,13 +168,39 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.5098,
+      "score": 0.4814,
       "signals": {
-        "score": 0.5098,
-        "recency": 0.7591712463164393,
+        "score": 0.4814,
+        "recency": 0.6457592092180373,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "barry diller trusts sam altman but trust is irrelevant as agi nears he says",
+      "title": "Barry Diller trusts Sam Altman. But \u2018trust is irrelevant\u2019 as AGI nears, he says.",
+      "summary": "Barry Diller defended OpenAI CEO Sam Altman, while warning that AGI remains an unpredictable force needing guardrails.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-06T21:57:56+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.477,
+      "signals": {
+        "score": 0.477,
+        "recency": 0.7638639184668375,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -194,10 +220,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5016,
+      "score": 0.4694,
       "signals": {
-        "score": 0.5016,
-        "recency": 0.862486904420713,
+        "score": 0.4694,
+        "recency": 0.7336406167410086,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -220,10 +246,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4949,
+      "score": 0.4628,
       "signals": {
-        "score": 0.4949,
-        "recency": 0.8594177720207603,
+        "score": 0.4628,
+        "recency": 0.731029979784992,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -246,10 +272,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4861,
+      "score": 0.4553,
       "signals": {
-        "score": 0.4861,
-        "recency": 0.8243063029622965,
+        "score": 0.4553,
+        "recency": 0.7011637874025866,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -273,66 +299,14 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.4757,
+      "score": 0.4525,
       "signals": {
-        "score": 0.4757,
-        "recency": 0.6229396194935496,
+        "score": 0.4525,
+        "recency": 0.5298791254629066,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "blockchain pilot unlocks 247 treasury liquidity",
-      "title": "Blockchain Pilot Unlocks 24/7 Treasury Liquidity",
-      "summary": "A near real-time cross-border, cross-bank redemption of a tokenized U.S.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/blockchain-pilot-treasury.png?w=457",
-      "link": "https://www.pymnts.com/blockchain/2026/blockchain-pilot-unlocks-24-7-treasury-liquidity/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-06T20:56:50+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4695,
-      "signals": {
-        "score": 0.4695,
-        "recency": 0.757836841398262,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "vibe coding breaksintobanking before regulators can react",
-      "title": "Vibe Coding Breaks\u00a0Into\u00a0Banking Before Regulators Can React",
-      "summary": "One of enterprise technology\u2019s oldest assumptions just broke.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/AI-Vibe-coding-1.jpg?w=457",
-      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/vibe-coding-breaks-into-banking-before-regulators-can-react/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-06T21:26:38+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "enterprise"
-      ],
-      "score": 0.4658,
-      "signals": {
-        "score": 0.4658,
-        "recency": 0.8232384500311861,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -352,10 +326,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.4654,
+      "score": 0.4436,
       "signals": {
-        "score": 0.4654,
-        "recency": 0.5814438519053947,
+        "score": 0.4436,
+        "recency": 0.4945823802375835,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -379,10 +353,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.4634,
+      "score": 0.442,
       "signals": {
-        "score": 0.4634,
-        "recency": 0.5737427221687068,
+        "score": 0.442,
+        "recency": 0.4880317166383246,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -390,27 +364,29 @@
       }
     },
     {
-      "id": "anthropic finance agents pose threat to established service providers",
-      "title": "Anthropic Finance Agents Pose Threat to Established Service Providers",
-      "summary": "The vendor\u2019s new agents could find a home in big Wall Street firms, threaten mid-sized service providers and start to push entry-level finance jobs aside.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt4ac07b97d372ad77/69fbbf5734ce0a84e014a560/Anthropic_symbol_-_Ivory.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/agentic-ai/anthropic-finance-agents-threaten-established-service-providers",
-      "category": "startup",
+      "id": "blockchain pilot unlocks 247 treasury liquidity",
+      "title": "Blockchain Pilot Unlocks 24/7 Treasury Liquidity",
+      "summary": "A near real-time cross-border, cross-bank redemption of a tokenized U.S.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/blockchain-pilot-treasury.png?w=457",
+      "link": "https://www.pymnts.com/blockchain/2026/blockchain-pilot-unlocks-24-7-treasury-liquidity/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-05-06T22:17:15+00:00",
+      "published_at": "2026-05-06T20:56:50+00:00",
       "source_count": 1,
       "source_names": [
-        "AI Business"
+        "PYMNTS"
       ],
-      "keywords": [],
-      "score": 0.4569,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4412,
       "signals": {
-        "score": 0.4569,
-        "recency": 0.9475197142038173,
-        "keyword_volume": 0.0,
+        "score": 0.4412,
+        "recency": 0.6446241500743728,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
+        "engagement": 0.6
       }
     },
     {
@@ -430,10 +406,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4507,
+      "score": 0.4351,
       "signals": {
-        "score": 0.4507,
-        "recency": 0.4156017096540155,
+        "score": 0.4351,
+        "recency": 0.3535152742915863,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -441,29 +417,29 @@
       }
     },
     {
-      "id": "openai launches training spec to boost largescale ai",
-      "title": "OpenAI Launches Training Spec to Boost Large-Scale AI",
-      "summary": "The protocol is designed to improve GPU performance as AI compute ramps up.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blteb6135d38463bf30/69fba3096733f7856f38b781/Sam_Altman.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/generative-ai/openai-launches-training-spec-boost-large-scale-ai",
-      "category": "startup",
+      "id": "vibe coding breaksintobanking before regulators can react",
+      "title": "Vibe Coding Breaks\u00a0Into\u00a0Banking Before Regulators Can React",
+      "summary": "One of enterprise technology\u2019s oldest assumptions just broke.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/AI-Vibe-coding-1.jpg?w=457",
+      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/vibe-coding-breaks-into-banking-before-regulators-can-react/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-05-06T20:18:15+00:00",
+      "published_at": "2026-05-06T21:26:38+00:00",
       "source_count": 1,
       "source_names": [
-        "AI Business"
+        "PYMNTS"
       ],
       "keywords": [
-        "ai"
+        "enterprise"
       ],
-      "score": 0.4502,
+      "score": 0.4351,
       "signals": {
-        "score": 0.4502,
-        "recency": 0.6808160741997589,
+        "score": 0.4351,
+        "recency": 0.700255460239643,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
+        "engagement": 0.4
       }
     },
     {
@@ -483,37 +459,11 @@
         "ai",
         "govern"
       ],
-      "score": 0.4487,
+      "score": 0.4303,
       "signals": {
-        "score": 0.4487,
-        "recency": 0.49068000175054305,
+        "score": 0.4303,
+        "recency": 0.4173776752570278,
         "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "microsofts ai data center push is colliding with its clean power goals",
-      "title": "Microsoft\u2019s AI data center push is colliding with its clean power goals",
-      "summary": "The push for new data centers at Microsoft is putting its key clean power goals at risk.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/06/microsofts-ai-data-center-push-is-colliding-with-its-clean-power-goals/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-06T19:57:31+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4467,
-      "signals": {
-        "score": 0.4467,
-        "recency": 0.6427138456824694,
-        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -536,10 +486,10 @@
         "ai",
         "cloud"
       ],
-      "score": 0.4438,
+      "score": 0.4262,
       "signals": {
-        "score": 0.4438,
-        "recency": 0.4710910780560377,
+        "score": 0.4262,
+        "recency": 0.4007151265425266,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -547,14 +497,40 @@
       }
     },
     {
-      "id": "robinhoods venture fund ipo attracted 150000 retail investors ceo says",
-      "title": "Robinhood\u2019s venture fund IPO attracted 150,000+ retail investors, CEO says",
-      "summary": "Robinhood CEO Vlad Tenev says more than 150,000 retail investors joined the fintech\u2019s new venture fund, which offers exposure to private tech companies like OpenAI, Stripe",
+      "id": "openai launches training spec to boost largescale ai",
+      "title": "OpenAI Launches Training Spec to Boost Large-Scale AI",
+      "summary": "The protocol is designed to improve GPU performance as AI compute ramps up.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blteb6135d38463bf30/69fba3096733f7856f38b781/Sam_Altman.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/generative-ai/openai-launches-training-spec-boost-large-scale-ai",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-05-06T20:18:15+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AI Business"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4248,
+      "signals": {
+        "score": 0.4248,
+        "recency": 0.5791094589413782,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "microsofts ai data center push is colliding with its clean power goals",
+      "title": "Microsoft\u2019s AI data center push is colliding with its clean power goals",
+      "summary": "The push for new data centers at Microsoft is putting its key clean power goals at risk.",
       "image": null,
-      "link": "https://techcrunch.com/2026/05/06/robinhoods-venture-fund-ipo-attracted-150000-retail-investors-ceo-says/",
+      "link": "https://techcrunch.com/2026/05/06/microsofts-ai-data-center-push-is-colliding-with-its-clean-power-goals/",
       "category": "technology",
       "geo": "global",
-      "published_at": "2026-05-06T19:10:09+00:00",
+      "published_at": "2026-05-06T19:57:31+00:00",
       "source_count": 1,
       "source_names": [
         "TechCrunch"
@@ -562,14 +538,38 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4269,
+      "score": 0.4227,
       "signals": {
-        "score": 0.4269,
-        "recency": 0.5634764391970783,
+        "score": 0.4227,
+        "recency": 0.5466992944677438,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "anthropic finance agents pose threat to established service providers",
+      "title": "Anthropic Finance Agents Pose Threat to Established Service Providers",
+      "summary": "The vendor\u2019s new agents could find a home in big Wall Street firms, threaten mid-sized service providers and start to push entry-level finance jobs aside.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt4ac07b97d372ad77/69fbbf5734ce0a84e014a560/Anthropic_symbol_-_Ivory.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/agentic-ai/anthropic-finance-agents-threaten-established-service-providers",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-05-06T22:17:15+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AI Business"
+      ],
+      "keywords": [],
+      "score": 0.4215,
+      "signals": {
+        "score": 0.4215,
+        "recency": 0.8059704372782807,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -589,10 +589,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4268,
+      "score": 0.4148,
       "signals": {
-        "score": 0.4268,
-        "recency": 0.3201537813224918,
+        "score": 0.4148,
+        "recency": 0.2723262421464288,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -616,10 +616,10 @@
         "ai",
         "enterprise"
       ],
-      "score": 0.4249,
+      "score": 0.4093,
       "signals": {
-        "score": 0.4249,
-        "recency": 0.4197397096892188,
+        "score": 0.4093,
+        "recency": 0.35703510152877765,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -627,55 +627,29 @@
       }
     },
     {
-      "id": "kraft heinz wants to regain market share for its iconic foods like kraft mac cheese and capri sun",
-      "title": "Kraft Heinz wants to regain market share for its iconic foods like Kraft Mac & Cheese and Capri Sun",
-      "summary": "During its first-quarter earnings call on Wednesday, Kraft Heinz highlighted innovations it has made across its portfolio, from protein-packed Kraft Mac &#38; Cheese",
+      "id": "robinhoods venture fund ipo attracted 150000 retail investors ceo says",
+      "title": "Robinhood\u2019s venture fund IPO attracted 150,000+ retail investors, CEO says",
+      "summary": "Robinhood CEO Vlad Tenev says more than 150,000 retail investors joined the fintech\u2019s new venture fund, which offers exposure to private tech companies like OpenAI, Stripe",
       "image": null,
-      "link": "https://www.modernretail.co/operations/kraft-heinz-wants-to-regain-market-share-for-its-iconic-foods-like-kraft-mac-cheese-and-capri-sun/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
+      "link": "https://techcrunch.com/2026/05/06/robinhoods-venture-fund-ipo-attracted-150000-retail-investors-ceo-says/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-05-06T19:19:03+00:00",
+      "published_at": "2026-05-06T19:10:09+00:00",
       "source_count": 1,
       "source_names": [
-        "Modern Retail"
+        "TechCrunch"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.4229,
+      "score": 0.4058,
       "signals": {
-        "score": 0.4229,
-        "recency": 0.5775804518683606,
+        "score": 0.4058,
+        "recency": 0.47929910616929733,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.79,
+        "authority": 0.84,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "visa canada and remitbee team to simplify crossborder payments",
-      "title": "Visa Canada and RemitBee Team to Simplify Cross-Border Payments",
-      "summary": "Visa Canada launched a collaboration with remittance-focused FinTech platform RemitBee, according to a Wednesday (May 6) press release.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/RemitBee.png?w=457",
-      "link": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/visa-canada-remitbee-team-simplify-cross-border-payments/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-06T19:49:45+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "platform"
-      ],
-      "score": 0.4172,
-      "signals": {
-        "score": 0.4172,
-        "recency": 0.6289963922959501,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -695,14 +669,121 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4157,
+      "score": 0.4043,
       "signals": {
-        "score": 0.4157,
-        "recency": 0.30569801735572866,
+        "score": 0.4043,
+        "recency": 0.2600300141832209,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.795,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "kraft heinz wants to regain market share for its iconic foods like kraft mac cheese and capri sun",
+      "title": "Kraft Heinz wants to regain market share for its iconic foods like Kraft Mac & Cheese and Capri Sun",
+      "summary": "During its first-quarter earnings call on Wednesday, Kraft Heinz highlighted innovations it has made across its portfolio, from protein-packed Kraft Mac &#38; Cheese",
+      "image": null,
+      "link": "https://www.modernretail.co/operations/kraft-heinz-wants-to-regain-market-share-for-its-iconic-foods-like-kraft-mac-cheese-and-capri-sun/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-06T19:19:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Modern Retail"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4013,
+      "signals": {
+        "score": 0.4013,
+        "recency": 0.49129613070572464,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "why ai agent adoption is creating unseen risk across the enterprise",
+      "title": "Why AI agent adoption is creating unseen risk across the enterprise",
+      "summary": "From compliance exposure to lost revenue, weak governance is turning AI gains into hidden liabilities.",
+      "image": "https://martech.org/wp-content/uploads/2026/04/allen-martinez-shadow-ledger-1-123x113.png",
+      "link": "https://martech.org/ai-risk-management/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-06T12:31:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarTech"
+      ],
+      "keywords": [
+        "ai",
+        "enterprise",
+        "govern"
+      ],
+      "score": 0.3965,
+      "signals": {
+        "score": 0.3965,
+        "recency": 0.15815488557334928,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "targets digital chief breaks down the retailers creator overhaul",
+      "title": "Target\u2019s digital chief breaks down the retailer\u2019s creator overhaul",
+      "summary": "Sarah Travis details two new offerings designed for the social commerce boom and addresses frustration with the wind down of a prior affiliate program.&nbsp",
+      "image": "https://imgproxy.divecdn.com/OBKSTJ9iyV-cs9wwO1IHjTQ6LZzKQ-4Q_Ne_jo2XuEc/g:nowe:0:11/c:1023:578/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg1ODA0ODkyLmpwZw==.webp",
+      "link": "https://www.retaildive.com/news/targets-digital-chief-breaks-down-the-retailers-creator-overhaul/819417/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-06T10:40:00-04:00",
+      "source_count": 2,
+      "source_names": [
+        "Marketing Dive",
+        "Retail Dive"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3958,
+      "signals": {
+        "score": 0.3958,
+        "recency": 0.22631055080246434,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.795,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "visa canada and remitbee team to simplify crossborder payments",
+      "title": "Visa Canada and RemitBee Team to Simplify Cross-Border Payments",
+      "summary": "Visa Canada launched a collaboration with remittance-focused FinTech platform RemitBee, according to a Wednesday (May 6) press release.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/RemitBee.png?w=457",
+      "link": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/visa-canada-remitbee-team-simplify-cross-border-payments/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-06T19:49:45+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "platform"
+      ],
+      "score": 0.3938,
+      "signals": {
+        "score": 0.3938,
+        "recency": 0.5350310814073249,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -721,10 +802,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4099,
+      "score": 0.3914,
       "signals": {
-        "score": 0.4099,
-        "recency": 0.4955425876138449,
+        "score": 0.3914,
+        "recency": 0.42151384297554517,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -747,93 +828,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4068,
+      "score": 0.3879,
       "signals": {
-        "score": 0.4068,
-        "recency": 0.507217718203958,
+        "score": 0.3879,
+        "recency": 0.4314448343480057,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "targets digital chief breaks down the retailers creator overhaul",
-      "title": "Target\u2019s digital chief breaks down the retailer\u2019s creator overhaul",
-      "summary": "Sarah Travis details two new offerings designed for the social commerce boom and addresses frustration with the wind down of a prior affiliate program.&nbsp",
-      "image": "https://imgproxy.divecdn.com/OBKSTJ9iyV-cs9wwO1IHjTQ6LZzKQ-4Q_Ne_jo2XuEc/g:nowe:0:11/c:1023:578/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg1ODA0ODkyLmpwZw==.webp",
-      "link": "https://www.retaildive.com/news/targets-digital-chief-breaks-down-the-retailers-creator-overhaul/819417/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-06T10:40:00-04:00",
-      "source_count": 2,
-      "source_names": [
-        "Marketing Dive",
-        "Retail Dive"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4058,
-      "signals": {
-        "score": 0.4058,
-        "recency": 0.26605654314293553,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.795,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "why ai agent adoption is creating unseen risk across the enterprise",
-      "title": "Why AI agent adoption is creating unseen risk across the enterprise",
-      "summary": "From compliance exposure to lost revenue, weak governance is turning AI gains into hidden liabilities.",
-      "image": "https://martech.org/wp-content/uploads/2026/04/allen-martinez-shadow-ledger-1-123x113.png",
-      "link": "https://martech.org/ai-risk-management/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-06T12:31:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarTech"
-      ],
-      "keywords": [
-        "ai",
-        "enterprise",
-        "govern"
-      ],
-      "score": 0.4035,
-      "signals": {
-        "score": 0.4035,
-        "recency": 0.18593097841708603,
-        "keyword_volume": 0.6,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "aayush chauhan takes on director programmatic role at wpp media pitchonnet",
-      "title": "Aayush Chauhan takes on Director \u2013 Programmatic role at WPP Media - PitchOnnet",
-      "summary": "Aayush Chauhan takes on Director \u2013 Programmatic role at WPP Media &nbsp;&nbsp; PitchOnnet",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ2N3Tm9qd2V3S1ByNTNnS0x4SGh2YlcxOEVQNkdVN2daQ201UXd0RVlxOEJ4bzFmS003MkhXbUx0eURfaEJfVTF3Ukc2bUwzWUx0aG84aVBkaUlHcC1yUERDdlFaT2drQkQ4SVRGcnZsbTQ1a2NwMzZySHE5bEtKZWFwX1JZNVlZbEd4MWNwUEJuc3ZLeGtXTGV3V1hfWFlMMUpSSGxQZnJZaEhiU1R0b05wbw?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-06T20:41:47+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.3957,
-      "signals": {
-        "score": 0.3957,
-        "recency": 0.726808155890462,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
       }
     },
     {
@@ -852,10 +854,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3946,
+      "score": 0.3773,
       "signals": {
-        "score": 0.3946,
-        "recency": 0.46439983356469106,
+        "score": 0.3773,
+        "recency": 0.3950234821706118,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -879,11 +881,63 @@
         "ai",
         "govern"
       ],
-      "score": 0.3858,
+      "score": 0.376,
       "signals": {
-        "score": 0.3858,
-        "recency": 0.2631167219154014,
+        "score": 0.376,
+        "recency": 0.22380990731741912,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "aayush chauhan takes on director programmatic role at wpp media pitchonnet",
+      "title": "Aayush Chauhan takes on Director \u2013 Programmatic role at WPP Media - PitchOnnet",
+      "summary": "Aayush Chauhan takes on Director \u2013 Programmatic role at WPP Media &nbsp;&nbsp; PitchOnnet",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ2N3Tm9qd2V3S1ByNTNnS0x4SGh2YlcxOEVQNkdVN2daQ201UXd0RVlxOEJ4bzFmS003MkhXbUx0eURfaEJfVTF3Ukc2bUwzWUx0aG84aVBkaUlHcC1yUERDdlFaT2drQkQ4SVRGcnZsbTQ1a2NwMzZySHE5bEtKZWFwX1JZNVlZbEd4MWNwUEJuc3ZLeGtXTGV3V1hfWFlMMUpSSGxQZnJZaEhiU1R0b05wbw?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-06T20:41:47+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.3686,
+      "signals": {
+        "score": 0.3686,
+        "recency": 0.6182308171948496,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "enter bobibmsfriendlyai coding assistant",
+      "title": "Enter Bob,\u00a0IBM\u2019s\u00a0Friendly\u00a0AI Coding Assistant",
+      "summary": "For the long-established tech vendor, the software development lifecycle platform is an accessible entry point for enterprises into the realm of AI coding.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt8bb386de72a41663/69fa879ace7a03201f433f9b/ibm.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/agentic-ai/bob-ibm-ai-coding-assistant",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-05-06T00:01:56+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AI Business"
+      ],
+      "keywords": [
+        "ai",
+        "enterprise",
+        "platform"
+      ],
+      "score": 0.3649,
+      "signals": {
+        "score": 0.3649,
+        "recency": 0.01974369303912556,
+        "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -906,10 +960,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.3695,
+      "score": 0.3617,
       "signals": {
-        "score": 0.3695,
-        "recency": 0.2101029698762488,
+        "score": 0.3617,
+        "recency": 0.17871584091199216,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -932,10 +986,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3667,
+      "score": 0.3547,
       "signals": {
-        "score": 0.3667,
-        "recency": 0.3228478232068878,
+        "score": 0.3547,
+        "recency": 0.2746178230846018,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -958,67 +1012,11 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3666,
+      "score": 0.3537,
       "signals": {
-        "score": 0.3666,
-        "recency": 0.3464012354722397,
+        "score": 0.3537,
+        "recency": 0.29465260832266166,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "enter bobibmsfriendlyai coding assistant",
-      "title": "Enter Bob,\u00a0IBM\u2019s\u00a0Friendly\u00a0AI Coding Assistant",
-      "summary": "For the long-established tech vendor, the software development lifecycle platform is an accessible entry point for enterprises into the realm of AI coding.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt8bb386de72a41663/69fa879ace7a03201f433f9b/ibm.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/agentic-ai/bob-ibm-ai-coding-assistant",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-05-06T00:01:56+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AI Business"
-      ],
-      "keywords": [
-        "ai",
-        "enterprise",
-        "platform"
-      ],
-      "score": 0.3658,
-      "signals": {
-        "score": 0.3658,
-        "recency": 0.023211196739342597,
-        "keyword_volume": 0.6,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "enterprises contain ai agents to balance risk reward",
-      "title": "Enterprises Contain AI Agents to Balance Risk, Reward",
-      "summary": "Enterprises are experimenting with AI agents internally first, using smaller testing teams and strict governance before deploying customer-facing applications.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt38d47c9bb119e712/69fa79571d1c5185e1ec3001/agent_risk.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/agentic-ai/enterprises-contain-agents-balance-risk-reward",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-05-05T22:52:09+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AI Business"
-      ],
-      "keywords": [
-        "ai",
-        "enterprise",
-        "govern"
-      ],
-      "score": 0.3648,
-      "signals": {
-        "score": 0.3648,
-        "recency": 0.01912109522704889,
-        "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -1040,10 +1038,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3631,
+      "score": 0.3507,
       "signals": {
-        "score": 0.3631,
-        "recency": 0.33226441299455234,
+        "score": 0.3507,
+        "recency": 0.28262767541280537,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1066,13 +1064,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3619,
+      "score": 0.3506,
       "signals": {
-        "score": 0.3619,
-        "recency": 0.30366680879156005,
+        "score": 0.3506,
+        "recency": 0.2583022463804771,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "how ace hardware built its employee ai assistant",
+      "title": "How Ace Hardware built its employee AI assistant",
+      "summary": "Ace Hardware executives took a careful approach in designing and implementing its new AI assistant to work throughout the chain.",
+      "image": null,
+      "link": "https://digiday.com/marketing/how-ace-hardware-built-its-employee-ai-assistant/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-06T04:01:00+00:00",
+      "source_count": 2,
+      "source_names": [
+        "Digiday",
+        "Modern Retail"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3496,
+      "signals": {
+        "score": 0.3496,
+        "recency": 0.038355892808126735,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1092,10 +1117,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3589,
+      "score": 0.348,
       "signals": {
-        "score": 0.3589,
-        "recency": 0.29144935802806243,
+        "score": 0.348,
+        "recency": 0.24790995164858742,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1118,10 +1143,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3563,
+      "score": 0.3458,
       "signals": {
-        "score": 0.3563,
-        "recency": 0.281255753431396,
+        "score": 0.3458,
+        "recency": 0.23923916218525612,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1144,13 +1169,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3557,
+      "score": 0.3453,
       "signals": {
-        "score": 0.3557,
-        "recency": 0.2788571365052847,
+        "score": 0.3453,
+        "recency": 0.23719887288697433,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "advertisers spent 1 billion on criteo in q1 up 8 yearoveryear",
+      "title": "Advertisers Spent $1 Billion on Criteo in Q1, Up 8% Year-Over-Year",
+      "summary": "Still, Criteo's growth numbers remain plagued by two major client losses.",
+      "image": null,
+      "link": "https://www.adweek.com/commerce/advertisers-spent-1-billion-on-criteo-in-q1-up-8-year-over-year/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-06T09:50:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Adweek"
+      ],
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.3453,
+      "signals": {
+        "score": 0.3453,
+        "recency": 0.101218196196187,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -1170,10 +1222,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3536,
+      "score": 0.3426,
       "signals": {
-        "score": 0.3536,
-        "recency": 0.29454206180599346,
+        "score": 0.3426,
+        "recency": 0.2505406386716703,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1196,10 +1248,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3531,
+      "score": 0.3422,
       "signals": {
-        "score": 0.3531,
-        "recency": 0.29240893908757104,
+        "score": 0.3422,
+        "recency": 0.24872618159561907,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1222,10 +1274,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3529,
+      "score": 0.342,
       "signals": {
-        "score": 0.3529,
-        "recency": 0.2915978191116256,
+        "score": 0.342,
+        "recency": 0.24803623423948704,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1247,10 +1299,10 @@
         "TechCrunch Startups"
       ],
       "keywords": [],
-      "score": 0.3514,
+      "score": 0.3418,
       "signals": {
-        "score": 0.3514,
-        "recency": 0.258767785026918,
+        "score": 0.3418,
+        "recency": 0.22011065492914364,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -1258,57 +1310,27 @@
       }
     },
     {
-      "id": "how ace hardware built its employee ai assistant",
-      "title": "How Ace Hardware built its employee AI assistant",
-      "summary": "Ace Hardware executives took a careful approach in designing and implementing its new AI assistant to work throughout the chain.",
+      "id": "vox media welcomes a bidding war",
+      "title": "Vox Media Welcomes a Bidding War",
+      "summary": "James Murdoch is the latest suitor to eye the empire.",
       "image": null,
-      "link": "https://digiday.com/marketing/how-ace-hardware-built-its-employee-ai-assistant/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "link": "https://www.adweek.com/media/vox-media-james-murchoch-bidding-war/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-05-06T04:01:00+00:00",
-      "source_count": 2,
-      "source_names": [
-        "Digiday",
-        "Modern Retail"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3513,
-      "signals": {
-        "score": 0.3513,
-        "recency": 0.04509218069376933,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "advertisers spent 1 billion on criteo in q1 up 8 yearoveryear",
-      "title": "Advertisers Spent $1 Billion on Criteo in Q1, Up 8% Year-Over-Year",
-      "summary": "Still, Criteo's growth numbers remain plagued by two major client losses.",
-      "image": null,
-      "link": "https://www.adweek.com/commerce/advertisers-spent-1-billion-on-criteo-in-q1-up-8-year-over-year/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-06T09:50:20+00:00",
+      "published_at": "2026-05-06T19:00:00+00:00",
       "source_count": 1,
       "source_names": [
         "Adweek"
       ],
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.3497,
+      "keywords": [],
+      "score": 0.3365,
       "signals": {
-        "score": 0.3497,
-        "recency": 0.11899473218385932,
-        "keyword_volume": 0.4,
+        "score": 0.3365,
+        "recency": 0.46597426014162385,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
+        "engagement": 0.4
       }
     },
     {
@@ -1327,38 +1349,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3463,
+      "score": 0.3355,
       "signals": {
-        "score": 0.3463,
-        "recency": 0.2892448812284898,
+        "score": 0.3355,
+        "recency": 0.2460348000253683,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "cryptocom launches inapp travel booking service",
-      "title": "Crypto.com Launches in-App Travel Booking Service",
-      "summary": "Crypto.com has launched an in-app booking service in partnership with travel infrastructure provider Bookit.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2021/09/crypto.com_.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/crypto-com-launches-in-app-travel-booking-service/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-06T18:12:04+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.3399,
-      "signals": {
-        "score": 0.3399,
-        "recency": 0.47951871723993345,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -1378,10 +1376,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.3344,
+      "score": 0.3314,
       "signals": {
-        "score": 0.3344,
-        "recency": 0.08176108909427716,
+        "score": 0.3314,
+        "recency": 0.06954685980864793,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1389,27 +1387,57 @@
       }
     },
     {
-      "id": "spacex may spend up to 119b on terafab chip factory in texas",
-      "title": "SpaceX may spend up to $119B on \u2018Terafab\u2019 chip factory in Texas",
-      "summary": "The project would be a \"multi-phase, next-generation, vertically integrated semiconductor manufacturing and advanced computing fabrication facility,\" according to the proposal.",
+      "id": "wayfair wants to be everywhere when it comes to agentic ai",
+      "title": "Wayfair wants \u2018to be everywhere\u2019 when it comes to agentic AI",
+      "summary": "On a quarterly earnings call with investors, Wayfair executives shared how the retailer is approaching artificial intelligence broadly and agentic AI specifically.",
       "image": null,
-      "link": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
-      "category": "technology",
+      "link": "https://www.digitalcommerce360.com/2026/05/05/wayfair-agentic-ai-commerce/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-05-06T17:23:08+00:00",
+      "published_at": "2026-05-05T23:51:19+00:00",
       "source_count": 1,
       "source_names": [
-        "TechCrunch"
+        "Digital Commerce 360"
       ],
-      "keywords": [],
-      "score": 0.3306,
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.3263,
       "signals": {
-        "score": 0.3306,
-        "recency": 0.4185753839189847,
-        "keyword_volume": 0.0,
+        "score": 0.3263,
+        "recency": 0.019169938708967254,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
+        "authority": 0.81,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "its official openai launches selfserve ads manager for chatgpt via sejournal brookeosmundson",
+      "title": "It\u2019s Official: OpenAI Launches Self-Serve Ads Manager for ChatGPT via @sejournal, @brookeosmundson",
+      "summary": "OpenAI officially launches self-serve ChatGPT ads with CPC bidding, conversion tracking, and expanded advertiser access through its new Ads Manager platform.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/openai-launches-self-serve-ads-manager-for-chatgpt/573971/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-06T00:45:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "ai",
+        "platform"
+      ],
+      "score": 0.3256,
+      "signals": {
+        "score": 0.3256,
+        "recency": 0.02227538481168913,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
       }
     },
     {
@@ -1428,10 +1456,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3304,
+      "score": 0.3229,
       "signals": {
-        "score": 0.3304,
-        "recency": 0.20169656406859438,
+        "score": 0.3229,
+        "recency": 0.17156526191804786,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1454,10 +1482,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3285,
+      "score": 0.3213,
       "signals": {
-        "score": 0.3285,
-        "recency": 0.19410219143044016,
+        "score": 0.3213,
+        "recency": 0.16510540705247329,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1480,64 +1508,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3283,
+      "score": 0.3206,
       "signals": {
-        "score": 0.3283,
-        "recency": 0.20503887496577425,
+        "score": 0.3206,
+        "recency": 0.17440826743544074,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "navigate the next eraofsearch at forresters cx forums",
-      "title": "Navigate The Next Era\u00a0Of\u00a0Search At Forrester\u2019s CX Forums",
-      "summary": "As answer engines divert discovery and squeeze the funnel, B2C marketing leaders are looking for the fastest, most durable way for their brand to become more visible",
-      "image": null,
-      "link": "https://www.forrester.com/blogs/navigate-the-next-era-of-search-at-forresters-cx-forums/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-06T17:35:05+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Forrester Blogs"
-      ],
-      "keywords": [],
-      "score": 0.3282,
-      "signals": {
-        "score": 0.3282,
-        "recency": 0.43270294226639644,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "wayfair wants to be everywhere when it comes to agentic ai",
-      "title": "Wayfair wants \u2018to be everywhere\u2019 when it comes to agentic AI",
-      "summary": "On a quarterly earnings call with investors, Wayfair executives shared how the retailer is approaching artificial intelligence broadly and agentic AI specifically.",
-      "image": null,
-      "link": "https://www.digitalcommerce360.com/2026/05/05/wayfair-agentic-ai-commerce/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-05T23:51:19+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Digital Commerce 360"
-      ],
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.3271,
-      "signals": {
-        "score": 0.3271,
-        "recency": 0.022536676293194897,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.81,
         "engagement": 0.6
       }
     },
@@ -1557,10 +1534,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3268,
+      "score": 0.3203,
       "signals": {
-        "score": 0.3268,
-        "recency": 0.1753952831705004,
+        "score": 0.3203,
+        "recency": 0.14919311013202616,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -1583,38 +1560,11 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3266,
+      "score": 0.3197,
       "signals": {
-        "score": 0.3266,
-        "recency": 0.18654314598702715,
+        "score": 0.3197,
+        "recency": 0.1586756018778619,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "its official openai launches selfserve ads manager for chatgpt via sejournal brookeosmundson",
-      "title": "It\u2019s Official: OpenAI Launches Self-Serve Ads Manager for ChatGPT via @sejournal, @brookeosmundson",
-      "summary": "OpenAI officially launches self-serve ChatGPT ads with CPC bidding, conversion tracking, and expanded advertiser access through its new Ads Manager platform.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/openai-launches-self-serve-ads-manager-for-chatgpt/573971/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-06T00:45:22+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai",
-        "platform"
-      ],
-      "score": 0.3265,
-      "signals": {
-        "score": 0.3265,
-        "recency": 0.026187519137583774,
-        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -1636,39 +1586,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3253,
+      "score": 0.3194,
       "signals": {
-        "score": 0.3253,
-        "recency": 0.15709598729078061,
+        "score": 0.3194,
+        "recency": 0.13362753267651595,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "why performance marketing needs more than roas",
-      "title": "Why performance marketing needs more than ROAS",
-      "summary": "Return on ad spend can\u2019t explain growth.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/why-performance-marketing-needs-more-than-roas/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-06T12:27:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarTech"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.323,
-      "signals": {
-        "score": 0.323,
-        "recency": 0.1838765134873771,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
         "engagement": 0.6
       }
     },
@@ -1688,13 +1612,89 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3227,
+      "score": 0.3163,
       "signals": {
-        "score": 0.3227,
-        "recency": 0.17085106084013083,
+        "score": 0.3163,
+        "recency": 0.1453277458511624,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "why performance marketing needs more than roas",
+      "title": "Why performance marketing needs more than ROAS",
+      "summary": "Return on ad spend can\u2019t explain growth.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/why-performance-marketing-needs-more-than-roas/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-06T12:27:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarTech"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3161,
+      "signals": {
+        "score": 0.3161,
+        "recency": 0.15640733565649953,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "spacex may spend up to 119b on terafab chip factory in texas",
+      "title": "SpaceX may spend up to $119B on \u2018Terafab\u2019 chip factory in Texas",
+      "summary": "The project would be a \"multi-phase, next-generation, vertically integrated semiconductor manufacturing and advanced computing fabrication facility,\" according to the proposal.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-06T17:23:08+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.315,
+      "signals": {
+        "score": 0.315,
+        "recency": 0.3560447135335701,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "from downloads to daily use rethinking the value exchange in app marketing",
+      "title": "From Downloads To Daily Use: Rethinking The Value Exchange In App Marketing",
+      "summary": "The last decade of app marketing drove massive success in downloads thanks in large part to preloads, install campaigns and carrier partnerships.",
+      "image": null,
+      "link": "https://www.adexchanger.com/content-studio/from-downloads-to-daily-use-rethinking-the-value-exchange-in-app-marketing/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-06T12:00:06+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AdExchanger"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3148,
+      "signals": {
+        "score": 0.3148,
+        "recency": 0.14514619965885747,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -1714,39 +1714,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3212,
+      "score": 0.3146,
       "signals": {
-        "score": 0.3212,
-        "recency": 0.17686301759653938,
+        "score": 0.3146,
+        "recency": 0.15044158078591335,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "from downloads to daily use rethinking the value exchange in app marketing",
-      "title": "From Downloads To Daily Use: Rethinking The Value Exchange In App Marketing",
-      "summary": "The last decade of app marketing drove massive success in downloads thanks in large part to preloads, install campaigns and carrier partnerships.",
-      "image": null,
-      "link": "https://www.adexchanger.com/content-studio/from-downloads-to-daily-use-rethinking-the-value-exchange-in-app-marketing/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-06T12:00:06+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AdExchanger"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3212,
-      "signals": {
-        "score": 0.3212,
-        "recency": 0.17063763043587374,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.6
       }
     },
@@ -1766,10 +1740,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3196,
+      "score": 0.3133,
       "signals": {
-        "score": 0.3196,
-        "recency": 0.17059023767671838,
+        "score": 0.3133,
+        "recency": 0.1451058868693211,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1792,10 +1766,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3177,
+      "score": 0.3123,
       "signals": {
-        "score": 0.3177,
-        "recency": 0.14472946799617667,
+        "score": 0.3123,
+        "recency": 0.12310843865232737,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1818,10 +1792,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3177,
+      "score": 0.3123,
       "signals": {
-        "score": 0.3177,
-        "recency": 0.14460221564352174,
+        "score": 0.3123,
+        "recency": 0.12300019643554123,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1829,27 +1803,26 @@
       }
     },
     {
-      "id": "the real wpp story is in the margin not the revenue adweek",
-      "title": "The Real WPP Story Is in the Margin, Not the Revenue - ADWEEK",
-      "summary": "The Real WPP Story Is in the Margin, Not the Revenue &nbsp;&nbsp; ADWEEK",
+      "id": "navigate the next eraofsearch at forresters cx forums",
+      "title": "Navigate The Next Era\u00a0Of\u00a0Search At Forrester\u2019s CX Forums",
+      "summary": "As answer engines divert discovery and squeeze the funnel, B2C marketing leaders are looking for the fastest, most durable way for their brand to become more visible",
       "image": null,
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTjFPbnVoZG9Uc0pYNmpXM3dDOGNIYnZ4alE3clZWZFl4TnNsUm5WdWQzWXRWRV9OdGo1WU05emNEV2FCakRuN2FOMDRmQ2thTmpOeVd2dXI3WGZSOGV1YUtDeGR4bjJ4YThBQW85czR2MDE1UzNER2hSNGhMVEVacDE1NDlnX05rZ0YzVw?oc=5",
-      "category": "advertising",
+      "link": "https://www.forrester.com/blogs/navigate-the-next-era-of-search-at-forresters-cx-forums/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-05-06T12:00:00+00:00",
-      "source_count": 2,
+      "published_at": "2026-05-06T17:35:05+00:00",
+      "source_count": 1,
       "source_names": [
-        "Google News - Omnicom",
-        "Google News - WPP"
+        "Forrester Blogs"
       ],
       "keywords": [],
-      "score": 0.3166,
+      "score": 0.312,
       "signals": {
-        "score": 0.3166,
-        "recency": 0.17059023767671838,
+        "score": 0.312,
+        "recency": 0.3680617662747952,
         "keyword_volume": 0.0,
-        "source_signal": 0.4,
-        "authority": 0.76,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1869,14 +1842,39 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3161,
+      "score": 0.3107,
       "signals": {
-        "score": 0.3161,
-        "recency": 0.14442157579739198,
+        "score": 0.3107,
+        "recency": 0.12284654224387369,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "the real wpp story is in the margin not the revenue adweek",
+      "title": "The Real WPP Story Is in the Margin, Not the Revenue - ADWEEK",
+      "summary": "The Real WPP Story Is in the Margin, Not the Revenue &nbsp;&nbsp; ADWEEK",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTjFPbnVoZG9Uc0pYNmpXM3dDOGNIYnZ4alE3clZWZFl4TnNsUm5WdWQzWXRWRV9OdGo1WU05emNEV2FCakRuN2FOMDRmQ2thTmpOeVd2dXI3WGZSOGV1YUtDeGR4bjJ4YThBQW85czR2MDE1UzNER2hSNGhMVEVacDE1NDlnX05rZ0YzVw?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-06T12:00:00+00:00",
+      "source_count": 2,
+      "source_names": [
+        "Google News - Omnicom",
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.3103,
+      "signals": {
+        "score": 0.3103,
+        "recency": 0.1451058868693211,
+        "keyword_volume": 0.0,
+        "source_signal": 0.4,
+        "authority": 0.76,
+        "engagement": 0.4
       }
     },
     {
@@ -1895,10 +1893,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3111,
+      "score": 0.3064,
       "signals": {
-        "score": 0.3111,
-        "recency": 0.12420700826222962,
+        "score": 0.3064,
+        "recency": 0.10565181416436738,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1921,13 +1919,39 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3108,
+      "score": 0.3056,
       "signals": {
-        "score": 0.3108,
-        "recency": 0.14132609710296362,
+        "score": 0.3056,
+        "recency": 0.12021349484703893,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.77,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "marc lore says that ai will soon enable anyone to open a restaurant",
+      "title": "Marc Lore says that AI will soon enable anyone to open a restaurant",
+      "summary": "Wonder wants to turn its robotic kitchens into AI-powered \u201crestaurant factories,\u201d letting anyone spin up a virtual food brand with a prompt.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-05-06T06:34:32+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch Startups"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3022,
+      "signals": {
+        "score": 0.3022,
+        "recency": 0.058755787341421346,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.85,
         "engagement": 0.6
       }
     },
@@ -1945,10 +1969,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.3097,
+      "score": 0.2961,
       "signals": {
-        "score": 0.3097,
-        "recency": 0.36487038748295303,
+        "score": 0.2961,
+        "recency": 0.3103626672260183,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1969,40 +1993,14 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3077,
+      "score": 0.2955,
       "signals": {
-        "score": 0.3077,
-        "recency": 0.3268633480661004,
+        "score": 0.2955,
+        "recency": 0.2780334716227443,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
-      }
-    },
-    {
-      "id": "marc lore says that ai will soon enable anyone to open a restaurant",
-      "title": "Marc Lore says that AI will soon enable anyone to open a restaurant",
-      "summary": "Wonder wants to turn its robotic kitchens into AI-powered \u201crestaurant factories,\u201d letting anyone spin up a virtual food brand with a prompt.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-05-06T06:34:32+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch Startups"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3048,
-      "signals": {
-        "score": 0.3048,
-        "recency": 0.06907482489998777,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.85,
-        "engagement": 0.6
       }
     },
     {
@@ -2021,38 +2019,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2993,
+      "score": 0.2955,
       "signals": {
-        "score": 0.2993,
-        "recency": 0.10133492061923344,
+        "score": 0.2955,
+        "recency": 0.08619657096176797,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "despite enthusiasm over its chatgpt tieup criteos shares slide on downgraded revenue forecast",
-      "title": "Despite enthusiasm over its ChatGPT tie-up, Criteo\u2019s shares slide on downgraded revenue forecast",
-      "summary": "More than 1,000 clients have signed up for its ChatGPT partnership, while management touts a 2027 re-domiciling to the U.S.",
-      "image": null,
-      "link": "https://digiday.com/media-buying/despite-enthusiasm-over-its-chatgpt-tie-up-criteos-shares-slide-on-downgraded-revenue-forecast/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-06T15:28:16+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Digiday"
-      ],
-      "keywords": [],
-      "score": 0.2976,
-      "signals": {
-        "score": 0.2976,
-        "recency": 0.3042296757460168,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.4
       }
     },
     {
@@ -2071,10 +2045,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2957,
+      "score": 0.2933,
       "signals": {
-        "score": 0.2957,
-        "recency": 0.0627566413058147,
+        "score": 0.2933,
+        "recency": 0.053381472572172364,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2097,36 +2071,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2957,
+      "score": 0.2933,
       "signals": {
-        "score": 0.2957,
-        "recency": 0.0627566413058147,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "jameson teams up with j balvin and kidsuper for soccer8217s big year",
-      "title": "Jameson Teams Up With J Balvin and KidSuper for Soccer&#8217;s Big Year",
-      "summary": "Jameson, MLS's official whiskey, releases campaign ahead of the World Cup.",
-      "image": null,
-      "link": "https://www.adweek.com/creativity/jameson-teams-up-with-j-balvin-and-kidsuper-for-soccers-big-year/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-06T04:52:56+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Adweek"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.293,
-      "signals": {
-        "score": 0.293,
-        "recency": 0.052089745900440916,
+        "score": 0.2933,
+        "recency": 0.053381472572172364,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2149,10 +2097,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2928,
+      "score": 0.2911,
       "signals": {
-        "score": 0.2928,
-        "recency": 0.04509218069376933,
+        "score": 0.2911,
+        "recency": 0.038355892808126735,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2175,10 +2123,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2928,
+      "score": 0.2911,
       "signals": {
-        "score": 0.2928,
-        "recency": 0.04509218069376933,
+        "score": 0.2911,
+        "recency": 0.038355892808126735,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2201,65 +2149,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2928,
+      "score": 0.2911,
       "signals": {
-        "score": 0.2928,
-        "recency": 0.04509218069376933,
+        "score": 0.2911,
+        "recency": 0.038355892808126735,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "altara secures 7m to bridge the data gap thats slowing down physical sciences",
-      "title": "Altara secures $7M to bridge the data gap that\u2019s slowing down physical sciences",
-      "summary": "Altara\u2019s AI aims to diagnose failures and help speed up R&#038;D by unifying data siloed across spreadsheets and legacy systems.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/05/altara-secures-7m-to-bridge-the-data-gap-thats-slowing-down-physical-sciences/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-05-05T22:57:41+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch Startups"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2924,
-      "signals": {
-        "score": 0.2924,
-        "recency": 0.019417263822322523,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.85,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "brave bisons minimba wins major omnicom oceania training deal tipranks",
-      "title": "Brave Bison\u2019s MiniMBA Wins Major Omnicom Oceania Training Deal - TipRanks",
-      "summary": "Brave Bison\u2019s MiniMBA Wins Major Omnicom Oceania Training Deal &nbsp;&nbsp; TipRanks",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeUlzVnBBbHhJZUVoTXRrODdFREsyNFRveU5Vejk0THQyVlc1S0pYSVhnUzFDQ3p0S1dQZUZjNnJUUzF0WW1vaXZSTlhjTnFUQXlYd0h4R0ZZWkJCaHBpT3pEdGpPRWw3OF9ScXFTXzEyWkFIQXJyNkpXYjJmMVFzcTBGblFwbTctNWJlTGhvN1pxS2tQR1RBdFljSzc3SzhxemN3d21BVEdQMEhCNE1yaW5xRQ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-06T06:18:03+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2905,
-      "signals": {
-        "score": 0.2905,
-        "recency": 0.06598340683611668,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.6
       }
     },
@@ -2279,10 +2175,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2898,
+      "score": 0.2881,
       "signals": {
-        "score": 0.2898,
-        "recency": 0.04535388733616634,
+        "score": 0.2881,
+        "recency": 0.03857850328667343,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2305,14 +2201,64 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2897,
+      "score": 0.2881,
       "signals": {
-        "score": 0.2897,
-        "recency": 0.0449670984420646,
+        "score": 0.2881,
+        "recency": 0.03824949650249744,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "brave bisons minimba wins major omnicom oceania training deal tipranks",
+      "title": "Brave Bison\u2019s MiniMBA Wins Major Omnicom Oceania Training Deal - TipRanks",
+      "summary": "Brave Bison\u2019s MiniMBA Wins Major Omnicom Oceania Training Deal &nbsp;&nbsp; TipRanks",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeUlzVnBBbHhJZUVoTXRrODdFREsyNFRveU5Vejk0THQyVlc1S0pYSVhnUzFDQ3p0S1dQZUZjNnJUUzF0WW1vaXZSTlhjTnFUQXlYd0h4R0ZZWkJCaHBpT3pEdGpPRWw3OF9ScXFTXzEyWkFIQXJyNkpXYjJmMVFzcTBGblFwbTctNWJlTGhvN1pxS2tQR1RBdFljSzc3SzhxemN3d21BVEdQMEhCNE1yaW5xRQ?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-06T06:18:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.288,
+      "signals": {
+        "score": 0.288,
+        "recency": 0.05612619396051548,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "despite enthusiasm over its chatgpt tieup criteos shares slide on downgraded revenue forecast",
+      "title": "Despite enthusiasm over its ChatGPT tie-up, Criteo\u2019s shares slide on downgraded revenue forecast",
+      "summary": "More than 1,000 clients have signed up for its ChatGPT partnership, while management touts a 2027 re-domiciling to the U.S.",
+      "image": null,
+      "link": "https://digiday.com/media-buying/despite-enthusiasm-over-its-chatgpt-tie-up-criteos-shares-slide-on-downgraded-revenue-forecast/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-06T15:28:16+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Digiday"
+      ],
+      "keywords": [],
+      "score": 0.2862,
+      "signals": {
+        "score": 0.2862,
+        "recency": 0.2587810270523855,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
       }
     },
     {
@@ -2331,10 +2277,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2876,
+      "score": 0.2856,
       "signals": {
-        "score": 0.2876,
-        "recency": 0.054590848663421475,
+        "score": 0.2856,
+        "recency": 0.046435561718756894,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2355,37 +2301,13 @@
         "TechCrunch Startups"
       ],
       "keywords": [],
-      "score": 0.287,
+      "score": 0.2781,
       "signals": {
-        "score": 0.287,
-        "recency": 0.23807785530001732,
+        "score": 0.2781,
+        "recency": 0.20251157866796096,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.85,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "wpp nasdaq scor discloses 38 comscore stake in amended 13d stock titan",
-      "title": "WPP (NASDAQ: SCOR) discloses 3.8% comScore stake in amended 13D - Stock Titan",
-      "summary": "WPP (NASDAQ: SCOR) discloses 3.8% comScore stake in amended 13D &nbsp;&nbsp; Stock Titan",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYklZczB1dTJmRGNlTTRrWng3YnFBMkN5Rl8zZ1poVnN6eVBUMFhXcHFyaUxXS1Y4ZnYwMTJuaUd1bF9Fc0V0S09Yakl6MWFSR2ZJU19tZWxhMTF0LUtpWjhXWWdPNmUyU2h0N3Bqamk0ZDF2bkhhMTdLdW1ZUThGR3J4a18tLWUxd2V0TDlwUUZhMVR3VUl0dlNuYzE4aV8yR19meFF3Nkc3Z2pXWG00TlU4eFVOSTFhaTdkdXZRcw?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-06T14:59:22+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.2842,
-      "signals": {
-        "score": 0.2842,
-        "recency": 0.28076138663014333,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.4
       }
     },
@@ -2405,13 +2327,37 @@
       "keywords": [
         "platform"
       ],
-      "score": 0.281,
+      "score": 0.2779,
       "signals": {
-        "score": 0.281,
-        "recency": 0.08412246629820529,
+        "score": 0.2779,
+        "recency": 0.07155547259959986,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "wpp nasdaq scor discloses 38 comscore stake in amended 13d stock titan",
+      "title": "WPP (NASDAQ: SCOR) discloses 3.8% comScore stake in amended 13D - Stock Titan",
+      "summary": "WPP (NASDAQ: SCOR) discloses 3.8% comScore stake in amended 13D &nbsp;&nbsp; Stock Titan",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYklZczB1dTJmRGNlTTRrWng3YnFBMkN5Rl8zZ1poVnN6eVBUMFhXcHFyaUxXS1Y4ZnYwMTJuaUd1bF9Fc0V0S09Yakl6MWFSR2ZJU19tZWxhMTF0LUtpWjhXWWdPNmUyU2h0N3Bqamk0ZDF2bkhhMTdLdW1ZUThGR3J4a18tLWUxd2V0TDlwUUZhMVR3VUl0dlNuYzE4aV8yR19meFF3Nkc3Z2pXWG00TlU4eFVOSTFhaTdkdXZRcw?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-06T14:59:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.2737,
+      "signals": {
+        "score": 0.2737,
+        "recency": 0.2388186484787774,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.4
       }
     },
@@ -2429,10 +2375,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.2749,
+      "score": 0.2665,
       "signals": {
-        "score": 0.2749,
-        "recency": 0.22579664206491876,
+        "score": 0.2665,
+        "recency": 0.19206504689345583,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2453,10 +2399,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.2697,
+      "score": 0.2623,
       "signals": {
-        "score": 0.2697,
-        "recency": 0.19884092847930973,
+        "score": 0.2623,
+        "recency": 0.16913622764034197,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2477,37 +2423,13 @@
         "MarTech"
       ],
       "keywords": [],
-      "score": 0.2683,
+      "score": 0.2607,
       "signals": {
-        "score": 0.2683,
-        "recency": 0.20531434352013817,
+        "score": 0.2607,
+        "recency": 0.17464258394399348,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "omnicom group inc plans quarterly dividend of 080 nyseomc marketbeat",
-      "title": "Omnicom Group Inc. Plans Quarterly Dividend of $0.80 (NYSE:OMC) - MarketBeat",
-      "summary": "Omnicom Group Inc. Plans Quarterly Dividend of $0.80 (NYSE:OMC) &nbsp;&nbsp; MarketBeat",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcTNTRXBodlhhcW9ycUxaYnpoQU42RGdsci00R3JXRDg4Nkt5SE9ZQVdjSUtiSDk1OHVHd0JmV0lWZVR3cnFqRVVwSlBpTm0yM21UVC0zYmxwOGY4VWQ2OFVQcTBqZXhoSGpLLXU5R2pvZ1VyUXFJQ1VTdzdERlR4R1NaVXIxdnRjb1preUpjWWZqeFZEUjU1VVNQVGx1bENac2hBb0hFc3lKNWphV3p0Yg?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-06T13:00:16+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.2644,
-      "signals": {
-        "score": 0.2644,
-        "recency": 0.20167788932539504,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.4
       }
     },
@@ -2525,13 +2447,37 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.2638,
+      "score": 0.2572,
       "signals": {
-        "score": 0.2638,
-        "recency": 0.17507888296758192,
+        "score": 0.2572,
+        "recency": 0.14892397672395202,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "omnicom group inc plans quarterly dividend of 080 nyseomc marketbeat",
+      "title": "Omnicom Group Inc. Plans Quarterly Dividend of $0.80 (NYSE:OMC) - MarketBeat",
+      "summary": "Omnicom Group Inc. Plans Quarterly Dividend of $0.80 (NYSE:OMC) &nbsp;&nbsp; MarketBeat",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcTNTRXBodlhhcW9ycUxaYnpoQU42RGdsci00R3JXRDg4Nkt5SE9ZQVdjSUtiSDk1OHVHd0JmV0lWZVR3cnFqRVVwSlBpTm0yM21UVC0zYmxwOGY4VWQ2OFVQcTBqZXhoSGpLLXU5R2pvZ1VyUXFJQ1VTdzdERlR4R1NaVXIxdnRjb1preUpjWWZqeFZEUjU1VVNQVGx1bENac2hBb0hFc3lKNWphV3p0Yg?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-06T13:00:16+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.2569,
+      "signals": {
+        "score": 0.2569,
+        "recency": 0.17154937698107314,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.4
       }
     },
@@ -2549,10 +2495,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2617,
+      "score": 0.2546,
       "signals": {
-        "score": 0.2617,
-        "recency": 0.19080560801513244,
+        "score": 0.2546,
+        "recency": 0.16230129782188857,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2573,10 +2519,34 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2583,
+      "score": 0.2526,
       "signals": {
-        "score": 0.2583,
-        "recency": 0.15332371138228626,
+        "score": 0.2526,
+        "recency": 0.1304187943062983,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "5 sciencebacked pricing tips from the uks top marketing podcast",
+      "title": "5 science-backed pricing tips from the U.K.\u2019s top marketing podcast",
+      "summary": "In 2007 , Coulter and Coulter showed two advertisements to two random groups of customers.",
+      "image": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/example-Mar-17-2026-02-51-06-9825-AM.webp",
+      "link": "https://blog.hubspot.com/marketing/science-backed-pricing",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-06T11:00:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "HubSpot Marketing Blog"
+      ],
+      "keywords": [],
+      "score": 0.2507,
+      "signals": {
+        "score": 0.2507,
+        "recency": 0.12285222971544578,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2597,37 +2567,13 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2569,
+      "score": 0.2505,
       "signals": {
-        "score": 0.2569,
-        "recency": 0.1715405986666627,
+        "score": 0.2505,
+        "recency": 0.1459142741262356,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "5 sciencebacked pricing tips from the uks top marketing podcast",
-      "title": "5 science-backed pricing tips from the U.K.\u2019s top marketing podcast",
-      "summary": "In 2007 , Coulter and Coulter showed two advertisements to two random groups of customers.",
-      "image": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/example-Mar-17-2026-02-51-06-9825-AM.webp",
-      "link": "https://blog.hubspot.com/marketing/science-backed-pricing",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-06T11:00:04+00:00",
-      "source_count": 1,
-      "source_names": [
-        "HubSpot Marketing Blog"
-      ],
-      "keywords": [],
-      "score": 0.2561,
-      "signals": {
-        "score": 0.2561,
-        "recency": 0.14442826213623183,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -2645,10 +2591,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2539,
+      "score": 0.2479,
       "signals": {
-        "score": 0.2539,
-        "recency": 0.15958835892477394,
+        "score": 0.2479,
+        "recency": 0.13574757073545757,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2669,10 +2615,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2532,
+      "score": 0.2474,
       "signals": {
-        "score": 0.2532,
-        "recency": 0.15684163973194581,
+        "score": 0.2474,
+        "recency": 0.13341118191342186,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2693,10 +2639,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2459,
+      "score": 0.242,
       "signals": {
-        "score": 0.2459,
-        "recency": 0.10346820939859491,
+        "score": 0.242,
+        "recency": 0.08801116929103606,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2717,10 +2663,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2459,
+      "score": 0.242,
       "signals": {
-        "score": 0.2459,
-        "recency": 0.10346820939859491,
+        "score": 0.242,
+        "recency": 0.08801116929103606,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2741,10 +2687,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2456,
+      "score": 0.2408,
       "signals": {
-        "score": 0.2456,
-        "recency": 0.12624770521000284,
+        "score": 0.2408,
+        "recency": 0.10738765288803058,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2765,34 +2711,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2454,
+      "score": 0.2407,
       "signals": {
-        "score": 0.2454,
-        "recency": 0.12554827373410643,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "bofa cuts omnicom stock price target on growth visibility concerns investingcom",
-      "title": "BofA cuts Omnicom stock price target on growth visibility concerns - Investing.com",
-      "summary": "BofA cuts Omnicom stock price target on growth visibility concerns &nbsp;&nbsp; Investing.com",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSzY3QUpCek5LRjV3bmtPcExYektQSWxrRktCQWhtVmNabmdidE5qZWdlejlGTG5vQUJBNVBQMV9IQThsLXBLVDEtbTNOeGRjRkF0a0lPMHVxUGpXOTdKMWlXeWR4RWR0QXdjNENxV2RCYzNPY0dOUFpHVmNPZW1VX0NGMVdJMXJrZDNSNFdPMzhPcUw4dGl6Y3VmSjE1NWtBNmNxc29FMVVXOHRzLW9fQ3JWUV80c2JNTkdkNVFPS1IwWFcz?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-06T09:37:37+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.2427,
-      "signals": {
-        "score": 0.2427,
-        "recency": 0.11486472719031664,
+        "score": 0.2407,
+        "recency": 0.1067927089686335,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2813,13 +2735,37 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2419,
+      "score": 0.2386,
       "signals": {
-        "score": 0.2419,
-        "recency": 0.08758394836306588,
+        "score": 0.2386,
+        "recency": 0.07449984639111605,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "bofa cuts omnicom stock price target on growth visibility concerns investingcom",
+      "title": "BofA cuts Omnicom stock price target on growth visibility concerns - Investing.com",
+      "summary": "BofA cuts Omnicom stock price target on growth visibility concerns &nbsp;&nbsp; Investing.com",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSzY3QUpCek5LRjV3bmtPcExYektQSWxrRktCQWhtVmNabmdidE5qZWdlejlGTG5vQUJBNVBQMV9IQThsLXBLVDEtbTNOeGRjRkF0a0lPMHVxUGpXOTdKMWlXeWR4RWR0QXdjNENxV2RCYzNPY0dOUFpHVmNPZW1VX0NGMVdJMXJrZDNSNFdPMzhPcUw4dGl6Y3VmSjE1NWtBNmNxc29FMVVXOHRzLW9fQ3JWUV80c2JNTkdkNVFPS1IwWFcz?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-06T09:37:37+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.2384,
+      "signals": {
+        "score": 0.2384,
+        "recency": 0.09770516962723155,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.4
       }
     },
@@ -2837,37 +2783,13 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2385,
+      "score": 0.2358,
       "signals": {
-        "score": 0.2385,
-        "recency": 0.0740936048877917,
+        "score": 0.2358,
+        "recency": 0.0630248154584487,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "brave bisons minimba secures omnicom partnership deal investingcom",
-      "title": "Brave Bison\u2019s MiniMBA secures Omnicom partnership deal - Investing.com",
-      "summary": "Brave Bison\u2019s MiniMBA secures Omnicom partnership deal &nbsp;&nbsp; Investing.com",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb3lrZVlCRThuVFowSTNCWm40TC05VWljVUtwbG5RYmcyREdaN2dXdTRaVnJuSUpLenZ6eG9ZYWt6cUo4eURIRm5LRUN6MkFZa3l5VDJWM2E3ZEo0dHRZdlpWX1U4SnVPeVZ3cjFWLWt3QVJEalozel83MHMxOVhOaEZiVTZ1eGhDa3NPNElkN1lOOHBDYUUwdG83UVJGU0g2NUI0VTVaa3VRSWc3Q3lV?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-06T07:06:29+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.2329,
-      "signals": {
-        "score": 0.2329,
-        "recency": 0.07548548120788512,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.4
       }
     },
@@ -2885,13 +2807,37 @@
         "Digiday"
       ],
       "keywords": [],
-      "score": 0.2328,
+      "score": 0.2311,
       "signals": {
-        "score": 0.2328,
-        "recency": 0.04509218069376933,
+        "score": 0.2311,
+        "recency": 0.038355892808126735,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "brave bisons minimba secures omnicom partnership deal investingcom",
+      "title": "Brave Bison\u2019s MiniMBA secures Omnicom partnership deal - Investing.com",
+      "summary": "Brave Bison\u2019s MiniMBA secures Omnicom partnership deal &nbsp;&nbsp; Investing.com",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb3lrZVlCRThuVFowSTNCWm40TC05VWljVUtwbG5RYmcyREdaN2dXdTRaVnJuSUpLenZ6eG9ZYWt6cUo4eURIRm5LRUN6MkFZa3l5VDJWM2E3ZEo0dHRZdlpWX1U4SnVPeVZ3cjFWLWt3QVJEalozel83MHMxOVhOaEZiVTZ1eGhDa3NPNElkN1lOOHBDYUUwdG83UVJGU0g2NUI0VTVaa3VRSWc3Q3lV?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-06T07:06:29+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.2301,
+      "signals": {
+        "score": 0.2301,
+        "recency": 0.0642087603933418,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.4
       }
     },
@@ -2909,10 +2855,34 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.2309,
+      "score": 0.2291,
       "signals": {
-        "score": 0.2309,
-        "recency": 0.04965033564525907,
+        "score": 0.2291,
+        "recency": 0.042233108326034274,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "nike alumni now at superfeet want their insoles in every shoe in the world",
+      "title": "Nike alumni, now at Superfeet, want their insoles in \u2018every shoe in the world\u2019",
+      "summary": "As insoles brand Superfeet nears its 50th birthday, it's looking to grow beyond its running niche and become a household name among more kinds of athletes.",
+      "image": null,
+      "link": "https://www.modernretail.co/marketing/nike-alumni-now-at-superfeet-want-their-insoles-in-every-shoe-in-the-world/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-06T04:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Modern Retail"
+      ],
+      "keywords": [],
+      "score": 0.2281,
+      "signals": {
+        "score": 0.2281,
+        "recency": 0.03824949650249744,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2933,61 +2903,13 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2301,
+      "score": 0.2277,
       "signals": {
-        "score": 0.2301,
-        "recency": 0.06427982969464209,
+        "score": 0.2277,
+        "recency": 0.054677112961915596,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "nike alumni now at superfeet want their insoles in every shoe in the world",
-      "title": "Nike alumni, now at Superfeet, want their insoles in \u2018every shoe in the world\u2019",
-      "summary": "As insoles brand Superfeet nears its 50th birthday, it's looking to grow beyond its running niche and become a household name among more kinds of athletes.",
-      "image": null,
-      "link": "https://www.modernretail.co/marketing/nike-alumni-now-at-superfeet-want-their-insoles-in-every-shoe-in-the-world/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-06T04:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Modern Retail"
-      ],
-      "keywords": [],
-      "score": 0.2297,
-      "signals": {
-        "score": 0.2297,
-        "recency": 0.0449670984420646,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "google is testing new bot authorization standard via sejournal martinibuster",
-      "title": "Google Is Testing New Bot Authorization Standard via @sejournal, @martinibuster",
-      "summary": "Google is testing a cryptographic protocol for verifying bot traffic that could make unwanted crawlers easier to identify.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/google-is-testing-new-bot-authorization-standard/573957/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-05T23:07:27+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [],
-      "score": 0.225,
-      "signals": {
-        "score": 0.225,
-        "recency": 0.019951257775352914,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -3005,10 +2927,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2243,
+      "score": 0.2228,
       "signals": {
-        "score": 0.2243,
-        "recency": 0.04139663490913135,
+        "score": 0.2228,
+        "recency": 0.03521242190469614,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
