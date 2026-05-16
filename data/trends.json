@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T16:12:40.567175+00:00",
+  "generated_at": "2026-05-16T17:18:11.665829+00:00",
   "sources_scanned": 805,
   "feeds_polled": 32,
   "feed_pool": 38,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 44,
+  "clusters": 38,
   "trends": [
     {
       "id": "openai cofounder greg brockman reportedly takes charge of product strategy",
@@ -32,10 +32,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.571,
+      "score": 0.5337,
       "signals": {
-        "score": 0.571,
-        "recency": 0.8970141291297078,
+        "score": 0.5337,
+        "recency": 0.7477556888342973,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -59,10 +59,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.551,
+      "score": 0.5171,
       "signals": {
-        "score": 0.551,
-        "recency": 0.8171945297509432,
+        "score": 0.5171,
+        "recency": 0.6812176516086704,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -85,10 +85,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5274,
+      "score": 0.4872,
       "signals": {
-        "score": 0.5274,
-        "recency": 0.9654012670581217,
+        "score": 0.4872,
+        "recency": 0.8047635661557847,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -111,10 +111,10 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.4645,
+      "score": 0.4304,
       "signals": {
-        "score": 0.4645,
-        "recency": 0.8178000832836376,
+        "score": 0.4304,
+        "recency": 0.6817224442136712,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -137,10 +137,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4589,
+      "score": 0.4302,
       "signals": {
-        "score": 0.4589,
-        "recency": 0.6917402351147527,
+        "score": 0.4302,
+        "recency": 0.5766382927596407,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -163,10 +163,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4042,
+      "score": 0.3836,
       "signals": {
-        "score": 0.4042,
-        "recency": 0.49689422129537875,
+        "score": 0.3836,
+        "recency": 0.4142136323794527,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -187,10 +187,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.3847,
+      "score": 0.3563,
       "signals": {
-        "score": 0.3847,
-        "recency": 0.6829575631224358,
+        "score": 0.3563,
+        "recency": 0.5693170112634482,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -213,38 +213,11 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3436,
+      "score": 0.333,
       "signals": {
-        "score": 0.3436,
-        "recency": 0.2544887927456456,
+        "score": 0.333,
+        "recency": 0.2121431941152985,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "after claude design launched figma raised its fullyear outlook",
-      "title": "After Claude Design Launched, Figma Raised Its Full-Year Outlook",
-      "summary": "When Anthropic released Claude Design in April, one assumption spread quickly through design and tech circles: a prompt-to-interface tool would make interface design platform",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/Figma-earnings.jpeg?w=457",
-      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/after-claude-design-launched-figma-raised-its-full-year-outlook/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-15T22:42:32+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai",
-        "platform"
-      ],
-      "score": 0.3335,
-      "signals": {
-        "score": 0.3335,
-        "recency": 0.05409230741826621,
-        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -267,13 +240,40 @@
         "ai",
         "cloud"
       ],
-      "score": 0.3331,
+      "score": 0.3319,
       "signals": {
-        "score": 0.3331,
-        "recency": 0.028476284369340993,
+        "score": 0.3319,
+        "recency": 0.02373798019736532,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "after claude design launched figma raised its fullyear outlook",
+      "title": "After Claude Design Launched, Figma Raised Its Full-Year Outlook",
+      "summary": "When Anthropic released Claude Design in April, one assumption spread quickly through design and tech circles: a prompt-to-interface tool would make interface design platform",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/Figma-earnings.jpeg?w=457",
+      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/after-claude-design-launched-figma-raised-its-full-year-outlook/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-15T22:42:32+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "platform"
+      ],
+      "score": 0.3313,
+      "signals": {
+        "score": 0.3313,
+        "recency": 0.04509163153698045,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
@@ -294,10 +294,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.3284,
+      "score": 0.327,
       "signals": {
-        "score": 0.3284,
-        "recency": 0.03369842981016044,
+        "score": 0.327,
+        "recency": 0.028091188061639877,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -321,10 +321,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.3268,
+      "score": 0.3257,
       "signals": {
-        "score": 0.3268,
-        "recency": 0.027336923024549698,
+        "score": 0.3257,
+        "recency": 0.02278820259683614,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -348,40 +348,13 @@
         "ai",
         "bill"
       ],
-      "score": 0.3259,
+      "score": 0.3249,
       "signals": {
-        "score": 0.3259,
-        "recency": 0.023690879242728367,
+        "score": 0.3249,
+        "recency": 0.01974884135261477,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the death of the billable hour how ai is killing traditional ad agency pricing box nysebox duolin benzinga",
-      "title": "The Death Of The Billable Hour \u2014 How AI Is Killing Traditional Ad Agency Pricing - Box (NYSE:BOX), Duolin - Benzinga",
-      "summary": "The Death Of The Billable Hour \u2014 How AI Is Killing Traditional Ad Agency Pricing - Box (NYSE:BOX), Duolin &nbsp;&nbsp; Benzinga",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaUcwYVN5REZsSTFqTzgtQVE1dERSN0pDYzdZOFpjQi03ZC14djM0bjVsODB0dmh5YUZ4VEZ1RXBtV05LSHF1YWxDMWVKVUQ0VlNsc0JiM2Ntb1E4c1piTkRuSHFrMmFBMjRiZ1pHYmR5MGhZc3JGOTV2cTRkeWR6S2xIVFNXbDJzM09OZVQ4YmJ4bmpnTEwwbS1yTEFVdGRzekVRZ3BGZmI5TWNtaHk2VjNxMkYzYzNPWGh6WFkxTmt4Z0hENkRhcnNn?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-15T17:31:08+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.3197,
-      "signals": {
-        "score": 0.3197,
-        "recency": 0.022775650023655346,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.6
       }
     },
@@ -401,39 +374,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2988,
+      "score": 0.2962,
       "signals": {
-        "score": 0.2988,
-        "recency": 0.06338100469521793,
+        "score": 0.2962,
+        "recency": 0.05283473836790529,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "rj scaringe has raised more than 12b across three startups and investors still want more",
-      "title": "RJ Scaringe has raised more than $12B across three startups and investors still want more",
-      "summary": "Investors can't seem to get enough of RJ Scaringe or his ideas.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/15/rj-scaringe-has-raised-more-than-12-billion-across-three-startups-and-investors-still-want-more/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-15T20:30:20+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2954,
-      "signals": {
-        "score": 0.2954,
-        "recency": 0.03746734530015958,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -453,13 +400,39 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2953,
+      "score": 0.294,
       "signals": {
-        "score": 0.2953,
-        "recency": 0.031185437626055707,
+        "score": 0.294,
+        "recency": 0.025996344579649718,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "rj scaringe has raised more than 12b across three startups and investors still want more",
+      "title": "RJ Scaringe has raised more than $12B across three startups and investors still want more",
+      "summary": "Investors can't seem to get enough of RJ Scaringe or his ideas.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/15/rj-scaringe-has-raised-more-than-12-billion-across-three-startups-and-investors-still-want-more/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-15T20:30:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2938,
+      "signals": {
+        "score": 0.2938,
+        "recency": 0.031232975807075746,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -479,10 +452,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2952,
+      "score": 0.2937,
       "signals": {
-        "score": 0.2952,
-        "recency": 0.03697623160524646,
+        "score": 0.2937,
+        "recency": 0.030823580851845774,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -505,10 +478,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2924,
+      "score": 0.2914,
       "signals": {
-        "score": 0.2924,
-        "recency": 0.025708022300293943,
+        "score": 0.2914,
+        "recency": 0.02143034239870272,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -531,10 +504,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2899,
+      "score": 0.2885,
       "signals": {
-        "score": 0.2899,
-        "recency": 0.033737455202223134,
+        "score": 0.2885,
+        "recency": 0.028123719833410485,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -557,10 +530,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2899,
+      "score": 0.2885,
       "signals": {
-        "score": 0.2899,
-        "recency": 0.033499325931357994,
+        "score": 0.2885,
+        "recency": 0.027925214022649032,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -583,10 +556,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2893,
+      "score": 0.2882,
       "signals": {
-        "score": 0.2893,
-        "recency": 0.02515817075213459,
+        "score": 0.2882,
+        "recency": 0.020971983260536852,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -609,62 +582,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2882,
+      "score": 0.2869,
       "signals": {
-        "score": 0.2882,
-        "recency": 0.03297767682553883,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "department stores losing market share to resale",
-      "title": "Department stores losing market share to resale",
-      "summary": "Off-price retailers have little to fear from rapidly growing secondhand sales, though, according to research from Bank of America analysts.",
-      "image": "https://imgproxy.divecdn.com/4CKYKaktI27qqUT920qH-10K_FyzzDijGiQJjJeR6cM/g:nowe:0:417/c:4096:2314/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xNDAwMDg2Nzc5LmpwZw==.webp",
-      "link": "https://www.retaildive.com/news/department-stores-lose-market-share-resale-secondhand-apparel/820346/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-15T12:31:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2848,
-      "signals": {
-        "score": 0.2848,
-        "recency": 0.01927203240577269,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "googles new ai search guide calls aeo and geo still seo via sejournal mattgsouthern",
-      "title": "Google\u2019s New AI Search Guide Calls AEO And GEO \u2018Still SEO\u2019 via @sejournal, @MattGSouthern",
-      "summary": "Google's new AI Search guide says AEO and GEO are still SEO and names tactics site owners can ignore, including llms.txt, chunking, and special schema.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/googles-new-ai-search-guide-calls-aeo-and-geo-still-seo/575026/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-15T16:14:25+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2846,
-      "signals": {
-        "score": 0.2846,
-        "recency": 0.01840440672733945,
+        "score": 0.2869,
+        "recency": 0.027490364588526908,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -686,10 +607,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.281,
+      "score": 0.2799,
       "signals": {
-        "score": 0.281,
-        "recency": 0.028196856563790538,
+        "score": 0.2799,
+        "recency": 0.02350504771120532,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.76,
@@ -712,10 +633,10 @@
       "keywords": [
         "regulation"
       ],
-      "score": 0.2664,
+      "score": 0.2653,
       "signals": {
-        "score": 0.2664,
-        "recency": 0.02557861878142993,
+        "score": 0.2653,
+        "recency": 0.02132247094579748,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -736,10 +657,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.256,
+      "score": 0.249,
       "signals": {
-        "score": 0.256,
-        "recency": 0.16815815692228062,
+        "score": 0.249,
+        "recency": 0.14017752271585865,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -760,10 +681,10 @@
         "Modern Retail"
       ],
       "keywords": [],
-      "score": 0.2512,
+      "score": 0.2457,
       "signals": {
-        "score": 0.2512,
-        "recency": 0.1306528539142957,
+        "score": 0.2457,
+        "recency": 0.10891290516419962,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -784,10 +705,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.2366,
+      "score": 0.2338,
       "signals": {
-        "score": 0.2366,
-        "recency": 0.06645809598459036,
+        "score": 0.2338,
+        "recency": 0.05539981782648978,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -808,37 +729,13 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.232,
+      "score": 0.23,
       "signals": {
-        "score": 0.232,
-        "recency": 0.047824776197160725,
+        "score": 0.23,
+        "recency": 0.03986698459627379,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "tesla reveals two robotaxi crashes involving teleoperators",
-      "title": "Tesla reveals two Robotaxi crashes involving teleoperators",
-      "summary": "Newly unredacted crash reports reveal some of the troubles Tesla has had as it tries to scale its robotaxis.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/15/tesla-reveals-two-robotaxi-crashes-involving-teleoperators/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-15T17:13:26+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.2314,
-      "signals": {
-        "score": 0.2314,
-        "recency": 0.021682930046298992,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.4
       }
     },
@@ -856,10 +753,10 @@
         "Digital Commerce 360"
       ],
       "keywords": [],
-      "score": 0.2303,
+      "score": 0.2288,
       "signals": {
-        "score": 0.2303,
-        "recency": 0.0351728795100637,
+        "score": 0.2288,
+        "recency": 0.02932029707475249,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -880,10 +777,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.2302,
+      "score": 0.2285,
       "signals": {
-        "score": 0.2302,
-        "recency": 0.04084614120154332,
+        "score": 0.2285,
+        "recency": 0.034049557814675745,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -904,10 +801,10 @@
         "Digital Commerce 360"
       ],
       "keywords": [],
-      "score": 0.228,
+      "score": 0.227,
       "signals": {
-        "score": 0.228,
-        "recency": 0.02617519886419287,
+        "score": 0.227,
+        "recency": 0.02181978323581017,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -928,58 +825,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.2259,
+      "score": 0.2247,
       "signals": {
-        "score": 0.2259,
-        "recency": 0.029785607801768702,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "activist investors push to oust former target ceo from board",
-      "title": "Activist investors push to oust former Target CEO from board",
-      "summary": "The group is urging shareholders not to reelect Brian Cornell and Christine Leahy, arguing their presence could hamper a turnaround.",
-      "image": "https://imgproxy.divecdn.com/s5gd7x8VQZjS-gJehj4BMe_3CXuPJSXUpMmqcOwYJmg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9JTUdfMDc4MC5qcGc=.webp",
-      "link": "https://www.retaildive.com/news/target-oust-brian-cornell-board-directors-activist-investors/820356/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-15T12:35:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [],
-      "score": 0.2249,
-      "signals": {
-        "score": 0.2249,
-        "recency": 0.019487360149109484,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "lets be upfront about performance",
-      "title": "Let\u2019s Be Upfront About Performance",
-      "summary": "During upfronts, publishers flexed their ad performance muscles at media buyers all week long in an effort to appeal to the biggest demands media buyers have during their upfront",
-      "image": null,
-      "link": "https://www.adexchanger.com/ctv-roundup/lets-be-upfront-about-performance/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-15T16:15:17+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AdExchanger"
-      ],
-      "keywords": [],
-      "score": 0.2231,
-      "signals": {
-        "score": 0.2231,
-        "recency": 0.018448767007632896,
+        "score": 0.2247,
+        "recency": 0.024829439086727256,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1000,10 +849,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2231,
+      "score": 0.2216,
       "signals": {
-        "score": 0.2231,
-        "recency": 0.03640044037311951,
+        "score": 0.2216,
+        "recency": 0.030343598256898745,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1018,16 +867,16 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYzFYMWo0a0txTnFPM1RubHFLMlJkQUNlRWFGVTlpZVU0Rk9FS2x6TDlJQUVtOGRXYXUwVnV2ekFHNVotZjJlbEhSMkZidExGbU5FeG9PWW5TOXM0QmhId3VyVU00S1VwR2tMNHJqU3FqUzRGSi1zVHNDcnBpREZ1LVJkdDk5MmU4MmU2OExxSTR2cmRtUmZUeEZzbUh4alNBTWxadFpBR3YxaHBnYlU5OQ?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-05-15T20:04:31+00:00",
+      "published_at": "2026-05-15T20:04:34+00:00",
       "source_count": 1,
       "source_names": [
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2227,
+      "score": 0.2213,
       "signals": {
-        "score": 0.2227,
-        "recency": 0.03487453123141458,
+        "score": 0.2213,
+        "recency": 0.02907563038442856,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1048,10 +897,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2223,
+      "score": 0.2209,
       "signals": {
-        "score": 0.2223,
-        "recency": 0.03301433905281053,
+        "score": 0.2209,
+        "recency": 0.027520926413717273,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1072,10 +921,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2223,
+      "score": 0.2209,
       "signals": {
-        "score": 0.2223,
-        "recency": 0.033219786839962975,
+        "score": 0.2209,
+        "recency": 0.027692188768024574,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1096,10 +945,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2223,
+      "score": 0.2209,
       "signals": {
-        "score": 0.2223,
-        "recency": 0.033219786839962975,
+        "score": 0.2209,
+        "recency": 0.027692188768024574,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1120,10 +969,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2222,
+      "score": 0.2208,
       "signals": {
-        "score": 0.2222,
-        "recency": 0.032622346839175004,
+        "score": 0.2208,
+        "recency": 0.027194159645830256,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
