@@ -473,6 +473,9 @@ function renderNewsBoard() {
             const whyItMatters = buildWhyItMatters(item);
             const storyBrief = buildStoryBrief(item, whyItMatters, mobileReader ? 72 : state.briefMode ? 48 : 72);
             const storyHref = escapeAttr(item.link);
+            const refreshLink = state.activeCategory === 'all'
+                ? `<a class="feed-refresh-link" href="data/trends.json" target="_blank" rel="noopener">Refresh: ${escapeHtml(formatDate(state.meta.generated_at))}</a>`
+                : '';
             return `
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">
             ${renderCardMedia(item, image)}
@@ -488,9 +491,10 @@ function renderNewsBoard() {
                     <span class="source-name">${escapeHtml(sourceLabel)}</span>
                     <span>${escapeHtml(formatDate(item.published_at))}</span>
                 </div>
+                ${refreshLink}
                 <div class="card-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
-                    <button class="card-action-btn ${isSaved ? 'is-active' : ''}" type="button" data-action="save">${isSaved ? 'Saved' : 'Save'}</button>
-                    <button class="card-action-btn" type="button" data-action="share">Share</button>
+                    <button class="card-action-btn icon-action ${isSaved ? 'is-active' : ''}" type="button" data-action="save" aria-label="${isSaved ? 'Remove saved story' : 'Save story'}" title="${isSaved ? 'Saved' : 'Save'}"><i class="${isSaved ? 'fa-solid' : 'fa-regular'} fa-bookmark" aria-hidden="true"></i></button>
+                    <button class="card-action-btn icon-action" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
                 </div>
             </div>
         </article>`;
@@ -961,7 +965,7 @@ function renderCardMedia(item, imageUrl) {
     if (imageUrl) {
         return `<img class="card-image board-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(cleanHeadline(item.title))}" loading="lazy" decoding="async" fetchpriority="low" width="640" height="360" sizes="(max-width: 768px) 96vw, (max-width: 1024px) 48vw, 24vw" />`;
     }
-    return `<div class="board-image image-fallback"><span>${escapeHtml(cleanHeadline(item.title))}</span></div>`;
+    return `<div class="board-image image-fallback" role="img" aria-label="No image available for this news feed"><i class="fa-regular fa-image" aria-hidden="true"></i><span>No image available from this feed</span></div>`;
 }
 
 function formatDate(value) {
@@ -1045,7 +1049,7 @@ function resolveCardImage(trend) {
     if (trend?.image && /^https?:\/\//i.test(trend.image)) {
         return trend.image;
     }
-    return buildHeadlineThemeImage(trend);
+    return null;
 }
 
 const ENTITY_VISUALS = [
