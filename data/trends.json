@@ -1,23 +1,154 @@
 {
-  "generated_at": "2026-05-20T16:06:07.427100+00:00",
-  "sources_scanned": 787,
+  "generated_at": "2026-05-20T18:31:11.008972+00:00",
+  "sources_scanned": 786,
   "feeds_polled": 31,
   "feed_pool": 38,
   "continent_counts": {
     "NA": 435,
     "SA": 0,
-    "EU": 352,
+    "EU": 351,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 135,
+  "clusters": 140,
   "trends": [
     {
+      "id": "openai barrels towards ipo that may happen in september",
+      "title": "OpenAI barrels towards IPO that may happen in September",
+      "summary": "A day after Elon Musk lost his lawsuit that threatened OpenAI's structure, leadership and finances, OpenAI is reportedly back to prepping for its IPO.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/20/openai-barrels-towards-ipo-that-may-happen-in-september/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-20T17:24:24+00:00",
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch Startups"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5544,
+      "signals": {
+        "score": 0.5544,
+        "recency": 0.8306807990129763,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "gitex ai europe",
+      "title": "GITEX AI EUROPE",
+      "summary": "Summary unavailable from feed.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt45b2a2224cfd18cf/6a0dc1d50fe332cff67b80e6/GITEX_AI_EUROPE_-_300x250_px_(1).jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/events/gitex-ai-europe",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-05-20T18:31:07.469005+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AI Business"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5296,
+      "signals": {
+        "score": 0.5296,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "ai will reshape customer service jobs in dramatic ways",
+      "title": "AI Will Reshape Customer Service Jobs In Dramatic Ways",
+      "summary": "Forrester predicts that by 2030, AI will cause 49% of current customer service jobs to disappear.",
+      "image": null,
+      "link": "https://www.forrester.com/blogs/ai-will-reshape-customer-service-jobs-in-dramatic-ways/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T18:23:26+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Forrester Blogs"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5247,
+      "signals": {
+        "score": 0.5247,
+        "recency": 0.978701884392962,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "airbnb gets into hotels expands ai for host onboarding and customer support",
+      "title": "Airbnb gets into hotels, expands AI for host onboarding and customer support",
+      "summary": "Airbnb will soon let you book luggage storage and car rental services on its app",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/20/airbnb-gets-into-hotels-expands-ai-for-host-onboarding-and-customer-support/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-20T18:14:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5244,
+      "signals": {
+        "score": 0.5244,
+        "recency": 0.9535659294384387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "google unveils its new universal cart for agentic commerce",
+      "title": "Google unveils its new Universal Cart for agentic commerce",
+      "summary": "Google kicked off its annual Google I/O developer conference on May 19 with numerous announcements, including new details about its latest agentic commerce and checkout tool, the",
+      "image": null,
+      "link": "https://www.digitalcommerce360.com/2026/05/20/google-universal-cart-for-agentic-commerce/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-20T18:16:45+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Digital Commerce 360"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5217,
+      "signals": {
+        "score": 0.5217,
+        "recency": 0.960700082239268,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.6
+      }
+    },
+    {
       "id": "sap is attempting to become the gatekeeper of enterprise ai cios should push back",
-      "title": "SAP Is Attempting to Become the Gatekeeper of Enterprise AI \u2014 CIOs Should Push Back",
+      "title": "SAP Is Attempting To Become The Gatekeeper Of Enterprise AI \u2014 CIOs Should Push Back",
       "summary": "Three weeks ago, the SAP API Policy v.4.2026a looked like a legal document with no enforcement infrastructure.",
       "image": null,
       "link": "https://www.forrester.com/blogs/sap-is-attempting-to-become-the-gatekeeper-of-enterprise-ai-cios-should-push-back/",
@@ -33,13 +164,220 @@
         "enterprise",
         "policy"
       ],
-      "score": 0.6003,
+      "score": 0.5206,
       "signals": {
-        "score": 0.6003,
-        "recency": 0.9611708459373175,
+        "score": 0.5206,
+        "recency": 0.6423983327704703,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "liveramps data gives publicis a new way into commerce media and agentic ai adweek",
+      "title": "LiveRamp\u2019s Data Gives Publicis a New Way Into Commerce Media and Agentic AI - ADWEEK",
+      "summary": "LiveRamp\u2019s Data Gives Publicis a New Way Into Commerce Media and Agentic AI &nbsp;&nbsp; ADWEEK",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObmNfRUtwTjRPR1ZnOXZfRGNiaUQ2UENMaXY4M1Y2bDQxR05Sb1c4NEQ2NHd1c3RVejdrWDBjbVlzNGM2LUd1WW5BYURKaHJlSFBjYWRHaEc0Z1E0MXNiLVVoTnpibF9UTzNVck5nLTlaQ3A3TVdYOGNqVDRSdVpSUTFnRjM3VGRNQnhBYk8zUWs2X2k5V3VuX3ZlRVhYa2dGSEJHcHkwNi1naWc?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T18:04:08+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5059,
+      "signals": {
+        "score": 0.5059,
+        "recency": 0.9276142567107344,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "google builds a cart that shops while you sleep",
+      "title": "Google Builds a Cart That Shops While You Sleep",
+      "summary": "A shopper watches a YouTube review, adds a pair of headphones to a cart and closes the tab.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/AI-Google-Universal-Cart.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/google-builds-cart-shops-while-you-sleep/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-20T17:51:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5036,
+      "signals": {
+        "score": 0.5036,
+        "recency": 0.8945075846600177,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "omnicoms john wren made more than double all other advertising holdco ceos combined in 2025 adweek",
+      "title": "Omnicom\u2019s John Wren Made More Than Double All Other Advertising Holdco CEOs Combined in 2025 - ADWEEK",
+      "summary": "Omnicom\u2019s John Wren Made More Than Double All Other Advertising Holdco CEOs Combined in 2025 &nbsp;&nbsp; ADWEEK",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV243YkIzQ3lUejFSZkxtUUVKVFY3Y0tkWnh5d0dwU1VTcnVRWk0xd3F4U1hpVHZabEpPdWE4eGNaeU5waUU4SFBrZ3lhbGhlSnMxem1ObGF4ZkJmdm13U2JwNUNZdHVsU3hNR0ZKcFp2LWF2ZFdqUFBUZVIxSmJSUF9HaHMySHZKQkFTXzNldGlYOGhDbFRCaVZSaUNvRlZjdTM4RjJ2bS0xQ1hNdzhpZmtzV3dpOWxhU2Njcnk1WVpyZw?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T17:56:39+00:00",
+      "source_count": 2,
+      "source_names": [
+        "Google News - Omnicom",
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.5011,
+      "signals": {
+        "score": 0.5011,
+        "recency": 0.908530934815035,
+        "keyword_volume": 0.0,
+        "source_signal": 0.4,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "apple says app store shut down 1 billion fake accounts in 2025",
+      "title": "Apple Says App Store Shut Down 1 Billion Fake Accounts in 2025",
+      "summary": "Apple\u2019s App Store prevented $2.2 billion in fraudulent transactions last year.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2024/02/Apple-App-Store-3.jpg?w=457",
+      "link": "https://www.pymnts.com/fraud-prevention/2026/apple-says-app-store-shut-down-1-billion-fake-accounts-in-2025/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-20T18:15:42+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.4995,
+      "signals": {
+        "score": 0.4995,
+        "recency": 0.9579021226739431,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "datadome launches a virtual waiting room for ai shoppers",
+      "title": "DataDome Launches a Virtual Waiting Room for AI Shoppers",
+      "summary": "Cybersecurity firm DataDome has launched \u201cPriority Protect,\u201d which it calls the first \u201cvirtual waiting room\u201d built specifically for agentic commerce, according to a Wednesday",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/09/Agentic-AI-eCommerce-retail-digital-transformation.jpg?w=457",
+      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/datadome-launches-a-virtual-waiting-room-for-ai-shoppers/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-20T17:41:38+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4979,
+      "signals": {
+        "score": 0.4979,
+        "recency": 0.8714129500060768,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "zerohash plans new fundraise after scuttled mastercard investment",
+      "title": "Zerohash Plans New Fundraise After Scuttled Mastercard Investment",
+      "summary": "Zerohash is reportedly planning a new funding round following an abandoned investment from Mastercard.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/11/zerohash.png?w=457",
+      "link": "https://www.pymnts.com/news/investment-tracker/2026/zerohash-plans-new-fundraise-after-scuttled-mastercard-investment/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-20T17:30:39+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4913,
+      "signals": {
+        "score": 0.4913,
+        "recency": 0.8452282552730754,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "alibaba aims for independence with new ai chips model",
+      "title": "Alibaba Aims for Independence with New AI Chips, Model",
+      "summary": "The chip highlights the vendor\u2019s move toward a full-stack AI strategy and its efforts to wean itself off Nvidia AI chips.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/bltd29665ff1488f695/6a0def551eb2e18558dcb1c9/Alibaba.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/generative-ai/alibaba-aims-independence-new-ai-chips-model",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-05-20T17:22:52+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AI Business"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4868,
+      "signals": {
+        "score": 0.4868,
+        "recency": 0.8271502382525049,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "jeff bezos you were so close to making a good point",
+      "title": "Jeff Bezos, you were so close to making a good point",
+      "summary": "\"Why is a nurse in Queens who makes $75,000 a year paying more than $1,000 a month in taxes?\" Bezos said Wednesday morning on CNBC.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/20/jeff-bezos-you-were-so-close-to-making-a-good-point/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-20T17:10:31+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4858,
+      "signals": {
+        "score": 0.4858,
+        "recency": 0.7992555960465858,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -60,10 +398,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.5643,
+      "score": 0.4828,
       "signals": {
-        "score": 0.5643,
-        "recency": 0.9831333480257867,
+        "score": 0.4828,
+        "recency": 0.6570769664230984,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -87,10 +425,10 @@
         "ai",
         "award"
       ],
-      "score": 0.5422,
+      "score": 0.4784,
       "signals": {
-        "score": 0.5422,
-        "recency": 0.7687195792071821,
+        "score": 0.4784,
+        "recency": 0.513773569119382,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 1.0,
@@ -98,25 +436,132 @@
       }
     },
     {
-      "id": "gitex ai europe",
-      "title": "GITEX AI EUROPE",
-      "summary": "Summary unavailable from feed.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt45b2a2224cfd18cf/6a0dc1d50fe332cff67b80e6/GITEX_AI_EUROPE_-_300x250_px_(1).jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/events/gitex-ai-europe",
-      "category": "startup",
+      "id": "singapore wants banks to use ai to create jobs",
+      "title": "Singapore Wants Banks to Use AI to Create Jobs",
+      "summary": "Singapore\u2019s government wants the country\u2019s banks and financial firms to rethink their use of artificial intelligence.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/Singapore.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/singapore-wants-banks-use-ai-create-jobs/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-05-20T16:06:05.403425+00:00",
+      "published_at": "2026-05-20T13:46:03+00:00",
       "source_count": 1,
       "source_names": [
-        "AI Business"
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence",
+        "govern"
+      ],
+      "score": 0.4732,
+      "signals": {
+        "score": 0.4732,
+        "recency": 0.4529210494752332,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "ai referrals make shoppers more likely to either return or never come back",
+      "title": "AI referrals make shoppers more likely to either return \u2014 or never come back",
+      "summary": "Companies need to quickly justify why the AI recommended their brand, Info-Tech Research Group&rsquo;s Julie Geller said.",
+      "image": "https://imgproxy.divecdn.com/Vz4rTbEpyarjz2yuO_zYZ4zFHBU8EMXX0h6XSvBelj4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjE0MDM3NTE3LmpwZw==.webp",
+      "link": "https://www.retaildive.com/news/ai-referrals-shoppers-more-likely-return-again-never-come-back/820464/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T12:58:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Retail Dive"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.5296,
+      "score": 0.473,
       "signals": {
-        "score": 0.5296,
-        "recency": 0.9983347214509387,
+        "score": 0.473,
+        "recency": 0.771944202624189,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "vans ekes out sliver of growth in the us",
+      "title": "Vans ekes out sliver of growth in the US",
+      "summary": "The brand&rsquo;s revenue tumbled globally for the quarter and year, but the sign of recovery at home is &ldquo;the real story&rdquo; for VF Corp., analysts said.",
+      "image": "https://imgproxy.divecdn.com/PZpOfNLQPO1hCqQlP1uR396gov0ikIP3ZWBYDuojZpc/g:nowe:0:361/c:1178:665/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS92YW5zLmpwZWc=.webp",
+      "link": "https://www.retaildive.com/news/vans-sliver-growth-us-americas-vf-corp-north-face/820711/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T12:47:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Retail Dive"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4672,
+      "signals": {
+        "score": 0.4672,
+        "recency": 0.7487137359461402,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "nanoclawcreatorturnsdown 20m buyout offer raises 12m seed instead",
+      "title": "NanoClaw\u00a0creator\u00a0turns\u00a0down $20M buyout offer, raises $12M seed instead",
+      "summary": "NanoClaw was created as a secure alternative to OpenClaw to assist the Cohen brothers with their AI marketing firm that used agents to do much of the work.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-20T14:00:00+00:00",
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch Startups"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4645,
+      "signals": {
+        "score": 0.4645,
+        "recency": 0.47081621989899247,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "lowes efforts to win over pros could save it from the home sectors challenges",
+      "title": "Lowe\u2019s efforts to win over pros could save it from the home sector\u2019s challenges",
+      "summary": "The retailer &mdash; which saw sales increase 10% in Q1 &mdash; is turning to the customer segment as DIY demand remains down.",
+      "image": "https://imgproxy.divecdn.com/ma090Hvg5qFWn1qctK0MLdOghJfh_7zA0fs0my3Bn5U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9sb3dlc19zdG9yZWZyb250LmpwZw==.webp",
+      "link": "https://www.retaildive.com/news/lowes-pros-growth-home-sector-challenges/820732/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T12:40:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Retail Dive"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4636,
+      "signals": {
+        "score": 0.4636,
+        "recency": 0.7342960396088698,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -140,10 +585,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.5295,
+      "score": 0.4595,
       "signals": {
-        "score": 0.5295,
-        "recency": 0.8438434463766367,
+        "score": 0.4595,
+        "recency": 0.5639825899452957,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -151,30 +596,105 @@
       }
     },
     {
-      "id": "singapore wants banks to use ai to create jobs",
-      "title": "Singapore Wants Banks to Use AI to Create Jobs",
-      "summary": "Singapore\u2019s government wants the country\u2019s banks and financial firms to rethink their use of artificial intelligence.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/Singapore.jpeg?w=457",
-      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/singapore-wants-banks-use-ai-create-jobs/",
-      "category": "commerce",
+      "id": "abby media awards 2026 day 1 wpp media essencemediacom lead big wins adgullycom",
+      "title": "ABBY Media Awards 2026 Day 1: WPP Media, EssenceMediacom Lead Big Wins - Adgully.com",
+      "summary": "ABBY Media Awards 2026 Day 1: WPP Media, EssenceMediacom Lead Big Wins &nbsp;&nbsp; Adgully.com",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbEhfOXphN2huN3EtZVNlQTFiTW9VUGY1bEYtNmtuOUpsMlNEUDhNU0lwcmlVZDVkVkRuaXBjV3dvWUVPYlBCNDNWZ1diTGJEYXdSand4bE5IWXhkSmxXSHhvYXdEdHdySFRSZ19uRGFNdk54bDl6VzNJTFpYX2VfTWE4QWYycl8xZ1hwY0hKaUFkeGVtNk9OWXFKZzJ1RVRNUzA1eVJn?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-05-20T13:46:03+00:00",
+      "published_at": "2026-05-20T17:19:00+00:00",
       "source_count": 1,
       "source_names": [
-        "PYMNTS"
+        "Google News - WPP"
       ],
       "keywords": [
-        "ai",
-        "artificial intelligence",
-        "govern"
+        "award"
       ],
-      "score": 0.5294,
+      "score": 0.4586,
       "signals": {
-        "score": 0.5294,
-        "recency": 0.677670669519737,
-        "keyword_volume": 0.6,
+        "score": 0.4586,
+        "recency": 0.818313573106695,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "authentic brands group has a new ceo but jamie salter is sticking around",
+      "title": "Authentic Brands Group has a new CEO, but Jamie Salter is sticking around",
+      "summary": "Matt Maddox has been president and will take over as chief executive to run day-to-day operations, but will continue to report to Salter.",
+      "image": "https://imgproxy.divecdn.com/SwDbp8tTmee__hDmpxUxhBH2cYu5EqH_KBDkc_EdXNU/g:nowe:0:0/c:854:482/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BQkdfSlNfLV8xXzEuanBlZw==.webp",
+      "link": "https://www.retaildive.com/news/authentic-brands-group-ceo-jamie-salter-steps-down/820748/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T14:11:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Retail Dive"
+      ],
+      "keywords": [],
+      "score": 0.4564,
+      "signals": {
+        "score": 0.4564,
+        "recency": 0.9454774602090422,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "goafest 2026 essencemediacom wpp media cocacola and jagran lead day 1 abbys bestmediainfocom",
+      "title": "Goafest 2026: EssenceMediacom, WPP Media, Coca-Cola and Jagran lead Day 1 ABBYs - bestmediainfo.com",
+      "summary": "Goafest 2026: EssenceMediacom, WPP Media, Coca-Cola and Jagran lead Day 1 ABBYs &nbsp;&nbsp; bestmediainfo.com",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZ0I5Y2FDSFVmVVhmTk4xRnh1bnB3MEJwdGVnemg3c0Nxd3oxanFJZ3RET3p5SjZBSjFidm1sNVlrNEFyOFFIV2hnNTNqdU5xQlcyWml2aVNfNG8wZXVyUnRqOXg0Q0kyaEdkc1M4Z0dsMTQzZnB4RjNUcDJLc1laMnc2LUIzbUp2UzZkckY4V05YUWxsbmZjUk1vazRTS0lnSmt4QVU5aGhIUTh2eUpYeTVsRVBfYm43a2VwX256TW9ZeDEwOEtjZ0lDY0gxUdIBzgFBVV95cUxOZ0I5Y2FDSFVmVVhmTk4xRnh1bnB3MEJwdGVnemg3c0Nxd3oxanFJZ3RET3p5SjZBSjFidm1sNVlrNEFyOFFIV2hnNTNqdU5xQlcyWml2aVNfNG8wZXVyUnRqOXg0Q0kyaEdkc1M4Z0dsMTQzZnB4RjNUcDJLc1laMnc2LUIzbUp2UzZkckY4V05YUWxsbmZjUk1vazRTS0lnSmt4QVU5aGhIUTh2eUpYeTVsRVBfYm43a2VwX256TW9ZeDEwOEtjZ0lDY0gxUQ?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T16:30:33+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4528,
+      "signals": {
+        "score": 0.4528,
+        "recency": 0.7152715573082319,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "this startup raised 43m to build a hive mind for ships",
+      "title": "This startup raised $43M to build a hive mind for ships",
+      "summary": "The Arlington, Virginia-based startup has raised $42 million to equip ships with sensors that blow the current AIS tech out of the water.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/20/this-startup-raised-43m-to-build-a-hive-mind-for-ships/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-20T13:00:00+00:00",
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch Startups"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4464,
+      "signals": {
+        "score": 0.4464,
+        "recency": 0.3985373259265778,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.845,
         "engagement": 0.6
       }
     },
@@ -194,10 +714,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5288,
+      "score": 0.4463,
       "signals": {
-        "score": 0.5288,
-        "recency": 0.9952692301388955,
+        "score": 0.4463,
+        "recency": 0.6651879806815028,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -220,10 +740,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5259,
+      "score": 0.4443,
       "signals": {
-        "score": 0.5259,
-        "recency": 0.9834064785555,
+        "score": 0.4443,
+        "recency": 0.6572595131551995,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -231,36 +751,134 @@
       }
     },
     {
-      "id": "nanoclawcreatorturnsdown 20m buyout offer raises 12m seed instead",
-      "title": "NanoClaw\u00a0creator\u00a0turns\u00a0down $20M buyout offer, raises $12M seed instead",
-      "summary": "NanoCo, the company behind OpenClaw alternative NanoClaw, has raised a $12 million seed after a viral launch, the founders tell TechCrunch.",
+      "id": "brandscape how wpp media canadas motion entertainment pursues deep collaboration for content realscreen",
+      "title": "Brandscape: How WPP Media Canada\u2019s Motion Entertainment pursues \u201cdeep collaboration\u201d for content - Realscreen",
+      "summary": "Brandscape: How WPP Media Canada\u2019s Motion Entertainment pursues \u201cdeep collaboration\u201d for content &nbsp;&nbsp; Realscreen",
       "image": null,
-      "link": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
-      "category": "technology",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUGJXWU1wWDRIZEotOVZPTmR3RWdRN2UzZDVBNXUwRmtWNS1vVWlaSElCX05zQUFRVnpoa1UwVzFFOHM0TmREQW5BQmFrT3VYaXI5d2ItQnBoT1dQTlltX0IwbGo1RGVTamllcndSWENZTnE5Q3RJOTNyT1drRE44NDRpcUk0T05mbFhBZzZkMVJWUWtXRFNseExOck1oRnBRUXNUNVdQQ1lRekNaYy1zWnhITGhLN28wTnB3WHpCZ21wUVFWSlE?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-05-20T14:00:00+00:00",
-      "source_count": 2,
+      "published_at": "2026-05-20T16:11:46+00:00",
+      "source_count": 1,
       "source_names": [
-        "TechCrunch",
-        "TechCrunch Startups"
+        "Google News - WPP"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.5229,
+      "score": 0.4437,
       "signals": {
-        "score": 0.5229,
-        "recency": 0.7044458263297142,
+        "score": 0.4437,
+        "recency": 0.678908488873147,
         "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "publicisliveramp deal sparks agency scramble for alternatives ad age",
+      "title": "Publicis-LiveRamp deal sparks agency scramble for alternatives - Ad Age",
+      "summary": "Publicis-LiveRamp deal sparks agency scramble for alternatives &nbsp;&nbsp; Ad Age",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Zejc4bjZGZS0xRFM2cWZhNDBzRlhNVlhmUy1TVHFjR3JkX2VheFRqdF9IcnkwVUpIRl9Nd2Y2RlBnSm14NWRQNXhDNHpTOXNTajdEbU5tX1ZRYV9uR1lCNFpVZlpXaFJ2M2hHenRRNG5JeWxYd0E?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T18:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.4433,
+      "signals": {
+        "score": 0.4433,
+        "recency": 0.9170247785779514,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "tether buys out softbanks stake in joint crypto investment firm",
+      "title": "Tether Buys Out SoftBank\u2019s Stake in Joint Crypto Investment Firm",
+      "summary": "Tether has purchased SoftBank\u2019s stake in their shared venture, crypto investment company Twenty One Capital.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2022/07/tether.jpg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/tether-buys-out-softbanks-stake-in-joint-crypto-investment-firm/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-20T17:50:21+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.4432,
+      "signals": {
+        "score": 0.4432,
+        "recency": 0.892769954266873,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "global ev market goes kshaped as the us gets left behind",
+      "title": "Global EV market goes K-shaped as the U.S. gets left behind",
+      "summary": "EV sales have surged worldwide in every region but the U.S., posing risks for legacy and startup automakers.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/20/global-ev-market-goes-k-shaped-as-the-u-s-gets-left-behind/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-20T17:34:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.4393,
+      "signals": {
+        "score": 0.4393,
+        "recency": 0.8531302831173486,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "liveramps data gives publicis a new way into commerce media and agentic ai",
+      "title": "LiveRamp\u2019s Data Gives Publicis a New Way Into Commerce Media and Agentic AI",
+      "summary": "Publicis Groupe's $2.2 billion acquisition of data firm LiveRamp could help the holding company better compete in a commerce media landscape dominated by Amazon.",
+      "image": null,
+      "link": "https://www.adweek.com/commerce/liveramps-data-gives-publicis-a-new-way-into-commerce-media-and-agentic-ai/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T14:04:08+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Adweek"
+      ],
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.4391,
+      "signals": {
+        "score": 0.4391,
+        "recency": 0.47625303925398454,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       }
     },
     {
       "id": "customers say trump mobile is leaking their personal information",
       "title": "Customers say Trump Mobile is leaking their personal information",
-      "summary": "Trump Mobile is leaking customers\u2019 email and home addresses, but has not responded to people alerting the company of the data exposure, according to two YouTubers who said they",
+      "summary": "Trump Mobile is leaking customers\u2019 email and home addresses but has not responded to people alerting the company of the data exposure, according to two YouTubers who said they",
       "image": null,
       "link": "https://techcrunch.com/2026/05/20/customers-say-trump-mobile-is-leaking-their-personal-information/",
       "category": "technology",
@@ -273,14 +891,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5115,
+      "score": 0.4367,
       "signals": {
-        "score": 0.5115,
-        "recency": 0.9018084828339261,
+        "score": 0.4367,
+        "recency": 0.6027235098728344,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "stagwell media platform taps sil to lead product development 05212026 mediapost",
+      "title": "Stagwell Media Platform Taps Sil To Lead Product Development 05/21/2026 - MediaPost",
+      "summary": "Stagwell Media Platform Taps Sil To Lead Product Development 05/21/2026 &nbsp;&nbsp; MediaPost",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQnFSWmVlc0JlcjhyV2hkcTdoNGh0dDNHVF9xLVZQVk1FYXlfRlh2azZfdEFVUFFMR2RiZk52cEt1Yk1FNGRVV2ZUWkxfZXlSMks0cWl4TlRmeHQ2MW9OSUFnWk9vM2tYdnROSWZpckw1Q0paa0I3MGUtQWdfN3FUUnFrOGZWZEJ3a3VESWhQbDNJZVoxS3BxdlBHWHl4X19wTnNHQkRMZnhJcVJPMmc?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T16:36:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [
+        "platform"
+      ],
+      "score": 0.4357,
+      "signals": {
+        "score": 0.4357,
+        "recency": 0.7269223611952075,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       }
     },
     {
@@ -299,13 +943,65 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5106,
+      "score": 0.4341,
       "signals": {
-        "score": 0.5106,
-        "recency": 0.9222864662346831,
+        "score": 0.4341,
+        "recency": 0.6164099657726897,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "abby awards day 1 big wins for wpp media essencemediacom cocacola jagran exchange4media",
+      "title": "ABBY Awards Day 1: Big wins for WPP Media, EssenceMediacom, Coca-Cola & Jagran - Exchange4Media",
+      "summary": "ABBY Awards Day 1: Big wins for WPP Media, EssenceMediacom, Coca-Cola & Jagran &nbsp;&nbsp; Exchange4Media",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNkExV1cyOHc4ZTdzUlp1TWN0OUU3Zk1mU1hqTlU5X2RQdXRUUjZWbVJWWHdoZjVWOFRCem90ejVSVWhTRzl2SjVNbmJRVWttdTd2UnFCV0Nxay05bWRLcDJNQWhWQ2ZjVG90Sl9RR2xqeHdsbTFwRFJ5VmRWSk5pZUU2ZmY1OXBVMXI3V3k5NVVYak9ldWNlR0Z4MU9SZ0VzNklmYTdlM1FDT0c4S0U4MDl4RDZOYVRSbWJwYXgyQ0FYX3ljNG12azF3?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T16:31:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [
+        "award"
+      ],
+      "score": 0.4332,
+      "signals": {
+        "score": 0.4332,
+        "recency": 0.7168960059310052,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "intuit to lay off over 3000 employees to refocus on ai",
+      "title": "Intuit to lay off over 3,000 employees to refocus on AI",
+      "summary": "In a memo to employees, CEO Sasan Goodarzi said the layoffs are meant to reduce complexity, simplify the company's corporate structure, and deliver better AI products.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-20T15:14:31+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4308,
+      "signals": {
+        "score": 0.4308,
+        "recency": 0.5790903830146403,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -325,65 +1021,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5045,
+      "score": 0.4301,
       "signals": {
-        "score": 0.5045,
-        "recency": 0.8981419222653962,
+        "score": 0.4301,
+        "recency": 0.6002729648878493,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "intuit to lay off over 3000 employees to refocus on ai",
-      "title": "Intuit to lay off over 3,000 employees to refocus on AI",
-      "summary": "In a memo to employees, CEO Sasan Goodarzi said the layoffs are meant to reduce complexity, simplify the company's corporate structure, and deliver better AI products.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-20T15:14:31+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.5026,
-      "signals": {
-        "score": 0.5026,
-        "recency": 0.8664480664448153,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "retail racing is on pole for experiential networking in digital retail",
-      "title": "Retail Racing is on pole for experiential networking in digital retail",
-      "summary": "n a digital retail landscape where senior leaders are inundated with conferences, expos, and roundtables, the challenge is no longer access to events but identifying which ones",
-      "image": null,
-      "link": "https://internetretailing.net/retail-racing-is-on-pole-for-experiential-networking-in-digital-retail/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-20T15:30:18+00:00",
-      "source_count": 1,
-      "source_names": [
-        "InternetRetailing"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.5018,
-      "signals": {
-        "score": 0.5018,
-        "recency": 0.9052804318005988,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.77,
         "engagement": 0.6
       }
     },
@@ -403,10 +1047,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5005,
+      "score": 0.4274,
       "signals": {
-        "score": 0.5005,
-        "recency": 0.88219351063925,
+        "score": 0.4274,
+        "recency": 0.5896138473310923,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -429,10 +1073,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4968,
+      "score": 0.4269,
       "signals": {
-        "score": 0.4968,
-        "recency": 0.8432576474092807,
+        "score": 0.4269,
+        "recency": 0.5635910713286433,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -440,36 +1084,35 @@
       }
     },
     {
-      "id": "quartermaster is building a maritime hive mind",
-      "title": "Quartermaster is building a maritime hive mind",
-      "summary": "The Arlington, Virginia-based startup has raised $42 million to equip ships with sensors that blow the current AIS tech out of the water.",
+      "id": "retail racing is on pole for experiential networking in digital retail",
+      "title": "Retail Racing is on pole for experiential networking in digital retail",
+      "summary": "n a digital retail landscape where senior leaders are inundated with conferences, expos, and roundtables, the challenge is no longer access to events but identifying which ones",
       "image": null,
-      "link": "https://techcrunch.com/2026/05/20/quartermaster-is-building-a-maritime-hive-mind/",
-      "category": "technology",
+      "link": "https://internetretailing.net/retail-racing-is-on-pole-for-experiential-networking-in-digital-retail/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-05-20T13:00:00+00:00",
-      "source_count": 2,
+      "published_at": "2026-05-20T15:30:18+00:00",
+      "source_count": 1,
       "source_names": [
-        "TechCrunch",
-        "TechCrunch Startups"
+        "InternetRetailing"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.4958,
+      "score": 0.4268,
       "signals": {
-        "score": 0.4958,
-        "recency": 0.5963005181635704,
+        "score": 0.4268,
+        "recency": 0.6050439862346406,
         "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
+        "source_signal": 0.2,
+        "authority": 0.77,
         "engagement": 0.6
       }
     },
     {
-      "id": "stability ai releases a new audio model that can create sixminute songs",
-      "title": "Stability AI releases a new audio model that can create six-minute songs",
-      "summary": "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks",
+      "id": "stability ai releases a new audio model that can create 6minute songs",
+      "title": "Stability AI releases a new audio model that can create 6-minute songs",
+      "summary": "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks.",
       "image": null,
       "link": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
       "category": "technology",
@@ -482,10 +1125,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4941,
+      "score": 0.4251,
       "signals": {
-        "score": 0.4941,
-        "recency": 0.8322044122343523,
+        "score": 0.4251,
+        "recency": 0.5562036439237165,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -508,141 +1151,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.488,
+      "score": 0.419,
       "signals": {
-        "score": 0.488,
-        "recency": 0.8320888363144999,
+        "score": 0.419,
+        "recency": 0.5561263987819861,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "michaels boosts party supplies by 60 opens diy bars",
-      "title": "Michaels boosts party supplies by 60%, opens DIY bars",
-      "summary": "The crafts retailer is adding more than 600 new items this year as it works to capture market share left behind by Joann and Party City.",
-      "image": "https://imgproxy.divecdn.com/3Smu11pszWvHhqgQP5za7AbmcZJD8K5XxY1OlJEvt4U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9NSUNIQUVMU19fVGhlX1BhcnR5X1Nob3AuanBn.webp",
-      "link": "https://www.retaildive.com/news/michaels-boosts-party-supplies-opens-diy-bars/820605/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T10:23:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4677,
-      "signals": {
-        "score": 0.4677,
-        "recency": 0.7509209004982789,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "startup battlefield 200 applications close in one week window to nominate and apply for the most promising startups ends may 27",
-      "title": "Startup Battlefield 200 applications close in one week: Window to nominate and apply for the most promising startups ends May 27",
-      "summary": "Startup Battlefield 200 applications close May 27.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/20/startup-battlefield-200-applications-close-in-one-week-window-to-nominate-and-apply-for-the-most-promising-startups-ends-may-27/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-20T14:00:00+00:00",
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch Startups"
-      ],
-      "keywords": [],
-      "score": 0.4629,
-      "signals": {
-        "score": 0.4629,
-        "recency": 0.7044458263297142,
-        "keyword_volume": 0.0,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "flurry of deals reaffirms sizzling ai market",
-      "title": "Flurry of Deals Reaffirms Sizzling AI Market",
-      "summary": "The deals involve some of the most prominent brands in generative AI.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/bltce93ceb8a4665f72/6a0dbda4bd84f55d2f259724/Deals.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/generative-ai/flurry-of-deals-reaffirms-sizzling-ai-market",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-05-20T13:51:24+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AI Business"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.452,
-      "signals": {
-        "score": 0.452,
-        "recency": 0.687816813389053,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "publicis groupe sa stock fr0000120578 q1 2026 momentum and liveramp deal put data and ai in the ad hoc news",
-      "title": "Publicis Groupe S.A. stock (FR0000120578): Q1 2026 momentum and LiveRamp deal put data and AI in the - AD HOC NEWS",
-      "summary": "Publicis Groupe S.A. stock (FR0000120578): Q1 2026 momentum and LiveRamp deal put data and AI in the &nbsp;&nbsp; AD HOC NEWS",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMlNRRUo3VmdIRFpUNlpodi1WYVNnclpRWUxfeTZXMUFvVmMxOHJDbGNTenpGZklDVmthNkpycmRyNjVCalJFc0Y0QVJRcUphcV9yUDE4aHh0MHJkUVBQVzlReC1xdEtOdTNsQ0M4UjZWLUIteERKQXA1R0R3R1ZGQVFyWEViei1KTjhWeW5PTnV6TXJ0cklrNmtKdG43TWJUcHplTWxNZUtSX0R0WEVpTy1PbGZqXzBlcGhRU3F2TFV2SVdfSEE?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T13:59:45+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.45,
-      "signals": {
-        "score": 0.45,
-        "recency": 0.7039567976604817,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the federal reserve confirms crypto as money hasnt happened yet",
-      "title": "The Federal Reserve Confirms Crypto as Money Hasn\u2019t Happened Yet",
-      "summary": "A decade into the crypto experiment, digital assets today still function primarily as an investment vehicle, not as money.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/04/crypto-fund.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/the-federal-reserve-confirms-crypto-as-money-hasnt-happened-yet/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-20T15:35:05+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.4493,
-      "signals": {
-        "score": 0.4493,
-        "recency": 0.917389193061575,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       }
     },
     {
@@ -662,10 +1178,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.4479,
+      "score": 0.406,
       "signals": {
-        "score": 0.4479,
-        "recency": 0.505435629967163,
+        "score": 0.406,
+        "recency": 0.33780779700726854,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -673,334 +1189,29 @@
       }
     },
     {
-      "id": "github says hackers stole data from thousands of internal repositories",
-      "title": "GitHub says hackers stole data from thousands of internal repositories",
-      "summary": "The code hosting giant GitHub said it was investigating a breach, but said there was no evidence of customer data theft.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/20/github-says-hackers-stole-data-from-thousands-of-internal-repositories/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-20T13:25:58+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4462,
-      "signals": {
-        "score": 0.4462,
-        "recency": 0.6409006128370103,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "banks and frontline teams must prepare for crypto questions",
-      "title": "Banks and Front-Line Teams Must Prepare for Crypto Questions",
-      "summary": "For credit unions and financial institutions in general, cryptocurrency and stablecoin strategies may be hatched in the executive suite, but success might hinge at the branch",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/cryptocurrency-bitcoin-blockchain.jpeg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/banks-front-line-teams-must-prepare-crypto-questions/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-20T15:28:11+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.445,
-      "signals": {
-        "score": 0.445,
-        "recency": 0.8999733353203877,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "targets viral partnerships with roller rabbit parke and pokmon are driving sales and foot traffic",
-      "title": "Target\u2019s viral partnerships with Roller Rabbit, Parke and Pok\u00e9mon are driving sales and foot traffic",
-      "summary": "Target has a long history of collaborating with major brands or celebrities.",
-      "image": null,
-      "link": "https://www.modernretail.co/operations/targets-viral-partnerships-with-roller-rabbit-parke-and-pokemon-are-driving-sales-and-foot-traffic/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-20T15:29:14+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Modern Retail"
-      ],
-      "keywords": [],
-      "score": 0.4442,
-      "signals": {
-        "score": 0.4442,
-        "recency": 0.9026020892843812,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "jaguar land rover appoints wpp inside the new model campaign us",
-      "title": "Jaguar Land Rover appoints WPP: inside the new model - Campaign US",
-      "summary": "Jaguar Land Rover appoints WPP: inside the new model &nbsp;&nbsp; Campaign US",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY2ZEREJjdHNHQVM1cV91bUstNHNWR08xOFJqYVozTDRSOWppRzlrMTBwXzh4ajFtbUhsUXJFcDBXQTdqMW9oS0ZqcHZlejlwOXhQUmVEdkVFUmZBLUdNMXdPUDlieURfSmYwYkw0dnBZQjRWMHN3aERiYXpZUGxHcHkwUmh6TnlfSS1zdjExOEhmeXYzbTZN?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T13:44:53+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4429,
-      "signals": {
-        "score": 0.4429,
-        "recency": 0.6754780693155877,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "whats the future of ai and rcs in mobile messaging",
-      "title": "What\u2019s the future of AI and RCS in mobile messaging?",
-      "summary": "Consumers are caught in a battle between volume and relevance when it comes to messages, and AI can either help or hurt the problem.",
-      "image": "https://martech.org/martech.org/wp-content/uploads/2025/01/1023BF8E-41B2-45E8-8701-19F74F955D89.png",
-      "link": "https://martech.org/whats-the-future-of-ai-and-rcs-in-mobile-messaging/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-20T13:37:21+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarTech"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4424,
-      "signals": {
-        "score": 0.4424,
-        "recency": 0.661489933064146,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "b2b buyers trust ai less than marketers think",
-      "title": "B2B buyers trust AI less than marketers think",
-      "summary": "Gartner research shows buyers want AI speed, but they still turn to humans for confidence and validation.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/b2b-buyers-trust-ai-less-than-marketers-think/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-20T13:26:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarTech"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4372,
-      "signals": {
-        "score": 0.4372,
-        "recency": 0.6409599582337767,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "figma adds an ai assistant to its collaborative canvas",
-      "title": "Figma adds an AI assistant to its collaborative canvas",
-      "summary": "Figma's new AI assistant will be first available on Figma Design",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-20T13:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4351,
-      "signals": {
-        "score": 0.4351,
-        "recency": 0.5963005181635704,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "green steel startup boston metal is doubling down on critical metals",
-      "title": "Green steel startup Boston Metal is doubling down on critical metals",
-      "summary": "The startup Boston Metal has raised a $75 million funding round to produce critical metals, MIT Technology Review can exclusively report.&#160;&#160; The company has been known",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-20T13:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MIT Technology Review"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4321,
-      "signals": {
-        "score": 0.4321,
-        "recency": 0.5963005181635704,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "embodied ai fuels record robotics funding in china as ipo momentum builds",
-      "title": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds",
-      "summary": "Just through mid-May, China-based robotics companies have already raised $5.6 billion across 176 deals this year, Crunchbase data shows, a sum matching total venture funding",
-      "image": "https://news.crunchbase.com/wp-content/uploads/EscalatorRobot.jpg",
-      "link": "https://news.crunchbase.com/robotics/embodied-ai-fuels-record-funding-china-ipo-momentum-builds/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-05-20T11:00:50+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Crunchbase News"
-      ],
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.4286,
-      "signals": {
-        "score": 0.4286,
-        "recency": 0.42825818366610885,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "centenario tequila celebrates mexican pride in campaign ahead of world cup",
-      "title": "Centenario Tequila celebrates Mexican pride in campaign ahead of World Cup",
-      "summary": "&ldquo;Todo o Nada&rdquo; was led by an all-Mexican creative team and will run in the U.S.",
-      "image": "https://imgproxy.divecdn.com/tp0Ghl2RQdhhugc_ZPGH63JKlyD6ah6Bo-dAEIvT80I/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9DZW50ZW5hcmlvX1RlcXVpbGFfUmVwb3NhZG9fQmVsaWV2ZXIuanBn.webp",
-      "link": "https://www.marketingdive.com/news/centenario-tequila-celebrates-mexican-pride-in-campaign-ahead-of-world-cup/820633/",
+      "id": "michaels boosts party supplies by 60 opens diy bars",
+      "title": "Michaels boosts party supplies by 60%, opens DIY bars",
+      "summary": "The crafts retailer is adding more than 600 new items this year as it works to capture market share left behind by Joann and Party City.",
+      "image": "https://imgproxy.divecdn.com/3Smu11pszWvHhqgQP5za7AbmcZJD8K5XxY1OlJEvt4U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9NSUNIQUVMU19fVGhlX1BhcnR5X1Nob3AuanBn.webp",
+      "link": "https://www.retaildive.com/news/michaels-boosts-party-supplies-opens-diy-bars/820605/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-05-20T09:02:00-04:00",
+      "published_at": "2026-05-20T10:23:00-04:00",
       "source_count": 1,
       "source_names": [
-        "Marketing Dive"
+        "Retail Dive"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.4284,
+      "score": 0.4055,
       "signals": {
-        "score": 0.4284,
-        "recency": 0.599622518053272,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "googles llmstxt guidance depends on which product you ask via sejournal mattgsouthern",
-      "title": "Google\u2019s llms.txt Guidance Depends On Which Product You Ask via @sejournal, @MattGSouthern",
-      "summary": "Google Search says llms.txt isn't needed for AI features, while Lighthouse now checks the file for agentic browsing readiness in an experimental audit.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/googles-llms-txt-guidance-depends-on-which-product-you-ask/575431/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-20T12:47:19+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4239,
-      "signals": {
-        "score": 0.4239,
-        "recency": 0.5756577405252148,
+        "score": 0.4055,
+        "recency": 0.5018778259469322,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "guinness taylor toast the world cup 05212026 mediapost",
-      "title": "Guinness, Taylor Toast The World Cup 05/21/2026 - MediaPost",
-      "summary": "Guinness, Taylor Toast The World Cup 05/21/2026 &nbsp;&nbsp; MediaPost",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY194Q2hBUmdYb1NzWXpFVlZfWFJfRHhOLXJ1d2duWlprSE5XeXdTd3ZEb1VNNk1BM0tVQ1Z0bDJzc21aYWpEMFU2RmdxZUxEOEYwWTVoMnhuNVRXS3dVZkZVX1ZRdWRadThFaWp2bmowVnlRU0JnRGZkQ1lTVXg3YVdsMzhQNDJkNGRVMTRPdGdmWWNicFBnNDB3?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T15:00:20+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.4222,
-      "signals": {
-        "score": 0.4222,
-        "recency": 0.8329753287260151,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "elf blends into survivor 50 finale with challengethemed spots",
-      "title": "E.l.f. blends into \u2018Survivor 50\u2019 finale with challenge-themed spots",
-      "summary": "A trio of vignettes drop content creator Delaney Rowe into the cutthroat&nbsp;world of the show, where she gets a leg up by applying E.l.f.",
-      "image": "https://imgproxy.divecdn.com/ybROSCutcTmd3i1xNpmuWZmBoM8TxokCwnxB5dVWDUg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9QcmVzc19SZWxlYXNlX0hlcm8ucG5n.webp",
-      "link": "https://www.marketingdive.com/news/elf-blends-into-survivor-50-finale-with-challenge-themed-spots/820705/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T10:50:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Marketing Dive"
-      ],
-      "keywords": [],
-      "score": 0.4209,
-      "signals": {
-        "score": 0.4209,
-        "recency": 0.8094057372151102,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
       }
     },
     {
@@ -1021,10 +1232,10 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.4206,
+      "score": 0.4051,
       "signals": {
-        "score": 0.4206,
-        "recency": 0.18642206759172544,
+        "score": 0.4051,
+        "recency": 0.12459514967473145,
         "keyword_volume": 0.2,
         "source_signal": 0.6,
         "authority": 0.7600000000000001,
@@ -1032,170 +1243,63 @@
       }
     },
     {
-      "id": "new ecommerce tools may 20 2026",
-      "title": "New Ecommerce Tools: May 20, 2026",
-      "summary": "This week: quick commerce, SMS marketing, SEO, agentic storefronts, multichannel management, flexible payments, AI selling agents, and dynamic product ads.",
+      "id": "startup battlefield 200 applications close in 1 week window to nominate and apply for the most promising startups closes may 27",
+      "title": "Startup Battlefield 200 applications close in 1 week: Window to nominate and apply for the most promising startups closes May 27",
+      "summary": "Startup Battlefield 200 applications close May 27.",
       "image": null,
-      "link": "https://www.practicalecommerce.com/new-ecommerce-tools-may-20-2026",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T12:43:50+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Practical Ecommerce"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4195,
-      "signals": {
-        "score": 0.4195,
-        "recency": 0.5701145797233259,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "why relevance now beats reach in the aidriven buyer journey",
-      "title": "Why relevance now beats reach in the AI-driven buyer journey",
-      "summary": "As AI changes discovery, brands need clearer messaging, stronger credibility signals, and content built for influence, not just visibility.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/why-relevance-now-beats-reach-in-the-ai-driven-buyer-journey-2/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-20T12:40:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarTech"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.418,
-      "signals": {
-        "score": 0.418,
-        "recency": 0.5640761214708401,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "the download fully artificial chicken eggs and why musk lost",
-      "title": "The Download: fully artificial chicken eggs and why Musk lost",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
-      "image": null,
-      "link": "https://www.technologyreview.com/2026/05/20/1137579/the-download-colossal-biosciences-egg-musk-altman-trial/",
+      "link": "https://techcrunch.com/2026/05/20/startup-battlefield-200-applications-close-in-1-week-window-to-nominate-and-apply-for-the-most-promising-startups-closes-may-27/",
       "category": "technology",
       "geo": "global",
-      "published_at": "2026-05-20T12:10:00+00:00",
-      "source_count": 1,
+      "published_at": "2026-05-20T14:00:00+00:00",
+      "source_count": 2,
       "source_names": [
-        "MIT Technology Review"
+        "TechCrunch",
+        "TechCrunch Startups"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4127,
+      "keywords": [],
+      "score": 0.4045,
       "signals": {
-        "score": 0.4127,
-        "recency": 0.5189750849850181,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "marketing silos are the symptom not the problem",
-      "title": "Marketing silos are the symptom, not the problem",
-      "summary": "Campaign-based execution created disconnected teams, tools, and data.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/connected-marketing-begins-beyond-the-campaign/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-20T12:16:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarTech"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4089,
-      "signals": {
-        "score": 0.4089,
-        "recency": 0.5276971517255142,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "snap stops grading its own homework",
-      "title": "Snap Stops Grading Its Own Homework",
-      "summary": "Advertisers don\u2019t always trust the measurement they get directly from ad platforms.",
-      "image": null,
-      "link": "https://www.adexchanger.com/platforms/snap-stops-grading-its-own-homework/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T13:00:57+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AdExchanger"
-      ],
-      "keywords": [
-        "platform"
-      ],
-      "score": 0.408,
-      "signals": {
-        "score": 0.408,
-        "recency": 0.5978761670421836,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
+        "score": 0.4045,
+        "recency": 0.47081621989899247,
+        "keyword_volume": 0.0,
+        "source_signal": 0.4,
+        "authority": 0.845,
         "engagement": 0.4
       }
     },
     {
-      "id": "more organic search traffic more ad revenue 4 publishing workflow fixes that bring both",
-      "title": "More Organic Search Traffic, More Ad Revenue: 4 Publishing Workflow Fixes That Bring Both",
-      "summary": "Discover how a modern publishing engine can eliminate the issues of legacy CMS and drive sustainable growth for media companies.",
+      "id": "wpp plc stock je00b8kf9b49 agency group updates investors after recent trading statement ad hoc news",
+      "title": "WPP plc stock (JE00B8KF9B49): agency group updates investors after recent trading statement - AD HOC NEWS",
+      "summary": "WPP plc stock (JE00B8KF9B49): agency group updates investors after recent trading statement &nbsp;&nbsp; AD HOC NEWS",
       "image": null,
-      "link": "https://www.searchenginejournal.com/more-organic-search-traffic-more-ad-revenue-4-publishing-workflow-fixes-that-bring-both-spa/575424/",
-      "category": "digital-media",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc2E3bzhVS0ZSbDhoMC1NX25lNFV3SkN3d2RJejllNnJLZHMwWF9OeGFVNG8ybnlzUklraWdLS0dXR0lHd0RVOWhFa092cTZER2pXT0Q0YUptTEdvc3ZEMHN2cHQ3LXhGM1JGckRWaWpoM2hWalBlRHBmeWVDTjlyODlUMnhydWRDLUExWkE5QXJzTGhWXzlHZmJtcTJVa0VvNDczS0lCQUhRY1ZqZTgxVGUwZHc2dzdjVzhPdzJwc25zRXhEdXlzMw?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-05-20T12:01:49+00:00",
+      "published_at": "2026-05-20T16:39:19+00:00",
       "source_count": 1,
       "source_names": [
-        "Search Engine Journal"
+        "Google News - WPP"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4068,
+      "keywords": [],
+      "score": 0.3972,
       "signals": {
-        "score": 0.4068,
-        "recency": 0.5073110847023142,
-        "keyword_volume": 0.2,
+        "score": 0.3972,
+        "recency": 0.7329035589264964,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
+        "authority": 0.76,
+        "engagement": 0.4
       }
     },
     {
-      "id": "google challenges amazon with new native checkout rolls out ai ad explainers",
-      "title": "Google Challenges Amazon With New Native Checkout, Rolls Out AI Ad \u2018Explainers\u2019",
-      "summary": "Google is standing up infrastructure that lets consumers shop from countless merchants without leaving its properties, whether they\u2019re watching videos on YouTube, browsing",
+      "id": "omnicoms john wren made more than double all other advertising holdco ceos combined in 2025",
+      "title": "Omnicom\u2019s John Wren Made More Than Double All Other Advertising Holdco CEOs Combined in 2025",
+      "summary": "Omnicom CEO John Wren earned nearly $70 million in 2025\u2014more than twice the combined pay of every other major advertising holdco CEO, with Publicis' Arthur Sadoun trailing as the",
       "image": null,
-      "link": "https://www.adweek.com/media/google-challenges-amazon-with-new-native-checkout-rolls-out-ai-ad-explainers/",
+      "link": "https://www.adweek.com/agencies/omnicoms-john-wren-made-more-than-double-all-other-advertising-holdco-ceos-combined-in-2025/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-05-20T12:00:00+00:00",
+      "published_at": "2026-05-20T13:56:39+00:00",
       "source_count": 1,
       "source_names": [
         "Adweek"
@@ -1203,10 +1307,36 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4062,
+      "score": 0.3966,
       "signals": {
-        "score": 0.4062,
-        "recency": 0.504757491168266,
+        "score": 0.3966,
+        "recency": 0.466455335104723,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "flurry of deals reaffirms sizzling ai market",
+      "title": "Flurry of Deals Reaffirms Sizzling AI Market",
+      "summary": "The deals involve some of the most prominent brands in generative AI.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/bltce93ceb8a4665f72/6a0dbda4bd84f55d2f259724/Deals.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/generative-ai/flurry-of-deals-reaffirms-sizzling-ai-market",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-05-20T13:51:24+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AI Business"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3949,
+      "signals": {
+        "score": 0.3949,
+        "recency": 0.4597022225967938,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1231,14 +1361,628 @@
         "ai",
         "platform"
       ],
-      "score": 0.3974,
+      "score": 0.3938,
       "signals": {
-        "score": 0.3974,
-        "recency": 0.04246420270706387,
+        "score": 0.3938,
+        "recency": 0.028380940950038045,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "github says hackers stole data from thousands of internal repositories",
+      "title": "GitHub says hackers stole data from thousands of internal repositories",
+      "summary": "The code hosting giant GitHub said it was investigating a breach but said there was no evidence of customer data theft.",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/20/github-says-hackers-stole-data-from-thousands-of-internal-repositories/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-20T13:25:58+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3931,
+      "signals": {
+        "score": 0.3931,
+        "recency": 0.4283457898232152,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "embodied ai fuels record robotics funding in china as ipo momentum builds",
+      "title": "Embodied AI Fuels Record Robotics Funding In China As IPO Momentum Builds",
+      "summary": "Just through mid-May, China-based robotics companies have already raised $5.6 billion across 176 deals this year, Crunchbase data shows, a sum matching total venture funding",
+      "image": "https://news.crunchbase.com/wp-content/uploads/EscalatorRobot.jpg",
+      "link": "https://news.crunchbase.com/robotics/embodied-ai-fuels-record-funding-china-ipo-momentum-builds/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-05-20T11:00:50+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Crunchbase News"
+      ],
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.3931,
+      "signals": {
+        "score": 0.3931,
+        "recency": 0.2862262670005698,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "publicis groupe sa stock fr0000120578 q1 2026 momentum and liveramp deal put data and ai in the ad hoc news",
+      "title": "Publicis Groupe S.A. stock (FR0000120578): Q1 2026 momentum and LiveRamp deal put data and AI in the - AD HOC NEWS",
+      "summary": "Publicis Groupe S.A. stock (FR0000120578): Q1 2026 momentum and LiveRamp deal put data and AI in the &nbsp;&nbsp; AD HOC NEWS",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMlNRRUo3VmdIRFpUNlpodi1WYVNnclpRWUxfeTZXMUFvVmMxOHJDbGNTenpGZklDVmthNkpycmRyNjVCalJFc0Y0QVJRcUphcV9yUDE4aHh0MHJkUVBQVzlReC1xdEtOdTNsQ0M4UjZWLUIteERKQXA1R0R3R1ZGQVFyWEViei1KTjhWeW5PTnV6TXJ0cklrNmtKdG43TWJUcHplTWxNZUtSX0R0WEVpTy1PbGZqXzBlcGhRU3F2TFV2SVdfSEE?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T13:59:45+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3916,
+      "signals": {
+        "score": 0.3916,
+        "recency": 0.4704893776907421,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "whats the future of ai and rcs in mobile messaging",
+      "title": "What\u2019s the future of AI and RCS in mobile messaging?",
+      "summary": "Consumers are caught in a battle between volume and relevance when it comes to messages, and AI can either help or hurt the problem.",
+      "image": "https://martech.org/martech.org/wp-content/uploads/2025/01/1023BF8E-41B2-45E8-8701-19F74F955D89.png",
+      "link": "https://martech.org/whats-the-future-of-ai-and-rcs-in-mobile-messaging/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-20T13:37:21+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarTech"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3875,
+      "signals": {
+        "score": 0.3875,
+        "recency": 0.4421066576675691,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "figma adds an ai assistant to its collaborative canvas",
+      "title": "Figma adds an AI assistant to its collaborative canvas",
+      "summary": "Figma's new AI assistant will be first available on Figma Design",
+      "image": null,
+      "link": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-20T13:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3856,
+      "signals": {
+        "score": 0.3856,
+        "recency": 0.3985373259265778,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "b2b buyers trust ai less than marketers think",
+      "title": "B2B buyers trust AI less than marketers think",
+      "summary": "Gartner research shows buyers want AI speed, but they still turn to humans for confidence and validation.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/b2b-buyers-trust-ai-less-than-marketers-think/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-20T13:26:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarTech"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3841,
+      "signals": {
+        "score": 0.3841,
+        "recency": 0.428385453306665,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "green steel startup boston metal is doubling down on critical metals",
+      "title": "Green steel startup Boston Metal is doubling down on critical metals",
+      "summary": "The startup Boston Metal has raised a $75 million funding round to produce critical metals, MIT Technology Review can exclusively report.&#160;&#160; The company has been known",
+      "image": null,
+      "link": "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-20T13:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MIT Technology Review"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3826,
+      "signals": {
+        "score": 0.3826,
+        "recency": 0.3985373259265778,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "omnicom pr unveils international regional leadership structure prweek",
+      "title": "Omnicom PR unveils international regional leadership structure - PRWeek",
+      "summary": "Omnicom PR unveils international regional leadership structure &nbsp;&nbsp; PRWeek",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNTZCRmtZN0s1djgydFNzUU5MYlpjREtjeC1QYzVJWlMtcVlNYXVXZWpBRnNJNHBNQUNiMWpVZzlHcml5cUhDUUVrWEJ5TEVkcldmN25uTEJLYTRHdjB2WGNocGlBdmtFRUNOOVFxOGpVT0VGWVlnWEtPMGdBTkkwbnpFeF9NRHdSNnJ4Zjk3NmE1b0xmbEZ0TnYwcXViVWZaakxF?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T16:00:57+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.3787,
+      "signals": {
+        "score": 0.3787,
+        "recency": 0.6588132093975229,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "centenario tequila celebrates mexican pride in campaign ahead of world cup",
+      "title": "Centenario Tequila celebrates Mexican pride in campaign ahead of World Cup",
+      "summary": "&ldquo;Todo o Nada&rdquo; was led by an all-Mexican creative team and will run in the U.S.",
+      "image": "https://imgproxy.divecdn.com/tp0Ghl2RQdhhugc_ZPGH63JKlyD6ah6Bo-dAEIvT80I/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9DZW50ZW5hcmlvX1RlcXVpbGFfUmVwb3NhZG9fQmVsaWV2ZXIuanBn.webp",
+      "link": "https://www.marketingdive.com/news/centenario-tequila-celebrates-mexican-pride-in-campaign-ahead-of-world-cup/820633/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T09:02:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Marketing Dive"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3787,
+      "signals": {
+        "score": 0.3787,
+        "recency": 0.4007575838543211,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "googles llmstxt guidance depends on which product you ask via sejournal mattgsouthern",
+      "title": "Google\u2019s llms.txt Guidance Depends On Which Product You Ask via @sejournal, @MattGSouthern",
+      "summary": "Google Search says llms.txt isn't needed for AI features, while Lighthouse now checks the file for agentic browsing readiness in an experimental audit.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/googles-llms-txt-guidance-depends-on-which-product-you-ask/575431/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-20T12:47:19+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3762,
+      "signals": {
+        "score": 0.3762,
+        "recency": 0.3847407298326759,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "the federal reserve confirms crypto as money hasnt happened yet",
+      "title": "The Federal Reserve Confirms Crypto as Money Hasn\u2019t Happened Yet",
+      "summary": "A decade into the crypto experiment, digital assets today still function primarily as an investment vehicle, not as money.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2024/04/crypto-fund.jpg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/the-federal-reserve-confirms-crypto-as-money-hasnt-happened-yet/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-20T15:35:05+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.3733,
+      "signals": {
+        "score": 0.3733,
+        "recency": 0.6131368742772249,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "new ecommerce tools may 20 2026",
+      "title": "New Ecommerce Tools: May 20, 2026",
+      "summary": "This week: quick commerce, SMS marketing, SEO, agentic storefronts, multichannel management, flexible payments, AI selling agents, and dynamic product ads.",
+      "image": null,
+      "link": "https://www.practicalecommerce.com/new-ecommerce-tools-may-20-2026",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T12:43:50+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Practical Ecommerce"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3723,
+      "signals": {
+        "score": 0.3723,
+        "recency": 0.3810359594763305,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "why relevance now beats reach in the aidriven buyer journey",
+      "title": "Why relevance now beats reach in the AI-driven buyer journey",
+      "summary": "As AI changes discovery, brands need clearer messaging, stronger credibility signals, and content built for influence, not just visibility.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/why-relevance-now-beats-reach-in-the-ai-driven-buyer-journey-2/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-20T12:40:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarTech"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3713,
+      "signals": {
+        "score": 0.3713,
+        "recency": 0.377000157173028,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "banks and frontline teams must prepare for crypto questions",
+      "title": "Banks and Front-Line Teams Must Prepare for Crypto Questions",
+      "summary": "For credit unions and financial institutions in general, cryptocurrency and stablecoin strategies may be hatched in the executive suite, but success might hinge at the branch",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/cryptocurrency-bitcoin-blockchain.jpeg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/banks-front-line-teams-must-prepare-crypto-questions/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-20T15:28:11+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.3704,
+      "signals": {
+        "score": 0.3704,
+        "recency": 0.6014969894180496,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "the download fully artificial chicken eggs and why musk lost",
+      "title": "The Download: fully artificial chicken eggs and why Musk lost",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
+      "image": null,
+      "link": "https://www.technologyreview.com/2026/05/20/1137579/the-download-colossal-biosciences-egg-musk-altman-trial/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-05-20T12:10:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MIT Technology Review"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3697,
+      "signals": {
+        "score": 0.3697,
+        "recency": 0.3468568889214214,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "targets viral partnerships with roller rabbit parke and pokmon are driving sales and foot traffic",
+      "title": "Target\u2019s viral partnerships with Roller Rabbit, Parke and Pok\u00e9mon are driving sales and foot traffic",
+      "summary": "Target has a long history of collaborating with major brands or celebrities.",
+      "image": null,
+      "link": "https://www.modernretail.co/operations/targets-viral-partnerships-with-roller-rabbit-parke-and-pokemon-are-driving-sales-and-foot-traffic/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-05-20T15:29:14+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Modern Retail"
+      ],
+      "keywords": [],
+      "score": 0.3693,
+      "signals": {
+        "score": 0.3693,
+        "recency": 0.6032539165771192,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "marketing silos are the symptom not the problem",
+      "title": "Marketing silos are the symptom, not the problem",
+      "summary": "Campaign-based execution created disconnected teams, tools, and data.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/connected-marketing-begins-beyond-the-campaign/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-20T12:16:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarTech"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3652,
+      "signals": {
+        "score": 0.3652,
+        "recency": 0.35268628039338545,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "more organic search traffic more ad revenue 4 publishing workflow fixes that bring both",
+      "title": "More Organic Search Traffic, More Ad Revenue: 4 Publishing Workflow Fixes That Bring Both",
+      "summary": "Discover how a modern publishing engine can eliminate the issues of legacy CMS and drive sustainable growth for media companies.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/more-organic-search-traffic-more-ad-revenue-4-publishing-workflow-fixes-that-bring-both-spa/575424/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-20T12:01:49+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3648,
+      "signals": {
+        "score": 0.3648,
+        "recency": 0.3390612567851425,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "google challenges amazon with new native checkout rolls out ai ad explainers",
+      "title": "Google Challenges Amazon With New Native Checkout, Rolls Out AI Ad \u2018Explainers\u2019",
+      "summary": "Google is standing up infrastructure that lets consumers shop from countless merchants without leaving its properties, whether they\u2019re watching videos on YouTube, browsing",
+      "image": null,
+      "link": "https://www.adweek.com/media/google-challenges-amazon-with-new-native-checkout-rolls-out-ai-ad-explainers/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T12:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Adweek"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3643,
+      "signals": {
+        "score": 0.3643,
+        "recency": 0.33735456308362244,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "us cpg manufacturers are sitting on excess capacity which could be a boon for brands",
+      "title": "U.S. CPG manufacturers are sitting on excess capacity, which could be a boon for brands",
+      "summary": "Keychain's, CPG Intelligence Report showed that one major theme companies are grappling with is significant overcapacity.",
+      "image": null,
+      "link": "https://digiday.com/media/u-s-cpg-manufacturers-are-sitting-on-excess-capacity-which-could-be-a-boon-for-brands/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T04:01:00+00:00",
+      "source_count": 2,
+      "source_names": [
+        "Digiday",
+        "Modern Retail"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3623,
+      "signals": {
+        "score": 0.3623,
+        "recency": 0.08917305658054303,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "wpp wins jaguar land rover global account in landmark aidriven partnership marketing edge",
+      "title": "WPP wins Jaguar Land Rover global account in landmark AI-driven partnership - Marketing Edge",
+      "summary": "WPP wins Jaguar Land Rover global account in landmark AI-driven partnership &nbsp;&nbsp; Marketing Edge",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNajJKMlEtMVplUDJSNDNZUE83clQ2WWxXdE54TVNqVmdRMWJHemZjSXF0Uzk4YXRvamlMODVDUVVoay15eGNhYlVvUUt0SXRvNENwN1Y5ZE1xRjlGRm5ndzlDdUd2TjE5V2JKT0d0cTJxRHZBWDVDalY1LUlmbWt2WmxiSXJaRDEtb3dyNnZnajRGWHBtaDBMVjNIa2lvYm1ySVBMMzdUYk0?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T12:04:53+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3595,
+      "signals": {
+        "score": 0.3595,
+        "recency": 0.3419618934029428,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "snap stops grading its own homework",
+      "title": "Snap Stops Grading Its Own Homework",
+      "summary": "Advertisers don\u2019t always trust the measurement they get directly from ad platforms.",
+      "image": null,
+      "link": "https://www.adexchanger.com/platforms/snap-stops-grading-its-own-homework/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T13:00:57+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AdExchanger"
+      ],
+      "keywords": [
+        "platform"
+      ],
+      "score": 0.3584,
+      "signals": {
+        "score": 0.3584,
+        "recency": 0.3995904105232769,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "elf blends into survivor 50 finale with challengethemed spots",
+      "title": "E.l.f. blends into \u2018Survivor 50\u2019 finale with challenge-themed spots",
+      "summary": "A trio of vignettes drop content creator Delaney Rowe into the cutthroat&nbsp;world of the show, where she gets a leg up by applying E.l.f.",
+      "image": "https://imgproxy.divecdn.com/ybROSCutcTmd3i1xNpmuWZmBoM8TxokCwnxB5dVWDUg/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9QcmVzc19SZWxlYXNlX0hlcm8ucG5n.webp",
+      "link": "https://www.marketingdive.com/news/elf-blends-into-survivor-50-finale-with-challenge-themed-spots/820705/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T10:50:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Marketing Dive"
+      ],
+      "keywords": [],
+      "score": 0.3537,
+      "signals": {
+        "score": 0.3537,
+        "recency": 0.5409661542686339,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "guinness taylor toast the world cup 05212026 mediapost",
+      "title": "Guinness, Taylor Toast The World Cup 05/21/2026 - MediaPost",
+      "summary": "Guinness, Taylor Toast The World Cup 05/21/2026 &nbsp;&nbsp; MediaPost",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY194Q2hBUmdYb1NzWXpFVlZfWFJfRHhOLXJ1d2duWlprSE5XeXdTd3ZEb1VNNk1BM0tVQ1Z0bDJzc21aYWpEMFU2RmdxZUxEOEYwWTVoMnhuNVRXS3dVZkZVX1ZRdWRadThFaWp2bmowVnlRU0JnRGZkQ1lTVXg3YVdsMzhQNDJkNGRVMTRPdGdmWWNicFBnNDB3?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T15:00:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.3532,
+      "signals": {
+        "score": 0.3532,
+        "recency": 0.5567188857988137,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       }
     },
     {
@@ -1257,10 +2001,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3878,
+      "score": 0.352,
       "signals": {
-        "score": 0.3878,
-        "recency": 0.4312026212002365,
+        "score": 0.352,
+        "recency": 0.28819418120735774,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1283,341 +2027,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.387,
+      "score": 0.3515,
       "signals": {
-        "score": 0.387,
-        "recency": 0.42804014474460544,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "three takeaways from possible that signal where ctv is headed next",
-      "title": "Three Takeaways From POSSIBLE That Signal Where CTV Is Headed Next",
-      "summary": "Coming back from POSSIBLE last month, one thing stood out to me: Streaming TV has entered a much more operational phase.",
-      "image": null,
-      "link": "https://www.adexchanger.com/content-studio/three-takeaways-from-possible-that-signal-where-ctv-is-headed-next/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T12:00:40+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AdExchanger"
-      ],
-      "keywords": [
-        "streaming"
-      ],
-      "score": 0.3849,
-      "signals": {
-        "score": 0.3849,
-        "recency": 0.5056930932939105,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "asos brings shoppable video content to chatgpt in uk first",
-      "title": "ASOS brings shoppable video content to ChatGPT in UK first",
-      "summary": "ASOS has introduced a feature which allows customers to discover ASOS products in ChatGPT, explore them through shoppable videos, then buy them on ASOS.com.",
-      "image": null,
-      "link": "https://internetretailing.net/asos-brings-shoppable-video-content-to-chatgpt-in-uk-first/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-20T13:45:56+00:00",
-      "source_count": 1,
-      "source_names": [
-        "InternetRetailing"
-      ],
-      "keywords": [],
-      "score": 0.3849,
-      "signals": {
-        "score": 0.3849,
-        "recency": 0.6774510896069855,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.77,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "mt stupid has a pricing page via sejournal pedrodias",
-      "title": "Mt. Stupid Has A Pricing Page via @sejournal, @pedrodias",
-      "summary": "GEO made calibration look like the deficiency.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/mt-stupid-has-a-pricing-page/575079/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-20T13:30:52+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [],
-      "score": 0.3824,
-      "signals": {
-        "score": 0.3824,
-        "recency": 0.6496836199359814,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "wpp wins jaguar land rover global account in landmark aidriven partnership marketing edge",
-      "title": "WPP wins Jaguar Land Rover global account in landmark AI-driven partnership - Marketing Edge",
-      "summary": "WPP wins Jaguar Land Rover global account in landmark AI-driven partnership &nbsp;&nbsp; Marketing Edge",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNajJKMlEtMVplUDJSNDNZUE83clQ2WWxXdE54TVNqVmdRMWJHemZjSXF0Uzk4YXRvamlMODVDUVVoay15eGNhYlVvUUt0SXRvNENwN1Y5ZE1xRjlGRm5ndzlDdUd2TjE5V2JKT0d0cTJxRHZBWDVDalY1LUlmbWt2WmxiSXJaRDEtb3dyNnZnajRGWHBtaDBMVjNIa2lvYm1ySVBMMzdUYk0?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T11:03:59+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.382,
-      "signals": {
-        "score": 0.382,
-        "recency": 0.43202188495315047,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "wpp jlr finalize global marketing partnership 05212026 mediapost",
-      "title": "WPP, JLR Finalize Global Marketing Partnership 05/21/2026 - MediaPost",
-      "summary": "WPP, JLR Finalize Global Marketing Partnership 05/21/2026 &nbsp;&nbsp; MediaPost",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaGg5QllibXVoampQRE4ycG5zclp1clRaQV9tZFZHTGpncmZuX283N3JGc09zcE9CYjRCZDk0NDV4UGtHMXl1bUNGa0EwcUJkczNVWXJyTVk0elJJcXFIT2VETTJvV01GRmZDX1JsaTZCS2hIdTM5Mm92YlNBLWg0blRtbmJKbE44X2lna3MyelZyRXpCanR4NFM1SC1wdERyeElTNTJOYw?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T13:29:37+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.3759,
-      "signals": {
-        "score": 0.3759,
-        "recency": 0.6474316859036251,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "us cpg manufacturers are sitting on excess capacity which could be a boon for brands",
-      "title": "U.S. CPG manufacturers are sitting on excess capacity, which could be a boon for brands",
-      "summary": "Keychain's, CPG Intelligence Report showed that one major theme companies are grappling with is significant overcapacity.",
-      "image": null,
-      "link": "https://digiday.com/media/u-s-cpg-manufacturers-are-sitting-on-excess-capacity-which-could-be-a-boon-for-brands/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T04:01:00+00:00",
-      "source_count": 2,
-      "source_names": [
-        "Digiday",
-        "Modern Retail"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3734,
-      "signals": {
-        "score": 0.3734,
-        "recency": 0.133422734549595,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "james murdoch to acquire new york magazine vox media podcast network and vox",
-      "title": "James Murdoch to Acquire New York Magazine, Vox Media Podcast Network, and Vox",
-      "summary": "Vox Media will be split in two: CEO Jim Bankoff will lead the newly acquired titles, while president Ryan Pauley will oversee the remaining titles.",
-      "image": null,
-      "link": "https://www.adweek.com/media/james-murdoch-vox-media-podcast-new-york-magazine/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T10:05:49+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Adweek"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3719,
-      "signals": {
-        "score": 0.3719,
-        "recency": 0.3675657346673272,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "excftc head says digital dollar is inevitable in us",
-      "title": "Ex-CFTC Head Says Digital Dollar Is Inevitable in US",
-      "summary": "Before returning to office, President Donald Trump promised to outlaw central bank digital currencies (CBDCs).",
-      "image": "https://www.pymnts.com/wp-content/uploads/2022/05/cbdc-use-digital-dollar.jpg?w=457",
-      "link": "https://www.pymnts.com/cbdc/2026/ex-cftc-head-says-digital-dollar-is-inevitable-in-us/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-20T12:58:01+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.3683,
-      "signals": {
-        "score": 0.3683,
-        "recency": 0.5930243768549285,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "klarna launches chatgpt shopping app with live prices",
-      "title": "Klarna Launches ChatGPT Shopping App With Live Prices",
-      "summary": "Klarna is moving deeper into artificial intelligence commerce with a new ChatGPT app that turns product search into part of the conversation.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/Klarna-ChatGPT-1.jpg?w=457",
-      "link": "https://www.pymnts.com/artificial-intelligence-2/2026/klarna-launches-chatgpt-shopping-app-with-live-prices/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-20T11:00:11+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "artificial intelligence"
-      ],
-      "score": 0.3669,
-      "signals": {
-        "score": 0.3669,
-        "recency": 0.427485637370883,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "publicis to take over liveramp for 22bn strengthening its data cocreation and aidriven services varindiacom",
-      "title": "Publicis to take over LiveRamp for $2.2bn, strengthening its data co-creation and AI-driven services - varindia.com",
-      "summary": "Publicis to take over LiveRamp for $2.2bn, strengthening its data co-creation and AI-driven services &nbsp;&nbsp; varindia.com",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSktINncwcldxeTRJLVpGYmZBNHA2aVdEdnktREZIc3BZUHJEQmRjcUFaT0VzYWRQNXFYNWJUal9jVmg5UFpSdmJTM2xCMW5fOGI4VjQ5REQxV3BHMmtFdkxZd2hjdVRPazNZSnFhWTdsa1RzdDlsTUpwNEFIcUU3TzRLbE1BclNKeExfLUJocG83UTZjQl9nX3pVdWpaTTNQZEV0b2Zyak9HUklleGpONTRPZnpxOGZMWE41WE9jMEEtQ01abDZZ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T10:07:30+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3663,
-      "signals": {
-        "score": 0.3663,
-        "recency": 0.3692884693665999,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "viant taps ad fontes media to bring news bias targeting to ctv",
-      "title": "Viant Taps Ad Fontes Media to Bring \u2018News Bias\u2019 Targeting to CTV",
-      "summary": "The integration scores news programs on reliability and bias, giving buyers a more granular way to activate against inventory.",
-      "image": null,
-      "link": "https://www.adweek.com/convergent-tv/viant-ad-fontes-media-bias-reliability-targeting-ctv/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T09:30:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Adweek"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3632,
-      "signals": {
-        "score": 0.3632,
-        "recency": 0.3327566465761626,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "after 3 years of missed sales target reports growth but warns of upcoming headwinds",
-      "title": "After 3 Years of Missed Sales, Target Reports Growth, but Warns of Upcoming Headwinds",
-      "summary": "The retailer's ad business grew 51% year over year.",
-      "image": null,
-      "link": "https://www.adweek.com/commerce/after-3-years-of-missed-sales-target-reports-growth-but-warns-that-it-may-not-last/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T09:29:20+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Adweek"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.363,
-      "signals": {
-        "score": 0.363,
-        "recency": 0.3321410007823253,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "how cond nast grew its events revenue 40 last year",
-      "title": "How Cond\u00e9 Nast Grew Its Events Revenue 40% Last Year",
-      "summary": "The media company is projecting another 22% growth in 2026 as it leans into cultural tentpoles to hedge against AI and traffic declines.",
-      "image": null,
-      "link": "https://www.adweek.com/media/conde-nast-events-revenue-2026/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T09:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Adweek"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3565,
-      "signals": {
-        "score": 0.3565,
-        "recency": 0.30615089411318214,
+        "score": 0.3515,
+        "recency": 0.2860805407332315,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1641,10 +2054,10 @@
         "ai",
         "govern"
       ],
-      "score": 0.3549,
+      "score": 0.3438,
       "signals": {
-        "score": 0.3549,
-        "recency": 0.133422734549595,
+        "score": 0.3438,
+        "recency": 0.08917305658054303,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1652,97 +2065,51 @@
       }
     },
     {
-      "id": "wpp wins global jlr growth role in jaguar land rover wpp partnership",
-      "title": "WPP Wins Global JLR Growth Role in Jaguar Land Rover Wpp Partnership - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
-      "summary": "WPP Wins Global JLR Growth Role in Jaguar Land Rover Wpp Partnership &nbsp;&nbsp; \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+      "id": "three takeaways from possible that signal where ctv is headed next",
+      "title": "Three Takeaways From POSSIBLE That Signal Where CTV Is Headed Next",
+      "summary": "Coming back from POSSIBLE last month, one thing stood out to me: Streaming TV has entered a much more operational phase.",
       "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vZG5TUWJ3dzh6UGpfVTU1UF9takp3c2tFU2xmUjFRdW5oMV9JSWphUDVUOUFsRnZZTnFvSWYzMW1scHFMY1VMTGZvU3pyWWhqVEdz?oc=5",
-      "category": "advertising",
+      "link": "https://www.adexchanger.com/content-studio/three-takeaways-from-possible-that-signal-where-ctv-is-headed-next/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-05-20T12:30:08+00:00",
+      "published_at": "2026-05-20T12:00:40+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - WPP"
+        "AdExchanger"
       ],
-      "keywords": [],
-      "score": 0.3512,
+      "keywords": [
+        "streaming"
+      ],
+      "score": 0.343,
       "signals": {
-        "score": 0.3512,
-        "recency": 0.548826192499396,
-        "keyword_volume": 0.0,
+        "score": 0.343,
+        "recency": 0.33797987256756173,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.76,
+        "authority": 0.79,
         "engagement": 0.4
       }
     },
     {
-      "id": "interpublic group stock us4606901001 omnicom takeover reshapes outlook ad hoc news",
-      "title": "Interpublic Group stock (US4606901001): Omnicom takeover reshapes outlook - AD HOC NEWS",
-      "summary": "Interpublic Group stock (US4606901001): Omnicom takeover reshapes outlook &nbsp;&nbsp; AD HOC NEWS",
+      "id": "james murdoch to acquire new york magazine vox media podcast network and vox",
+      "title": "James Murdoch to Acquire New York Magazine, Vox Media Podcast Network, and Vox",
+      "summary": "Vox Media will be split in two: CEO Jim Bankoff will lead the newly acquired titles, while president Ryan Pauley will oversee the remaining titles.",
       "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNHdhNDE5bU5SWV8xZUQyM2VKNHd4UXk3VVNNTWdRcTl5ZzdTSW1jYW8wZ3RxQUdHbXZaTm5OaGw2ZDlna2xuYzUzTUpsUVI0NXhIbWJqSDA3WXJYc3lVSXhtZWNhaVBoaDNOcGpYVmFlMjZSenhkQ25acXVia0J4cGFacHQtUmtkV2xqZE1aZUM1NnRXZ2QzaURIRHF5YWhNUjVsUlFYR3g4NWpkaXZyWWRMNjIxRlEwUWtqTUhwVjAzN1A5UGdIag?oc=5",
-      "category": "advertising",
+      "link": "https://www.adweek.com/media/james-murdoch-vox-media-podcast-new-york-magazine/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-05-20T12:17:35+00:00",
+      "published_at": "2026-05-20T10:05:49+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.3465,
-      "signals": {
-        "score": 0.3465,
-        "recency": 0.5300231532764091,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "wpp scangroup stock ke0000000562 board shakeup after agm call ad hoc news",
-      "title": "WPP Scangroup stock (KE0000000562): Board shake-up after AGM call - AD HOC NEWS",
-      "summary": "WPP Scangroup stock (KE0000000562): Board shake-up after AGM call &nbsp;&nbsp; AD HOC NEWS",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTGh2ZGxSUjF4M2pmTl9weDZYMkpVbDFfNERvNmlBRk1oM2c4WWtEdDZ0cXU1V0F4Rkk2ekdRUXBqNXZaMzRpdE8tNk1udXF6OHRYUURQWVJhTEl4RVkya2VVM3cyU2pJLXFVNF9ZZGtZUk5lajNXYWd4S2tieDhvUXd4TldjVEdFYXN5Zk9OajFZNlFoMVdTWGNaZU9wMnJLcnU5MXJNeW9wWnpDQTJCYWhWUGtITXRFTGQyb3JR?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T12:15:48+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.3459,
-      "signals": {
-        "score": 0.3459,
-        "recency": 0.5274040680608895,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "rewiring wires modernizing chips and fedwire for a new era of demand",
-      "title": "Rewiring Wires: Modernizing CHIPS and Fedwire\u00ae for a New Era of Demand",
-      "summary": "Wire payments have long served as the backbone of high-value transactions, moving trillions of dollars daily between financial institutions (FIs) through systems such as Fedwire\u00ae",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/Rewiring-Wires-Modernizing-CHIPS-and-Fedwire-for-a-New-Era-of-Demand-hero.jpg?w=457",
-      "link": "https://www.pymnts.com/tracker_posts/rewiring-wires-modernizing-chips-and-fedwire-for-a-new-era-of-demand/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-20T08:03:30+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
+        "Adweek"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.3454,
+      "score": 0.3414,
       "signals": {
-        "score": 0.3454,
-        "recency": 0.26168294934700626,
+        "score": 0.3414,
+        "recency": 0.24566248147443578,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1750,25 +2117,130 @@
       }
     },
     {
-      "id": "business uncertainty costs middle market companies up to 6 of revenue",
-      "title": "Business Uncertainty Costs Middle Market Companies Up to 6% of Revenue",
-      "summary": "Business uncertainty remained elevated in March, with 27% of payment executives reporting high uncertainty levels even as optimism about the next 12 months rose, according to new",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/business-uncertainty-economy-revenue.jpeg?w=457",
-      "link": "https://www.pymnts.com/economy/2026/business-uncertainty-costs-middle-market-companies-up-to-6-percent-of-revenue/",
-      "category": "commerce",
+      "id": "publicis to take over liveramp for 22bn strengthening its data cocreation and aidriven services varindiacom",
+      "title": "Publicis to take over LiveRamp for $2.2bn, strengthening its data co-creation and AI-driven services - varindia.com",
+      "summary": "Publicis to take over LiveRamp for $2.2bn, strengthening its data co-creation and AI-driven services &nbsp;&nbsp; varindia.com",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSktINncwcldxeTRJLVpGYmZBNHA2aVdEdnktREZIc3BZUHJEQmRjcUFaT0VzYWRQNXFYNWJUal9jVmg5UFpSdmJTM2xCMW5fOGI4VjQ5REQxV3BHMmtFdkxZd2hjdVRPazNZSnFhWTdsa1RzdDlsTUpwNEFIcUU3TzRLbE1BclNKeExfLUJocG83UTZjQl9nX3pVdWpaTTNQZEV0b2Zyak9HUklleGpONTRPZnpxOGZMWE41WE9jMEEtQ01abDZZ?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-05-20T08:00:59+00:00",
+      "published_at": "2026-05-20T10:10:12+00:00",
       "source_count": 1,
       "source_names": [
-        "PYMNTS"
+        "Google News - Publicis Groupe"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.345,
+      "score": 0.3362,
       "signals": {
-        "score": 0.345,
-        "recency": 0.259859971100141,
+        "score": 0.3362,
+        "recency": 0.248671933906613,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "viant taps ad fontes media to bring news bias targeting to ctv",
+      "title": "Viant Taps Ad Fontes Media to Bring \u2018News Bias\u2019 Targeting to CTV",
+      "summary": "The integration scores news programs on reliability and bias, giving buyers a more granular way to activate against inventory.",
+      "image": null,
+      "link": "https://www.adweek.com/convergent-tv/viant-ad-fontes-media-bias-reliability-targeting-ctv/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T09:30:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Adweek"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3356,
+      "signals": {
+        "score": 0.3356,
+        "recency": 0.22239783476824254,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "after 3 years of missed sales target reports growth but warns of upcoming headwinds",
+      "title": "After 3 Years of Missed Sales, Target Reports Growth, but Warns of Upcoming Headwinds",
+      "summary": "The retailer's ad business grew 51% year over year.",
+      "image": null,
+      "link": "https://www.adweek.com/commerce/after-3-years-of-missed-sales-target-reports-growth-but-warns-that-it-may-not-last/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T09:29:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Adweek"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3355,
+      "signals": {
+        "score": 0.3355,
+        "recency": 0.22198636803138727,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "nvidia and google cloud empower the next wave of ai builders",
+      "title": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",
+      "summary": "At this year\u2019s Google I/O conference, NVIDIA and Google Cloud are accelerating the work of more than 100,000 developers in the companies\u2019 joint developer community, which",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/google-cloud-nvidia-1920x1080-1.jpg",
+      "link": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-05-19T20:30:09+00:00",
+      "source_count": 1,
+      "source_names": [
+        "NVIDIA Blog"
+      ],
+      "keywords": [
+        "ai",
+        "cloud"
+      ],
+      "score": 0.3324,
+      "signals": {
+        "score": 0.3324,
+        "recency": 0.025488256752291747,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "how cond nast grew its events revenue 40 last year",
+      "title": "How Cond\u00e9 Nast Grew Its Events Revenue 40% Last Year",
+      "summary": "The media company is projecting another 22% growth in 2026 as it leans into cultural tentpoles to hedge against AI and traffic declines.",
+      "image": null,
+      "link": "https://www.adweek.com/media/conde-nast-events-revenue-2026/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T09:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Adweek"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3312,
+      "signals": {
+        "score": 0.3312,
+        "recency": 0.2046158857041767,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1792,10 +2264,10 @@
         "ai",
         "enterprise"
       ],
-      "score": 0.3364,
+      "score": 0.331,
       "signals": {
-        "score": 0.3364,
-        "recency": 0.06574548906905583,
+        "score": 0.331,
+        "recency": 0.0439409837945657,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1803,79 +2275,50 @@
       }
     },
     {
-      "id": "nvidia and google cloud empower the next wave of ai builders",
-      "title": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",
-      "summary": "At this year\u2019s Google I/O conference, NVIDIA and Google Cloud are accelerating the work of more than 100,000 developers in the companies\u2019 joint developer community, which",
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/05/google-cloud-nvidia-1920x1080-1.jpg",
-      "link": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-05-19T20:30:09+00:00",
-      "source_count": 1,
-      "source_names": [
-        "NVIDIA Blog"
-      ],
-      "keywords": [
-        "ai",
-        "cloud"
-      ],
-      "score": 0.3355,
-      "signals": {
-        "score": 0.3355,
-        "recency": 0.03813610349580588,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "heinz brings back the iconic glass bottle to mark its 157th birthday",
-      "title": "Heinz Brings Back the Iconic Glass Bottle To Mark Its 157th Birthday",
-      "summary": "The nostalgia play kicks off the brand\u2019s anniversary campaign from Wieden+Kennedy New York.",
+      "id": "asos brings shoppable video content to chatgpt in uk first",
+      "title": "ASOS brings shoppable video content to ChatGPT in UK first",
+      "summary": "ASOS has introduced a feature which allows customers to discover ASOS products in ChatGPT, explore them through shoppable videos, then buy them on ASOS.com.",
       "image": null,
-      "link": "https://www.adweek.com/brand-marketing/heinz-brings-back-the-iconic-glass-bottle-to-mark-its-157th-birthday/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T07:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Adweek"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3348,
-      "signals": {
-        "score": 0.3348,
-        "recency": 0.21936670139225575,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "ms profits hit by fallout from cyberattack as ocado masks underlying slowdown",
-      "title": "M&S profits hit by fallout from cyber-attack as Ocado masks underlying slowdown",
-      "summary": "M&#038;S has reported a profit downturn of 23.8% for the financial year ending 28 March 2026 as the fallout from last year\u2019s cyber-attack continues to take effect.",
-      "image": null,
-      "link": "https://internetretailing.net/ms-profits-hit-by-fallout-from-cyber-attack-as-ocado-masks-underlying-slowdown/",
+      "link": "https://internetretailing.net/asos-brings-shoppable-video-content-to-chatgpt-in-uk-first/",
       "category": "commerce",
       "geo": "global",
-      "published_at": "2026-05-20T11:34:19+00:00",
+      "published_at": "2026-05-20T13:45:56+00:00",
       "source_count": 1,
       "source_names": [
         "InternetRetailing"
       ],
       "keywords": [],
-      "score": 0.333,
+      "score": 0.3287,
       "signals": {
-        "score": 0.333,
-        "recency": 0.47000132123290284,
+        "score": 0.3287,
+        "recency": 0.45277429328671814,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.77,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "mt stupid has a pricing page via sejournal pedrodias",
+      "title": "Mt. Stupid Has A Pricing Page via @sejournal, @pedrodias",
+      "summary": "GEO made calibration look like the deficiency.",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/mt-stupid-has-a-pricing-page/575079/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-20T13:30:52+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [],
+      "score": 0.3286,
+      "signals": {
+        "score": 0.3286,
+        "recency": 0.4342159107709517,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -1895,89 +2338,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3305,
+      "score": 0.3158,
       "signals": {
-        "score": 0.3305,
-        "recency": 0.17811179799554552,
+        "score": 0.3158,
+        "recency": 0.11904098273757989,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "blackstone to invest 5b in ai cloud company using google tpus",
-      "title": "Blackstone to Invest $5B in AI Cloud Company Using Google TPUs",
-      "summary": "The joint venture marks a new business for the tech giant as it enters the neocloud market.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt05f3f9350fba4778/6a0c9473dc31f8c4c5c3c342/Blackstone_logo.png?width=1280&auto=webp&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/data-centers/blackstone-invest-5b-ai-cloud-company-using-google-tpus",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-05-19T16:37:28+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AI Business"
-      ],
-      "keywords": [
-        "ai",
-        "cloud"
-      ],
-      "score": 0.325,
-      "signals": {
-        "score": 0.325,
-        "recency": 0.019981739653350546,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "europegged stablecoin wins support from three dozen banks",
-      "title": "Euro-Pegged Stablecoin Wins Support From Three Dozen Banks",
-      "summary": "Euro-pegged stablecoin project Qivalis has reportedly picked up the support of 25 new banks.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2025/03/digital-euro.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/euro-pegged-stablecoin-wins-support-from-three-dozen-banks/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-20T10:50:58+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.3242,
-      "signals": {
-        "score": 0.3242,
-        "recency": 0.41668012419194006,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "why some teams launch faster by storyblok",
-      "title": "Why some teams launch faster by Storyblok",
-      "summary": "New global research data reveals the tech gap quietly costing teams speed, revenue, and competitive ground.",
-      "image": "https://martech.org/wp-content/uploads/2026/05/Storybock-20260520-img-1.png",
-      "link": "https://martech.org/why-some-teams-launch-faster/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-20T11:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarTech"
-      ],
-      "keywords": [],
-      "score": 0.3238,
-      "signals": {
-        "score": 0.3238,
-        "recency": 0.42726799177557273,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.4
       }
     },
     {
@@ -1996,10 +2364,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3237,
+      "score": 0.3072,
       "signals": {
-        "score": 0.3237,
-        "recency": 0.19889594571749517,
+        "score": 0.3072,
+        "recency": 0.13293206349712505,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2007,131 +2375,27 @@
       }
     },
     {
-      "id": "jaguar land rover appoints wpp inside the new model campaign",
-      "title": "Jaguar Land Rover appoints WPP: inside the new model - Campaign",
-      "summary": "Jaguar Land Rover appoints WPP: inside the new model &nbsp;&nbsp; Campaign",
+      "id": "wpp wins global jlr growth role in jaguar land rover wpp partnership",
+      "title": "WPP Wins Global JLR Growth Role in Jaguar Land Rover Wpp Partnership - \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+      "summary": "WPP Wins Global JLR Growth Role in Jaguar Land Rover Wpp Partnership &nbsp;&nbsp; \u0634\u0628\u0643\u0629 \u062a\u0648\u0627\u0635\u0644 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
       "image": null,
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUVlVR01rVUdhc3FUZWotbDktNmc3YXVBNEZKSEg5OVBQd1hYT180TzJGbTUtVVNRRWhMR3M3YnRScGFxRVBaQ0ZOZmhNd2VEZEJfVjgtaWxGTkdWUkxqVzg4M2tZQlFmR3loZ1U0d2dfV0JWNGJ6RU9ETUJUdlJKamtybGtJdEljYnV5aGN2LWJQS2ZHcHNGdzh3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1vZG5TUWJ3dzh6UGpfVTU1UF9takp3c2tFU2xmUjFRdW5oMV9JSWphUDVUOUFsRnZZTnFvSWYzMW1scHFMY1VMTGZvU3pyWWhqVEdz?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-05-20T05:59:47+00:00",
+      "published_at": "2026-05-20T12:30:08+00:00",
       "source_count": 1,
       "source_names": [
         "Google News - WPP"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3204,
-      "signals": {
-        "score": 0.3204,
-        "recency": 0.1855781795896992,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "publicis acquisition of liveramp reshapes commerce media",
-      "title": "Publicis acquisition of LiveRamp reshapes commerce media",
-      "summary": "Publicis announced that it has agreed to acquire LiveRamp for $2.167 billion.",
-      "image": null,
-      "link": "https://internetretailing.net/publicis-acquisition-of-liveramp-reshapes-commerce-media/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-20T08:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "InternetRetailing"
-      ],
-      "keywords": [
-        "bill"
-      ],
-      "score": 0.3203,
-      "signals": {
-        "score": 0.3203,
-        "recency": 0.2591511369257301,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.77,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "target reports first quarter of sales growth in more than a year",
-      "title": "Target reports first quarter of sales growth in more than a year",
-      "summary": "While still in early stages, Target's efforts to revitalize the business appear to be paying off.",
-      "image": null,
-      "link": "https://www.modernretail.co/operations/target-reports-first-quarter-of-sales-growth-in-more-than-a-year/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-05-20T10:33:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Modern Retail"
-      ],
       "keywords": [],
-      "score": 0.3176,
+      "score": 0.3057,
       "signals": {
-        "score": 0.3176,
-        "recency": 0.3963950962864693,
+        "score": 0.3057,
+        "recency": 0.3668078703516665,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "spark foundry india is built for brands with hunger to transform niti kumar bestmediainfocom",
-      "title": "Spark Foundry India is built for brands with hunger to transform: Niti Kumar - bestmediainfo.com",
-      "summary": "Spark Foundry India is built for brands with hunger to transform: Niti Kumar &nbsp;&nbsp; bestmediainfo.com",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSnlWNERmaHgwMFBzOURiRVNUNW1wTXFKWWVUdmdWMnRtUzRNSGtodzc2VTVBN1FNRkRuMzNNMXJFdFhEdUxRS3ZpWnJzY284dEF2NjN1cjhlT2dmUldCcEJlS182RTk1aW9iQmg1alg0ZjB1QUhsYXphSjN3RDdTVkZsaVE5ckUwcVVoOHJkWmloZi14VVRyTVB4SHFfWWtDODlJcGRiRHFieDJYcUZFenNlMlFPUS05WkNXX0xR0gG-AUFVX3lxTE5KeVY0RGZoeDAwUHM5RGJFU1Q1bXBNcUpZZVR2Z1YydG1TNE1Ia2h3NzZVNUE3UU1GRG4zM00xckV0WER1TFFLdmlacnNjbzh0QXY2M3VyOGVPZ2ZSV0JwQmVLXzZFOTVpb2JCaDVqWDRmMHVBSGxhemFKM3dEN1NWRmxpUTlyRTBxVWg4cmRaaWhmLXhVVHJNUHhIcV9Za0M4OUlwZGJEcWJ4MlhxRkV6c2UyUU9RLTlaQ1dfTFE?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T05:20:15+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3156,
-      "signals": {
-        "score": 0.3156,
-        "recency": 0.16627805742454171,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "brands dont need perfect data to use ai",
-      "title": "Brands Don\u2019t Need Perfect Data To Use AI",
-      "summary": "There is a common refrain that AI requires high-quality data to deliver high-quality results.",
-      "image": null,
-      "link": "https://www.adexchanger.com/data-driven-thinking/brands-dont-need-perfect-data-to-use-ai/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T04:35:02+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AdExchanger"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3152,
-      "signals": {
-        "score": 0.3152,
-        "recency": 0.1466515815531951,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
+        "engagement": 0.4
       }
     },
     {
@@ -2150,10 +2414,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3149,
+      "score": 0.3038,
       "signals": {
-        "score": 0.3149,
-        "recency": 0.133422734549595,
+        "score": 0.3038,
+        "recency": 0.08917305658054303,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2176,13 +2440,113 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3149,
+      "score": 0.3038,
       "signals": {
-        "score": 0.3149,
-        "recency": 0.133422734549595,
+        "score": 0.3038,
+        "recency": 0.08917305658054303,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "brands dont need perfect data to use ai",
+      "title": "Brands Don\u2019t Need Perfect Data To Use AI",
+      "summary": "There is a common refrain that AI requires high-quality data to deliver high-quality results.",
+      "image": null,
+      "link": "https://www.adexchanger.com/data-driven-thinking/brands-dont-need-perfect-data-to-use-ai/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T04:35:02+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AdExchanger"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.303,
+      "signals": {
+        "score": 0.303,
+        "recency": 0.09801455369368221,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "interpublic group stock us4606901001 omnicom takeover reshapes outlook ad hoc news",
+      "title": "Interpublic Group stock (US4606901001): Omnicom takeover reshapes outlook - AD HOC NEWS",
+      "summary": "Interpublic Group stock (US4606901001): Omnicom takeover reshapes outlook &nbsp;&nbsp; AD HOC NEWS",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNHdhNDE5bU5SWV8xZUQyM2VKNHd4UXk3VVNNTWdRcTl5ZzdTSW1jYW8wZ3RxQUdHbXZaTm5OaGw2ZDlna2xuYzUzTUpsUVI0NXhIbWJqSDA3WXJYc3lVSXhtZWNhaVBoaDNOcGpYVmFlMjZSenhkQ25acXVia0J4cGFacHQtUmtkV2xqZE1aZUM1NnRXZ2QzaURIRHF5YWhNUjVsUlFYR3g4NWpkaXZyWWRMNjIxRlEwUWtqTUhwVjAzN1A5UGdIag?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T12:17:35+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.3026,
+      "signals": {
+        "score": 0.3026,
+        "recency": 0.35424086304082236,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "wpp scangroup stock ke0000000562 board shakeup after agm call ad hoc news",
+      "title": "WPP Scangroup stock (KE0000000562): Board shake-up after AGM call - AD HOC NEWS",
+      "summary": "WPP Scangroup stock (KE0000000562): Board shake-up after AGM call &nbsp;&nbsp; AD HOC NEWS",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTGh2ZGxSUjF4M2pmTl9weDZYMkpVbDFfNERvNmlBRk1oM2c4WWtEdDZ0cXU1V0F4Rkk2ekdRUXBqNXZaMzRpdE8tNk1udXF6OHRYUURQWVJhTEl4RVkya2VVM3cyU2pJLXFVNF9ZZGtZUk5lajNXYWd4S2tieDhvUXd4TldjVEdFYXN5Zk9OajFZNlFoMVdTWGNaZU9wMnJLcnU5MXJNeW9wWnpDQTJCYWhWUGtITXRFTGQyb3JR?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T12:15:48+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.3021,
+      "signals": {
+        "score": 0.3021,
+        "recency": 0.3524903979877621,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "spark foundry india is built for brands with hunger to transform niti kumar bestmediainfocom",
+      "title": "Spark Foundry India is built for brands with hunger to transform: Niti Kumar - bestmediainfo.com",
+      "summary": "Spark Foundry India is built for brands with hunger to transform: Niti Kumar &nbsp;&nbsp; bestmediainfo.com",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSnlWNERmaHgwMFBzOURiRVNUNW1wTXFKWWVUdmdWMnRtUzRNSGtodzc2VTVBN1FNRkRuMzNNMXJFdFhEdUxRS3ZpWnJzY284dEF2NjN1cjhlT2dmUldCcEJlS182RTk1aW9iQmg1alg0ZjB1QUhsYXphSjN3RDdTVkZsaVE5ckUwcVVoOHJkWmloZi14VVRyTVB4SHFfWWtDODlJcGRiRHFieDJYcUZFenNlMlFPUS05WkNXX0xR0gG-AUFVX3lxTE5KeVY0RGZoeDAwUHM5RGJFU1Q1bXBNcUpZZVR2Z1YydG1TNE1Ia2h3NzZVNUE3UU1GRG4zM00xckV0WER1TFFLdmlacnNjbzh0QXY2M3VyOGVPZ2ZSV0JwQmVLXzZFOTVpb2JCaDVqWDRmMHVBSGxhemFKM3dEN1NWRmxpUTlyRTBxVWg4cmRaaWhmLXhVVHJNUHhIcV9Za0M4OUlwZGJEcWJ4MlhxRkV6c2UyUU9RLTlaQ1dfTFE?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T05:20:15+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3018,
+      "signals": {
+        "score": 0.3018,
+        "recency": 0.11113190471530818,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.6
       }
     },
@@ -2202,10 +2566,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3121,
+      "score": 0.301,
       "signals": {
-        "score": 0.3121,
-        "recency": 0.13440849782866957,
+        "score": 0.301,
+        "recency": 0.08983189126082962,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2213,74 +2577,54 @@
       }
     },
     {
-      "id": "wpp 1 2 the romania journal",
-      "title": "WPP 1 (2) - The Romania Journal",
-      "summary": "WPP 1 (2) &nbsp;&nbsp; The Romania Journal",
+      "id": "jaguar land rover appoints wpp inside the new model campaign",
+      "title": "Jaguar Land Rover appoints WPP: inside the new model - Campaign",
+      "summary": "Jaguar Land Rover appoints WPP: inside the new model &nbsp;&nbsp; Campaign",
       "image": null,
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTUxzVlZTV2p2YjRjRXh2cVNYRTMxMFZTNFRYcFhRNExXZ09MVkFjY2hiOEcxZXg3bkJTdjhELWdqbGxWWjNjbUc1cG5nM0I3UWIwbnZVc0RtbjBFVFU0b1pNSVZWeHctc2RwWUc2cXdKYVRRMkZROEgwNzdUemFYTlcyOU9TSC03djlMSktYN01RSm95eXJnOENNNEJEajRBVHZaSy1VWU16TGI0aTVaN3BCMVJxTGxnTW42Rl81RWF5cGdtRGNQVGpGaTl5aUsxYzRQOTc0MGE1YXJHRnd6WE16OGhWSHZLR3RVcQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUVlVR01rVUdhc3FUZWotbDktNmc3YXVBNEZKSEg5OVBQd1hYT180TzJGbTUtVVNRRWhMR3M3YnRScGFxRVBaQ0ZOZmhNd2VEZEJfVjgtaWxGTkdWUkxqVzg4M2tZQlFmR3loZ1U0d2dfV0JWNGJ6RU9ETUJUdlJKamtybGtJdEljYnV5aGN2LWJQS2ZHcHNGdzh3?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-05-20T10:28:58+00:00",
+      "published_at": "2026-05-20T05:01:03+00:00",
       "source_count": 1,
       "source_names": [
         "Google News - WPP"
       ],
-      "keywords": [],
-      "score": 0.312,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3003,
       "signals": {
-        "score": 0.312,
-        "recency": 0.3919787887740667,
-        "keyword_volume": 0.0,
+        "score": 0.3003,
+        "recency": 0.10536015127666783,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.4
+        "engagement": 0.6
       }
     },
     {
-      "id": "sandi cohen named ep for peter alexanders upcoming ms now show",
-      "title": "Sandi Cohen Named EP for Peter Alexander\u2019s Upcoming MS NOW Show",
-      "summary": "Cohen was most recently a senior broadcast producer for CNN\u2019s Laura Coates Live.",
+      "id": "publicis acquisition of liveramp reshapes commerce media",
+      "title": "Publicis acquisition of LiveRamp reshapes commerce media",
+      "summary": "Publicis announced that it has agreed to acquire LiveRamp for $2.167 billion.",
       "image": null,
-      "link": "https://www.adweek.com/tvnewser/sandi-cohen-named-ep-for-peter-alexanders-upcoming-ms-now-show/",
-      "category": "brands",
+      "link": "https://internetretailing.net/publicis-acquisition-of-liveramp-reshapes-commerce-media/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-05-20T10:00:00+00:00",
+      "published_at": "2026-05-20T08:00:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Adweek"
+        "InternetRetailing"
       ],
-      "keywords": [],
-      "score": 0.3104,
-      "signals": {
-        "score": 0.3104,
-        "recency": 0.3616745466687355,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "mccann boss tyler turnbull clients are in a growth crisis the drum",
-      "title": "McCann boss Tyler Turnbull: \u2018Clients are in a growth crisis\u2019 - The Drum",
-      "summary": "McCann boss Tyler Turnbull: \u2018Clients are in a growth crisis\u2019 &nbsp;&nbsp; The Drum",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRGhHcXd5Qmd2dktnUHQzSTBiaW10cUFRQ3ZlUC1BakVyLVdXLUZYUlp6ZEFuellyckdrRjE5YWxIbWExc3pBdHZ4WS1BYXY0cVBxNFRSeHpuVUVsT2FackpjbEhCSHhWcVFNVnNIajhjWVN5YVBiaU12ZEdUaUg3X0FlOGx1cUctZVo0UENOSQ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T10:22:58+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
+      "keywords": [
+        "bill"
       ],
-      "keywords": [],
-      "score": 0.3104,
+      "score": 0.2988,
       "signals": {
-        "score": 0.3104,
-        "recency": 0.38549994926286807,
-        "keyword_volume": 0.0,
+        "score": 0.2988,
+        "recency": 0.1732036078708922,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.76,
+        "authority": 0.77,
         "engagement": 0.4
       }
     },
@@ -2299,10 +2643,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.3075,
+      "score": 0.2964,
       "signals": {
-        "score": 0.3075,
-        "recency": 0.13414119151320547,
+        "score": 0.2964,
+        "recency": 0.08965323714109745,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.76,
@@ -2310,50 +2654,26 @@
       }
     },
     {
-      "id": "itv omnicom launch beta trial of live addressable ad product telecompaper",
-      "title": "ITV, Omnicom launch beta trial of Live Addressable+ ad product - Telecompaper",
-      "summary": "ITV, Omnicom launch beta trial of Live Addressable+ ad product &nbsp;&nbsp; Telecompaper",
+      "id": "ms profits hit by fallout from cyberattack as ocado masks underlying slowdown",
+      "title": "M&S profits hit by fallout from cyber-attack as Ocado masks underlying slowdown",
+      "summary": "M&#038;S has reported a profit downturn of 23.8% for the financial year ending 28 March 2026 as the fallout from last year\u2019s cyber-attack continues to take effect.",
       "image": null,
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGt3TXpIMWdvaUNtaTJ6LUxBNVZ6VGlDdHZsbF9CWmZGcWtUVE00RGo3XzJROFQtNEhtSEFBb2hsWFVoalVHQWNuX1pxaGl4dHI0aHhtOWo5ZVlUS3lPQXN2Y3lvQTFKb3FnZk9CMGpDUVlfSmVjTVRCVjJBZlNoMExrR1EtVXNsVTJrdENYZ0ZIVTE1MDVkczZrQmpveUZ6SlpQVzVn?oc=5",
-      "category": "advertising",
+      "link": "https://internetretailing.net/ms-profits-hit-by-fallout-from-cyber-attack-as-ocado-masks-underlying-slowdown/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-05-20T10:04:16+00:00",
+      "published_at": "2026-05-20T11:34:19+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Omnicom"
+        "InternetRetailing"
       ],
       "keywords": [],
-      "score": 0.3055,
+      "score": 0.294,
       "signals": {
-        "score": 0.3055,
-        "recency": 0.36598656202370544,
+        "score": 0.294,
+        "recency": 0.3141252842157316,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "the power of connected tv a coffee with rachael stone wpp media exchangewirecom",
-      "title": "\"The Power of Connected TV\": A Coffee With Rachael Stone, WPP Media - exchangewire.com",
-      "summary": "\"The Power of Connected TV\": A Coffee With Rachael Stone, WPP Media &nbsp;&nbsp; exchangewire.com",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNGJrSEpQTzNzRDdpd19nLVpfUXNsUjFCSndkWGdiV1BpWlRNOWR3QzZSRkkyYWdScWx5RjM0QmFFa3c4TUg3a3Q5ZTREQ3dXSS1zNnZZcEFJMHQxWjRjeTg1eUc0VFFmdUxJSlFrYXU4czNiYzg0VXZvWXhQSFVqMXQ4cml4SnhtOWdrcWMtVDlEZkdGTjVrY251aG9yZmFLUmZrNktRaEtPSVEzcWhN?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T10:03:21+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.3053,
-      "signals": {
-        "score": 0.3053,
-        "recency": 0.36505583724972523,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
+        "authority": 0.77,
         "engagement": 0.4
       }
     },
@@ -2373,10 +2693,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2974,
+      "score": 0.2936,
       "signals": {
-        "score": 0.2974,
-        "recency": 0.045473678041772346,
+        "score": 0.2936,
+        "recency": 0.030392323157168236,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2399,10 +2719,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2971,
+      "score": 0.2934,
       "signals": {
-        "score": 0.2971,
-        "recency": 0.04447635626375848,
+        "score": 0.2934,
+        "recency": 0.0297257633565461,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2425,116 +2745,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2968,
+      "score": 0.2932,
       "signals": {
-        "score": 0.2968,
-        "recency": 0.04336618327969195,
+        "score": 0.2932,
+        "recency": 0.028983779476088618,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      }
-    },
-    {
-      "id": "google ads budget misallocation is more common than you think and harder to spot via sejournal lisarockssem",
-      "title": "Google Ads Budget Misallocation Is More Common Than You Think \u2013 And Harder To Spot via @sejournal, @LisaRocksSEM",
-      "summary": "Is PMax stealing your branded traffic? Is Smart Bidding starved of data?",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/google-ads-budget-misallocation-is-more-common-than-you-think-and-harder-to-spot/573615/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-20T09:00:56+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [],
-      "score": 0.2967,
-      "signals": {
-        "score": 0.2967,
-        "recency": 0.3069456484454088,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "elon musk said sam altman stole a nonprofit but the trial showed he had similar aims",
-      "title": "Elon Musk said Sam Altman \u2018stole\u2019 a non-profit \u2014 but the trial showed he had similar aims",
-      "summary": "The jury's speedy decision to reject Elon Musk's lawsuit against the other founders of OpenAI and Microsoft confirmed what we saw in the courtroom: Musk's case was a weak one,",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/19/elon-musk-said-sam-altman-stole-a-non-profit-but-the-trial-showed-he-had-similar-aims/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-19T20:11:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.295,
-      "signals": {
-        "score": 0.295,
-        "recency": 0.03616048642005205,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "digiday research the marketers 2026 guide to a shifting ctv landscape including youtube peacock and roku",
-      "title": "Digiday+ Research: The marketers\u2019 2026 guide to a shifting CTV landscape, including YouTube, Peacock and Roku",
-      "summary": "Digiday+ Research's fifth annual report analyzes the state of ad-supported streaming and the challenges those companies pose to marketers.",
-      "image": null,
-      "link": "https://digiday.com/future-of-tv/digiday-research-the-marketers-2026-guide-to-a-shifting-ctv-landscape-including-youtube-peacock-and-roku/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T04:01:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Digiday"
-      ],
-      "keywords": [
-        "streaming"
-      ],
-      "score": 0.2949,
-      "signals": {
-        "score": 0.2949,
-        "recency": 0.133422734549595,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "future of tv briefing the upfront is overtaking streamings programmatic marketplace",
-      "title": "Future of TV Briefing: The upfront is overtaking streaming\u2019s programmatic marketplace",
-      "summary": "This week\u2019s Future of TV Briefing looks at how major TV and streaming ad sellers are seeing upfront deals represent a larger share of their programmatic businesses.",
-      "image": null,
-      "link": "https://digiday.com/future-of-tv/future-of-tv-briefing-the-upfront-is-overtaking-streamings-programmatic-marketplace/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-05-20T04:01:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Digiday"
-      ],
-      "keywords": [
-        "streaming"
-      ],
-      "score": 0.2949,
-      "signals": {
-        "score": 0.2949,
-        "recency": 0.133422734549595,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.4
       }
     },
     {
@@ -2553,39 +2771,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2933,
+      "score": 0.2894,
       "signals": {
-        "score": 0.2933,
-        "recency": 0.04713488021897697,
+        "score": 0.2894,
+        "recency": 0.031502587282991004,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "with gemini 35 flash google bets its next ai wave on agents not chatbots",
-      "title": "With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots",
-      "summary": "Google launched Gemini 3.5 Flash, its most powerful coding and agentic AI model yet, at the company's annual developer conference.",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-19T17:51:30+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2921,
-      "signals": {
-        "score": 0.2921,
-        "recency": 0.02454398925293641,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -2605,14 +2797,38 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2921,
+      "score": 0.2891,
       "signals": {
-        "score": 0.2921,
-        "recency": 0.0365949931460032,
+        "score": 0.2891,
+        "recency": 0.02445825597406058,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "why some teams launch faster by storyblok",
+      "title": "Why some teams launch faster by Storyblok",
+      "summary": "New global research data reveals the tech gap quietly costing teams speed, revenue, and competitive ground.",
+      "image": "https://martech.org/wp-content/uploads/2026/05/Storybock-20260520-img-1.png",
+      "link": "https://martech.org/why-some-teams-launch-faster/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-20T11:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarTech"
+      ],
+      "keywords": [],
+      "score": 0.2884,
+      "signals": {
+        "score": 0.2884,
+        "recency": 0.28556447245874417,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.4
       }
     },
     {
@@ -2631,10 +2847,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2912,
+      "score": 0.2875,
       "signals": {
-        "score": 0.2912,
-        "recency": 0.044680674100669296,
+        "score": 0.2875,
+        "recency": 0.02986231913988218,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2657,10 +2873,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2911,
+      "score": 0.2854,
       "signals": {
-        "score": 0.2911,
-        "recency": 0.0683114980330593,
+        "score": 0.2854,
+        "recency": 0.04565597534608578,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2683,10 +2899,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.288,
+      "score": 0.2854,
       "signals": {
-        "score": 0.288,
-        "recency": 0.03211010220365166,
+        "score": 0.2854,
+        "recency": 0.021460780055807524,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2694,107 +2910,103 @@
       }
     },
     {
-      "id": "youtube brings conversational search and gemini omni to creators via sejournal brookeosmundson",
-      "title": "YouTube Brings Conversational Search And Gemini Omni To Creators via @sejournal, @brookeosmundson",
-      "summary": "YouTube introduced Gemini Omni AI remixing and Ask YouTube conversational search, raising new questions around discovery, creator tools, and future measurement challenges.",
+      "id": "target reports first quarter of sales growth in more than a year",
+      "title": "Target reports first quarter of sales growth in more than a year",
+      "summary": "While still in early stages, Target's efforts to revitalize the business appear to be paying off.",
       "image": null,
-      "link": "https://www.searchenginejournal.com/youtube-expands-ai-creation-tools-with-gemini-omni-and-conversational-search/575310/",
-      "category": "digital-media",
+      "link": "https://www.modernretail.co/operations/target-reports-first-quarter-of-sales-growth-in-more-than-a-year/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-05-19T18:00:12+00:00",
+      "published_at": "2026-05-20T10:33:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Search Engine Journal"
+        "Modern Retail"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2863,
+      "keywords": [],
+      "score": 0.2847,
       "signals": {
-        "score": 0.2863,
-        "recency": 0.02514436093180836,
-        "keyword_volume": 0.2,
+        "score": 0.2847,
+        "recency": 0.2649305792504494,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
+        "authority": 0.79,
+        "engagement": 0.4
       }
     },
     {
-      "id": "google brings ai content verification to search via sejournal mattgsouthern",
-      "title": "Google Brings AI Content Verification To Search via @sejournal, @MattGSouthern",
-      "summary": "Google expands SynthID verification to Search, allowing users to check whether content was AI generated.",
+      "id": "digiday research the marketers 2026 guide to a shifting ctv landscape including youtube peacock and roku",
+      "title": "Digiday+ Research: The marketers\u2019 2026 guide to a shifting CTV landscape, including YouTube, Peacock and Roku",
+      "summary": "Digiday+ Research's fifth annual report analyzes the state of ad-supported streaming and the challenges those companies pose to marketers.",
       "image": null,
-      "link": "https://www.searchenginejournal.com/google-brings-ai-content-verification-to-search/575320/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-19T17:45:26+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.286,
-      "signals": {
-        "score": 0.286,
-        "recency": 0.024133843149111562,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "googles new search box hands queries to ai agents io reveals via sejournal mattgsouthern",
-      "title": "Google\u2019s New Search Box Hands Queries To AI Agents, I/O Reveals via @sejournal, @MattGSouthern",
-      "summary": "Google made Gemini 3.5 Flash the default model in AI Mode, redesigned the Search box, and announced Search agents coming this summer.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/google-adds-ai-agents-to-search-redesigns-search-box-at-i-o/575311/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-19T17:45:17+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.286,
-      "signals": {
-        "score": 0.286,
-        "recency": 0.0241237894757935,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      }
-    },
-    {
-      "id": "google revamps its iconic search bar for the first time in 25 years",
-      "title": "Google Revamps Its Iconic Search Bar for the First Time in 25 Years",
-      "summary": "Google readies its Search bar for the AI era, answering longer queries, and simplifying shopping across the internet.",
-      "image": null,
-      "link": "https://www.adweek.com/media/google-revamps-its-iconic-search-bar-for-the-first-time-in-25-years/",
+      "link": "https://digiday.com/future-of-tv/digiday-research-the-marketers-2026-guide-to-a-shifting-ctv-landscape-including-youtube-peacock-and-roku/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-05-19T17:34:22+00:00",
+      "published_at": "2026-05-20T04:01:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Adweek"
+        "Digiday"
       ],
       "keywords": [
-        "ai"
+        "streaming"
       ],
-      "score": 0.2859,
+      "score": 0.2838,
       "signals": {
-        "score": 0.2859,
-        "recency": 0.023403238137234966,
+        "score": 0.2838,
+        "recency": 0.08917305658054303,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
+        "authority": 0.81,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "future of tv briefing the upfront is overtaking streamings programmatic marketplace",
+      "title": "Future of TV Briefing: The upfront is overtaking streaming\u2019s programmatic marketplace",
+      "summary": "This week\u2019s Future of TV Briefing looks at how major TV and streaming ad sellers are seeing upfront deals represent a larger share of their programmatic businesses.",
+      "image": null,
+      "link": "https://digiday.com/future-of-tv/future-of-tv-briefing-the-upfront-is-overtaking-streamings-programmatic-marketplace/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-05-20T04:01:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Digiday"
+      ],
+      "keywords": [
+        "streaming"
+      ],
+      "score": 0.2838,
+      "signals": {
+        "score": 0.2838,
+        "recency": 0.08917305658054303,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "omnicom group inc stock us6819191064 new business wins and earnings outlook in focus ad hoc news",
+      "title": "Omnicom Group Inc. stock (US6819191064): new business wins and earnings outlook in focus - AD HOC NEWS",
+      "summary": "Omnicom Group Inc. stock (US6819191064): new business wins and earnings outlook in focus &nbsp;&nbsp; AD HOC NEWS",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMjVKZE9TMWhtVl9ic0QxOTkyX3QzQ1F3ZG5NQVJkT0NLVjUyYnF5c25xZFlsc3Y3SnlxV2l1TTM0NUF4bTg0d2VXc09HbllKSDlyTUdWYVFJdFpkRzRXcFZtRXVOTkxZOXFPX3VKS3RNNmtXQ29nSWt1WmFnOTlDWnNfMEJHSWkyeXlQMjV2QkhTMGZFdDV4ZjRhcWwwUFVxOGk3VjRoOGpZVW5Ddkl4LWhQNWlnNWlONHpxYzNKdWdwRzVl?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T10:47:54+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.283,
+      "signals": {
+        "score": 0.283,
+        "recency": 0.27612584321064393,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       }
     },
     {
@@ -2813,10 +3025,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2853,
+      "score": 0.2816,
       "signals": {
-        "score": 0.2853,
-        "recency": 0.04526782960438942,
+        "score": 0.2816,
+        "recency": 0.03025474439732845,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2839,10 +3051,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2853,
+      "score": 0.2815,
       "signals": {
-        "score": 0.2853,
-        "recency": 0.045115099337429576,
+        "score": 0.2815,
+        "recency": 0.030152667155521454,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2850,55 +3062,147 @@
       }
     },
     {
-      "id": "tapestry patents ai data analytics tech",
-      "title": "Tapestry patents AI data analytics tech",
-      "summary": "The Coach owner said it is trimming the time it takes to analyze data through its newly patented AI technology.",
+      "id": "sandi cohen named ep for peter alexanders upcoming ms now show",
+      "title": "Sandi Cohen Named EP for Peter Alexander\u2019s Upcoming MS NOW Show",
+      "summary": "Cohen was most recently a senior broadcast producer for CNN\u2019s Laura Coates Live.",
       "image": null,
-      "link": "https://www.retaildive.com/news/tapestry-patent-ai-data-analytics-mira/820243/",
+      "link": "https://www.adweek.com/tvnewser/sandi-cohen-named-ep-for-peter-alexanders-upcoming-ms-now-show/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-05-19T12:20:00-04:00",
+      "published_at": "2026-05-20T10:00:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Retail Dive"
+        "Adweek"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2848,
+      "keywords": [],
+      "score": 0.2804,
       "signals": {
-        "score": 0.2848,
-        "recency": 0.019035398422220663,
-        "keyword_volume": 0.2,
+        "score": 0.2804,
+        "recency": 0.24172510721435603,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
+        "engagement": 0.4
       }
     },
     {
-      "id": "ikea franchisor to cut 850 jobs",
-      "title": "Ikea franchisor to cut 850 jobs",
-      "summary": "Inter Ikea Group said the reduction in workforce is necessary as it focuses on increasing sales growth, reducing prices and boosting traffic across channels.",
-      "image": "https://imgproxy.divecdn.com/JV0jXkQyuLmiT9gtyESLyZMwXmTFWcHni-KMxLeH4rw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMjM1OTgwMzg1LmpwZw==.webp",
-      "link": "https://www.retaildive.com/news/inter-ikea-group-layoffs-cut-850-jobs/820614/",
-      "category": "brands",
+      "id": "wpp 1 2 the romania journal",
+      "title": "WPP 1 (2) - The Romania Journal",
+      "summary": "WPP 1 (2) &nbsp;&nbsp; The Romania Journal",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTUxzVlZTV2p2YjRjRXh2cVNYRTMxMFZTNFRYcFhRNExXZ09MVkFjY2hiOEcxZXg3bkJTdjhELWdqbGxWWjNjbUc1cG5nM0I3UWIwbnZVc0RtbjBFVFU0b1pNSVZWeHctc2RwWUc2cXdKYVRRMkZROEgwNzdUemFYTlcyOU9TSC03djlMSktYN01RSm95eXJnOENNNEJEajRBVHZaSy1VWU16TGI0aTVaN3BCMVJxTGxnTW42Rl81RWF5cGdtRGNQVGpGaTl5aUsxYzRQOTc0MGE1YXJHRnd6WE16OGhWSHZLR3RVcQ?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-05-19T12:11:00-04:00",
+      "published_at": "2026-05-20T10:28:58+00:00",
       "source_count": 1,
       "source_names": [
-        "Retail Dive"
+        "Google News - WPP"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2846,
+      "keywords": [],
+      "score": 0.2795,
       "signals": {
-        "score": 0.2846,
-        "recency": 0.01856541276060029,
-        "keyword_volume": 0.2,
+        "score": 0.2795,
+        "recency": 0.2619789410531812,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "mccann boss tyler turnbull clients are in a growth crisis the drum",
+      "title": "McCann boss Tyler Turnbull: \u2018Clients are in a growth crisis\u2019 - The Drum",
+      "summary": "McCann boss Tyler Turnbull: \u2018Clients are in a growth crisis\u2019 &nbsp;&nbsp; The Drum",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRGhHcXd5Qmd2dktnUHQzSTBiaW10cUFRQ3ZlUC1BakVyLVdXLUZYUlp6ZEFuellyckdrRjE5YWxIbWExc3pBdHZ4WS1BYXY0cVBxNFRSeHpuVUVsT2FackpjbEhCSHhWcVFNVnNIajhjWVN5YVBiaU12ZEdUaUg3X0FlOGx1cUctZVo0UENOSQ?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T10:22:58+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.2784,
+      "signals": {
+        "score": 0.2784,
+        "recency": 0.25764881002821993,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "itv omnicom launch beta trial of live addressable ad product telecompaper",
+      "title": "ITV, Omnicom launch beta trial of Live Addressable+ ad product - Telecompaper",
+      "summary": "ITV, Omnicom launch beta trial of Live Addressable+ ad product &nbsp;&nbsp; Telecompaper",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGt3TXpIMWdvaUNtaTJ6LUxBNVZ6VGlDdHZsbF9CWmZGcWtUVE00RGo3XzJROFQtNEhtSEFBb2hsWFVoalVHQWNuX1pxaGl4dHI0aHhtOWo5ZVlUS3lPQXN2Y3lvQTFKb3FnZk9CMGpDUVlfSmVjTVRCVjJBZlNoMExrR1EtVXNsVTJrdENYZ0ZIVTE1MDVkczZrQmpveUZ6SlpQVzVn?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T10:04:16+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.2752,
+      "signals": {
+        "score": 0.2752,
+        "recency": 0.2446070417701343,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "the power of connected tv a coffee with rachael stone wpp media exchangewirecom",
+      "title": "\"The Power of Connected TV\": A Coffee With Rachael Stone, WPP Media - exchangewire.com",
+      "summary": "\"The Power of Connected TV\": A Coffee With Rachael Stone, WPP Media &nbsp;&nbsp; exchangewire.com",
+      "image": null,
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNGJrSEpQTzNzRDdpd19nLVpfUXNsUjFCSndkWGdiV1BpWlRNOWR3QzZSRkkyYWdScWx5RjM0QmFFa3c4TUg3a3Q5ZTREQ3dXSS1zNnZZcEFJMHQxWjRjeTg1eUc0VFFmdUxJSlFrYXU4czNiYzg0VXZvWXhQSFVqMXQ4cml4SnhtOWdrcWMtVDlEZkdGTjVrY251aG9yZmFLUmZrNktRaEtPSVEzcWhN?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-05-20T10:03:21+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.275,
+      "signals": {
+        "score": 0.275,
+        "recency": 0.24398499206315424,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "google ads budget misallocation is more common than you think and harder to spot via sejournal lisarockssem",
+      "title": "Google Ads Budget Misallocation Is More Common Than You Think \u2013 And Harder To Spot via @sejournal, @LisaRocksSEM",
+      "summary": "Is PMax stealing your branded traffic? Is Smart Bidding starved of data?",
+      "image": null,
+      "link": "https://www.searchenginejournal.com/google-ads-budget-misallocation-is-more-common-than-you-think-and-harder-to-spot/573615/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-05-20T09:00:56+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [],
+      "score": 0.2713,
+      "signals": {
+        "score": 0.2713,
+        "recency": 0.2051470595950021,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
+        "engagement": 0.4
       }
     },
     {
@@ -2915,10 +3219,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2834,
+      "score": 0.2624,
       "signals": {
-        "score": 0.2834,
-        "recency": 0.2537022744699374,
+        "score": 0.2624,
+        "recency": 0.16956186179433144,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2926,29 +3230,29 @@
       }
     },
     {
-      "id": "7eleven honors omnicom for retail media innovation bm outdoor",
-      "title": "7-Eleven Honors Omnicom for Retail Media Innovation - BM Outdoor",
-      "summary": "7-Eleven Honors Omnicom for Retail Media Innovation &nbsp;&nbsp; BM Outdoor",
+      "id": "omnicom omc copresident uses 3969 shares to cover equity award taxes stock titan",
+      "title": "Omnicom (OMC) Co-President uses 3,969 shares to cover equity award taxes - Stock Titan",
+      "summary": "Omnicom (OMC) Co-President uses 3,969 shares to cover equity award taxes &nbsp;&nbsp; Stock Titan",
       "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52ZEt1aE5odE5MSjczaHJ1allub2Mxbk14aVRGU3VvWVZfeXdENHZ2UDBldlF6NGdTa3BfR1JwMGVCQW8yODFHUlBVTUVlYTBnRzRvX2Nva2tVNzg4V3pJOWJkQmU0ZVM2bHhxeDdqamNIYzNSVENsc25R?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU1BMMy1tZjRLSDl1Znhwak5GZklMT1A5UlZ3VnZZbVE5QjVPUFBHa3VySGN4UmsyVld2LUdzTFJ0Y0dVbDAwckQwU3NZTWpZcXNna2hZMDlaVlIxSjR5N0otZFJaTV91WEtEbnZ6b2RFdHljQVVJYzVOalBVUXBUYU5odksyWEUydVZxVFdPZWNCRmhQMGpUTnVBY1BkUjlvM3JDS21ZTmdxUnpTaDZB?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-05-19T18:13:17+00:00",
+      "published_at": "2026-05-19T21:01:51+00:00",
       "source_count": 1,
       "source_names": [
         "Google News - Omnicom"
       ],
       "keywords": [
-        "ai"
+        "award"
       ],
-      "score": 0.2805,
+      "score": 0.261,
       "signals": {
-        "score": 0.2805,
-        "recency": 0.02607498033131924,
+        "score": 0.261,
+        "recency": 0.027834419938417277,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.6
+        "engagement": 0.4
       }
     },
     {
@@ -2965,10 +3269,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2794,
+      "score": 0.2577,
       "signals": {
-        "score": 0.2794,
-        "recency": 0.2616466070167616,
+        "score": 0.2577,
+        "recency": 0.17487145478149413,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2989,10 +3293,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2714,
+      "score": 0.2524,
       "signals": {
-        "score": 0.2714,
-        "recency": 0.22979324050111247,
+        "score": 0.2524,
+        "recency": 0.1535822639687776,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -3013,60 +3317,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2648,
+      "score": 0.248,
       "signals": {
-        "score": 0.2648,
-        "recency": 0.20338416253606553,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "omnicom omc copresident uses 3969 shares to cover equity award taxes stock titan",
-      "title": "Omnicom (OMC) Co-President uses 3,969 shares to cover equity award taxes - Stock Titan",
-      "summary": "Omnicom (OMC) Co-President uses 3,969 shares to cover equity award taxes &nbsp;&nbsp; Stock Titan",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU1BMMy1tZjRLSDl1Znhwak5GZklMT1A5UlZ3VnZZbVE5QjVPUFBHa3VySGN4UmsyVld2LUdzTFJ0Y0dVbDAwckQwU3NZTWpZcXNna2hZMDlaVlIxSjR5N0otZFJaTV91WEtEbnZ6b2RFdHljQVVJYzVOalBVUXBUYU5odksyWEUydVZxVFdPZWNCRmhQMGpUTnVBY1BkUjlvM3JDS21ZTmdxUnpTaDZB?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-19T21:01:51+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [
-        "award"
-      ],
-      "score": 0.2644,
-      "signals": {
-        "score": 0.2644,
-        "recency": 0.04164648566723812,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "interpublic group stock us4606901001 how the omnicom takeover reshapes the advertising giant ad hoc news",
-      "title": "Interpublic Group stock (US4606901001): how the Omnicom takeover reshapes the advertising giant - AD HOC NEWS",
-      "summary": "Interpublic Group stock (US4606901001): how the Omnicom takeover reshapes the advertising giant &nbsp;&nbsp; AD HOC NEWS",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPT1RwYVg4Uy1rVTRCV2ttVzl2OUNTQzZETldva2w4dW5sb1B2bmVEaEtUcnNyWUxlQ3Q0QXFUMkEwcE5hdkZyWG1lRTdfZkV2Q3ZMVFlMSG1ibDNXbUl2N2UteFdlYUdXWjAyT2prbC05c1dYMUVsYTFWZ0FsdDJJcnM3LV9hQ2N5T01TVWp5S0pkVXRGTHlqcnNPYWxNclB0RUlHZzJ3OFE0ck9SRnR2TjFfZU5SOVlMNV9pWW9FTG13SWFrZzdnYw?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T04:51:09+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.2523,
-      "signals": {
-        "score": 0.2523,
-        "recency": 0.15336613447502226,
+        "score": 0.248,
+        "recency": 0.13593176226404957,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -3087,10 +3341,10 @@
         "Modern Retail"
       ],
       "keywords": [],
-      "score": 0.2518,
+      "score": 0.2407,
       "signals": {
-        "score": 0.2518,
-        "recency": 0.1330526301144291,
+        "score": 0.2407,
+        "recency": 0.08892569735912426,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -3098,23 +3352,23 @@
       }
     },
     {
-      "id": "agencies are moving closer to supply and its reshaping the programmatic middle layer digiday",
-      "title": "Agencies are moving closer to supply, and it\u2019s reshaping the programmatic middle layer - Digiday",
-      "summary": "Agencies are moving closer to supply, and it\u2019s reshaping the programmatic middle layer &nbsp;&nbsp; Digiday",
+      "id": "interpublic group stock us4606901001 how the omnicom takeover reshapes the advertising giant ad hoc news",
+      "title": "Interpublic Group stock (US4606901001): how the Omnicom takeover reshapes the advertising giant - AD HOC NEWS",
+      "summary": "Interpublic Group stock (US4606901001): how the Omnicom takeover reshapes the advertising giant &nbsp;&nbsp; AD HOC NEWS",
       "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdWFYM2Faa0FtZ2l2Wm1kY0ZIcTZBYUR2VjBGUzdjNzItYkJtX2dPQVBtWGtpNVFudDhpTm9UTHEwRTlYLVI3RnFWYzRReHZZYm1jSmRlaE5tZjUybW45VEFRWHkxX1ZSUkZTRlBGa1VtSFdYMXZqaXg1aUNEeGxhYUdkd0VXRTQxMWhrZ2YwWGRDc0RxcVNrVml6QUprSTd2M3FMdV9QdnJqOHAzcVd5d0dhYWJrRmwtQkE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPT1RwYVg4Uy1rVTRCV2ttVzl2OUNTQzZETldva2w4dW5sb1B2bmVEaEtUcnNyWUxlQ3Q0QXFUMkEwcE5hdkZyWG1lRTdfZkV2Q3ZMVFlMSG1ibDNXbUl2N2UteFdlYUdXWjAyT2prbC05c1dYMUVsYTFWZ0FsdDJJcnM3LV9hQ2N5T01TVWp5S0pkVXRGTHlqcnNPYWxNclB0RUlHZzJ3OFE0ck9SRnR2TjFfZU5SOVlMNV9pWW9FTG13SWFrZzdnYw?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-05-20T04:03:23+00:00",
+      "published_at": "2026-05-20T04:51:09+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Publicis Groupe"
+        "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2476,
+      "score": 0.2396,
       "signals": {
-        "score": 0.2476,
-        "recency": 0.13430897284408227,
+        "score": 0.2396,
+        "recency": 0.10250222372707207,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -3135,10 +3389,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2368,
+      "score": 0.2332,
       "signals": {
-        "score": 0.2368,
-        "recency": 0.04309199968344163,
+        "score": 0.2332,
+        "recency": 0.02880052892718912,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3159,61 +3413,13 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2366,
+      "score": 0.2331,
       "signals": {
-        "score": 0.2366,
-        "recency": 0.04259218096554974,
+        "score": 0.2331,
+        "recency": 0.028466475192186255,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "google takes a page out of metas book announces new audiopowered smart glasses at io 2026",
-      "title": "Google takes a page out of Meta\u2019s book, announces new audio-powered smart glasses at IO 2026",
-      "summary": "Google is calling the new devices \"audio glasses,\" in that users will be able to issue verbal commands to them and get things done via its ecosystem of apps and services",
-      "image": null,
-      "link": "https://techcrunch.com/2026/05/19/google-takes-a-page-out-of-metas-book-announces-new-audio-powered-smart-glasses-at-io-2026/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-05-19T19:15:31+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.2337,
-      "signals": {
-        "score": 0.2337,
-        "recency": 0.030995642092599487,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "wpp stock je00b8kf9b49 revenue update keeps investors focused on turnaround ad hoc news",
-      "title": "WPP stock (JE00B8KF9B49): Revenue update keeps investors focused on turnaround - AD HOC NEWS",
-      "summary": "WPP stock (JE00B8KF9B49): Revenue update keeps investors focused on turnaround &nbsp;&nbsp; AD HOC NEWS",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLTJmcFdITGZMRDVYMFdoYWl5MEc5blBuazY4MVRZLW9XUFhTUGJBTGI3akduQW1RRDYwazBScTBES2RzVHBOdFQ0ZnBocl9JemNKUi0zSVl1Y0RBVEgzaGhXRDZCejBRUUx1MG5YT1dKM0M4ZzVneXhhbVBnNE5lZnhjQ050OFh3bEV5RE94UWFJdVFtMElvaGREOEF1b1p5MDdTRzVFSERWLV9tTVU1LThQcVBNWDNBR1dMb1ZpcGY?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-20T00:51:25+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.2337,
-      "signals": {
-        "score": 0.2337,
-        "recency": 0.07879914704479793,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.4
       }
     },
@@ -3231,10 +3437,10 @@
         "Digital Commerce 360"
       ],
       "keywords": [],
-      "score": 0.2336,
+      "score": 0.2296,
       "signals": {
-        "score": 0.2336,
-        "recency": 0.048547869959729,
+        "score": 0.2296,
+        "recency": 0.03244695867910392,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -3242,50 +3448,26 @@
       }
     },
     {
-      "id": "googles genie world model can now simulate real streets with street view",
-      "title": "Google\u2019s Genie world model can now simulate real streets with Street View",
-      "summary": "Google DeepMind is integrating Street View with Project Genie to create immersive, interactive world simulations for robotics, gaming, and travel, allowing users to explore",
+      "id": "wpp stock je00b8kf9b49 revenue update keeps investors focused on turnaround ad hoc news",
+      "title": "WPP stock (JE00B8KF9B49): Revenue update keeps investors focused on turnaround - AD HOC NEWS",
+      "summary": "WPP stock (JE00B8KF9B49): Revenue update keeps investors focused on turnaround &nbsp;&nbsp; AD HOC NEWS",
       "image": null,
-      "link": "https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/",
-      "category": "technology",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLTJmcFdITGZMRDVYMFdoYWl5MEc5blBuazY4MVRZLW9XUFhTUGJBTGI3akduQW1RRDYwazBScTBES2RzVHBOdFQ0ZnBocl9JemNKUi0zSVl1Y0RBVEgzaGhXRDZCejBRUUx1MG5YT1dKM0M4ZzVneXhhbVBnNE5lZnhjQ050OFh3bEV5RE94UWFJdVFtMElvaGREOEF1b1p5MDdTRzVFSERWLV9tTVU1LThQcVBNWDNBR1dMb1ZpcGY?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-05-19T17:51:39+00:00",
+      "published_at": "2026-05-20T00:51:25+00:00",
       "source_count": 1,
       "source_names": [
-        "TechCrunch"
+        "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2321,
+      "score": 0.2272,
       "signals": {
-        "score": 0.2321,
-        "recency": 0.024554218045975698,
+        "score": 0.2272,
+        "recency": 0.052665393357774086,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "google just redesigned the search box for the first time in 25 years heres why it matters more than you think",
-      "title": "Google just redesigned the search box for the first time in 25 years \u2014 here\u2019s why it matters more than you think.",
-      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a",
-      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/1TD0Sl7Zq6nnBSZMK9FXpl/41ce2cc6da055da7647670c71ba8aa6b/Nuneybits_Vector_art_of_an_oversized_white_search_bar_rimmed_in_695cac3f-1536-4438-acc1-51c16e2ff51f.webp?w=300&q=30",
-      "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-05-19T17:45:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "VentureBeat AI"
-      ],
-      "keywords": [],
-      "score": 0.2305,
-      "signals": {
-        "score": 0.2305,
-        "recency": 0.024104810629509504,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.83,
+        "authority": 0.76,
         "engagement": 0.4
       }
     },
@@ -3303,10 +3485,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2302,
+      "score": 0.2248,
       "signals": {
-        "score": 0.2302,
-        "recency": 0.06473069476872093,
+        "score": 0.2248,
+        "recency": 0.04326274623732435,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -3327,37 +3509,13 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2274,
+      "score": 0.2229,
       "signals": {
-        "score": 0.2274,
-        "recency": 0.053452869442870414,
+        "score": 0.2229,
+        "recency": 0.0357252140522549,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "google announces new universal cart at io via sejournal brookeosmundson",
-      "title": "Google Announces New Universal Cart At I/O via @sejournal, @brookeosmundson",
-      "summary": "Google introduced Universal Cart at Google I/O, a new intelligent shopping cart and agentic hub for shopping on Google.",
-      "image": null,
-      "link": "https://www.searchenginejournal.com/google-announces-new-universal-cart-at-i-o/575301/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-05-19T17:45:41+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [],
-      "score": 0.226,
-      "signals": {
-        "score": 0.226,
-        "recency": 0.02415060858306702,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -3375,10 +3533,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2244,
+      "score": 0.221,
       "signals": {
-        "score": 0.2244,
-        "recency": 0.041629136579521046,
+        "score": 0.221,
+        "recency": 0.027822824679289676,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -3399,10 +3557,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2244,
+      "score": 0.221,
       "signals": {
-        "score": 0.2244,
-        "recency": 0.04160408954463791,
+        "score": 0.221,
+        "recency": 0.027806084498792325,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -3423,34 +3581,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2244,
+      "score": 0.221,
       "signals": {
-        "score": 0.2244,
-        "recency": 0.04167541688223846,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "itv launches live addressable with omnicom broadband tv news",
-      "title": "ITV launches Live Addressable+ with Omnicom - Broadband TV News",
-      "summary": "ITV launches Live Addressable+ with Omnicom &nbsp;&nbsp; Broadband TV News",
-      "image": null,
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOemhhZTc3U0NqN0JtMnJDLXlUaGNYaUJQVUhMbFFrVWc5aUkyR3d5a2RUOHJXY3pHc2xwdjZlaXRSNEp6RDlYWmt3cE4xWWtOZVYxYjU1Nk93Y3laQjU4YzBJTmFtaEZTYzI3T2UxSkxuWllTZDZkSHZtLTNDOEFPb2xXTUVjaVAtbXFOTkVoaw?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-05-19T16:08:19+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.2186,
-      "signals": {
-        "score": 0.2186,
-        "recency": 0.01842754612158026,
+        "score": 0.221,
+        "recency": 0.027853756109879196,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
