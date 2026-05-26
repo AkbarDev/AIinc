@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlparse, parse_qs, quote
 from xml.etree import ElementTree as ET
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -150,15 +150,16 @@ def parse_items(xml_payload: str, source: FeedSource) -> List[Dict[str, str]]:
                 link = link_node.attrib.get("href", "") or link_node.attrib.get("{http://www.w3.org/1999/xlink}href", "")
         published_raw = _first(item, ["pubDate", "published", "updated"])
         published = _parse_date(published_raw)
-        image = _extract_image(item, raw_summary, ns)
-
         if not title or not link:
             continue
+        title = title.strip()
+        link = link.strip()
+        image = _extract_image(item, raw_summary, ns) or build_generated_visual(title, summary, source.name, source.category)
         entries.append(
             {
-                "title": title.strip(),
+                "title": title,
                 "summary": summary,
-                "link": link.strip(),
+                "link": link,
                 "published": (published or datetime.now(timezone.utc)).isoformat(),
                 "image": image,
                 "source": source.name,
@@ -235,6 +236,143 @@ def _looks_like_image(url: Optional[str]) -> bool:
     return False
 
 
+def build_generated_visual(title: str, summary: str, source_name: str, category: str) -> str:
+    """Create a lightweight SVG visual card when the RSS item has no image."""
+    palettes = [
+        ("#0f766e", "#042f2e", "#5eead4"),
+        ("#1d4ed8", "#071a3b", "#93c5fd"),
+        ("#be185d", "#2b0718", "#f9a8d4"),
+        ("#92400e", "#211006", "#fdba74"),
+        ("#334155", "#020617", "#cbd5e1"),
+        ("#9f1239", "#2a0712", "#fda4af"),
+        ("#15803d", "#052e16", "#86efac"),
+    ]
+    text_seed = f"{title} {source_name} {category}"
+    color_a, color_b, accent = palettes[stable_hash(text_seed) % len(palettes)]
+    label = visual_label(text_seed, category)
+    mark = initials(source_name or label)
+    headline_lines = wrap_svg_text(compact_headline(title), max_chars=28, max_lines=2)
+    source = escape_svg((source_name or "Snapfacts").upper())
+    label_text = escape_svg(label.upper())
+    title_markup = "\n  ".join(
+        f'<text x="48" y="{96 + idx * 44}" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#f8fbff">{escape_svg(line)}</text>'
+        for idx, line in enumerate(headline_lines)
+    )
+    summary_line = escape_svg(wrap_svg_text(summary or "Fresh signal from monitored RSS feeds.", max_chars=56, max_lines=1)[0])
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="{escape_svg(title)}">
+  <defs>
+    <linearGradient id="snapfactsGeneratedVisual" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="{color_a}"/>
+      <stop offset="100%" stop-color="{color_b}"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#snapfactsGeneratedVisual)"/>
+  <rect width="640" height="360" fill="#020617" fill-opacity="0.22"/>
+  <circle cx="558" cy="86" r="72" fill="none" stroke="{accent}" stroke-width="2" stroke-opacity="0.6"/>
+  <circle cx="558" cy="86" r="42" fill="#ffffff" fill-opacity="0.12" stroke="{accent}" stroke-width="1.5" stroke-opacity="0.75"/>
+  <text x="558" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff">{escape_svg(mark)}</text>
+  <text x="558" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="800" fill="{accent}">GENERATED VISUAL</text>
+  <text x="558" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff" fill-opacity="0.84">{label_text}</text>
+  <rect x="28" y="36" width="430" height="220" rx="16" fill="#020617" fill-opacity="0.28"/>
+  <text x="48" y="66" font-family="Arial, sans-serif" font-size="12" font-weight="800" fill="{accent}">{source}</text>
+  {title_markup}
+  <text x="48" y="224" font-family="Arial, sans-serif" font-size="16" font-weight="500" fill="#ffffff" fill-opacity="0.82">{summary_line}</text>
+  <rect x="36" y="292" width="168" height="36" rx="18" fill="#ffffff" fill-opacity="0.16"/>
+  <text x="120" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#f8fbff">{label_text}</text>
+  <rect x="220" y="292" width="168" height="36" rx="18" fill="#ffffff" fill-opacity="0.16"/>
+  <text x="304" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#f8fbff">SNAPFACTS</text>
+</svg>'''
+    return f"data:image/svg+xml;utf8,{quote(svg)}"
+
+
+def is_generated_visual(url: Optional[str]) -> bool:
+    return bool(url and url.startswith("data:image/svg+xml"))
+
+
+def choose_preferred_image(existing: Optional[str], incoming: Optional[str]) -> Optional[str]:
+    if not incoming:
+        return existing
+    if not existing:
+        return incoming
+    if is_generated_visual(existing) and not is_generated_visual(incoming):
+        return incoming
+    if not is_generated_visual(existing) and is_generated_visual(incoming):
+        return existing
+    return incoming
+
+
+def visual_label(text: str, category: str) -> str:
+    signals = [
+        (r"\bopenai|chatgpt|llm|genai|model|agent\b", "AI"),
+        (r"\badvertis|campaign|adtech|marketing\b", "ADS"),
+        (r"\bretail|commerce|ecommerce|payment|shop\b", "COMMERCE"),
+        (r"\bmedia|publisher|streaming|creator\b", "MEDIA"),
+        (r"\bbrand|consumer|customer\b", "BRANDS"),
+        (r"\bstartup|funding|venture\b", "STARTUP"),
+    ]
+    for pattern, label in signals:
+        if re.search(pattern, text, re.IGNORECASE):
+            return label
+    return (category or "NEWS").replace("-", " ").upper()
+
+
+def compact_headline(value: str) -> str:
+    normalized = re.sub(r"\s+", " ", value or "").strip()
+    if not normalized:
+        return "SNAPFACTS SIGNAL"
+    candidate = re.split(r"\s[-:–—]\s|;\s|\s\|\s", normalized)[0] or normalized
+    words = candidate.split()
+    if len(words) > 10:
+        candidate = " ".join(words[:10])
+    return re.sub(r"\s+(and|or|with|for|to|from|via|by|amid|as|on|in)$", "", candidate, flags=re.IGNORECASE).strip().upper()
+
+
+def wrap_svg_text(value: str, max_chars: int, max_lines: int) -> List[str]:
+    words = re.sub(r"\s+", " ", value or "").strip().split()
+    lines: List[str] = []
+    current = ""
+    for word in words:
+        candidate = f"{current} {word}".strip()
+        if len(candidate) <= max_chars:
+            current = candidate
+            continue
+        if current:
+            lines.append(current)
+        current = word
+        if len(lines) >= max_lines - 1:
+            break
+    if current and len(lines) < max_lines:
+        lines.append(current)
+    return lines or ["SNAPFACTS"]
+
+
+def initials(value: str) -> str:
+    words = re.findall(r"[A-Za-z0-9]+", value or "")
+    if not words:
+        return "SF"
+    if len(words) == 1:
+        return words[0][:3].upper()
+    return "".join(word[0] for word in words[:2]).upper()
+
+
+def stable_hash(value: str) -> int:
+    result = 0
+    for char in value:
+        result = (result * 31 + ord(char)) & 0xFFFFFFFF
+    return result
+
+
+def escape_svg(value: str) -> str:
+    return (
+        str(value or "")
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&#39;")
+    )
+
+
 def _parse_date(value: Optional[str]) -> Optional[datetime]:
     if not value:
         return None
@@ -308,11 +446,11 @@ def build_clusters(entries: List[Dict[str, str]]) -> Dict[str, TrendCluster]:
             cluster.category = entry["category"] or cluster.category
             cluster.geo = entry["geo"] or cluster.geo
             cluster.link = entry["link"]
-            cluster.image = entry.get("image") or cluster.image
+            cluster.image = choose_preferred_image(cluster.image, entry.get("image"))
             cluster.published = published
             cluster.latest_seen = published
-        elif not cluster.image and entry.get("image"):
-            cluster.image = entry.get("image")
+        elif entry.get("image"):
+            cluster.image = choose_preferred_image(cluster.image, entry.get("image"))
         source = FeedSource(
             name=entry["source"],
             url="",

@@ -36,12 +36,13 @@ img {
 }
 
 .masthead {
-    background: var(--bg-dark);
-    color: #fff;
+    background: rgba(255, 255, 255, 0.96);
+    color: var(--ink);
     position: sticky;
     top: 0;
     z-index: 30;
-    box-shadow: 0 1px 0 rgba(255,255,255,0.08);
+    box-shadow: 0 1px 0 rgba(12, 18, 31, 0.1), 0 12px 30px rgba(12, 18, 31, 0.05);
+    backdrop-filter: blur(18px);
 }
 
 .nav-row {
@@ -91,9 +92,9 @@ img {
 
 .mobile-all-news-pill,
 .mobile-menu-toggle {
-    border: 1px solid rgba(255,255,255,0.24);
+    border: 1px solid rgba(12, 18, 31, 0.18);
     background: transparent;
-    color: rgba(255,255,255,0.92);
+    color: var(--ink);
     border-radius: 999px;
     min-height: 42px;
     padding: 0.45rem 0.9rem;
@@ -121,8 +122,8 @@ img {
     top: calc(100% + 0.55rem);
     right: 0;
     width: min(260px, 88vw);
-    background: #11161f;
-    border: 1px solid rgba(255,255,255,0.14);
+    background: #fff;
+    border: 1px solid rgba(12, 18, 31, 0.12);
     border-radius: 14px;
     padding: 0.55rem;
     box-shadow: 0 16px 38px rgba(2, 7, 18, 0.42);
@@ -136,9 +137,9 @@ img {
 }
 
 .mobile-category-option {
-    border: 1px solid rgba(255,255,255,0.1);
-    background: rgba(255,255,255,0.02);
-    color: #f4f8ff;
+    border: 1px solid rgba(12, 18, 31, 0.1);
+    background: rgba(12, 18, 31, 0.02);
+    color: var(--ink);
     border-radius: 10px;
     min-height: 40px;
     text-align: left;
@@ -155,9 +156,9 @@ img {
 }
 
 .masthead .category-pill {
-    border: 1px solid rgba(255,255,255,0.24);
+    border: 1px solid rgba(12, 18, 31, 0.16);
     background: transparent;
-    color: rgba(255,255,255,0.9);
+    color: rgba(12, 18, 31, 0.78);
     border-radius: 999px;
     padding: 0.4rem 0.8rem;
     font-size: 0.78rem;
@@ -184,9 +185,9 @@ img {
 }
 
 .icon-btn {
-    background: rgba(255,255,255,0.08);
+    background: rgba(12, 18, 31, 0.06);
     border: none;
-    color: #fff;
+    color: var(--ink);
     width: 36px;
     height: 36px;
     border-radius: 50%;

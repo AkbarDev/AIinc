@@ -1046,10 +1046,10 @@ function escapeAttr(value = '') {
 }
 
 function resolveCardImage(trend) {
-    if (trend?.image && /^https?:\/\//i.test(trend.image)) {
+    if (trend?.image && /^(https?:\/\/|data:image\/svg\+xml)/i.test(trend.image)) {
         return trend.image;
     }
-    return null;
+    return buildHeadlineThemeImage(trend);
 }
 
 const ENTITY_VISUALS = [
