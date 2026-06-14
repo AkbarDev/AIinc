@@ -136,6 +136,7 @@ const API_BASE = String(window.SNAPFACTS_API_BASE || '').replace(/\/$/, '');
 const state = {
     trends: [],
     meta: {},
+    sources: [],
     activeCategory: 'all',
     carouselIndex: 0,
     mobileMenuOpen: false,
@@ -179,6 +180,16 @@ async function loadData() {
         state.trends = FALLBACK_DATA.trends;
         state.meta = FALLBACK_DATA;
     }
+
+    try {
+        const res = await fetch(`config/sources.json?ts=${Date.now()}`);
+        if (res.ok) {
+            state.sources = await res.json();
+        }
+    } catch (error) {
+        console.warn('Failed to load sources list', error);
+    }
+
     renderAll();
 }
 
@@ -210,6 +221,7 @@ function renderAll() {
     renderSectionHeading();
     renderNewsArticleSchema();
     renderMetaStrip();
+    renderSources();
     syncActiveCategoryTheme();
 }
 
@@ -956,10 +968,34 @@ function renderMetaStrip() {
     const feedPool = Number(state.meta.feed_pool || 0);
     const feedLabel = feedPool > 0
         ? `${feedsPolled}/${feedPool}`
-        : `${feedsPolled || 0}`;
+        : `${state.sources.length || 0}`;
     strip.querySelectorAll('[data-meta="feeds"]').forEach((el) => (el.textContent = feedLabel));
 }
 
+function renderSources() {
+    const grid = document.getElementById('source-grid');
+    if (!grid || !state.sources || !state.sources.length) {
+        if (grid) {
+            grid.innerHTML = '<p>Source list available once config loads.</p>';
+        }
+        return;
+    }
+    grid.innerHTML = state.sources
+        .slice(0, 12)
+        .map(
+            (source) => `
+        <article class="source-card source-card-${normalizeCategory(source.category || 'all')}">
+            <p class="eyebrow">${normalizeCategory(source.category || 'all').toUpperCase()}</p>
+            <strong>${escapeHtml(source.name)}</strong>
+            <p class="source-copy">Coverage focus: ${escapeHtml(capitalize(source.geo || 'global'))} with authority ${(source.authority || 0.7).toFixed(2)}.</p>
+            <div class="source-meta-row">
+                <span>${escapeHtml(capitalize(source.category || 'general'))}</span>
+                <span>${escapeHtml(capitalize(source.geo || 'global'))}</span>
+            </div>
+        </article>`
+        )
+        .join('');
+}
 
 function renderCardMedia(item, imageUrl) {
     if (imageUrl) {
