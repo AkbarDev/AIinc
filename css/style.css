@@ -1163,7 +1163,7 @@ footer {
 
 @media (max-width: 640px) {
     .container {
-        width: min(100% - 2.4rem, 1200px);
+        width: min(100% - 1.2rem, 1200px);
     }
 
     .editorial-copy h1 {
@@ -2127,68 +2127,14 @@ body[data-active-category="saved"] .masthead .category-pill.active {
 }
 
 @media (max-width: 768px) {
-    html {
-        overscroll-behavior: none;
-    }
-
     html,
     body {
         min-height: 100%;
     }
 
-    /* Masthead stays visible — compact single-row strip */
+    .masthead,
     .front-section {
         display: none;
-    }
-
-    .masthead {
-        padding-top: env(safe-area-inset-top, 0);
-        position: sticky;
-        top: 0;
-        z-index: 60;
-    }
-
-    /* Override column layout from earlier 768px block — keep nav single row */
-    .nav-row {
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        align-items: center !important;
-        padding: 0.5rem 0 !important;
-        gap: 0.45rem !important;
-    }
-
-    .brand-logo {
-        height: 34px !important;
-    }
-
-    .primary-nav {
-        flex: 1 1 auto;
-        min-width: 0;
-        overflow: hidden;
-        margin-left: 0 !important;
-    }
-
-    .social-links,
-    .cta-btn {
-        display: none !important;
-    }
-
-    .mobile-all-news-pill {
-        flex: 1 1 auto;
-        min-width: 0;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        min-height: 34px !important;
-        font-size: 0.73rem !important;
-        padding: 0.35rem 0.65rem !important;
-    }
-
-    .mobile-menu-toggle {
-        flex-shrink: 0;
-        min-height: 34px !important;
-        min-width: 34px !important;
-        padding: 0.35rem 0.65rem !important;
     }
 
     .methodology,
@@ -2362,9 +2308,8 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         display: flex;
         flex-direction: column;
         gap: 0;
-        /* 56px = compact single-row masthead height */
-        height: calc(100svh - 56px);
-        min-height: calc(100svh - 56px);
+        height: 100svh;
+        min-height: 100svh;
         overflow-y: auto;
         scroll-snap-type: y mandatory;
         scroll-behavior: smooth;
@@ -2378,9 +2323,8 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         flex: 0 0 100%;
         height: 100%;
         min-height: 0;
-        /* Grid gives a reliable 50/50 image-to-body split */
-        display: grid;
-        grid-template-rows: 50% 1fr;
+        display: flex;
+        flex-direction: column;
         scroll-snap-align: start;
         scroll-snap-stop: always;
         border-radius: 0;
@@ -2389,19 +2333,13 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         overflow: hidden;
     }
 
-    /* Cards without images use full height for the body */
-    .news-card-grid .news-card.no-image {
-        grid-template-rows: 1fr;
-    }
-
     .news-card-grid .board-image {
-        /* Fills the 50% grid row exactly */
-        width: 100%;
-        height: 100%;
+        flex: 0 0 50%;
+        height: auto;
         min-height: 0;
-        object-fit: cover;
+        max-height: none;
         border-bottom: 1px solid #d8e1ee;
-        display: block;
+        object-fit: cover;
     }
 
     .news-card-grid .image-fallback {
@@ -2411,13 +2349,12 @@ body[data-active-category="saved"] .masthead .category-pill.active {
     }
 
     .news-card-grid .news-card-body {
+        flex: 1 1 auto;
         min-height: 0;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        padding: 0.92rem 1.1rem;
-        /* iOS home-bar safe area — content never hides behind it */
-        padding-bottom: max(0.95rem, env(safe-area-inset-bottom));
+        padding: 0.92rem 1.05rem 0.95rem;
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
     }
@@ -2426,13 +2363,8 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         margin-bottom: 0.46rem;
     }
 
-    /* Larger badge text — readable on 360px phones */
-    .news-card-grid .story-kicker span {
-        font-size: 0.76rem;
-    }
-
     .news-card-grid .news-card h4 {
-        font-size: 1.06rem;
+        font-size: 1.02rem;
         line-height: 1.28;
         margin-top: 0;
         padding-right: 0.05rem;
@@ -2440,16 +2372,16 @@ body[data-active-category="saved"] .masthead .category-pill.active {
 
     .news-card-grid .news-card .card-summary {
         color: #283348;
-        font-size: 0.97rem;
-        line-height: 1.52;
+        font-size: 0.94rem;
+        line-height: 1.48;
         margin-top: 0.48rem;
         display: block;
         overflow: visible;
     }
 
     .news-card-grid .card-insight {
-        font-size: 0.82rem;
-        line-height: 1.4;
+        font-size: 0.8rem;
+        line-height: 1.38;
         margin-top: 0.5rem;
         display: block;
         overflow: visible;
@@ -2465,16 +2397,15 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         gap: 0.45rem;
     }
 
-    /* 44px — Apple HIG minimum touch target */
     .news-card-grid .card-action-btn {
         flex: 0 0 auto;
-        min-height: 44px;
+        min-height: 38px;
     }
 
     .news-card-grid .icon-action {
-        width: 44px;
-        min-width: 44px;
-        min-height: 44px;
+        width: 40px;
+        min-width: 40px;
+        min-height: 40px;
     }
 
     .news-card-grid.is-compact .news-card {
@@ -2536,9 +2467,8 @@ body[data-active-category="saved"] .masthead .category-pill.active {
 
 @media (max-width: 480px) {
     .news-card-grid {
-        /* 52px = masthead on smallest phones */
-        height: calc(100svh - 52px);
-        min-height: calc(100svh - 52px);
+        height: 100svh;
+        min-height: 100svh;
         border-radius: 0;
     }
 
@@ -2547,14 +2477,11 @@ body[data-active-category="saved"] .masthead .category-pill.active {
     }
 
     .news-card-grid .board-image {
-        /* Grid takes over sizing — no flex-basis needed */
-        width: 100%;
-        height: 100%;
+        flex-basis: 50%;
     }
 
     .news-card-grid .news-card-body {
-        padding: 0.84rem 1rem;
-        padding-bottom: max(0.88rem, env(safe-area-inset-bottom));
+        padding: 0.84rem 0.96rem 0.88rem;
     }
 
     .news-card-grid .news-card h4 {
