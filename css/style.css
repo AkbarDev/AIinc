@@ -2400,7 +2400,8 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         min-height: 50svh;
         max-height: 50svh;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
+        background: #0a0e17;
         border-bottom: 1px solid #d8e1ee;
     }
 
@@ -2439,6 +2440,8 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         line-height: 1.28;
         margin-top: 0;
         padding-right: 0.05rem;
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
 
     .news-card-grid .news-card .card-summary {
