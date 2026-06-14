@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Snapfacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        :root {
+            --bg-primary: #0a0e17;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-blue: #0991ff;
+            --border-color: rgba(255, 255, 255, 0.08);
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem 1rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 100%;
+        }
+
+        .header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin: 0 0 0.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            color: var(--accent-blue);
+            letter-spacing: -0.01em;
+        }
+
+        p, li {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        ul {
+            padding-left: 1.25rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 600;
+            margin-top: 3rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 1.5rem;
+            width: 100%;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Privacy Policy</h1>
+            <p>Last updated: June 14, 2026</p>
+        </header>
+
+        <main>
+            <p>Snapfacts ("we", "our") is an open-source, privacy-first news signals aggregator. This Privacy Policy details how we handle user data across the Snapfacts website and iOS application wrapper.</p>
+
+            <h2>1. Minimal Data Collection</h2>
+            <p>We believe in absolute privacy. Snapfacts does not require user accounts, emails, passwords, or personal credentials. We collect only the minimal data required to support the bookmarks sync system:</p>
+            <ul>
+                <li><strong>Anonymous Sync Keys:</strong> A randomly-generated 16-character key is created on your device. This key is used strictly to index your bookmarked articles in the database.</li>
+                <li><strong>Bookmarked Article IDs:</strong> The IDs of stories you explicitly bookmark are stored on the PostgreSQL database associated with your anonymous Sync Key.</li>
+            </ul>
+
+            <h2>2. No Third-Party Analytics or Tracking</h2>
+            <p>We do not integrate any advertising SDKs, tracking pixels, or third-party behavioral analytics tools. Your browsing history, news clicks, and category preferences are never monitored, sold, or shared with third parties.</p>
+
+            <h2>3. External Links</h2>
+            <p>Our feed indexes headlines and links to third-party news websites. Once you click on an external story, you will be directed to that external domain. We are not responsible for the privacy practices of external publishers.</p>
+
+            <h2>4. Security</h2>
+            <p>All bookmarks and sync data are stored securely and transmitted over encrypted HTTPS connections. Because the Sync Key is entirely anonymous and contains no personal identifiers, it is impossible to map database records to a real-world identity.</p>
+
+            <h2>5. Contact Us</h2>
+            <p>If you have any questions regarding these privacy practices, please contact us via our GitHub project repository.</p>
+
+            <a href="/" class="back-link">&larr; Return to Snapfacts</a>
+        </main>
+    </div>
+</body>
+</html>

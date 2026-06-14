@@ -11,12 +11,14 @@
 		5EFA6354F357ED60735D3AA1 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC891DCEC17D27B3344A5733 /* WebView.swift */; };
 		6DA981CDB202ADA478134DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9695D36AF93D151F015BCC /* Assets.xcassets */; };
 		76D2625B5D424663FE3BC125 /* SnapfactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B3EE801B7B871F1FE9A0C0 /* SnapfactsApp.swift */; };
+		9FB1ED5D280942494ADCB0CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A234C068F27B3AA71DA14ED /* AppDelegate.swift */; };
 		B3A22398EDE37E3EF25F9975 /* OfflineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166CF02D498F18E4F07FBE5 /* OfflineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3166CF02D498F18E4F07FBE5 /* OfflineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineView.swift; sourceTree = "<group>"; };
 		63EA7D19C6397ECB6C47B0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A234C068F27B3AA71DA14ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		802AA5655D7B5ECF20E31484 /* Snapfacts.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Snapfacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC891DCEC17D27B3344A5733 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		E6B3EE801B7B871F1FE9A0C0 /* SnapfactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapfactsApp.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 		B5753861C451E77E6DFBECDC /* Snapfacts */ = {
 			isa = PBXGroup;
 			children = (
+				6A234C068F27B3AA71DA14ED /* AppDelegate.swift */,
 				FC9695D36AF93D151F015BCC /* Assets.xcassets */,
 				63EA7D19C6397ECB6C47B0AE /* ContentView.swift */,
 				3166CF02D498F18E4F07FBE5 /* OfflineView.swift */,
@@ -122,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FB1ED5D280942494ADCB0CA /* AppDelegate.swift in Sources */,
 				023B0D8A11A90BD23F5ACF75 /* ContentView.swift in Sources */,
 				B3A22398EDE37E3EF25F9975 /* OfflineView.swift in Sources */,
 				76D2625B5D424663FE3BC125 /* SnapfactsApp.swift in Sources */,
@@ -194,6 +198,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIViewControllerBasedStatusBarAppearance = NO;
@@ -214,6 +219,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UIViewControllerBasedStatusBarAppearance = NO;
