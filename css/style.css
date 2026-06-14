@@ -2431,6 +2431,14 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         overscroll-behavior-y: contain;
     }
 
+    /* Keep only category badge and headline, remove secondary details */
+    .news-card-grid .card-summary,
+    .news-card-grid .card-insight,
+    .news-card-grid .news-card-meta,
+    .news-card-grid .feed-refresh-link {
+        display: none !important;
+    }
+
     .news-card-grid .story-kicker {
         margin-bottom: 0.46rem;
     }
