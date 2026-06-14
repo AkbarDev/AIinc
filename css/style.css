@@ -2052,9 +2052,46 @@ body[data-active-category="saved"] .masthead .category-pill.active {
     font-weight: 800;
 }
 
+.card-media-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.card-image-actions {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    display: flex;
+    gap: 0.8rem;
+    z-index: 5;
+}
+
+.card-image-action-btn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    padding: 0.2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, color 0.2s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.7));
+}
+
+.card-image-action-btn:hover {
+    transform: scale(1.18);
+}
+
+.card-image-action-btn.is-active {
+    color: #38bdf8;
+}
+
 .card-actions {
     margin-top: 0.68rem;
-    display: flex;
+    display: none !important;
     align-items: center;
     gap: 0.42rem;
     flex-wrap: wrap;
@@ -2476,7 +2513,12 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         padding-top: 0.58rem;
     }
 
+    .news-card-grid .card-image-actions {
+        display: none !important;
+    }
+
     .news-card-grid .card-actions {
+        display: flex !important;
         margin-top: 0.58rem;
         gap: 0.45rem;
     }
@@ -2610,6 +2652,7 @@ body[data-active-category="saved"] .masthead .category-pill.active {
     }
 
     .card-actions {
+        display: flex !important;
         gap: 0.34rem;
     }
 

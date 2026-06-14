@@ -502,7 +502,13 @@ function renderNewsBoard() {
                 : '';
             return `
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">
-            ${renderCardMedia(item, image)}
+            <div class="card-media-wrapper">
+                ${renderCardMedia(item, image)}
+                <div class="card-image-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
+                    <button class="card-image-action-btn ${isSaved ? 'is-active' : ''}" type="button" data-action="save" aria-label="${isSaved ? 'Remove saved story' : 'Save story'}" title="${isSaved ? 'Saved' : 'Save'}"><i class="${isSaved ? 'fa-solid' : 'fa-regular'} fa-bookmark" aria-hidden="true"></i></button>
+                    <button class="card-image-action-btn" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
+                </div>
+            </div>
             <div class="news-card-body">
                 <div class="story-kicker">
                     <span>${escapeHtml(categoryLabel)}</span>
