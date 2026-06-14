@@ -85,6 +85,8 @@ const HEADER_CATEGORIES = [
     { key: 'ai', label: 'AI' },
     { key: 'media', label: 'MEDIA' },
     { key: 'brands', label: 'BRANDS' },
+    { key: 'saved', label: 'SAVED' },
+    { key: 'sync', label: '⚙️ SYNC' },
 ];
 
 
@@ -97,6 +99,7 @@ const CATEGORY_COPY = {
     ai: { eyebrow: 'AI focus', heading: 'Models, tooling, and enterprise AI adoption' },
     media: { eyebrow: 'Media focus', heading: 'Digital media distribution and audience growth' },
     brands: { eyebrow: 'Brands focus', heading: 'Insights into how leading global and emerging brands connect with consumers through storytelling, innovation, and purpose-driven marketing.' },
+    saved: { eyebrow: 'Saved stories', heading: 'Your bookmarked trends and clustered summaries' },
 };
 
 
@@ -157,15 +160,18 @@ const STORAGE_KEYS = {
     brief: 'snapfacts_brief_mode',
     follows: 'snapfacts_followed_topics',
     saved: 'snapfacts_saved_story_ids',
+    syncKey: 'snapfacts_user_sync_key',
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    initSyncKey();
     hydrateReaderPrefs();
     renderSkeletons();
     loadData();
     setupCategoryFilters();
     setupHeroCarousel();
     setupReaderInteractions();
+    setupSyncDialog();
 });
 
 async function loadData() {
@@ -180,6 +186,8 @@ async function loadData() {
         state.trends = FALLBACK_DATA.trends;
         state.meta = FALLBACK_DATA;
     }
+
+    await fetchBackendSavedArticles();
 
     try {
         const res = await fetch(`config/sources.json?ts=${Date.now()}`);
@@ -465,7 +473,11 @@ function renderNewsBoard() {
     const mobileReader = isMobileViewport();
     const cards = state.activeCategory === 'all' && !mobileReader ? list.slice(4, 16) : list.slice(0, 12);
     if (!cards.length) {
-        grid.innerHTML = '<p>No stories available for this category.</p>';
+        if (state.activeCategory === 'saved') {
+            grid.innerHTML = '<div class="empty-saved-state"><p>No saved stories yet.</p><span>Tap the bookmark icon on any news card to save it here.</span></div>';
+        } else {
+            grid.innerHTML = '<p>No stories available for this category.</p>';
+        }
         return;
     }
 
@@ -518,6 +530,12 @@ function renderNewsBoard() {
 function getCategoryTrends(categoryKey) {
     const sorted = [...state.trends].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
     const unique = dedupeTrends(sorted);
+    if (categoryKey === 'saved') {
+        return unique.filter((item) => {
+            const storyId = String(item.id || item.link || item.title || '').trim().toLowerCase();
+            return state.savedStoryIds.includes(storyId);
+        });
+    }
     if (categoryKey === 'all') {
         return prioritizeFollowedTopics(unique);
     }
@@ -673,6 +691,17 @@ function setupMobileCategoryMenu() {
 }
 
 function setActiveCategory(nextCategory) {
+    if (nextCategory === 'sync') {
+        const dialog = document.getElementById('sync-dialog');
+        if (dialog) {
+            const currentKeyInput = document.getElementById('sync-current-key');
+            if (currentKeyInput) {
+                currentKeyInput.value = safeStorageGet(STORAGE_KEYS.syncKey) || initSyncKey();
+            }
+            dialog.showModal();
+        }
+        return;
+    }
     state.activeCategory = nextCategory || 'all';
     renderCategoryPills();
     renderMobileCategoryMenu();
@@ -771,10 +800,19 @@ function persistReaderPrefs() {
 
 function toggleSavedStory(storyId) {
     if (!storyId) return;
+    const userKey = initSyncKey();
     if (state.savedStoryIds.includes(storyId)) {
         state.savedStoryIds = state.savedStoryIds.filter((id) => id !== storyId);
+        deleteSavedArticle(userKey, storyId);
     } else {
         state.savedStoryIds = [storyId, ...state.savedStoryIds].slice(0, 120);
+        const story = state.trends.find(item => {
+            const id = String(item.id || item.link || item.title || '').trim().toLowerCase();
+            return id === storyId;
+        });
+        if (story) {
+            uploadSavedArticle(userKey, story);
+        }
     }
     persistReaderPrefs();
 }
@@ -1309,4 +1347,146 @@ function hashValue(value) {
         hash = (hash * 31 + value.charCodeAt(i)) >>> 0;
     }
     return hash;
+}
+
+
+// --- Sync Key generation & Backend API functions ---
+
+function initSyncKey() {
+    let key = safeStorageGet(STORAGE_KEYS.syncKey);
+    if (!key || key.trim().length < 3) {
+        const chars = 'abcdefghijklmnopqrstuvwxyz0123456789';
+        key = '';
+        for (let i = 0; i < 16; i++) {
+            key += chars.charAt(Math.floor(Math.random() * chars.length));
+        }
+        safeStorageSet(STORAGE_KEYS.syncKey, key);
+    }
+    return key;
+}
+
+async function fetchBackendSavedArticles() {
+    if (!API_BASE) return;
+    const userKey = initSyncKey();
+    try {
+        const res = await fetch(`${API_BASE}/v1/saved?user_key=${encodeURIComponent(userKey)}`);
+        if (!res.ok) throw new Error('API error');
+        const items = await res.json();
+        const backendIds = items.map(item => item.article_id);
+        
+        const localIds = state.savedStoryIds || [];
+        const mergedSet = new Set([...localIds, ...backendIds]);
+        state.savedStoryIds = Array.from(mergedSet).slice(0, 120);
+        
+        const missingOnBackend = localIds.filter(id => !backendIds.includes(id));
+        for (const localId of missingOnBackend) {
+            const story = state.trends.find(item => {
+                const storyId = String(item.id || item.link || item.title || '').trim().toLowerCase();
+                return storyId === localId;
+            });
+            if (story) {
+                await uploadSavedArticle(userKey, story);
+            }
+        }
+        
+        persistReaderPrefs();
+    } catch (e) {
+        console.warn('Failed to sync bookmarks with backend API', e);
+    }
+}
+
+async function uploadSavedArticle(userKey, story) {
+    if (!API_BASE) return;
+    const storyId = String(story.id || story.link || story.title || '').trim().toLowerCase();
+    try {
+        await fetch(`${API_BASE}/v1/saved`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                user_key: userKey,
+                article_id: storyId,
+                title: story.title || 'Untitled',
+                link: story.link || 'https://www.snapfacts.in',
+                category: story.category || 'all'
+            })
+        });
+    } catch (e) {
+        console.warn('Failed to upload saved article to backend', e);
+    }
+}
+
+async function deleteSavedArticle(userKey, storyId) {
+    if (!API_BASE) return;
+    try {
+        await fetch(`${API_BASE}/v1/saved?user_key=${encodeURIComponent(userKey)}&article_id=${encodeURIComponent(storyId)}`, {
+            method: 'DELETE'
+        });
+    } catch (e) {
+        console.warn('Failed to delete saved article from backend', e);
+    }
+}
+
+function setupSyncDialog() {
+    const dialog = document.getElementById('sync-dialog');
+    const closeBtn = document.getElementById('sync-close-btn');
+    const copyBtn = document.getElementById('sync-copy-btn');
+    const currentKeyInput = document.getElementById('sync-current-key');
+    const inputKey = document.getElementById('sync-input-key');
+    const saveBtn = document.getElementById('sync-save-btn');
+    
+    if (!dialog) return;
+    
+    const userKey = safeStorageGet(STORAGE_KEYS.syncKey) || initSyncKey();
+    if (currentKeyInput) currentKeyInput.value = userKey;
+    
+    if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+            dialog.close();
+        });
+    }
+    
+    if (copyBtn) {
+        copyBtn.addEventListener('click', async () => {
+            try {
+                await navigator.clipboard.writeText(currentKeyInput.value);
+                const originalHTML = copyBtn.innerHTML;
+                copyBtn.innerHTML = '<i class="fa-solid fa-check"></i> Copied';
+                setTimeout(() => {
+                    copyBtn.innerHTML = originalHTML;
+                }, 2000);
+            } catch (e) {
+                if (currentKeyInput) {
+                    currentKeyInput.select();
+                    document.execCommand('copy');
+                }
+            }
+        });
+    }
+    
+    if (saveBtn) {
+        saveBtn.addEventListener('click', async () => {
+            const nextKey = (inputKey ? inputKey.value : '').trim();
+            if (nextKey.length < 3) {
+                alert('Please enter a valid Sync Key.');
+                return;
+            }
+            if (nextKey === currentKeyInput.value) {
+                alert('This is already the active Sync Key for this device.');
+                return;
+            }
+            
+            safeStorageSet(STORAGE_KEYS.syncKey, nextKey);
+            state.savedStoryIds = [];
+            persistReaderPrefs();
+            
+            saveBtn.disabled = true;
+            saveBtn.textContent = 'Syncing...';
+            
+            await fetchBackendSavedArticles();
+            
+            alert('Bookmarks synced successfully!');
+            dialog.close();
+            window.location.reload();
+        });
+    }
 }

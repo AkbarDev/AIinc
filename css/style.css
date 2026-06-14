@@ -2635,3 +2635,206 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         transition: none !important;
     }
 }
+
+/* --- Sync Dialog & Saved Tab Premium Styles --- */
+
+.sync-dialog {
+    border: none;
+    border-radius: 20px;
+    background: #0f172a; /* Slate 900 */
+    color: #f8fafc; /* Slate 50 */
+    padding: 0;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 40px rgba(9, 145, 255, 0.15);
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.sync-dialog::backdrop {
+    background: rgba(15, 23, 42, 0.65);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.sync-dialog-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.sync-dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sync-dialog-header h3 {
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.sync-close-btn {
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    font-size: 1.5rem;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0.25rem;
+    transition: color 0.2s ease;
+}
+
+.sync-close-btn:hover {
+    color: #f8fafc;
+}
+
+.sync-dialog-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.sync-intro {
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: #94a3b8;
+}
+
+.sync-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sync-section label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #38bdf8; /* Sky 400 */
+}
+
+.sync-input-group {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.sync-input-group input {
+    flex: 1;
+    background: #1e293b;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 0.6rem 0.8rem;
+    color: #f8fafc;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    transition: border-color 0.2s ease;
+}
+
+.sync-input-group input:focus {
+    outline: none;
+    border-color: #38bdf8;
+}
+
+.sync-input-group input[readonly] {
+    background: rgba(30, 41, 59, 0.5);
+    color: #cbd5e1;
+    cursor: default;
+    border-style: dashed;
+}
+
+.sync-action-btn {
+    background: #334155;
+    border: none;
+    border-radius: 10px;
+    padding: 0 1rem;
+    color: #f8fafc;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.sync-action-btn:hover {
+    background: #475569;
+}
+
+.sync-action-btn.save-btn {
+    background: linear-gradient(135deg, #0991ff 0%, #0544b3 100%);
+    box-shadow: 0 4px 12px rgba(9, 145, 255, 0.25);
+}
+
+.sync-action-btn.save-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.sync-tip {
+    font-size: 0.73rem;
+    color: #64748b;
+    line-height: 1.4;
+}
+
+.sync-tip.warning-tip {
+    color: #fca5a5; /* Red 300 */
+}
+
+.sync-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #475569;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin: 0.25rem 0;
+}
+
+.sync-divider::before,
+.sync-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sync-divider span {
+    padding: 0 0.75rem;
+}
+
+/* SAVED Active Pill Style */
+body[data-active-category="saved"] .mobile-rail-pill.active {
+    border-color: #475569 !important;
+    background: #475569 !important;
+    color: #fff !important;
+}
+
+body[data-active-category="saved"] .category-pill.active {
+    border-color: #475569 !important;
+    background: #475569 !important;
+    color: #fff !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mobile-context-bar,
+    .mobile-tool-btn,
+    .mobile-rail-pill,
+    .card-action-btn,
+    .card-action-link {
+        transition: none !important;
+    }
+}
