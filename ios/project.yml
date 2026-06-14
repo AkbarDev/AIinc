@@ -1,0 +1,21 @@
+name: Snapfacts
+options:
+  bundleIdPrefix: in.snapfacts
+  deploymentTarget:
+    iOS: "15.0"
+
+targets:
+  Snapfacts:
+    type: application
+    platform: iOS
+    sources:
+      - Snapfacts
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: in.snapfacts.app
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_UILaunchScreen_Generation: true
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIViewControllerBasedStatusBarAppearance: false
+        SWIFT_VERSION: "5.5"
+        DEVELOPMENT_TEAM: ""
