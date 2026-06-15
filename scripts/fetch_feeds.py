@@ -194,6 +194,12 @@ def _extract_image(node: ET.Element, summary: Optional[str], ns: Dict[str, str])
         if _looks_like_image(url):
             return url
 
+    content_encoded = node.find("{http://purl.org/rss/1.0/modules/content/}encoded")
+    if content_encoded is not None and content_encoded.text:
+        match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', content_encoded.text, re.IGNORECASE)
+        if match and _looks_like_image(match.group(1)):
+            return match.group(1)
+
     enclosure = node.find("enclosure")
     if enclosure is not None:
         url = enclosure.attrib.get("url")
