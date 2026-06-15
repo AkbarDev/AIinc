@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import os
 import re
 import sys
 from collections import defaultdict
@@ -488,10 +489,86 @@ def compute_score(cluster: TrendCluster, now: datetime) -> Dict[str, float]:
     }
 
 
+def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
+    api_key = os.environ.get("HF_API_KEY")
+    if not api_key:
+        return None
+
+    generated_dir = BASE_DIR / "assets" / "images" / "generated"
+    generated_dir.mkdir(parents=True, exist_ok=True)
+    image_path = generated_dir / f"{trend_id}.jpg"
+
+    if image_path.exists():
+        return f"assets/images/generated/{trend_id}.jpg"
+
+    print(f"info: Generating AI image for cluster: {trend_id}...")
+    prompt = (
+        f"A clean, modern flat vector editorial style graphic illustration depicting: {title}. "
+        f"Category: {category}. Tech news aesthetic, dark mode background, minimalist design, vivid colors, "
+        f"high resolution, 16:9 aspect ratio."
+    )
+
+    url = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json"
+    }
+    payload = {
+        "inputs": prompt,
+    }
+
+    try:
+        data = json.dumps(payload).encode("utf-8")
+        req = Request(url, data=data, headers=headers, method="POST")
+        with urlopen(req, timeout=40) as response:
+            content_type = (response.info().get_content_type() or "").lower()
+            resp_bytes = response.read()
+
+            if "json" in content_type:
+                try:
+                    err_info = json.loads(resp_bytes.decode("utf-8", errors="ignore"))
+                    print(f"warn: HF API returned JSON instead of image: {err_info}", file=sys.stderr)
+                except Exception:
+                    print("warn: HF API returned JSON content type but body parse failed", file=sys.stderr)
+                return None
+
+            image_path.write_bytes(resp_bytes)
+            print(f"info: AI image successfully saved to {image_path}")
+            return f"assets/images/generated/{trend_id}.jpg"
+
+    except Exception as exc:
+        print(f"warn: failed to fetch AI image from Hugging Face: {exc}", file=sys.stderr)
+        return None
+
+
+def cleanup_old_generated_images(active_ids: List[str]) -> None:
+    generated_dir = BASE_DIR / "assets" / "images" / "generated"
+    if not generated_dir.exists():
+        return
+
+    active_filenames = {f"{tid}.jpg" for tid in active_ids}
+    deleted_count = 0
+    for file in generated_dir.glob("*.jpg"):
+        if file.name not in active_filenames:
+            try:
+                file.unlink()
+                deleted_count += 1
+            except Exception as e:
+                print(f"warn: failed to delete old generated image {file.name}: {e}", file=sys.stderr)
+
+    if deleted_count > 0:
+        print(f"info: Deleted {deleted_count} stale generated images")
+
+
 def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, window_hours: Optional[int] = 24) -> Dict[str, object]:
     now_utc = datetime.now(timezone.utc)
     cutoff_utc = None if window_hours is None else now_utc - timedelta(hours=window_hours)
     clusters = build_clusters(entries)
+    
+    # Clean up stale images and fetch AI images for active clusters lacking real ones
+    active_keys = [c.key for c in clusters.values() if not (cutoff_utc and c.published < cutoff_utc)]
+    cleanup_old_generated_images(active_keys)
+
     continent_counts = defaultdict(int)
     for entry in entries:
         continent = entry.get("continent", "global")
@@ -500,6 +577,12 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     for cluster in clusters.values():
         if cutoff_utc and cluster.published < cutoff_utc:
             continue
+        
+        if not cluster.image or is_generated_visual(cluster.image):
+            ai_image = fetch_ai_image(cluster.title, cluster.category, cluster.key)
+            if ai_image:
+                cluster.image = ai_image
+
         score_block = compute_score(cluster, now_utc)
         payload.append(
             {

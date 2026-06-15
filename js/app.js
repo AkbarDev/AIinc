@@ -229,7 +229,6 @@ function renderAll() {
     renderSectionHeading();
     renderNewsArticleSchema();
     renderMetaStrip();
-    renderSources();
     syncActiveCategoryTheme();
 }
 
@@ -1016,31 +1015,6 @@ function renderMetaStrip() {
     strip.querySelectorAll('[data-meta="feeds"]').forEach((el) => (el.textContent = feedLabel));
 }
 
-function renderSources() {
-    const grid = document.getElementById('source-grid');
-    if (!grid || !state.sources || !state.sources.length) {
-        if (grid) {
-            grid.innerHTML = '<p>Source list available once config loads.</p>';
-        }
-        return;
-    }
-    grid.innerHTML = state.sources
-        .slice(0, 12)
-        .map(
-            (source) => `
-        <article class="source-card source-card-${normalizeCategory(source.category || 'all')}">
-            <p class="eyebrow">${normalizeCategory(source.category || 'all').toUpperCase()}</p>
-            <strong>${escapeHtml(source.name)}</strong>
-            <p class="source-copy">Coverage focus: ${escapeHtml(capitalize(source.geo || 'global'))} with authority ${(source.authority || 0.7).toFixed(2)}.</p>
-            <div class="source-meta-row">
-                <span>${escapeHtml(capitalize(source.category || 'general'))}</span>
-                <span>${escapeHtml(capitalize(source.geo || 'global'))}</span>
-            </div>
-        </article>`
-        )
-        .join('');
-}
-
 function renderCardMedia(item, imageUrl) {
     if (imageUrl) {
         return `<img class="card-image board-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(cleanHeadline(item.title))}" loading="lazy" decoding="async" fetchpriority="low" width="640" height="360" sizes="(max-width: 768px) 96vw, (max-width: 1024px) 48vw, 24vw" />`;
@@ -1126,7 +1100,7 @@ function escapeAttr(value = '') {
 }
 
 function resolveCardImage(trend) {
-    if (trend?.image && /^(https?:\/\/|data:image\/svg\+xml)/i.test(trend.image)) {
+    if (trend?.image && (/^(https?:\/\/|data:image\/svg\+xml)/i.test(trend.image) || trend.image.startsWith('assets/'))) {
         return trend.image;
     }
     return buildHeadlineThemeImage(trend);
