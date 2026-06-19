@@ -1,0 +1,117 @@
+{
+  "name": "Snapfacts Daily AI Ingestion",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 0 * * *"
+            }
+          ]
+        },
+        "timezone": "Asia/Kolkata"
+      },
+      "id": "1",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://www.retailtechnologymagazine.com/feed/"
+      },
+      "id": "2",
+      "name": "RSS Feed 1",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [450, 100]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.manus.ai/v2/task.create",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-manus-api-key",
+              "value": "YOUR_MANUS_API_KEY"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "message",
+              "value": "={{ { content: 'Process this RSS item for snapfacts.in: ' + $json.title + ' ' + $json.contentSnippet + '. Provide a high-quality summary, score it based on relevance to advertising and retail transformation, and extract key keywords.' } }}"
+            },
+            {
+              "name": "structured_output_schema",
+              "value": "={{ { type: 'object', properties: { title: { type: 'string' }, summary: { type: 'string' }, score: { type: 'number' }, keywords: { type: 'array', items: { type: 'string' } } }, required: ['title', 'summary', 'score', 'keywords'], additionalProperties: false } }}"
+            }
+          ]
+        }
+      },
+      "id": "3",
+      "name": "Call Manus API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [700, 300]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "operation": "edit",
+        "owner": "AkbarDev",
+        "repository": "AIinc",
+        "filePath": "data/trends.json",
+        "fileContent": "={{ JSON.stringify($json.value ) }}",
+        "commitMessage": "chore: daily AI-processed RSS ingestion"
+      },
+      "id": "4",
+      "name": "GitHub Update",
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1,
+      "position": [950, 300]
+    }
+  ],
+  "connections": {
+    "1": {
+      "main": [
+        [
+          {
+            "node": "2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "2": {
+      "main": [
+        [
+          {
+            "node": "3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "3": {
+      "main": [
+        [
+          {
+            "node": "4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
