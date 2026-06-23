@@ -26,6 +26,50 @@ BADGE_DIR = BASE_DIR / "data" / "badges"
 USER_AGENT = "SnapFacts-TrendBot/1.0 (+https://www.snapfacts.in)"
 IST = timezone(timedelta(hours=5, minutes=30))
 
+import socket
+
+def resolve_hf_dns() -> Optional[str]:
+    """Query Google DoH (using IP 8.8.8.8 to bypass DNS) and Cloudflare DoH as a fallback to resolve api-inference.huggingface.co."""
+    url = "https://8.8.8.8/resolve?name=api-inference.huggingface.co"
+    req = Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urlopen(req, timeout=5) as resp:
+            data = json.loads(resp.read().decode())
+            answers = data.get("Answer", [])
+            for ans in answers:
+                if ans.get("type") == 1: # A record
+                    return ans.get("data")
+    except Exception as e:
+        print(f"warn: DoH resolution via Google DNS failed: {e}", file=sys.stderr)
+        
+    url_cf = "https://cloudflare-dns.com/dns-query?name=api-inference.huggingface.co&type=A"
+    req_cf = Request(url_cf, headers={"accept": "application/dns-json", "User-Agent": USER_AGENT})
+    try:
+        with urlopen(req_cf, timeout=5) as resp:
+            data = json.loads(resp.read().decode())
+            answers = data.get("Answer", [])
+            for ans in answers:
+                if ans.get("type") == 1: # A record
+                    return ans.get("data")
+    except Exception as e:
+        print(f"warn: DoH resolution via Cloudflare DNS failed: {e}", file=sys.stderr)
+        
+    return None
+
+_original_getaddrinfo = socket.getaddrinfo
+
+def patched_getaddrinfo(host, port, family=0, type=0, proto=0, flags=0):
+    if host == "api-inference.huggingface.co":
+        resolved_ip = resolve_hf_dns()
+        if resolved_ip:
+            try:
+                return _original_getaddrinfo(resolved_ip, port, family, type, proto, flags)
+            except Exception:
+                pass
+    return _original_getaddrinfo(host, port, family, type, proto, flags)
+
+socket.getaddrinfo = patched_getaddrinfo
+
 KEYWORD_SIGNALS = {
     "technology": ["ai", "artificial intelligence", "quantum", "cloud", "open source", "platform", "enterprise"],
     "media": ["streaming", "box office", "studio", "series", "film", "hollywood"],
