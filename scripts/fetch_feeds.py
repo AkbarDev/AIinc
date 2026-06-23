@@ -496,7 +496,7 @@ def compute_score(cluster: TrendCluster, now: datetime) -> Dict[str, float]:
 
 
 def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
-    api_key = os.environ.get("HF_API_KEY")
+    api_key = os.environ.get("HF_API_KEY") or os.environ.get("HF_TOKEN")
     if not api_key:
         return None
 
