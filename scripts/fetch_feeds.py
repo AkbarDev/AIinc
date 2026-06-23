@@ -29,30 +29,35 @@ IST = timezone(timedelta(hours=5, minutes=30))
 import socket
 
 def resolve_hf_dns() -> Optional[str]:
-    """Query Google DoH (using IP 8.8.8.8 to bypass DNS) and Cloudflare DoH as a fallback to resolve api-inference.huggingface.co."""
+    """Query Google DoH (using IP 8.8.8.8) and Cloudflare DoH (using IP 1.1.1.1) to resolve api-inference.huggingface.co."""
+    import ssl
+    ctx = ssl.create_default_context()
+    ctx.check_hostname = False
+    ctx.verify_mode = ssl.CERT_NONE
+
     url = "https://8.8.8.8/resolve?name=api-inference.huggingface.co"
     req = Request(url, headers={"User-Agent": USER_AGENT})
     try:
-        with urlopen(req, timeout=5) as resp:
+        with urlopen(req, context=ctx, timeout=5) as resp:
             data = json.loads(resp.read().decode())
             answers = data.get("Answer", [])
             for ans in answers:
                 if ans.get("type") == 1: # A record
                     return ans.get("data")
     except Exception as e:
-        print(f"warn: DoH resolution via Google DNS failed: {e}", file=sys.stderr)
+        print(f"warn: DoH resolution via Google DNS (8.8.8.8) failed: {e}", file=sys.stderr)
         
-    url_cf = "https://cloudflare-dns.com/dns-query?name=api-inference.huggingface.co&type=A"
+    url_cf = "https://1.1.1.1/dns-query?name=api-inference.huggingface.co&type=A"
     req_cf = Request(url_cf, headers={"accept": "application/dns-json", "User-Agent": USER_AGENT})
     try:
-        with urlopen(req_cf, timeout=5) as resp:
+        with urlopen(req_cf, context=ctx, timeout=5) as resp:
             data = json.loads(resp.read().decode())
             answers = data.get("Answer", [])
             for ans in answers:
                 if ans.get("type") == 1: # A record
                     return ans.get("data")
     except Exception as e:
-        print(f"warn: DoH resolution via Cloudflare DNS failed: {e}", file=sys.stderr)
+        print(f"warn: DoH resolution via Cloudflare DNS (1.1.1.1) failed: {e}", file=sys.stderr)
         
     return None
 
