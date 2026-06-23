@@ -509,9 +509,10 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
 
     print(f"info: Generating AI image for cluster: {trend_id}...")
     prompt = (
-        f"A clean, modern flat vector editorial style graphic illustration depicting: {title}. "
-        f"Category: {category}. Tech news aesthetic, dark mode background, minimalist design, vivid colors, "
-        f"high resolution, 16:9 aspect ratio."
+        f"A high-quality, professional corporate editorial graphic depicting the themes and brands from the headline: '{title}'. "
+        f"Design style: minimalist corporate graphic design on a clean, solid white background. "
+        f"Incorporate clean visual symbols, company branding elements, logos, and professional PNG-style iconography representing the subject. "
+        f"Vibrant brand colors, sharp details, modern minimalist aesthetic, 16:9 aspect ratio."
     )
 
     url = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
