@@ -506,6 +506,9 @@ function renderNewsBoard() {
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">
             <div class="card-media-wrapper">
                 ${renderCardMedia(item, image)}
+                <div class="card-image-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
+                    <button class="card-image-action-btn" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
+                </div>
             </div>
             <div class="news-card-body">
                 <h4><a class="headline-link" href="${storyHref}" target="_blank" rel="noopener">${escapeHtml(headline)}</a></h4>
@@ -516,6 +519,9 @@ function renderNewsBoard() {
                     <span>${escapeHtml(formatDate(item.published_at))}</span>
                 </div>
                 ${refreshLink}
+                <div class="card-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
+                    <button class="card-action-btn icon-action" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
+                </div>
             </div>
         </article>`;
         })

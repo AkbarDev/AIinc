@@ -2831,29 +2831,3 @@ body.is-ios-app .news-card-grid {
     min-height: calc(100svh - 38px - env(safe-area-inset-top, 0px)) !important;
 }
 
-body.is-ios-app .news-card-grid .news-card {
-    height: calc(100svh - 38px - env(safe-area-inset-top, 0px)) !important;
-    min-height: calc(100svh - 38px - env(safe-area-inset-top, 0px)) !important;
-}
-
-body.is-ios-app .news-card-grid .board-image,
-body.is-ios-app .news-card-grid .image-fallback {
-    height: 40% !important;
-    min-height: 40% !important;
-    max-height: 40% !important;
-}
-
-body.is-ios-app .news-card-grid .news-card-body {
-    height: 60% !important;
-    min-height: 60% !important;
-    max-height: 60% !important;
-}
-
-body.is-ios-app .news-card-grid .story-kicker {
-    display: none !important;
-}
-
-body.is-ios-app .news-card-grid .card-image-actions,
-body.is-ios-app .news-card-grid .card-actions {
-    display: none !important;
-}
