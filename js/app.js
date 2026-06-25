@@ -506,16 +506,8 @@ function renderNewsBoard() {
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">
             <div class="card-media-wrapper">
                 ${renderCardMedia(item, image)}
-                <div class="card-image-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
-                    <button class="card-image-action-btn ${isSaved ? 'is-active' : ''}" type="button" data-action="save" aria-label="${isSaved ? 'Remove saved story' : 'Save story'}" title="${isSaved ? 'Saved' : 'Save'}"><i class="${isSaved ? 'fa-solid' : 'fa-regular'} fa-bookmark" aria-hidden="true"></i></button>
-                    <button class="card-image-action-btn" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
-                </div>
             </div>
             <div class="news-card-body">
-                <div class="story-kicker">
-                    <span>${escapeHtml(categoryLabel)}</span>
-                    <span>${escapeHtml(storySignal)}</span>
-                </div>
                 <h4><a class="headline-link" href="${storyHref}" target="_blank" rel="noopener">${escapeHtml(headline)}</a></h4>
                 <p class="card-summary">${escapeHtml(storyBrief)}</p>
                 <p class="card-insight"><strong>Why it matters:</strong> ${escapeHtml(whyItMatters)}</p>
@@ -524,10 +516,6 @@ function renderNewsBoard() {
                     <span>${escapeHtml(formatDate(item.published_at))}</span>
                 </div>
                 ${refreshLink}
-                <div class="card-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
-                    <button class="card-action-btn icon-action ${isSaved ? 'is-active' : ''}" type="button" data-action="save" aria-label="${isSaved ? 'Remove saved story' : 'Save story'}" title="${isSaved ? 'Saved' : 'Save'}"><i class="${isSaved ? 'fa-solid' : 'fa-regular'} fa-bookmark" aria-hidden="true"></i></button>
-                    <button class="card-action-btn icon-action" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
-                </div>
             </div>
         </article>`;
         })

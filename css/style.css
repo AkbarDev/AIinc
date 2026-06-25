@@ -2848,3 +2848,12 @@ body.is-ios-app .news-card-grid .news-card-body {
     min-height: 60% !important;
     max-height: 60% !important;
 }
+
+body.is-ios-app .news-card-grid .story-kicker {
+    display: none !important;
+}
+
+body.is-ios-app .news-card-grid .card-image-actions,
+body.is-ios-app .news-card-grid .card-actions {
+    display: none !important;
+}
