@@ -2382,12 +2382,14 @@ body[data-active-category="saved"] .masthead .category-pill.active {
     }
 
     .news-card-grid .news-card .card-summary {
-        color: #283348;
-        font-size: 0.94rem;
-        line-height: 1.48;
-        margin-top: 0.48rem;
-        display: block;
-        overflow: visible;
+        color: #283348 !important;
+        font-size: 0.94rem !important;
+        line-height: 1.48 !important;
+        margin-top: 0.48rem !important;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        overflow: visible !important;
     }
 
     .news-card-grid .card-insight {
@@ -2541,8 +2543,11 @@ body[data-active-category="saved"] .masthead .category-pill.active {
     }
 
     .news-card-grid .news-card .card-summary {
-        font-size: 0.86rem;
-        line-height: 1.42;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        font-size: 0.86rem !important;
+        line-height: 1.42 !important;
     }
 
     .news-card-grid .card-insight {
