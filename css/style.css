@@ -2766,3 +2766,12 @@ body[data-active-category="saved"] .category-pill.active {
         transition: none !important;
     }
 }
+
+/* iOS App Specific Overrides */
+body.is-ios-app .brand {
+    display: none !important;
+}
+
+body.is-ios-app .primary-nav {
+    margin-left: 0;
+}

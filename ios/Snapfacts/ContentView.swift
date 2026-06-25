@@ -6,7 +6,11 @@ struct ContentView: View {
     @State private var isOffline: Bool = false
     @State private var reloadTrigger: UUID = UUID()
     
+    #if DEBUG
+    private let targetURL = URL(string: "http://localhost:8000")!
+    #else
     private let targetURL = URL(string: "https://www.snapfacts.in")!
+    #endif
     
     var body: some View {
         ZStack(alignment: .top) {

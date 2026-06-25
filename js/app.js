@@ -164,6 +164,9 @@ const STORAGE_KEYS = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    if (/SnapfactsiOS/i.test(navigator.userAgent)) {
+        document.body.classList.add('is-ios-app');
+    }
     initSyncKey();
     hydrateReaderPrefs();
     renderSkeletons();
