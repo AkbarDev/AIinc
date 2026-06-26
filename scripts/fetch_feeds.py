@@ -610,7 +610,7 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
     print(f"info: Generating AI image for cluster: {trend_id}...")
     prompt = generate_creative_prompt(title, category)
 
-    url = "https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell"
+    url = "https://router.huggingface.co/hf-inference/models/stable-diffusion-v1-5/stable-diffusion-v1-5"
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
