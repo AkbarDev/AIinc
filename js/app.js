@@ -262,7 +262,7 @@ function renderHeroCarousel() {
             const image = resolveCardImage(story);
             const isAiGenerated = image && (image.includes('/generated/') || image.startsWith('data:image/svg+xml'));
             const aiTag = isAiGenerated
-                ? `<span class="hero-carousel-tag hero-carousel-tag-ai"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI Generated</span>`
+                ? `<span class="hero-carousel-tag hero-carousel-tag-ai"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI</span>`
                 : '';
             const isActive = index === state.carouselIndex ? 'is-active' : '';
             const theme = normalizeCategory(story.category || 'all');
@@ -496,7 +496,7 @@ function renderNewsBoard() {
             const image = resolveCardImage(item);
             const isAiGenerated = image && (image.includes('/generated/') || image.startsWith('data:image/svg+xml'));
             const aiBadge = isAiGenerated 
-                ? `<span class="ai-generated-badge"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI Generated</span>` 
+                ? `<span class="ai-generated-badge"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI</span>` 
                 : '';
             const storyId = String(item.id || item.link || item.title || '').toLowerCase();
             const isSaved = state.savedStoryIds.includes(storyId);
