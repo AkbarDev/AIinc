@@ -1,7 +1,7 @@
 [
   {
     "name": "OpenAI Blog",
-    "url": "https://openai.com/blog/rss",
+    "url": "https://openai.com/news/rss.xml",
     "category": "ai",
     "continent": "NA",
     "geo": "global",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Anthropic News",
-    "url": "https://www.anthropic.com/news/rss.xml",
+    "url": "https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/main/feeds/anthropic-news.xml",
     "category": "ai",
     "continent": "NA",
     "geo": "global",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/feed",
+    "url": "https://huggingface.co/blog/feed.xml",
     "category": "ai",
     "continent": "EU",
     "geo": "global",
@@ -262,14 +262,6 @@
     "continent": "NA",
     "geo": "global",
     "authority": 0.79
-  },
-  {
-    "name": "AppsFlyer Blog",
-    "url": "https://www.appsflyer.com/blog/feed/",
-    "category": "startup",
-    "continent": "EU",
-    "geo": "global",
-    "authority": 0.78
   },
   {
     "name": "HubSpot Marketing Blog",

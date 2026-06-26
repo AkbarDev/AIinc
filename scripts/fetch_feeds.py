@@ -29,13 +29,13 @@ IST = timezone(timedelta(hours=5, minutes=30))
 import socket
 
 def resolve_hf_dns() -> Optional[str]:
-    """Query Google DoH (using IP 8.8.8.8) and Cloudflare DoH (using IP 1.1.1.1) to resolve api-inference.huggingface.co."""
+    """Query Google DoH (using IP 8.8.8.8) and Cloudflare DoH (using IP 1.1.1.1) to resolve router.huggingface.co."""
     import ssl
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
 
-    url = "https://8.8.8.8/resolve?name=api-inference.huggingface.co"
+    url = "https://8.8.8.8/resolve?name=router.huggingface.co"
     req = Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urlopen(req, context=ctx, timeout=5) as resp:
@@ -47,7 +47,7 @@ def resolve_hf_dns() -> Optional[str]:
     except Exception as e:
         print(f"warn: DoH resolution via Google DNS (8.8.8.8) failed: {e}", file=sys.stderr)
         
-    url_cf = "https://1.1.1.1/dns-query?name=api-inference.huggingface.co&type=A"
+    url_cf = "https://1.1.1.1/dns-query?name=router.huggingface.co&type=A"
     req_cf = Request(url_cf, headers={"accept": "application/dns-json", "User-Agent": USER_AGENT})
     try:
         with urlopen(req_cf, context=ctx, timeout=5) as resp:
@@ -64,7 +64,7 @@ def resolve_hf_dns() -> Optional[str]:
 _original_getaddrinfo = socket.getaddrinfo
 
 def patched_getaddrinfo(host, port, family=0, type=0, proto=0, flags=0):
-    if host == "api-inference.huggingface.co":
+    if host == "router.huggingface.co":
         resolved_ip = resolve_hf_dns()
         if resolved_ip:
             # Construct and return socket address info tuple directly to avoid glibc resolver error with numeric IPs
@@ -162,7 +162,13 @@ def load_sources(path: Path) -> List[FeedSource]:
 
 
 def fetch_feed_xml(source: FeedSource) -> Optional[str]:
-    req = Request(source.url, headers={"User-Agent": USER_AGENT})
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Connection": "keep-alive"
+    }
+    req = Request(source.url, headers=headers)
     try:
         with urlopen(req, timeout=20) as resp:
             return resp.read().decode("utf-8", errors="ignore")
@@ -564,7 +570,7 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
         f"Vibrant brand colors, sharp details, modern minimalist aesthetic, 16:9 aspect ratio."
     )
 
-    url = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
+    url = "https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell"
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
