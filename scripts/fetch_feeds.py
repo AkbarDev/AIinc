@@ -545,8 +545,10 @@ def compute_score(cluster: TrendCluster, now: datetime) -> Dict[str, float]:
 
 
 def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
-    api_key = os.environ.get("HF_API_KEY") or os.environ.get("HF_TOKEN")
+    import time
+    api_key = os.environ.get("HF_API_KEY") or os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_API_KEY")
     if not api_key:
+        print("info: Hugging Face API key not found in environment; skipping AI image generation.", file=sys.stderr)
         return None
 
     generated_dir = BASE_DIR / "assets" / "images" / "generated"
@@ -573,28 +575,63 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
         "inputs": prompt,
     }
 
-    try:
-        data = json.dumps(payload).encode("utf-8")
-        req = Request(url, data=data, headers=headers, method="POST")
-        with urlopen(req, timeout=40) as response:
-            content_type = (response.info().get_content_type() or "").lower()
-            resp_bytes = response.read()
+    max_retries = 3
+    retry_delay = 5
 
-            if "json" in content_type:
+    for attempt in range(max_retries):
+        try:
+            data = json.dumps(payload).encode("utf-8")
+            req = Request(url, data=data, headers=headers, method="POST")
+            with urlopen(req, timeout=40) as response:
+                content_type = (response.info().get_content_type() or "").lower()
+                resp_bytes = response.read()
+
+                if "json" in content_type:
+                    try:
+                        err_info = json.loads(resp_bytes.decode("utf-8", errors="ignore"))
+                        # Handle Hugging Face model loading state (if returned inside a 200 JSON payload)
+                        if "estimated_time" in err_info:
+                            est_time = float(err_info.get("estimated_time", 5))
+                            wait_time = min(est_time, 15)  # cap wait time to 15s per retry
+                            print(f"info: HF model is loading. Waiting {wait_time}s (attempt {attempt + 1}/{max_retries})...")
+                            time.sleep(wait_time)
+                            continue
+                        else:
+                            print(f"warn: HF API returned JSON instead of image: {err_info}", file=sys.stderr)
+                    except Exception:
+                        print("warn: HF API returned JSON content type but body parse failed", file=sys.stderr)
+                    return None
+
+                image_path.write_bytes(resp_bytes)
+                print(f"info: AI image successfully saved to {image_path}")
+                return f"assets/images/generated/{trend_id}.jpg"
+
+        except HTTPError as err:
+            # Handle Hugging Face model loading state (503 Service Unavailable is standard for model loading)
+            if err.code == 503:
                 try:
-                    err_info = json.loads(resp_bytes.decode("utf-8", errors="ignore"))
-                    print(f"warn: HF API returned JSON instead of image: {err_info}", file=sys.stderr)
+                    err_bytes = err.read()
+                    err_info = json.loads(err_bytes.decode("utf-8", errors="ignore"))
+                    if "estimated_time" in err_info:
+                        est_time = float(err_info.get("estimated_time", 5))
+                        wait_time = min(est_time, 15)
+                        print(f"info: HF model is loading (503). Waiting {wait_time}s (attempt {attempt + 1}/{max_retries})...")
+                        time.sleep(wait_time)
+                        continue
                 except Exception:
-                    print("warn: HF API returned JSON content type but body parse failed", file=sys.stderr)
-                return None
-
-            image_path.write_bytes(resp_bytes)
-            print(f"info: AI image successfully saved to {image_path}")
-            return f"assets/images/generated/{trend_id}.jpg"
-
-    except Exception as exc:
-        print(f"warn: failed to fetch AI image from Hugging Face: {exc}", file=sys.stderr)
-        return None
+                    pass
+            print(f"warn: HF API HTTP Error {err.code}: {err.reason}", file=sys.stderr)
+            if attempt < max_retries - 1:
+                time.sleep(retry_delay)
+                continue
+            return None
+        except Exception as exc:
+            print(f"warn: failed to fetch AI image from Hugging Face: {exc}", file=sys.stderr)
+            if attempt < max_retries - 1:
+                time.sleep(retry_delay)
+                continue
+            return None
+    return None
 
 
 def cleanup_old_generated_images(active_ids: List[str]) -> None:
@@ -689,7 +726,28 @@ def comparable_signature(data: Dict[str, object]) -> Dict[str, object]:
     }
 
 
+def load_env_file() -> None:
+    env_path = BASE_DIR / ".env"
+    if env_path.exists():
+        try:
+            for line in env_path.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                parts = line.split("=", 1)
+                if len(parts) == 2:
+                    key, val = parts[0].strip(), parts[1].strip()
+                    if (val.startswith('"') and val.endswith('"')) or (val.startswith("'") and val.endswith("'")):
+                        val = val[1:-1]
+                    if key not in os.environ:
+                        os.environ[key] = val
+            print("info: Loaded environment variables from local .env file")
+        except Exception as e:
+            print(f"warn: failed to load local .env file: {e}", file=sys.stderr)
+
+
 def main() -> None:
+    load_env_file()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=OUTPUT_PATH)
     parser.add_argument("--sources", type=Path, default=CONFIG_PATH)
