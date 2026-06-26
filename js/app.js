@@ -524,8 +524,8 @@ function renderNewsBoard() {
                 <div class="news-card-meta">
                     <span class="source-name">${escapeHtml(sourceLabel)}</span>
                     <div class="card-dates">
-                        <span>Pub: ${escapeHtml(formatDate(item.published_at))}</span>
-                        ${state.meta?.generated_at ? `<span class="refresh-date">Ref: ${escapeHtml(formatDate(state.meta.generated_at))}</span>` : ''}
+                        <span>Published: ${escapeHtml(formatDate(item.published_at))}</span>
+                        ${state.meta?.generated_at ? `<span class="refresh-date">Refreshed: ${escapeHtml(formatDate(state.meta.generated_at))}</span>` : ''}
                     </div>
                 </div>
             </div>
