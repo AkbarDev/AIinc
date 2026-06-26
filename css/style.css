@@ -2831,3 +2831,35 @@ body.is-ios-app .news-card-grid {
     min-height: calc(100svh - 38px - env(safe-area-inset-top, 0px)) !important;
 }
 
+/* AI Generated Visual Styling */
+.ai-generated-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(15, 23, 42, 0.82);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    color: #38bdf8;
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    z-index: 5;
+    pointer-events: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-carousel-tag-ai {
+    background: rgba(56, 189, 248, 0.15) !important;
+    border: 1px solid rgba(56, 189, 248, 0.45) !important;
+    color: #38bdf8 !important;
+    font-weight: 700;
+}
+
+

@@ -548,6 +548,51 @@ def compute_score(cluster: TrendCluster, now: datetime) -> Dict[str, float]:
     }
 
 
+def generate_creative_prompt(title: str, category: str) -> str:
+    title_lower = title.lower()
+    
+    # Identify themes based on keywords
+    is_ai = any(w in title_lower for w in ["ai", "openai", "chatgpt", "claude", "anthropic", "gemini", "llm", "vllm", "intelligence", "agent", "neural"])
+    is_finance = any(w in title_lower for w in ["raise", "funding", "seed", "million", "billion", "series", "finance", "bet", "acquire", "deal", "invest", "price"])
+    is_security = any(w in title_lower for w in ["hack", "stole", "breach", "leak", "threat", "delete", "criminal", "safety", "safety concerns", "concern"])
+    is_policy = any(w in title_lower for w in ["trump", "administration", "policy", "regulat", "law", "rule", "ban", "bar"])
+    is_creator = any(w in title_lower for w in ["youtube", "shorts", "playback", "tiktok", "instagram", "creator", "media", "video", "music"])
+    is_tech = any(w in title_lower for w in ["apple", "mac", "ipad", "iphone", "google", "microsoft", "xbox", "hardware", "chip", "semiconductor", "server", "notion"])
+
+    # Build theme-specific descriptions
+    if is_ai:
+        concept = "A futuristic concept of cognitive computing. Depict glowing neon blue and teal neural networks, abstract brain nodes connecting to digital cloud databases, and clean minimalistic AI code patterns."
+        colors = "Electric blue, neon teal, and deep slate gray."
+    elif is_security:
+        concept = "A security concept depicting data protection. Show a stylized glowing digital lock or shield symbol surrounded by abstract flowing code streams, clean safety matrix visual indicators, and minimal geometric grid accents."
+        colors = "Vibrant crimson, steel silver, and dark charcoal."
+    elif is_finance:
+        concept = "An abstract business growth visualization. Show a modern, isometric floating platform with rising translucent bar charts, golden spark lines, and clean geometric nodes representing investment flow."
+        colors = "Emerald green, navy blue, and platinum white."
+    elif is_policy:
+        concept = "An editorial representation of policy and governance. Show clean abstract silhouettes of federal buildings or classical pillars, stylized balance scale structures, and subtle geometric connection lines."
+        colors = "Patriot blue, marble white, and gold accents."
+    elif is_creator:
+        concept = "A vibrant creator economy editorial concept. Depict stylized play buttons, flowing soundwaves, modern mobile screen outlines, and abstract colorful gradient shapes."
+        colors = "Hot pink, sunset orange, and rich purple."
+    elif is_tech:
+        concept = "A clean high-tech hardware representation. Depict stylized outlines of sleek screens, glowing silicon chip boards with golden path nodes, and minimal abstract device wires."
+        colors = "Tech cobalt, pure white, and lime accent green."
+    else:
+        concept = "A premium abstract corporate editorial graphic. Depict modern floating geometric shapes, clean isometric visual nodes, and subtle brand connection lines."
+        colors = "Harmonious vibrant brand gradients on a clean background."
+
+    # Assemble creative prompt
+    prompt = (
+        f"A premium, professional tech editorial graphic illustrating the topic: '{title}'. "
+        f"Visual concept: {concept} "
+        f"Art style: high-end modern flat vector illustration with smooth gradients and subtle isometric depth. "
+        f"Minimalist corporate branding aesthetic, clean lines, professional presentation, solid clean background, 16:9 aspect ratio. "
+        f"Color scheme: {colors}"
+    )
+    return prompt
+
+
 def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
     import time
     api_key = os.environ.get("HF_API_KEY") or os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_API_KEY")
@@ -563,12 +608,7 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
         return f"assets/images/generated/{trend_id}.jpg"
 
     print(f"info: Generating AI image for cluster: {trend_id}...")
-    prompt = (
-        f"A high-quality, professional corporate editorial graphic depicting the themes and brands from the headline: '{title}'. "
-        f"Design style: minimalist corporate graphic design on a clean, solid white background. "
-        f"Incorporate clean visual symbols, company branding elements, logos, and professional PNG-style iconography representing the subject. "
-        f"Vibrant brand colors, sharp details, modern minimalist aesthetic, 16:9 aspect ratio."
-    )
+    prompt = generate_creative_prompt(title, category)
 
     url = "https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell"
     headers = {

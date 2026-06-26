@@ -260,6 +260,10 @@ function renderHeroCarousel() {
     track.innerHTML = stories
         .map((story, index) => {
             const image = resolveCardImage(story);
+            const isAiGenerated = image && (image.includes('/generated/') || image.startsWith('data:image/svg+xml'));
+            const aiTag = isAiGenerated
+                ? `<span class="hero-carousel-tag hero-carousel-tag-ai"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI Generated</span>`
+                : '';
             const isActive = index === state.carouselIndex ? 'is-active' : '';
             const theme = normalizeCategory(story.category || 'all');
             const sourceBadge = story.source_count ? `${story.source_count} source${story.source_count === 1 ? '' : 's'}` : 'Live feed';
@@ -270,6 +274,7 @@ function renderHeroCarousel() {
                     <div class="hero-carousel-tags">
                         <span class="hero-carousel-tag">${story.category ? story.category.toUpperCase() : 'TRENDING'}</span>
                         <span class="hero-carousel-tag hero-carousel-tag-muted">${sourceBadge}</span>
+                        ${aiTag}
                     </div>
                     <h2>${story.title}</h2>
                     <p>${summarize(story.summary, 190)}</p>
@@ -489,6 +494,10 @@ function renderNewsBoard() {
     grid.innerHTML = cards
         .map((item) => {
             const image = resolveCardImage(item);
+            const isAiGenerated = image && (image.includes('/generated/') || image.startsWith('data:image/svg+xml'));
+            const aiBadge = isAiGenerated 
+                ? `<span class="ai-generated-badge"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI Generated</span>` 
+                : '';
             const storyId = String(item.id || item.link || item.title || '').toLowerCase();
             const isSaved = state.savedStoryIds.includes(storyId);
             const headline = cleanHeadline(item.title);
@@ -506,6 +515,7 @@ function renderNewsBoard() {
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">
             <div class="card-media-wrapper">
                 ${renderCardMedia(item, image)}
+                ${aiBadge}
                 <div class="card-image-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
                     <button class="card-image-action-btn" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
                 </div>
