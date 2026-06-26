@@ -67,10 +67,8 @@ def patched_getaddrinfo(host, port, family=0, type=0, proto=0, flags=0):
     if host == "api-inference.huggingface.co":
         resolved_ip = resolve_hf_dns()
         if resolved_ip:
-            try:
-                return _original_getaddrinfo(resolved_ip, port, family, type, proto, flags)
-            except Exception:
-                pass
+            # Construct and return socket address info tuple directly to avoid glibc resolver error with numeric IPs
+            return [(socket.AF_INET, socket.SOCK_STREAM, socket.IPPROTO_TCP, "", (resolved_ip, port))]
     return _original_getaddrinfo(host, port, family, type, proto, flags)
 
 socket.getaddrinfo = patched_getaddrinfo
