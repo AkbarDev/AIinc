@@ -688,7 +688,7 @@ img {
 }
 
 .news-card-body {
-    padding: 0.9rem 0.95rem 1rem;
+    padding: 0.9rem 0.95rem 0.7rem;
 }
 
 .news-card h4 {
@@ -713,12 +713,22 @@ img {
 .news-card-meta {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 0.5rem;
     font-size: 0.82rem;
     color: #6d7482;
     border-top: 1px solid var(--border);
-    margin-top: 0.75rem;
-    padding-top: 0.65rem;
+    margin-top: 0.6rem;
+    padding-top: 0.5rem;
+}
+
+.card-dates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    font-size: 0.74rem;
+    line-height: 1.25;
 }
 
 .save-btn {

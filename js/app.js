@@ -508,9 +508,6 @@ function renderNewsBoard() {
             const whyItMatters = buildWhyItMatters(item);
             const storyBrief = buildStoryBrief(item, whyItMatters, mobileReader ? 72 : state.briefMode ? 48 : 72);
             const storyHref = escapeAttr(item.link);
-            const refreshLink = state.activeCategory === 'all'
-                ? `<a class="feed-refresh-link" href="data/trends.json" target="_blank" rel="noopener">Refresh: ${escapeHtml(formatDate(state.meta.generated_at))}</a>`
-                : '';
             return `
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">
             <div class="card-media-wrapper">
@@ -526,11 +523,10 @@ function renderNewsBoard() {
                 <p class="card-insight"><strong>Why it matters:</strong> ${escapeHtml(whyItMatters)}</p>
                 <div class="news-card-meta">
                     <span class="source-name">${escapeHtml(sourceLabel)}</span>
-                    <span>${escapeHtml(formatDate(item.published_at))}</span>
-                </div>
-                ${refreshLink}
-                <div class="card-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
-                    <button class="card-action-btn icon-action" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
+                    <div class="card-dates">
+                        <span>Pub: ${escapeHtml(formatDate(item.published_at))}</span>
+                        ${state.meta?.generated_at ? `<span class="refresh-date">Ref: ${escapeHtml(formatDate(state.meta.generated_at))}</span>` : ''}
+                    </div>
                 </div>
             </div>
         </article>`;
