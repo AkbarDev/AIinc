@@ -595,11 +595,6 @@ def generate_creative_prompt(title: str, category: str) -> str:
 
 def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
     import time
-    api_key = os.environ.get("HF_API_KEY") or os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_API_KEY")
-    if not api_key:
-        print("info: Hugging Face API key not found in environment; skipping AI image generation.", file=sys.stderr)
-        return None
-
     generated_dir = BASE_DIR / "assets" / "images" / "generated"
     generated_dir.mkdir(parents=True, exist_ok=True)
     image_path = generated_dir / f"{trend_id}.jpg"
@@ -610,13 +605,12 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
     print(f"info: Generating AI image for cluster: {trend_id}...")
     prompt = generate_creative_prompt(title, category)
 
-    url = "https://router.huggingface.co/hf-inference/models/stable-diffusion-v1-5/stable-diffusion-v1-5"
+    # Use Pollinations AI (100% Free, Unlimited, Open-Source image generation API)
+    encoded_prompt = quote(prompt)
+    url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=640&height=360&nologo=true&private=true"
+    
     headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
-    }
-    payload = {
-        "inputs": prompt,
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
 
     max_retries = 3
@@ -624,26 +618,13 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
 
     for attempt in range(max_retries):
         try:
-            data = json.dumps(payload).encode("utf-8")
-            req = Request(url, data=data, headers=headers, method="POST")
-            with urlopen(req, timeout=40) as response:
+            req = Request(url, headers=headers, method="GET")
+            with urlopen(req, timeout=30) as response:
                 content_type = (response.info().get_content_type() or "").lower()
                 resp_bytes = response.read()
 
-                if "json" in content_type:
-                    try:
-                        err_info = json.loads(resp_bytes.decode("utf-8", errors="ignore"))
-                        # Handle Hugging Face model loading state (if returned inside a 200 JSON payload)
-                        if "estimated_time" in err_info:
-                            est_time = float(err_info.get("estimated_time", 5))
-                            wait_time = min(est_time, 15)  # cap wait time to 15s per retry
-                            print(f"info: HF model is loading. Waiting {wait_time}s (attempt {attempt + 1}/{max_retries})...")
-                            time.sleep(wait_time)
-                            continue
-                        else:
-                            print(f"warn: HF API returned JSON instead of image: {err_info}", file=sys.stderr)
-                    except Exception:
-                        print("warn: HF API returned JSON content type but body parse failed", file=sys.stderr)
+                if "image" not in content_type:
+                    print(f"warn: Pollinations API returned non-image content type: {content_type}", file=sys.stderr)
                     return None
 
                 image_path.write_bytes(resp_bytes)
@@ -656,26 +637,13 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
                 err_body = err.read().decode("utf-8", errors="ignore")
             except Exception:
                 pass
-            
-            # Handle Hugging Face model loading state (503 Service Unavailable is standard for model loading)
-            if err.code == 503:
-                try:
-                    err_info = json.loads(err_body)
-                    if "estimated_time" in err_info:
-                        est_time = float(err_info.get("estimated_time", 5))
-                        wait_time = min(est_time, 15)
-                        print(f"info: HF model is loading (503). Waiting {wait_time}s (attempt {attempt + 1}/{max_retries})...")
-                        time.sleep(wait_time)
-                        continue
-                except Exception:
-                    pass
-            print(f"warn: HF API HTTP Error {err.code}: {err.reason}. Details: {err_body}", file=sys.stderr)
+            print(f"warn: Pollinations API HTTP Error {err.code}: {err.reason}. Details: {err_body}", file=sys.stderr)
             if attempt < max_retries - 1:
                 time.sleep(retry_delay)
                 continue
             return None
         except Exception as exc:
-            print(f"warn: failed to fetch AI image from Hugging Face: {exc}", file=sys.stderr)
+            print(f"warn: failed to fetch AI image from Pollinations: {exc}", file=sys.stderr)
             if attempt < max_retries - 1:
                 time.sleep(retry_delay)
                 continue
@@ -715,17 +683,31 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     for entry in entries:
         continent = entry.get("continent", "global")
         continent_counts[continent] += 1
-    payload = []
+
+    # First, calculate scores and filter active clusters
+    scored_clusters = []
     for cluster in clusters.values():
         if cutoff_utc and cluster.published < cutoff_utc:
             continue
-        
-        if not cluster.image or is_generated_visual(cluster.image):
-            ai_image = fetch_ai_image(cluster.title, cluster.category, cluster.key)
-            if ai_image:
-                cluster.image = ai_image
-
         score_block = compute_score(cluster, now_utc)
+        scored_clusters.append((cluster, score_block))
+
+    # Sort clusters by score descending
+    scored_clusters.sort(key=lambda item: item[1]["score"], reverse=True)
+
+    # Generate AI images for top-trending clusters that lack a real image (limit to 10 new generations per run)
+    gen_count = 0
+    max_generations_per_run = 10
+    for cluster, score_block in scored_clusters:
+        if not cluster.image or is_generated_visual(cluster.image):
+            if gen_count < max_generations_per_run:
+                ai_image = fetch_ai_image(cluster.title, cluster.category, cluster.key)
+                if ai_image:
+                    cluster.image = ai_image
+                    gen_count += 1
+
+    payload = []
+    for cluster, score_block in scored_clusters:
         payload.append(
             {
                 "id": cluster.key,
@@ -743,7 +725,6 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
                 "signals": score_block,
             }
         )
-    payload.sort(key=lambda item: item["score"], reverse=True)
     ordered_continents = ["NA", "SA", "EU", "AF", "AS", "OC", "global"]
     normalized_counts = {key: continent_counts.get(key, 0) for key in ordered_continents}
     top_continent = max(normalized_counts, key=normalized_counts.get) if normalized_counts else "global"
@@ -795,51 +776,8 @@ def load_env_file() -> None:
             print(f"warn: failed to load local .env file: {e}", file=sys.stderr)
 
 
-def test_model_catalog() -> None:
-    api_key = os.environ.get("HF_API_KEY") or os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_API_KEY")
-    if not api_key:
-        print("info: Diagnostic skipped; HF API key not in environment.", file=sys.stderr)
-        return
-
-    candidate_models = [
-        "stable-diffusion-v1-5/stable-diffusion-v1-5",
-        "runwayml/stable-diffusion-v1-5",
-        "prompthero/openjourney",
-        "Lykon/DreamShaper",
-        "SG161222/Realistic_Vision_V5.1_noVAE",
-        "adamo1139/stable-diffusion-3-medium-ungated",
-        "stabilityai/stable-diffusion-3-medium-diffusers",
-        "black-forest-labs/FLUX.1-schnell",
-        "black-forest-labs/FLUX.1-dev"
-    ]
-
-    print("info: Running diagnostic check for Hugging Face model support...", file=sys.stderr)
-    for model in candidate_models:
-        url = f"https://router.huggingface.co/hf-inference/models/{model}"
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json"
-        }
-        payload = {"inputs": "Diagnostic prompt"}
-        data = json.dumps(payload).encode("utf-8")
-        req = Request(url, data=data, headers=headers, method="POST")
-        try:
-            with urlopen(req, timeout=10) as resp:
-                print(f"DIAGNOSTIC: {model} is fully supported! Status: {resp.status}", file=sys.stderr)
-        except HTTPError as e:
-            body = ""
-            try:
-                body = e.read().decode("utf-8", errors="ignore")
-            except Exception:
-                pass
-            print(f"DIAGNOSTIC: {model} -> Status: {e.code}, Response: {body}", file=sys.stderr)
-        except Exception as e:
-            print(f"DIAGNOSTIC: {model} -> Error: {e}", file=sys.stderr)
-
-
 def main() -> None:
     load_env_file()
-    test_model_catalog()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=OUTPUT_PATH)
     parser.add_argument("--sources", type=Path, default=CONFIG_PATH)
