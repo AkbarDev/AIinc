@@ -638,6 +638,9 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
             except Exception:
                 pass
             print(f"warn: Pollinations API HTTP Error {err.code}: {err.reason}. Details: {err_body}", file=sys.stderr)
+            if err.code == 429:
+                print("info: Hitting Pollinations rate limit (429). Sleeping 15s to clear queue...", file=sys.stderr)
+                time.sleep(15)
             if attempt < max_retries - 1:
                 time.sleep(retry_delay)
                 continue
@@ -695,9 +698,9 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     # Sort clusters by score descending
     scored_clusters.sort(key=lambda item: item[1]["score"], reverse=True)
 
-    # Generate AI images for top-trending clusters that lack a real image (limit to 30 new generations per run)
+    # Generate AI images for top-trending clusters that lack a real image (limit to 15 new generations per run)
     gen_count = 0
-    max_generations_per_run = 30
+    max_generations_per_run = 15
     for cluster, score_block in scored_clusters:
         if not cluster.image or is_generated_visual(cluster.image):
             if gen_count < max_generations_per_run:
@@ -705,6 +708,8 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
                 if ai_image:
                     cluster.image = ai_image
                     gen_count += 1
+                    # Add a polite pacing delay between generations to avoid IP concurrency locks
+                    time.sleep(5)
 
     payload = []
     for cluster, score_block in scored_clusters:
