@@ -651,11 +651,16 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
                 return f"assets/images/generated/{trend_id}.jpg"
 
         except HTTPError as err:
+            err_body = ""
+            try:
+                err_body = err.read().decode("utf-8", errors="ignore")
+            except Exception:
+                pass
+            
             # Handle Hugging Face model loading state (503 Service Unavailable is standard for model loading)
             if err.code == 503:
                 try:
-                    err_bytes = err.read()
-                    err_info = json.loads(err_bytes.decode("utf-8", errors="ignore"))
+                    err_info = json.loads(err_body)
                     if "estimated_time" in err_info:
                         est_time = float(err_info.get("estimated_time", 5))
                         wait_time = min(est_time, 15)
@@ -664,7 +669,7 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
                         continue
                 except Exception:
                     pass
-            print(f"warn: HF API HTTP Error {err.code}: {err.reason}", file=sys.stderr)
+            print(f"warn: HF API HTTP Error {err.code}: {err.reason}. Details: {err_body}", file=sys.stderr)
             if attempt < max_retries - 1:
                 time.sleep(retry_delay)
                 continue
