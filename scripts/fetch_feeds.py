@@ -674,6 +674,31 @@ def cleanup_old_generated_images(active_ids: List[str]) -> None:
         print(f"info: Deleted {deleted_count} stale generated images")
 
 
+def matches_ui_category(cluster_category: str, ui_category: str) -> bool:
+    if not cluster_category:
+        return False
+    cat = cluster_category.strip().lower()
+    mapping = {
+        'marketing': 'ads',
+        'adtech': 'ads',
+        'advertising': 'ads',
+        'technology': 'tech',
+        'tech': 'tech',
+        'startup': 'startup',
+        'startups': 'startup',
+        'commerce': 'commerce',
+        'retail': 'commerce',
+        'ai': 'ai',
+        'artificialintelligence': 'ai',
+        'media': 'media',
+        'publishing': 'media',
+        'brand': 'brands',
+        'brands': 'brands',
+    }
+    normalized = mapping.get(cat, cat)
+    return normalized == ui_category
+
+
 def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, window_hours: Optional[int] = 24) -> Dict[str, object]:
     now_utc = datetime.now(timezone.utc)
     cutoff_utc = None if window_hours is None else now_utc - timedelta(hours=window_hours)
@@ -699,10 +724,32 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     # Sort clusters by score descending
     scored_clusters.sort(key=lambda item: item[1]["score"], reverse=True)
 
-    # Generate AI images for top-trending clusters that lack a real image (limit to 15 new generations per run)
+    # Build the set of clusters to target for image generation to cover all UI tabs
+    target_clusters_set = {}  # cluster.key -> (cluster, score_block)
+    
+    # 1. Add top 10 overall trends
+    for cluster, score_block in scored_clusters[:10]:
+        target_clusters_set[cluster.key] = (cluster, score_block)
+
+    # 2. Add top 4 trends for each category tab to ensure all tabs are populated with images
+    ui_categories = ['commerce', 'tech', 'ads', 'startup', 'ai', 'media', 'brands']
+    for ui_cat in ui_categories:
+        cat_count = 0
+        for cluster, score_block in scored_clusters:
+            if matches_ui_category(cluster.category, ui_cat):
+                target_clusters_set[cluster.key] = (cluster, score_block)
+                cat_count += 1
+                if cat_count >= 4:
+                    break
+
+    # Convert back to sorted list by overall score descending
+    to_generate = list(target_clusters_set.values())
+    to_generate.sort(key=lambda item: item[1]["score"], reverse=True)
+
+    # Generate AI images for target clusters that lack a real image (limit to 15 new generations per run)
     gen_count = 0
     max_generations_per_run = 15
-    for cluster, score_block in scored_clusters:
+    for cluster, score_block in to_generate:
         if not cluster.image or is_generated_visual(cluster.image):
             if gen_count < max_generations_per_run:
                 ai_image = fetch_ai_image(cluster.title, cluster.category, cluster.key)
