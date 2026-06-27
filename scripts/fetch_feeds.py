@@ -674,7 +674,39 @@ def cleanup_old_generated_images(active_ids: List[str]) -> None:
         print(f"info: Deleted {deleted_count} stale generated images")
 
 
-def matches_ui_category(cluster_category: str, ui_category: str) -> bool:
+CATEGORY_FILTERS = {
+    'tech': {
+        'categories': ['tech', 'technology'],
+        'keywords': [r'\bplatform\b', r'\binfrastructure\b', r'\bchip\b', r'\bcloud\b', r'\bsoftware\b']
+    },
+    'commerce': {
+        'categories': ['commerce'],
+        'keywords': [r'\be-?commerce\b', r'\bretail\b', r'\bpayment', r'\bcheckout\b', r'\bmerchant\b']
+    },
+    'ads': {
+        'categories': ['ads', 'advertising'],
+        'keywords': [r'\badvert', r'\badtech\b', r'\bcampaign\b', r'\bmarketing\b', r'\bmedia buy\b']
+    },
+    'startup': {
+        'categories': ['startup', 'startups'],
+        'keywords': [r'\bstartup\b', r'\bfunding\b', r'\bventure\b', r'\bfounder\b', r'\bseed\b']
+    },
+    'ai': {
+        'categories': ['ai'],
+        'keywords': [r'\bai\b', r'\bllm\b', r'\bgenai\b', r'\bmodel\b', r'\bagent\b']
+    },
+    'media': {
+        'categories': ['media', 'digital-media', 'social-media'],
+        'keywords': [r'\bmedia\b', r'\baudience\b', r'\bpublisher\b', r'\bcreator\b', r'\bstreaming\b']
+    },
+    'brands': {
+        'categories': ['brands', 'brand'],
+        'keywords': [r'\bbrand\b', r'\bconsumer\b', r'\bstorytelling\b', r'\bpurpose\b', r'\bmarketing\b']
+    }
+}
+
+
+def matches_ui_category(cluster_category: str, title: str, summary: str, ui_category: str) -> bool:
     if not cluster_category:
         return False
     cat = cluster_category.strip().lower()
@@ -696,7 +728,22 @@ def matches_ui_category(cluster_category: str, ui_category: str) -> bool:
         'brands': 'brands',
     }
     normalized = mapping.get(cat, cat)
-    return normalized == ui_category
+    if normalized == ui_category:
+        return True
+
+    config = CATEGORY_FILTERS.get(ui_category)
+    if not config:
+        return False
+
+    if normalized in config.get('categories', []):
+        return True
+
+    haystack = f"{title or ''} {summary or ''}".lower()
+    for pattern in config.get('keywords', []):
+        if re.search(pattern, haystack, re.IGNORECASE):
+            return True
+
+    return False
 
 
 def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, window_hours: Optional[int] = 24) -> Dict[str, object]:
@@ -731,15 +778,15 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     for cluster, score_block in scored_clusters[:10]:
         target_clusters_set[cluster.key] = (cluster, score_block)
 
-    # 2. Add top 4 trends for each category tab to ensure all tabs are populated with images
+    # 2. Add top 6 trends for each category tab to ensure all tabs are populated with images
     ui_categories = ['commerce', 'tech', 'ads', 'startup', 'ai', 'media', 'brands']
     for ui_cat in ui_categories:
         cat_count = 0
         for cluster, score_block in scored_clusters:
-            if matches_ui_category(cluster.category, ui_cat):
+            if matches_ui_category(cluster.category, cluster.title, cluster.summary, ui_cat):
                 target_clusters_set[cluster.key] = (cluster, score_block)
                 cat_count += 1
-                if cat_count >= 4:
+                if cat_count >= 6:
                     break
 
     # Convert back to sorted list by overall score descending
