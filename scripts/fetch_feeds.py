@@ -795,8 +795,51 @@ def load_env_file() -> None:
             print(f"warn: failed to load local .env file: {e}", file=sys.stderr)
 
 
+def test_model_catalog() -> None:
+    api_key = os.environ.get("HF_API_KEY") or os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_API_KEY")
+    if not api_key:
+        print("info: Diagnostic skipped; HF API key not in environment.", file=sys.stderr)
+        return
+
+    candidate_models = [
+        "stable-diffusion-v1-5/stable-diffusion-v1-5",
+        "runwayml/stable-diffusion-v1-5",
+        "prompthero/openjourney",
+        "Lykon/DreamShaper",
+        "SG161222/Realistic_Vision_V5.1_noVAE",
+        "adamo1139/stable-diffusion-3-medium-ungated",
+        "stabilityai/stable-diffusion-3-medium-diffusers",
+        "black-forest-labs/FLUX.1-schnell",
+        "black-forest-labs/FLUX.1-dev"
+    ]
+
+    print("info: Running diagnostic check for Hugging Face model support...", file=sys.stderr)
+    for model in candidate_models:
+        url = f"https://router.huggingface.co/hf-inference/models/{model}"
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        payload = {"inputs": "Diagnostic prompt"}
+        data = json.dumps(payload).encode("utf-8")
+        req = Request(url, data=data, headers=headers, method="POST")
+        try:
+            with urlopen(req, timeout=10) as resp:
+                print(f"DIAGNOSTIC: {model} is fully supported! Status: {resp.status}", file=sys.stderr)
+        except HTTPError as e:
+            body = ""
+            try:
+                body = e.read().decode("utf-8", errors="ignore")
+            except Exception:
+                pass
+            print(f"DIAGNOSTIC: {model} -> Status: {e.code}, Response: {body}", file=sys.stderr)
+        except Exception as e:
+            print(f"DIAGNOSTIC: {model} -> Error: {e}", file=sys.stderr)
+
+
 def main() -> None:
     load_env_file()
+    test_model_catalog()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=OUTPUT_PATH)
     parser.add_argument("--sources", type=Path, default=CONFIG_PATH)
