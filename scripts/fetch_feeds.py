@@ -613,13 +613,13 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
 
-    max_retries = 3
-    retry_delay = 5
+    max_retries = 2
+    retry_delay = 2
 
     for attempt in range(max_retries):
         try:
             req = Request(url, headers=headers, method="GET")
-            with urlopen(req, timeout=30) as response:
+            with urlopen(req, timeout=15) as response:
                 content_type = (response.info().get_content_type() or "").lower()
                 resp_bytes = response.read()
 
@@ -697,7 +697,7 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
 
     # Generate AI images for top-trending clusters that lack a real image (limit to 10 new generations per run)
     gen_count = 0
-    max_generations_per_run = 10
+    max_generations_per_run = 5
     for cluster, score_block in scored_clusters:
         if not cluster.image or is_generated_visual(cluster.image):
             if gen_count < max_generations_per_run:
