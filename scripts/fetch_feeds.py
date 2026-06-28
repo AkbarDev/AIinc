@@ -549,52 +549,30 @@ def compute_score(cluster: TrendCluster, now: datetime) -> Dict[str, float]:
     }
 
 
-def generate_creative_prompt(title: str, category: str) -> str:
-    title_lower = title.lower()
-    
-    # Identify themes based on keywords
-    is_ai = any(w in title_lower for w in ["ai", "openai", "chatgpt", "claude", "anthropic", "gemini", "llm", "vllm", "intelligence", "agent", "neural"])
-    is_finance = any(w in title_lower for w in ["raise", "funding", "seed", "million", "billion", "series", "finance", "bet", "acquire", "deal", "invest", "price"])
-    is_security = any(w in title_lower for w in ["hack", "stole", "breach", "leak", "threat", "delete", "criminal", "safety", "safety concerns", "concern"])
-    is_policy = any(w in title_lower for w in ["trump", "administration", "policy", "regulat", "law", "rule", "ban", "bar"])
-    is_creator = any(w in title_lower for w in ["youtube", "shorts", "playback", "tiktok", "instagram", "creator", "media", "video", "music"])
-    is_tech = any(w in title_lower for w in ["apple", "mac", "ipad", "iphone", "google", "microsoft", "xbox", "hardware", "chip", "semiconductor", "server", "notion"])
-
-    # Build theme-specific descriptions
-    if is_ai:
-        concept = "A futuristic concept of cognitive computing. Depict glowing neon blue and teal neural networks, abstract brain nodes connecting to digital cloud databases, and clean minimalistic AI code patterns."
-        colors = "Electric blue, neon teal, and deep slate gray."
-    elif is_security:
-        concept = "A security concept depicting data protection. Show a stylized glowing digital lock or shield symbol surrounded by abstract flowing code streams, clean safety matrix visual indicators, and minimal geometric grid accents."
-        colors = "Vibrant crimson, steel silver, and dark charcoal."
-    elif is_finance:
-        concept = "An abstract business growth visualization. Show a modern, isometric floating platform with rising translucent bar charts, golden spark lines, and clean geometric nodes representing investment flow."
-        colors = "Emerald green, navy blue, and platinum white."
-    elif is_policy:
-        concept = "An editorial representation of policy and governance. Show clean abstract silhouettes of federal buildings or classical pillars, stylized balance scale structures, and subtle geometric connection lines."
-        colors = "Patriot blue, marble white, and gold accents."
-    elif is_creator:
-        concept = "A vibrant creator economy editorial concept. Depict stylized play buttons, flowing soundwaves, modern mobile screen outlines, and abstract colorful gradient shapes."
-        colors = "Hot pink, sunset orange, and rich purple."
-    elif is_tech:
-        concept = "A clean high-tech hardware representation. Depict stylized outlines of sleek screens, glowing silicon chip boards with golden path nodes, and minimal abstract device wires."
-        colors = "Tech cobalt, pure white, and lime accent green."
-    else:
-        concept = "A premium abstract corporate editorial graphic. Depict modern floating geometric shapes, clean isometric visual nodes, and subtle brand connection lines."
-        colors = "Harmonious vibrant brand gradients on a clean background."
-
-    # Assemble creative prompt
+def generate_creative_prompt(title: str, summary: str) -> str:
     prompt = (
-        f"A premium, professional tech editorial graphic illustrating the topic: '{title}'. "
-        f"Visual concept: {concept} "
-        f"Art style: high-end modern flat vector illustration with smooth gradients and subtle isometric depth. "
-        f"Minimalist corporate branding aesthetic, clean lines, professional presentation, solid clean background, 16:9 aspect ratio. "
-        f"Color scheme: {colors}"
+        "Generate a premium editorial news illustration.\n\n"
+        f"Article Headline:\n{title}\n\n"
+        f"Article Summary:\n{summary}\n\n"
+        "Style:\n"
+        "Professional magazine cover illustration, realistic digital art, cinematic lighting, editorial quality, symbolic representation, visually engaging, high detail.\n\n"
+        "Rules:\n"
+        "• No text anywhere in the image\n"
+        "• No logos\n"
+        "• No watermarks\n"
+        "• No website UI\n"
+        "• No fake screenshots\n"
+        "• No speech bubbles\n"
+        "• Landscape 16:9\n"
+        "• One central subject\n"
+        "• Symbolic rather than literal depiction\n"
+        "• Modern color grading\n"
+        "• Suitable for a news website hero image"
     )
     return prompt
 
 
-def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
+def fetch_ai_image(title: str, summary: str, trend_id: str) -> Optional[str]:
     import time
     generated_dir = BASE_DIR / "assets" / "images" / "generated"
     generated_dir.mkdir(parents=True, exist_ok=True)
@@ -604,7 +582,7 @@ def fetch_ai_image(title: str, category: str, trend_id: str) -> Optional[str]:
         return f"assets/images/generated/{trend_id}.jpg"
 
     print(f"info: Generating AI image for cluster: {trend_id}...")
-    prompt = generate_creative_prompt(title, category)
+    prompt = generate_creative_prompt(title, summary)
 
     # Use Pollinations AI (100% Free, Unlimited, Open-Source image generation API)
     encoded_prompt = quote(prompt)
@@ -799,7 +777,7 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     for cluster, score_block in to_generate:
         if not cluster.image or is_generated_visual(cluster.image):
             if gen_count < max_generations_per_run:
-                ai_image = fetch_ai_image(cluster.title, cluster.category, cluster.key)
+                ai_image = fetch_ai_image(cluster.title, cluster.summary, cluster.key)
                 if ai_image:
                     cluster.image = ai_image
                     gen_count += 1
