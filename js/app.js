@@ -175,6 +175,15 @@ document.addEventListener('DOMContentLoaded', () => {
     setupHeroCarousel();
     setupReaderInteractions();
     setupSyncDialog();
+
+    // Close share popovers when clicking outside
+    document.addEventListener('click', (event) => {
+        if (!event.target.closest('[data-action="share"]') && !event.target.closest('.share-popover')) {
+            document.querySelectorAll('.share-popover.show').forEach((popover) => {
+                popover.classList.remove('show');
+            });
+        }
+    });
 });
 
 async function loadData() {
@@ -515,6 +524,12 @@ function renderNewsBoard() {
                 ${aiBadge}
                 <div class="card-image-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
                     <button class="card-image-action-btn" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
+                    <div class="share-popover">
+                        <a href="https://x.com/intent/tweet?text=${encodeURIComponent('Check out this trend on Snapfacts: ' + headline)}&url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option x-twitter" title="Share on X"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option facebook" title="Share on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option linkedin" title="Share on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <button class="share-option instagram" type="button" data-action="instagram-share" data-link="${escapeAttr(item.link)}" title="Share on Instagram"><i class="fa-brands fa-instagram"></i></button>
+                    </div>
                 </div>
             </div>
             <div class="news-card-body">
@@ -786,11 +801,75 @@ function setupReaderInteractions() {
             }
 
             if (action === 'share') {
-                await shareStory(storyTitle, storyLink);
+                const popover = shell.querySelector('.share-popover');
+                if (popover) {
+                    // Close all other open popovers first
+                    document.querySelectorAll('.share-popover.show').forEach((other) => {
+                        if (other !== popover) {
+                            other.classList.remove('show');
+                        }
+                    });
+                    popover.classList.toggle('show');
+                }
+                return;
+            }
+
+            if (action === 'instagram-share') {
+                const instaBtn = event.target.closest('[data-action="instagram-share"]');
+                const link = instaBtn ? instaBtn.dataset.link : storyLink;
+                try {
+                    await navigator.clipboard.writeText(link);
+                    showToast("Link copied! Share it on your Instagram story.");
+                } catch (e) {
+                    const input = document.createElement('input');
+                    input.value = link;
+                    document.body.appendChild(input);
+                    input.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(input);
+                    showToast("Link copied! Share it on your Instagram story.");
+                }
+                const popover = shell.querySelector('.share-popover');
+                if (popover) popover.classList.remove('show');
+                return;
+            }
+        });
+
+        // Close popover if other social link options are clicked
+        board.addEventListener('click', (event) => {
+            const otherShareBtn = event.target.closest('.share-option');
+            if (otherShareBtn && otherShareBtn.tagName.toLowerCase() === 'a') {
+                const popover = otherShareBtn.closest('.share-popover');
+                if (popover) {
+                    setTimeout(() => popover.classList.remove('show'), 200);
+                }
             }
         });
     }
 }
+
+function showToast(message) {
+    let container = document.getElementById('toast-container');
+    if (!container) {
+        container = document.createElement('div');
+        container.id = 'toast-container';
+        document.body.appendChild(container);
+    }
+    const toast = document.createElement('div');
+    toast.className = 'toast-notification';
+    toast.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${escapeHtml(message)}`;
+    container.appendChild(toast);
+    
+    // Animate in
+    setTimeout(() => toast.classList.add('show'), 10);
+    
+    // Animate out and remove
+    setTimeout(() => {
+        toast.classList.remove('show');
+        toast.addEventListener('transitionend', () => toast.remove());
+    }, 3000);
+}
+
 
 function hydrateReaderPrefs() {
     state.density = safeStorageGet(STORAGE_KEYS.density, 'comfortable');
