@@ -1,20 +1,73 @@
 {
-  "generated_at": "2026-06-28T23:48:34.924500+00:00",
-  "sources_scanned": 2752,
+  "generated_at": "2026-06-29T02:08:17.907040+00:00",
+  "sources_scanned": 2784,
   "feeds_polled": 34,
   "feed_pool": 37,
   "continent_counts": {
-    "NA": 1712,
+    "NA": 1713,
     "SA": 0,
-    "EU": 1040,
+    "EU": 1071,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 21,
+  "clusters": 26,
   "trends": [
+    {
+      "id": "polymarket faces cftc probe and deals with 3 million hack",
+      "title": "Polymarket Faces CFTC Probe and Deals With $3 Million Hack",
+      "summary": "Polymarket is facing a regulatory investigation following reports of an allegedly misleading marketing campaign.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/06/Polymarket-CFTC-1.jpg?w=457",
+      "link": "https://www.pymnts.com/legal/2026/polymarket-faces-cftc-probe-and-deals-with-3-million-hack/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-06-29T01:41:58+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5124,
+      "signals": {
+        "score": 0.5124,
+        "recency": 0.929467121727671,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "bis warns that ai spending may not be sustainable",
+      "title": "BIS Warns That AI Spending May Not Be Sustainable",
+      "summary": "The Bank for International Settlements (BIS) is warning artificial intelligence optimism could be a short-lived phenomenon.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/06/BIS-AI-spending-1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/bis-warns-that-ai-spending-may-not-be-sustainable/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-06-29T00:10:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.5002,
+      "signals": {
+        "score": 0.5002,
+        "recency": 0.7206596622258682,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      }
+    },
     {
       "id": "shopify taps trustpilot to build merchant trust in age of ai",
       "title": "Shopify Taps Trustpilot to Build Merchant Trust in Age of AI",
@@ -32,14 +85,89 @@
         "ai",
         "platform"
       ],
-      "score": 0.5522,
+      "score": 0.4775,
       "signals": {
-        "score": 0.5522,
-        "recency": 0.9288641336923609,
+        "score": 0.4775,
+        "recency": 0.6300892238634084,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "anthropic gets greenlight from us to restore mythos access",
+      "title": "Anthropic Gets Greenlight From US to Restore Mythos Access",
+      "summary": "Anthropic has reportedly received government approval to restore some access to its Mythos 5 artificial intelligence model.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/06/Anthropic-Mythos-OKd-1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-gets-greenlight-from-us-to-restore-mythos-access/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-06-28T23:50:13+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "artificial intelligence",
+        "govern"
+      ],
+      "score": 0.4704,
+      "signals": {
+        "score": 0.4704,
+        "recency": 0.6814308426637354,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "banks face compliancerelated headaches from iran deal",
+      "title": "Banks Face Compliance-Related Headaches From Iran Deal",
+      "summary": "The White House is attempting to undo decades of sanctions to halt the Iran war.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/06/banks-Iran-1.jpg?w=457",
+      "link": "https://www.pymnts.com/legal/bank-regulation/2026/banks-face-compliance-related-headaches-from-iran-deal/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-06-29T01:55:56+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.4616,
+      "signals": {
+        "score": 0.4616,
+        "recency": 0.9662356328702033,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      }
+    },
+    {
+      "id": "chinas tencent courts overseas visitors with new payment app",
+      "title": "China\u2019s Tencent Courts Overseas Visitors With New Payment App",
+      "summary": "China\u2019s Tencent is reportedly testing an app designed for overseas travelers to its country.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/06/Tencent-mobile-payments-1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/payment-methods/mobile-payments/2026/chinas-tencent-courts-overseas-visitors-with-new-payment-app/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-06-29T01:23:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.4405,
+      "signals": {
+        "score": 0.4405,
+        "recency": 0.8819288947305991,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -58,10 +186,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5013,
+      "score": 0.4301,
       "signals": {
-        "score": 0.5013,
-        "recency": 0.8850367280098249,
+        "score": 0.4301,
+        "recency": 0.6003591750556438,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -84,10 +212,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.486,
+      "score": 0.4197,
       "signals": {
-        "score": 0.486,
-        "recency": 0.8239811580809326,
+        "score": 0.4197,
+        "recency": 0.5589425078880694,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -111,10 +239,10 @@
         "ai",
         "policy"
       ],
-      "score": 0.4476,
+      "score": 0.4046,
       "signals": {
-        "score": 0.4476,
-        "recency": 0.534396676982716,
+        "score": 0.4046,
+        "recency": 0.36250467126631963,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -138,13 +266,40 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.4399,
+      "score": 0.4033,
       "signals": {
-        "score": 0.4399,
-        "recency": 0.4556991570272082,
+        "score": 0.4033,
+        "recency": 0.3091206967213794,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "hp inc launches frontier strategic partnership with openai",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "image": "assets/images/generated/hp inc launches frontier strategic partnership with openai.jpg",
+      "link": "https://openai.com/index/hp-frontier-partnership",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-06-28T17:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "OpenAI Blog"
+      ],
+      "keywords": [
+        "ai",
+        "enterprise"
+      ],
+      "score": 0.3835,
+      "signals": {
+        "score": 0.3835,
+        "recency": 0.21804555898631678,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.86,
         "engagement": 0.6
       }
     },
@@ -164,10 +319,10 @@
       "keywords": [
         "streaming"
       ],
-      "score": 0.4381,
+      "score": 0.3828,
       "signals": {
-        "score": 0.4381,
-        "recency": 0.6885337454094987,
+        "score": 0.3828,
+        "recency": 0.46706259560725316,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -188,61 +343,13 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.4178,
+      "score": 0.3523,
       "signals": {
-        "score": 0.4178,
-        "recency": 0.8153293219903054,
+        "score": 0.3523,
+        "recency": 0.5530735885385123,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "strategy valuation drop threatens key bitcoin funding engine",
-      "title": "Strategy Valuation Drop Threatens Key Bitcoin Funding Engine",
-      "summary": "Bitcoin\u2019s largest corporate buyer, bitcoin treasury company Strategy, saw a valuation metric drop below a key threshold Friday (June 26), Bloomberg reported Friday.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/06/Strategy-bitcoin-down-1.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/strategy-valuation-drop-threatens-key-bitcoin-funding-engine/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-06-28T21:35:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.3925,
-      "signals": {
-        "score": 0.3925,
-        "recency": 0.6900016297449321,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "auto refinancing volume doubles as fed cuts rates",
-      "title": "Auto Refinancing Volume Doubles as Fed Cuts Rates",
-      "summary": "The number of consumers who refinanced their auto loan in the first quarter nearly doubled compared to the same period two years earlier, The Wall Street Journal (WSJ) reported",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/06/auto-refinancing-1.jpg?w=457",
-      "link": "https://www.pymnts.com/consumer-finance/2026/auto-refinancing-volume-doubles-as-fed-cuts-rates/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-06-28T21:14:44+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.3831,
-      "signals": {
-        "score": 0.3831,
-        "recency": 0.6522302627078527,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       }
     },
@@ -262,14 +369,38 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3671,
+      "score": 0.341,
       "signals": {
-        "score": 0.3671,
-        "recency": 0.32436815277640374,
+        "score": 0.341,
+        "recency": 0.22003312456090862,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      }
+    },
+    {
+      "id": "strategy valuation drop threatens key bitcoin funding engine",
+      "title": "Strategy Valuation Drop Threatens Key Bitcoin Funding Engine",
+      "summary": "Bitcoin\u2019s largest corporate buyer, bitcoin treasury company Strategy, saw a valuation metric drop below a key threshold Friday (June 26), Bloomberg reported Friday.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/06/Strategy-bitcoin-down-1.jpg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/strategy-valuation-drop-threatens-key-bitcoin-funding-engine/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-06-28T21:35:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.337,
+      "signals": {
+        "score": 0.337,
+        "recency": 0.4680583258417256,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -288,10 +419,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.355,
+      "score": 0.3328,
       "signals": {
-        "score": 0.355,
-        "recency": 0.27589691315089243,
+        "score": 0.3328,
+        "recency": 0.18715295980104185,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -299,29 +430,27 @@
       }
     },
     {
-      "id": "why wall street thinks us memory maker micron is the next nvidia",
-      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
-      "summary": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
-      "image": "assets/images/generated/why wall street thinks us memory maker micron is the next nvidia.jpg",
-      "link": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
-      "category": "technology",
+      "id": "auto refinancing volume doubles as fed cuts rates",
+      "title": "Auto Refinancing Volume Doubles as Fed Cuts Rates",
+      "summary": "The number of consumers who refinanced their auto loan in the first quarter nearly doubled compared to the same period two years earlier, The Wall Street Journal (WSJ) reported",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/06/auto-refinancing-1.jpg?w=457",
+      "link": "https://www.pymnts.com/consumer-finance/2026/auto-refinancing-volume-doubles-as-fed-cuts-rates/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-06-28T15:00:00+00:00",
+      "published_at": "2026-06-28T21:14:44+00:00",
       "source_count": 1,
       "source_names": [
-        "TechCrunch"
+        "PYMNTS"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3436,
+      "keywords": [],
+      "score": 0.3306,
       "signals": {
-        "score": 0.3436,
-        "recency": 0.23032048160228372,
-        "keyword_volume": 0.2,
+        "score": 0.3306,
+        "recency": 0.44243635328687214,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
+        "authority": 0.8,
+        "engagement": 0.4
       }
     },
     {
@@ -341,13 +470,39 @@
         "ai",
         "streaming"
       ],
-      "score": 0.3327,
+      "score": 0.3267,
       "signals": {
-        "score": 0.3327,
-        "recency": 0.0749959941126439,
+        "score": 0.3267,
+        "recency": 0.05087306744793649,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.76,
+        "engagement": 0.6
+      }
+    },
+    {
+      "id": "why wall street thinks us memory maker micron is the next nvidia",
+      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+      "summary": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Why%20Wall%20Street%20thinks%20US%20memory%20maker%20Micron%20is%20the%20next%20Nvidia%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23334155%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23020617%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWHY%20WALL%20STREET%20THINKS%20US%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EMEMORY%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EEager%20to%20find%20more%20public%20AI-related%20companies%20that%20may%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-06-28T15:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3251,
+      "signals": {
+        "score": 0.3251,
+        "recency": 0.15623647014526004,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       }
     },
@@ -367,10 +522,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3175,
+      "score": 0.3045,
       "signals": {
-        "score": 0.3175,
-        "recency": 0.16210885169111958,
+        "score": 0.3045,
+        "recency": 0.10996553407376546,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -393,10 +548,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3096,
+      "score": 0.3001,
       "signals": {
-        "score": 0.3096,
-        "recency": 0.11855745118819318,
+        "score": 0.3001,
+        "recency": 0.08042271166768265,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -407,7 +562,7 @@
       "id": "indian payments chief thinks ai will be heavily involved in next era of digital payment growth",
       "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
       "summary": "Dilip Asbe said that newer UPI apps could be more competitive with a viable commercial model",
-      "image": "assets/images/generated/indian payments chief thinks ai will be heavily involved in next era of digital payment growth.jpg",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Indian%20payments%20chief%20thinks%20AI%20will%20be%20heavily%20involved%20in%20next%20era%20of%20digital%20payment%20growth%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230f766e%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23042f2e%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%235eead4%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%235eead4%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%235eead4%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ECOMMERCE%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%235eead4%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EINDIAN%20PAYMENTS%20CHIEF%20THINKS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EAI%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EDilip%20Asbe%20said%20that%20newer%20UPI%20apps%20could%20be%20more%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECOMMERCE%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
       "link": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
       "category": "technology",
       "geo": "global",
@@ -419,10 +574,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2969,
+      "score": 0.2934,
       "signals": {
-        "score": 0.2969,
-        "recency": 0.04350191980846891,
+        "score": 0.2934,
+        "recency": 0.029509257483898717,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -437,7 +592,7 @@
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEFQNDQxc2hJLTJnX004TmlOQkxfandZYW83VVZGVDcxOE9tSzdaV2ZkR0tVN0V0Nk8zeElHZmpyWlhCYUdhUWxZT1BhU0tVdGozeU5GYnFMdjhiYUFpQXpqQVlnNUhlQXlhWDIwSGRBLTVXQ2NqUllLaTgzUC1OdDNpYjJ5RmdNbzY1SHQ3WlYyR29hLUQ3QlFsS29QRGEzT0ZoUQ?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-06-28T06:08:24+00:00",
+      "published_at": "2026-06-28T06:08:00+00:00",
       "source_count": 1,
       "source_names": [
         "Google News - Omnicom"
@@ -445,10 +600,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2872,
+      "score": 0.2829,
       "signals": {
-        "score": 0.2872,
-        "recency": 0.05260467902570905,
+        "score": 0.2829,
+        "recency": 0.03564443080556497,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -469,10 +624,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2747,
+      "score": 0.2591,
       "signals": {
-        "score": 0.2747,
-        "recency": 0.19496207854433806,
+        "score": 0.2591,
+        "recency": 0.13225131673938068,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -493,10 +648,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.255,
+      "score": 0.2437,
       "signals": {
-        "score": 0.255,
-        "recency": 0.14003314501882494,
+        "score": 0.2437,
+        "recency": 0.09499061537592575,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -517,34 +672,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2498,
+      "score": 0.2383,
       "signals": {
-        "score": 0.2498,
-        "recency": 0.14325276054141092,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      }
-    },
-    {
-      "id": "publicis clarifies share capital and voting rights stock in the euronext paris spotlight adhocnewsde",
-      "title": "Publicis clarifies share capital and voting rights, stock in the Euronext Paris spotlight - Ad-hoc-news.de",
-      "summary": "Publicis clarifies share capital and voting rights, stock in the Euronext Paris spotlight &nbsp;&nbsp; Ad-hoc-news.de",
-      "image": "assets/images/generated/publicis clarifies share capital and voting rights stock in the euronext paris spotlight adhocnewsde.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcUhiN2dxSVB2YmhULS1Hb3VJV3F4cldXSWgxVng4OTlMT3VfSVJsSmRwc2pRYTd0YXMtRTRheTJBUWt6TVMxUGxaTjhSTzd5VTNsUHhpM2RIRHJCZ0ZodDVfRnByVkxOZ3A1eDI1dFIyOGR2NnpJcnZQWkU5U0xsNF83VVh1WHYzN1VZVjBtMmZjd0Fac3NPTkwyWGVpaVZwanB3X1diejVtYlRXTmxrbDVJYlotX0UzYlRpRzN1TWQ0QmYyRndLNGI4SQ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-06-28T10:30:28+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.2412,
-      "signals": {
-        "score": 0.2412,
-        "recency": 0.10893681482139551,
+        "score": 0.2383,
+        "recency": 0.09717462159619032,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
