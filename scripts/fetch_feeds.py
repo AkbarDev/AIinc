@@ -29,14 +29,14 @@ IST = timezone(timedelta(hours=5, minutes=30))
 
 import socket
 
-def resolve_hf_dns() -> Optional[str]:
-    """Query Google DoH (using IP 8.8.8.8) and Cloudflare DoH (using IP 1.1.1.1) to resolve router.huggingface.co."""
+def resolve_hf_dns(hostname: str = "router.huggingface.co") -> Optional[str]:
+    """Query Google DoH (using IP 8.8.8.8) and Cloudflare DoH (using IP 1.1.1.1) to resolve the given hostname."""
     import ssl
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
 
-    url = "https://8.8.8.8/resolve?name=router.huggingface.co"
+    url = f"https://8.8.8.8/resolve?name={hostname}"
     req = Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urlopen(req, context=ctx, timeout=5) as resp:
@@ -46,9 +46,9 @@ def resolve_hf_dns() -> Optional[str]:
                 if ans.get("type") == 1: # A record
                     return ans.get("data")
     except Exception as e:
-        print(f"warn: DoH resolution via Google DNS (8.8.8.8) failed: {e}", file=sys.stderr)
+        print(f"warn: DoH resolution of {hostname} via Google DNS (8.8.8.8) failed: {e}", file=sys.stderr)
         
-    url_cf = "https://1.1.1.1/dns-query?name=router.huggingface.co&type=A"
+    url_cf = f"https://1.1.1.1/dns-query?name={hostname}&type=A"
     req_cf = Request(url_cf, headers={"accept": "application/dns-json", "User-Agent": USER_AGENT})
     try:
         with urlopen(req_cf, context=ctx, timeout=5) as resp:
@@ -58,15 +58,15 @@ def resolve_hf_dns() -> Optional[str]:
                 if ans.get("type") == 1: # A record
                     return ans.get("data")
     except Exception as e:
-        print(f"warn: DoH resolution via Cloudflare DNS (1.1.1.1) failed: {e}", file=sys.stderr)
+        print(f"warn: DoH resolution of {hostname} via Cloudflare DNS (1.1.1.1) failed: {e}", file=sys.stderr)
         
     return None
 
 _original_getaddrinfo = socket.getaddrinfo
 
 def patched_getaddrinfo(host, port, family=0, type=0, proto=0, flags=0):
-    if host == "router.huggingface.co":
-        resolved_ip = resolve_hf_dns()
+    if host in ("router.huggingface.co", "api-inference.huggingface.co"):
+        resolved_ip = resolve_hf_dns(host)
         if resolved_ip:
             # Construct and return socket address info tuple directly to avoid glibc resolver error with numeric IPs
             return [(socket.AF_INET, socket.SOCK_STREAM, socket.IPPROTO_TCP, "", (resolved_ip, port))]
@@ -572,7 +572,242 @@ def generate_creative_prompt(title: str, summary: str) -> str:
     return prompt
 
 
-def fetch_ai_image(title: str, summary: str, trend_id: str) -> Optional[str]:
+def enhance_cluster_metadata_with_llm(title: str, summary: str, current_category: str, api_key: str) -> Optional[Dict[str, str]]:
+    """Use Hugging Face Chat API to generate a clean summary and classify the news article."""
+    url = "https://router.huggingface.co/v1/chat/completions"
+    
+    system_instruction = (
+        "You are an expert news editor and classifier. "
+        "Your task is to analyze the given news article headline and raw summary, "
+        "then output a valid JSON object containing exactly two keys:\n"
+        "1. \"summary\": A premium, professional 1-sentence summary (max 25 words) of the news.\n"
+        "2. \"category\": Classify the news into exactly one of these categories: "
+        "[tech, ads, startup, ai, media, gaming, commerce, brands]. Use the most specific one.\n"
+        "Do not include any markup, code fences, markdown syntax, prefix, or extra text. Output ONLY the raw JSON block."
+    )
+    user_content = f"Headline: {title}\nRaw Summary: {summary}\nSuggested Category: {current_category}"
+    
+    models = [
+        "Qwen/Qwen2.5-72B-Instruct",
+        "meta-llama/Llama-3-8B-Instruct",
+        "mistralai/Mistral-7B-Instruct-v0.3"
+    ]
+    
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+        "User-Agent": USER_AGENT
+    }
+    
+    for model in models:
+        payload = {
+            "model": model,
+            "messages": [
+                {"role": "system", "content": system_instruction},
+                {"role": "user", "content": user_content}
+            ],
+            "max_tokens": 150,
+            "temperature": 0.3
+        }
+        try:
+            req = Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
+            with urlopen(req, timeout=15) as response:
+                resp_data = json.loads(response.read().decode("utf-8"))
+                choices = resp_data.get("choices", [])
+                if choices:
+                    content = choices[0].get("message", {}).get("content", "").strip()
+                    if content:
+                        # Clean markdown code block wraps (like ```json ... ```) if present
+                        if content.startswith("```"):
+                            lines = content.splitlines()
+                            if lines[0].startswith("```"):
+                                lines = lines[1:]
+                            if lines and lines[-1].startswith("```"):
+                                lines = lines[:-1]
+                            content = "\n".join(lines).strip()
+                        
+                        data = json.loads(content)
+                        if "summary" in data and "category" in data:
+                            print(f"info: Successfully enhanced metadata using {model}")
+                            return data
+        except Exception as e:
+            print(f"warn: LLM metadata enhancement with {model} failed: {e}", file=sys.stderr)
+            continue
+            
+    return None
+
+
+def enhance_prompt_with_llm(title: str, summary: str, api_key: str) -> Optional[str]:
+    """Use Hugging Face Chat API to enhance a simple title & summary into a visual description prompt."""
+    url = "https://router.huggingface.co/v1/chat/completions"
+    
+    system_instruction = (
+        "You are an expert prompt engineer for text-to-image models. "
+        "Your task is to convert a news article's headline and summary into a detailed, visually descriptive prompt for a text-to-image AI model. "
+        "The prompt must describe a single cohesive scene representing the article's concept. "
+        "Avoid any instructions, bullet points, introductory text, or structural headings. "
+        "Strictly do not request any real trademarked logos in the image itself. "
+        "The output style should be a flat vector editorial news-card illustration in a minimalist corporate style. "
+        "The prompt should describe stylized abstract emblems or wordmarks representing the key companies or brands involved in the article, arranged in a clean horizontal row on a soft solid-color background, each emblem inside a rounded card with generous padding. Leave a clear empty caption bar beneath each emblem. Use simple geometric shapes, sans-serif brand-style lettering only if generic/abstract, a muted professional color palette, soft shadows, and high contrast. No human faces, no photorealistic people, no blurry portraits, no clutter, and no watermarks. "
+        "Output ONLY the raw visual description prompt, nothing else."
+    )
+    user_content = f"Headline: {title}\nSummary: {summary}"
+    
+    # Try a few model options from Qwen to Llama to ensure high availability
+    models = [
+        "Qwen/Qwen2.5-72B-Instruct",
+        "meta-llama/Llama-3-8B-Instruct",
+        "mistralai/Mistral-7B-Instruct-v0.3"
+    ]
+    
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+        "User-Agent": USER_AGENT
+    }
+    
+    for model in models:
+        payload = {
+            "model": model,
+            "messages": [
+                {"role": "system", "content": system_instruction},
+                {"role": "user", "content": user_content}
+            ],
+            "max_tokens": 120,
+            "temperature": 0.7
+        }
+        try:
+            req = Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
+            with urlopen(req, timeout=15) as response:
+                resp_data = json.loads(response.read().decode("utf-8"))
+                choices = resp_data.get("choices", [])
+                if choices:
+                    content = choices[0].get("message", {}).get("content", "").strip()
+                    if content:
+                        # Clean up any potential markdown formatting or quotes
+                        content = content.replace('"', '').replace('**', '').replace('`', '').strip()
+                        print(f"info: Successfully enhanced prompt using {model}")
+                        return content
+        except Exception as e:
+            print(f"warn: LLM prompt enhancement with {model} failed: {e}", file=sys.stderr)
+            continue
+            
+    return None
+
+
+def generate_hf_image(prompt: str, api_key: str) -> Optional[bytes]:
+    """Generate high-definition image bytes using black-forest-labs/FLUX.1-schnell via Hugging Face Serverless Inference API."""
+    model_id = "black-forest-labs/FLUX.1-schnell"
+    url = f"https://api-inference.huggingface.co/models/{model_id}"
+    
+    payload = {
+        "inputs": prompt,
+        "parameters": {
+            "width": 768,
+            "height": 432
+        }
+    }
+    
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+        "User-Agent": USER_AGENT
+    }
+    
+    try:
+        req = Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
+        with urlopen(req, timeout=40) as response:
+            content_type = (response.info().get_content_type() or "").lower()
+            resp_bytes = response.read()
+            if "image" not in content_type:
+                try:
+                    err_json = json.loads(resp_bytes.decode("utf-8", errors="ignore"))
+                    print(f"warn: Hugging Face image API returned JSON: {err_json}", file=sys.stderr)
+                except Exception:
+                    print(f"warn: Hugging Face image API returned non-image content: {content_type}", file=sys.stderr)
+                return None
+            return resp_bytes
+    except Exception as e:
+        print(f"warn: Hugging Face image generation failed: {e}", file=sys.stderr)
+        
+    return None
+
+
+def extract_companies(title: str, summary: str, category: str) -> List[str]:
+    # 1. Start with a list of known tech/media/business giants to look for (case-insensitive)
+    known = [
+        "Apple", "Microsoft", "Google", "Amazon", "Meta", "Netflix", "Nvidia", "Tesla", "Samsung",
+        "Intel", "AMD", "Sony", "Nintendo", "Disney", "Warner", "Paramount", "Comcast", "Reliance",
+        "Jio", "Tata", "OpenAI", "Anthropic", "TikTok", "SpaceX", "IBM", "Uber", "Spotify", "Shopify",
+        "Salesforce", "Oracle", "Adobe", "Figma", "Stripe", "PayPal", "Zoom", "Slack", "Warner Discovery",
+        "Warner Bros", "HBO", "Xbox", "PlayStation"
+    ]
+    
+    found = []
+    lower_title = title.lower()
+    lower_summary = summary.lower()
+    
+    for name in known:
+        pattern = r"\b" + re.escape(name.lower()) + r"\b"
+        if re.search(pattern, lower_title) or re.search(pattern, lower_summary):
+            if name not in found:
+                found.append(name)
+                
+    # 2. Extract sequences of capitalized words from the title
+    candidates = re.findall(r"\b[A-Z][a-zA-Z0-9]*(?:\s+[A-Z][a-zA-Z0-9]*)*\b", title)
+    
+    exclusions = {
+        "India", "US", "USA", "UK", "Ebola", "Russia", "Ukraine", "Kenya", "Europe", "Asia", "Africa",
+        "America", "London", "New York", "Tokyo", "Paris", "Berlin", "Beijing", "Delhi", "Mumbai",
+        "AI", "Artificial Intelligence", "App", "Pro", "Max", "Dune", "Game", "Pass", "Cloud",
+        "The", "A", "An", "In", "On", "At", "For", "With", "By", "To", "Of", "And", "Or", "New", "Old",
+        "Tech", "Media", "Gaming", "Commerce", "Startup", "Ad", "Ads", "Brands", "Brand", "Silicon",
+        "Chip", "Chips", "Server", "Data", "Network", "Quantum", "Open Source", "Platform", "Enterprise",
+        "Hollywood", "Studio", "Series", "Film", "Movie", "Console", "DLC", "Beta", "Alpha", "Pilot",
+        "Security", "Cybersecurity", "Hack", "Hacker", "Hackers", "Code", "Coding", "Software", "Hardware",
+        "Federal", "Court", "Government", "Congress", "Senate", "President", "Minister", "CEO", "CTO",
+        "Dollar", "Dollars", "Percent", "Percentage", "Bill", "Billion", "Million", "Trillion",
+        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",
+        "January", "February", "March", "April", "May", "June", "July", "August", "September",
+        "October", "November", "December"
+    }
+    
+    for cand in candidates:
+        cand_clean = cand.strip()
+        if not cand_clean or len(cand_clean) < 2 or cand_clean.lower() in [e.lower() for e in exclusions]:
+            continue
+        is_submatch = False
+        for f in found:
+            if cand_clean.lower() in f.lower() or f.lower() in cand_clean.lower():
+                is_submatch = True
+                break
+        if not is_submatch and cand_clean not in found:
+            found.append(cand_clean)
+            
+    # 3. Fallbacks if we have fewer than 3 companies
+    category_fallbacks = {
+        "commerce": ["RetailCorp", "ShopFlow", "CartSystems"],
+        "tech": ["TechCorp", "InnoSystems", "ByteScale"],
+        "technology": ["TechCorp", "InnoSystems", "ByteScale"],
+        "ads": ["AdFlow", "PromoScale", "MediaReach"],
+        "startup": ["LaunchPad", "VentureHub", "SeedSync"],
+        "ai": ["NeuralNet", "DeepScale", "Synthetix"],
+        "media": ["NetShow", "StreamLine", "ViewMax"],
+        "brands": ["BrandForge", "NameScale", "MarkFlow"],
+        "gaming": ["PlayMax", "GameSync", "QuestLabs"],
+    }
+    
+    fallbacks = category_fallbacks.get(category.lower(), ["GlobalCorp", "CoreSystems", "FutureSoft"])
+    for fb in fallbacks:
+        if len(found) >= 3:
+            break
+        if fb not in found:
+            found.append(fb)
+            
+    return found[:3]
+
+
+def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Optional[str]:
     import time
     generated_dir = BASE_DIR / "assets" / "images" / "generated"
     generated_dir.mkdir(parents=True, exist_ok=True)
@@ -581,12 +816,68 @@ def fetch_ai_image(title: str, summary: str, trend_id: str) -> Optional[str]:
     if image_path.exists():
         return f"assets/images/generated/{trend_id}.jpg"
 
-    print(f"info: Generating AI image for cluster: {trend_id}...")
-    prompt = generate_creative_prompt(title, summary)
+    print(f"info: Initiating image generation for cluster: {trend_id}...")
+    
+    # 1. Check for HF_API_KEY
+    api_key = os.environ.get("HF_API_KEY")
+    enhanced_prompt = None
+    
+    if api_key:
+        print("info: HF_API_KEY detected. Enhancing prompt using Hugging Face LLM...")
+        enhanced_prompt = enhance_prompt_with_llm(title, summary, api_key)
+        
+    # Determine the prompt to use
+    if enhanced_prompt:
+        prompt_to_use = enhanced_prompt
+    else:
+        # Fall back to a cleaner, non-structured template if LLM enhancement was skipped or failed
+        companies = extract_companies(title, summary, category)
+        company_1 = companies[0]
+        company_2 = companies[1]
+        company_3 = companies[2]
+        
+        brand_colors = [
+            "#f0f4f8",  # soft light slate blue
+            "#eef2f6",  # soft light blue-grey
+            "#f4f5f7",  # soft light grey
+            "#e8f0fe",  # soft light blue
+            "#edf7ed",  # soft light green
+            "#fdf2e9",  # soft light peach
+            "#f3e8ff",  # soft light lavender
+        ]
+        brand_color_hex = brand_colors[stable_hash(title) % len(brand_colors)]
+        
+        prompt_to_use = (
+            f"Flat vector editorial news-card illustration, minimalist corporate style. "
+            f"Show stylized abstract emblems/wordmarks representing {company_1}, {company_2}, {company_3} "
+            f"arranged in a clean horizontal row on a soft solid-color background ({brand_color_hex}), "
+            f"each emblem inside a rounded card with generous padding. "
+            f"Beneath each emblem, leave a clear empty caption bar sized for a short 2-3 word text label. "
+            f"Simple geometric shapes, sans-serif brand-style lettering only if it is generic/abstract "
+            f"(not attempting to replicate real trademarked logos), muted professional color palette, "
+            f"soft shadows, high contrast, no human faces, no photorealistic people, no blurry portraits, "
+            f"no clutter, no watermark, business/advertising-news aesthetic, 16:9, high resolution, clean negative space"
+        )
 
-    # Use Pollinations AI (100% Free, Unlimited, Open-Source image generation API)
-    encoded_prompt = quote(prompt)
-    url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=640&height=360&nologo=true&private=true"
+    # Stage 1: Try Hugging Face Image Generation (if API key is present)
+    if api_key:
+        print("info: Attempting image generation via Hugging Face Serverless Inference (FLUX.1-schnell)...")
+        image_bytes = generate_hf_image(prompt_to_use, api_key)
+        if image_bytes:
+            try:
+                image_path.write_bytes(image_bytes)
+                print(f"info: AI image successfully generated and saved via Hugging Face: {image_path}")
+                return f"assets/images/generated/{trend_id}.jpg"
+            except Exception as e:
+                print(f"warn: Failed to write Hugging Face image bytes: {e}", file=sys.stderr)
+        else:
+            print("warn: Hugging Face image generation failed. Falling back to Pollinations FLUX...")
+
+    # Stage 2: Fallback to Pollinations AI (uses FLUX model, 100% Free & Unlimited)
+    print("info: Generating image via Pollinations AI (FLUX model)...")
+    encoded_prompt = quote(prompt_to_use)
+    # We specify model=flux and nologo=true to get high quality without watermark
+    pollinations_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=640&height=360&nologo=true&private=true&model=flux"
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -597,7 +888,7 @@ def fetch_ai_image(title: str, summary: str, trend_id: str) -> Optional[str]:
 
     for attempt in range(max_retries):
         try:
-            req = Request(url, headers=headers, method="GET")
+            req = Request(pollinations_url, headers=headers, method="GET")
             with urlopen(req, timeout=45) as response:
                 content_type = (response.info().get_content_type() or "").lower()
                 resp_bytes = response.read()
@@ -607,7 +898,7 @@ def fetch_ai_image(title: str, summary: str, trend_id: str) -> Optional[str]:
                     return None
 
                 image_path.write_bytes(resp_bytes)
-                print(f"info: AI image successfully saved to {image_path}")
+                print(f"info: AI image successfully saved via Pollinations: {image_path}")
                 return f"assets/images/generated/{trend_id}.jpg"
 
         except HTTPError as err:
@@ -749,6 +1040,17 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     # Sort clusters by score descending
     scored_clusters.sort(key=lambda item: item[1]["score"], reverse=True)
 
+    # Enhance metadata (summaries & categories) for top trends using LLM if api_key is available
+    api_key = os.environ.get("HF_API_KEY")
+    if api_key:
+        print("info: HF_API_KEY detected. Enhancing metadata (summaries & categories) for top trends...")
+        # Enhance up to top 15 active clusters
+        for idx, (cluster, score_block) in enumerate(scored_clusters[:15]):
+            enhanced = enhance_cluster_metadata_with_llm(cluster.title, cluster.summary, cluster.category, api_key)
+            if enhanced:
+                cluster.summary = enhanced["summary"]
+                cluster.category = enhanced["category"]
+
     # Build the set of clusters to target for image generation to cover all UI tabs
     target_clusters_set = {}  # cluster.key -> (cluster, score_block)
     
@@ -777,7 +1079,7 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     for cluster, score_block in to_generate:
         if not cluster.image or is_generated_visual(cluster.image):
             if gen_count < max_generations_per_run:
-                ai_image = fetch_ai_image(cluster.title, cluster.summary, cluster.key)
+                ai_image = fetch_ai_image(cluster.title, cluster.summary, cluster.category, cluster.key)
                 if ai_image:
                     cluster.image = ai_image
                     gen_count += 1
