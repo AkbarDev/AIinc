@@ -291,8 +291,9 @@ function renderHeroCarousel() {
                         <span>${formatDate(story.published_at)}</span>
                         <span>Score ${story.score ? story.score.toFixed(2) : '—'}</span>
                     </div>
-                    <div class="story-actions hero-carousel-actions">
+                    <div class="story-actions hero-carousel-actions" data-story-actions data-story-id="${escapeAttr(String(story.id || story.link || story.title || '').trim().toLowerCase())}" data-story-link="${escapeAttr(story.link)}" data-story-title="${escapeAttr(story.title)}">
                         <a href="${story.link}" target="_blank" rel="noopener">Read full story</a>
+                        <button class="hero-carousel-listen-btn" type="button" data-action="listen" aria-label="Listen to story" title="Listen"><i class="fa-solid fa-volume-high" aria-hidden="true"></i> Listen</button>
                     </div>
                 </div>
             </div>
@@ -336,6 +337,28 @@ function setupHeroCarousel() {
     }
 
     if (track) {
+        track.addEventListener('click', async (event) => {
+            const shell = event.target.closest('[data-story-actions]');
+            if (!shell) return;
+            const action = event.target.closest('[data-action]')?.dataset.action;
+            if (!action) return;
+
+            const storyId = shell.dataset.storyId || '';
+            if (action === 'listen') {
+                const story = state.trends.find(item => {
+                    const id = String(item.id || item.link || item.title || '').trim().toLowerCase();
+                    return id === storyId;
+                });
+                if (story) {
+                    const headline = cleanHeadline(story.title);
+                    const summary = story.summary || '';
+                    const whyItMatters = buildWhyItMatters(story);
+                    const btn = event.target.closest('[data-action="listen"]');
+                    speakStory(headline, summary, whyItMatters, btn);
+                }
+                return;
+            }
+        });
         track.addEventListener('touchstart', handleCarouselTouchStart, { passive: true });
         track.addEventListener('touchend', handleCarouselTouchEnd, { passive: true });
         track.addEventListener('touchcancel', resetCarouselTouch, { passive: true });
@@ -523,6 +546,7 @@ function renderNewsBoard() {
                 ${renderCardMedia(item, image)}
                 ${aiBadge}
                 <div class="card-image-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
+                    <button class="card-image-action-btn" type="button" data-action="listen" aria-label="Listen to story" title="Listen"><i class="fa-solid fa-volume-high" aria-hidden="true"></i></button>
                     <button class="card-image-action-btn" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
                     <div class="share-popover">
                         <a href="https://x.com/intent/tweet?text=${encodeURIComponent('Check out this trend on Snapfacts: ' + headline)}&url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option x-twitter" title="Share on X"><i class="fa-brands fa-x-twitter"></i></a>
@@ -797,6 +821,21 @@ function setupReaderInteractions() {
             if (action === 'save') {
                 toggleSavedStory(storyId);
                 renderNewsBoard();
+                return;
+            }
+
+            if (action === 'listen') {
+                const story = state.trends.find(item => {
+                    const id = String(item.id || item.link || item.title || '').trim().toLowerCase();
+                    return id === storyId;
+                });
+                if (story) {
+                    const headline = cleanHeadline(story.title);
+                    const summary = story.summary || '';
+                    const whyItMatters = buildWhyItMatters(story);
+                    const btn = event.target.closest('[data-action="listen"]');
+                    speakStory(headline, summary, whyItMatters, btn);
+                }
                 return;
             }
 
@@ -1552,3 +1591,88 @@ function setupSyncDialog() {
         });
     }
 }
+
+// 100% Free & Client-Side Audio Narration
+let currentUtterance = null;
+let activeListenBtn = null;
+
+function speakStory(title, summary, whyItMatters, button) {
+    if (!('speechSynthesis' in window)) {
+        alert("Sorry, your browser does not support audio narration.");
+        return;
+    }
+
+    if (activeListenBtn === button && window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+        setListenButtonState(button, false);
+        activeListenBtn = null;
+        return;
+    }
+
+    window.speechSynthesis.cancel();
+    if (activeListenBtn) {
+        setListenButtonState(activeListenBtn, false);
+    }
+
+    activeListenBtn = button;
+    setListenButtonState(button, true);
+
+    const cleanTitle = cleanHeadline(title);
+    const textToRead = `${cleanTitle}. ... Summary: ${summary}. ... Why it matters: ${whyItMatters}`;
+    
+    currentUtterance = new SpeechSynthesisUtterance(textToRead);
+    
+    // Ensure voices are loaded
+    const voices = window.speechSynthesis.getVoices();
+    const preferredVoice = voices.find(v => 
+        (v.name.includes("Google") || v.name.includes("Siri") || v.name.includes("Natural")) && v.lang.startsWith("en")
+    ) || voices.find(v => v.lang.startsWith("en"));
+
+    if (preferredVoice) {
+        currentUtterance.voice = preferredVoice;
+    }
+
+    currentUtterance.rate = 1.02;
+    currentUtterance.pitch = 1.0;
+
+    currentUtterance.onend = () => {
+        setListenButtonState(button, false);
+        if (activeListenBtn === button) {
+            activeListenBtn = null;
+        }
+    };
+
+    currentUtterance.onerror = () => {
+        setListenButtonState(button, false);
+        if (activeListenBtn === button) {
+            activeListenBtn = null;
+        }
+    };
+
+    window.speechSynthesis.speak(currentUtterance);
+}
+
+function setListenButtonState(button, isPlaying) {
+    if (!button) return;
+    const icon = button.querySelector('i');
+    if (icon) {
+        if (isPlaying) {
+            icon.className = 'fa-solid fa-circle-stop';
+            button.setAttribute('title', 'Stop listening');
+            button.classList.add('is-playing');
+        } else {
+            icon.className = 'fa-solid fa-volume-high';
+            button.setAttribute('title', 'Listen to story');
+            button.classList.remove('is-playing');
+        }
+    }
+}
+
+// Pre-load voices on voice-changed event
+if ('speechSynthesis' in window) {
+    window.speechSynthesis.getVoices();
+    window.speechSynthesis.onvoiceschanged = () => {
+        window.speechSynthesis.getVoices();
+    };
+}
+

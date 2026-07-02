@@ -2981,4 +2981,43 @@ body.is-ios-app .news-card-grid {
     font-weight: 700;
 }
 
+/* Hero Carousel Listen Button styling */
+.hero-carousel-listen-btn {
+    align-self: flex-start;
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 0.6rem 1.2rem;
+    border-radius: 999px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background 0.2s ease, transform 0.2s ease;
+    margin-left: 0.8rem;
+    font-size: 0.95rem;
+}
+
+.hero-carousel-listen-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: scale(1.03);
+}
+
+.hero-carousel-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+
 
