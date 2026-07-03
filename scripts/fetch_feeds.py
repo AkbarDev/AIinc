@@ -920,7 +920,36 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
             if attempt < max_retries - 1:
                 time.sleep(retry_delay)
                 continue
-            return None
+
+    # Stage 3: Public domain free-use Unsplash stock image fallback
+    print(f"info: Using curated open stock image fallback for category: {category}")
+    curated_stock = {
+        "ai": "https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=640&q=80",
+        "tech": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=640&q=80",
+        "technology": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=640&q=80",
+        "commerce": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=640&q=80",
+        "ads": "https://images.unsplash.com/photo-1533750516457-a7f992034fec?auto=format&fit=crop&w=640&q=80",
+        "marketing": "https://images.unsplash.com/photo-1533750516457-a7f992034fec?auto=format&fit=crop&w=640&q=80",
+        "startup": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=640&q=80",
+        "media": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=640&q=80",
+        "digital-media": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=640&q=80",
+        "brands": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&w=640&q=80",
+        "gaming": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=640&q=80"
+    }
+    
+    fallback_url = curated_stock.get(category.lower(), "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=640&q=80")
+    
+    for attempt in range(max_retries):
+        try:
+            req = Request(fallback_url, headers=headers, method="GET")
+            with urlopen(req, timeout=15) as response:
+                resp_bytes = response.read()
+                image_path.write_bytes(resp_bytes)
+                print(f"info: Stock fallback image successfully saved: {image_path}")
+                return f"assets/images/generated/{trend_id}.jpg"
+        except Exception as e:
+            print(f"warn: failed to fetch stock fallback image: {e}", file=sys.stderr)
+            
     return None
 
 

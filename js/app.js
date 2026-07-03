@@ -242,6 +242,7 @@ function renderAll() {
     renderNewsArticleSchema();
     renderMetaStrip();
     syncActiveCategoryTheme();
+    renderTrendChart();
 }
 
 function getCarouselStories() {
@@ -1674,5 +1675,82 @@ if ('speechSynthesis' in window) {
     window.speechSynthesis.onvoiceschanged = () => {
         window.speechSynthesis.getVoices();
     };
+}
+
+function renderTrendChart() {
+    const chartDiv = document.getElementById('plotly-trend-chart');
+    if (!chartDiv) return;
+
+    if (typeof Plotly === 'undefined') {
+        chartDiv.innerHTML = '<div style="color: rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; height: 100%;">Loading chart components...</div>';
+        return;
+    }
+
+    const list = getEditorialTrends(state.activeCategory);
+    const topTrends = list.slice(0, 10).reverse();
+
+    if (!topTrends.length) {
+        chartDiv.innerHTML = '<div style="color: rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; height: 100%;">No data available for this category.</div>';
+        return;
+    }
+
+    const xValues = topTrends.map(item => item.score || 0);
+    const yValues = topTrends.map(item => cleanHeadline(item.title));
+    const hoverTexts = topTrends.map(item => `${cleanHeadline(item.title)}<br>Score: ${(item.score || 0).toFixed(3)}<br>Source: ${getPrimarySource(item)}`);
+
+    const data = [{
+        type: 'bar',
+        x: xValues,
+        y: yValues,
+        orientation: 'h',
+        text: xValues.map(v => v.toFixed(2)),
+        textposition: 'auto',
+        hoverinfo: 'text',
+        hovertext: hoverTexts,
+        marker: {
+            color: topTrends.map(item => {
+                const cat = normalizeCategory(item.category || 'all');
+                const colors = {
+                    ai: '#38bdf8',       // cyan
+                    tech: '#10b981',     // emerald
+                    commerce: '#f59e0b', // amber
+                    ads: '#ec4899',      // pink
+                    startup: '#8b5cf6',  // purple
+                    media: '#3b82f6',    // blue
+                    brands: '#f43f5e'    // rose
+                };
+                return colors[cat] || '#6b7280';
+            }),
+            opacity: 0.85,
+            line: {
+                color: 'rgba(255,255,255,0.1)',
+                width: 1
+            }
+        }
+    }];
+
+    const layout = {
+        margin: { l: window.innerWidth < 768 ? 120 : 250, r: 20, t: 10, b: 30 },
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        font: {
+            color: 'rgba(255, 255, 255, 0.75)',
+            family: 'Inter, sans-serif',
+            size: window.innerWidth < 768 ? 9 : 11
+        },
+        xaxis: {
+            title: 'Editorial Score',
+            gridcolor: 'rgba(255, 255, 255, 0.05)',
+            zerolinecolor: 'rgba(255, 255, 255, 0.1)',
+            tickfont: { color: 'rgba(255, 255, 255, 0.5)' }
+        },
+        yaxis: {
+            gridcolor: 'rgba(255, 255, 255, 0.05)',
+            tickfont: { color: 'rgba(255, 255, 255, 0.85)' }
+        }
+    };
+
+    const config = { responsive: true, displayModeBar: false };
+    Plotly.newPlot('plotly-trend-chart', data, layout, config);
 }
 

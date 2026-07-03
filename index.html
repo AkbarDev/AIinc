@@ -47,6 +47,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-8XFHbRmq9Vc3rroWAtxEvsC0BpvyEukgqS0bkkCm1cW0XkyR3O6jwxKF1u9IiiaivGi99ZTSdKCbFf8Cj8BkVA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js" charset="utf-8"></script>
     <script>
         window.SNAPFACTS_API_BASE = window.SNAPFACTS_API_BASE || (window.location.hostname === "localhost" ? "http://localhost:8834" : "https://api.snapfacts.in");
     </script>
@@ -108,6 +109,18 @@
                 </section>
                 <div class="news-board-shell">
                     <div class="news-card-grid" id="news-card-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trend-insights" id="trend-insights" style="padding: 3rem 0; background: var(--bg-surface); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow" style="text-transform: uppercase; font-size: 0.85rem; font-weight: 700; color: var(--blue); letter-spacing: 0.08em; margin-bottom: 0.4rem;">Data intelligence</p>
+                    <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; margin: 0; color: var(--ink);">Real-time Trend Score Distribution</h3>
+                </div>
+                <div class="chart-container" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); border-radius: 18px; padding: 1.5rem; margin-top: 1.5rem; min-height: 320px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+                    <div id="plotly-trend-chart" style="width: 100%; height: 300px;"></div>
                 </div>
             </div>
         </section>
