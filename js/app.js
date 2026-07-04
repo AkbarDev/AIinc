@@ -177,6 +177,8 @@ document.addEventListener('DOMContentLoaded', () => {
     setupReaderInteractions();
     setupSyncDialog();
     setupSearch();
+    registerServiceWorker();
+    setupAIChat();
 
     // Close share popovers when clicking outside
     document.addEventListener('click', (event) => {
@@ -2186,6 +2188,123 @@ function wrapText(ctx, text, maxWidth) {
     lines.push(currentLine);
     return lines;
 }
+
+function registerServiceWorker() {
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./sw.js').then((reg) => {
+                console.log('info: ServiceWorker registration successful with scope: ', reg.scope);
+            }).catch((err) => {
+                console.warn('warn: ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+}
+
+function setupAIChat() {
+    const toggleBtn = document.getElementById('chat-toggle-btn');
+    const panel = document.getElementById('chat-panel');
+    const closeBtn = document.getElementById('chat-close-btn');
+    const form = document.getElementById('chat-input-form');
+    const userInput = document.getElementById('chat-user-input');
+    const messageArea = document.getElementById('chat-messages');
+
+    if (!toggleBtn || !panel || !closeBtn || !form || !messageArea) return;
+
+    toggleBtn.addEventListener('click', () => {
+        const isClosed = panel.style.display === 'none';
+        panel.style.display = isClosed ? 'flex' : 'none';
+        if (isClosed) {
+            userInput.focus();
+        }
+    });
+
+    closeBtn.addEventListener('click', () => {
+        panel.style.display = 'none';
+    });
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const text = userInput.value.trim();
+        if (!text) return;
+
+        appendChatMessage('user', text);
+        userInput.value = '';
+
+        setTimeout(() => {
+            const reply = processAgentQuery(text);
+            appendChatMessage('agent', reply);
+        }, 300);
+    });
+}
+
+function appendChatMessage(sender, text) {
+    const container = document.getElementById('chat-messages');
+    if (!container) return;
+
+    const msg = document.createElement('div');
+    if (sender === 'user') {
+        msg.style.cssText = "background: #38bdf8; color: #000; border-radius: 12px 12px 0 12px; padding: 0.8rem; max-width: 85%; align-self: flex-end; margin-left: auto;";
+    } else {
+        msg.style.cssText = "background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px 12px 12px 0; padding: 0.8rem; max-width: 85%; align-self: flex-start;";
+    }
+    msg.innerHTML = text;
+    container.appendChild(msg);
+    container.scrollTop = container.scrollHeight;
+}
+
+function processAgentQuery(query) {
+    const q = query.toLowerCase();
+
+    if (!state.trends || !state.trends.length) {
+        return "I don't have access to the news feed right now. Please wait while the page completes loading.";
+    }
+
+    const matches = state.trends.filter(item => {
+        const title = (item.title || '').toLowerCase();
+        const summary = (item.summary || '').toLowerCase();
+        const cat = (item.category || '').toLowerCase();
+        return title.includes(q) || summary.includes(q) || cat.includes(q);
+    });
+
+    if (matches.length > 0) {
+        const topMatches = matches.sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 3);
+        let response = `I found **${matches.length} matching trends** today. Here is the synthesized briefing:<br><br>`;
+        
+        topMatches.forEach((item, idx) => {
+            const headline = cleanHeadline(item.title);
+            const source = getPrimarySource(item);
+            const score = item.score ? item.score.toFixed(2) : '—';
+            response += `${idx + 1}. **${headline}** (Score: ${score})<br>`;
+            response += `<em>"${item.summary}"</em><br>`;
+            response += `<a href="${item.link}" target="_blank" rel="noopener" style="color: #38bdf8; text-decoration: underline; font-size: 0.8rem;">Read full story at ${source}</a><br><br>`;
+        });
+
+        if (matches.length > 3) {
+            response += `<em>And ${matches.length - 3} other matching trends. You can search them using the main header search bar!</em>`;
+        }
+        return response;
+    }
+
+    if (q.includes('hello') || q.includes('hi') || q.includes('hey')) {
+        return "Hello! I am ready to answer your questions. You can ask me to search and summarize topics like <em>\"Google\"</em>, <em>\"AI\"</em>, or <em>\"advertising\"</em>.";
+    }
+
+    if (q.includes('summary') || q.includes('today') || q.includes('trends')) {
+        const topOverall = [...state.trends]
+            .sort((a, b) => (b.score || 0) - (a.score || 0))
+            .slice(0, 3);
+        
+        let response = "Here is the quick executive briefing on today's **top 3 trends**:<br><br>";
+        topOverall.forEach((item, idx) => {
+            response += `• **${cleanHeadline(item.title)}**: ${item.summary}<br><br>`;
+        });
+        return response;
+    }
+
+    return "I couldn't find any trends matching your query. Try asking about a specific keyword like <em>\"OpenAI\"</em>, <em>\"Google\"</em>, <em>\"marketing\"</em>, or ask for <em>\"today's top trends\"</em>!";
+}
+
 
 
 
