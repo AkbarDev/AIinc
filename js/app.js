@@ -550,6 +550,8 @@ function renderNewsBoard() {
                 ${aiBadge}
                 <div class="card-image-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
                     <button class="card-image-action-btn" type="button" data-action="listen" aria-label="Listen to story" title="Listen"><i class="fa-solid fa-volume-high" aria-hidden="true"></i></button>
+                    <button class="card-image-action-btn" type="button" data-action="speed-read" aria-label="Speed Read Summary" title="Speed Read Summary"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></button>
+                    <button class="card-image-action-btn" type="button" data-action="export-card" aria-label="Download Visual Card" title="Download Visual Card"><i class="fa-solid fa-image" aria-hidden="true"></i></button>
                     <button class="card-image-action-btn" type="button" data-action="export-markdown" aria-label="Export to Obsidian" title="Export to Obsidian"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i></button>
                     <button class="card-image-action-btn" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
                     <div class="share-popover">
@@ -859,6 +861,28 @@ function setupReaderInteractions() {
                 });
                 if (story) {
                     exportStoryToMarkdown(story);
+                }
+                return;
+            }
+
+            if (action === 'speed-read') {
+                const story = state.trends.find(item => {
+                    const id = String(item.id || item.link || item.title || '').trim().toLowerCase();
+                    return id === storyId;
+                });
+                if (story) {
+                    openSpeedReader(story.summary || '');
+                }
+                return;
+            }
+
+            if (action === 'export-card') {
+                const story = state.trends.find(item => {
+                    const id = String(item.id || item.link || item.title || '').trim().toLowerCase();
+                    return id === storyId;
+                });
+                if (story) {
+                    exportStoryAsVisualCard(story);
                 }
                 return;
             }
@@ -1901,5 +1925,267 @@ ${whyItMatters}
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
 }
+
+// RSVP Speed Reader Implementation
+let speedReaderWords = [];
+let speedReaderIndex = 0;
+let speedReaderInterval = null;
+let speedReaderIsPlaying = false;
+
+function openSpeedReader(text) {
+    const modal = document.getElementById('speed-reader-modal');
+    const display = document.getElementById('speed-word-display');
+    const playPauseBtn = document.getElementById('speed-reader-play-pause');
+    const progressBar = document.getElementById('speed-progress-bar');
+
+    if (!modal || !display) return;
+
+    if (window.speechSynthesis && window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+        if (activeListenBtn) {
+            setListenButtonState(activeListenBtn, false);
+            activeListenBtn = null;
+        }
+    }
+
+    const cleanText = text.replace(/<[^>]*>/g, '').replace(/[#*`_-]/g, '').trim();
+    speedReaderWords = cleanText.split(/\s+/).filter(w => w.length > 0);
+    speedReaderIndex = 0;
+    speedReaderIsPlaying = false;
+
+    if (progressBar) progressBar.style.width = '0%';
+    display.textContent = "READY";
+    if (playPauseBtn) playPauseBtn.innerHTML = '<i class="fa-solid fa-play"></i>';
+
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+
+    setupSpeedReaderEvents();
+}
+
+function setupSpeedReaderEvents() {
+    const modal = document.getElementById('speed-reader-modal');
+    const closeBtn = document.getElementById('speed-reader-close');
+    const playPauseBtn = document.getElementById('speed-reader-play-pause');
+    const rewindBtn = document.getElementById('speed-reader-rewind');
+    const wpmSelect = document.getElementById('speed-reader-wpm');
+
+    if (!modal) return;
+
+    const stopReader = () => {
+        clearInterval(speedReaderInterval);
+        speedReaderInterval = null;
+        speedReaderIsPlaying = false;
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+    };
+
+    closeBtn.onclick = stopReader;
+    modal.querySelector('.speed-modal-backdrop').onclick = stopReader;
+
+    playPauseBtn.onclick = () => {
+        if (speedReaderIsPlaying) {
+            pauseSpeedReader();
+        } else {
+            playSpeedReader();
+        }
+    };
+
+    rewindBtn.onclick = () => {
+        speedReaderIndex = 0;
+        updateSpeedDisplay();
+    };
+
+    wpmSelect.onchange = () => {
+        if (speedReaderIsPlaying) {
+            pauseSpeedReader();
+            playSpeedReader();
+        }
+    };
+}
+
+function playSpeedReader() {
+    const playPauseBtn = document.getElementById('speed-reader-play-pause');
+    const wpmSelect = document.getElementById('speed-reader-wpm');
+    if (!playPauseBtn || !wpmSelect) return;
+
+    const wpm = parseInt(wpmSelect.value) || 350;
+    const intervalMs = (60 / wpm) * 1000;
+
+    speedReaderIsPlaying = true;
+    playPauseBtn.innerHTML = '<i class="fa-solid fa-pause"></i>';
+
+    speedReaderInterval = setInterval(() => {
+        if (speedReaderIndex >= speedReaderWords.length) {
+            pauseSpeedReader();
+            return;
+        }
+        updateSpeedDisplay();
+        speedReaderIndex++;
+    }, intervalMs);
+}
+
+function pauseSpeedReader() {
+    const playPauseBtn = document.getElementById('speed-reader-play-pause');
+    if (playPauseBtn) playPauseBtn.innerHTML = '<i class="fa-solid fa-play"></i>';
+    
+    speedReaderIsPlaying = false;
+    clearInterval(speedReaderInterval);
+    speedReaderInterval = null;
+}
+
+function updateSpeedDisplay() {
+    const display = document.getElementById('speed-word-display');
+    const progressBar = document.getElementById('speed-progress-bar');
+    if (!display) return;
+
+    if (speedReaderIndex >= speedReaderWords.length) {
+        display.textContent = "FINISHED";
+        if (progressBar) progressBar.style.width = '100%';
+        return;
+    }
+
+    display.textContent = speedReaderWords[speedReaderIndex];
+
+    if (progressBar && speedReaderWords.length) {
+        const pct = (speedReaderIndex / speedReaderWords.length) * 100;
+        progressBar.style.width = `${pct}%`;
+    }
+}
+
+// Visual Share Card Exporter
+function exportStoryAsVisualCard(story) {
+    const canvas = document.createElement('canvas');
+    canvas.width = 1280;
+    canvas.height = 720;
+    const ctx = canvas.getContext('2d');
+
+    const imageSrc = resolveCardImage(story);
+    const bgImage = new Image();
+    bgImage.crossOrigin = 'anonymous';
+    
+    bgImage.onload = () => {
+        drawVisualCard(ctx, bgImage, story, canvas);
+    };
+    
+    bgImage.onerror = () => {
+        drawVisualCard(ctx, null, story, canvas);
+    };
+
+    if (imageSrc) {
+        bgImage.src = imageSrc;
+    } else {
+        drawVisualCard(ctx, null, story, canvas);
+    }
+}
+
+function drawVisualCard(ctx, bgImage, story, canvas) {
+    const headline = cleanHeadline(story.title);
+    const category = (story.category || 'all').toUpperCase();
+    const date = formatDate(story.published_at);
+    const summary = story.summary || '';
+    const source = getPrimarySource(story);
+
+    if (bgImage) {
+        const hRatio = canvas.width / bgImage.width;
+        const vRatio = canvas.height / bgImage.height;
+        const ratio = Math.max(hRatio, vRatio);
+        const centerShift_x = (canvas.width - bgImage.width * ratio) / 2;
+        const centerShift_y = (canvas.height - bgImage.height * ratio) / 2;
+        ctx.drawImage(bgImage, 0, 0, bgImage.width, bgImage.height,
+            centerShift_x, centerShift_y, bgImage.width * ratio, bgImage.height * ratio);
+    } else {
+        const gradient = ctx.createLinearGradient(0, 0, 1280, 720);
+        gradient.addColorStop(0, '#060a14');
+        gradient.addColorStop(1, '#111827');
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, 1280, 720);
+    }
+
+    const overlay = ctx.createLinearGradient(0, 0, 0, 720);
+    overlay.addColorStop(0, 'rgba(6, 10, 20, 0.45)');
+    overlay.addColorStop(1, 'rgba(6, 10, 20, 0.95)');
+    ctx.fillStyle = overlay;
+    ctx.fillRect(0, 0, 1280, 720);
+
+    ctx.fillStyle = '#38bdf8';
+    ctx.beginPath();
+    ctx.roundRect(60, 60, 160, 36, 6);
+    ctx.fill();
+
+    ctx.fillStyle = '#000000';
+    ctx.font = 'bold 16px Inter, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText(category, 140, 84);
+
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.65)';
+    ctx.font = '500 18px Inter, sans-serif';
+    ctx.textAlign = 'left';
+    ctx.fillText(`${source} • ${date}`, 240, 84);
+
+    ctx.fillStyle = '#ffffff';
+    ctx.font = 'bold 44px "Space Grotesk", sans-serif';
+    
+    const titleLines = wrapText(ctx, headline, 1160);
+    let currentY = 170;
+    titleLines.forEach(line => {
+        ctx.fillText(line, 60, currentY);
+        currentY += 56;
+    });
+
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(60, currentY + 10);
+    ctx.lineTo(1220, currentY + 10);
+    ctx.stroke();
+    currentY += 50;
+
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.85)';
+    ctx.font = '500 24px Inter, sans-serif';
+    
+    const summaryLines = wrapText(ctx, summary, 1160);
+    summaryLines.forEach(line => {
+        ctx.fillText(line, 60, currentY);
+        currentY += 34;
+    });
+
+    ctx.fillStyle = '#38bdf8';
+    ctx.font = 'bold 20px "Space Grotesk", sans-serif';
+    ctx.textAlign = 'right';
+    ctx.fillText('SNAPFACTS', 1220, 660);
+
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
+    ctx.font = '16px Inter, sans-serif';
+    ctx.fillText('Real-Time Signals', 1220, 680);
+
+    const url = canvas.toDataURL('image/png');
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${headline.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-card.png`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+
+function wrapText(ctx, text, maxWidth) {
+    const words = text.split(' ');
+    const lines = [];
+    let currentLine = words[0];
+
+    for (let i = 1; i < words.length; i++) {
+        const word = words[i];
+        const width = ctx.measureText(currentLine + ' ' + word).width;
+        if (width < maxWidth) {
+            currentLine += ' ' + word;
+        } else {
+            lines.push(currentLine);
+            currentLine = word;
+        }
+    }
+    lines.push(currentLine);
+    return lines;
+}
+
 
 
