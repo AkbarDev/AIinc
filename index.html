@@ -71,6 +71,7 @@
                         <i class="fa-solid fa-xmark"></i>
                     </button>
                 </div>
+                <button type="button" id="personalize-feed-btn" class="header-action-btn" title="Personalize Feed (AI Training)" style="background: transparent; border: none; color: rgba(255, 255, 255, 0.6); cursor: pointer; font-size: 1.1rem; margin-left: 0.8rem; display: inline-flex; align-items: center; justify-content: center; outline: none; transition: color 0.2s;"><i class="fa-solid fa-sliders"></i></button>
             </div>
             <nav class="primary-nav" aria-label="Primary categories">
                 <div class="category-pills header-tabs" id="category-pills"></div>
@@ -262,6 +263,31 @@
             </form>
         </div>
     </div>
+
+    <dialog class="sync-dialog" id="personalize-dialog" style="width: min(480px, 90vw); background: #0f121d; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; color: #fff; padding: 0;">
+        <div style="padding: 1.5rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 0.8rem; margin-bottom: 1.2rem;">
+                <h3 style="font-family: 'Space Grotesk', sans-serif; margin: 0; font-size: 1.3rem; display: flex; align-items: center; gap: 0.5rem;"><i class="fa-solid fa-sliders" style="color: #38bdf8;"></i> AI Feed Personalization</h3>
+                <button class="sync-close-btn" id="personalize-close-btn" type="button" style="background: transparent; border: none; color: rgba(255,255,255,0.5); font-size: 1.5rem; cursor: pointer; outline: none;">&times;</button>
+            </div>
+            
+            <div style="display: flex; flex-direction: column; gap: 1.2rem; font-size: 0.9rem;">
+                <p style="color: rgba(255,255,255,0.6); margin: 0; line-height: 1.45;">Train your feed by setting keywords. Stories matching boosted keywords will climb to the top, while muted keywords will be filtered out entirely.</p>
+                
+                <div>
+                    <label style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #38bdf8;">🚀 Boost Keywords (comma separated)</label>
+                    <input type="text" id="feed-boost-input" placeholder="e.g. OpenAI, Search, Google" style="width: 100%; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 0.6rem 0.8rem; color: #fff; outline: none; box-sizing: border-box;" />
+                </div>
+                
+                <div>
+                    <label style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #f43f5e;">🚫 Mute Keywords (comma separated)</label>
+                    <input type="text" id="feed-mute-input" placeholder="e.g. politics, gaming, sports" style="width: 100%; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 0.6rem 0.8rem; color: #fff; outline: none; box-sizing: border-box;" />
+                </div>
+                
+                <button id="save-personalization-btn" style="width: 100%; background: #38bdf8; border: none; color: #000; font-weight: 600; padding: 0.75rem; border-radius: 8px; cursor: pointer; margin-top: 0.5rem; transition: background 0.2s;">Apply Feed Training</button>
+            </div>
+        </div>
+    </dialog>
 
     <script id="news-article-schema" type="application/ld+json">{"@context":"https://schema.org","@graph":[]}</script>
     <script src="js/app.js" defer></script>

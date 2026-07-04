@@ -148,6 +148,8 @@ const state = {
     followedTopics: [],
     savedStoryIds: [],
     searchQuery: '',
+    boostKeywords: [],
+    muteKeywords: [],
 };
 
 const carouselTouch = {
@@ -162,6 +164,8 @@ const STORAGE_KEYS = {
     follows: 'snapfacts_followed_topics',
     saved: 'snapfacts_saved_story_ids',
     syncKey: 'snapfacts_user_sync_key',
+    boosts: 'snapfacts_feed_boosts',
+    mutes: 'snapfacts_feed_mutes',
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -179,6 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupSearch();
     registerServiceWorker();
     setupAIChat();
+    setupPersonalization();
 
     // Close share popovers when clicking outside
     document.addEventListener('click', (event) => {
@@ -610,6 +615,20 @@ function getCategoryTrends(categoryKey) {
 
 function getEditorialTrends(categoryKey) {
     let list = [...getCategoryTrends(categoryKey)];
+
+    // 1. Filter out muted keywords
+    if (state.muteKeywords && state.muteKeywords.length > 0) {
+        list = list.filter(item => {
+            const title = (item.title || '').toLowerCase();
+            const summary = (item.summary || '').toLowerCase();
+            return !state.muteKeywords.some(keyword => {
+                const k = keyword.trim().toLowerCase();
+                return k && (title.includes(k) || summary.includes(k));
+            });
+        });
+    }
+
+    // 2. Apply search query
     if (state.searchQuery) {
         const query = state.searchQuery.trim().toLowerCase();
         list = list.filter(item => 
@@ -618,7 +637,29 @@ function getEditorialTrends(categoryKey) {
             (item.category && item.category.toLowerCase().includes(query))
         );
     }
-    return list.sort((a, b) => (b.score || 0) - (a.score || 0));
+
+    // 3. Sort by score with boost modifiers applied
+    return list.sort((a, b) => {
+        let aScore = a.score || 0;
+        let bScore = b.score || 0;
+
+        const aTitle = (a.title || '').toLowerCase();
+        const aSummary = (a.summary || '').toLowerCase();
+        const bTitle = (b.title || '').toLowerCase();
+        const bSummary = (b.summary || '').toLowerCase();
+
+        if (state.boostKeywords && state.boostKeywords.length > 0) {
+            state.boostKeywords.forEach(keyword => {
+                const k = keyword.trim().toLowerCase();
+                if (k) {
+                    if (aTitle.includes(k) || aSummary.includes(k)) aScore += 10.0;
+                    if (bTitle.includes(k) || bSummary.includes(k)) bScore += 10.0;
+                }
+            });
+        }
+
+        return bScore - aScore;
+    });
 }
 
 function prioritizeFollowedTopics(list) {
@@ -976,6 +1017,8 @@ function hydrateReaderPrefs() {
     state.briefMode = safeStorageGet(STORAGE_KEYS.brief, 'false') === 'true';
     state.followedTopics = safeStorageArrayGet(STORAGE_KEYS.follows);
     state.savedStoryIds = safeStorageArrayGet(STORAGE_KEYS.saved);
+    state.boostKeywords = safeStorageArrayGet(STORAGE_KEYS.boosts);
+    state.muteKeywords = safeStorageArrayGet(STORAGE_KEYS.mutes);
 }
 
 function persistReaderPrefs() {
@@ -983,6 +1026,8 @@ function persistReaderPrefs() {
     safeStorageSet(STORAGE_KEYS.brief, state.briefMode ? 'true' : 'false');
     safeStorageSet(STORAGE_KEYS.follows, JSON.stringify(state.followedTopics));
     safeStorageSet(STORAGE_KEYS.saved, JSON.stringify(state.savedStoryIds));
+    safeStorageSet(STORAGE_KEYS.boosts, JSON.stringify(state.boostKeywords));
+    safeStorageSet(STORAGE_KEYS.mutes, JSON.stringify(state.muteKeywords));
 }
 
 function toggleSavedStory(storyId) {
@@ -2315,6 +2360,45 @@ function processAgentQuery(query) {
 
     return "I couldn't find any trends matching your query. Try asking about a specific keyword like <em>\"OpenAI\"</em>, <em>\"Google\"</em>, <em>\"marketing\"</em>, or ask for <em>\"today's top trends\"</em>!";
 }
+
+function setupPersonalization() {
+    const btn = document.getElementById('personalize-feed-btn');
+    const dialog = document.getElementById('personalize-dialog');
+    const closeBtn = document.getElementById('personalize-close-btn');
+    const saveBtn = document.getElementById('save-personalization-btn');
+    const boostInput = document.getElementById('feed-boost-input');
+    const muteInput = document.getElementById('feed-mute-input');
+
+    if (!btn || !dialog || !closeBtn || !saveBtn || !boostInput || !muteInput) return;
+
+    btn.onclick = () => {
+        boostInput.value = (state.boostKeywords || []).join(', ');
+        muteInput.value = (state.muteKeywords || []).join(', ');
+        dialog.showModal();
+    };
+
+    closeBtn.onclick = () => {
+        dialog.close();
+    };
+
+    saveBtn.onclick = () => {
+        state.boostKeywords = boostInput.value
+            .split(',')
+            .map(word => word.trim())
+            .filter(word => word.length > 0);
+
+        state.muteKeywords = muteInput.value
+            .split(',')
+            .map(word => word.trim())
+            .filter(word => word.length > 0);
+
+        persistReaderPrefs();
+        renderNewsBoard();
+        renderTrendChart();
+        dialog.close();
+    };
+}
+
 
 
 
