@@ -545,6 +545,16 @@ function renderNewsBoard() {
             const whyItMatters = buildWhyItMatters(item);
             const storyBrief = buildStoryBrief(item, whyItMatters, mobileReader ? 72 : state.briefMode ? 48 : 72);
             const storyHref = escapeAttr(item.link);
+            
+            let sourcesHTML = '';
+            if (Array.isArray(item.source_names) && item.source_names.length > 0) {
+                sourcesHTML = `
+                <div class="card-coverage-strip" style="display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.75rem; border-top: 1px dashed var(--border-color); padding-top: 0.6rem; align-items: center;">
+                    <span style="font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em; margin-right: 0.2rem;">Coverage:</span>
+                    ${item.source_names.map(name => `<span class="coverage-badge" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); color: rgba(255,255,255,0.7); border-radius: 4px; padding: 0.15rem 0.4rem; font-size: 0.7rem; font-weight: 600; font-family: 'Inter', sans-serif;">${escapeHtml(name)}</span>`).join('')}
+                </div>`;
+            }
+
             return `
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">
             <div class="card-media-wrapper">
@@ -575,6 +585,7 @@ function renderNewsBoard() {
                         ${state.meta?.generated_at ? `<span class="refresh-date">Refreshed: ${escapeHtml(formatDate(state.meta.generated_at))}</span>` : ''}
                     </div>
                 </div>
+                ${sourcesHTML}
             </div>
         </article>`;
         })
