@@ -3019,5 +3019,94 @@ body.is-ios-app .news-card-grid {
     animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
+/* Header Voice Search & Bar Styles */
+.header-search-container {
+    margin: 0 1.5rem;
+    flex: 1;
+    max-width: 280px;
+}
+
+.search-bar-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    padding: 0.35rem 0.8rem;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+.search-bar-wrapper:focus-within {
+    border-color: #38bdf8;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.search-bar-wrapper input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 0.85rem;
+    margin-left: 0.4rem;
+    width: 100%;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.search-bar-wrapper input::placeholder {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.search-icon {
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 0.8rem;
+}
+
+.voice-search-btn,
+.clear-search-btn {
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 0.1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s, transform 0.2s;
+    outline: none;
+}
+
+.voice-search-btn:hover,
+.clear-search-btn:hover {
+    color: #fff;
+}
+
+.voice-search-btn.listening {
+    color: #38bdf8;
+    animation: listening-pulse 1.2s infinite;
+}
+
+@keyframes listening-pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.18); opacity: 0.6; }
+}
+
+@media (max-width: 768px) {
+    .header-search-container {
+        margin: 0 0.8rem;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 640px) {
+    .header-search-container {
+        margin: 0.5rem 0 0.2rem 0;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
 
 

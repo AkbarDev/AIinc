@@ -147,6 +147,7 @@ const state = {
     briefMode: false,
     followedTopics: [],
     savedStoryIds: [],
+    searchQuery: '',
 };
 
 const carouselTouch = {
@@ -175,6 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setupHeroCarousel();
     setupReaderInteractions();
     setupSyncDialog();
+    setupSearch();
 
     // Close share popovers when clicking outside
     document.addEventListener('click', (event) => {
@@ -548,6 +550,7 @@ function renderNewsBoard() {
                 ${aiBadge}
                 <div class="card-image-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
                     <button class="card-image-action-btn" type="button" data-action="listen" aria-label="Listen to story" title="Listen"><i class="fa-solid fa-volume-high" aria-hidden="true"></i></button>
+                    <button class="card-image-action-btn" type="button" data-action="export-markdown" aria-label="Export to Obsidian" title="Export to Obsidian"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i></button>
                     <button class="card-image-action-btn" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
                     <div class="share-popover">
                         <a href="https://x.com/intent/tweet?text=${encodeURIComponent('Check out this trend on Snapfacts: ' + headline)}&url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option x-twitter" title="Share on X"><i class="fa-brands fa-x-twitter"></i></a>
@@ -591,7 +594,16 @@ function getCategoryTrends(categoryKey) {
 }
 
 function getEditorialTrends(categoryKey) {
-    return [...getCategoryTrends(categoryKey)].sort((a, b) => (b.score || 0) - (a.score || 0));
+    let list = [...getCategoryTrends(categoryKey)];
+    if (state.searchQuery) {
+        const query = state.searchQuery.trim().toLowerCase();
+        list = list.filter(item => 
+            (item.title && item.title.toLowerCase().includes(query)) ||
+            (item.summary && item.summary.toLowerCase().includes(query)) ||
+            (item.category && item.category.toLowerCase().includes(query))
+        );
+    }
+    return list.sort((a, b) => (b.score || 0) - (a.score || 0));
 }
 
 function prioritizeFollowedTopics(list) {
@@ -836,6 +848,17 @@ function setupReaderInteractions() {
                     const whyItMatters = buildWhyItMatters(story);
                     const btn = event.target.closest('[data-action="listen"]');
                     speakStory(headline, summary, whyItMatters, btn);
+                }
+                return;
+            }
+
+            if (action === 'export-markdown') {
+                const story = state.trends.find(item => {
+                    const id = String(item.id || item.link || item.title || '').trim().toLowerCase();
+                    return id === storyId;
+                });
+                if (story) {
+                    exportStoryToMarkdown(story);
                 }
                 return;
             }
@@ -1753,4 +1776,130 @@ function renderTrendChart() {
     const config = { responsive: true, displayModeBar: false };
     Plotly.newPlot('plotly-trend-chart', data, layout, config);
 }
+
+function setupSearch() {
+    const searchInput = document.getElementById('header-search-input');
+    const voiceBtn = document.getElementById('voice-search-btn');
+    const clearBtn = document.getElementById('clear-search-btn');
+
+    if (!searchInput) return;
+
+    let searchTimeout = null;
+    searchInput.addEventListener('input', (event) => {
+        const val = event.target.value;
+        if (clearBtn) {
+            clearBtn.style.display = val ? 'inline-flex' : 'none';
+        }
+        
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            state.searchQuery = val;
+            renderNewsBoard();
+            renderTrendChart();
+        }, 150);
+    });
+
+    if (clearBtn) {
+        clearBtn.addEventListener('click', () => {
+            searchInput.value = '';
+            state.searchQuery = '';
+            clearBtn.style.display = 'none';
+            renderNewsBoard();
+            renderTrendChart();
+            searchInput.focus();
+        });
+    }
+
+    if (voiceBtn) {
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        if (!SpeechRecognition) {
+            voiceBtn.style.display = 'none';
+            return;
+        }
+
+        const recognition = new SpeechRecognition();
+        recognition.continuous = false;
+        recognition.interimResults = false;
+        recognition.lang = 'en-US';
+
+        recognition.onstart = () => {
+            voiceBtn.classList.add('listening');
+            voiceBtn.setAttribute('title', 'Listening...');
+            searchInput.placeholder = 'Listening to your voice...';
+        };
+
+        recognition.onend = () => {
+            voiceBtn.classList.remove('listening');
+            voiceBtn.setAttribute('title', 'Search by voice');
+            searchInput.placeholder = 'Search trends...';
+        };
+
+        recognition.onerror = () => {
+            voiceBtn.classList.remove('listening');
+        };
+
+        recognition.onresult = (event) => {
+            const transcript = event.results[0][0].transcript;
+            searchInput.value = transcript;
+            state.searchQuery = transcript;
+            if (clearBtn) {
+                clearBtn.style.display = 'inline-flex';
+            }
+            renderNewsBoard();
+            renderTrendChart();
+        };
+
+        voiceBtn.addEventListener('click', () => {
+            if (voiceBtn.classList.contains('listening')) {
+                recognition.stop();
+            } else {
+                recognition.start();
+            }
+        });
+    }
+}
+
+function exportStoryToMarkdown(story) {
+    const headline = cleanHeadline(story.title);
+    const date = formatDate(story.published_at);
+    const category = (story.category || 'all').toUpperCase();
+    const summary = story.summary || '';
+    const whyItMatters = buildWhyItMatters(story);
+    const link = story.link || '';
+    const source = getPrimarySource(story);
+
+    const mdContent = `---
+type: news-summary
+category: ${category}
+source: ${source}
+date: ${date}
+tags: [snapfacts, intelligence, ${category.toLowerCase()}]
+---
+
+# ${headline}
+
+**Source**: [${source}](${link})  
+**Date**: ${date}  
+
+## Summary
+${summary}
+
+## Why it matters
+${whyItMatters}
+
+---
+*Generated by [Snapfacts](https://www.snapfacts.in)*
+`;
+
+    const blob = new Blob([mdContent], { type: 'text/markdown;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${headline.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.md`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
 

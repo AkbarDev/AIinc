@@ -60,6 +60,18 @@
                     <img class="brand-logo" src="assets/images/snapfacts-wordmark.svg" alt="Snapfacts" width="224" height="64" fetchpriority="high" decoding="async" />
                 </a>
             </div>
+            <div class="header-search-container">
+                <div class="search-bar-wrapper">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="header-search-input" placeholder="Search trends..." aria-label="Search news trends" />
+                    <button type="button" id="voice-search-btn" class="voice-search-btn" title="Search by voice" aria-label="Search by voice">
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                    <button type="button" id="clear-search-btn" class="clear-search-btn" title="Clear search" aria-label="Clear search" style="display: none;">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
             <nav class="primary-nav" aria-label="Primary categories">
                 <div class="category-pills header-tabs" id="category-pills"></div>
                 <div class="mobile-category-nav" id="mobile-category-nav">
