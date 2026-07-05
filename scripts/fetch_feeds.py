@@ -642,14 +642,16 @@ def enhance_prompt_with_llm(title: str, summary: str, api_key: str) -> Optional[
     url = "https://router.huggingface.co/v1/chat/completions"
     
     system_instruction = (
-        "You are an expert prompt engineer for text-to-image models. "
-        "Your task is to convert a news article's headline and summary into a detailed, visually descriptive prompt for a text-to-image AI model. "
-        "The prompt must describe a single cohesive scene representing the article's concept. "
-        "Avoid any instructions, bullet points, introductory text, or structural headings. "
-        "Strictly do not request any real trademarked logos in the image itself. "
-        "The output style should be a flat vector editorial news-card illustration in a minimalist corporate style. "
-        "The prompt should describe stylized abstract emblems or wordmarks representing the key companies or brands involved in the article, arranged in a clean horizontal row on a soft solid-color background, each emblem inside a rounded card with generous padding. Leave a clear empty caption bar beneath each emblem. Use simple geometric shapes, sans-serif brand-style lettering only if generic/abstract, a muted professional color palette, soft shadows, and high contrast. No human faces, no photorealistic people, no blurry portraits, no clutter, and no watermarks. "
-        "Output ONLY the raw visual description prompt, nothing else."
+        "You are an expert prompt engineer for state-of-the-art text-to-image models (like FLUX.1 or Stable Diffusion).\n"
+        "Your task is to convert a news article's headline and summary into a highly descriptive, visual art prompt.\n"
+        "The prompt must describe a single cohesive, high-clarity editorial news illustration. "
+        "Create a symbolic or metaphoric visual scene representing the core concept of the story (e.g. if the news is about competition, show a minimal chess match or a symbolic duel; if about commerce, show a stylized digital marketplace storefront; if about AI chips, show a glowing circuit integrated with organic roots).\n"
+        "Style Requirements:\n"
+        "• Style: Clean minimalist corporate flat vector art, high contrast color palette, modern digital illustration suitable for a premium news hero card.\n"
+        "• No text, no letters, no words, no speech bubbles, no UI mockups, no screenshots.\n"
+        "• No real trademarked logos.\n"
+        "• High clarity, visually rich, content-driven, landscape 16:9 orientation, soft lighting.\n"
+        "Output ONLY the final descriptive visual prompt string. Do not include any intro, quote marks, labels, or formatting."
     )
     user_content = f"Headline: {title}\nSummary: {summary}"
     
@@ -833,30 +835,12 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
         # Fall back to a cleaner, non-structured template if LLM enhancement was skipped or failed
         companies = extract_companies(title, summary, category)
         company_1 = companies[0]
-        company_2 = companies[1]
-        company_3 = companies[2]
-        
-        brand_colors = [
-            "#f0f4f8",  # soft light slate blue
-            "#eef2f6",  # soft light blue-grey
-            "#f4f5f7",  # soft light grey
-            "#e8f0fe",  # soft light blue
-            "#edf7ed",  # soft light green
-            "#fdf2e9",  # soft light peach
-            "#f3e8ff",  # soft light lavender
-        ]
-        brand_color_hex = brand_colors[stable_hash(title) % len(brand_colors)]
         
         prompt_to_use = (
-            f"Flat vector editorial news-card illustration, minimalist corporate style. "
-            f"Show stylized abstract emblems/wordmarks representing {company_1}, {company_2}, {company_3} "
-            f"arranged in a clean horizontal row on a soft solid-color background ({brand_color_hex}), "
-            f"each emblem inside a rounded card with generous padding. "
-            f"Beneath each emblem, leave a clear empty caption bar sized for a short 2-3 word text label. "
-            f"Simple geometric shapes, sans-serif brand-style lettering only if it is generic/abstract "
-            f"(not attempting to replicate real trademarked logos), muted professional color palette, "
-            f"soft shadows, high contrast, no human faces, no photorealistic people, no blurry portraits, "
-            f"no clutter, no watermark, business/advertising-news aesthetic, 16:9, high resolution, clean negative space"
+            f"Minimalist flat vector editorial news illustration about {company_1} and {category}. "
+            f"A single clean symbolic visual concept, modern high-contrast color palette, flat vector design. "
+            f"Visual elements representing {category} and industry themes. "
+            f"No text, no logos, no watermarks, landscape 16:9, clean negative space, premium news hero layout."
         )
 
     # Stage 1: Try Hugging Face Image Generation (if API key is present)
