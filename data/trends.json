@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-06T19:18:31.696626+00:00",
-  "sources_scanned": 2819,
-  "feeds_polled": 35,
+  "generated_at": "2026-07-06T21:06:58.190743+00:00",
+  "sources_scanned": 2810,
+  "feeds_polled": 34,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1742,
+    "NA": 1733,
     "SA": 0,
     "EU": 1077,
     "AF": 0,
@@ -13,32 +13,59 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 99,
+  "clusters": 103,
   "trends": [
     {
-      "id": "ai giants spend 8 billion to fix enterprise adoption",
-      "title": "AI Giants Spend $8 Billion to Fix Enterprise Adoption",
-      "summary": "AI giants invest $8 billion to overcome challenges in enterprise adoption, focusing on implementation rather than model building.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/09/Microsoft-AI-agents.jpg?w=457",
-      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-giants-spend-8-billion-dollars-fix-enterprise-adoption/",
-      "category": "ai",
+      "id": "us treasury report warns ai bubble could trigger economic shockwaves",
+      "title": "US Treasury Report Warns AI Bubble Could Trigger Economic Shockwaves",
+      "summary": "U.S. Treasury warns of potential economic shockwaves from an AI market bubble similar to past tech crashes.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/02/US-Treasury-Department-AI.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/us-treasury-report-warns-ai-bubble-could-trigger-economic-shockwaves/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-07-06T17:35:05+00:00",
+      "published_at": "2026-07-06T20:30:13+00:00",
       "source_count": 1,
       "source_names": [
         "PYMNTS"
       ],
       "keywords": [
         "ai",
-        "artificial intelligence",
-        "bill",
-        "enterprise"
+        "artificial intelligence"
       ],
-      "score": 0.5876,
+      "score": 0.5457,
       "signals": {
-        "score": 0.5876,
-        "recency": 0.7502512969156383,
-        "keyword_volume": 0.8,
+        "score": 0.5457,
+        "recency": 0.9029463286633352,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "white house signals more handson approach to oversight of ai systems",
+      "title": "White House Signals More Hands-On Approach to Oversight of AI Systems",
+      "summary": "White House shifts to more direct oversight of powerful AI models, signaling a hands-on approach.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2023/05/white-house-AI.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/white-house-signals-more-hands-on-approach-to-oversight-of-ai-systems/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-07-06T20:07:35+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.532,
+      "signals": {
+        "score": 0.532,
+        "recency": 0.8479254715309353,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -49,7 +76,7 @@
     {
       "id": "lerobot v060 imagine evaluate improve",
       "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "summary": "LeRobot v0.6.0 updates its AI-driven system for better imagination, evaluation, and improvement.",
+      "summary": "LeRobot v0.6.0 updates its AI-driven evaluation and improvement tools for better performance.",
       "image": "assets/images/generated/lerobot v060 imagine evaluate improve.jpg",
       "link": "https://huggingface.co/blog/lerobot-release-v060",
       "category": "ai",
@@ -75,6 +102,88 @@
       "image_failure_reason": ""
     },
     {
+      "id": "an ai trained on wall streets own data just beat gpt",
+      "title": "An AI Trained on Wall Street\u2019s Own Data Just Beat GPT",
+      "summary": "An AI model, trained on Wall Street's financial data, outperforms GPT in specific tasks.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/06/Thinking-Machines.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/an-ai-trained-on-wall-streets-own-data-just-beat-gpt/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-07-06T19:40:47+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4768,
+      "signals": {
+        "score": 0.4768,
+        "recency": 0.7870944863768378,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "stablecoin and collateral rules give crypto a new bankability test",
+      "title": "Stablecoin and Collateral Rules Give Crypto a New Bankability Test",
+      "summary": "Digital assets began with the idea that trust could be engineered out of the system.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/crypto-regulators2.jpg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-and-collateral-rules-give-crypto-a-new-bankability-test/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-06T21:00:35+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.4656,
+      "signals": {
+        "score": 0.4656,
+        "recency": 0.982416120739924,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "you can now customize siris pace and expressivity in the latest ios 27 beta",
+      "title": "You can now customize Siri\u2019s pace and expressivity in the latest iOS 27 beta",
+      "summary": "Apple enhances Siri's naturalness and personalization in iOS 27 beta with customizable pace and expressivity.",
+      "image": "assets/images/generated/you can now customize siris pace and expressivity in the latest ios 27 beta.jpg",
+      "link": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "category": "tech",
+      "geo": "global",
+      "published_at": "2026-07-06T19:01:59+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4627,
+      "signals": {
+        "score": 0.4627,
+        "recency": 0.7066747533567009,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
       "id": "ny fed sees global supply chain pressures easing",
       "title": "NY Fed Sees Global Supply Chain Pressures Easing",
       "summary": "New data indicates global supply chain pressures are easing after reaching a four-year high earlier this year.",
@@ -90,10 +199,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5258,
+      "score": 0.4619,
       "signals": {
-        "score": 0.5258,
-        "recency": 0.9831665964282285,
+        "score": 0.4619,
+        "recency": 0.7274548998882642,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -103,12 +212,42 @@
       "image_failure_reason": ""
     },
     {
-      "id": "the running list major tech layoffs in 2026 where employers cited ai",
-      "title": "The running list: major tech layoffs in 2026 where employers cited AI",
-      "summary": "Major tech companies announcing significant layoffs in 2026, citing AI as a key factor.",
-      "image": "assets/images/generated/the running list major tech layoffs in 2026 where employers cited ai.jpg",
+      "id": "station f ramps up as a launchpad for europes hottest ai startups",
+      "title": "Station F ramps up as a launchpad for Europe\u2019s hottest AI startups",
+      "summary": "Station F, a Paris-based startup hub, launches a new edition of its F/ai accelerator to support Europe's AI startups.",
+      "image": "assets/images/generated/station f ramps up as a launchpad for europes hottest ai startups.jpg",
+      "link": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-07-06T13:00:00+00:00",
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch Startups"
+      ],
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.4514,
+      "signals": {
+        "score": 0.4514,
+        "recency": 0.2585428031696596,
+        "keyword_volume": 0.4,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "every major tech layoff in 2026 that has namechecked ai",
+      "title": "Every major tech layoff in 2026 that has name-checked AI",
+      "summary": "A running look \u2014 in reverse chronological order \u2014 at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "image": "assets/images/generated/every major tech layoff in 2026 that has namechecked ai.jpg",
       "link": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
-      "category": "tech",
+      "category": "technology",
       "geo": "global",
       "published_at": "2026-07-06T18:35:00+00:00",
       "source_count": 1,
@@ -118,10 +257,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5075,
+      "score": 0.4499,
       "signals": {
-        "score": 0.5075,
-        "recency": 0.8861120396071557,
+        "score": 0.4499,
+        "recency": 0.6556432525311752,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -146,42 +285,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4938,
+      "score": 0.4398,
       "signals": {
-        "score": 0.4938,
-        "recency": 0.8313083670925424,
+        "score": 0.4398,
+        "recency": 0.615093461430194,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "ripple wins crypto service provider license in eu",
-      "title": "Ripple Wins Crypto Service Provider License in EU",
-      "summary": "Blockchain finance company Ripple said it is now fully compliant with Europe\u2019s crypto regulations.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/02/Ripple-license1.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/ripple-wins-crypto-service-provider-license-in-eu/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-06T16:57:40+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai",
-        "regulation"
-      ],
-      "score": 0.489,
-      "signals": {
-        "score": 0.489,
-        "recency": 0.6761892738657146,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -203,10 +313,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.484,
+      "score": 0.4317,
       "signals": {
-        "score": 0.484,
-        "recency": 0.804017613218006,
+        "score": 0.4317,
+        "recency": 0.5949007568572358,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -216,170 +326,27 @@
       "image_failure_reason": ""
     },
     {
-      "id": "station f ramps up as a launchpad for europes hottest ai startups",
-      "title": "Station F ramps up as a launchpad for Europe\u2019s hottest AI startups",
-      "summary": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its",
-      "image": "assets/images/generated/station f ramps up as a launchpad for europes hottest ai startups.jpg",
-      "link": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "id": "vercel ceo guillermo rauch on the fight to split off models from agents",
+      "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+      "summary": "\"The reality is, when you're optimizing for production, you start looking at a price/performance,\" Guillermo Rauch tells TechCrunch.",
+      "image": "assets/images/generated/vercel ceo guillermo rauch on the fight to split off models from agents.jpg",
+      "link": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
       "category": "technology",
       "geo": "global",
-      "published_at": "2026-07-06T13:00:00+00:00",
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch Startups"
-      ],
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.4741,
-      "signals": {
-        "score": 0.4741,
-        "recency": 0.34942461431268235,
-        "keyword_volume": 0.4,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "humanlike ai services face greater restrictions in china",
-      "title": "Human-Like AI Services Face Greater Restrictions in China",
-      "summary": "China reportedly plans to crack down on artificial intelligence (AI) chatbots that can simulate human emotions.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2025/09/China.jpg?w=457",
-      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/human-like-ai-services-face-greater-restrictions-in-china/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-06T16:22:38+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.4734,
-      "signals": {
-        "score": 0.4734,
-        "recency": 0.6134864717457198,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "microsoft cuts 4800 jobs as xbox unit undergoes major restructuring",
-      "title": "Microsoft Cuts 4,800 Jobs as Xbox Unit Undergoes Major Restructuring",
-      "summary": "Microsoft is eliminating 4,800 positions, representing approximately 2.1% of its global workforce, as the software giant navigates a broader shift toward artificial intelligence",
-      "image": "https://www.pymnts.com/wp-content/uploads/2025/10/Microsoft-.jpg?w=457",
-      "link": "https://www.pymnts.com/personnel/2026/microsoft-cuts-4800-jobs-as-xbox-unit-undergoes-major-restructuring/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-06T18:11:18+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "artificial intelligence"
-      ],
-      "score": 0.4674,
-      "signals": {
-        "score": 0.4674,
-        "recency": 0.8296550938232791,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "you can now customize siris pace and expressivity in the latest ios 27 beta",
-      "title": "You can now customize Siri\u2019s pace and expressivity in the latest iOS 27 beta",
-      "summary": "The new controls let you control how quickly Siri speaks and expressive its voice is.",
-      "image": "assets/images/generated/you can now customize siris pace and expressivity in the latest ios 27 beta.jpg",
-      "link": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-06T19:01:59+00:00",
+      "published_at": "2026-07-06T19:49:10+00:00",
       "source_count": 1,
       "source_names": [
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.4648,
+      "score": 0.4274,
       "signals": {
-        "score": 0.4648,
-        "recency": 0.9550819056221662,
+        "score": 0.4274,
+        "recency": 0.8056386663220102,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "russias biggest bank aims to enter the crypto space",
-      "title": "Russia\u2019s Biggest Bank Aims to Enter the Crypto Space",
-      "summary": "Russia\u2019s biggest bank reportedly plans to offer a crypto wallet and digital depository this year.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2022/02/Russia-crypto.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/russias-biggest-bank-aims-to-enter-the-crypto-space/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-06T17:23:56+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4618,
-      "signals": {
-        "score": 0.4618,
-        "recency": 0.7273705104841037,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "milani benefits from tiktok shop sales as brand marks 18 straight quarters of growth",
-      "title": "Milani benefits from TikTok Shop sales as brand marks 18 straight quarters of growth",
-      "summary": "Beauty retailer Milani Cosmetics outperformed its sales goal by more than 250% for a product in its first two weeks of selling on the TikTok Shop.",
-      "image": "assets/images/generated/milani benefits from tiktok shop sales as brand marks 18 straight quarters of growth.jpg",
-      "link": "https://www.digitalcommerce360.com/2026/07/06/milani-cosmetics-tiktok-shop-sales/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-06T17:17:04+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Digital Commerce 360"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4599,
-      "signals": {
-        "score": 0.4599,
-        "recency": 0.7136280702946011,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -401,39 +368,11 @@
         "ai",
         "series"
       ],
-      "score": 0.4595,
+      "score": 0.4248,
       "signals": {
-        "score": 0.4595,
-        "recency": 0.534056055104178,
+        "score": 0.4248,
+        "recency": 0.39515347196693723,
         "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "if you use google youre training its ai heres how to opt out",
-      "title": "If you use Google, you\u2019re training its AI. Here\u2019s how to opt out.",
-      "summary": "PSA: A change to Google's privacy settings let it train its AI on more of your data.",
-      "image": "assets/images/generated/if you use google youre training its ai heres how to opt out.jpg",
-      "link": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-06T17:04:58+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4585,
-      "signals": {
-        "score": 0.4585,
-        "recency": 0.6900408547052352,
-        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -458,40 +397,14 @@
         "ai",
         "platform"
       ],
-      "score": 0.4556,
+      "score": 0.4219,
       "signals": {
-        "score": 0.4556,
-        "recency": 0.5185843303765301,
+        "score": 0.4219,
+        "recency": 0.38370578649456827,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "consumer confidence in job prospects hits 5year low",
-      "title": "Consumer Confidence in Job Prospects Hits 5-Year Low",
-      "summary": "American consumers are increasingly pessimistic about their job prospects, according to new Conference Board data.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2025/03/labor-market-economy-jobs.jpg?w=457",
-      "link": "https://www.pymnts.com/consumer-insights/2026/consumer-confidence-in-job-prospects-hits-5-year-low/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-06T18:42:49+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.4464,
-      "signals": {
-        "score": 0.4464,
-        "recency": 0.9055625575311351,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -514,14 +427,176 @@
         "ai",
         "bill"
       ],
-      "score": 0.4316,
+      "score": 0.4199,
       "signals": {
-        "score": 0.4316,
-        "recency": 0.179400578799492,
+        "score": 0.4199,
+        "recency": 0.13274030114997715,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "dormant bitcoin address reawakens during crypto lawsuit",
+      "title": "Dormant Bitcoin Address Reawakens During Crypto Lawsuit",
+      "summary": "A Bitcoin address that was dormant for 15 years transferred $1.88 million on Saturday (July 4), Cointelegraph reported Monday (July 6).",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/cryptocurrency-bitcoin-blockchain.jpeg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/dormant-bitcoin-address-reawakens-during-crypto-lawsuit/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-06T19:40:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.4164,
+      "signals": {
+        "score": 0.4164,
+        "recency": 0.7854927776802694,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "if you use google youre training its ai heres how to opt out",
+      "title": "If you use Google, you\u2019re training its AI. Here\u2019s how to opt out.",
+      "summary": "PSA: A change to Google's privacy settings let it train its AI on more of your data.",
+      "image": "assets/images/generated/if you use google youre training its ai heres how to opt out.jpg",
+      "link": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-06T17:04:58+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4136,
+      "signals": {
+        "score": 0.4136,
+        "recency": 0.5105682014645758,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "milani benefits from tiktok shop sales as brand marks 18 straight quarters of growth",
+      "title": "Milani benefits from TikTok Shop sales as brand marks 18 straight quarters of growth",
+      "summary": "Beauty retailer Milani Cosmetics outperformed its sales goal by more than 250% for a product in its first two weeks of selling on the TikTok Shop.",
+      "image": "assets/images/generated/milani benefits from tiktok shop sales as brand marks 18 straight quarters of growth.jpg",
+      "link": "https://www.digitalcommerce360.com/2026/07/06/milani-cosmetics-tiktok-shop-sales/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-06T17:17:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Digital Commerce 360"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4135,
+      "signals": {
+        "score": 0.4135,
+        "recency": 0.5280206206349801,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "microsoft cuts 4800 jobs as xbox unit undergoes major restructuring",
+      "title": "Microsoft Cuts 4,800 Jobs as Xbox Unit Undergoes Major Restructuring",
+      "summary": "Microsoft is eliminating 4,800 positions, representing approximately 2.1% of its global workforce, as the software giant navigates a broader shift toward artificial intelligence",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/10/Microsoft-.jpg?w=457",
+      "link": "https://www.pymnts.com/personnel/2026/microsoft-cuts-4800-jobs-as-xbox-unit-undergoes-major-restructuring/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-06T18:11:18+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "artificial intelligence"
+      ],
+      "score": 0.4135,
+      "signals": {
+        "score": 0.4135,
+        "recency": 0.6138701878314479,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "your guide to austin for technology innovation forum central",
+      "title": "Your Guide To Austin For Technology & Innovation Forum Central",
+      "summary": "The IT singularity has arrived, and there\u2019s no better place to explore what that means for your organization than Technology &#38; Innovation Forum Central in Austin.",
+      "image": "assets/images/generated/your guide to austin for technology innovation forum central.jpg",
+      "link": "https://www.forrester.com/blogs/your-guide-to-austin-for-technology-innovation-forum-central/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-06T19:20:40+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Forrester Blogs"
+      ],
+      "keywords": [],
+      "score": 0.4061,
+      "signals": {
+        "score": 0.4061,
+        "recency": 0.7443182289817397,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "publicis groupe balances global advertising scale with digital transformation ad hoc news",
+      "title": "Publicis Groupe balances global advertising scale with digital transformation - AD HOC NEWS",
+      "summary": "Publicis Groupe balances global advertising scale with digital transformation &nbsp;&nbsp; AD HOC NEWS",
+      "image": "assets/images/generated/publicis groupe balances global advertising scale with digital transformation ad hoc news.jpg",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONllyRkNoR3RpWUVYbVJ5RmNIb1pWa1VzT2lMMXJpQVhscEU1cWMtcDlDN2FRbEVTVW4zdlpKUmtEa2l6cFFSaTlTdjVYOVpFRWpNTW5xSXhWbjhreG5qQUxxdzZoQlkyUVlyREpla3hrR0FEVF93WXBHM0JkdGxxM1Jtc01kZTN2MnFFRW91WmdROUUzX0NGLWc4UnNoa1NJY0pxSk10c2M4eUpMeUYwYnhPektJdGpBbVU1ejR3?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-06T19:25:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [],
+      "score": 0.4025,
+      "signals": {
+        "score": 0.4025,
+        "recency": 0.7540296067418084,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -542,10 +617,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.43,
+      "score": 0.3926,
       "signals": {
-        "score": 0.43,
-        "recency": 0.5761037941235078,
+        "score": 0.3926,
+        "recency": 0.42626501897225433,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -555,49 +630,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "europes central bank suffers 2 payments outages in 1 week",
-      "title": "Europe\u2019s Central Bank Suffers 2 Payments Outages in 1 Week",
-      "summary": "The European Central Bank\u2019s payment system has experienced two outages in one week.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2025/04/European-Central-Bank.jpg?w=457",
-      "link": "https://www.pymnts.com/news/banking/2026/europes-central-bank-suffers-2-payments-outages-in-1-week/",
+      "id": "consumer confidence in job prospects hits 5year low",
+      "title": "Consumer Confidence in Job Prospects Hits 5-Year Low",
+      "summary": "American consumers are increasingly pessimistic about their job prospects, according to new Conference Board data.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/03/labor-market-economy-jobs.jpg?w=457",
+      "link": "https://www.pymnts.com/consumer-insights/2026/consumer-confidence-in-job-prospects-hits-5-year-low/",
       "category": "commerce",
       "geo": "global",
-      "published_at": "2026-07-06T18:02:44+00:00",
+      "published_at": "2026-07-06T18:42:49+00:00",
       "source_count": 1,
       "source_names": [
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.4225,
+      "score": 0.3875,
       "signals": {
-        "score": 0.4225,
-        "recency": 0.810145424943693,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "rent payments push credit scores into a new era",
-      "title": "Rent Payments Push Credit Scores Into a New Era",
-      "summary": "Loan repayment histories, credit card balances and outstanding obligations have traditionally shaped most underwriting decisions.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/08/rent-payments.jpg?w=457",
-      "link": "https://www.pymnts.com/consumer-finance/2026/rent-payments-push-credit-scores-into-a-new-era/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-06T17:42:29+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.4115,
-      "signals": {
-        "score": 0.4115,
-        "recency": 0.7658327229318174,
+        "score": 0.3875,
+        "recency": 0.6700348872963992,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -622,10 +671,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4113,
+      "score": 0.3768,
       "signals": {
-        "score": 0.4113,
-        "recency": 0.5313924394170718,
+        "score": 0.3768,
+        "recency": 0.39318263580341833,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -650,10 +699,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4107,
+      "score": 0.3767,
       "signals": {
-        "score": 0.4107,
-        "recency": 0.522730283319897,
+        "score": 0.3767,
+        "recency": 0.38677341897345363,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -678,98 +727,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4081,
+      "score": 0.3763,
       "signals": {
-        "score": 0.4081,
-        "recency": 0.4882260829648779,
+        "score": 0.3763,
+        "recency": 0.361243412455563,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "why febreze is taking on soccer stink via podcasts experiences",
-      "title": "Why Febreze is taking on soccer stink via podcasts, experiences",
-      "summary": "The P&amp;G brand&rsquo;s &ldquo;Can&rsquo;t Wash This&rdquo; campaign comes as World Cup fever gives way to the beginning of the MLS season.",
-      "image": "https://imgproxy.divecdn.com/pnKcAaP7G9_vwYyjm4ci8FhGOIyKZwFYXy8IPsFaC28/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9GZWJyZXplX1dpZGVfdjIuanBn.webp",
-      "link": "https://www.marketingdive.com/news/why-febreze-is-taking-on-soccer-stink-via-podcasts-experiences/824307/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-06T11:00:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Marketing Dive"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4004,
-      "signals": {
-        "score": 0.4004,
-        "recency": 0.4876613333656941,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "ultas chief marketer on blending brand building and omnichannel marketing",
-      "title": "Ulta\u2019s chief marketer on blending brand building and omnichannel marketing",
-      "summary": "Kelly Mahoney digs into how the beauty retailer is driving growth with a playbook that spans cultural partnerships, TikTok Shop, retail media and more.",
-      "image": "https://imgproxy.divecdn.com/5TrOQah9vLA9bUTt_OciLGuhEME245LqpWrV4fguiKs/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS91bHRhLXN1cGVyZ2lybC5qcGc=.webp",
-      "link": "https://www.retaildive.com/news/ulta-beauty-marketing-chief-kelly-mahoney-brand-building-omnichannel-marketing/824315/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-06T10:36:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3941,
-      "signals": {
-        "score": 0.3941,
-        "recency": 0.45621058369343914,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "sector snapshot cleantech startup funding stabilizes as energy demand grows",
-      "title": "Sector Snapshot: Cleantech Startup Funding Stabilizes As Energy Demand Grows",
-      "summary": "In the first half of this year, investors poured $15 billion into seed- through growth-stage rounds for companies in Crunchbase cleantech, EV and sustainability-focused categories.",
-      "image": "https://news.crunchbase.com/wp-content/uploads/energy-tech.jpg",
-      "link": "https://news.crunchbase.com/venture/startup-funding-clean-energy-exits-ipo-q2-2026/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-07-06T11:00:35+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Crunchbase News"
-      ],
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.3842,
-      "signals": {
-        "score": 0.3842,
-        "recency": 0.25077970379586517,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.81,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -793,10 +757,10 @@
         "platform",
         "streaming"
       ],
-      "score": 0.381,
+      "score": 0.376,
       "signals": {
-        "score": 0.381,
-        "recency": 0.07818404670201383,
+        "score": 0.376,
+        "recency": 0.057849166227877176,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -806,55 +770,166 @@
       "image_failure_reason": ""
     },
     {
-      "id": "apple brings back card payments for apple account purchases in india after a fouryear hiatus",
-      "title": "Apple brings back card payments for Apple Account purchases in India after a four-year hiatus",
-      "summary": "Apple has started a phased rollout of card payments for Apple Account purchases in India after adapting to the country's payments framework.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Apple%20brings%20back%20card%20payments%20for%20Apple%20Account%20purchases%20in%20India%20after%20a%20four-year%20hiatus%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2392400e%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23211006%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ECOMMERCE%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EAPPLE%20BRINGS%20BACK%20CARD%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPAYMENTS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EApple%20has%20started%20a%20phased%20rollout%20of%20card%20payments%20for%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECOMMERCE%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus/",
-      "category": "technology",
+      "id": "europes central bank suffers 2 payments outages in 1 week",
+      "title": "Europe\u2019s Central Bank Suffers 2 Payments Outages in 1 Week",
+      "summary": "The European Central Bank\u2019s payment system has experienced two outages in one week.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/04/European-Central-Bank.jpg?w=457",
+      "link": "https://www.pymnts.com/news/banking/2026/europes-central-bank-suffers-2-payments-outages-in-1-week/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-07-06T16:21:03+00:00",
+      "published_at": "2026-07-06T18:02:44+00:00",
       "source_count": 1,
       "source_names": [
-        "TechCrunch"
+        "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.3787,
+      "score": 0.3699,
       "signals": {
-        "score": 0.3787,
-        "recency": 0.6107941922180943,
+        "score": 0.3699,
+        "recency": 0.5994347866764326,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "government of alberta uses claude to find and fix cybersecurity vulnerabilities across government systems",
+      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+      "summary": "Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Government%20of%20Alberta%20uses%20Claude%20to%20find%20and%20fix%20cybersecurity%20vulnerabilities%20across%20government%20systems%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EAN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EAI%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EANTHROPIC%20NEWS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EGOVERNMENT%20OF%20ALBERTA%20USES%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECLAUDE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3ESince%202025%2C%20the%20Government%20of%20Alberta%20has%20been%20using%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EAI%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-07-06T16:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Anthropic News"
+      ],
+      "keywords": [
+        "govern"
+      ],
+      "score": 0.3696,
+      "signals": {
+        "score": 0.3696,
+        "recency": 0.42626501897225433,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
         "engagement": 0.4
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
-      "id": "ai visibility scores are useless",
-      "title": "AI Visibility Scores Are Useless",
-      "summary": "The best visibility metrics measure what consumers actually enter, not carefully chosen prompts.",
-      "image": "assets/images/generated/ai visibility scores are useless.jpg",
-      "link": "https://www.practicalecommerce.com/ai-visibility-scores-are-useless",
+      "id": "why febreze is taking on soccer stink via podcasts experiences",
+      "title": "Why Febreze is taking on soccer stink via podcasts, experiences",
+      "summary": "The P&amp;G brand&rsquo;s &ldquo;Can&rsquo;t Wash This&rdquo; campaign comes as World Cup fever gives way to the beginning of the MLS season.",
+      "image": "https://imgproxy.divecdn.com/pnKcAaP7G9_vwYyjm4ci8FhGOIyKZwFYXy8IPsFaC28/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9GZWJyZXplX1dpZGVfdjIuanBn.webp",
+      "link": "https://www.marketingdive.com/news/why-febreze-is-taking-on-soccer-stink-via-podcasts-experiences/824307/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-07-06T13:36:10+00:00",
+      "published_at": "2026-07-06T11:00:00-04:00",
       "source_count": 1,
       "source_names": [
-        "Practical Ecommerce"
+        "Marketing Dive"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.3736,
+      "score": 0.3687,
       "signals": {
-        "score": 0.3736,
-        "recency": 0.38635274741285514,
+        "score": 0.3687,
+        "recency": 0.3608255485201642,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.78,
+        "authority": 0.79,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "sector snapshot cleantech startup funding stabilizes as energy demand grows",
+      "title": "Sector Snapshot: Cleantech Startup Funding Stabilizes As Energy Demand Grows",
+      "summary": "In the first half of this year, investors poured $15 billion into seed- through growth-stage rounds for companies in Crunchbase cleantech, EV and sustainability-focused categories.",
+      "image": "https://news.crunchbase.com/wp-content/uploads/energy-tech.jpg",
+      "link": "https://news.crunchbase.com/venture/startup-funding-clean-energy-exits-ipo-q2-2026/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-07-06T11:00:35+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Crunchbase News"
+      ],
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.3679,
+      "signals": {
+        "score": 0.3679,
+        "recency": 0.1855544370420921,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ultas chief marketer on blending brand building and omnichannel marketing",
+      "title": "Ulta\u2019s chief marketer on blending brand building and omnichannel marketing",
+      "summary": "Kelly Mahoney digs into how the beauty retailer is driving growth with a playbook that spans cultural partnerships, TikTok Shop, retail media and more.",
+      "image": "https://imgproxy.divecdn.com/5TrOQah9vLA9bUTt_OciLGuhEME245LqpWrV4fguiKs/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS91bHRhLXN1cGVyZ2lybC5qcGc=.webp",
+      "link": "https://www.retaildive.com/news/ulta-beauty-marketing-chief-kelly-mahoney-brand-building-omnichannel-marketing/824315/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-06T10:36:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Retail Dive"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3644,
+      "signals": {
+        "score": 0.3644,
+        "recency": 0.3375548210184785,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "rent payments push credit scores into a new era",
+      "title": "Rent Payments Push Credit Scores Into a New Era",
+      "summary": "Loan repayment histories, credit card balances and outstanding obligations have traditionally shaped most underwriting decisions.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2024/08/rent-payments.jpg?w=457",
+      "link": "https://www.pymnts.com/consumer-finance/2026/rent-payments-push-credit-scores-into-a-new-era/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-06T17:42:29+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.3617,
+      "signals": {
+        "score": 0.3617,
+        "recency": 0.5666473706648059,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -875,13 +950,41 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3734,
+      "score": 0.3488,
       "signals": {
-        "score": 0.3734,
-        "recency": 0.379791028298848,
+        "score": 0.3488,
+        "recency": 0.2810112197396731,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ai visibility scores are useless",
+      "title": "AI Visibility Scores Are Useless",
+      "summary": "The best visibility metrics measure what consumers actually enter, not carefully chosen prompts.",
+      "image": "assets/images/generated/ai visibility scores are useless.jpg",
+      "link": "https://www.practicalecommerce.com/ai-visibility-scores-are-useless",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-06T13:36:10+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Practical Ecommerce"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3485,
+      "signals": {
+        "score": 0.3485,
+        "recency": 0.2858663020202511,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -903,10 +1006,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3704,
+      "score": 0.3476,
       "signals": {
-        "score": 0.3704,
-        "recency": 0.34942461431268235,
+        "score": 0.3476,
+        "recency": 0.2585428031696596,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -931,66 +1034,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3675,
+      "score": 0.3448,
       "signals": {
-        "score": 0.3675,
-        "recency": 0.3501857641926856,
+        "score": 0.3448,
+        "recency": 0.25910598565752013,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "lazboy advances costcutting distribution revamp",
-      "title": "La-Z-Boy advances cost-cutting distribution revamp",
-      "summary": "The furniture maker expects to nearly complete two centralized hubs this year as part of a multiyear distribution overhaul.",
-      "image": "https://imgproxy.divecdn.com/YkCrcvQRIDIGmRRIOS1i81SdAmyJw5Ksn22YpsYh2r0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg1NjI1MTUzX2JuSUxnY00uanBn.webp",
-      "link": "https://www.retaildive.com/news/la-z-boy-cost-cutting-distribution-revamp/824482/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-06T12:02:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [],
-      "score": 0.3648,
-      "signals": {
-        "score": 0.3648,
-        "recency": 0.5793132777349409,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "wpp plc adr and its global advertising reach ad hoc news",
-      "title": "WPP plc ADR and its global advertising reach - AD HOC NEWS",
-      "summary": "WPP plc ADR and its global advertising reach &nbsp;&nbsp; AD HOC NEWS",
-      "image": "assets/images/generated/wpp plc adr and its global advertising reach ad hoc news.jpg",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa1pkU2dBblRCV3FmWEtUZjlaTVV4QVEzVkZrZWZoWHNicnNNQ0ZFRmhZV3pjRkJmN3ZTOU9XRmVpVWZ0X0JZTG9OQ1Z6b3poTG5pMTdVNkY0OUFrcTZDY1ZDUlpnRktfSzdjQzNzNmZvODBmd0NFUTZYenRaOFpHWFFOdTVGLTd3dzJMUW9iVko3ekhmc0Y0Y1djSEl4UmVGZnRZUDRB?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-06T16:15:53+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.3645,
-      "signals": {
-        "score": 0.3645,
-        "recency": 0.6020907689705286,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1011,147 +1062,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3634,
+      "score": 0.3409,
       "signals": {
-        "score": 0.3634,
-        "recency": 0.3455636083534059,
+        "score": 0.3409,
+        "recency": 0.2556860058437768,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "corporate cash is global in theory trapped in practice",
-      "title": "Corporate Cash Is Global in Theory, Trapped in Practice",
-      "summary": "Cash visibility is largely a solved problem, at least for finance teams on the cutting edge.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2023/10/cash.jpg?w=457",
-      "link": "https://www.pymnts.com/news/b2b-payments/2026/corporate-cash-is-global-theory-trapped-practice/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-06T15:55:55+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.3624,
-      "signals": {
-        "score": 0.3624,
-        "recency": 0.5696062029224603,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "your omnichannel media strategy is ignoring half the shopper journey",
-      "title": "Your \u2018omnichannel\u2019 media strategy is ignoring half the shopper journey",
-      "summary": "Commerce media&#39;s measurement problem isn&#39;t a secret.",
-      "image": "assets/images/generated/your omnichannel media strategy is ignoring half the shopper journey.jpg",
-      "link": "https://www.retaildive.com/spons/your-omnichannel-media-strategy-is-ignoring-half-the-shopper-journey/824046/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-06T11:53:59-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [],
-      "score": 0.3616,
-      "signals": {
-        "score": 0.3616,
-        "recency": 0.5665554059346829,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "bath body works collabs with hilary duff to introduce fruit fusion",
-      "title": "Bath & Body Works collabs with Hilary Duff to introduce Fruit Fusion",
-      "summary": "The pop star is brand ambassador and creative partner on the new fruit-forward franchise, designed to introduce scents over time.",
-      "image": "https://imgproxy.divecdn.com/CvDYGW6eLzUZ7GKTPN9pkHzOiMENLwSN8P0M6ws0kL4/g:nowe:12:55/c:704:397/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjYtMDctMDZfMDkxMDQ1LnBuZw==.webp",
-      "link": "https://www.retaildive.com/news/bath-body-works-partners-hilary-duff-fruit-fusion/824441/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-06T11:39:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [],
-      "score": 0.3559,
-      "signals": {
-        "score": 0.3559,
-        "recency": 0.543459131803325,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "how to build a hermes agentstyle workflow",
-      "title": "How to build a Hermes Agent-style workflow",
-      "summary": "Most AI tool workflows send the model far more data than it needs.",
-      "image": "https://martech.org/wp-content/uploads/2026/07/part2-flow-illustration.png",
-      "link": "https://martech.org/building-a-hermes-agent-style-workflow-in-practice/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-07-06T12:16:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarTech"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3543,
-      "signals": {
-        "score": 0.3543,
-        "recency": 0.30922390321487014,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "ai content didnt stop working your metrics did via sejournal mattgsouthern",
-      "title": "AI Content Didn\u2019t Stop Working, Your Metrics Did via @sejournal, @MattGSouthern",
-      "summary": "Declining organic traffic doesn't always signal failing content.",
-      "image": "assets/images/generated/ai content didnt stop working your metrics did via sejournal mattgsouthern.jpg",
-      "link": "https://www.searchenginejournal.com/ai-content-didnt-stop-working-your-metrics-did/580976/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-07-06T11:30:07+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3481,
-      "signals": {
-        "score": 0.3481,
-        "recency": 0.2722203685217207,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1174,10 +1091,10 @@
         "ai",
         "festival"
       ],
-      "score": 0.3472,
+      "score": 0.3401,
       "signals": {
-        "score": 0.3472,
-        "recency": 0.10881195141208415,
+        "score": 0.3401,
+        "recency": 0.08051106242694928,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1187,51 +1104,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "a year of misplaced fear and why its time for investors to leave the crowd",
-      "title": "A Year Of Misplaced Fear (And Why It\u2019s Time For Investors To Leave The Crowd)",
-      "summary": "Many venture capital LPs have reacted to recent economic uncertainty by concentrating investments in megafunds, mistaking perceived safety for better returns while potentially",
-      "image": "https://news.crunchbase.com/wp-content/uploads/Sara-Zulkosky-of-Recast-Capital.jpg",
-      "link": "https://news.crunchbase.com/venture/megafund-vs-emerging-managers-zulkosky-recast/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-07-06T11:00:03+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Crunchbase News"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3441,
-      "signals": {
-        "score": 0.3441,
-        "recency": 0.2504084533769718,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "canadian spy agency says it hacked drug traffickers extremists and a ransomware gang last year",
-      "title": "Canadian spy agency says it hacked drug traffickers, extremists, and a ransomware gang last year",
-      "summary": "The hacking operations disclosed in a Canadian spy agency's annual report underscores some pressing national security threats facing the country and its top allies.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Canadian%20spy%20agency%20says%20it%20hacked%20drug%20traffickers%2C%20extremists%2C%20and%20a%20ransomware%20gang%20last%20year%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%239f1239%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232a0712%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECANADIAN%20SPY%20AGENCY%20SAYS%20IT%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EHACKED%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EThe%20hacking%20operations%20disclosed%20in%20a%20Canadian%20spy%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year/",
+      "id": "apple brings back card payments for apple account purchases in india after a fouryear hiatus",
+      "title": "Apple brings back card payments for Apple Account purchases in India after a four-year hiatus",
+      "summary": "Apple has started a phased rollout of card payments for Apple Account purchases in India after adapting to the country's payments framework.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Apple%20brings%20back%20card%20payments%20for%20Apple%20Account%20purchases%20in%20India%20after%20a%20four-year%20hiatus%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2392400e%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23211006%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ECOMMERCE%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EAPPLE%20BRINGS%20BACK%20CARD%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPAYMENTS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EApple%20has%20started%20a%20phased%20rollout%20of%20card%20payments%20for%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECOMMERCE%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus/",
       "category": "technology",
       "geo": "global",
-      "published_at": "2026-07-06T14:43:59+00:00",
+      "published_at": "2026-07-06T16:21:03+00:00",
       "source_count": 1,
       "source_names": [
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3426,
+      "score": 0.339,
       "signals": {
-        "score": 0.3426,
-        "recency": 0.4664404853467956,
+        "score": 0.339,
+        "recency": 0.45193279507923445,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1257,13 +1146,41 @@
         "ai",
         "streaming"
       ],
-      "score": 0.3406,
+      "score": 0.3349,
       "signals": {
-        "score": 0.3406,
-        "recency": 0.0884875546469781,
+        "score": 0.3349,
+        "recency": 0.06547283587637004,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "how to build a hermes agentstyle workflow",
+      "title": "How to build a Hermes Agent-style workflow",
+      "summary": "Most AI tool workflows send the model far more data than it needs.",
+      "image": "https://martech.org/wp-content/uploads/2026/07/part2-flow-illustration.png",
+      "link": "https://martech.org/building-a-hermes-agent-style-workflow-in-practice/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-07-06T12:16:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarTech"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3342,
+      "signals": {
+        "score": 0.3342,
+        "recency": 0.22879789078824025,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1286,10 +1203,10 @@
         "ai",
         "series"
       ],
-      "score": 0.338,
+      "score": 0.3329,
       "signals": {
-        "score": 0.338,
-        "recency": 0.07796717015139215,
+        "score": 0.3329,
+        "recency": 0.05768869707647012,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1299,23 +1216,105 @@
       "image_failure_reason": ""
     },
     {
-      "id": "wpp plc balances global ad demand and digital transformation ad hoc news",
-      "title": "WPP plc balances global ad demand and digital transformation - AD HOC NEWS",
-      "summary": "WPP plc balances global ad demand and digital transformation &nbsp;&nbsp; AD HOC NEWS",
-      "image": "assets/images/generated/wpp plc balances global ad demand and digital transformation ad hoc news.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVUlsSmFqTHNIdHdDb3lMaGZiYnVWOHNNMlh0dVlLYlo1MUNUX2RUaDdsQWE1WlQtS28wQkRzWU1tNnZJQXY0djh6V3kyYkZWcHpqNHpyWFBzZ1JTUzNJdHAtVExtaXRJSVhFWEZQRTNrX3kyYkFJNUxoY3BTNDkyVjZ2ZWY1LVFDYnp3Njg3UDBzbjVkaG5NRUs0VkRaSTdpOV8tTm5kSjItTHBmUWs0UldINWVGUDdVZC1Z?oc=5",
+      "id": "ai content didnt stop working your metrics did via sejournal mattgsouthern",
+      "title": "AI Content Didn\u2019t Stop Working, Your Metrics Did via @sejournal, @MattGSouthern",
+      "summary": "Declining organic traffic doesn't always signal failing content.",
+      "image": "assets/images/generated/ai content didnt stop working your metrics did via sejournal mattgsouthern.jpg",
+      "link": "https://www.searchenginejournal.com/ai-content-didnt-stop-working-your-metrics-did/580976/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-07-06T11:30:07+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3304,
+      "signals": {
+        "score": 0.3304,
+        "recency": 0.20141860153704974,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "a year of misplaced fear and why its time for investors to leave the crowd",
+      "title": "A Year Of Misplaced Fear (And Why It\u2019s Time For Investors To Leave The Crowd)",
+      "summary": "Many venture capital LPs have reacted to recent economic uncertainty by concentrating investments in megafunds, mistaking perceived safety for better returns while potentially",
+      "image": "https://news.crunchbase.com/wp-content/uploads/Sara-Zulkosky-of-Recast-Capital.jpg",
+      "link": "https://news.crunchbase.com/venture/megafund-vs-emerging-managers-zulkosky-recast/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-07-06T11:00:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Crunchbase News"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3278,
+      "signals": {
+        "score": 0.3278,
+        "recency": 0.18527974510555692,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "lazboy advances costcutting distribution revamp",
+      "title": "La-Z-Boy advances cost-cutting distribution revamp",
+      "summary": "The furniture maker expects to nearly complete two centralized hubs this year as part of a multiyear distribution overhaul.",
+      "image": "https://imgproxy.divecdn.com/YkCrcvQRIDIGmRRIOS1i81SdAmyJw5Ksn22YpsYh2r0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg1NjI1MTUzX2JuSUxnY00uanBn.webp",
+      "link": "https://www.retaildive.com/news/la-z-boy-cost-cutting-distribution-revamp/824482/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-06T12:02:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Retail Dive"
+      ],
+      "keywords": [],
+      "score": 0.3272,
+      "signals": {
+        "score": 0.3272,
+        "recency": 0.4286397483291406,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "wpp plc adr and its global advertising reach ad hoc news",
+      "title": "WPP plc ADR and its global advertising reach - AD HOC NEWS",
+      "summary": "WPP plc ADR and its global advertising reach &nbsp;&nbsp; AD HOC NEWS",
+      "image": "assets/images/generated/wpp plc adr and its global advertising reach ad hoc news.jpg",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa1pkU2dBblRCV3FmWEtUZjlaTVV4QVEzVkZrZWZoWHNicnNNQ0ZFRmhZV3pjRkJmN3ZTOU9XRmVpVWZ0X0JZTG9OQ1Z6b3poTG5pMTdVNkY0OUFrcTZDY1ZDUlpnRktfSzdjQzNzNmZvODBmd0NFUTZYenRaOFpHWFFOdTVGLTd3dzJMUW9iVko3ekhmc0Y0Y1djSEl4UmVGZnRZUDRB?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-06T14:53:51+00:00",
+      "published_at": "2026-07-06T16:15:53+00:00",
       "source_count": 1,
       "source_names": [
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.3339,
+      "score": 0.3254,
       "signals": {
-        "score": 0.3339,
-        "recency": 0.4794012083737899,
+        "score": 0.3254,
+        "recency": 0.4454930442676787,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1325,52 +1324,80 @@
       "image_failure_reason": ""
     },
     {
-      "id": "how to reserve and change your whatsapp username",
-      "title": "How to reserve and change your WhatsApp username",
-      "summary": "WhatsApp now lets users reserve usernames ahead of the feature\u2019s full rollout, making it possible to connect without sharing a phone number once usernames go live.",
-      "image": "assets/images/generated/how to reserve and change your whatsapp username.jpg",
-      "link": "https://techcrunch.com/2026/07/06/how-to-reserve-and-change-your-whatsapp-username/",
-      "category": "technology",
+      "id": "your omnichannel media strategy is ignoring half the shopper journey",
+      "title": "Your \u2018omnichannel\u2019 media strategy is ignoring half the shopper journey",
+      "summary": "Commerce media&#39;s measurement problem isn&#39;t a secret.",
+      "image": "assets/images/generated/your omnichannel media strategy is ignoring half the shopper journey.jpg",
+      "link": "https://www.retaildive.com/spons/your-omnichannel-media-strategy-is-ignoring-half-the-shopper-journey/824046/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-07-06T14:15:30+00:00",
+      "published_at": "2026-07-06T11:53:59-04:00",
       "source_count": 1,
       "source_names": [
-        "TechCrunch"
+        "Retail Dive"
       ],
       "keywords": [],
-      "score": 0.3337,
+      "score": 0.3248,
       "signals": {
-        "score": 0.3337,
-        "recency": 0.43095775317141505,
+        "score": 0.3248,
+        "recency": 0.41920007006203874,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "wpp media wins lorals 190 million media influencer pitch brand communicator",
-      "title": "WPP Media Wins L\u2019Or\u00e9al\u2019s $190 Million Media & Influencer Pitch - Brand Communicator",
-      "summary": "WPP Media Wins L\u2019Or\u00e9al\u2019s $190 Million Media & Influencer Pitch &nbsp;&nbsp; Brand Communicator",
-      "image": "assets/images/generated/wpp media wins lorals 190 million media influencer pitch brand communicator.jpg",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOGl1SDRjOWUtN2EzRE10bFdvX2doN2FESG8xRVZZV1ZBZ2RndWptVTdJZkRqdVFyVm9HTnpfdUlfak1CTC03enF0ZGNqRV9jbEJ0elY5OVdlQXEtaDV1c2JmaDdVNWtQaFdtMVpFSmhzeWo5aDdtbHZydUduVjNwVEJUX3EySTJWb1lkTzJWZUpkUHM?oc=5",
+      "id": "omnicom launches acxiom fan graph sports data platform sporting goods intelligence europe",
+      "title": "Omnicom launches Acxiom Fan Graph sports data platform - Sporting Goods Intelligence Europe",
+      "summary": "Omnicom launches Acxiom Fan Graph sports data platform &nbsp;&nbsp; Sporting Goods Intelligence Europe",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Omnicom%20launches%20Acxiom%20Fan%20Graph%20sports%20data%20platform%20-%20Sporting%20Goods%20Intelligence%20Europe%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2392400e%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23211006%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3EGOOGLE%20NEWS%20-%20OMNICOM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EOMNICOM%20LAUNCHES%20ACXIOM%20FAN%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EGRAPH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EOmnicom%20launches%20Acxiom%20Fan%20Graph%20sports%20data%20platform%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTjYzWFF1VE03Z29qUlY3ay1QVGowS0ZvTU0ycktieUNFOUNTeFVuNGw5UlJDQlJmNGlRbmJMSjVZcXZPYXZSdGx6QkhrTVBDd2p4Nld0UFotQm9OV2hwZDAxYVRoaFBsTW4wQVpKbWM1alJxRlNKRVh4cDFiYVZsWTFLR05LeDVnVUJDazNwVFVzM2ZPdXRDU3lISTJtbU1jeWtpNQ?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-06T14:53:20+00:00",
+      "published_at": "2026-07-06T13:28:39+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - WPP"
+        "Google News - Omnicom"
       ],
-      "keywords": [],
-      "score": 0.3337,
+      "keywords": [
+        "platform"
+      ],
+      "score": 0.324,
       "signals": {
-        "score": 0.3337,
-        "recency": 0.4787136723505424,
-        "keyword_volume": 0.0,
+        "score": 0.324,
+        "recency": 0.27995940105827666,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+    },
+    {
+      "id": "bath body works collabs with hilary duff to introduce fruit fusion",
+      "title": "Bath & Body Works collabs with Hilary Duff to introduce Fruit Fusion",
+      "summary": "The pop star is brand ambassador and creative partner on the new fruit-forward franchise, designed to introduce scents over time.",
+      "image": "https://imgproxy.divecdn.com/CvDYGW6eLzUZ7GKTPN9pkHzOiMENLwSN8P0M6ws0kL4/g:nowe:12:55/c:704:397/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjYtMDctMDZfMDkxMDQ1LnBuZw==.webp",
+      "link": "https://www.retaildive.com/news/bath-body-works-partners-hilary-duff-fruit-fusion/824441/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-06T11:39:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Retail Dive"
+      ],
+      "keywords": [],
+      "score": 0.3205,
+      "signals": {
+        "score": 0.3205,
+        "recency": 0.4021109034375242,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -1391,65 +1418,13 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.331,
+      "score": 0.3162,
       "signals": {
-        "score": 0.331,
-        "recency": 0.22810507113483697,
+        "score": 0.3162,
+        "recency": 0.16877724720228693,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "how fandoms are different and why havas is doubling down on them",
-      "title": "How fandoms are different and why Havas is doubling down on them",
-      "summary": "Creating and/or tapping into fandom fueled Havas&rsquo; recent acquisition of a majority stake in Archrival,&nbsp;a youth-culture and experiential activation agency.",
-      "image": "https://imgproxy.divecdn.com/DXyRcj48hSB82oGHp9HI3g-ZGhIi42ZlA47SFhyDKak/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy05MzExODkyOTQuanBn.webp",
-      "link": "https://www.marketingdive.com/news/how-fandoms-are-different-why-havas-is-doubling-down/824407/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-06T10:30:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Marketing Dive"
-      ],
-      "keywords": [],
-      "score": 0.3307,
-      "signals": {
-        "score": 0.3307,
-        "recency": 0.4486700859937953,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "american eagle outfitters taps nike vet as cfo",
-      "title": "American Eagle Outfitters taps Nike vet as CFO",
-      "summary": "Michael Mathias is stepping down as finance chief after six years, with recent Papa John&#39;s CFO Ravi Thanawala taking over in August.",
-      "image": "https://imgproxy.divecdn.com/2pFl25pyiQ_sk6KWvhf6ULlege6Z7L5UgBVhHsR8pbs/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BbWVyaWNhbl9FYWdsZV94X1N5ZF9mb3JfU2hvcnRfM19DcmVkaXRfX0FtZXJpY2FuX0VhZ2xlXzEuanBn.webp",
-      "link": "https://www.retaildive.com/news/american-eagle-snaps-up-nike-vet-papa-johns-cfo/824382/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-06T10:21:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [],
-      "score": 0.3294,
-      "signals": {
-        "score": 0.3294,
-        "recency": 0.43759238210035295,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -1471,10 +1446,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3281,
+      "score": 0.314,
       "signals": {
-        "score": 0.3281,
-        "recency": 0.21629824365212696,
+        "score": 0.314,
+        "recency": 0.16004125623632473,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1499,10 +1474,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.327,
+      "score": 0.3132,
       "signals": {
-        "score": 0.327,
-        "recency": 0.2119367418389037,
+        "score": 0.3132,
+        "recency": 0.15681413697044716,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1527,10 +1502,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3249,
+      "score": 0.3132,
       "signals": {
-        "score": 0.3249,
-        "recency": 0.179400578799492,
+        "score": 0.3132,
+        "recency": 0.13274030114997715,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1555,10 +1530,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3249,
+      "score": 0.3132,
       "signals": {
-        "score": 0.3249,
-        "recency": 0.179400578799492,
+        "score": 0.3132,
+        "recency": 0.13274030114997715,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1568,23 +1543,127 @@
       "image_failure_reason": ""
     },
     {
-      "id": "californias new packaging laws are changing the economics of plastic",
-      "title": "California\u2019s new packaging laws are changing the economics of plastic",
-      "summary": "California's new packaging extended producer responsibility law means thousands of brands may wind up changing their packaging.",
-      "image": "assets/images/generated/californias new packaging laws are changing the economics of plastic.jpg",
-      "link": "https://www.modernretail.co/operations/californias-new-packaging-laws-are-changing-the-economics-of-plastic/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
+      "id": "canadian spy agency says it hacked drug traffickers extremists and a ransomware gang last year",
+      "title": "Canadian spy agency says it hacked drug traffickers, extremists, and a ransomware gang last year",
+      "summary": "The hacking operations disclosed in a Canadian spy agency's annual report underscores some pressing national security threats facing the country and its top allies.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Canadian%20spy%20agency%20says%20it%20hacked%20drug%20traffickers%2C%20extremists%2C%20and%20a%20ransomware%20gang%20last%20year%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%239f1239%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232a0712%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECANADIAN%20SPY%20AGENCY%20SAYS%20IT%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EHACKED%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EThe%20hacking%20operations%20disclosed%20in%20a%20Canadian%20spy%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-07-06T14:00:00+00:00",
+      "published_at": "2026-07-06T14:43:59+00:00",
       "source_count": 1,
       "source_names": [
-        "Modern Retail"
+        "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3217,
+      "score": 0.3123,
       "signals": {
-        "score": 0.3217,
-        "recency": 0.4127964066298495,
+        "score": 0.3123,
+        "recency": 0.3451240286279973,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+    },
+    {
+      "id": "how to reserve and change your whatsapp username",
+      "title": "How to reserve and change your WhatsApp username",
+      "summary": "WhatsApp now lets users reserve usernames ahead of the feature\u2019s full rollout, making it possible to connect without sharing a phone number once usernames go live.",
+      "image": "assets/images/generated/how to reserve and change your whatsapp username.jpg",
+      "link": "https://techcrunch.com/2026/07/06/how-to-reserve-and-change-your-whatsapp-username/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-06T14:15:30+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3057,
+      "signals": {
+        "score": 0.3057,
+        "recency": 0.31886999652786596,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "wpp plc balances global ad demand and digital transformation ad hoc news",
+      "title": "WPP plc balances global ad demand and digital transformation - AD HOC NEWS",
+      "summary": "WPP plc balances global ad demand and digital transformation &nbsp;&nbsp; AD HOC NEWS",
+      "image": "assets/images/generated/wpp plc balances global ad demand and digital transformation ad hoc news.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVUlsSmFqTHNIdHdDb3lMaGZiYnVWOHNNMlh0dVlLYlo1MUNUX2RUaDdsQWE1WlQtS28wQkRzWU1tNnZJQXY0djh6V3kyYkZWcHpqNHpyWFBzZ1JTUzNJdHAtVExtaXRJSVhFWEZQRTNrX3kyYkFJNUxoY3BTNDkyVjZ2ZWY1LVFDYnp3Njg3UDBzbjVkaG5NRUs0VkRaSTdpOV8tTm5kSjItTHBmUWs0UldINWVGUDdVZC1Z?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-06T14:53:51+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.3027,
+      "signals": {
+        "score": 0.3027,
+        "recency": 0.3547137985676333,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "wpp media wins lorals 190 million media influencer pitch brand communicator",
+      "title": "WPP Media Wins L\u2019Or\u00e9al\u2019s $190 Million Media & Influencer Pitch - Brand Communicator",
+      "summary": "WPP Media Wins L\u2019Or\u00e9al\u2019s $190 Million Media & Influencer Pitch &nbsp;&nbsp; Brand Communicator",
+      "image": "assets/images/generated/wpp media wins lorals 190 million media influencer pitch brand communicator.jpg",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOGl1SDRjOWUtN2EzRE10bFdvX2doN2FESG8xRVZZV1ZBZ2RndWptVTdJZkRqdVFyVm9HTnpfdUlfak1CTC03enF0ZGNqRV9jbEJ0elY5OVdlQXEtaDV1c2JmaDdVNWtQaFdtMVpFSmhzeWo5aDdtbHZydUduVjNwVEJUX3EySTJWb1lkTzJWZUpkUHM?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-06T14:53:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.3026,
+      "signals": {
+        "score": 0.3026,
+        "recency": 0.35420508371627635,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "how fandoms are different and why havas is doubling down on them",
+      "title": "How fandoms are different and why Havas is doubling down on them",
+      "summary": "Creating and/or tapping into fandom fueled Havas&rsquo; recent acquisition of a majority stake in Archrival,&nbsp;a youth-culture and experiential activation agency.",
+      "image": "https://imgproxy.divecdn.com/DXyRcj48hSB82oGHp9HI3g-ZGhIi42ZlA47SFhyDKak/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy05MzExODkyOTQuanBn.webp",
+      "link": "https://www.marketingdive.com/news/how-fandoms-are-different-why-havas-is-doubling-down/824407/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-06T10:30:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Marketing Dive"
+      ],
+      "keywords": [],
+      "score": 0.3015,
+      "signals": {
+        "score": 0.3015,
+        "recency": 0.331975530571539,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1594,30 +1673,30 @@
       "image_failure_reason": ""
     },
     {
-      "id": "inside forresters inaugural future leaders program",
-      "title": "Inside Forrester\u2019s Inaugural Future Leaders Program",
-      "summary": "Three participants from Forrester\u2019s first-ever Future Leaders program \u2014 designed for early-career professionals identified as rising talent within their organizations \u2014 share the",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Inside%20Forrester%E2%80%99s%20Inaugural%20Future%20Leaders%20Program%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EFB%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EBRANDS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EFORRESTER%20BLOGS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EINSIDE%20FORRESTER%E2%80%99S%20INAUGURAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EFUTURE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EThree%20participants%20from%20Forrester%E2%80%99s%20first-ever%20Future%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EBRANDS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://www.forrester.com/blogs/inside-forresters-inaugural-future-leaders-program/",
+      "id": "american eagle outfitters taps nike vet as cfo",
+      "title": "American Eagle Outfitters taps Nike vet as CFO",
+      "summary": "Michael Mathias is stepping down as finance chief after six years, with recent Papa John&#39;s CFO Ravi Thanawala taking over in August.",
+      "image": "https://imgproxy.divecdn.com/2pFl25pyiQ_sk6KWvhf6ULlege6Z7L5UgBVhHsR8pbs/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9BbWVyaWNhbl9FYWdsZV94X1N5ZF9mb3JfU2hvcnRfM19DcmVkaXRfX0FtZXJpY2FuX0VhZ2xlXzEuanBn.webp",
+      "link": "https://www.retaildive.com/news/american-eagle-snaps-up-nike-vet-papa-johns-cfo/824382/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-07-06T13:34:36+00:00",
+      "published_at": "2026-07-06T10:21:00-04:00",
       "source_count": 1,
       "source_names": [
-        "Forrester Blogs"
+        "Retail Dive"
       ],
       "keywords": [],
-      "score": 0.3162,
+      "score": 0.3009,
       "signals": {
-        "score": 0.3162,
-        "recency": 0.38467505068513425,
+        "score": 0.3009,
+        "recency": 0.3237790255172867,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.4
       },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+      "ai_image_pending": false,
+      "image_failure_reason": ""
     },
     {
       "id": "liveramp launches brand campaign on netflix as publicis deal fuels scrutiny of its neutrality",
@@ -1635,10 +1714,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3072,
+      "score": 0.3001,
       "signals": {
-        "score": 0.3072,
-        "recency": 0.10881195141208415,
+        "score": 0.3001,
+        "recency": 0.08051106242694928,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1663,10 +1742,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3063,
+      "score": 0.2979,
       "signals": {
-        "score": 0.3063,
-        "recency": 0.12927423371942265,
+        "score": 0.2979,
+        "recency": 0.09565131188360072,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1674,34 +1753,6 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "ctv buyers are getting the showlevel performance optimization theyve always wanted",
-      "title": "CTV Buyers Are Getting The Show-Level Performance Optimization They\u2019ve Always Wanted",
-      "summary": "For CTV advertisers, figuring out exactly which shows their ads ran in \u2013 and how that impacted performance \u2013 is still the Holy Grail.",
-      "image": "assets/images/generated/ctv buyers are getting the showlevel performance optimization theyve always wanted.jpg",
-      "link": "https://www.adexchanger.com/tv/ctv-buyers-are-getting-the-show-level-performance-optimization-theyve-always-wanted/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-06T05:00:44+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AdExchanger"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3016,
-      "signals": {
-        "score": 0.3016,
-        "recency": 0.09229514558960632,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
     },
     {
       "id": "wtf is ai poisoning",
@@ -1719,10 +1770,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.301,
+      "score": 0.296,
       "signals": {
-        "score": 0.301,
-        "recency": 0.07818404670201383,
+        "score": 0.296,
+        "recency": 0.057849166227877176,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1747,10 +1798,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.301,
+      "score": 0.296,
       "signals": {
-        "score": 0.301,
-        "recency": 0.07818404670201383,
+        "score": 0.296,
+        "recency": 0.057849166227877176,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1758,6 +1809,60 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+    },
+    {
+      "id": "ctv buyers are getting the showlevel performance optimization theyve always wanted",
+      "title": "CTV Buyers Are Getting The Show-Level Performance Optimization They\u2019ve Always Wanted",
+      "summary": "For CTV advertisers, figuring out exactly which shows their ads ran in \u2013 and how that impacted performance \u2013 is still the Holy Grail.",
+      "image": "assets/images/generated/ctv buyers are getting the showlevel performance optimization theyve always wanted.jpg",
+      "link": "https://www.adexchanger.com/tv/ctv-buyers-are-getting-the-show-level-performance-optimization-theyve-always-wanted/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-06T05:00:44+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AdExchanger"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2956,
+      "signals": {
+        "score": 0.2956,
+        "recency": 0.06829011089166019,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "californias new packaging laws are changing the economics of plastic",
+      "title": "California\u2019s new packaging laws are changing the economics of plastic",
+      "summary": "California's new packaging extended producer responsibility law means thousands of brands may wind up changing their packaging.",
+      "image": "assets/images/generated/californias new packaging laws are changing the economics of plastic.jpg",
+      "link": "https://www.modernretail.co/operations/californias-new-packaging-laws-are-changing-the-economics-of-plastic/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-06T14:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Modern Retail"
+      ],
+      "keywords": [],
+      "score": 0.2949,
+      "signals": {
+        "score": 0.2949,
+        "recency": 0.30543223269595055,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
     },
     {
       "id": "careful merge ahead how metas marketers use ai",
@@ -1775,10 +1880,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2982,
+      "score": 0.2931,
       "signals": {
-        "score": 0.2982,
-        "recency": 0.07880181193838363,
+        "score": 0.2931,
+        "recency": 0.05830625696896874,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1803,10 +1908,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.298,
+      "score": 0.2929,
       "signals": {
-        "score": 0.298,
-        "recency": 0.07796717015139215,
+        "score": 0.2929,
+        "recency": 0.05768869707647012,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1831,92 +1936,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.298,
+      "score": 0.2929,
       "signals": {
-        "score": 0.298,
-        "recency": 0.07796717015139215,
+        "score": 0.2929,
+        "recency": 0.05768869707647012,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "the hidden forces behind b2b buying decisions",
-      "title": "The hidden forces behind B2B buying decisions",
-      "summary": "Your deals aren't won or lost on product alone.",
-      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
-      "link": "https://martech.org/the-hidden-forces-behind-b2b-buying-decisions/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-07-06T12:26:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarTech"
-      ],
-      "keywords": [],
-      "score": 0.2965,
-      "signals": {
-        "score": 0.2965,
-        "recency": 0.317933867764706,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "publicis groupe holds the spotlight on investor context ad hoc news",
-      "title": "Publicis Groupe holds the spotlight on investor context. - AD HOC NEWS",
-      "summary": "Publicis Groupe holds the spotlight on investor context.",
-      "image": "assets/images/generated/publicis groupe holds the spotlight on investor context ad hoc news.jpg",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWlpvc1lnNm1COG5CeHNfYWhkcXRoTUg3ejQzSklOQnFNNmlBLU9FN281MUhUdmZOTU41empUVVFzXzBnWGdkTXF0WHk3UFVEVGxYdFJpelpsRnl4OE51S1NyY3RmeEllTF9xZ1ZtV3I2SjZiSjFIVlVfYVR3dVZjUHFXaXVjem9nWFoycGpWOVo2RzYwX25SNlc0eU1zalJoWDNpM2hyNUNlNl9ydDBmekFmb3g?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-06T12:35:10+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.2955,
-      "signals": {
-        "score": 0.2955,
-        "recency": 0.3261333546647089,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "net zero in 2026 why pragmatism drives companies to take different paths",
-      "title": "Net Zero In 2026: Why Pragmatism Drives Companies To Take Different Paths",
-      "summary": "Long\u2011term Net Zero commitments, typically framed as emissions reductions aligned with a 2050 timeframe, were a fad across global companies in the past decade.",
-      "image": "assets/images/generated/net zero in 2026 why pragmatism drives companies to take different paths.jpg",
-      "link": "https://www.forrester.com/blogs/net-zero-in-2026-why-pragmatism-drives-companies-to-take-different-paths/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-06T12:00:30+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Forrester Blogs"
-      ],
-      "keywords": [],
-      "score": 0.294,
-      "signals": {
-        "score": 0.294,
-        "recency": 0.2961926433665596,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1936,10 +1963,10 @@
         "TechCrunch Startups"
       ],
       "keywords": [],
-      "score": 0.2934,
+      "score": 0.2917,
       "signals": {
-        "score": 0.2934,
-        "recency": 0.026779333050338226,
+        "score": 0.2917,
+        "recency": 0.01981429913707445,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -1949,30 +1976,30 @@
       "image_failure_reason": ""
     },
     {
-      "id": "the hidden cost of your fragmented martech stack",
-      "title": "The hidden cost of your fragmented martech stack",
-      "summary": "Why your favorite best-of-breed marketing tools might be creating a structural complexity wall that actively slows down your revenue operations.",
-      "image": "https://martech.org/wp-content/uploads/2025/11/mtb-explains-it-all-new.png",
-      "link": "https://martech.org/the-hidden-cost-of-your-fragmented-martech-stack/",
-      "category": "digital-media",
+      "id": "inside forresters inaugural future leaders program",
+      "title": "Inside Forrester\u2019s Inaugural Future Leaders Program",
+      "summary": "Three participants from Forrester\u2019s first-ever Future Leaders program \u2014 designed for early-career professionals identified as rising talent within their organizations \u2014 share the",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Inside%20Forrester%E2%80%99s%20Inaugural%20Future%20Leaders%20Program%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EFB%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EBRANDS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EFORRESTER%20BLOGS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EINSIDE%20FORRESTER%E2%80%99S%20INAUGURAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EFUTURE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EThree%20participants%20from%20Forrester%E2%80%99s%20first-ever%20Future%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EBRANDS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://www.forrester.com/blogs/inside-forresters-inaugural-future-leaders-program/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-07-06T12:07:00+00:00",
+      "published_at": "2026-07-06T13:34:36+00:00",
       "source_count": 1,
       "source_names": [
-        "MarTech"
+        "Forrester Blogs"
       ],
       "keywords": [],
-      "score": 0.2924,
+      "score": 0.2912,
       "signals": {
-        "score": 0.2924,
-        "recency": 0.30158913784155267,
+        "score": 0.2912,
+        "recency": 0.2846249572577858,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.78,
+        "authority": 0.8,
         "engagement": 0.4
       },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "kernels major updates",
@@ -1990,10 +2017,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2885,
+      "score": 0.2859,
       "signals": {
-        "score": 0.2885,
-        "recency": 0.04002967987825165,
+        "score": 0.2859,
+        "recency": 0.02961836465374521,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2018,10 +2045,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2863,
+      "score": 0.2847,
       "signals": {
-        "score": 0.2863,
-        "recency": 0.025323955502588643,
+        "score": 0.2847,
+        "recency": 0.018737450582471355,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2046,40 +2073,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2848,
+      "score": 0.282,
       "signals": {
-        "score": 0.2848,
-        "recency": 0.043015719573744775,
+        "score": 0.282,
+        "recency": 0.03182776559926027,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "analysis ocado plots life after steiner as shareholder tensions simmer",
-      "title": "ANALYSIS: Ocado plots life after Steiner as shareholder tensions simmer",
-      "summary": "Ocado has confirmed that its co-founder and chief executive Tim Steiner will stand down in 2028.",
-      "image": "assets/images/generated/analysis ocado plots life after steiner as shareholder tensions simmer.jpg",
-      "link": "https://internetretailing.net/analysis-ocado-plots-life-after-steiner-as-shareholder-tensions-simmer/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-06T11:31:55+00:00",
-      "source_count": 1,
-      "source_names": [
-        "InternetRetailing"
-      ],
-      "keywords": [],
-      "score": 0.2839,
-      "signals": {
-        "score": 0.2839,
-        "recency": 0.2735848787972897,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.77,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2100,14 +2101,172 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2836,
+      "score": 0.2811,
       "signals": {
-        "score": 0.2836,
-        "recency": 0.03826472996760687,
+        "score": 0.2811,
+        "recency": 0.028312460379515104,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the hidden forces behind b2b buying decisions",
+      "title": "The hidden forces behind B2B buying decisions",
+      "summary": "Your deals aren't won or lost on product alone.",
+      "image": "https://martech.org/searchengineland.com/wp-content/seloads/2025/11/semrush-one.webp",
+      "link": "https://martech.org/the-hidden-forces-behind-b2b-buying-decisions/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-07-06T12:26:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarTech"
+      ],
+      "keywords": [],
+      "score": 0.2758,
+      "signals": {
+        "score": 0.2758,
+        "recency": 0.2352424815754474,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "net zero in 2026 why pragmatism drives companies to take different paths",
+      "title": "Net Zero In 2026: Why Pragmatism Drives Companies To Take Different Paths",
+      "summary": "Long\u2011term Net Zero commitments, typically framed as emissions reductions aligned with a 2050 timeframe, were a fad across global companies in the past decade.",
+      "image": "assets/images/generated/net zero in 2026 why pragmatism drives companies to take different paths.jpg",
+      "link": "https://www.forrester.com/blogs/net-zero-in-2026-why-pragmatism-drives-companies-to-take-different-paths/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-06T12:00:30+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Forrester Blogs"
+      ],
+      "keywords": [],
+      "score": 0.2748,
+      "signals": {
+        "score": 0.2748,
+        "recency": 0.21915592994171681,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "publicis groupe holds the spotlight on investor context ad hoc news",
+      "title": "Publicis Groupe holds the spotlight on investor context. - AD HOC NEWS",
+      "summary": "Publicis Groupe holds the spotlight on investor context.",
+      "image": "assets/images/generated/publicis groupe holds the spotlight on investor context ad hoc news.jpg",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWlpvc1lnNm1COG5CeHNfYWhkcXRoTUg3ejQzSklOQnFNNmlBLU9FN281MUhUdmZOTU41empUVVFzXzBnWGdkTXF0WHk3UFVEVGxYdFJpelpsRnl4OE51S1NyY3RmeEllTF9xZ1ZtV3I2SjZiSjFIVlVfYVR3dVZjUHFXaXVjem9nWFoycGpWOVo2RzYwX25SNlc0eU1zalJoWDNpM2hyNUNlNl9ydDBmekFmb3g?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-06T12:35:10+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [],
+      "score": 0.2743,
+      "signals": {
+        "score": 0.2743,
+        "recency": 0.24130936479101453,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the hidden cost of your fragmented martech stack",
+      "title": "The hidden cost of your fragmented martech stack",
+      "summary": "Why your favorite best-of-breed marketing tools might be creating a structural complexity wall that actively slows down your revenue operations.",
+      "image": "https://martech.org/wp-content/uploads/2025/11/mtb-explains-it-all-new.png",
+      "link": "https://martech.org/the-hidden-cost-of-your-fragmented-martech-stack/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-07-06T12:07:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarTech"
+      ],
+      "keywords": [],
+      "score": 0.2728,
+      "signals": {
+        "score": 0.2728,
+        "recency": 0.22314885073694662,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "analysis ocado plots life after steiner as shareholder tensions simmer",
+      "title": "ANALYSIS: Ocado plots life after Steiner as shareholder tensions simmer",
+      "summary": "Ocado has confirmed that its co-founder and chief executive Tim Steiner will stand down in 2028.",
+      "image": "assets/images/generated/analysis ocado plots life after steiner as shareholder tensions simmer.jpg",
+      "link": "https://internetretailing.net/analysis-ocado-plots-life-after-steiner-as-shareholder-tensions-simmer/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-06T11:31:55+00:00",
+      "source_count": 1,
+      "source_names": [
+        "InternetRetailing"
+      ],
+      "keywords": [],
+      "score": 0.2661,
+      "signals": {
+        "score": 0.2661,
+        "recency": 0.20242821647872558,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.77,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "omd wa promotes jodie traynor to head of government little black book lbbonline",
+      "title": "OMD WA Promotes Jodie Traynor to Head of Government - Little Black Book | LBBOnline",
+      "summary": "OMD WA Promotes Jodie Traynor to Head of Government &nbsp;&nbsp; Little Black Book | LBBOnline",
+      "image": "assets/images/generated/omd wa promotes jodie traynor to head of government little black book lbbonline.jpg",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5heXR3WkJNYW1OaGRmX081Ny02RF9NaU9PaXhXZl9PN2dDV3JieHpKRHBDcXJObkx6amMtNEh0SjBXczBMRGFibGRpUVZrWjJHaE1jNC1BOTY3M0J4M2R2bUl4TW1BYjFXejktd0diV2pBMXp2?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-06T00:44:55+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [
+        "govern"
+      ],
+      "score": 0.2624,
+      "signals": {
+        "score": 0.2624,
+        "recency": 0.03355423600645076,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2126,10 +2285,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2769,
+      "score": 0.2606,
       "signals": {
-        "score": 0.2769,
-        "recency": 0.25168693423978566,
+        "score": 0.2606,
+        "recency": 0.1862257060153824,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2152,67 +2311,13 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.2738,
+      "score": 0.2598,
       "signals": {
-        "score": 0.2738,
-        "recency": 0.21524934532773526,
+        "score": 0.2598,
+        "recency": 0.1592651657666776,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "trump memecoin investors lost 38 billion analysis finds",
-      "title": "Trump memecoin investors lost $3.8 billion, analysis finds",
-      "summary": "Nearly 1 million people have lost a total of $3.8 billion after buying President Donald Trump\u2019s $TRUMP memecoin, while Trump made $636 million.",
-      "image": "assets/images/generated/trump memecoin investors lost 38 billion analysis finds.jpg",
-      "link": "https://techcrunch.com/2026/07/05/trump-memecoin-investors-lost-3-8-billion-analysis-finds/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-05T20:29:05+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "bill"
-      ],
-      "score": 0.2716,
-      "signals": {
-        "score": 0.2716,
-        "recency": 0.022281161514255035,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "shouvik prasanna mukherjee joins omnicom public relations as head of creative for apac social samosa",
-      "title": "Shouvik Prasanna Mukherjee joins Omnicom Public Relations as Head of Creative for APAC - Social Samosa",
-      "summary": "Shouvik Prasanna Mukherjee joins Omnicom Public Relations as Head of Creative for APAC &nbsp;&nbsp; Social Samosa",
-      "image": "assets/images/generated/shouvik prasanna mukherjee joins omnicom public relations as head of creative for apac social samosa.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQzdUNDlRenRQM3c4S2o3NlJwSjdmZkxiU2hXUHhWZ3JzbUpDeGRIYUNscU5NNEJpLVZrUzNFR0J1VkhnOXE4SkJCZUJtQVhHZXpQQjQta0I1ZjBWWHNQM2xDeVpXemFWTG51MV9HelBrVnVoTHRIRC1rbnlqX0xwamtyVFROcWFpcGhRR0xGVGdTUnIyejhaUXV0dHN4aHN1M2lwMTNDWGlsZ25LMlNYSVJqSjJEajAzcnVtNFFlb2FGaVXSAcMBQVVfeXFMT0M3VDQ5UXp0UDN3OEtqNzZScEo3ZmZMYlNoV1B4Vmdyc21KQ3hkSGFDbHFOTTRCaS1Wa1MzRUdCdVZIZzlxOEpCQmVCbUFYR2V6UEI0LWtCNWYwVlhzUDNsQ3laV3phVkxudTFfR3pQa1Z1aEx0SEQta255al9McGprclRUTnFhaXBoUUdMRlRnU1JyMno4WlF1dHRzeGhzdTNpcDEzQ1hpbGduSzJTWElSakoyRGowM3J1bTRRZW9hRmlV?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-06T10:20:05+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.27,
-      "signals": {
-        "score": 0.27,
-        "recency": 0.22409607802064452,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -2232,10 +2337,10 @@
         "MIT Technology Review"
       ],
       "keywords": [],
-      "score": 0.2679,
+      "score": 0.2562,
       "signals": {
-        "score": 0.2679,
-        "recency": 0.179400578799492,
+        "score": 0.2562,
+        "recency": 0.13274030114997715,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -2245,26 +2350,24 @@
       "image_failure_reason": ""
     },
     {
-      "id": "omd wa promotes jodie traynor to head of government little black book lbbonline",
-      "title": "OMD WA Promotes Jodie Traynor to Head of Government - Little Black Book | LBBOnline",
-      "summary": "OMD WA Promotes Jodie Traynor to Head of Government &nbsp;&nbsp; Little Black Book | LBBOnline",
-      "image": "assets/images/generated/omd wa promotes jodie traynor to head of government little black book lbbonline.jpg",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5heXR3WkJNYW1OaGRmX081Ny02RF9NaU9PaXhXZl9PN2dDV3JieHpKRHBDcXJObkx6amMtNEh0SjBXczBMRGFibGRpUVZrWjJHaE1jNC1BOTY3M0J4M2R2bUl4TW1BYjFXejktd0diV2pBMXp2?oc=5",
+      "id": "shouvik prasanna mukherjee joins omnicom public relations as head of creative for apac social samosa",
+      "title": "Shouvik Prasanna Mukherjee joins Omnicom Public Relations as Head of Creative for APAC - Social Samosa",
+      "summary": "Shouvik Prasanna Mukherjee joins Omnicom Public Relations as Head of Creative for APAC &nbsp;&nbsp; Social Samosa",
+      "image": "assets/images/generated/shouvik prasanna mukherjee joins omnicom public relations as head of creative for apac social samosa.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQzdUNDlRenRQM3c4S2o3NlJwSjdmZkxiU2hXUHhWZ3JzbUpDeGRIYUNscU5NNEJpLVZrUzNFR0J1VkhnOXE4SkJCZUJtQVhHZXpQQjQta0I1ZjBWWHNQM2xDeVpXemFWTG51MV9HelBrVnVoTHRIRC1rbnlqX0xwamtyVFROcWFpcGhRR0xGVGdTUnIyejhaUXV0dHN4aHN1M2lwMTNDWGlsZ25LMlNYSVJqSjJEajAzcnVtNFFlb2FGaVXSAcMBQVVfeXFMT0M3VDQ5UXp0UDN3OEtqNzZScEo3ZmZMYlNoV1B4Vmdyc21KQ3hkSGFDbHFOTTRCaS1Wa1MzRUdCdVZIZzlxOEpCQmVCbUFYR2V6UEI0LWtCNWYwVlhzUDNsQ3laV3phVkxudTFfR3pQa1Z1aEx0SEQta255al9McGprclRUTnFhaXBoUUdMRlRnU1JyMno4WlF1dHRzeGhzdTNpcDEzQ1hpbGduSzJTWElSakoyRGowM3J1bTRRZW9hRmlV?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-06T00:44:55+00:00",
+      "published_at": "2026-07-06T10:20:05+00:00",
       "source_count": 1,
       "source_names": [
         "Google News - Omnicom"
       ],
-      "keywords": [
-        "govern"
-      ],
-      "score": 0.2653,
+      "keywords": [],
+      "score": 0.2555,
       "signals": {
-        "score": 0.2653,
-        "recency": 0.0453490711455498,
-        "keyword_volume": 0.2,
+        "score": 0.2555,
+        "recency": 0.16581095268502757,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.4
@@ -2286,10 +2389,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.2649,
+      "score": 0.2533,
       "signals": {
-        "score": 0.2649,
-        "recency": 0.17975807456324702,
+        "score": 0.2533,
+        "recency": 0.13300481587818055,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2312,10 +2415,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2602,
+      "score": 0.2482,
       "signals": {
-        "score": 0.2602,
-        "recency": 0.18482990888748388,
+        "score": 0.2482,
+        "recency": 0.1367575173470785,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2338,10 +2441,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2595,
+      "score": 0.2476,
       "signals": {
-        "score": 0.2595,
-        "recency": 0.18190963718838798,
+        "score": 0.2476,
+        "recency": 0.13459677880670293,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2364,36 +2467,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2581,
+      "score": 0.2466,
       "signals": {
-        "score": 0.2581,
-        "recency": 0.1762802185267831,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "omnicom group stock tracks a thin catalyst free session ad hoc news",
-      "title": "Omnicom Group stock tracks a thin catalyst free session - AD HOC NEWS",
-      "summary": "Omnicom Group stock tracks a thin catalyst free session &nbsp;&nbsp; AD HOC NEWS",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Omnicom%20Group%20stock%20tracks%20a%20thin%20catalyst%20free%20session%20-%20AD%20HOC%20NEWS%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23be185d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232b0718%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d4%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23f9a8d4%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23f9a8d4%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23f9a8d4%22%3EGOOGLE%20NEWS%20-%20OMNICOM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EOMNICOM%20GROUP%20STOCK%20TRACKS%20A%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETHIN%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EOmnicom%20Group%20stock%20tracks%20a%20thin%20catalyst%20free%20session%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1VkWHF0T3pRRno4RWJSTy0za1VJajYwNlNBMFNFYWtJUUpsbVpwM3FSRm5aVVRFT0lKVEdTRjM0ZmtTcFlLZFpqMHpiQURaVlJrQ3QydVlnZGJSYWhuOUJRdWlHdjhuTHZ1alo3eTB1c1dsdk44M3BlLWxnMG1UcThJc2NnUkVPZXd4MzZsUjFZRDdpMnRzazA5dGN1QkFaQ3ZfZC12cDdkaDJfWklnUHJDNmE?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-06T08:36:32+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.256,
-      "signals": {
-        "score": 0.256,
-        "recency": 0.16807931662250708,
+        "score": 0.2466,
+        "recency": 0.13043151505203077,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2416,10 +2493,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2536,
+      "score": 0.2464,
       "signals": {
-        "score": 0.2536,
-        "recency": 0.1104820050431543,
+        "score": 0.2464,
+        "recency": 0.08174675198496695,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2427,6 +2504,32 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
+    },
+    {
+      "id": "omnicom group stock tracks a thin catalyst free session ad hoc news",
+      "title": "Omnicom Group stock tracks a thin catalyst free session - AD HOC NEWS",
+      "summary": "Omnicom Group stock tracks a thin catalyst free session &nbsp;&nbsp; AD HOC NEWS",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Omnicom%20Group%20stock%20tracks%20a%20thin%20catalyst%20free%20session%20-%20AD%20HOC%20NEWS%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23be185d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232b0718%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d4%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23f9a8d4%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23f9a8d4%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23f9a8d4%22%3EGOOGLE%20NEWS%20-%20OMNICOM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EOMNICOM%20GROUP%20STOCK%20TRACKS%20A%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETHIN%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EOmnicom%20Group%20stock%20tracks%20a%20thin%20catalyst%20free%20session%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1VkWHF0T3pRRno4RWJSTy0za1VJajYwNlNBMFNFYWtJUUpsbVpwM3FSRm5aVVRFT0lKVEdTRjM0ZmtTcFlLZFpqMHpiQURaVlJrQ3QydVlnZGJSYWhuOUJRdWlHdjhuTHZ1alo3eTB1c1dsdk44M3BlLWxnMG1UcThJc2NnUkVPZXd4MzZsUjFZRDdpMnRzazA5dGN1QkFaQ3ZfZC12cDdkaDJfWklnUHJDNmE?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-06T08:36:32+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.2451,
+      "signals": {
+        "score": 0.2451,
+        "recency": 0.12436358486050283,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "omnicom pr names shouvik prasanna mukherjee as head of creative apac afaqs",
@@ -2442,10 +2545,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2515,
+      "score": 0.2418,
       "signals": {
-        "score": 0.2515,
-        "recency": 0.1501118128164262,
+        "score": 0.2418,
+        "recency": 0.11106924722741099,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2468,10 +2571,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2458,
+      "score": 0.2375,
       "signals": {
-        "score": 0.2458,
-        "recency": 0.12708455564635246,
+        "score": 0.2375,
+        "recency": 0.09403114694998753,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2494,10 +2597,10 @@
         "Digiday"
       ],
       "keywords": [],
-      "score": 0.241,
+      "score": 0.236,
       "signals": {
-        "score": 0.241,
-        "recency": 0.07818404670201383,
+        "score": 0.236,
+        "recency": 0.057849166227877176,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2520,10 +2623,10 @@
         "Digiday"
       ],
       "keywords": [],
-      "score": 0.241,
+      "score": 0.236,
       "signals": {
-        "score": 0.241,
-        "recency": 0.07818404670201383,
+        "score": 0.236,
+        "recency": 0.057849166227877176,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2546,10 +2649,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.24,
+      "score": 0.2344,
       "signals": {
-        "score": 0.24,
-        "recency": 0.08594394230034737,
+        "score": 0.2344,
+        "recency": 0.0635907913971383,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2572,10 +2675,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2397,
+      "score": 0.233,
       "signals": {
-        "score": 0.2397,
-        "recency": 0.10264141910937985,
+        "score": 0.233,
+        "recency": 0.07594542322111325,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2598,10 +2701,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2298,
+      "score": 0.2257,
       "signals": {
-        "score": 0.2298,
-        "recency": 0.0632311526796215,
+        "score": 0.2257,
+        "recency": 0.04678536883726546,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2624,10 +2727,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2236,
+      "score": 0.2211,
       "signals": {
-        "score": 0.2236,
-        "recency": 0.03834808183645129,
+        "score": 0.2211,
+        "recency": 0.028374133269568516,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2650,10 +2753,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2233,
+      "score": 0.2209,
       "signals": {
-        "score": 0.2233,
-        "recency": 0.03732169823489827,
+        "score": 0.2209,
+        "recency": 0.027614701670867717,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2676,10 +2779,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2227,
+      "score": 0.2204,
       "signals": {
-        "score": 0.2227,
-        "recency": 0.034840433110915156,
+        "score": 0.2204,
+        "recency": 0.025778788531710197,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2702,10 +2805,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2212,
+      "score": 0.2193,
       "signals": {
-        "score": 0.2212,
-        "recency": 0.028767630254953217,
+        "score": 0.2193,
+        "recency": 0.021285460331103994,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
