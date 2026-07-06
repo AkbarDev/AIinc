@@ -703,9 +703,45 @@ def enhance_prompt_with_llm(title: str, summary: str, category: str, api_key: st
     return None
 
 
-def generate_hf_image(prompt: str, api_key: str) -> Optional[bytes]:
-    """Generate high-definition image bytes using black-forest-labs/FLUX.1-schnell via Hugging Face Serverless Inference API."""
-    model_id = "black-forest-labs/FLUX.1-schnell"
+def validate_image_quality(image_bytes: bytes) -> tuple:
+    """Validate image bytes for color variance, blurriness, and size using PIL."""
+    if len(image_bytes) < 8000:
+        return False, "File size too small (under 8KB, low details)"
+        
+    try:
+        from PIL import Image, ImageFilter, ImageStat
+        import io
+        
+        # Verify basic image structure first
+        img = Image.open(io.BytesIO(image_bytes))
+        img.verify()
+        
+        # Re-open image since verify() invalidates the file pointer
+        img = Image.open(io.BytesIO(image_bytes))
+        
+        # 1. Color variance check (StdDev)
+        stat = ImageStat.Stat(img.convert("L"))
+        std_dev = stat.stddev[0]
+        if std_dev < 12.0:
+            return False, f"Color variance too low ({std_dev:.2f}) - likely flat background or placeholder layout"
+            
+        # 2. Sharpness/Blurry check (High pass FIND_EDGES variance)
+        edges = img.convert("L").filter(ImageFilter.FIND_EDGES)
+        edge_stat = ImageStat.Stat(edges)
+        mean_edge = edge_stat.mean[0]
+        if mean_edge < 3.5:
+            return False, f"Image is too blurry or out of focus (mean edge {mean_edge:.2f} < 3.5)"
+            
+        return True, ""
+    except ImportError:
+        # If PIL is not installed, fallback to size check
+        return True, ""
+    except Exception as e:
+        return False, f"Exception during validation: {e}"
+
+
+def generate_hf_image(prompt: str, model_id: str, api_key: str) -> Optional[bytes]:
+    """Generate high-definition image bytes using a specified Hugging Face Inference model."""
     url = f"https://api-inference.huggingface.co/models/{model_id}"
     
     payload = {
@@ -728,15 +764,10 @@ def generate_hf_image(prompt: str, api_key: str) -> Optional[bytes]:
             content_type = (response.info().get_content_type() or "").lower()
             resp_bytes = response.read()
             if "image" not in content_type:
-                try:
-                    err_json = json.loads(resp_bytes.decode("utf-8", errors="ignore"))
-                    print(f"warn: Hugging Face image API returned JSON: {err_json}", file=sys.stderr)
-                except Exception:
-                    print(f"warn: Hugging Face image API returned non-image content: {content_type}", file=sys.stderr)
                 return None
             return resp_bytes
     except Exception as e:
-        print(f"warn: Hugging Face image generation failed: {e}", file=sys.stderr)
+        print(f"warn: Hugging Face image model {model_id} generation failed: {e}", file=sys.stderr)
         
     return None
 
@@ -846,10 +877,9 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
 
     print(f"info: Initiating image generation for cluster: {trend_id}...")
     
-    # 1. Check for HF_API_KEY
+    # 2. Check for HF_API_KEY
     api_key = os.environ.get("HF_API_KEY")
     enhanced_prompt = None
-    
     if api_key:
         print("info: HF_API_KEY detected. Enhancing prompt using Hugging Face LLM...")
         enhanced_prompt = enhance_prompt_with_llm(title, summary, category, api_key)
@@ -858,10 +888,8 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
     if enhanced_prompt:
         prompt_to_use = enhanced_prompt
     else:
-        # Fall back to a cleaner, non-structured template if LLM enhancement was skipped or failed
         companies = extract_companies(title, summary, category)
         company_1 = companies[0]
-        
         prompt_to_use = (
             f"Minimalist flat vector editorial news illustration about {company_1} and {category}. "
             f"A single clean symbolic visual concept, modern high-contrast color palette, flat vector design. "
@@ -869,69 +897,71 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
             f"No text, no logos, no watermarks, landscape 16:9, clean negative space, premium news hero layout."
         )
 
-    # Stage 1: Try Hugging Face Image Generation (if API key is present)
-    if api_key:
-        print("info: Attempting image generation via Hugging Face Serverless Inference (FLUX.1-schnell)...")
-        image_bytes = generate_hf_image(prompt_to_use, api_key)
-        if image_bytes:
-            try:
-                image_path.write_bytes(image_bytes)
-                print(f"info: AI image successfully generated and saved via Hugging Face: {image_path}")
-                return f"assets/images/generated/{trend_id}.jpg"
-            except Exception as e:
-                print(f"warn: Failed to write Hugging Face image bytes: {e}", file=sys.stderr)
-        else:
-            print("warn: Hugging Face image generation failed. Falling back to Pollinations FLUX...")
+    # Setup prompt variations
+    prompt_variations = [
+        prompt_to_use,
+        f"{prompt_to_use}. Award-winning editorial illustration, cinematic lighting, sharp details, high contrast, 8k resolution, photorealistic composition."
+    ]
 
-    # Stage 2: Fallback to Pollinations AI (uses FLUX model, 100% Free & Unlimited)
-    print("info: Generating image via Pollinations AI (FLUX model)...")
-    encoded_prompt = quote(prompt_to_use)
-    # We specify model=flux and nologo=true to get high quality without watermark
-    pollinations_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=640&height=360&nologo=true&private=true&model=flux"
-    
+    # Models pipeline to loop through
+    MODELS_PIPELINE = [
+        {"name": "FLUX.1 Dev", "hf_id": "black-forest-labs/FLUX.1-dev", "pollinations_model": "flux-realism"},
+        {"name": "FLUX.1 Schnell", "hf_id": "black-forest-labs/FLUX.1-schnell", "pollinations_model": "flux"},
+        {"name": "SDXL 1.0", "hf_id": "stabilityai/stable-diffusion-xl-base-1.0", "pollinations_model": "turbo"},
+        {"name": "SDXL Lightning", "hf_id": "ByteDance/SDXL-Lightning", "pollinations_model": "turbo"},
+        {"name": "Juggernaut XL", "hf_id": "cagliostrolab/animagine-xl-3.1", "pollinations_model": "flux"},
+        {"name": "DreamShaper XL", "hf_id": "Lykon/dreamshaper-xl-v2-turbo", "pollinations_model": "turbo"},
+        {"name": "Playground v2.5", "hf_id": "playgroundai/playground-v2.5", "pollinations_model": "flux"}
+    ]
+
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
 
-    max_retries = 1
-    retry_delay = 2
+    # Loop through models in priority
+    for model in MODELS_PIPELINE:
+        print(f"info: Testing model: {model['name']}...")
+        
+        # Loop through prompt variations for each model
+        for p_idx, prompt in enumerate(prompt_variations):
+            print(f"info: Attempting prompt variation {p_idx + 1} on model {model['name']}...")
+            image_bytes = None
+            
+            # Try HF if API key is present
+            if api_key and model["hf_id"]:
+                print(f"info: Trying Hugging Face inference for model: {model['hf_id']}...")
+                image_bytes = generate_hf_image(prompt, model["hf_id"], api_key)
+                
+            # If HF fails or is skipped, try Pollinations (if pollinations_model parameter is supported)
+            if not image_bytes and model["pollinations_model"]:
+                print(f"info: Falling back to Pollinations for model: {model['pollinations_model']}...")
+                encoded_prompt = quote(prompt)
+                pollinations_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=640&height=360&nologo=true&private=true&model={model['pollinations_model']}"
+                
+                try:
+                    req = Request(pollinations_url, headers=headers, method="GET")
+                    with urlopen(req, timeout=30) as response:
+                        content_type = (response.info().get_content_type() or "").lower()
+                        resp_bytes = response.read()
+                        if "image" in content_type:
+                            image_bytes = resp_bytes
+                except Exception as exc:
+                    print(f"warn: Pollinations fetch failed for model {model['name']}: {exc}", file=sys.stderr)
 
-    for attempt in range(max_retries):
-        try:
-            req = Request(pollinations_url, headers=headers, method="GET")
-            with urlopen(req, timeout=45) as response:
-                content_type = (response.info().get_content_type() or "").lower()
-                resp_bytes = response.read()
+            # If image was successfully generated, check quality
+            if image_bytes:
+                is_valid, validation_msg = validate_image_quality(image_bytes)
+                if is_valid:
+                    try:
+                        image_path.write_bytes(image_bytes)
+                        print(f"info: AI image successfully validated and saved via {model['name']}: {image_path}")
+                        return f"assets/images/generated/{trend_id}.jpg"
+                    except Exception as e:
+                        print(f"warn: Failed to write image bytes: {e}", file=sys.stderr)
+                else:
+                    print(f"warn: Generated image failed quality assessment: {validation_msg}. Trying next variant/model...", file=sys.stderr)
 
-                if "image" not in content_type:
-                    print(f"warn: Pollinations API returned non-image content type: {content_type}", file=sys.stderr)
-                    return None
-
-                image_path.write_bytes(resp_bytes)
-                print(f"info: AI image successfully saved via Pollinations: {image_path}")
-                return f"assets/images/generated/{trend_id}.jpg"
-
-        except HTTPError as err:
-            err_body = ""
-            try:
-                err_body = err.read().decode("utf-8", errors="ignore")
-            except Exception:
-                pass
-            print(f"warn: Pollinations API HTTP Error {err.code}: {err.reason}. Details: {err_body}", file=sys.stderr)
-            if err.code == 429:
-                print("info: Hitting Pollinations rate limit (429). Sleeping 15s to clear queue...", file=sys.stderr)
-                time.sleep(15)
-            if attempt < max_retries - 1:
-                time.sleep(retry_delay)
-                continue
-            return None
-        except Exception as exc:
-            print(f"warn: failed to fetch AI image from Pollinations: {exc}", file=sys.stderr)
-            if attempt < max_retries - 1:
-                time.sleep(retry_delay)
-                continue
-
-    # Stage 3: Public domain free-use Unsplash stock image fallback
+    # 3. Public domain free-use Unsplash stock image fallback (if all models fail)
     print(f"info: Using curated open stock image fallback for category: {category}")
     curated_stock = {
         "ai": "https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=640&q=80",
@@ -949,17 +979,16 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
     
     fallback_url = curated_stock.get(category.lower(), "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=640&q=80")
     
-    for attempt in range(max_retries):
-        try:
-            req = Request(fallback_url, headers=headers, method="GET")
-            with urlopen(req, timeout=15) as response:
-                resp_bytes = response.read()
-                image_path.write_bytes(resp_bytes)
-                print(f"info: Stock fallback image successfully saved: {image_path}")
-                return f"assets/images/generated/{trend_id}.jpg"
-        except Exception as e:
-            print(f"warn: failed to fetch stock fallback image: {e}", file=sys.stderr)
-            
+    try:
+        req = Request(fallback_url, headers=headers, method="GET")
+        with urlopen(req, timeout=15) as response:
+            resp_bytes = response.read()
+            image_path.write_bytes(resp_bytes)
+            print(f"info: Stock fallback image successfully saved: {image_path}")
+            return f"assets/images/generated/{trend_id}.jpg"
+    except Exception as e:
+        print(f"warn: failed to fetch stock fallback image: {e}", file=sys.stderr)
+        
     return None
 
 
