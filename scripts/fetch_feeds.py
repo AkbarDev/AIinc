@@ -639,23 +639,27 @@ def enhance_cluster_metadata_with_llm(title: str, summary: str, current_category
     return None
 
 
-def enhance_prompt_with_llm(title: str, summary: str, api_key: str) -> Optional[str]:
+def enhance_prompt_with_llm(title: str, summary: str, category: str, api_key: str) -> Optional[str]:
     """Use Hugging Face Chat API to enhance a simple title & summary into a visual description prompt."""
     url = "https://router.huggingface.co/v1/chat/completions"
     
     system_instruction = (
-        "You are an expert prompt engineer for state-of-the-art text-to-image models (like FLUX.1 or Stable Diffusion).\n"
-        "Your task is to convert a news article's headline and summary into a highly descriptive, visual art prompt.\n"
-        "The prompt must describe a single cohesive, high-clarity editorial news illustration. "
-        "Create a symbolic or metaphoric visual scene representing the core concept of the story (e.g. if the news is about competition, show a minimal chess match or a symbolic duel; if about commerce, show a stylized digital marketplace storefront; if about AI chips, show a glowing circuit integrated with organic roots).\n"
-        "Style Requirements:\n"
-        "• Style: Clean minimalist corporate flat vector art, high contrast color palette, modern digital illustration suitable for a premium news hero card.\n"
-        "• No text, no letters, no words, no speech bubbles, no UI mockups, no screenshots.\n"
-        "• No real trademarked logos.\n"
-        "• High clarity, visually rich, content-driven, landscape 16:9 orientation, soft lighting.\n"
-        "Output ONLY the final descriptive visual prompt string. Do not include any intro, quote marks, labels, or formatting."
+        "You are an award-winning Editorial Art Director working for Bloomberg, Wired, The Verge, MIT Technology Review and The Economist.\n\n"
+        "Your job is NOT to summarize the article.\n"
+        "Your job is to imagine the single most visually compelling editorial illustration that communicates the article.\n"
+        "Given the Headline, Summary, and Category, create a cinematic image prompt for FLUX. "
+        "The image should look like it belongs on the homepage of a premium technology magazine.\n\n"
+        "IMAGE STYLE:\n"
+        "Modern Editorial Illustration, Photorealistic, Magazine Cover Quality, Ultra detailed, Professional Lighting, Clean Composition, Minimal, Elegant, Premium, Visually striking, High contrast, Natural colors, Sharp focus, 8K quality, High detail, Landscape, No text, No typography, No UI, No screenshots, No website mockups, No logos, No watermarks.\n\n"
+        "VISUAL STORY:\n"
+        "Instead of illustrating the article literally, identify: the central subject, the action, the conflict, the business implication, the technology involved, the environment, symbolic metaphors. Build an image that tells the story visually.\n\n"
+        "PROMPT STRUCTURE:\n"
+        "Format your output describing: Subject, Environment, Objects, Action, Mood, Lighting, Perspective, Editorial Style, Camera Angle, Color Palette.\n\n"
+        "NEGATIVE PROMPT (Implicitly describe these elements as omitted):\n"
+        "Avoid: text, letters, numbers, captions, screenshots, dashboards, browser windows, UI, SVG graphics, posters, templates, clip art, stock illustration, watermarks, logos, low quality, blur, noise, compression artifacts, low detail, extra limbs, duplicate objects, cropped composition.\n\n"
+        "Return ONLY the final image prompt. Do not explain your reasoning."
     )
-    user_content = f"Headline: {title}\nSummary: {summary}"
+    user_content = f"Headline: {title}\nSummary: {summary}\nCategory: {category}"
     
     # Try a few model options from Qwen to Llama to ensure high availability
     models = [
@@ -848,7 +852,7 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
     
     if api_key:
         print("info: HF_API_KEY detected. Enhancing prompt using Hugging Face LLM...")
-        enhanced_prompt = enhance_prompt_with_llm(title, summary, api_key)
+        enhanced_prompt = enhance_prompt_with_llm(title, summary, category, api_key)
         
     # Determine the prompt to use
     if enhanced_prompt:
