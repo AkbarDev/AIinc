@@ -138,6 +138,8 @@ class TrendCluster:
     keyword_hits: set = field(default_factory=set)
     authority_total: float = 0.0
     latest_seen: datetime = field(default_factory=lambda: datetime.now(timezone.utc))
+    ai_image_pending: bool = False
+    image_failure_reason: str = ""
 
     def add_source(self, source: FeedSource, keywords: Iterable[str]) -> None:
         self.sources.add(source.name)
@@ -816,7 +818,27 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
     image_path = generated_dir / f"{trend_id}.jpg"
 
     if image_path.exists():
-        return f"assets/images/generated/{trend_id}.jpg"
+        try:
+            is_valid = True
+            if image_path.stat().st_size < 1000:
+                is_valid = False
+            else:
+                try:
+                    from PIL import Image
+                    with Image.open(image_path) as img:
+                        img.verify()
+                except ImportError:
+                    pass
+            if is_valid:
+                return f"assets/images/generated/{trend_id}.jpg"
+            else:
+                raise ValueError("File size too small")
+        except Exception as e:
+            print(f"warn: Existing image {trend_id}.jpg failed validation ({e}). Deleting for regeneration...", file=sys.stderr)
+            try:
+                image_path.unlink()
+            except Exception:
+                pass
 
     print(f"info: Initiating image generation for cluster: {trend_id}...")
     
@@ -1091,16 +1113,83 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     max_generations_per_run = 15
     for cluster, score_block in to_generate:
         if not cluster.image or is_generated_visual(cluster.image):
-            if gen_count < max_generations_per_run:
-                ai_image = fetch_ai_image(cluster.title, cluster.summary, cluster.category, cluster.key)
-                if ai_image:
-                    cluster.image = ai_image
-                    gen_count += 1
-                    # Add a polite pacing delay between generations to avoid IP concurrency locks
-                    time.sleep(5)
+            # 1. Has AI Image? Validate existing file
+            trend_id = cluster.key
+            generated_dir = BASE_DIR / "assets" / "images" / "generated"
+            image_path = generated_dir / f"{trend_id}.jpg"
+            is_valid = False
+            if image_path.exists():
+                try:
+                    if image_path.stat().st_size >= 1000:
+                        try:
+                            from PIL import Image
+                            with Image.open(image_path) as img:
+                                img.verify()
+                            is_valid = True
+                        except ImportError:
+                            is_valid = True
+                except Exception:
+                    pass
+
+            if is_valid:
+                cluster.image = f"assets/images/generated/{trend_id}.jpg"
+                cluster.ai_image_pending = False
+                cluster.image_failure_reason = ""
+            else:
+                if image_path.exists():
+                    try:
+                        image_path.unlink()
+                    except Exception:
+                        pass
+                
+                # 2. Generate new image
+                if gen_count < max_generations_per_run:
+                    ai_image = fetch_ai_image(cluster.title, cluster.summary, cluster.category, cluster.key)
+                    if ai_image:
+                        cluster.image = ai_image
+                        cluster.ai_image_pending = False
+                        cluster.image_failure_reason = ""
+                        gen_count += 1
+                        time.sleep(5)
+                    else:
+                        cluster.ai_image_pending = True
+                        cluster.image_failure_reason = "Image generation failed (all service endpoints timed out or returned invalid data)"
+                else:
+                    cluster.ai_image_pending = True
+                    cluster.image_failure_reason = "Generation skipped during this run to respect rate limits (max 15 generations per run)"
 
     payload = []
     for cluster, score_block in scored_clusters:
+        ai_pending = getattr(cluster, "ai_image_pending", False)
+        fail_reason = getattr(cluster, "image_failure_reason", "")
+        
+        # Double check validity of images for elements that were not in the to_generate block
+        if not cluster.image or is_generated_visual(cluster.image):
+            trend_id = cluster.key
+            generated_dir = BASE_DIR / "assets" / "images" / "generated"
+            image_path = generated_dir / f"{trend_id}.jpg"
+            is_valid = False
+            if image_path.exists():
+                try:
+                    if image_path.stat().st_size >= 1000:
+                        try:
+                            from PIL import Image
+                            with Image.open(image_path) as img:
+                                img.verify()
+                            is_valid = True
+                        except ImportError:
+                            is_valid = True
+                except Exception:
+                    pass
+            if is_valid:
+                cluster.image = f"assets/images/generated/{trend_id}.jpg"
+                ai_pending = False
+                fail_reason = ""
+            else:
+                ai_pending = True
+                if not fail_reason:
+                    fail_reason = "Skipped generation (exceeded target generation limits or not in target categories)"
+
         payload.append(
             {
                 "id": cluster.key,
@@ -1116,6 +1205,8 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
                 "keywords": sorted(cluster.keyword_hits),
                 "score": score_block["score"],
                 "signals": score_block,
+                "ai_image_pending": ai_pending,
+                "image_failure_reason": fail_reason if ai_pending else "",
             }
         )
     ordered_continents = ["NA", "SA", "EU", "AF", "AS", "OC", "global"]
