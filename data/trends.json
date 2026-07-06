@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-06T11:31:55.325388+00:00",
-  "sources_scanned": 2818,
-  "feeds_polled": 35,
+  "generated_at": "2026-07-06T12:14:22.188579+00:00",
+  "sources_scanned": 2569,
+  "feeds_polled": 34,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1742,
+    "NA": 1493,
     "SA": 0,
     "EU": 1076,
     "AF": 0,
@@ -13,69 +13,12 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 69,
+  "clusters": 70,
   "trends": [
-    {
-      "id": "sector snapshot cleantech startup funding stabilizes as energy demand grows",
-      "title": "Sector Snapshot: Cleantech Startup Funding Stabilizes As Energy Demand Grows",
-      "summary": "Cleantech startup funding reaches $15 billion in H1 as energy demand surges.",
-      "image": "https://news.crunchbase.com/wp-content/uploads/energy-tech.jpg",
-      "link": "https://news.crunchbase.com/venture/startup-funding-clean-energy-exits-ipo-q2-2026/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-07-06T11:00:35+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Crunchbase News"
-      ],
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.5507,
-      "signals": {
-        "score": 0.5507,
-        "recency": 0.9166293368123437,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "ai content didnt stop working your metrics did via sejournal mattgsouthern",
-      "title": "AI Content Didn\u2019t Stop Working, Your Metrics Did via @sejournal, @MattGSouthern",
-      "summary": "Declining organic traffic may not indicate failing AI-generated content, but rather changes in metrics.",
-      "image": "assets/images/generated/ai content didnt stop working your metrics did via sejournal mattgsouthern.jpg",
-      "link": "https://www.searchenginejournal.com/ai-content-didnt-stop-working-your-metrics-did/580976/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-07-06T11:30:07+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.5287,
-      "signals": {
-        "score": 0.5287,
-        "recency": 0.994997490179629,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
     {
       "id": "lerobot v060 imagine evaluate improve",
       "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "summary": "LeRobot v0.6.0 updates its AI-driven evaluation and improvement tools for better performance.",
+      "summary": "Summary unavailable from feed.",
       "image": "assets/images/generated/lerobot v060 imagine evaluate improve.jpg",
       "link": "https://huggingface.co/blog/lerobot-release-v060",
       "category": "ai",
@@ -101,12 +44,69 @@
       "image_failure_reason": ""
     },
     {
+      "id": "sector snapshot cleantech startup funding stabilizes as energy demand grows",
+      "title": "Sector Snapshot: Cleantech Startup Funding Stabilizes As Energy Demand Grows",
+      "summary": "In the first half of this year, investors poured $15 billion into seed- through growth-stage rounds for companies in Crunchbase cleantech, EV and sustainability-focused categories.",
+      "image": "https://news.crunchbase.com/wp-content/uploads/energy-tech.jpg",
+      "link": "https://news.crunchbase.com/venture/startup-funding-clean-energy-exits-ipo-q2-2026/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-07-06T11:00:35+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Crunchbase News"
+      ],
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.5252,
+      "signals": {
+        "score": 0.5252,
+        "recency": 0.8146779198538308,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ai content didnt stop working your metrics did via sejournal mattgsouthern",
+      "title": "AI Content Didn\u2019t Stop Working, Your Metrics Did via @sejournal, @MattGSouthern",
+      "summary": "Declining organic traffic doesn't always signal failing content.",
+      "image": "assets/images/generated/ai content didnt stop working your metrics did via sejournal mattgsouthern.jpg",
+      "link": "https://www.searchenginejournal.com/ai-content-didnt-stop-working-your-metrics-did/580976/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-07-06T11:30:07+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5011,
+      "signals": {
+        "score": 0.5011,
+        "recency": 0.8843296335880558,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
       "id": "smart glasses maker even realities hits 1b valuation with 150m funding led by meituan tencent",
       "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
-      "summary": "Even Realities, an ex-Apple team, secures $150M funding from Meituan and Tencent, reaching a $1B valuation for their camera-free smart glasses.",
+      "summary": "Even Realities, an ex-Apple team building camera-free smart glasses, raised $150M from Meituan and Tencent at a $1B valuation.",
       "image": "assets/images/generated/smart glasses maker even realities hits 1b valuation with 150m funding led by meituan tencent.jpg",
       "link": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
-      "category": "tech",
+      "category": "technology",
       "geo": "global",
       "published_at": "2026-07-06T09:00:00+00:00",
       "source_count": 2,
@@ -117,10 +117,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5107,
+      "score": 0.4924,
       "signals": {
-        "score": 0.5107,
-        "recency": 0.6557302328683915,
+        "score": 0.4924,
+        "recency": 0.5827971249057401,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -145,10 +145,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5103,
+      "score": 0.4849,
       "signals": {
-        "score": 0.5103,
-        "recency": 0.9152723728311655,
+        "score": 0.4849,
+        "recency": 0.813471883183275,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -174,14 +174,66 @@
         "ai",
         "streaming"
       ],
-      "score": 0.4827,
+      "score": 0.4644,
       "signals": {
-        "score": 0.4827,
-        "recency": 0.6567632136083517,
+        "score": 0.4644,
+        "recency": 0.5837152131303723,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the hidden cost of your fragmented martech stack",
+      "title": "The hidden cost of your fragmented martech stack",
+      "summary": "Why your favorite best-of-breed marketing tools might be creating a structural complexity wall that actively slows down your revenue operations.",
+      "image": "https://martech.org/wp-content/uploads/2025/11/mtb-explains-it-all-new.png",
+      "link": "https://martech.org/the-hidden-cost-of-your-fragmented-martech-stack/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-07-06T12:07:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarTech"
+      ],
+      "keywords": [],
+      "score": 0.4619,
+      "signals": {
+        "score": 0.4619,
+        "recency": 0.9797364290184529,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "net zero in 2026 why pragmatism drives companies to take different paths",
+      "title": "Net Zero In 2026: Why Pragmatism Drives Companies To Take Different Paths",
+      "summary": "Long\u2011term Net Zero commitments typically framed as emissions reductions aligned with a 2050 timeframe was a fad across global companies in the past decade.",
+      "image": "assets/images/generated/net zero in 2026 why pragmatism drives companies to take different paths.jpg",
+      "link": "https://www.forrester.com/blogs/net-zero-in-2026-why-pragmatism-drives-companies-to-take-different-paths/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-06T12:00:30+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Forrester Blogs"
+      ],
+      "keywords": [],
+      "score": 0.4606,
+      "signals": {
+        "score": 0.4606,
+        "recency": 0.9622054852185963,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -201,10 +253,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.4819,
+      "score": 0.4587,
       "signals": {
-        "score": 0.4819,
-        "recency": 0.8314766177612186,
+        "score": 0.4587,
+        "recency": 0.7389962487132197,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.76,
@@ -229,10 +281,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4776,
+      "score": 0.455,
       "signals": {
-        "score": 0.4776,
-        "recency": 0.8144464933424008,
+        "score": 0.455,
+        "recency": 0.723860287230007,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -242,11 +294,11 @@
       "image_failure_reason": ""
     },
     {
-      "id": "liveramp launches brand campaign on netflix as publicis deal fuels scrutiny of its neutrality yahoo finance",
-      "title": "LiveRamp Launches Brand Campaign on Netflix as Publicis Deal Fuels Scrutiny of its Neutrality - Yahoo Finance",
-      "summary": "LiveRamp Launches Brand Campaign on Netflix as Publicis Deal Fuels Scrutiny of its Neutrality &nbsp;&nbsp; Yahoo Finance",
-      "image": "assets/images/generated/liveramp launches brand campaign on netflix as publicis deal fuels scrutiny of its neutrality yahoo finance.jpg",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ2pyS1hidVhMTUNZSklFUUtxREhRZng0RElhLU9HT2N4VDJBX0NVNkFrOFFWS0lNclhzZlRlcXNBOVY0bVBtcnp6LVlkclU4RXR1ZnFZSDFNNHNaUWlRdDRkaEx5djFJbk1iV1g0UlFTUzlBVlFpUGtTTjJ5WHpzd1ctaUhiZzRJWXVtTi1QVGxrUzZqN1ZMLWliNTBlMFlQME0zLXVHREsweTJF?oc=5",
+      "id": "liveramp launches brand campaign on netflix as publicis deal fuels scrutiny of its neutrality adweek",
+      "title": "LiveRamp Launches Brand Campaign on Netflix as Publicis Deal Fuels Scrutiny of its Neutrality - ADWEEK",
+      "summary": "LiveRamp Launches Brand Campaign on Netflix as Publicis Deal Fuels Scrutiny of its Neutrality &nbsp;&nbsp; ADWEEK",
+      "image": "assets/images/generated/liveramp launches brand campaign on netflix as publicis deal fuels scrutiny of its neutrality adweek.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRm4tYzNEMUZkUjhfQ1FDSmd2RjY2RWJmaWZxMV8zTVktNHpnN3hfV1ZfVFJPa3JOWXAxem05ZENLclRwVEtvaV9BbXF0aGRuZVV5S3l3cU52a0UzUlBOOV9QMWc4M1JjQ0tEbHZyZjBoa3l3b0xqZVlQaUhIaXRhR1BiaF9XOXNkMTZCUHhEa3ZKNmVFWG8wRVBWbkxhTWRkNVdzWlY4M1Y0MkkxTUpKc0FKb0s4TmFkZWllWndKaHQ?oc=5",
       "category": "advertising",
       "geo": "global",
       "published_at": "2026-07-06T10:00:00+00:00",
@@ -257,10 +309,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4677,
+      "score": 0.4461,
       "signals": {
-        "score": 0.4677,
-        "recency": 0.7746537386298892,
+        "score": 0.4461,
+        "recency": 0.6884934520955566,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -286,10 +338,10 @@
         "ai",
         "enterprise"
       ],
-      "score": 0.4601,
+      "score": 0.4445,
       "signals": {
-        "score": 0.4601,
-        "recency": 0.5602529414266632,
+        "score": 0.4445,
+        "recency": 0.4979392242678192,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -301,10 +353,10 @@
     {
       "id": "governance gives ai agents permission to grow up",
       "title": "Governance Gives AI Agents Permission to Grow Up",
-      "summary": "AI agents are transitioning from controlled experiments to more autonomous roles in the economy.",
+      "summary": "As the training wheels start to look like they can come off for The Prompt Economy, the next phase of agentic AI is starting to look less like a lab experiment and more like an",
       "image": "https://www.pymnts.com/wp-content/uploads/2026/07/SB3hgtchrt-1.png?w=457",
       "link": "https://www.pymnts.com/news/artificial-intelligence/2026/governance-gives-ai-agents-permission-to-grow-up/",
-      "category": "ai",
+      "category": "commerce",
       "geo": "global",
       "published_at": "2026-07-06T08:00:52+00:00",
       "source_count": 1,
@@ -315,10 +367,10 @@
         "ai",
         "govern"
       ],
-      "score": 0.4591,
+      "score": 0.4436,
       "signals": {
-        "score": 0.4591,
-        "recency": 0.5564015327024966,
+        "score": 0.4436,
+        "recency": 0.4945161856175155,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -330,7 +382,7 @@
     {
       "id": "meet the ai mom assistant with a grocery list",
       "title": "Meet the AI Mom Assistant With a Grocery List",
-      "summary": "AI-powered mom assistant streamlines grocery shopping with smart list management.",
+      "summary": "Watch more: Digital Shift With AI-Empowered Mom\u2019s Sarah Dooley Artificial intelligence (AI) has become synonymous with workplace productivity, helping employees summarize",
       "image": "https://www.pymnts.com/wp-content/uploads/2026/07/SB5-AI-kitchen-table-with-overlay-AI-Empowered-Mom-Sarah-Dooley-.png?w=457",
       "link": "https://www.pymnts.com/news/artificial-intelligence/2026/meet-the-ai-mom-assistant-with-a-grocery-list/",
       "category": "commerce",
@@ -344,10 +396,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.4589,
+      "score": 0.4435,
       "signals": {
-        "score": 0.4589,
-        "recency": 0.555706465294252,
+        "score": 0.4435,
+        "recency": 0.4938984265653385,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -357,26 +409,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "publicis stock keeps the focus on fundamentals investors watch the ad group ad hoc news",
-      "title": "Publicis stock keeps the focus on fundamentals. Investors watch the ad group - AD HOC NEWS",
-      "summary": "Publicis stock maintains focus on fundamentals amid investor scrutiny.",
-      "image": "assets/images/generated/publicis stock keeps the focus on fundamentals investors watch the ad group ad hoc news.jpg",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZWVSWXZxbmVlVlBJMnNKSWNJZDF6MmNZMEJFNjBCRXk5WmJvcXM0bjNmUi0xZW5UanlJZC1heDRaeER0bi1Pbm5qaDdwTTdVVWdmU0tIQS1XVHQ0N05XS0MzYWEzS1RBUnZjV3lLY0dpLXR2cXRnTXloLU03RnF3S292dE1IMjR0bXZ3ZXNxWm1BVC1ENC1HcjNnWl9qc1pQRDZ3VUZsTHU0SWRlQkF1dDVtQkdncXZiM19OYVdVWDJ2YU9KbDc4?oc=5",
-      "category": "ads",
+      "id": "analysis ocado plots life after steiner as shareholder tensions simmer",
+      "title": "ANALYSIS: Ocado plots life after Steiner as shareholder tensions simmer",
+      "summary": "Ocado has confirmed that its co-founder and chief executive Tim Steiner will stand down in 2028.",
+      "image": "assets/images/generated/analysis ocado plots life after steiner as shareholder tensions simmer.jpg",
+      "link": "https://internetretailing.net/analysis-ocado-plots-life-after-steiner-as-shareholder-tensions-simmer/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-07-06T11:01:53+00:00",
+      "published_at": "2026-07-06T11:31:55+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Publicis Groupe"
+        "InternetRetailing"
       ],
       "keywords": [],
-      "score": 0.444,
+      "score": 0.4377,
       "signals": {
-        "score": 0.444,
-        "recency": 0.9199453708755454,
+        "score": 0.4377,
+        "recency": 0.8887623543230024,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.76,
+        "authority": 0.77,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -385,10 +437,10 @@
     {
       "id": "ai in retail is only as good as its data foundation",
       "title": "AI in retail is only as good as its data foundation",
-      "summary": "AI's effectiveness in retail hinges on clean, structured data for scalable ROI.",
+      "summary": "Agentic commerce needs clean, structured data to deliver ROI at scale",
       "image": "assets/images/generated/ai in retail is only as good as its data foundation.jpg",
       "link": "https://www.retaildive.com/spons/ai-in-retail-is-only-as-good-as-its-data-foundation/824409/",
-      "category": "commerce",
+      "category": "brands",
       "geo": "global",
       "published_at": "2026-07-06T05:00:00-04:00",
       "source_count": 1,
@@ -398,10 +450,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4439,
+      "score": 0.4257,
       "signals": {
-        "score": 0.4439,
-        "recency": 0.6557302328683915,
+        "score": 0.4257,
+        "recency": 0.5827971249057401,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -426,10 +478,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4439,
+      "score": 0.4257,
       "signals": {
-        "score": 0.4439,
-        "recency": 0.6557302328683915,
+        "score": 0.4257,
+        "recency": 0.5827971249057401,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -456,10 +508,10 @@
         "platform",
         "streaming"
       ],
-      "score": 0.4329,
+      "score": 0.425,
       "signals": {
-        "score": 0.4329,
-        "recency": 0.2857718937897311,
+        "score": 0.425,
+        "recency": 0.2539871272230187,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -469,23 +521,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "wpp media wins lorals 190 million media influencer pitch brand communicator",
-      "title": "WPP Media Wins L\u2019Or\u00e9al\u2019s $190 Million Media & Influencer Pitch - Brand Communicator",
-      "summary": "WPP Media Wins L\u2019Or\u00e9al\u2019s $190 Million Media & Influencer Pitch &nbsp;&nbsp; Brand Communicator",
-      "image": "assets/images/generated/wpp media wins lorals 190 million media influencer pitch brand communicator.jpg",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOGl1SDRjOWUtN2EzRE10bFdvX2doN2FESG8xRVZZV1ZBZ2RndWptVTdJZkRqdVFyVm9HTnpfdUlfak1CTC03enF0ZGNqRV9jbEJ0elY5OVdlQXEtaDV1c2JmaDdVNWtQaFdtMVpFSmhzeWo5aDdtbHZydUduVjNwVEJUX3EySTJWb1lkTzJWZUpkUHM?oc=5",
+      "id": "publicis stock keeps the focus on fundamentals investors watch the ad group ad hoc news",
+      "title": "Publicis stock keeps the focus on fundamentals. Investors watch the ad group - AD HOC NEWS",
+      "summary": "Publicis stock keeps the focus on fundamentals.",
+      "image": "assets/images/generated/publicis stock keeps the focus on fundamentals investors watch the ad group ad hoc news.jpg",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZWVSWXZxbmVlVlBJMnNKSWNJZDF6MmNZMEJFNjBCRXk5WmJvcXM0bjNmUi0xZW5UanlJZC1heDRaeER0bi1Pbm5qaDdwTTdVVWdmU0tIQS1XVHQ0N05XS0MzYWEzS1RBUnZjV3lLY0dpLXR2cXRnTXloLU03RnF3S292dE1IMjR0bXZ3ZXNxWm1BVC1ENC1HcjNnWl9qc1pQRDZ3VUZsTHU0SWRlQkF1dDVtQkdncXZiM19OYVdVWDJ2YU9KbDc4?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-06T10:28:17+00:00",
+      "published_at": "2026-07-06T11:01:53+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - WPP"
+        "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.4235,
+      "score": 0.4184,
       "signals": {
-        "score": 0.4235,
-        "recency": 0.8379688730526358,
+        "score": 0.4184,
+        "recency": 0.8176251304920679,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -511,14 +563,40 @@
         "ai",
         "festival"
       ],
-      "score": 0.4194,
+      "score": 0.4084,
       "signals": {
-        "score": 0.4194,
-        "recency": 0.39772049073518423,
+        "score": 0.4084,
+        "recency": 0.35348432464770463,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "wpp media wins lorals 190 million media influencer pitch brand communicator",
+      "title": "WPP Media Wins L\u2019Or\u00e9al\u2019s $190 Million Media & Influencer Pitch - Brand Communicator",
+      "summary": "WPP Media Wins L\u2019Or\u00e9al\u2019s $190 Million Media & Influencer Pitch &nbsp;&nbsp; Brand Communicator",
+      "image": "assets/images/generated/wpp media wins lorals 190 million media influencer pitch brand communicator.jpg",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOGl1SDRjOWUtN2EzRE10bFdvX2doN2FESG8xRVZZV1ZBZ2RndWptVTdJZkRqdVFyVm9HTnpfdUlfak1CTC03enF0ZGNqRV9jbEJ0elY5OVdlQXEtaDV1c2JmaDdVNWtQaFdtMVpFSmhzeWo5aDdtbHZydUduVjNwVEJUX3EySTJWb1lkTzJWZUpkUHM?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-06T10:28:17+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.4002,
+      "signals": {
+        "score": 0.4002,
+        "recency": 0.7447664077334023,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -537,10 +615,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.4188,
+      "score": 0.396,
       "signals": {
-        "score": 0.4188,
-        "recency": 0.8190975436573484,
+        "score": 0.396,
+        "recency": 0.7279940279292672,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -563,10 +641,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.4167,
+      "score": 0.3948,
       "signals": {
-        "score": 0.4167,
-        "recency": 0.786761694310232,
+        "score": 0.3948,
+        "recency": 0.6992547094012057,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -592,10 +670,10 @@
         "ai",
         "series"
       ],
-      "score": 0.3897,
+      "score": 0.3818,
       "signals": {
-        "score": 0.3897,
-        "recency": 0.28497918446853215,
+        "score": 0.3818,
+        "recency": 0.25328258640711054,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -618,10 +696,10 @@
         "MIT Technology Review"
       ],
       "keywords": [],
-      "score": 0.3869,
+      "score": 0.3687,
       "signals": {
-        "score": 0.3869,
-        "recency": 0.6557302328683915,
+        "score": 0.3687,
+        "recency": 0.5827971249057401,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -629,6 +707,34 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
+    },
+    {
+      "id": "liveramp launches brand campaign on netflix as publicis deal fuels scrutiny of its neutrality",
+      "title": "LiveRamp Launches Brand Campaign on Netflix as Publicis Deal Fuels Scrutiny of its Neutrality",
+      "summary": "LiveRamp is pitching itself as a trustworthy foundation for AI marketing as ad industry players cast doubt on its ability to remain neutral under Publicis\u2019 ownership.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22LiveRamp%20Launches%20Brand%20Campaign%20on%20Netflix%20as%20Publicis%20Deal%20Fuels%20Scrutiny%20of%20its%20Neutrality%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EADW%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EADWEEK%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ELIVERAMP%20LAUNCHES%20BRAND%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECAMPAIGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3ELiveRamp%20is%20pitching%20itself%20as%20a%20trustworthy%20foundation%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://www.adweek.com/media/liveramp-launches-brand-campaign-on-netflix-as-publicis-deal-fuels-scrutiny-of-its-neutrality/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-06T06:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Adweek"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3684,
+      "signals": {
+        "score": 0.3684,
+        "recency": 0.35348432464770463,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "googles open knowledge format could work for websites too via sejournal slobodanmanic",
@@ -644,10 +750,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.3843,
+      "score": 0.366,
       "signals": {
-        "score": 0.3843,
-        "recency": 0.6570369219659697,
+        "score": 0.366,
+        "recency": 0.5839584784792715,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -670,10 +776,10 @@
         "Retail Dive"
       ],
       "keywords": [],
-      "score": 0.3839,
+      "score": 0.3657,
       "signals": {
-        "score": 0.3839,
-        "recency": 0.6557302328683915,
+        "score": 0.3657,
+        "recency": 0.5827971249057401,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -681,86 +787,6 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
-    },
-    {
-      "id": "omnicom public relations names shouvik mukherjee as head of creative asia pacific indian television dot com",
-      "title": "Omnicom Public Relations names Shouvik Mukherjee as head of creative, Asia Pacific - Indian Television Dot Com",
-      "summary": "Omnicom Public Relations names Shouvik Mukherjee as head of creative, Asia Pacific &nbsp;&nbsp; Indian Television Dot Com",
-      "image": "assets/images/generated/omnicom public relations names shouvik mukherjee as head of creative asia pacific indian television dot com.jpg",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLTZrV1dVd195aTRMRWtBME43RWxHaXNrN0R2SDhXZzNoYzFTN2lBX3FHSEt1bUFjR25JcjUtalpxZ1l4SUZjeHJfNWNUeGVnMjhlMUtUWG5CUzVEYzJJTDZMbFNXYWpNQlB6ZmVUa3BUNDhzZWJTR1o0VGZwSWstb0FFZE5ZR21jR2w0eDczb1lDbVV0cUNIVmotdEFsYW1kY1dWd2VIdmlZTWxySGp4LUVxY0Etdw?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-06T09:10:44+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.3829,
-      "signals": {
-        "score": 0.3829,
-        "recency": 0.6755750734299,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "liveramp launches brand campaign on netflix as publicis deal fuels scrutiny of its neutrality",
-      "title": "LiveRamp Launches Brand Campaign on Netflix as Publicis Deal Fuels Scrutiny of its Neutrality",
-      "summary": "LiveRamp is pitching itself as a trustworthy foundation for AI marketing as ad industry players cast doubt on its ability to remain neutral under Publicis\u2019 ownership.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22LiveRamp%20Launches%20Brand%20Campaign%20on%20Netflix%20as%20Publicis%20Deal%20Fuels%20Scrutiny%20of%20its%20Neutrality%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EADW%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EADWEEK%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ELIVERAMP%20LAUNCHES%20BRAND%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECAMPAIGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3ELiveRamp%20is%20pitching%20itself%20as%20a%20trustworthy%20foundation%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://www.adweek.com/media/liveramp-launches-brand-campaign-on-netflix-as-publicis-deal-fuels-scrutiny-of-its-neutrality/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-06T06:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Adweek"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3794,
-      "signals": {
-        "score": 0.3794,
-        "recency": 0.39772049073518423,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "shouvik prasanna mukherjee takes expanded apac creative role at omnicom pr impact magazine",
-      "title": "Shouvik Prasanna Mukherjee takes expanded APAC creative role at Omnicom PR - IMPACT Magazine",
-      "summary": "Shouvik Prasanna Mukherjee takes expanded APAC creative role at Omnicom PR &nbsp;&nbsp; IMPACT Magazine",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Shouvik%20Prasanna%20Mukherjee%20takes%20expanded%20APAC%20creative%20role%20at%20Omnicom%20PR%20-%20IMPACT%20Magazine%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23334155%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23020617%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGOOGLE%20NEWS%20-%20OMNICOM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESHOUVIK%20PRASANNA%20MUKHERJEE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETAKES%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EShouvik%20Prasanna%20Mukherjee%20takes%20expanded%20APAC%20creative%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOM1NfT0tJbTQ5UjAyUjQxa3ltUnduMVdpWW5maWVnRmhVMFZkZlVvdk05RXZ3R2RORUswMVRRTWRZSjFjRlJxYld4UWxuQ1kxeU9hYWFtMG5XdUc3S0I2S0lUSVI0ZUVocVk0Q1BjQ3NPaW9iNlZvdGNlV3p0cWhEMzJTV2JXR2pyOWYteDgwVDJfMlVRMFlMdWZyazluV092bXRrTWdJZm16ZThneGs5YWdaa2FZTnVId21Bd1JEamZkNEtPSFJ2N0dB?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-06T08:53:41+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.3751,
-      "signals": {
-        "score": 0.3751,
-        "recency": 0.6443249487720479,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "sk hynix courts us ai investors with 29 billion ipo",
@@ -779,10 +805,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.3706,
+      "score": 0.365,
       "signals": {
-        "score": 0.3706,
-        "recency": 0.20238947163092597,
+        "score": 0.365,
+        "recency": 0.17987885301815734,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -792,23 +818,49 @@
       "image_failure_reason": ""
     },
     {
-      "id": "omnicom group stock tracks a thin catalyst free session ad hoc news",
-      "title": "Omnicom Group stock tracks a thin catalyst free session - AD HOC NEWS",
-      "summary": "Omnicom Group stock tracks a thin catalyst free session &nbsp;&nbsp; AD HOC NEWS",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Omnicom%20Group%20stock%20tracks%20a%20thin%20catalyst%20free%20session%20-%20AD%20HOC%20NEWS%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23be185d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232b0718%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d4%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23f9a8d4%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23f9a8d4%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23f9a8d4%22%3EGOOGLE%20NEWS%20-%20OMNICOM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EOMNICOM%20GROUP%20STOCK%20TRACKS%20A%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETHIN%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EOmnicom%20Group%20stock%20tracks%20a%20thin%20catalyst%20free%20session%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1VkWHF0T3pRRno4RWJSTy0za1VJajYwNlNBMFNFYWtJUUpsbVpwM3FSRm5aVVRFT0lKVEdTRjM0ZmtTcFlLZFpqMHpiQURaVlJrQ3QydVlnZGJSYWhuOUJRdWlHdjhuTHZ1alo3eTB1c1dsdk44M3BlLWxnMG1UcThJc2NnUkVPZXd4MzZsUjFZRDdpMnRzazA5dGN1QkFaQ3ZfZC12cDdkaDJfWklnUHJDNmE?oc=5",
+      "id": "omnicom public relations names shouvik mukherjee as head of creative asia pacific indian television dot com",
+      "title": "Omnicom Public Relations names Shouvik Mukherjee as head of creative, Asia Pacific - Indian Television Dot Com",
+      "summary": "Omnicom Public Relations names Shouvik Mukherjee as head of creative, Asia Pacific &nbsp;&nbsp; Indian Television Dot Com",
+      "image": "assets/images/generated/omnicom public relations names shouvik mukherjee as head of creative asia pacific indian television dot com.jpg",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLTZrV1dVd195aTRMRWtBME43RWxHaXNrN0R2SDhXZzNoYzFTN2lBX3FHSEt1bUFjR25JcjUtalpxZ1l4SUZjeHJfNWNUeGVnMjhlMUtUWG5CUzVEYzJJTDZMbFNXYWpNQlB6ZmVUa3BUNDhzZWJTR1o0VGZwSWstb0FFZE5ZR21jR2w0eDczb1lDbVV0cUNIVmotdEFsYW1kY1dWd2VIdmlZTWxySGp4LUVxY0Etdw?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-06T08:36:32+00:00",
+      "published_at": "2026-07-06T09:10:44+00:00",
       "source_count": 1,
       "source_names": [
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.3676,
+      "score": 0.3641,
       "signals": {
-        "score": 0.3676,
-        "recency": 0.6143496869785391,
+        "score": 0.3641,
+        "recency": 0.6004347378199234,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "shouvik prasanna mukherjee takes expanded apac creative role at omnicom pr impact magazine",
+      "title": "Shouvik Prasanna Mukherjee takes expanded APAC creative role at Omnicom PR - IMPACT Magazine",
+      "summary": "Shouvik Prasanna Mukherjee takes expanded APAC creative role at Omnicom PR &nbsp;&nbsp; IMPACT Magazine",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Shouvik%20Prasanna%20Mukherjee%20takes%20expanded%20APAC%20creative%20role%20at%20Omnicom%20PR%20-%20IMPACT%20Magazine%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23334155%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23020617%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGOOGLE%20NEWS%20-%20OMNICOM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESHOUVIK%20PRASANNA%20MUKHERJEE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETAKES%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EShouvik%20Prasanna%20Mukherjee%20takes%20expanded%20APAC%20creative%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOM1NfT0tJbTQ5UjAyUjQxa3ltUnduMVdpWW5maWVnRmhVMFZkZlVvdk05RXZ3R2RORUswMVRRTWRZSjFjRlJxYld4UWxuQ1kxeU9hYWFtMG5XdUc3S0I2S0lUSVI0ZUVocVk0Q1BjQ3NPaW9iNlZvdGNlV3p0cWhEMzJTV2JXR2pyOWYteDgwVDJfMlVRMFlMdWZyazluV092bXRrTWdJZm16ZThneGs5YWdaa2FZTnVId21Bd1JEamZkNEtPSFJ2N0dB?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-06T08:53:41+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.3572,
+      "signals": {
+        "score": 0.3572,
+        "recency": 0.5726603850592241,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -833,10 +885,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3628,
+      "score": 0.3535,
       "signals": {
-        "score": 0.3628,
-        "recency": 0.33734962125030793,
+        "score": 0.3535,
+        "recency": 0.2998281602675162,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -846,108 +898,59 @@
       "image_failure_reason": ""
     },
     {
-      "id": "realtime payments target healthcare benefits bottlenecks",
-      "title": "Real-Time Payments Target Healthcare Benefits Bottlenecks",
-      "summary": "Real-time money movement is beginning to alter the expectations surrounding healthcare and HR benefits where reimbursement timing and payout clarity have long been sources",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/real-time-payments-healthcare.png?w=457",
-      "link": "https://www.pymnts.com/real-time-payments/2026/real-time-payments-target-healthcare-benefits-bottlenecks/",
-      "category": "commerce",
+      "id": "almost 90 new unicorns have been minted so far this year here they are",
+      "title": "Almost 90 new unicorns have been minted so far this year \u2014 here they are",
+      "summary": "With AI igniting an investor frenzy, more startups are achieving unicorn status every month.",
+      "image": "assets/images/generated/almost 90 new unicorns have been minted so far this year here they are.jpg",
+      "link": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-07-06T08:02:15+00:00",
-      "source_count": 1,
+      "published_at": "2026-07-05T12:47:39+00:00",
+      "source_count": 2,
       "source_names": [
-        "PYMNTS"
+        "TechCrunch",
+        "TechCrunch Startups"
       ],
-      "keywords": [],
-      "score": 0.3596,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3518,
       "signals": {
-        "score": 0.3596,
-        "recency": 0.5585436701555075,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
+        "score": 0.3518,
+        "recency": 0.020089559498425627,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "24 of rtp network holdouts say current b2b payment methods work well enough",
-      "title": "24% of RTP\u00ae Network Holdouts Say Current B2B Payment Methods Work Well Enough",
-      "summary": "Real-time B2B payments may not be losing to skepticism.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/real-time-B2B-payments-2x.jpg?w=457",
-      "link": "https://www.pymnts.com/news/b2b-payments/2026/24-percent-of-rtp-network-holdouts-say-current-b2b-payment-methods-work-well-enough/",
-      "category": "commerce",
+      "id": "omnicom group stock tracks a thin catalyst free session ad hoc news",
+      "title": "Omnicom Group stock tracks a thin catalyst free session - AD HOC NEWS",
+      "summary": "Omnicom Group stock tracks a thin catalyst free session &nbsp;&nbsp; AD HOC NEWS",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Omnicom%20Group%20stock%20tracks%20a%20thin%20catalyst%20free%20session%20-%20AD%20HOC%20NEWS%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23be185d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232b0718%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d4%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23f9a8d4%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23f9a8d4%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23f9a8d4%22%3EGOOGLE%20NEWS%20-%20OMNICOM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EOMNICOM%20GROUP%20STOCK%20TRACKS%20A%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETHIN%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EOmnicom%20Group%20stock%20tracks%20a%20thin%20catalyst%20free%20session%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1VkWHF0T3pRRno4RWJSTy0za1VJajYwNlNBMFNFYWtJUUpsbVpwM3FSRm5aVVRFT0lKVEdTRjM0ZmtTcFlLZFpqMHpiQURaVlJrQ3QydVlnZGJSYWhuOUJRdWlHdjhuTHZ1alo3eTB1c1dsdk44M3BlLWxnMG1UcThJc2NnUkVPZXd4MzZsUjFZRDdpMnRzazA5dGN1QkFaQ3ZfZC12cDdkaDJfWklnUHJDNmE?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-06T08:00:39+00:00",
+      "published_at": "2026-07-06T08:36:32+00:00",
       "source_count": 1,
       "source_names": [
-        "PYMNTS"
+        "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.359,
+      "score": 0.3505,
       "signals": {
-        "score": 0.359,
-        "recency": 0.5560667621609067,
+        "score": 0.3505,
+        "recency": 0.546019099487967,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.76,
         "engagement": 0.4
       },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "europe wants its own digital money moment",
-      "title": "Europe Wants Its Own Digital Money Moment",
-      "summary": "Watch more: How Stablecoins Are Reshaping Global Banking The same question can have both a strategic answer and a practical one.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/Europe-digital-money-overlay.png?w=457",
-      "link": "https://www.pymnts.com/news/payments-innovation/2026/europe-wants-its-own-digital-money-moment/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-06T08:00:22+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.3589,
-      "signals": {
-        "score": 0.3589,
-        "recency": 0.5556292892003141,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "credit unions fight fraud by connecting member data faster",
-      "title": "Credit Unions Fight Fraud by Connecting Member Data Faster",
-      "summary": "Fraud has become a moving target for credit unions, and the pace of change is forcing institutions to rethink how they protect members without slowing everyday banking.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/SB6safedep-1.png?w=457",
-      "link": "https://www.pymnts.com/credit-unions/2026/credit-unions-fight-fraud-by-connecting-member-data-faster/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-06T08:00:09+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.3588,
-      "signals": {
-        "score": 0.3588,
-        "recency": 0.555294983295071,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "wtf is ai poisoning",
@@ -965,10 +968,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3529,
+      "score": 0.345,
       "signals": {
-        "score": 0.3529,
-        "recency": 0.2857718937897311,
+        "score": 0.345,
+        "recency": 0.2539871272230187,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -993,10 +996,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3529,
+      "score": 0.345,
       "signals": {
-        "score": 0.3529,
-        "recency": 0.2857718937897311,
+        "score": 0.345,
+        "recency": 0.2539871272230187,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1006,59 +1009,108 @@
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
-      "id": "almost 90 new unicorns have been minted so far this year here they are",
-      "title": "Almost 90 new unicorns have been minted so far this year \u2014 here they are",
-      "summary": "With AI igniting an investor frenzy, more startups are achieving unicorn status every month.",
-      "image": "assets/images/generated/almost 90 new unicorns have been minted so far this year here they are.jpg",
-      "link": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
-      "category": "technology",
+      "id": "realtime payments target healthcare benefits bottlenecks",
+      "title": "Real-Time Payments Target Healthcare Benefits Bottlenecks",
+      "summary": "Real-time money movement is beginning to alter the expectations surrounding healthcare and HR benefits where reimbursement timing and payout clarity have long been sources",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/real-time-payments-healthcare.png?w=457",
+      "link": "https://www.pymnts.com/real-time-payments/2026/real-time-payments-target-healthcare-benefits-bottlenecks/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-07-05T12:47:39+00:00",
-      "source_count": 2,
+      "published_at": "2026-07-06T08:02:15+00:00",
+      "source_count": 1,
       "source_names": [
-        "TechCrunch",
-        "TechCrunch Startups"
+        "PYMNTS"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3524,
+      "keywords": [],
+      "score": 0.3441,
       "signals": {
-        "score": 0.3524,
-        "recency": 0.022603631632974616,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.6
+        "score": 0.3441,
+        "recency": 0.49642006542385997,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "omnicom pr names shouvik prasanna mukherjee as head of creative apac afaqs",
-      "title": "Omnicom PR names Shouvik Prasanna Mukherjee as Head of Creative, APAC - afaqs!",
-      "summary": "Omnicom PR names Shouvik Prasanna Mukherjee as Head of Creative, APAC &nbsp;&nbsp; afaqs!",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Omnicom%20PR%20names%20Shouvik%20Prasanna%20Mukherjee%20as%20Head%20of%20Creative%2C%20APAC%20-%20afaqs%21%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%239f1239%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232a0712%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGOOGLE%20NEWS%20-%20OMNICOM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EOMNICOM%20PR%20NAMES%20SHOUVIK%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPRASANNA%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EOmnicom%20PR%20names%20Shouvik%20Prasanna%20Mukherjee%20as%20Head%20of%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcFpWYzN4M0VZbjJGMFlJUVJCa3FQemFSeG1VQ080eHh0NkxMV2xLV1JDUllVTnRVU2JxTUtYRS11YV9jeHVJbFpGbDM2QnBNOEhHQkFOSElKTFZRR0JuTmVTRDZXZFllaFVEYU9vc0g5TDhtVW9fWXh1U05kcTE3S2JNR0x0V2hiX0hYM2FXUElxOEFFUXNCU3JkSDloRFVSTzRSeUZscWNsaWRjV2llWHVOUjhFdw?oc=5",
-      "category": "advertising",
+      "id": "24 of rtp network holdouts say current b2b payment methods work well enough",
+      "title": "24% of RTP\u00ae Network Holdouts Say Current B2B Payment Methods Work Well Enough",
+      "summary": "Real-time B2B payments may not be losing to skepticism.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/real-time-B2B-payments-2x.jpg?w=457",
+      "link": "https://www.pymnts.com/news/b2b-payments/2026/24-percent-of-rtp-network-holdouts-say-current-b2b-payment-methods-work-well-enough/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-07-06T07:55:50+00:00",
+      "published_at": "2026-07-06T08:00:39+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Omnicom"
+        "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.3512,
+      "score": 0.3436,
       "signals": {
-        "score": 0.3512,
-        "recency": 0.5486763456010112,
+        "score": 0.3436,
+        "recency": 0.49421864968068935,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.76,
+        "authority": 0.8,
         "engagement": 0.4
       },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "europe wants its own digital money moment",
+      "title": "Europe Wants Its Own Digital Money Moment",
+      "summary": "Watch more: How Stablecoins Are Reshaping Global Banking The same question can have both a strategic answer and a practical one.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/Europe-digital-money-overlay.png?w=457",
+      "link": "https://www.pymnts.com/news/payments-innovation/2026/europe-wants-its-own-digital-money-moment/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-06T08:00:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.3435,
+      "signals": {
+        "score": 0.3435,
+        "recency": 0.4938298343251092,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "credit unions fight fraud by connecting member data faster",
+      "title": "Credit Unions Fight Fraud by Connecting Member Data Faster",
+      "summary": "Fraud has become a moving target for credit unions, and the pace of change is forcing institutions to rethink how they protect members without slowing everyday banking.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/SB6safedep-1.png?w=457",
+      "link": "https://www.pymnts.com/credit-unions/2026/credit-unions-fight-fraud-by-connecting-member-data-faster/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-06T08:00:09+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.3434,
+      "signals": {
+        "score": 0.3434,
+        "recency": 0.4935327113457974,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
     },
     {
       "id": "careful merge ahead how metas marketers use ai",
@@ -1076,10 +1128,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3505,
+      "score": 0.3425,
       "signals": {
-        "score": 0.3505,
-        "recency": 0.2880298984462017,
+        "score": 0.3425,
+        "recency": 0.2559939869892039,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1104,10 +1156,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3497,
+      "score": 0.3418,
       "signals": {
-        "score": 0.3497,
-        "recency": 0.28497918446853215,
+        "score": 0.3418,
+        "recency": 0.25328258640711054,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1132,10 +1184,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3497,
+      "score": 0.3418,
       "signals": {
-        "score": 0.3497,
-        "recency": 0.28497918446853215,
+        "score": 0.3418,
+        "recency": 0.25328258640711054,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1161,10 +1213,10 @@
         "artificial intelligence",
         "enterprise"
       ],
-      "score": 0.3458,
+      "score": 0.3407,
       "signals": {
-        "score": 0.3458,
-        "recency": 0.18333315732962024,
+        "score": 0.3407,
+        "recency": 0.16294206311673742,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1172,6 +1224,32 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
+    },
+    {
+      "id": "omnicom pr names shouvik prasanna mukherjee as head of creative apac afaqs",
+      "title": "Omnicom PR names Shouvik Prasanna Mukherjee as Head of Creative, APAC - afaqs!",
+      "summary": "Omnicom PR names Shouvik Prasanna Mukherjee as Head of Creative, APAC &nbsp;&nbsp; afaqs!",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Omnicom%20PR%20names%20Shouvik%20Prasanna%20Mukherjee%20as%20Head%20of%20Creative%2C%20APAC%20-%20afaqs%21%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%239f1239%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232a0712%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGOOGLE%20NEWS%20-%20OMNICOM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EOMNICOM%20PR%20NAMES%20SHOUVIK%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPRASANNA%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EOmnicom%20PR%20names%20Shouvik%20Prasanna%20Mukherjee%20as%20Head%20of%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcFpWYzN4M0VZbjJGMFlJUVJCa3FQemFSeG1VQ080eHh0NkxMV2xLV1JDUllVTnRVU2JxTUtYRS11YV9jeHVJbFpGbDM2QnBNOEhHQkFOSElKTFZRR0JuTmVTRDZXZFllaFVEYU9vc0g5TDhtVW9fWXh1U05kcTE3S2JNR0x0V2hiX0hYM2FXUElxOEFFUXNCU3JkSDloRFVSTzRSeUZscWNsaWRjV2llWHVOUjhFdw?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-06T07:55:50+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.3359,
+      "signals": {
+        "score": 0.3359,
+        "recency": 0.4876502267118077,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "what is bending spoons the littleknown aol and vimeo owner thats now public",
@@ -1190,10 +1268,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.3324,
+      "score": 0.3317,
       "signals": {
-        "score": 0.3324,
-        "recency": 0.025676194762119037,
+        "score": 0.3317,
+        "recency": 0.022820379076354334,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1216,10 +1294,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.327,
+      "score": 0.3157,
       "signals": {
-        "score": 0.327,
-        "recency": 0.4038247333398207,
+        "score": 0.3157,
+        "recency": 0.3589096274039118,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1244,10 +1322,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3151,
+      "score": 0.311,
       "signals": {
-        "score": 0.3151,
-        "recency": 0.14631319187409142,
+        "score": 0.311,
+        "recency": 0.13003961581426224,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1272,10 +1350,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3133,
+      "score": 0.3089,
       "signals": {
-        "score": 0.3133,
-        "recency": 0.15722751844975083,
+        "score": 0.3089,
+        "recency": 0.13974000452556523,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1299,10 +1377,10 @@
         "TechCrunch Startups"
       ],
       "keywords": [],
-      "score": 0.3112,
+      "score": 0.3085,
       "signals": {
-        "score": 0.3112,
-        "recency": 0.09788161451131404,
+        "score": 0.3085,
+        "recency": 0.08699480466043276,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -1327,40 +1405,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.309,
+      "score": 0.3051,
       "signals": {
-        "score": 0.309,
-        "recency": 0.13986209219730808,
+        "score": 0.3051,
+        "recency": 0.12430603490605324,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "shouvik prasanna mukherjee takes on expanded apac creative leadership role at omnicom pr exchange4media",
-      "title": "Shouvik Prasanna Mukherjee takes on expanded APAC creative leadership role at Omnicom PR - Exchange4Media",
-      "summary": "Shouvik Prasanna Mukherjee takes on expanded APAC creative leadership role at Omnicom PR &nbsp;&nbsp; Exchange4Media",
-      "image": "assets/images/generated/shouvik prasanna mukherjee takes on expanded apac creative leadership role at omnicom pr exchange4media.jpg",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZC1JR2pJT2Jsb0gwUWp1RElyaHpuZ1hpM2pvX0VSeWJfSTVmUGFBNzNtVmlqT1VlUnRUSXA1Z1A5bmt6T3VCVVNkTVk2dFgweVlubXFxSW5qakMtQWdWZDVsMzhnQXJzZUhGbnBVYWpoSmw4UjNmcmplVkhWSF9VTDdJVWhXY1VrQ05DekFPZGlfeHlnbnNEYl9vcnpwZEs3cEZWVWFVZkRaUERFeTR2THJzeTExYmZ2TThzaEw4SDJRbVlySUxXSVlDVHQ0Qmp0ZDQtdXNIdXJqOTBKVmxtckJoMXNHcEtrSUJMMXgxNjQ4NnM1QWJndmR5VQ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-06T05:38:59+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.3078,
-      "signals": {
-        "score": 0.3078,
-        "recency": 0.37516646883151744,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1381,10 +1433,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3031,
+      "score": 0.3006,
       "signals": {
-        "score": 0.3031,
-        "recency": 0.09256203826087248,
+        "score": 0.3006,
+        "recency": 0.08226689432615898,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1409,10 +1461,10 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.3031,
+      "score": 0.2983,
       "signals": {
-        "score": 0.3031,
-        "recency": 0.1725128447821366,
+        "score": 0.2983,
+        "recency": 0.153325231793176,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1422,26 +1474,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "the world cup is a live outcomes test for programmatic live sports",
-      "title": "The World Cup Is A Live Outcomes Test For Programmatic Live Sports",
-      "summary": "Two summers ago in Paris, the advertising industry ran an experiment in public.",
-      "image": "assets/images/generated/the world cup is a live outcomes test for programmatic live sports.jpg",
-      "link": "https://www.adexchanger.com/on-tv-and-video/the-world-cup-is-a-live-outcomes-test-for-programmatic-live-sports/",
-      "category": "brands",
+      "id": "shouvik prasanna mukherjee takes on expanded apac creative leadership role at omnicom pr exchange4media",
+      "title": "Shouvik Prasanna Mukherjee takes on expanded APAC creative leadership role at Omnicom PR - Exchange4Media",
+      "summary": "Shouvik Prasanna Mukherjee takes on expanded APAC creative leadership role at Omnicom PR &nbsp;&nbsp; Exchange4Media",
+      "image": "assets/images/generated/shouvik prasanna mukherjee takes on expanded apac creative leadership role at omnicom pr exchange4media.jpg",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZC1JR2pJT2Jsb0gwUWp1RElyaHpuZ1hpM2pvX0VSeWJfSTVmUGFBNzNtVmlqT1VlUnRUSXA1Z1A5bmt6T3VCVVNkTVk2dFgweVlubXFxSW5qakMtQWdWZDVsMzhnQXJzZUhGbnBVYWpoSmw4UjNmcmplVkhWSF9VTDdJVWhXY1VrQ05DekFPZGlfeHlnbnNEYl9vcnpwZEs3cEZWVWFVZkRaUERFeTR2THJzeTExYmZ2TThzaEw4SDJRbVlySUxXSVlDVHQ0Qmp0ZDQtdXNIdXJqOTBKVmxtckJoMXNHcEtrSUJMMXgxNjQ4NnM1QWJndmR5VQ?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-06T04:35:04+00:00",
+      "published_at": "2026-07-06T05:38:59+00:00",
       "source_count": 1,
       "source_names": [
-        "AdExchanger"
+        "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.297,
+      "score": 0.2974,
       "signals": {
-        "score": 0.297,
-        "recency": 0.3141352256238872,
+        "score": 0.2974,
+        "recency": 0.33343885707330306,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.79,
+        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -1463,13 +1515,67 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.2954,
+      "score": 0.2908,
       "signals": {
-        "score": 0.2954,
-        "recency": 0.16575619310499595,
+        "score": 0.2908,
+        "recency": 0.1473200836788333,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "hyundai upgrades world cup stunts with first robotpowered halftime activation",
+      "title": "Hyundai Upgrades World Cup Stunts With First Robot-Powered Halftime Activation",
+      "summary": "Hyundai's Atlas robot made its global World Cup debut.",
+      "image": "assets/images/generated/hyundai upgrades world cup stunts with first robotpowered halftime activation.jpg",
+      "link": "https://www.adweek.com/convergent-tv/hyundai-world-cup-robot-halftime-activation/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-05T16:52:48+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Adweek"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2899,
+      "signals": {
+        "score": 0.2899,
+        "recency": 0.03969290571615496,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the world cup is a live outcomes test for programmatic live sports",
+      "title": "The World Cup Is A Live Outcomes Test For Programmatic Live Sports",
+      "summary": "Two summers ago in Paris, the advertising industry ran an experiment in public.",
+      "image": "assets/images/generated/the world cup is a live outcomes test for programmatic live sports.jpg",
+      "link": "https://www.adexchanger.com/on-tv-and-video/the-world-cup-is-a-live-outcomes-test-for-programmatic-live-sports/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-06T04:35:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AdExchanger"
+      ],
+      "keywords": [],
+      "score": 0.2883,
+      "signals": {
+        "score": 0.2883,
+        "recency": 0.279195768547036,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -1489,10 +1595,10 @@
         "Digiday"
       ],
       "keywords": [],
-      "score": 0.2929,
+      "score": 0.285,
       "signals": {
-        "score": 0.2929,
-        "recency": 0.2857718937897311,
+        "score": 0.285,
+        "recency": 0.2539871272230187,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1515,42 +1621,14 @@
         "Digiday"
       ],
       "keywords": [],
-      "score": 0.2929,
+      "score": 0.285,
       "signals": {
-        "score": 0.2929,
-        "recency": 0.2857718937897311,
+        "score": 0.285,
+        "recency": 0.2539871272230187,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "hyundai upgrades world cup stunts with first robotpowered halftime activation",
-      "title": "Hyundai Upgrades World Cup Stunts With First Robot-Powered Halftime Activation",
-      "summary": "Hyundai's Atlas robot made its global World Cup debut.",
-      "image": "assets/images/generated/hyundai upgrades world cup stunts with first robotpowered halftime activation.jpg",
-      "link": "https://www.adweek.com/convergent-tv/hyundai-world-cup-robot-halftime-activation/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-05T16:52:48+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Adweek"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2912,
-      "signals": {
-        "score": 0.2912,
-        "recency": 0.04466020369041297,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1571,42 +1649,14 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.2864,
+      "score": 0.2841,
       "signals": {
-        "score": 0.2864,
-        "recency": 0.08144026806429719,
+        "score": 0.2841,
+        "recency": 0.07238213475655203,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "google put ai visibility inside the seo tool on purpose via sejournal slobodanmanic",
-      "title": "Google Put AI Visibility Inside The SEO Tool On Purpose via @sejournal, @slobodanmanic",
-      "summary": "Google filed AI visibility under search.",
-      "image": "assets/images/generated/google put ai visibility inside the seo tool on purpose via sejournal slobodanmanic.jpg",
-      "link": "https://www.searchenginejournal.com/google-put-ai-visibility-inside-the-seo-tool-on-purpose/577889/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-07-05T12:00:33+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.285,
-      "signals": {
-        "score": 0.285,
-        "recency": 0.019831612427547145,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1625,10 +1675,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2718,
+      "score": 0.2654,
       "signals": {
-        "score": 0.2718,
-        "recency": 0.23111730602322006,
+        "score": 0.2654,
+        "recency": 0.2054114553740984,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1651,10 +1701,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.249,
+      "score": 0.2451,
       "signals": {
-        "score": 0.249,
-        "recency": 0.14016675308933593,
+        "score": 0.2451,
+        "recency": 0.12457681011671927,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1677,10 +1727,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2481,
+      "score": 0.2443,
       "signals": {
-        "score": 0.2481,
-        "recency": 0.136415200209393,
+        "score": 0.2443,
+        "recency": 0.12124252091855535,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1703,10 +1753,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2458,
+      "score": 0.2423,
       "signals": {
-        "score": 0.2458,
-        "recency": 0.12734588410993866,
+        "score": 0.2423,
+        "recency": 0.11318193276402969,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1714,32 +1764,6 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "inside wpp medias climb back to the top adnewscomau",
-      "title": "Inside WPP Media's climb back to the top - adnews.com.au",
-      "summary": "Inside WPP Media's climb back to the top &nbsp;&nbsp; adnews.com.au",
-      "image": "assets/images/generated/inside wpp medias climb back to the top adnewscomau.jpg",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4ydDJJZFFkZ25JVmd5dzExOXpKcGxXNVlQU1dQOV9kTzVTUUN3U1Q2U2FEOXdxNTRjMWNvX3RraVRTOWV5VldKcVJCQWROd3NoWkdiWTVVcXYwdFRQYWotckxoMS1aTUs0ZkJFTURld2hlVnVSNXJpN000dw?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-05T22:01:04+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.2403,
-      "signals": {
-        "score": 0.2403,
-        "recency": 0.1051490748379106,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
     },
     {
       "id": "amazon will stop accepting new customers for mechanical turk",
@@ -1755,13 +1779,39 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2389,
+      "score": 0.2374,
       "signals": {
-        "score": 0.2389,
-        "recency": 0.051428573281632334,
+        "score": 0.2374,
+        "recency": 0.045708468428289045,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "inside wpp medias climb back to the top adnewscomau",
+      "title": "Inside WPP Media's climb back to the top - adnews.com.au",
+      "summary": "Inside WPP Media's climb back to the top &nbsp;&nbsp; adnews.com.au",
+      "image": "assets/images/generated/inside wpp medias climb back to the top adnewscomau.jpg",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4ydDJJZFFkZ25JVmd5dzExOXpKcGxXNVlQU1dQOV9kTzVTUUN3U1Q2U2FEOXdxNTRjMWNvX3RraVRTOWV5VldKcVJCQWROd3NoWkdiWTVVcXYwdFRQYWotckxoMS1aTUs0ZkJFTURld2hlVnVSNXJpN000dw?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-05T22:01:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.2374,
+      "signals": {
+        "score": 0.2374,
+        "recency": 0.09345394711171129,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -1781,10 +1831,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2342,
+      "score": 0.2333,
       "signals": {
-        "score": 0.2342,
-        "recency": 0.032646885934693955,
+        "score": 0.2333,
+        "recency": 0.029015760302276636,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1807,10 +1857,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2283,
+      "score": 0.2267,
       "signals": {
-        "score": 0.2283,
-        "recency": 0.05729972189843334,
+        "score": 0.2267,
+        "recency": 0.05092660290227582,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1833,10 +1883,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2265,
+      "score": 0.2251,
       "signals": {
-        "score": 0.2265,
-        "recency": 0.049885528738813203,
+        "score": 0.2251,
+        "recency": 0.044337047868308596,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1859,39 +1909,13 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2265,
+      "score": 0.2251,
       "signals": {
-        "score": 0.2265,
-        "recency": 0.049885528738813203,
+        "score": 0.2251,
+        "recency": 0.044337047868308596,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "hostinger reframes sitefree ecommerce",
-      "title": "Hostinger Reframes Site-Free Ecommerce",
-      "summary": "The hosting firm's new Quick Links turns a product photo into a checkout tool, but it signals something more.",
-      "image": "assets/images/generated/hostinger reframes sitefree ecommerce.jpg",
-      "link": "https://www.practicalecommerce.com/hostinger-reframes-site-free-ecommerce",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-05T11:51:43+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Practical Ecommerce"
-      ],
-      "keywords": [],
-      "score": 0.2218,
-      "signals": {
-        "score": 0.2218,
-        "recency": 0.01935092486013292,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.78,
         "engagement": 0.4
       },
       "ai_image_pending": false,
