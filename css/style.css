@@ -1,14 +1,14 @@
 :root {
-    --bg-page: #f5f6f8;
-    --bg-panel: #ffffff;
-    --bg-dark: #0d0d0d;
-    --text-main: #0f1115;
-    --text-muted: #5c6270;
-    --accent: #0991ff;
-    --accent-dark: #0763b3;
-    --border: #e1e4ec;
-    --radius: 12px;
-    --shadow-card: 0 18px 45px rgba(15, 17, 21, 0.08);
+    --bg-page: #08080a;
+    --bg-panel: #111115;
+    --bg-dark: #050506;
+    --text-main: #f3f4f6;
+    --text-muted: #a1a1aa;
+    --accent: #38bdf8;
+    --accent-dark: #0284c7;
+    --border: #222227;
+    --radius: 14px;
+    --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.5);
 }
 
 *,
@@ -36,12 +36,13 @@ img {
 }
 
 .masthead {
-    background: rgba(255, 255, 255, 0.96);
-    color: var(--ink);
+    background: rgba(17, 17, 21, 0.9);
+    border-bottom: 1px solid var(--border);
+    color: #ffffff;
     position: sticky;
     top: 0;
     z-index: 30;
-    box-shadow: 0 1px 0 rgba(12, 18, 31, 0.1), 0 12px 30px rgba(12, 18, 31, 0.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(18px);
 }
 
@@ -156,9 +157,9 @@ img {
 }
 
 .masthead .category-pill {
-    border: 1px solid rgba(12, 18, 31, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.12);
     background: transparent;
-    color: rgba(12, 18, 31, 0.78);
+    color: rgba(255, 255, 255, 0.78);
     border-radius: 999px;
     padding: 0.4rem 0.8rem;
     font-size: 0.78rem;
@@ -185,7 +186,8 @@ img {
 }
 
 .icon-btn {
-    background: rgba(12, 18, 31, 0.06);
+    background: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
     border: none;
     color: var(--ink);
     width: 36px;
@@ -620,7 +622,7 @@ img {
 }
 
 .news-card {
-    background: #fff;
+    background: var(--bg-panel);
     border: 1px solid var(--border);
     border-radius: 14px;
     overflow: hidden;
@@ -634,7 +636,8 @@ img {
     border: none;
     border-bottom: 1px solid var(--border);
     border-radius: 0;
-    height: 180px;
+    aspect-ratio: 2 / 3;
+    height: auto;
     width: 100%;
     object-fit: cover;
 }
