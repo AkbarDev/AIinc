@@ -314,35 +314,36 @@ def build_generated_visual(title: str, summary: str, source_name: str, category:
     color_a, color_b, accent = palettes[stable_hash(text_seed) % len(palettes)]
     label = visual_label(text_seed, category)
     mark = initials(source_name or label)
-    headline_lines = wrap_svg_text(compact_headline(title), max_chars=20, max_lines=4)
+    headline_lines = wrap_svg_text(compact_headline(title), max_chars=28, max_lines=2)
     source = escape_svg((source_name or "Snapfacts").upper())
     label_text = escape_svg(label.upper())
     title_markup = "\n  ".join(
-        f'<text x="32" y="{190 + idx * 36}" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#f8fbff">{escape_svg(line)}</text>'
+        f'<text x="48" y="{96 + idx * 44}" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#f8fbff">{escape_svg(line)}</text>'
         for idx, line in enumerate(headline_lines)
     )
-    summary_line = escape_svg(wrap_svg_text(summary or "Fresh signal from monitored RSS feeds.", max_chars=38, max_lines=2)[0])
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600" role="img" aria-label="{escape_svg(title)}">
+    summary_line = escape_svg(wrap_svg_text(summary or "Fresh signal from monitored RSS feeds.", max_chars=56, max_lines=1)[0])
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="{escape_svg(title)}">
   <defs>
     <linearGradient id="snapfactsGeneratedVisual" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="{color_a}"/>
       <stop offset="100%" stop-color="{color_b}"/>
     </linearGradient>
   </defs>
-  <rect width="400" height="600" fill="url(#snapfactsGeneratedVisual)"/>
-  <rect width="400" height="600" fill="#020617" fill-opacity="0.22"/>
-  <circle cx="200" cy="90" r="50" fill="none" stroke="{accent}" stroke-width="2" stroke-opacity="0.6"/>
-  <text x="200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="800" fill="#ffffff">{escape_svg(mark)}</text>
-  <text x="200" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="800" fill="{accent}">GENERATED VISUAL</text>
-  <text x="200" y="402" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff" fill-opacity="0.84">{label_text}</text>
-  <rect x="20" y="150" width="360" height="200" rx="16" fill="#020617" fill-opacity="0.28"/>
-  <text x="32" y="180" font-family="Arial, sans-serif" font-size="12" font-weight="800" fill="{accent}">{source}</text>
+  <rect width="640" height="360" fill="url(#snapfactsGeneratedVisual)"/>
+  <rect width="640" height="360" fill="#020617" fill-opacity="0.22"/>
+  <circle cx="558" cy="86" r="72" fill="none" stroke="{accent}" stroke-width="2" stroke-opacity="0.6"/>
+  <circle cx="558" cy="86" r="42" fill="#ffffff" fill-opacity="0.12" stroke="{accent}" stroke-width="1.5" stroke-opacity="0.75"/>
+  <text x="558" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff">{escape_svg(mark)}</text>
+  <text x="558" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="800" fill="{accent}">GENERATED VISUAL</text>
+  <text x="558" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff" fill-opacity="0.84">{label_text}</text>
+  <rect x="28" y="36" width="430" height="220" rx="16" fill="#020617" fill-opacity="0.28"/>
+  <text x="48" y="66" font-family="Arial, sans-serif" font-size="12" font-weight="800" fill="{accent}">{source}</text>
   {title_markup}
-  <text x="32" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#ffffff" fill-opacity="0.82">{summary_line}</text>
-  <rect x="36" y="520" width="140" height="36" rx="18" fill="#ffffff" fill-opacity="0.16"/>
-  <text x="106" y="542" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#f8fbff">{label_text}</text>
-  <rect x="224" y="520" width="140" height="36" rx="18" fill="#ffffff" fill-opacity="0.16"/>
-  <text x="294" y="542" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#f8fbff">SNAPFACTS</text>
+  <text x="48" y="224" font-family="Arial, sans-serif" font-size="16" font-weight="500" fill="#ffffff" fill-opacity="0.82">{summary_line}</text>
+  <rect x="36" y="292" width="168" height="36" rx="18" fill="#ffffff" fill-opacity="0.16"/>
+  <text x="120" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#f8fbff">{label_text}</text>
+  <rect x="220" y="292" width="168" height="36" rx="18" fill="#ffffff" fill-opacity="0.16"/>
+  <text x="304" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#f8fbff">SNAPFACTS</text>
 </svg>'''
     return f"data:image/svg+xml;utf8,{quote(svg)}"
 
@@ -760,8 +761,8 @@ def generate_hf_image(prompt: str, model_id: str, api_key: str) -> Optional[byte
     payload = {
         "inputs": prompt,
         "parameters": {
-            "width": 800,
-            "height": 1200
+            "width": 768,
+            "height": 432
         }
     }
     
@@ -949,7 +950,7 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
             if not image_bytes and model["pollinations_model"]:
                 print(f"info: Falling back to Pollinations for model: {model['pollinations_model']}...")
                 encoded_prompt = quote(prompt)
-                pollinations_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=800&height=1200&nologo=true&private=true&model={model['pollinations_model']}"
+                pollinations_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=640&height=360&nologo=true&private=true&model={model['pollinations_model']}"
                 
                 try:
                     req = Request(pollinations_url, headers=headers, method="GET")
@@ -977,20 +978,20 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
     # 3. Public domain free-use Unsplash stock image fallback (if all models fail)
     print(f"info: Using curated open stock image fallback for category: {category}")
     curated_stock = {
-        "ai": "https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=480&h=720&q=80",
-        "tech": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=480&h=720&q=80",
-        "technology": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=480&h=720&q=80",
-        "commerce": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=480&h=720&q=80",
-        "ads": "https://images.unsplash.com/photo-1533750516457-a7f992034fec?auto=format&fit=crop&w=480&h=720&q=80",
-        "marketing": "https://images.unsplash.com/photo-1533750516457-a7f992034fec?auto=format&fit=crop&w=480&h=720&q=80",
-        "startup": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=480&h=720&q=80",
-        "media": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=480&h=720&q=80",
-        "digital-media": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=480&h=720&q=80",
-        "brands": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&w=480&h=720&q=80",
-        "gaming": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=480&h=720&q=80"
+        "ai": "https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=640&q=80",
+        "tech": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=640&q=80",
+        "technology": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=640&q=80",
+        "commerce": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=640&q=80",
+        "ads": "https://images.unsplash.com/photo-1533750516457-a7f992034fec?auto=format&fit=crop&w=640&q=80",
+        "marketing": "https://images.unsplash.com/photo-1533750516457-a7f992034fec?auto=format&fit=crop&w=640&q=80",
+        "startup": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=640&q=80",
+        "media": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=640&q=80",
+        "digital-media": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=640&q=80",
+        "brands": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&w=640&q=80",
+        "gaming": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=640&q=80"
     }
     
-    fallback_url = curated_stock.get(category.lower(), "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=480&h=720&q=80")
+    fallback_url = curated_stock.get(category.lower(), "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=640&q=80")
     
     try:
         req = Request(fallback_url, headers=headers, method="GET")

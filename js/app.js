@@ -1231,7 +1231,7 @@ function renderMetaStrip() {
 
 function renderCardMedia(item, imageUrl) {
     if (imageUrl) {
-        return `<img class="card-image board-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(cleanHeadline(item.title))}" loading="lazy" decoding="async" fetchpriority="low" width="400" height="600" sizes="(max-width: 768px) 96vw, (max-width: 1024px) 48vw, 24vw" />`;
+        return `<img class="card-image board-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(cleanHeadline(item.title))}" loading="lazy" decoding="async" fetchpriority="low" width="640" height="360" sizes="(max-width: 768px) 96vw, (max-width: 1024px) 48vw, 24vw" />`;
     }
     return `<div class="board-image image-fallback" role="img" aria-label="No image available for this news feed"><i class="fa-regular fa-image" aria-hidden="true"></i><span>No image available from this feed</span></div>`;
 }
