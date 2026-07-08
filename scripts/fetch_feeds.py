@@ -241,31 +241,30 @@ def _extract_image(node: ET.Element, summary: Optional[str], ns: Dict[str, str])
     media_content = node.find("media:content", ns)
     if media_content is not None:
         url = media_content.attrib.get("url")
-        if _looks_like_image(url):
+        if url:
             return url
 
     media_thumbnail = node.find("media:thumbnail", ns)
     if media_thumbnail is not None:
         url = media_thumbnail.attrib.get("url")
-        if _looks_like_image(url):
+        if url:
             return url
 
     content_encoded = node.find("{http://purl.org/rss/1.0/modules/content/}encoded")
     if content_encoded is not None and content_encoded.text:
         match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', content_encoded.text, re.IGNORECASE)
-        if match and _looks_like_image(match.group(1)):
+        if match:
             return match.group(1)
 
     enclosure = node.find("enclosure")
     if enclosure is not None:
         url = enclosure.attrib.get("url")
-        mime = (enclosure.attrib.get("type") or "").lower()
-        if _looks_like_image(url) or mime.startswith("image/"):
+        if url:
             return url
 
     for content in node.findall("{http://www.w3.org/2005/Atom}content"):
         src = content.attrib.get("src")
-        if _looks_like_image(src):
+        if src:
             return src
 
     if summary:
@@ -859,6 +858,69 @@ def extract_companies(title: str, summary: str, category: str) -> List[str]:
     return found[:3]
 
 
+def fetch_og_image_from_url(url: str) -> Optional[str]:
+    """Fetch the HTML of the article URL and extract the Open Graph or Twitter image URL."""
+    if not url or not url.startswith("http"):
+        return None
+    try:
+        req = Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            }
+        )
+        with urlopen(req, timeout=8) as response:
+            html = response.read().decode("utf-8", errors="ignore")
+            # Find og:image property content
+            match = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
+            if not match:
+                match = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', html, re.IGNORECASE)
+            if not match:
+                match = re.search(r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
+            
+            if match:
+                img_url = match.group(1).strip()
+                if img_url.startswith("//"):
+                    img_url = "https:" + img_url
+                elif img_url.startswith("/"):
+                    parsed = urlparse(url)
+                    img_url = f"{parsed.scheme}://{parsed.netloc}{img_url}"
+                return img_url
+    except Exception as e:
+        print(f"warn: failed to fetch og:image from {url}: {e}", file=sys.stderr)
+    return None
+
+
+def download_and_resize_image(img_url: str, dest_path: Path, width: int = 800, height: int = 1200) -> bool:
+    """Download an image from a URL, crop/resize it to standard portrait dimensions, and save it as JPEG."""
+    if not img_url or not img_url.startswith("http"):
+        return False
+    try:
+        req = Request(
+            img_url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            }
+        )
+        with urlopen(req, timeout=12) as response:
+            img_bytes = response.read()
+            
+        from PIL import Image, ImageOps
+        import io
+        
+        img = Image.open(io.BytesIO(img_bytes))
+        if img.mode != "RGB":
+            img = img.convert("RGB")
+            
+        resized_img = ImageOps.fit(img, (width, height), Image.Resampling.LANCZOS)
+        resized_img.save(dest_path, "JPEG", quality=85)
+        print(f"info: Successfully fetched, resized, and cached source image from {img_url} to {dest_path}")
+        return True
+    except Exception as e:
+        print(f"warn: failed to download/resize source image from {img_url}: {e}", file=sys.stderr)
+    return False
+
+
 def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Optional[str]:
     import time
     generated_dir = BASE_DIR / "assets" / "images" / "generated"
@@ -1158,79 +1220,117 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     gen_count = 0
     max_generations_per_run = 15
     for cluster, score_block in to_generate:
-        if not cluster.image or is_generated_visual(cluster.image):
-            # 1. Has AI Image? Validate existing file
-            trend_id = cluster.key
-            generated_dir = BASE_DIR / "assets" / "images" / "generated"
-            image_path = generated_dir / f"{trend_id}.jpg"
-            is_valid = False
-            if image_path.exists():
-                try:
-                    if image_path.stat().st_size >= 1000:
-                        try:
-                            from PIL import Image
-                            with Image.open(image_path) as img:
-                                img.verify()
-                            is_valid = True
-                        except ImportError:
-                            is_valid = True
-                except Exception:
-                    pass
-
-            if is_valid:
-                cluster.image = f"assets/images/generated/{trend_id}.jpg"
-                cluster.ai_image_pending = False
-                cluster.image_failure_reason = ""
-            else:
-                if image_path.exists():
+        trend_id = cluster.key
+        generated_dir = BASE_DIR / "assets" / "images" / "generated"
+        image_path = generated_dir / f"{trend_id}.jpg"
+        
+        # 1. Has cached image? Validate it
+        is_valid = False
+        if image_path.exists():
+            try:
+                if image_path.stat().st_size >= 1000:
                     try:
-                        image_path.unlink()
-                    except Exception:
-                        pass
-                
-                # 2. Generate new image
+                        from PIL import Image
+                        with Image.open(image_path) as img:
+                            img.verify()
+                        is_valid = True
+                    except ImportError:
+                        is_valid = True
+            except Exception:
+                pass
+
+        if is_valid:
+            cluster.image = f"assets/images/generated/{trend_id}.jpg"
+            cluster.ai_image_pending = False
+            cluster.image_failure_reason = ""
+            continue
+
+        # If cached image failed validation, delete it
+        if image_path.exists():
+            try:
+                image_path.unlink()
+            except Exception:
+                pass
+
+        # 2. Check if the feed provides a remote image url
+        has_feed_image = bool(cluster.image and not is_generated_visual(cluster.image) and cluster.image.startswith("http"))
+        source_downloaded = False
+
+        if has_feed_image:
+            if gen_count < max_generations_per_run:
+                print(f"info: Downloading and resizing feed image: {cluster.image}")
+                success = download_and_resize_image(cluster.image, image_path)
+                if success:
+                    cluster.image = f"assets/images/generated/{trend_id}.jpg"
+                    cluster.ai_image_pending = False
+                    cluster.image_failure_reason = ""
+                    source_downloaded = True
+                    gen_count += 1
+                    time.sleep(2)
+
+        # 3. Try Open Graph scraping from target link
+        if not source_downloaded:
+            og_image = None
+            if not has_feed_image:
+                print(f"info: Scraping webpage for source image: {cluster.link}")
+                og_image = fetch_og_image_from_url(cluster.link)
+            if og_image:
                 if gen_count < max_generations_per_run:
-                    ai_image = fetch_ai_image(cluster.title, cluster.summary, cluster.category, cluster.key)
-                    if ai_image:
-                        cluster.image = ai_image
+                    print(f"info: Scraping page found og:image {og_image}. Downloading...")
+                    success = download_and_resize_image(og_image, image_path)
+                    if success:
+                        cluster.image = f"assets/images/generated/{trend_id}.jpg"
                         cluster.ai_image_pending = False
                         cluster.image_failure_reason = ""
+                        source_downloaded = True
                         gen_count += 1
-                        time.sleep(5)
-                    else:
-                        cluster.ai_image_pending = True
-                        cluster.image_failure_reason = "Image generation failed (all service endpoints timed out or returned invalid data)"
+                        time.sleep(2)
+
+        # 4. Fall back to AI generation
+        if not source_downloaded:
+            if gen_count < max_generations_per_run:
+                ai_image = fetch_ai_image(cluster.title, cluster.summary, cluster.category, cluster.key)
+                if ai_image:
+                    cluster.image = ai_image
+                    cluster.ai_image_pending = False
+                    cluster.image_failure_reason = ""
+                    gen_count += 1
+                    time.sleep(5)
                 else:
                     cluster.ai_image_pending = True
-                    cluster.image_failure_reason = "Generation skipped during this run to respect rate limits (max 15 generations per run)"
+                    cluster.image_failure_reason = "Image generation failed (all service endpoints timed out or returned invalid data)"
+            else:
+                cluster.ai_image_pending = True
+                cluster.image_failure_reason = "Generation/download skipped to respect rate limits (max 15 per run)"
 
     payload = []
     for cluster, score_block in scored_clusters:
         ai_pending = getattr(cluster, "ai_image_pending", False)
         fail_reason = getattr(cluster, "image_failure_reason", "")
         
-        # Double check validity of images for elements that were not in the to_generate block
-        if not cluster.image or is_generated_visual(cluster.image):
-            trend_id = cluster.key
-            generated_dir = BASE_DIR / "assets" / "images" / "generated"
-            image_path = generated_dir / f"{trend_id}.jpg"
-            is_valid = False
-            if image_path.exists():
-                try:
-                    if image_path.stat().st_size >= 1000:
-                        try:
-                            from PIL import Image
-                            with Image.open(image_path) as img:
-                                img.verify()
-                            is_valid = True
-                        except ImportError:
-                            is_valid = True
-                except Exception:
-                    pass
-            if is_valid:
-                cluster.image = f"assets/images/generated/{trend_id}.jpg"
-                ai_pending = False
-                fail_reason = ""
+        trend_id = cluster.key
+        generated_dir = BASE_DIR / "assets" / "images" / "generated"
+        image_path = generated_dir / f"{trend_id}.jpg"
+        is_valid = False
+        if image_path.exists():
+            try:
+                if image_path.stat().st_size >= 1000:
+                    try:
+                        from PIL import Image
+                        with Image.open(image_path) as img:
+                            img.verify()
+                        is_valid = True
+                    except ImportError:
+                        is_valid = True
+            except Exception:
+                pass
+        if is_valid:
+            cluster.image = f"assets/images/generated/{trend_id}.jpg"
+            ai_pending = False
+            fail_reason = ""
+        else:
+            if cluster.image and not is_generated_visual(cluster.image) and not cluster.image.startswith("assets/"):
+                pass
             else:
                 ai_pending = True
                 if not fail_reason:
