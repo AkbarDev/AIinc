@@ -679,9 +679,10 @@ def enhance_prompt_with_llm(title: str, summary: str, category: str, api_key: st
     )
     user_content = f"Headline: {title}\nSummary: {summary}\nCategory: {category}"
     
-    # Try a few model options from Qwen to Llama to ensure high availability
+    # Try a few model options from Qwen to Deepseek and Llama to ensure high availability
     models = [
         "Qwen/Qwen2.5-72B-Instruct",
+        "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
         "meta-llama/Llama-3-8B-Instruct",
         "mistralai/Mistral-7B-Instruct-v0.3"
     ]
@@ -864,6 +865,33 @@ def extract_companies(title: str, summary: str, category: str) -> List[str]:
     return found[:3]
 
 
+def generate_gemini_image(prompt: str, api_key: str) -> Optional[bytes]:
+    """Generate image bytes using Google Imagen 3 (Nano Banana) via Gemini API."""
+    import base64
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:generateImages?key={api_key}"
+    payload = {
+        "prompt": prompt,
+        "numberOfImages": 1,
+        "outputMimeType": "image/jpeg",
+        "aspectRatio": "16:9",
+        "personGeneration": "ALLOW_ADULT"
+    }
+    headers = {
+        "Content-Type": "application/json",
+        "User-Agent": USER_AGENT
+    }
+    try:
+        req = Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
+        with urlopen(req, timeout=30) as response:
+            res = json.loads(response.read().decode("utf-8"))
+            if "generatedImages" in res and len(res["generatedImages"]) > 0:
+                img_b64 = res["generatedImages"][0]["image"]["imageBytes"]
+                return base64.b64decode(img_b64)
+    except Exception as e:
+        print(f"warn: Google Imagen 3 generation failed: {e}", file=sys.stderr)
+    return None
+
+
 def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Optional[str]:
     import time
     generated_dir = BASE_DIR / "assets" / "images" / "generated"
@@ -920,6 +948,25 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
         prompt_to_use,
         f"{prompt_to_use}. Award-winning editorial illustration, cinematic lighting, sharp details, high contrast, 8k resolution, photorealistic composition."
     ]
+
+    # 2.5 Try Google Imagen 3 (Nano Banana) first if GEMINI_API_KEY is available
+    gemini_key = os.environ.get("GEMINI_API_KEY")
+    if gemini_key:
+        print("info: GEMINI_API_KEY detected. Attempting generation with Google Imagen 3 (Nano Banana)...")
+        for p_idx, prompt in enumerate(prompt_variations):
+            print(f"info: Trying prompt variation {p_idx + 1} on Google Imagen 3...")
+            image_bytes = generate_gemini_image(prompt, gemini_key)
+            if image_bytes:
+                is_valid, validation_msg = validate_image_quality(image_bytes)
+                if is_valid:
+                    try:
+                        image_path.write_bytes(image_bytes)
+                        print(f"info: AI image successfully generated and validated via Google Imagen 3: {image_path}")
+                        return f"assets/images/generated/{trend_id}.jpg"
+                    except Exception as e:
+                        print(f"warn: Failed to write Google Imagen 3 image bytes: {e}", file=sys.stderr)
+                else:
+                    print(f"warn: Google Imagen 3 image failed quality validation: {validation_msg}", file=sys.stderr)
 
     # Models pipeline to loop through
     MODELS_PIPELINE = [
