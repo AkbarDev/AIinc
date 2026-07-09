@@ -889,11 +889,15 @@ def generate_gemini_image(prompt: str, api_key: str) -> Optional[bytes]:
         req = Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
         with urlopen(req, timeout=30) as response:
             res = json.loads(response.read().decode("utf-8"))
+            print(f"debug: Google Imagen 3 response keys: {list(res.keys())}")
             if "predictions" in res and len(res["predictions"]) > 0:
                 pred = res["predictions"][0]
+                print(f"debug: Google Imagen 3 prediction keys: {list(pred.keys())}")
                 img_b64 = pred.get("bytesBase64Encoded") or pred.get("imageBytes")
                 if img_b64:
                     return base64.b64decode(img_b64)
+            else:
+                print(f"debug: predictions key not found in response: {res}")
     except Exception as e:
         print(f"warn: Google Imagen 3 generation failed: {e}", file=sys.stderr)
     return None
