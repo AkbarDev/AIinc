@@ -868,13 +868,18 @@ def extract_companies(title: str, summary: str, category: str) -> List[str]:
 def generate_gemini_image(prompt: str, api_key: str) -> Optional[bytes]:
     """Generate image bytes using Google Imagen 3 (Nano Banana) via Gemini API."""
     import base64
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:generateImages?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key={api_key}"
     payload = {
-        "prompt": prompt,
-        "numberOfImages": 1,
-        "outputMimeType": "image/jpeg",
-        "aspectRatio": "16:9",
-        "personGeneration": "ALLOW_ADULT"
+        "instances": [
+            {
+                "prompt": prompt
+            }
+        ],
+        "parameters": {
+            "sampleCount": 1,
+            "aspectRatio": "16:9",
+            "outputMimeType": "image/jpeg"
+        }
     }
     headers = {
         "Content-Type": "application/json",
@@ -884,9 +889,11 @@ def generate_gemini_image(prompt: str, api_key: str) -> Optional[bytes]:
         req = Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
         with urlopen(req, timeout=30) as response:
             res = json.loads(response.read().decode("utf-8"))
-            if "generatedImages" in res and len(res["generatedImages"]) > 0:
-                img_b64 = res["generatedImages"][0]["image"]["imageBytes"]
-                return base64.b64decode(img_b64)
+            if "predictions" in res and len(res["predictions"]) > 0:
+                pred = res["predictions"][0]
+                img_b64 = pred.get("bytesBase64Encoded") or pred.get("imageBytes")
+                if img_b64:
+                    return base64.b64decode(img_b64)
     except Exception as e:
         print(f"warn: Google Imagen 3 generation failed: {e}", file=sys.stderr)
     return None
