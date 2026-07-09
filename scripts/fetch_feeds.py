@@ -894,6 +894,7 @@ def generate_gemini_image(prompt: str, api_key: str) -> Optional[bytes]:
 
 def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Optional[str]:
     import time
+    print(f"debug: Environment keys check - HF_API_KEY: {'present' if os.environ.get('HF_API_KEY') else 'missing'}, GEMINI_API_KEY: {'present' if os.environ.get('GEMINI_API_KEY') else 'missing'}")
     generated_dir = BASE_DIR / "assets" / "images" / "generated"
     generated_dir.mkdir(parents=True, exist_ok=True)
     image_path = generated_dir / f"{trend_id}.jpg"
