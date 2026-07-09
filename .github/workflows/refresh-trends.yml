@@ -44,6 +44,7 @@ jobs:
         if: github.event_name != 'push'
         env:
           HF_API_KEY: ${{ secrets.HF_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/fetch_feeds.py
 
       - name: Commit updated data artifacts
