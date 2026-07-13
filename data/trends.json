@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T22:33:13.861595+00:00",
+  "generated_at": "2026-07-13T23:31:07.301499+00:00",
   "sources_scanned": 2840,
   "feeds_polled": 35,
   "feed_pool": 38,
@@ -13,8 +13,37 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 94,
+  "clusters": 96,
   "trends": [
+    {
+      "id": "apple lawsuit exposes enterprise data risks during employee offboarding",
+      "title": "Apple Lawsuit Exposes Enterprise Data Risks During Employee Offboarding",
+      "summary": "Apple\u2019s lawsuit against OpenAI announced Friday (July 10) includes allegations that highlight the importance of protecting corporate data when employees leave, TechCrunch",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/Apple-enterprise-data-theft-corporate-espionage.jpeg?w=457",
+      "link": "https://www.pymnts.com/apple/2026/apple-lawsuit-exposes-enterprise-data-risks-during-employee-offboarding/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-13T23:00:15+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "enterprise"
+      ],
+      "score": 0.5495,
+      "signals": {
+        "score": 0.5495,
+        "recency": 0.9178193455864324,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
     {
       "id": "apple acquires opensource observability platform developer sigscalr",
       "title": "Apple Acquires Open-Source Observability Platform Developer SigScalr",
@@ -32,10 +61,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.5472,
+      "score": 0.5134,
       "signals": {
-        "score": 0.5472,
-        "recency": 0.908747467616123,
+        "score": 0.5134,
+        "recency": 0.773758523069403,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -62,10 +91,10 @@
         "enterprise",
         "policy"
       ],
-      "score": 0.531,
+      "score": 0.5056,
       "signals": {
-        "score": 0.531,
-        "recency": 0.68383413144293,
+        "score": 0.5056,
+        "recency": 0.5822547037822874,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -91,10 +120,39 @@
         "ai",
         "platform"
       ],
-      "score": 0.5176,
+      "score": 0.4883,
       "signals": {
-        "score": 0.5176,
-        "recency": 0.7905393154478907,
+        "score": 0.4883,
+        "recency": 0.6731094775470098,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "tech leaders and economists call for ai guardrails to protect workers",
+      "title": "Tech Leaders and Economists Call for AI Guardrails to Protect Workers",
+      "summary": "Artificial intelligence is transforming the economy, and now is the time to ensure that the technology benefits society, according to a statement signed by more than 200",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/AI-guardrails-economy-jobs.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/tech-leaders-economists-want-ai-guardrails-protect-workers/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-13T20:31:39+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.4719,
+      "signals": {
+        "score": 0.4719,
+        "recency": 0.6074214109631018,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -119,42 +177,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5032,
+      "score": 0.4698,
       "signals": {
-        "score": 0.5032,
-        "recency": 0.8988726043467086,
+        "score": 0.4698,
+        "recency": 0.7653505110626151,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "tech leaders and economists call for ai guardrails to protect workers",
-      "title": "Tech Leaders and Economists Call for AI Guardrails to Protect Workers",
-      "summary": "Artificial intelligence is transforming the economy, and now is the time to ensure that the technology benefits society, according to a statement signed by more than 200",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/AI-guardrails-economy-jobs.jpeg?w=457",
-      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/tech-leaders-economists-want-ai-guardrails-protect-workers/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-13T20:31:39+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.4983,
-      "signals": {
-        "score": 0.4983,
-        "recency": 0.7133913908939515,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -176,10 +205,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4784,
+      "score": 0.4498,
       "signals": {
-        "score": 0.4784,
-        "recency": 0.7697012306138884,
+        "score": 0.4498,
+        "recency": 0.655366764285812,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -204,10 +233,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.469,
+      "score": 0.4409,
       "signals": {
-        "score": 0.469,
-        "recency": 0.7561035617864038,
+        "score": 0.4409,
+        "recency": 0.6437889469888444,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -232,10 +261,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4658,
+      "score": 0.4382,
       "signals": {
-        "score": 0.4658,
-        "recency": 0.7433309104159688,
+        "score": 0.4382,
+        "recency": 0.6329135957914499,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -261,10 +290,10 @@
         "artificial intelligence",
         "platform"
       ],
-      "score": 0.4532,
+      "score": 0.4304,
       "signals": {
-        "score": 0.4532,
-        "recency": 0.6127721486744606,
+        "score": 0.4304,
+        "recency": 0.5217485491103481,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -289,41 +318,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4495,
+      "score": 0.4252,
       "signals": {
-        "score": 0.4495,
-        "recency": 0.6538647825108204,
+        "score": 0.4252,
+        "recency": 0.5567371205224501,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "regulators hear arguments on tokenized stock ownership",
-      "title": "Regulators Hear Arguments on Tokenized Stock Ownership",
-      "summary": "Federal regulators are hearing arguments over how stocks should move to blockchain rails, CoinDesk reported Monday (July 13).",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/09/Securities-and-Exchange-Commission-SEC.jpg?w=457",
-      "link": "https://www.pymnts.com/blockchain/2026/regulators-hear-arguments-tokenized-stock-ownership/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-13T19:08:57+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4217,
-      "signals": {
-        "score": 0.4217,
-        "recency": 0.566970901847163,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -347,40 +348,14 @@
         "ai",
         "game"
       ],
-      "score": 0.4197,
+      "score": 0.4138,
       "signals": {
-        "score": 0.4197,
-        "recency": 0.15864942152777667,
+        "score": 0.4138,
+        "recency": 0.13508300871436696,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.8,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "global payments may feel us cbdc ban first",
-      "title": "Global Payments May Feel US CBDC Ban First",
-      "summary": "Nothing visibly changed in American payments when the clock struck midnight on Saturday (July 11).",
-      "image": "https://www.pymnts.com/wp-content/uploads/2023/07/CBDC-1.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/global-payments-may-feel-us-cbdc-ban-first/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-13T21:09:34+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.4182,
-      "signals": {
-        "score": 0.4182,
-        "recency": 0.7926282158394604,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -401,10 +376,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4163,
+      "score": 0.3962,
       "signals": {
-        "score": 0.4163,
-        "recency": 0.5390697775516715,
+        "score": 0.3962,
+        "recency": 0.45899421981765587,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -429,10 +404,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4105,
+      "score": 0.392,
       "signals": {
-        "score": 0.4105,
-        "recency": 0.49787760773259676,
+        "score": 0.392,
+        "recency": 0.42392089789155274,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -442,26 +417,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "wpp names global president of social and creator pr week uk",
-      "title": "WPP names global president of social and creator - PR Week UK",
-      "summary": "WPP names global president of social and creator &nbsp;&nbsp; PR Week UK",
-      "image": "assets/images/generated/wpp names global president of social and creator pr week uk.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYW1HQjhRMDhyWnV6UVdMZmloTjdSQk8wc0JnZURIbnowb2cxaHVSMk80S2ZxaUlIeUlVZEZPbXRPNzJfTWxSVXYzNnhhMElMbzJJME9od3BDcXcxaE9RWUpZMUl1S1hIUlFFOXJhRV93aDlEZkNmMWJWeERhdnBxaTRTTVFxaUVnOHc?oc=5",
-      "category": "advertising",
+      "id": "global payments may feel us cbdc ban first",
+      "title": "Global Payments May Feel US CBDC Ban First",
+      "summary": "Nothing visibly changed in American payments when the clock struck midnight on Saturday (July 11).",
+      "image": "https://www.pymnts.com/wp-content/uploads/2023/07/CBDC-1.jpg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/global-payments-may-feel-us-cbdc-ban-first/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-07-13T20:52:41+00:00",
+      "published_at": "2026-07-13T21:09:34+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - WPP"
+        "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.4031,
+      "score": 0.3887,
       "signals": {
-        "score": 0.4031,
-        "recency": 0.7563136197269299,
+        "score": 0.3887,
+        "recency": 0.674888084409112,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.76,
+        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -483,10 +458,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4022,
+      "score": 0.384,
       "signals": {
-        "score": 0.4022,
-        "recency": 0.48860675449886043,
+        "score": 0.384,
+        "recency": 0.41602717387981303,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -511,10 +486,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4,
+      "score": 0.3827,
       "signals": {
-        "score": 0.4,
-        "recency": 0.4681459962834581,
+        "score": 0.3827,
+        "recency": 0.3986057376482927,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -539,10 +514,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3933,
+      "score": 0.3773,
       "signals": {
-        "score": 0.3933,
-        "recency": 0.429063222220631,
+        "score": 0.3773,
+        "recency": 0.3653284734864049,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -552,52 +527,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "london authority sets out plan for tokenizing wholesale financial markets",
-      "title": "London Authority Sets Out Plan For Tokenizing Wholesale Financial Markets",
-      "summary": "London has issued a report on accelerating tokenization in wholesale financial markets.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/UK-United-Kingdom.jpeg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/london-authority-sets-out-plan-for-tokenizing-wholesale-financial-markets/",
-      "category": "commerce",
+      "id": "wpp names global president of social and creator pr week uk",
+      "title": "WPP names global president of social and creator - PR Week UK",
+      "summary": "WPP names global president of social and creator &nbsp;&nbsp; PR Week UK",
+      "image": "assets/images/generated/wpp names global president of social and creator pr week uk.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYW1HQjhRMDhyWnV6UVdMZmloTjdSQk8wc0JnZURIbnowb2cxaHVSMk80S2ZxaUlIeUlVZEZPbXRPNzJfTWxSVXYzNnhhMElMbzJJME9od3BDcXcxaE9RWUpZMUl1S1hIUlFFOXJhRV93aDlEZkNmMWJWeERhdnBxaTRTTVFxaUVnOHc?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-13T20:15:53+00:00",
+      "published_at": "2026-07-13T20:52:41+00:00",
       "source_count": 1,
       "source_names": [
-        "PYMNTS"
+        "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.3907,
+      "score": 0.375,
       "signals": {
-        "score": 0.3907,
-        "recency": 0.6828217939056052,
+        "score": 0.375,
+        "recency": 0.6439678020917333,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "kraken debuts debit card to let customers pay in crypto",
-      "title": "Kraken Debuts Debit Card to Let Customers Pay in Crypto",
-      "summary": "Cryptocurrency exchange Kraken has introduced a debit card for British and European Economic Area customers.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/Kraken-Card.png?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/kraken-debuts-debit-card-to-let-customers-pay-in-crypto/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-13T20:03:31+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.3849,
-      "signals": {
-        "score": 0.3849,
-        "recency": 0.6597639087374623,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -620,14 +569,40 @@
         "ai",
         "enterprise"
       ],
-      "score": 0.3778,
+      "score": 0.3692,
       "signals": {
-        "score": 0.3778,
-        "recency": 0.23112226860375315,
+        "score": 0.3692,
+        "recency": 0.19679045232710696,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "london authority sets out plan for tokenizing wholesale financial markets",
+      "title": "London Authority Sets Out Plan For Tokenizing Wholesale Financial Markets",
+      "summary": "London has issued a report on accelerating tokenization in wholesale financial markets.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/UK-United-Kingdom.jpeg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/london-authority-sets-out-plan-for-tokenizing-wholesale-financial-markets/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-13T20:15:53+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.3653,
+      "signals": {
+        "score": 0.3653,
+        "recency": 0.5813927428683461,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -648,10 +623,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3775,
+      "score": 0.3639,
       "signals": {
-        "score": 0.3775,
-        "recency": 0.3659961439653751,
+        "score": 0.3639,
+        "recency": 0.3116296285772679,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -661,23 +636,49 @@
       "image_failure_reason": ""
     },
     {
-      "id": "visa teams with ace money transfer on crossborder payments",
-      "title": "Visa Teams With ACE Money Transfer on Cross-Border Payments",
-      "summary": "U.K.-based remittance provider ACE Money Transfer has launched a cross-border payments partnership with Visa.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/Visa.jpeg?w=457",
-      "link": "https://www.pymnts.com/news/cross-border-payments/2026/visa-teams-with-ace-money-transfer-on-cross-border-payments/",
+      "id": "wpp plans to cut hundreds more jobs this year as its restructuring continues ad age",
+      "title": "WPP plans to cut hundreds more jobs this year as its restructuring continues - Ad Age",
+      "summary": "WPP plans to cut hundreds more jobs this year as its restructuring continues &nbsp;&nbsp; Ad Age",
+      "image": "assets/images/generated/wpp plans to cut hundreds more jobs this year as its restructuring continues ad age.jpg",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMVFERW80MkJXUWZhazVaeGxQb043V1dXLTNydkFxYm9wX3VGcG9LNGlGLTRuNW53MnpMSDZ0d1ZEaG1hZ0UzSVl0azNmaGw3SzA3b0t5clpaalVsOW1uMVY2VVpMVDJmUllZRGkzQmFnWFR5MnoxMmJiQkZSbXZvVENnbw?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-13T20:27:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.3639,
+      "signals": {
+        "score": 0.3639,
+        "recency": 0.599626004785071,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "kraken debuts debit card to let customers pay in crypto",
+      "title": "Kraken Debuts Debit Card to Let Customers Pay in Crypto",
+      "summary": "Cryptocurrency exchange Kraken has introduced a debit card for British and European Economic Area customers.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/Kraken-Card.png?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/kraken-debuts-debit-card-to-let-customers-pay-in-crypto/",
       "category": "commerce",
       "geo": "global",
-      "published_at": "2026-07-13T19:32:41+00:00",
+      "published_at": "2026-07-13T20:03:31+00:00",
       "source_count": 1,
       "source_names": [
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.3714,
+      "score": 0.3604,
       "signals": {
-        "score": 0.3714,
-        "recency": 0.6056086036507522,
+        "score": 0.3604,
+        "recency": 0.5617599671978859,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -702,10 +703,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3684,
+      "score": 0.3553,
       "signals": {
-        "score": 0.3684,
-        "recency": 0.3536206221362525,
+        "score": 0.3553,
+        "recency": 0.30109241572776796,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -730,14 +731,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.364,
+      "score": 0.3515,
       "signals": {
-        "score": 0.364,
-        "recency": 0.3359852439477238,
+        "score": 0.3515,
+        "recency": 0.2860766663945434,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "visa teams with ace money transfer on crossborder payments",
+      "title": "Visa Teams With ACE Money Transfer on Cross-Border Payments",
+      "summary": "U.K.-based remittance provider ACE Money Transfer has launched a cross-border payments partnership with Visa.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/Visa.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/cross-border-payments/2026/visa-teams-with-ace-money-transfer-on-cross-border-payments/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-13T19:32:41+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.3489,
+      "signals": {
+        "score": 0.3489,
+        "recency": 0.5156491054089796,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -758,10 +785,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3602,
+      "score": 0.3483,
       "signals": {
-        "score": 0.3602,
-        "recency": 0.3208592095427389,
+        "score": 0.3483,
+        "recency": 0.2731975129903525,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -786,10 +813,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3601,
+      "score": 0.3479,
       "signals": {
-        "score": 0.3601,
-        "recency": 0.32625167542578876,
+        "score": 0.3479,
+        "recency": 0.2777889606543732,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -815,13 +842,42 @@
         "ai",
         "regulation"
       ],
-      "score": 0.3526,
+      "score": 0.3471,
       "signals": {
-        "score": 0.3526,
-        "recency": 0.14841077098238328,
+        "score": 0.3471,
+        "recency": 0.12636524783299755,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.77,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "liquid iv weaves spiderman into its growing entertainment strategy",
+      "title": "Liquid I.V. Weaves Spider-Man Into Its Growing Entertainment Strategy",
+      "summary": "The Unilever brand\u2019s Spider-Man: Brand New Day partnership combines film, TV, retail, and experiential.",
+      "image": "assets/images/generated/liquid iv weaves spiderman into its growing entertainment strategy.jpg",
+      "link": "https://www.adweek.com/brand-marketing/liquid-iv-weaves-spider-man-into-its-growing-entertainment-strategy/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-13T09:29:53+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Adweek"
+      ],
+      "keywords": [
+        "ai",
+        "film"
+      ],
+      "score": 0.3442,
+      "signals": {
+        "score": 0.3442,
+        "recency": 0.09663896859087984,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -843,10 +899,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3495,
+      "score": 0.34,
       "signals": {
-        "score": 0.3495,
-        "recency": 0.25389691883481114,
+        "score": 0.34,
+        "recency": 0.2161820658987331,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -871,10 +927,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3492,
+      "score": 0.3398,
       "signals": {
-        "score": 0.3492,
-        "recency": 0.2528646282223459,
+        "score": 0.3398,
+        "recency": 0.21530311581838263,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -899,10 +955,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3489,
+      "score": 0.3386,
       "signals": {
-        "score": 0.3489,
-        "recency": 0.2754000174299108,
+        "score": 0.3386,
+        "recency": 0.2344910091456467,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -912,26 +968,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "liquid iv weaves spiderman into its growing entertainment strategy",
-      "title": "Liquid I.V. Weaves Spider-Man Into Its Growing Entertainment Strategy",
-      "summary": "The Unilever brand\u2019s Spider-Man: Brand New Day partnership combines film, TV, retail, and experiential.",
-      "image": "assets/images/generated/liquid iv weaves spiderman into its growing entertainment strategy.jpg",
-      "link": "https://www.adweek.com/brand-marketing/liquid-iv-weaves-spider-man-into-its-growing-entertainment-strategy/",
+      "id": "openai8217s ad business is on pace to miss its own forecast by 90 analyst says",
+      "title": "OpenAI&#8217;s Ad Business Is on Pace to Miss Its Own Forecast By 90%, Analyst Says",
+      "summary": "OpenAI is projecting $100 billion in ad revenue by 2030.",
+      "image": "assets/images/generated/openai8217s ad business is on pace to miss its own forecast by 90 analyst says.jpg",
+      "link": "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-07-13T09:29:53+00:00",
+      "published_at": "2026-07-13T06:00:00+00:00",
       "source_count": 1,
       "source_names": [
         "Adweek"
       ],
       "keywords": [
         "ai",
-        "film"
+        "bill"
       ],
-      "score": 0.3484,
+      "score": 0.3335,
       "signals": {
-        "score": 0.3484,
-        "recency": 0.11349848222882704,
+        "score": 0.3335,
+        "recency": 0.0539454204043706,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -956,10 +1012,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3394,
+      "score": 0.3306,
       "signals": {
-        "score": 0.3394,
-        "recency": 0.23769834870279433,
+        "score": 0.3306,
+        "recency": 0.20238969546818344,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -967,32 +1023,6 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
-    },
-    {
-      "id": "leading b2b ecommerce agencies",
-      "title": "Leading B2B Ecommerce Agencies",
-      "summary": "Sponsor content is created on behalf of and in collaboration with SeedX by DigitalCommerce360.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Leading%20B2B%20Ecommerce%20Agencies%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23334155%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23020617%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EDC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ECOMMERCE%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EDIGITAL%20COMMERCE%20360%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ELEADING%20B2B%20ECOMMERCE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EAGENCIES%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3ESponsor%20content%20is%20created%20on%20behalf%20of%20and%20in%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECOMMERCE%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://www.digitalcommerce360.com/2026/07/13/leading-b2b-ecommerce-agencies/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-13T18:02:29+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Digital Commerce 360"
-      ],
-      "keywords": [],
-      "score": 0.3393,
-      "signals": {
-        "score": 0.3393,
-        "recency": 0.4713865006104544,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.4
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "ports brace for recordhigh imports in july",
@@ -1010,69 +1040,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3386,
+      "score": 0.3297,
       "signals": {
-        "score": 0.3386,
-        "recency": 0.2403541686984956,
+        "score": 0.3297,
+        "recency": 0.20465100945324763,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "openai8217s ad business is on pace to miss its own forecast by 90 analyst says",
-      "title": "OpenAI&#8217;s Ad Business Is on Pace to Miss Its Own Forecast By 90%, Analyst Says",
-      "summary": "OpenAI is projecting $100 billion in ad revenue by 2030.",
-      "image": "assets/images/generated/openai8217s ad business is on pace to miss its own forecast by 90 analyst says.jpg",
-      "link": "https://www.adweek.com/media/openais-ad-business-is-on-pace-to-miss-its-own-forecast-by-90-analyst-says/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-13T06:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Adweek"
-      ],
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.3358,
-      "signals": {
-        "score": 0.3358,
-        "recency": 0.06335667100310804,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "chatgpt access tied to 9 drop in traditional search via sejournal mattgsouthern",
-      "title": "ChatGPT Access Tied To 9% Drop In Traditional Search via @sejournal, @MattGSouthern",
-      "summary": "A new research paper compares how often ChatGPT and Google send people to websites, and what wider ChatGPT access did to search.",
-      "image": "assets/images/generated/chatgpt access tied to 9 drop in traditional search via sejournal mattgsouthern.jpg",
-      "link": "https://www.searchenginejournal.com/chatgpt-access-tied-to-9-drop-in-traditional-search/582167/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-07-13T17:54:10+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [],
-      "score": 0.3352,
-      "signals": {
-        "score": 0.3352,
-        "recency": 0.4606214248693622,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1093,10 +1068,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3332,
+      "score": 0.3253,
       "signals": {
-        "score": 0.3332,
-        "recency": 0.2126033776837862,
+        "score": 0.3253,
+        "recency": 0.18102243073943095,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1121,10 +1096,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.333,
+      "score": 0.3247,
       "signals": {
-        "score": 0.333,
-        "recency": 0.22412549288283332,
+        "score": 0.3247,
+        "recency": 0.1908330053564226,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1149,10 +1124,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3327,
+      "score": 0.3244,
       "signals": {
-        "score": 0.3327,
-        "recency": 0.22279095467965626,
+        "score": 0.3244,
+        "recency": 0.1896967047384095,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -1177,10 +1152,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3317,
+      "score": 0.324,
       "signals": {
-        "score": 0.3317,
-        "recency": 0.20687475016580908,
+        "score": 0.324,
+        "recency": 0.17614475621985015,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1205,13 +1180,67 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3309,
+      "score": 0.3233,
       "signals": {
-        "score": 0.3309,
-        "recency": 0.2034554113045522,
+        "score": 0.3233,
+        "recency": 0.17323333948259045,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "leading b2b ecommerce agencies",
+      "title": "Leading B2B Ecommerce Agencies",
+      "summary": "Sponsor content is created on behalf of and in collaboration with SeedX by DigitalCommerce360.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Leading%20B2B%20Ecommerce%20Agencies%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23334155%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23020617%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EDC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ECOMMERCE%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EDIGITAL%20COMMERCE%20360%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ELEADING%20B2B%20ECOMMERCE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EAGENCIES%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3ESponsor%20content%20is%20created%20on%20behalf%20of%20and%20in%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECOMMERCE%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://www.digitalcommerce360.com/2026/07/13/leading-b2b-ecommerce-agencies/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-13T18:02:29+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Digital Commerce 360"
+      ],
+      "keywords": [],
+      "score": 0.3218,
+      "signals": {
+        "score": 0.3218,
+        "recency": 0.4013648846406185,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+    },
+    {
+      "id": "the download a donor conception cap and world models for ai",
+      "title": "The Download: a donor conception cap and world models for AI",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/02/COLOMBIA-6.edit_.jpg?w=3000",
+      "link": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-13T12:10:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MIT Technology Review"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3207,
+      "signals": {
+        "score": 0.3207,
+        "recency": 0.15076925869038818,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1233,10 +1262,10 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.3284,
+      "score": 0.3191,
       "signals": {
-        "score": 0.3284,
-        "recency": 0.24963102030549786,
+        "score": 0.3191,
+        "recency": 0.21254984081615416,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1246,108 +1275,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "the download a donor conception cap and world models for ai",
-      "title": "The Download: a donor conception cap and world models for AI",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/02/COLOMBIA-6.edit_.jpg?w=3000",
-      "link": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
-      "category": "technology",
+      "id": "chatgpt access tied to 9 drop in traditional search via sejournal mattgsouthern",
+      "title": "ChatGPT Access Tied To 9% Drop In Traditional Search via @sejournal, @MattGSouthern",
+      "summary": "A new research paper compares how often ChatGPT and Google send people to websites, and what wider ChatGPT access did to search.",
+      "image": "assets/images/generated/chatgpt access tied to 9 drop in traditional search via sejournal mattgsouthern.jpg",
+      "link": "https://www.searchenginejournal.com/chatgpt-access-tied-to-9-drop-in-traditional-search/582167/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-07-13T12:10:00+00:00",
+      "published_at": "2026-07-13T17:54:10+00:00",
       "source_count": 1,
       "source_names": [
-        "MIT Technology Review"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3273,
-      "signals": {
-        "score": 0.3273,
-        "recency": 0.17707227506295406,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "investors send general fusion soaring in debut as first publicly traded fusion company",
-      "title": "Investors send General Fusion soaring in debut as first publicly traded fusion company",
-      "summary": "General Fusion started trading on the Nasdaq following a reverse merger that saw high redemptions.",
-      "image": "assets/images/generated/investors send general fusion soaring in debut as first publicly traded fusion company.jpg",
-      "link": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-13T17:03:11+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
+        "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.3259,
+      "score": 0.318,
       "signals": {
-        "score": 0.3259,
-        "recency": 0.3997966852716097,
+        "score": 0.318,
+        "recency": 0.39219889584506407,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "publicis groupe stock holds steady as investors weigh aidriven growth and global advertising demand adhocnewsde",
-      "title": "Publicis Groupe stock holds steady as investors weigh AI-driven growth and global advertising demand - ad-hoc-news.de",
-      "summary": "Publicis Groupe stock holds steady as investors weigh AI-driven growth and global advertising demand &nbsp;&nbsp; ad-hoc-news.de",
-      "image": "assets/images/generated/publicis groupe stock holds steady as investors weigh aidriven growth and global advertising demand adhocnewsde.jpg",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObktHS1BybUgtNGstdzNTNDRYRmY5b25mcV9pUTZqc2xTVkp4X1JhRXI0NVNQLTNpZjBDT3RLcmFMMG9lNkJaUHdCNldYcTdpUTRyb0RYSjhfbjc5WF9McmlWSG1xdEw5Z1ZZVk9WNWZnXzJlYkdsbzRWU19GZktHTk1XaU9HWl9UbmdRVnU4bnRDVzM3ZmV2NmVFOFE2UVN5ekRHLVlUWFIzQnd6cnNhNWc4ZllwVXNHY3BLMkdpSGRwaDVIRWdyaFBvN0EwUQ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-13T13:05:35+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3257,
-      "signals": {
-        "score": 0.3257,
-        "recency": 0.20663545030798933,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "12 states sue to block paramounts 110b warner bros deal",
-      "title": "12 states sue to block Paramount\u2019s $110B Warner Bros. deal",
-      "summary": "The states allege that the deal would harm movie theaters, basic cable distributors, and audiences.",
-      "image": "assets/images/generated/12 states sue to block paramounts 110b warner bros deal.jpg",
-      "link": "https://techcrunch.com/2026/07/13/12-states-sue-to-block-paramounts-110b-warner-bros-deal/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-13T17:00:14+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.3251,
-      "signals": {
-        "score": 0.3251,
-        "recency": 0.39653395991327484,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -1369,13 +1316,41 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3251,
+      "score": 0.318,
       "signals": {
-        "score": 0.3251,
-        "recency": 0.1924605728238617,
+        "score": 0.318,
+        "recency": 0.16387171781389662,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "publicis groupe stock holds steady as investors weigh aidriven growth and global advertising demand adhocnewsde",
+      "title": "Publicis Groupe stock holds steady as investors weigh AI-driven growth and global advertising demand - ad-hoc-news.de",
+      "summary": "Publicis Groupe stock holds steady as investors weigh AI-driven growth and global advertising demand &nbsp;&nbsp; ad-hoc-news.de",
+      "image": "assets/images/generated/publicis groupe stock holds steady as investors weigh aidriven growth and global advertising demand adhocnewsde.jpg",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObktHS1BybUgtNGstdzNTNDRYRmY5b25mcV9pUTZqc2xTVkp4X1JhRXI0NVNQLTNpZjBDT3RLcmFMMG9lNkJaUHdCNldYcTdpUTRyb0RYSjhfbjc5WF9McmlWSG1xdEw5Z1ZZVk9WNWZnXzJlYkdsbzRWU19GZktHTk1XaU9HWl9UbmdRVnU4bnRDVzM3ZmV2NmVFOFE2UVN5ekRHLVlUWFIzQnd6cnNhNWc4ZllwVXNHY3BLMkdpSGRwaDVIRWdyaFBvN0EwUQ?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-13T13:05:35+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.318,
+      "signals": {
+        "score": 0.318,
+        "recency": 0.17594100290976603,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1397,42 +1372,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3216,
+      "score": 0.3152,
       "signals": {
-        "score": 0.3216,
-        "recency": 0.17222128749940666,
+        "score": 0.3152,
+        "recency": 0.14663885601378446,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "rockstar energys cmo on turning latent brand value into market share",
-      "title": "Rockstar Energy\u2019s CMO on turning latent brand value into market share",
-      "summary": "The brand is activating around sports and music to connect with consumers who prefer traditional energy drinks to sister beverages Celsius and Alani Nu.",
-      "image": "https://imgproxy.divecdn.com/K87xyOTDMuE9uCkYwr1SgDGvew4RIbhFIjNaKGXee7U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9ST0NLU1RBUl8wNDE2MjZfVHlsZXJSZWRkaWNrXzQ5ODUuanBn.webp",
-      "link": "https://www.marketingdive.com/news/rockstar-energy-cmo-on-turning-latent-brand-value-into-market-share/824917/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-13T10:00:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Marketing Dive"
-      ],
-      "keywords": [
-        "music"
-      ],
-      "score": 0.3186,
-      "signals": {
-        "score": 0.3186,
-        "recency": 0.2403541686984956,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1453,14 +1400,94 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.318,
+      "score": 0.3126,
       "signals": {
-        "score": 0.318,
-        "recency": 0.14613355237488276,
+        "score": 0.3126,
+        "recency": 0.12442629628789119,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "investors send general fusion soaring in debut as first publicly traded fusion company",
+      "title": "Investors send General Fusion soaring in debut as first publicly traded fusion company",
+      "summary": "General Fusion started trading on the Nasdaq following a reverse merger that saw high redemptions.",
+      "image": "assets/images/generated/investors send general fusion soaring in debut as first publicly traded fusion company.jpg",
+      "link": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-13T17:03:11+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3111,
+      "signals": {
+        "score": 0.3111,
+        "recency": 0.3404093037368209,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "12 states sue to block paramounts 110b warner bros deal",
+      "title": "12 states sue to block Paramount\u2019s $110B Warner Bros. deal",
+      "summary": "The states allege that the deal would harm movie theaters, basic cable distributors, and audiences.",
+      "image": "assets/images/generated/12 states sue to block paramounts 110b warner bros deal.jpg",
+      "link": "https://techcrunch.com/2026/07/13/12-states-sue-to-block-paramounts-110b-warner-bros-deal/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-13T17:00:14+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3104,
+      "signals": {
+        "score": 0.3104,
+        "recency": 0.3376312365130751,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "rockstar energys cmo on turning latent brand value into market share",
+      "title": "Rockstar Energy\u2019s CMO on turning latent brand value into market share",
+      "summary": "The brand is activating around sports and music to connect with consumers who prefer traditional energy drinks to sister beverages Celsius and Alani Nu.",
+      "image": "https://imgproxy.divecdn.com/K87xyOTDMuE9uCkYwr1SgDGvew4RIbhFIjNaKGXee7U/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9ST0NLU1RBUl8wNDE2MjZfVHlsZXJSZWRkaWNrXzQ5ODUuanBn.webp",
+      "link": "https://www.marketingdive.com/news/rockstar-energy-cmo-on-turning-latent-brand-value-into-market-share/824917/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-13T10:00:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Marketing Dive"
+      ],
+      "keywords": [
+        "music"
+      ],
+      "score": 0.3097,
+      "signals": {
+        "score": 0.3097,
+        "recency": 0.20465100945324763,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1481,10 +1508,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3149,
+      "score": 0.3095,
       "signals": {
-        "score": 0.3149,
-        "recency": 0.14578217250538011,
+        "score": 0.3095,
+        "recency": 0.1241271117745347,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1509,38 +1536,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3117,
+      "score": 0.3061,
       "signals": {
-        "score": 0.3117,
-        "recency": 0.1507374323142188,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "maram kekst campaign middle east",
-      "title": "maram kekst - Campaign Middle East",
-      "summary": "maram kekst &nbsp;&nbsp; Campaign Middle East",
-      "image": "assets/images/generated/maram kekst campaign middle east.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNGxZc2IzcDB2LV9KS0VYSjJxaXdlaW1KVmZDQWhnNlNVZmxLM3k0TUF1UndSMFd3RlNPc19vcGwyM2p1SGRpRy04WnY2ZTRTRnpTTnR0dG50NkV4SlBHRF9BOFczajVWTlZ4MUp3VFBNazFFQjNPVmc4ZnJ4OWhMOU9HTVZvemZi?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-13T10:40:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3085,
-      "signals": {
-        "score": 0.3085,
-        "recency": 0.1379040264792638,
+        "score": 0.3061,
+        "recency": 0.12834629768453254,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1565,13 +1564,97 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3084,
+      "score": 0.3042,
       "signals": {
-        "score": 0.3084,
-        "recency": 0.11357732799309654,
+        "score": 0.3042,
+        "recency": 0.09670610229334999,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "maram kekst campaign middle east",
+      "title": "maram kekst - Campaign Middle East",
+      "summary": "maram kekst &nbsp;&nbsp; Campaign Middle East",
+      "image": "assets/images/generated/maram kekst campaign middle east.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNGxZc2IzcDB2LV9KS0VYSjJxaXdlaW1KVmZDQWhnNlNVZmxLM3k0TUF1UndSMFd3RlNPc19vcGwyM2p1SGRpRy04WnY2ZTRTRnpTTnR0dG50NkV4SlBHRF9BOFczajVWTlZ4MUp3VFBNazFFQjNPVmc4ZnJ4OWhMOU9HTVZvemZi?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-13T10:40:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3034,
+      "signals": {
+        "score": 0.3034,
+        "recency": 0.11741921673116952,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "after the click turning aireferred shoppers into loyal customers",
+      "title": "After the click: Turning AI-referred shoppers into loyal customers",
+      "summary": "AI that truly assists creates loyalty. Without it, stores are discovered but quickly forgotten.",
+      "image": "assets/images/generated/after the click turning aireferred shoppers into loyal customers.jpg",
+      "link": "https://www.retaildive.com/spons/after-the-click-turning-ai-referred-shoppers-into-loyal-customers/824663/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-13T05:00:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Retail Dive"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3022,
+      "signals": {
+        "score": 0.3022,
+        "recency": 0.08894096207754655,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "whats next for cios omnicoms leif maiorini has insights ciocom",
+      "title": "What\u2019s next for CIOs? Omnicom\u2019s Leif Maiorini has insights - cio.com",
+      "summary": "What\u2019s next for CIOs? Omnicom\u2019s Leif Maiorini has insights &nbsp;&nbsp; cio.com",
+      "image": "assets/images/generated/whats next for cios omnicoms leif maiorini has insights ciocom.jpg",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTzN4ZlM4LXlaLVpINzdVZkk1MDdXYjlJSVNrZXpIVzd4T0FGZmJJT2NYc3BfSGZkVEg5VF9nLVBJclBuWmhEeWw3YWgtRXFLZVNyZUVKa2ZTbWZWZ3AyczQ5NTJVN2FPVzdDT0xKSXVuRTBrSWdWYzhPSkN4VEVBYmlKZ1VaSk9kd3RMUldHVU14VVUyV21KMXROSWo?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-13T09:32:44+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2984,
+      "signals": {
+        "score": 0.2984,
+        "recency": 0.09740706345613019,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1591,10 +1674,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3075,
+      "score": 0.2954,
       "signals": {
-        "score": 0.3075,
-        "recency": 0.32597991227997175,
+        "score": 0.2954,
+        "recency": 0.27755756628154077,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1617,67 +1700,13 @@
         "Microsoft Research"
       ],
       "keywords": [],
-      "score": 0.3069,
+      "score": 0.2944,
       "signals": {
-        "score": 0.3069,
-        "recency": 0.3354412642568585,
+        "score": 0.2944,
+        "recency": 0.2856134915993632,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "after the click turning aireferred shoppers into loyal customers",
-      "title": "After the click: Turning AI-referred shoppers into loyal customers",
-      "summary": "AI that truly assists creates loyalty. Without it, stores are discovered but quickly forgotten.",
-      "image": "assets/images/generated/after the click turning aireferred shoppers into loyal customers.jpg",
-      "link": "https://www.retaildive.com/spons/after-the-click-turning-ai-referred-shoppers-into-loyal-customers/824663/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-13T05:00:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3061,
-      "signals": {
-        "score": 0.3061,
-        "recency": 0.10445749112357425,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "55 net new audience how horizon media and intent iq are turning signal loss into incremental growth",
-      "title": "55% Net New Audience: How Horizon Media and Intent IQ Are Turning Signal Loss Into Incremental Growth",
-      "summary": "Incremental growth is what every marketer says they want.",
-      "image": "assets/images/generated/55 net new audience how horizon media and intent iq are turning signal loss into incremental growth.jpg",
-      "link": "https://www.adexchanger.com/content-studio/intent-iq-horizon-media-audience-amplification-incremental-growth-cannes-2026/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-13T16:12:32+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AdExchanger"
-      ],
-      "keywords": [],
-      "score": 0.3053,
-      "signals": {
-        "score": 0.3053,
-        "recency": 0.3473252589607889,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -1697,10 +1726,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3042,
+      "score": 0.2926,
       "signals": {
-        "score": 0.3042,
-        "recency": 0.3129226799361448,
+        "score": 0.2926,
+        "recency": 0.2664399068945642,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1710,29 +1739,27 @@
       "image_failure_reason": ""
     },
     {
-      "id": "whats next for cios omnicoms leif maiorini has insights ciocom",
-      "title": "What\u2019s next for CIOs? Omnicom\u2019s Leif Maiorini has insights - cio.com",
-      "summary": "What\u2019s next for CIOs? Omnicom\u2019s Leif Maiorini has insights &nbsp;&nbsp; cio.com",
-      "image": "assets/images/generated/whats next for cios omnicoms leif maiorini has insights ciocom.jpg",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTzN4ZlM4LXlaLVpINzdVZkk1MDdXYjlJSVNrZXpIVzd4T0FGZmJJT2NYc3BfSGZkVEg5VF9nLVBJclBuWmhEeWw3YWgtRXFLZVNyZUVKa2ZTbWZWZ3AyczQ5NTJVN2FPVzdDT0xKSXVuRTBrSWdWYzhPSkN4VEVBYmlKZ1VaSk9kd3RMUldHVU14VVUyV21KMXROSWo?oc=5",
-      "category": "advertising",
+      "id": "55 net new audience how horizon media and intent iq are turning signal loss into incremental growth",
+      "title": "55% Net New Audience: How Horizon Media and Intent IQ Are Turning Signal Loss Into Incremental Growth",
+      "summary": "Incremental growth is what every marketer says they want.",
+      "image": "assets/images/generated/55 net new audience how horizon media and intent iq are turning signal loss into incremental growth.jpg",
+      "link": "https://www.adexchanger.com/content-studio/intent-iq-horizon-media-audience-amplification-incremental-growth-cannes-2026/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-07-13T09:32:44+00:00",
+      "published_at": "2026-07-13T16:12:32+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Omnicom"
+        "AdExchanger"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3026,
+      "keywords": [],
+      "score": 0.2924,
       "signals": {
-        "score": 0.3026,
-        "recency": 0.11440057796396197,
-        "keyword_volume": 0.2,
+        "score": 0.2924,
+        "recency": 0.2957321907077079,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
+        "authority": 0.79,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1753,10 +1780,10 @@
       "keywords": [
         "streaming"
       ],
-      "score": 0.2975,
+      "score": 0.2919,
       "signals": {
-        "score": 0.2975,
-        "recency": 0.14986069027612747,
+        "score": 0.2919,
+        "recency": 0.1275997903778481,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1781,10 +1808,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2929,
+      "score": 0.2912,
       "signals": {
-        "score": 0.2929,
-        "recency": 0.04552331669736983,
+        "score": 0.2912,
+        "recency": 0.03876110310973329,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1809,10 +1836,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2929,
+      "score": 0.2912,
       "signals": {
-        "score": 0.2929,
-        "recency": 0.04552331669736983,
+        "score": 0.2912,
+        "recency": 0.03876110310973329,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1837,10 +1864,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2915,
+      "score": 0.2898,
       "signals": {
-        "score": 0.2915,
-        "recency": 0.04593402514755116,
+        "score": 0.2898,
+        "recency": 0.03911080330164478,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1865,38 +1892,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2899,
+      "score": 0.2882,
       "signals": {
-        "score": 0.2899,
-        "recency": 0.04563938025346359,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "why farmers insurance flipped its jingle as part of allpink rebrand",
-      "title": "Why Farmers Insurance flipped its jingle as part of all-pink rebrand",
-      "summary": "The effort is intended to help the brand stand out amid a &ldquo;sea of sameness&rdquo; in the insurance category, said Eleanor Solomon, head of creative at the brand.",
-      "image": "https://imgproxy.divecdn.com/JlwPKDh7q_N1dpxObknkZAXS9aIa2vk5Pz1KY2db32Q/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9DSE9JUi1QUi1TVElMTC5qcGc=.webp",
-      "link": "https://www.marketingdive.com/news/why-farmers-insurance-flipped-jingle-part-all-pink-rebrand/824955/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-13T00:01:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Marketing Dive"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2899,
-      "signals": {
-        "score": 0.2899,
-        "recency": 0.04552331669736983,
+        "score": 0.2882,
+        "recency": 0.038859926125967816,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1921,10 +1920,38 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2898,
+      "score": 0.2882,
       "signals": {
-        "score": 0.2898,
-        "recency": 0.04539703850744939,
+        "score": 0.2882,
+        "recency": 0.03865358278179773,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "why farmers insurance flipped its jingle as part of allpink rebrand",
+      "title": "Why Farmers Insurance flipped its jingle as part of all-pink rebrand",
+      "summary": "The effort is intended to help the brand stand out amid a &ldquo;sea of sameness&rdquo; in the insurance category, said Eleanor Solomon, head of creative at the brand.",
+      "image": "https://imgproxy.divecdn.com/JlwPKDh7q_N1dpxObknkZAXS9aIa2vk5Pz1KY2db32Q/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9DSE9JUi1QUi1TVElMTC5qcGc=.webp",
+      "link": "https://www.marketingdive.com/news/why-farmers-insurance-flipped-jingle-part-all-pink-rebrand/824955/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-13T00:01:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Marketing Dive"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2882,
+      "signals": {
+        "score": 0.2882,
+        "recency": 0.03876110310973329,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1947,10 +1974,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2848,
+      "score": 0.2742,
       "signals": {
-        "score": 0.2848,
-        "recency": 0.28301309484292325,
+        "score": 0.2742,
+        "recency": 0.24097320991651464,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1958,6 +1985,34 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+    },
+    {
+      "id": "how streaming creators built a new broadcast blueprint at the world cup",
+      "title": "How streaming creators built a new broadcast blueprint at the World Cup",
+      "summary": "Livestreaming creators offer new ways to broadcast sports to diverse audiences; this 2026 FIFA World Cup may be the new blueprint for leagues",
+      "image": "assets/images/generated/how streaming creators built a new broadcast blueprint at the world cup.jpg",
+      "link": "https://digiday.com/media/how-streaming-creators-built-a-new-broadcast-blueprint-at-the-world-cup/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-13T04:01:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Digiday"
+      ],
+      "keywords": [
+        "streaming"
+      ],
+      "score": 0.2712,
+      "signals": {
+        "score": 0.2712,
+        "recency": 0.03876110310973329,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
     },
     {
       "id": "evergreen content is over the individual is the only strategy left via sejournal theshelleywalsh",
@@ -1973,10 +2028,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.2754,
+      "score": 0.2672,
       "signals": {
-        "score": 0.2754,
-        "recency": 0.2216592552021832,
+        "score": 0.2672,
+        "recency": 0.18873311237919776,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1999,41 +2054,13 @@
         "AI Business"
       ],
       "keywords": [],
-      "score": 0.2743,
+      "score": 0.2662,
       "signals": {
-        "score": 0.2743,
-        "recency": 0.21711927823345048,
+        "score": 0.2662,
+        "recency": 0.18486752155305686,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "how streaming creators built a new broadcast blueprint at the world cup",
-      "title": "How streaming creators built a new broadcast blueprint at the World Cup",
-      "summary": "Livestreaming creators offer new ways to broadcast sports to diverse audiences; this 2026 FIFA World Cup may be the new blueprint for leagues",
-      "image": "assets/images/generated/how streaming creators built a new broadcast blueprint at the world cup.jpg",
-      "link": "https://digiday.com/media/how-streaming-creators-built-a-new-broadcast-blueprint-at-the-world-cup/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-13T04:01:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Digiday"
-      ],
-      "keywords": [
-        "streaming"
-      ],
-      "score": 0.2729,
-      "signals": {
-        "score": 0.2729,
-        "recency": 0.04552331669736983,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.81,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -2053,13 +2080,41 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2728,
+      "score": 0.2658,
       "signals": {
-        "score": 0.2728,
-        "recency": 0.18718801479686492,
+        "score": 0.2658,
+        "recency": 0.15938236641854273,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "omnicom and nbcuniversal test dynamic advertising that adapts streaming ads to every viewing moment portadaonlinecom",
+      "title": "Omnicom and NBCUniversal Test Dynamic Advertising That Adapts Streaming Ads to Every Viewing Moment - portada-online.com",
+      "summary": "Omnicom and NBCUniversal Test Dynamic Advertising That Adapts Streaming Ads to Every Viewing Moment &nbsp;&nbsp; portada-online.com",
+      "image": "assets/images/generated/omnicom and nbcuniversal test dynamic advertising that adapts streaming ads to every viewing moment portadaonlinecom.jpg",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPc3FFSG9mVFl6dENLbnVySFJXRk90eG9SbkpQa2dJZXRDTm8zcWpsZFY3b1kzcUJUbVByNEhEOHY0cHU3Wl9fcjBXaGhCbEpHS0dDZDQxWFZ0eEdCT1NSU3hTalRuLTZRdTV3QkxKOVRsaEh0YXY1TE4xdDNfLWpxVm5YT3lpb3VxZlpNajJRbV9TQQ?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-13T01:42:38+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [
+        "streaming"
+      ],
+      "score": 0.2606,
+      "signals": {
+        "score": 0.2606,
+        "recency": 0.02639211773082825,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -2079,10 +2134,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2653,
+      "score": 0.2585,
       "signals": {
-        "score": 0.2653,
-        "recency": 0.18108479284486007,
+        "score": 0.2585,
+        "recency": 0.15418574120434972,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2105,36 +2160,10 @@
         "MarTech"
       ],
       "keywords": [],
-      "score": 0.2646,
+      "score": 0.2575,
       "signals": {
-        "score": 0.2646,
-        "recency": 0.19033395841788933,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "is open semantic interchange your data silo cure",
-      "title": "Is Open Semantic Interchange your data silo cure?",
-      "summary": "Breaking down marketing database silos requires more than APIs.",
-      "image": "https://martech.org/wp-content/uploads/2025/11/mtb-explains-it-all-new.png",
-      "link": "https://martech.org/is-open-semantic-interchange-your-data-silo-cure/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-07-13T12:23:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarTech"
-      ],
-      "keywords": [],
-      "score": 0.2629,
-      "signals": {
-        "score": 0.2629,
-        "recency": 0.1835834062185179,
+        "score": 0.2575,
+        "recency": 0.16206099912631686,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -2157,10 +2186,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2626,
+      "score": 0.2563,
       "signals": {
-        "score": 0.2626,
-        "recency": 0.17043662699870465,
+        "score": 0.2563,
+        "recency": 0.14511929604535237,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2170,28 +2199,26 @@
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
-      "id": "omnicom and nbcuniversal test dynamic advertising that adapts streaming ads to every viewing moment portadaonlinecom",
-      "title": "Omnicom and NBCUniversal Test Dynamic Advertising That Adapts Streaming Ads to Every Viewing Moment - portada-online.com",
-      "summary": "Omnicom and NBCUniversal Test Dynamic Advertising That Adapts Streaming Ads to Every Viewing Moment &nbsp;&nbsp; portada-online.com",
-      "image": "assets/images/generated/omnicom and nbcuniversal test dynamic advertising that adapts streaming ads to every viewing moment portadaonlinecom.jpg",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPc3FFSG9mVFl6dENLbnVySFJXRk90eG9SbkpQa2dJZXRDTm8zcWpsZFY3b1kzcUJUbVByNEhEOHY0cHU3Wl9fcjBXaGhCbEpHS0dDZDQxWFZ0eEdCT1NSU3hTalRuLTZRdTV3QkxKOVRsaEh0YXY1TE4xdDNfLWpxVm5YT3lpb3VxZlpNajJRbV9TQQ?oc=5",
-      "category": "advertising",
+      "id": "is open semantic interchange your data silo cure",
+      "title": "Is Open Semantic Interchange your data silo cure?",
+      "summary": "Breaking down marketing database silos requires more than APIs.",
+      "image": "https://martech.org/wp-content/uploads/2025/11/mtb-explains-it-all-new.png",
+      "link": "https://martech.org/is-open-semantic-interchange-your-data-silo-cure/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-07-13T01:42:38+00:00",
+      "published_at": "2026-07-13T12:23:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Omnicom"
+        "MarTech"
       ],
-      "keywords": [
-        "streaming"
-      ],
-      "score": 0.2617,
+      "keywords": [],
+      "score": 0.2561,
       "signals": {
-        "score": 0.2617,
-        "recency": 0.030996453593527023,
-        "keyword_volume": 0.2,
+        "score": 0.2561,
+        "recency": 0.15631320066103965,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.76,
+        "authority": 0.78,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -2211,10 +2238,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2559,
+      "score": 0.2497,
       "signals": {
-        "score": 0.2559,
-        "recency": 0.16751095023373533,
+        "score": 0.2497,
+        "recency": 0.14262821088328909,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2237,10 +2264,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2552,
+      "score": 0.2491,
       "signals": {
-        "score": 0.2552,
-        "recency": 0.16492538641866766,
+        "score": 0.2491,
+        "recency": 0.14042671694779946,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2263,10 +2290,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2532,
+      "score": 0.2473,
       "signals": {
-        "score": 0.2532,
-        "recency": 0.15664238275414444,
+        "score": 0.2473,
+        "recency": 0.13337410342156591,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2289,10 +2316,10 @@
         "Retail Dive"
       ],
       "keywords": [],
-      "score": 0.2461,
+      "score": 0.2422,
       "signals": {
-        "score": 0.2461,
-        "recency": 0.10445749112357425,
+        "score": 0.2422,
+        "recency": 0.08894096207754655,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2315,10 +2342,10 @@
         "Retail Dive"
       ],
       "keywords": [],
-      "score": 0.2461,
+      "score": 0.2422,
       "signals": {
-        "score": 0.2461,
-        "recency": 0.10445749112357425,
+        "score": 0.2422,
+        "recency": 0.08894096207754655,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2341,10 +2368,10 @@
         "Meta Newsroom"
       ],
       "keywords": [],
-      "score": 0.2439,
+      "score": 0.2397,
       "signals": {
-        "score": 0.2439,
-        "recency": 0.1136614905146215,
+        "score": 0.2397,
+        "recency": 0.09677776298091564,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.77,
@@ -2367,10 +2394,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2413,
+      "score": 0.2372,
       "signals": {
-        "score": 0.2413,
-        "recency": 0.10902795085441203,
+        "score": 0.2372,
+        "recency": 0.09283250763569616,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2378,6 +2405,32 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
+    },
+    {
+      "id": "zawya abu dhabi businesswomen council and publicis groupe middle east launch second edition of raidah tradingview",
+      "title": "ZAWYA: Abu Dhabi Businesswomen Council and Publicis Groupe Middle East launch second edition of Ra'idah - TradingView",
+      "summary": "ZAWYA: Abu Dhabi Businesswomen Council and Publicis Groupe Middle East launch second edition of Ra'idah &nbsp;&nbsp; TradingView",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22ZAWYA%3A%20Abu%20Dhabi%20Businesswomen%20Council%20and%20Publicis%20Groupe%20Middle%20East%20launch%20second%20edition%20of%20Ra%26%2339%3Bidah%20-%20TradingView%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23334155%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23020617%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGOOGLE%20NEWS%20-%20PUBLICIS%20GROUPE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EZAWYA%3A%20ABU%20DHABI%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EBUSINESSWOMEN%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EZAWYA%3A%20Abu%20Dhabi%20Businesswomen%20Council%20and%20Publicis%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOREN5MUNxTVdJRUVUQ0RmQWxLd1ZhdU9JUUN4cHVjcTNwS3B3QVllZUxmOE94ek1qUUVZbGpHUFJoM3B6UEZHa29xaEwtbmF2bjBSX29SVThHRTdYMGNMVUhlX3JlQXJ2MVlobldjM3ZPV3lFWHNvQi14MFp1c1RDbWRtTG9xbVE4RGNEMUU4VmNJYnJsalRXcVV6Z1F2YUM5dUlVMFp2LVJqRG85NGpqUFF2bG1uSzUzRm9ab09mdHVacjhOUTRfSy13WlNfV3FJTHI2QUhhRFl4c3R0bHpDcDdYSWF4RVdHRHVHQnA2cHNqRWZUQ3FqR3VUM2dNN190VHRhWENEZEU?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-13T09:08:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [],
+      "score": 0.2368,
+      "signals": {
+        "score": 0.2368,
+        "recency": 0.09102379449684346,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "publicis stock reflects the groups global advertising reach adhocnewsde",
@@ -2393,10 +2446,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2391,
+      "score": 0.2354,
       "signals": {
-        "score": 0.2391,
-        "recency": 0.10054768142143093,
+        "score": 0.2354,
+        "recency": 0.08561193097878729,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2419,10 +2472,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2358,
+      "score": 0.2335,
       "signals": {
-        "score": 0.2358,
-        "recency": 0.06335667100310804,
+        "score": 0.2335,
+        "recency": 0.0539454204043706,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2445,10 +2498,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2358,
+      "score": 0.2335,
       "signals": {
-        "score": 0.2358,
-        "recency": 0.06335667100310804,
+        "score": 0.2335,
+        "recency": 0.0539454204043706,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2471,10 +2524,10 @@
         "Digiday"
       ],
       "keywords": [],
-      "score": 0.2329,
+      "score": 0.2312,
       "signals": {
-        "score": 0.2329,
-        "recency": 0.04552331669736983,
+        "score": 0.2312,
+        "recency": 0.03876110310973329,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2497,10 +2550,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2328,
+      "score": 0.23,
       "signals": {
-        "score": 0.2328,
-        "recency": 0.0751282664271917,
+        "score": 0.23,
+        "recency": 0.06396841646663545,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2523,10 +2576,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.2319,
+      "score": 0.2299,
       "signals": {
-        "score": 0.2319,
-        "recency": 0.05377197536004919,
+        "score": 0.2299,
+        "recency": 0.045784473376592236,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2549,10 +2602,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.231,
+      "score": 0.2292,
       "signals": {
-        "score": 0.231,
-        "recency": 0.05006475373171253,
+        "score": 0.2292,
+        "recency": 0.04262793711756146,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2575,10 +2628,10 @@
         "Modern Retail"
       ],
       "keywords": [],
-      "score": 0.2298,
+      "score": 0.2282,
       "signals": {
-        "score": 0.2298,
-        "recency": 0.04539703850744939,
+        "score": 0.2282,
+        "recency": 0.03865358278179773,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
