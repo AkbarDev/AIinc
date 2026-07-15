@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T22:10:05.871803+00:00",
+  "generated_at": "2026-07-15T23:13:12.934000+00:00",
   "sources_scanned": 2822,
   "feeds_polled": 33,
   "feed_pool": 38,
@@ -13,32 +13,61 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 111,
+  "clusters": 115,
   "trends": [
     {
-      "id": "perplexity ai introduces space sandbox for agents",
-      "title": "Perplexity AI Introduces Space Sandbox for Agents",
-      "summary": "The platform shows how the search vendor is evolving its strategy.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt24dc6e7c039dc7c5/6a57f2a56a5978b244ff9649/Perplexity3.jpg?width=720&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/agentic-ai/perplexity-ai-introduces-sandbox-for-agents",
+      "id": "agentic orchestration enterprise ai organizations have a deployment problem not a platform problem and most are calling chatbots agents",
+      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem \u2014 and most are calling chatbots agents",
+      "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms \u2014 Anthropic\u2019s Claude leads by a wide margin \u2014 chosen for the gravity of the underlying",
+      "image": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/6620b35dd75cc138cb57cf72a9773f07/VentureBeat-Research-1.png?w=300&q=30",
+      "link": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-07-15T20:48:12+00:00",
+      "published_at": "2026-07-15T22:24:17+00:00",
       "source_count": 1,
       "source_names": [
-        "AI Business"
+        "VentureBeat AI"
       ],
       "keywords": [
         "ai",
+        "enterprise",
         "platform"
       ],
-      "score": 0.5191,
+      "score": 0.5827,
       "signals": {
-        "score": 0.5191,
-        "recency": 0.7965271489089683,
-        "keyword_volume": 0.4,
+        "score": 0.5827,
+        "recency": 0.8729099571140164,
+        "keyword_volume": 0.6,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.83,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "nvidia introduces new jetson thor computers to advance mainstream robotics and edge ai",
+      "title": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
+      "summary": "General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/07/robotics-jetson-T3000-T2000-jhh-japan-1280x680-1.jpg",
+      "link": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-07-15T23:00:54+00:00",
+      "source_count": 1,
+      "source_names": [
+        "NVIDIA Blog"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5276,
+      "signals": {
+        "score": 0.5276,
+        "recency": 0.9663686354115159,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -61,13 +90,42 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5147,
+      "score": 0.4877,
       "signals": {
-        "score": 0.5147,
-        "recency": 0.67181528971887,
+        "score": 0.4877,
+        "recency": 0.5637757030020416,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "perplexity ai introduces space sandbox for agents",
+      "title": "Perplexity AI Introduces Space Sandbox for Agents",
+      "summary": "The platform shows how the search vendor is evolving its strategy.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt24dc6e7c039dc7c5/6a57f2a56a5978b244ff9649/Perplexity3.jpg?width=720&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/agentic-ai/perplexity-ai-introduces-sandbox-for-agents",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-07-15T20:48:12+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AI Business"
+      ],
+      "keywords": [
+        "ai",
+        "platform"
+      ],
+      "score": 0.4871,
+      "signals": {
+        "score": 0.4871,
+        "recency": 0.6684317255183067,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -89,94 +147,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5138,
+      "score": 0.4762,
       "signals": {
-        "score": 0.5138,
-        "recency": 0.9352094110863731,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "startup raises 50 million to develop sovereign ai infrastructure",
-      "title": "Startup Raises $50 Million to Develop Sovereign AI Infrastructure",
-      "summary": "Sovereign AI has been flourishing around the world, but usually with infrastructure built by U.S.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt994e355abf16c404/6a58002860d4a51ae8360267/Valarian_logo.jpg?width=720&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/generative-ai/startup-banks-50-million-develop-sovereign-ai-infrastructure",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-07-15T21:42:30+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AI Business"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.5116,
-      "signals": {
-        "score": 0.5116,
-        "recency": 0.926204032049236,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "ai is reshaping b2b brand and communications investments",
-      "title": "AI Is Reshaping B2B Brand And Communications Investments",
-      "summary": "AI is changing how B2B brand and communications teams invest, operate, and prioritize work.",
-      "image": "assets/images/generated/ai is reshaping b2b brand and communications investments.jpg",
-      "link": "https://www.forrester.com/blogs/ai-is-reshaping-b2b-brand-and-communications-investments/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-15T21:31:08+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Forrester Blogs"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.5044,
-      "signals": {
-        "score": 0.5044,
-        "recency": 0.8974168531021376,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "as ai use expands b2b marketers become more selective about agency spend",
-      "title": "As AI Use Expands, B2B Marketers Become More Selective About Agency Spend",
-      "summary": "B2B marketers have long relied on agencies for scale, specialized expertise, and execution support across brand and communications.",
-      "image": "assets/images/generated/as ai use expands b2b marketers become more selective about agency spend.jpg",
-      "link": "https://www.forrester.com/blogs/as-ai-use-expands-b2b-marketers-become-more-selective-about-agency-spend/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-15T21:29:53+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Forrester Blogs"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.5036,
-      "signals": {
-        "score": 0.5036,
-        "recency": 0.8943062258819068,
+        "score": 0.4762,
+        "recency": 0.7848114671667853,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -203,10 +177,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.4924,
+      "score": 0.4754,
       "signals": {
-        "score": 0.4924,
-        "recency": 0.42257727316520727,
+        "score": 0.4754,
+        "recency": 0.3546194957115291,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -216,42 +190,42 @@
       "image_failure_reason": ""
     },
     {
-      "id": "the state of agentic storefronts how ai agents guide shoppers on frictionless fullfunnel journeys",
-      "title": "The state of agentic storefronts: How AI agents guide shoppers on frictionless, full-funnel journeys",
-      "summary": "This State of the Industry report, sponsored by Swap, explores how brands, retailers and agencies are adopting agentic commerce, including agentic storefronts, to enhance",
-      "image": "assets/images/generated/the state of agentic storefronts how ai agents guide shoppers on frictionless fullfunnel journeys.jpg",
-      "link": "https://www.modernretail.co/sponsored/the-state-of-agentic-storefronts-how-ai-agents-guide-shoppers-on-frictionless-full-funnel-journeys/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
+      "id": "startup raises 50 million to develop sovereign ai infrastructure",
+      "title": "Startup Raises $50 Million to Develop Sovereign AI Infrastructure",
+      "summary": "Sovereign AI has been flourishing around the world, but usually with infrastructure built by U.S.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt994e355abf16c404/6a58002860d4a51ae8360267/Valarian_logo.jpg?width=720&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/generative-ai/startup-banks-50-million-develop-sovereign-ai-infrastructure",
+      "category": "startup",
       "geo": "global",
-      "published_at": "2026-07-15T20:22:52+00:00",
+      "published_at": "2026-07-15T21:42:30+00:00",
       "source_count": 1,
       "source_names": [
-        "Modern Retail"
+        "AI Business"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.4641,
+      "score": 0.4743,
       "signals": {
-        "score": 0.4641,
-        "recency": 0.7424019764095707,
+        "score": 0.4743,
+        "recency": 0.7772543097528979,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.79,
+        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "the technology industry is stumbling down the path to becoming a proper supply chain",
-      "title": "The Technology Industry Is Stumbling Down The Path To Becoming A Proper Supply Chain",
-      "summary": "The technology industry has always been immature compared with the manufacturing, automotive, telecommunications, and oil and gas industries.",
-      "image": "assets/images/generated/the technology industry is stumbling down the path to becoming a proper supply chain.jpg",
-      "link": "https://www.forrester.com/blogs/the-technology-industry-is-stumbling-down-the-path-to-becoming-a-proper-supply-chain/",
+      "id": "ai is reshaping b2b brand and communications investments",
+      "title": "AI Is Reshaping B2B Brand And Communications Investments",
+      "summary": "AI is changing how B2B brand and communications teams invest, operate, and prioritize work.",
+      "image": "assets/images/generated/ai is reshaping b2b brand and communications investments.jpg",
+      "link": "https://www.forrester.com/blogs/ai-is-reshaping-b2b-brand-and-communications-investments/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-07-15T20:17:54+00:00",
+      "published_at": "2026-07-15T21:31:08+00:00",
       "source_count": 1,
       "source_names": [
         "Forrester Blogs"
@@ -259,10 +233,38 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4631,
+      "score": 0.4683,
       "signals": {
-        "score": 0.4631,
-        "recency": 0.7322299085467251,
+        "score": 0.4683,
+        "recency": 0.7530966100150169,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "as ai use expands b2b marketers become more selective about agency spend",
+      "title": "As AI Use Expands, B2B Marketers Become More Selective About Agency Spend",
+      "summary": "B2B marketers have long relied on agencies for scale, specialized expertise, and execution support across brand and communications.",
+      "image": "assets/images/generated/as ai use expands b2b marketers become more selective about agency spend.jpg",
+      "link": "https://www.forrester.com/blogs/as-ai-use-expands-b2b-marketers-become-more-selective-about-agency-spend/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-15T21:29:53+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Forrester Blogs"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4676,
+      "signals": {
+        "score": 0.4676,
+        "recency": 0.7504862257699714,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -289,10 +291,10 @@
         "ai",
         "enterprise"
       ],
-      "score": 0.4624,
+      "score": 0.4503,
       "signals": {
-        "score": 0.4624,
-        "recency": 0.3027898473597641,
+        "score": 0.4503,
+        "recency": 0.25409597201719814,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -302,23 +304,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "jack delmonte joins digitas australia as executive creative director mi3comau",
-      "title": "Jack Delmonte joins Digitas Australia as Executive Creative Director - Mi-3.com.au.",
-      "summary": "Jack Delmonte joins Digitas Australia as Executive Creative Director &nbsp;&nbsp; Mi-3.com.au.",
-      "image": "assets/images/generated/jack delmonte joins digitas australia as executive creative director mi3comau.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc1hsQTRqRERCZEVwMVl0bzJmMl9heTI5UWRVV2JfSU1GN2dZSkwwMEFtdkhxS1JfVmRHczViSEVtaFMxMnZ5Ui1VQjltM3p3V0VIRS1XeUxzbEg5Z1VyR0hVaUhPZERuVkJqWXZMRmMyclVXSFpacVdZczhBckZnZjdDbWdXSWFRQmhtQmNfNlVTVnZRRDh4X0RYQW83WG5GZ2c?oc=5",
+      "id": "initiative appoints andrew cambridge as ceo mediaweek",
+      "title": "Initiative appoints Andrew Cambridge as CEO - Mediaweek",
+      "summary": "Initiative appoints Andrew Cambridge as CEO &nbsp;&nbsp; Mediaweek",
+      "image": "assets/images/generated/initiative appoints andrew cambridge as ceo mediaweek.jpg",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAxRnVxS0lQeEFIVVJTSGVyZ1h1UklmUTZ3NUdWaFV1MGNlcDVJMWtGYTNSSnhoelQ4M1F0MHN1ZnRXODBwOUtlbUhFMTlNSk9GMnVQMjN5Y01jU2Z0TlUtZHJEMndJS2Rac1NpYkZ5UEptNWdTYk9kSUFfLUI?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-15T22:04:17+00:00",
+      "published_at": "2026-07-15T22:46:08+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Publicis Groupe"
+        "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.46,
+      "score": 0.4459,
       "signals": {
-        "score": 0.46,
-        "recency": 0.9839782632557601,
+        "score": 0.4459,
+        "recency": 0.9275315898659108,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -328,23 +330,109 @@
       "image_failure_reason": ""
     },
     {
-      "id": "omnicom media appoints andrew cambridge as initiative ceo mumbrella",
-      "title": "Omnicom Media appoints Andrew Cambridge as Initiative CEO - Mumbrella",
-      "summary": "Omnicom Media appoints Andrew Cambridge as Initiative CEO &nbsp;&nbsp; Mumbrella",
-      "image": "assets/images/generated/omnicom media appoints andrew cambridge as initiative ceo mumbrella.jpg",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUjdLZTI1YllaVlpBd05GQ0JYTXRsdElZbHJzNEx2Zkg0T21ZazF0ZjJpcGZfaUMtcXc0NWJmMG8yY0dfQkxWSWpIZTY4cTdkVjM4amRoNWlyOFBobFJtc3RqZVBJV2dPSUxZVXJ4cTkwTmMyTnZlVzRhbXE5WC0xT3FnNE5sNjZ5UG9PU0c1TlA2N0k?oc=5",
-      "category": "advertising",
+      "id": "the state of agentic storefronts how ai agents guide shoppers on frictionless fullfunnel journeys",
+      "title": "The state of agentic storefronts: How AI agents guide shoppers on frictionless, full-funnel journeys",
+      "summary": "This State of the Industry report, sponsored by Swap, explores how brands, retailers and agencies are adopting agentic commerce, including agentic storefronts, to enhance",
+      "image": "assets/images/generated/the state of agentic storefronts how ai agents guide shoppers on frictionless fullfunnel journeys.jpg",
+      "link": "https://www.modernretail.co/sponsored/the-state-of-agentic-storefronts-how-ai-agents-guide-shoppers-on-frictionless-full-funnel-journeys/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-07-15T21:52:19+00:00",
+      "published_at": "2026-07-15T20:22:52+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Omnicom"
+        "Modern Retail"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4343,
+      "signals": {
+        "score": 0.4343,
+        "recency": 0.6230108224175098,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "anthropic blackstone bet the next trilliondollar ai business is implementation not just models",
+      "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models",
+      "summary": "Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
+      "image": "assets/images/generated/anthropic blackstone bet the next trilliondollar ai business is implementation not just models.jpg",
+      "link": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-15T13:10:47+00:00",
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch Startups"
+      ],
+      "keywords": [
+        "ai",
+        "enterprise"
+      ],
+      "score": 0.4337,
+      "signals": {
+        "score": 0.4337,
+        "recency": 0.187603821833566,
+        "keyword_volume": 0.4,
+        "source_signal": 0.4,
+        "authority": 0.845,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the technology industry is stumbling down the path to becoming a proper supply chain",
+      "title": "The Technology Industry Is Stumbling Down The Path To Becoming A Proper Supply Chain",
+      "summary": "The technology industry has always been immature compared with the manufacturing, automotive, telecommunications, and oil and gas industries.",
+      "image": "assets/images/generated/the technology industry is stumbling down the path to becoming a proper supply chain.jpg",
+      "link": "https://www.forrester.com/blogs/the-technology-industry-is-stumbling-down-the-path-to-becoming-a-proper-supply-chain/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-15T20:17:54+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Forrester Blogs"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4336,
+      "signals": {
+        "score": 0.4336,
+        "recency": 0.6144746000389449,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "digitas australia appoints jack delmonte as ecd mumbrella",
+      "title": "Digitas Australia appoints Jack Delmonte as ECD - Mumbrella",
+      "summary": "Digitas Australia appoints Jack Delmonte as ECD &nbsp;&nbsp; Mumbrella",
+      "image": "assets/images/generated/digitas australia appoints jack delmonte as ecd mumbrella.jpg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMUViZUFPX0U1bWF2Vnk5VkdsRTY5M3BZVkx6NjZWQXZPUkhPcFIwQXpweGxfNHFDUUZBNndhVWgyZzZ2T09Eckt0elcwM0QtSUJRZXgwRlN5TTZVNG9ReFVrZUdmSVpLWmxPcHZ5RDlVaHNJQzlhQ1RtNGFFR0FGaUZaV1VjQQ?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-15T22:14:24+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.452,
+      "score": 0.4263,
       "signals": {
-        "score": 0.452,
-        "recency": 0.9518077450120705,
+        "score": 0.4263,
+        "recency": 0.8492713146313384,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -369,10 +457,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4515,
+      "score": 0.4249,
       "signals": {
-        "score": 0.4515,
-        "recency": 0.6620584245307842,
+        "score": 0.4249,
+        "recency": 0.5555879114845085,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -382,31 +470,27 @@
       "image_failure_reason": ""
     },
     {
-      "id": "anthropic blackstone bet the next trilliondollar ai business is implementation not just models",
-      "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models",
-      "summary": "Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
-      "image": "assets/images/generated/anthropic blackstone bet the next trilliondollar ai business is implementation not just models.jpg",
-      "link": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
-      "category": "technology",
+      "id": "jack delmonte joins digitas australia as executive creative director mi3comau",
+      "title": "Jack Delmonte joins Digitas Australia as Executive Creative Director - Mi-3.com.au.",
+      "summary": "Jack Delmonte joins Digitas Australia as Executive Creative Director &nbsp;&nbsp; Mi-3.com.au.",
+      "image": "assets/images/generated/jack delmonte joins digitas australia as executive creative director mi3comau.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc1hsQTRqRERCZEVwMVl0bzJmMl9heTI5UWRVV2JfSU1GN2dZSkwwMEFtdkhxS1JfVmRHczViSEVtaFMxMnZ5Ui1VQjltM3p3V0VIRS1XeUxzbEg5Z1VyR0hVaUhPZERuVkJqWXZMRmMyclVXSFpacVdZczhBckZnZjdDbWdXSWFRQmhtQmNfNlVTVnZRRDh4X0RYQW83WG5GZ2c?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-15T13:10:47+00:00",
-      "source_count": 2,
+      "published_at": "2026-07-15T22:04:17+00:00",
+      "source_count": 1,
       "source_names": [
-        "TechCrunch",
-        "TechCrunch Startups"
+        "Google News - Publicis Groupe"
       ],
-      "keywords": [
-        "ai",
-        "enterprise"
-      ],
-      "score": 0.4426,
+      "keywords": [],
+      "score": 0.4204,
       "signals": {
-        "score": 0.4426,
-        "recency": 0.22355542327624583,
-        "keyword_volume": 0.4,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.6
+        "score": 0.4204,
+        "recency": 0.8257374394350024,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -428,10 +512,10 @@
         "ai",
         "music"
       ],
-      "score": 0.4318,
+      "score": 0.4148,
       "signals": {
-        "score": 0.4318,
-        "recency": 0.42324296488177654,
+        "score": 0.4148,
+        "recency": 0.35517813261848086,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -441,110 +525,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "thinking machines amps up its bet against onesizefitsall ai with its first open model inkling",
-      "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
-      "summary": "It's the company's first public proof point after a year and a half spent building AI infrastructure largely out of public view.",
-      "image": "assets/images/generated/thinking machines amps up its bet against onesizefitsall ai with its first open model inkling.jpg",
-      "link": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
-      "category": "technology",
+      "id": "omnicom media appoints andrew cambridge as initiative ceo mumbrella",
+      "title": "Omnicom Media appoints Andrew Cambridge as Initiative CEO - Mumbrella",
+      "summary": "Omnicom Media appoints Andrew Cambridge as Initiative CEO &nbsp;&nbsp; Mumbrella",
+      "image": "assets/images/generated/omnicom media appoints andrew cambridge as initiative ceo mumbrella.jpg",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUjdLZTI1YllaVlpBd05GQ0JYTXRsdElZbHJzNEx2Zkg0T21ZazF0ZjJpcGZfaUMtcXc0NWJmMG8yY0dfQkxWSWpIZTY4cTdkVjM4amRoNWlyOFBobFJtc3RqZVBJV2dPSUxZVXJ4cTkwTmMyTnZlVzRhbXE5WC0xT3FnNE5sNjZ5UG9PU0c1TlA2N0k?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-15T18:04:06+00:00",
+      "published_at": "2026-07-15T21:52:19+00:00",
       "source_count": 1,
       "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4122,
-      "signals": {
-        "score": 0.4122,
-        "recency": 0.5049340772701219,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "tesla driver in fatal texas crash pressed accelerator 100 ntsb confirms",
-      "title": "Tesla driver in fatal Texas crash pressed accelerator 100%, NTSB confirms",
-      "summary": "The safety board confirmed Tesla's account of the crash, which the company shared days after it happened last month.",
-      "image": "assets/images/generated/tesla driver in fatal texas crash pressed accelerator 100 ntsb confirms.jpg",
-      "link": "https://techcrunch.com/2026/07/15/tesla-driver-in-fatal-texas-crash-pressed-accelerator-100-ntsb-confirms/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-15T20:22:52+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
+        "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.4116,
+      "score": 0.4137,
       "signals": {
-        "score": 0.4116,
-        "recency": 0.7424019764095707,
+        "score": 0.4137,
+        "recency": 0.7987405002221933,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "stripes acquisition pace has accelerated in the past five years but nothing comes close to its reported 53b paypal bet",
-      "title": "Stripe\u2019s Acquisition Pace Has Accelerated In The Past Five Years, But Nothing Comes Close To Its Reported $53B PayPal Bet",
-      "summary": "Payments giant Stripe and private equity firm Advent International have teamed up to make an offer to buy troubled PayPal in a deal valued at more than $53 billion, Reuters",
-      "image": "https://news.crunchbase.com/wp-content/uploads/mergers_and_acquisitions.jpg",
-      "link": "https://news.crunchbase.com/ma/stripe-acquisition-pace-accelerates-paypal/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-07-15T19:00:05+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Crunchbase News"
-      ],
-      "keywords": [
-        "bill"
-      ],
-      "score": 0.409,
-      "signals": {
-        "score": 0.409,
-        "recency": 0.589890625941332,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "microsoft patches bug in video game age of empires ii",
-      "title": "Microsoft patches bug in video game Age of Empires II",
-      "summary": "The vulnerability in the decades-old game could have allowed hackers to take over victims\u2019 computers with a malicious game invite.",
-      "image": "assets/images/generated/microsoft patches bug in video game age of empires ii.jpg",
-      "link": "https://techcrunch.com/2026/07/15/microsoft-patches-bug-in-video-game-age-of-empires-ii/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-15T18:47:01+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "game"
-      ],
-      "score": 0.4082,
-      "signals": {
-        "score": 0.4082,
-        "recency": 0.5688636893535735,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -568,10 +568,10 @@
         "enterprise",
         "platform"
       ],
-      "score": 0.4068,
+      "score": 0.3988,
       "signals": {
-        "score": 0.4068,
-        "recency": 0.19905766315757525,
+        "score": 0.3988,
+        "recency": 0.16704572774991044,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -581,14 +581,14 @@
       "image_failure_reason": ""
     },
     {
-      "id": "googles biggest clean power project is 40 miles north of xais unpermitted gas power plant",
-      "title": "Google\u2019s biggest clean power project is 40 miles north of xAI\u2019s unpermitted gas power plant",
-      "summary": "Google's biggest solar and battery project stands in sharp contrast with xAI's nearby unpermitted power plant.",
-      "image": "assets/images/generated/googles biggest clean power project is 40 miles north of xais unpermitted gas power plant.jpg",
-      "link": "https://techcrunch.com/2026/07/15/googles-biggest-clean-power-project-is-40-miles-north-of-xais-unpermitted-gas-power-plant/",
+      "id": "thinking machines amps up its bet against onesizefitsall ai with its first open model inkling",
+      "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+      "summary": "It's the company's first public proof point after a year and a half spent building AI infrastructure largely out of public view.",
+      "image": "assets/images/generated/thinking machines amps up its bet against onesizefitsall ai with its first open model inkling.jpg",
+      "link": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
       "category": "technology",
       "geo": "global",
-      "published_at": "2026-07-15T17:39:54+00:00",
+      "published_at": "2026-07-15T18:04:06+00:00",
       "source_count": 1,
       "source_names": [
         "TechCrunch"
@@ -596,70 +596,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.404,
+      "score": 0.3919,
       "signals": {
-        "score": 0.404,
-        "recency": 0.4721070017295535,
+        "score": 0.3919,
+        "recency": 0.4237318928864716,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "chatgpt calls turn into leads more often invoca report via sejournal mattgsouthern",
-      "title": "ChatGPT Calls Turn Into Leads More Often: Invoca Report via @sejournal, @MattGSouthern",
-      "summary": "Phone call data breaks out AI referrals for the first time.",
-      "image": "assets/images/generated/chatgpt calls turn into leads more often invoca report via sejournal mattgsouthern.jpg",
-      "link": "https://www.searchenginejournal.com/chatgpt-calls-turn-into-leads-more-often-invoca-report/582400/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-07-15T17:50:16+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4015,
-      "signals": {
-        "score": 0.4015,
-        "recency": 0.48589956918051125,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "apple bans home services from its upcoming maps ads",
-      "title": "Apple bans home services from its upcoming Maps ads",
-      "summary": "Apple has published the policies governing its upcoming Maps advertising business, revealing a strategy that differs from Google\u2019s.",
-      "image": "assets/images/generated/apple bans home services from its upcoming maps ads.jpg",
-      "link": "https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-15T18:21:22+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "govern"
-      ],
-      "score": 0.3984,
-      "signals": {
-        "score": 0.3984,
-        "recency": 0.5297423962930595,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -681,11 +625,95 @@
         "ai",
         "bill"
       ],
-      "score": 0.3976,
+      "score": 0.3861,
       "signals": {
-        "score": 0.3976,
-        "recency": 0.2863208587959424,
+        "score": 0.3861,
+        "recency": 0.24027548333914717,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "microsoft patches bug in video game age of empires ii",
+      "title": "Microsoft patches bug in video game Age of Empires II",
+      "summary": "The vulnerability in the decades-old game could have allowed hackers to take over victims\u2019 computers with a malicious game invite.",
+      "image": "assets/images/generated/microsoft patches bug in video game age of empires ii.jpg",
+      "link": "https://techcrunch.com/2026/07/15/microsoft-patches-bug-in-video-game-age-of-empires-ii/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-15T18:47:01+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "game"
+      ],
+      "score": 0.3853,
+      "signals": {
+        "score": 0.3853,
+        "recency": 0.4773805111102068,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "stripes acquisition pace has accelerated in the past five years but nothing comes close to its reported 53b paypal bet",
+      "title": "Stripe\u2019s Acquisition Pace Has Accelerated In The Past Five Years, But Nothing Comes Close To Its Reported $53B PayPal Bet",
+      "summary": "Payments giant Stripe and private equity firm Advent International have teamed up to make an offer to buy troubled PayPal in a deal valued at more than $53 billion, Reuters",
+      "image": "https://news.crunchbase.com/wp-content/uploads/mergers_and_acquisitions.jpg",
+      "link": "https://news.crunchbase.com/ma/stripe-acquisition-pace-accelerates-paypal/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-07-15T19:00:05+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Crunchbase News"
+      ],
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.3853,
+      "signals": {
+        "score": 0.3853,
+        "recency": 0.49502595047152836,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "googles biggest clean power project is 40 miles north of xais unpermitted gas power plant",
+      "title": "Google\u2019s biggest clean power project is 40 miles north of xAI\u2019s unpermitted gas power plant",
+      "summary": "Google's biggest solar and battery project stands in sharp contrast with xAI's nearby unpermitted power plant.",
+      "image": "assets/images/generated/googles biggest clean power project is 40 miles north of xais unpermitted gas power plant.jpg",
+      "link": "https://techcrunch.com/2026/07/15/googles-biggest-clean-power-project-is-40-miles-north-of-xais-unpermitted-gas-power-plant/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-15T17:39:54+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.385,
+      "signals": {
+        "score": 0.385,
+        "recency": 0.39618398221279577,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -710,10 +738,93 @@
         "ai",
         "enterprise"
       ],
-      "score": 0.3969,
+      "score": 0.3845,
       "signals": {
-        "score": 0.3969,
-        "recency": 0.307437087644237,
+        "score": 0.3845,
+        "recency": 0.2579958552120186,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "chatgpt calls turn into leads more often invoca report via sejournal mattgsouthern",
+      "title": "ChatGPT Calls Turn Into Leads More Often: Invoca Report via @sejournal, @MattGSouthern",
+      "summary": "Phone call data breaks out AI referrals for the first time.",
+      "image": "assets/images/generated/chatgpt calls turn into leads more often invoca report via sejournal mattgsouthern.jpg",
+      "link": "https://www.searchenginejournal.com/chatgpt-calls-turn-into-leads-more-often-invoca-report/582400/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-07-15T17:50:16+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3819,
+      "signals": {
+        "score": 0.3819,
+        "recency": 0.4077584648568581,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "tesla driver in fatal texas crash pressed accelerator 100 ntsb confirms",
+      "title": "Tesla driver in fatal Texas crash pressed accelerator 100%, NTSB confirms",
+      "summary": "The safety board confirmed Tesla's account of the crash, which the company shared days after it happened last month.",
+      "image": "assets/images/generated/tesla driver in fatal texas crash pressed accelerator 100 ntsb confirms.jpg",
+      "link": "https://techcrunch.com/2026/07/15/tesla-driver-in-fatal-texas-crash-pressed-accelerator-100-ntsb-confirms/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-15T20:22:52+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3818,
+      "signals": {
+        "score": 0.3818,
+        "recency": 0.6230108224175098,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "moving enterprise ai from pilots to payoff",
+      "title": "Moving Enterprise AI From Pilots to Payoff",
+      "summary": "How businesses can close the gap between surface-level adoption and genuine transformation.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt4cbfe5ef753af262/6a579b1bf7c949795c37e61c/ROI.jpg?width=720&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/agentic-ai/moving-enterprise-ai-from-pilots-payoff",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-07-15T14:34:16+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AI Business"
+      ],
+      "keywords": [
+        "ai",
+        "enterprise"
+      ],
+      "score": 0.3791,
+      "signals": {
+        "score": 0.3791,
+        "recency": 0.2365667849256839,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -738,14 +849,42 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3965,
+      "score": 0.378,
       "signals": {
-        "score": 0.3965,
-        "recency": 0.4599393106279982,
+        "score": 0.378,
+        "recency": 0.3859730675318251,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "apple bans home services from its upcoming maps ads",
+      "title": "Apple bans home services from its upcoming Maps ads",
+      "summary": "Apple has published the policies governing its upcoming Maps advertising business, revealing a strategy that differs from Google\u2019s.",
+      "image": "assets/images/generated/apple bans home services from its upcoming maps ads.jpg",
+      "link": "https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-15T18:21:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "govern"
+      ],
+      "score": 0.3771,
+      "signals": {
+        "score": 0.3771,
+        "recency": 0.4445506025995362,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -766,10 +905,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3932,
+      "score": 0.3748,
       "signals": {
-        "score": 0.3932,
-        "recency": 0.45889711235443037,
+        "score": 0.3748,
+        "recency": 0.38509847287263815,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -794,10 +933,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3924,
+      "score": 0.3741,
       "signals": {
-        "score": 0.3924,
-        "recency": 0.4555104332266542,
+        "score": 0.3741,
+        "recency": 0.3822564306694854,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -822,10 +961,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3915,
+      "score": 0.3741,
       "signals": {
-        "score": 0.3915,
-        "recency": 0.43401768759733017,
+        "score": 0.3741,
+        "recency": 0.36422009246455,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -833,63 +972,6 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "moving enterprise ai from pilots to payoff",
-      "title": "Moving Enterprise AI From Pilots to Payoff",
-      "summary": "How businesses can close the gap between surface-level adoption and genuine transformation.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blt4cbfe5ef753af262/6a579b1bf7c949795c37e61c/ROI.jpg?width=720&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/agentic-ai/moving-enterprise-ai-from-pilots-payoff",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-07-15T14:34:16+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AI Business"
-      ],
-      "keywords": [
-        "ai",
-        "enterprise"
-      ],
-      "score": 0.3905,
-      "signals": {
-        "score": 0.3905,
-        "recency": 0.2819014411341781,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "microsoft patches record number of security vulnerabilities citing its use of ai",
-      "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
-      "summary": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries",
-      "image": "assets/images/generated/microsoft patches record number of security vulnerabilities citing its use of ai.jpg",
-      "link": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-15T16:20:18+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3806,
-      "signals": {
-        "score": 0.3806,
-        "recency": 0.3784540053871097,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
     },
     {
       "id": "the us is advancing ai safety through state and federal action",
@@ -908,10 +990,10 @@
         "ai",
         "govern"
       ],
-      "score": 0.3749,
+      "score": 0.3675,
       "signals": {
-        "score": 0.3749,
-        "recency": 0.1836513258734053,
+        "score": 0.3675,
+        "recency": 0.15411699753791402,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.86,
@@ -937,13 +1019,41 @@
         "ai",
         "series"
       ],
-      "score": 0.3734,
+      "score": 0.366,
       "signals": {
-        "score": 0.3734,
-        "recency": 0.1836513258734053,
+        "score": 0.366,
+        "recency": 0.15411699753791402,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.85,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "microsoft patches record number of security vulnerabilities citing its use of ai",
+      "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
+      "summary": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries",
+      "image": "assets/images/generated/microsoft patches record number of security vulnerabilities citing its use of ai.jpg",
+      "link": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-15T16:20:18+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3654,
+      "signals": {
+        "score": 0.3654,
+        "recency": 0.3175920170413818,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -966,10 +1076,10 @@
         "ai",
         "quantum"
       ],
-      "score": 0.3702,
+      "score": 0.3626,
       "signals": {
-        "score": 0.3702,
-        "recency": 0.18882426535595298,
+        "score": 0.3626,
+        "recency": 0.15845803835373223,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -994,10 +1104,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3682,
+      "score": 0.355,
       "signals": {
-        "score": 0.3682,
-        "recency": 0.32869238886520236,
+        "score": 0.355,
+        "recency": 0.27583293420047766,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1022,14 +1132,43 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3675,
+      "score": 0.3534,
       "signals": {
-        "score": 0.3675,
-        "recency": 0.34984263400634913,
+        "score": 0.3534,
+        "recency": 0.29358185195450087,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "rime picks up 24m series a to help enterprises field customer calls",
+      "title": "Rime picks up $24M Series A to help enterprises field customer calls",
+      "summary": "Rime is handling over 100 million calls each month across multiple companies.",
+      "image": "assets/images/generated/rime picks up 24m series a to help enterprises field customer calls.jpg",
+      "link": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-15T13:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "enterprise",
+        "series"
+      ],
+      "score": 0.3515,
+      "signals": {
+        "score": 0.3515,
+        "recency": 0.1820677198410039,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1050,13 +1189,42 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3646,
+      "score": 0.351,
       "signals": {
-        "score": 0.3646,
-        "recency": 0.3383734282459746,
+        "score": 0.351,
+        "recency": 0.2839570940197179,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "intentional spending keeps ecommerce volumes flat as growth shifts to key categories",
+      "title": "Intentional spending keeps ecommerce volumes flat as growth shifts to key categories",
+      "summary": "UK ecommerce parcel volumes remained broadly flat during the second quarter of 2026, according to new data from delivery management platform Scurri.",
+      "image": "assets/images/generated/intentional spending keeps ecommerce volumes flat as growth shifts to key categories.jpg",
+      "link": "https://internetretailing.net/intentional-spending-keeps-ecommerce-volumes-flat-as-growth-shifts-to-key-categories/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-15T11:18:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "InternetRetailing"
+      ],
+      "keywords": [
+        "ai",
+        "platform"
+      ],
+      "score": 0.3498,
+      "signals": {
+        "score": 0.3498,
+        "recency": 0.1371713064502824,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.77,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1078,10 +1246,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3627,
+      "score": 0.3494,
       "signals": {
-        "score": 0.3627,
-        "recency": 0.33093695226559,
+        "score": 0.3494,
+        "recency": 0.27771653275554437,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1106,43 +1274,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3617,
+      "score": 0.348,
       "signals": {
-        "score": 0.3617,
-        "recency": 0.33862416808500256,
+        "score": 0.348,
+        "recency": 0.28416751053030037,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "rime picks up 24m series a to help enterprises field customer calls",
-      "title": "Rime picks up $24M Series A to help enterprises field customer calls",
-      "summary": "Rime is handling over 100 million calls each month across multiple companies.",
-      "image": "assets/images/generated/rime picks up 24m series a to help enterprises field customer calls.jpg",
-      "link": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-15T13:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "enterprise",
-        "series"
-      ],
-      "score": 0.3602,
-      "signals": {
-        "score": 0.3602,
-        "recency": 0.21695840615712939,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1163,10 +1302,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.358,
+      "score": 0.3465,
       "signals": {
-        "score": 0.358,
-        "recency": 0.2881559869220392,
+        "score": 0.3465,
+        "recency": 0.24181549093531546,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1176,30 +1315,27 @@
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
-      "id": "intentional spending keeps ecommerce volumes flat as growth shifts to key categories",
-      "title": "Intentional spending keeps ecommerce volumes flat as growth shifts to key categories",
-      "summary": "UK ecommerce parcel volumes remained broadly flat during the second quarter of 2026, according to new data from delivery management platform Scurri.",
-      "image": "assets/images/generated/intentional spending keeps ecommerce volumes flat as growth shifts to key categories.jpg",
-      "link": "https://internetretailing.net/intentional-spending-keeps-ecommerce-volumes-flat-as-growth-shifts-to-key-categories/",
-      "category": "commerce",
+      "id": "newsweek8217s traffic fell 75 its revenue is rising anyway",
+      "title": "Newsweek&#8217;s Traffic Fell 75%. Its Revenue Is Rising Anyway.",
+      "summary": "The publisher is on pace to surpass $100 million in revenue, powered by ad-tech, a rankings business, and events.",
+      "image": "assets/images/generated/newsweek8217s traffic fell 75 its revenue is rising anyway.jpg",
+      "link": "https://www.adweek.com/media/newsweek-traffic-decline-revenue-rise-2026/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-07-15T11:18:04+00:00",
+      "published_at": "2026-07-15T19:00:00+00:00",
       "source_count": 1,
       "source_names": [
-        "InternetRetailing"
+        "Adweek"
       ],
-      "keywords": [
-        "ai",
-        "platform"
-      ],
-      "score": 0.3564,
+      "keywords": [],
+      "score": 0.3437,
       "signals": {
-        "score": 0.3564,
-        "recency": 0.16345823435331452,
-        "keyword_volume": 0.4,
+        "score": 0.3437,
+        "recency": 0.4949113743927732,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.77,
-        "engagement": 0.6
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1220,40 +1356,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3541,
+      "score": 0.3431,
       "signals": {
-        "score": 0.3541,
-        "recency": 0.27231900102488366,
+        "score": 0.3431,
+        "recency": 0.22852536789965402,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "spacex falls to 135 ipo price ahead of starship launch",
-      "title": "SpaceX falls to $135 IPO price ahead of Starship launch",
-      "summary": "The stock has steadily fallen from the euphoric post-IPO high, showing that markets may be sobering up to the promises CEO Elon Musk made before and after SpaceX went public.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22SpaceX%20falls%20to%20%24135%20IPO%20price%20ahead%20of%20Starship%20launch%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%239f1239%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232a0712%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESPACEX%20FALLS%20TO%20%24135%20IPO%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPRICE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EThe%20stock%20has%20steadily%20fallen%20from%20the%20euphoric%20post-IPO%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-15T18:06:05+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.3529,
-      "signals": {
-        "score": 0.3529,
-        "recency": 0.5077235669660746,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
@@ -1274,10 +1384,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3513,
+      "score": 0.3391,
       "signals": {
-        "score": 0.3513,
-        "recency": 0.3033089596369714,
+        "score": 0.3391,
+        "recency": 0.2545316020088019,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.77,
@@ -1285,32 +1395,6 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
-    },
-    {
-      "id": "phone maker oneplus reportedly plans to wind down us and europe operations",
-      "title": "Phone maker OnePlus reportedly plans to wind down US and Europe operations",
-      "summary": "OnePlus could also wind down its operations in India by 2027.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Phone%20maker%20OnePlus%20reportedly%20plans%20to%20wind%20down%20US%20and%20Europe%20operations%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPHONE%20MAKER%20ONEPLUS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EREPORTEDLY%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EOnePlus%20could%20also%20wind%20down%20its%20operations%20in%20India%20by%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://techcrunch.com/2026/07/15/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-15T17:53:32+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.3486,
-      "signals": {
-        "score": 0.3486,
-        "recency": 0.49032872270650807,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "walmart bets on ai and digital twins to shape its supply chain strategy",
@@ -1328,10 +1412,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3479,
+      "score": 0.337,
       "signals": {
-        "score": 0.3479,
-        "recency": 0.2717019404993539,
+        "score": 0.337,
+        "recency": 0.22800754144214536,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1356,41 +1440,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3446,
+      "score": 0.3333,
       "signals": {
-        "score": 0.3446,
-        "recency": 0.2824370399948079,
+        "score": 0.3333,
+        "recency": 0.23701625017126499,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "liquid iv samsung swing into spiderman to spotlight new products",
-      "title": "Liquid I.V., Samsung swing into \u2018Spider-Man\u2019 to spotlight new products",
-      "summary": "The Unilever hydration brand&rsquo;s largest entertainment partnership yet includes ads, a pair of co-branded flavors and experiential marketing.",
-      "image": "assets/images/generated/liquid iv samsung swing into spiderman to spotlight new products.jpg",
-      "link": "https://www.marketingdive.com/news/liquid-iv-samsung-spider-man-to-spotlight-new-products/825212/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-15T10:00:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Marketing Dive"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3426,
-      "signals": {
-        "score": 0.3426,
-        "recency": 0.2563060722724589,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1412,13 +1468,67 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3417,
+      "score": 0.333,
       "signals": {
-        "score": 0.3417,
-        "recency": 0.21695840615712939,
+        "score": 0.333,
+        "recency": 0.1820677198410039,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "spacex falls to 135 ipo price ahead of starship launch",
+      "title": "SpaceX falls to $135 IPO price ahead of Starship launch",
+      "summary": "The stock has steadily fallen from the euphoric post-IPO high, showing that markets may be sobering up to the promises CEO Elon Musk made before and after SpaceX went public.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22SpaceX%20falls%20to%20%24135%20IPO%20price%20ahead%20of%20Starship%20launch%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%239f1239%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232a0712%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESPACEX%20FALLS%20TO%20%24135%20IPO%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPRICE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EThe%20stock%20has%20steadily%20fallen%20from%20the%20euphoric%20post-IPO%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-15T18:06:05+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3325,
+      "signals": {
+        "score": 0.3325,
+        "recency": 0.42607278410824,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+    },
+    {
+      "id": "liquid iv samsung swing into spiderman to spotlight new products",
+      "title": "Liquid I.V., Samsung swing into \u2018Spider-Man\u2019 to spotlight new products",
+      "summary": "The Unilever hydration brand&rsquo;s largest entertainment partnership yet includes ads, a pair of co-branded flavors and experiential marketing.",
+      "image": "assets/images/generated/liquid iv samsung swing into spiderman to spotlight new products.jpg",
+      "link": "https://www.marketingdive.com/news/liquid-iv-samsung-spider-man-to-spotlight-new-products/825212/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-15T10:00:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Marketing Dive"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3323,
+      "signals": {
+        "score": 0.3323,
+        "recency": 0.21508759668087513,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1440,10 +1550,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3406,
+      "score": 0.3307,
       "signals": {
-        "score": 0.3406,
-        "recency": 0.2485929375004557,
+        "score": 0.3307,
+        "recency": 0.2086148681720386,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1451,6 +1561,32 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
+    },
+    {
+      "id": "phone maker oneplus reportedly plans to wind down us and europe operations",
+      "title": "Phone maker OnePlus reportedly plans to wind down US and Europe operations",
+      "summary": "OnePlus could also wind down its operations in India by 2027.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Phone%20maker%20OnePlus%20reportedly%20plans%20to%20wind%20down%20US%20and%20Europe%20operations%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPHONE%20MAKER%20ONEPLUS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EREPORTEDLY%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EOnePlus%20could%20also%20wind%20down%20its%20operations%20in%20India%20by%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://techcrunch.com/2026/07/15/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-15T17:53:32+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3289,
+      "signals": {
+        "score": 0.3289,
+        "recency": 0.41147533343820253,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "360 one partners with wpp media for largescale branding at mumbai airport impact magazine",
@@ -1468,10 +1604,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3338,
+      "score": 0.3242,
       "signals": {
-        "score": 0.3338,
-        "recency": 0.23931034255750197,
+        "score": 0.3242,
+        "recency": 0.20082507599294594,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1496,41 +1632,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3302,
+      "score": 0.3216,
       "signals": {
-        "score": 0.3302,
-        "recency": 0.21278052044779505,
+        "score": 0.3216,
+        "recency": 0.17856171083988723,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "omnicom group omc adds leaders and highlights ai commerce is it still below fair value simplywallst",
-      "title": "Omnicom Group (OMC) Adds Leaders And Highlights AI Commerce, Is It Still Below Fair Value? - simplywall.st",
-      "summary": "Omnicom Group (OMC) Adds Leaders And Highlights AI Commerce, Is It Still Below Fair Value?",
-      "image": "assets/images/generated/omnicom group omc adds leaders and highlights ai commerce is it still below fair value simplywallst.jpg",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV0RubUUxSGtBaG9KWnNiS0ltVWZCa0hPS3pMd2V4NWFjZWFoOXN2TUdGNlFfNzRZVTBKWVVzQzZaSUYxZXdYQWk4UlgzdlIyNndYbmR5UEhTZEItaDYwcU9UQ2xCX000R1BJZDNQTXpfdms1YUR0bExyTHhoLW9mZDZoUkNyRVdBUU5LQ2xYWEJ5LTloQkc1WU9JOVVnbmdkUWp5aDA5dVhuYURsVkhLSTNOcVJTZ25za28ybEp1Q2gyd3RM0gHKAUFVX3lxTFB5THdrSHZxajF2UmdwemphZlMyUXp2Tk4tNjN3OTV0Ty1Scmprb1VSU1JUcTZRTlRIVWZjMktaa1o4TmhyNWUtTUYwRWRjQVlwN2luVkNRd0tzUXBJemtDVWhGcnhIdmw4Z29tdEd4ZW94ZC1LbFBDUGJzaUFHT3A4QjgxNnJ2NnRXMkFEWXRLNk9iNWhuczd2b1hvU0lHWVItTGowSUhXNWZod3EtZ2Q1NnJrMjRwSkVlUEdVWUw4cHdEVU9pWW5KTVE?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-15T12:55:14+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3275,
-      "signals": {
-        "score": 0.3275,
-        "recency": 0.21410465075993668,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1552,13 +1660,41 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3264,
+      "score": 0.3201,
       "signals": {
-        "score": 0.3264,
-        "recency": 0.15545749110376839,
+        "score": 0.3201,
+        "recency": 0.13045722191085599,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "omnicom group omc adds leaders and highlights ai commerce is it still below fair value simplywallst",
+      "title": "Omnicom Group (OMC) Adds Leaders And Highlights AI Commerce, Is It Still Below Fair Value? - simplywall.st",
+      "summary": "Omnicom Group (OMC) Adds Leaders And Highlights AI Commerce, Is It Still Below Fair Value?",
+      "image": "assets/images/generated/omnicom group omc adds leaders and highlights ai commerce is it still below fair value simplywallst.jpg",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV0RubUUxSGtBaG9KWnNiS0ltVWZCa0hPS3pMd2V4NWFjZWFoOXN2TUdGNlFfNzRZVTBKWVVzQzZaSUYxZXdYQWk4UlgzdlIyNndYbmR5UEhTZEItaDYwcU9UQ2xCX000R1BJZDNQTXpfdms1YUR0bExyTHhoLW9mZDZoUkNyRVdBUU5LQ2xYWEJ5LTloQkc1WU9JOVVnbmdkUWp5aDA5dVhuYURsVkhLSTNOcVJTZ25za28ybEp1Q2gyd3RM0gHKAUFVX3lxTFB5THdrSHZxajF2UmdwemphZlMyUXp2Tk4tNjN3OTV0Ty1Scmprb1VSU1JUcTZRTlRIVWZjMktaa1o4TmhyNWUtTUYwRWRjQVlwN2luVkNRd0tzUXBJemtDVWhGcnhIdmw4Z29tdEd4ZW94ZC1LbFBDUGJzaUFHT3A4QjgxNnJ2NnRXMkFEWXRLNk9iNWhuczd2b1hvU0lHWVItTGowSUhXNWZod3EtZ2Q1NnJrMjRwSkVlUEdVWUw4cHdEVU9pWW5KTVE?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-15T12:55:14+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3189,
+      "signals": {
+        "score": 0.3189,
+        "recency": 0.17967289796083882,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1580,69 +1716,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.324,
+      "score": 0.3179,
       "signals": {
-        "score": 0.324,
-        "recency": 0.15187917267223836,
+        "score": 0.3179,
+        "recency": 0.12745435933810154,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "the real convergence story is happening in local markets",
-      "title": "The Real Convergence Story Is Happening in Local Markets",
-      "summary": "TV convergence has largely been framed as a national conversation: advertisers looking for more connected ways to plan across linear and streaming, measure performance,",
-      "image": "assets/images/generated/the real convergence story is happening in local markets.jpg",
-      "link": "https://www.adexchanger.com/content-studio/the-real-convergence-story-is-happening-in-local-markets/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-15T14:00:56+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AdExchanger"
-      ],
-      "keywords": [
-        "streaming"
-      ],
-      "score": 0.3227,
-      "signals": {
-        "score": 0.3227,
-        "recency": 0.25697143162704955,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "ga4s ai assistant channel undercounts your ai traffic how to build one that doesnt",
-      "title": "GA4\u2019s AI Assistant Channel Undercounts Your AI Traffic: How To Build One That Doesn\u2019t",
-      "summary": "GA4's AI Assistant channel fragments traffic from a single source into three separate channels, making your AI referral numbers quietly wrong.",
-      "image": "assets/images/generated/ga4s ai assistant channel undercounts your ai traffic how to build one that doesnt.jpg",
-      "link": "https://www.searchenginejournal.com/ga4s-ai-assistant-channel-undercounts-your-ai-traffic-how-to-build-one-that-doesnt/580133/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-07-15T11:30:27+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3223,
-      "signals": {
-        "score": 0.3223,
-        "recency": 0.1691787178906402,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1664,10 +1744,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3219,
+      "score": 0.3166,
       "signals": {
-        "score": 0.3219,
-        "recency": 0.13159192521668514,
+        "score": 0.3166,
+        "recency": 0.110429654227539,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.86,
@@ -1675,6 +1755,34 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+    },
+    {
+      "id": "ga4s ai assistant channel undercounts your ai traffic how to build one that doesnt",
+      "title": "GA4\u2019s AI Assistant Channel Undercounts Your AI Traffic: How To Build One That Doesn\u2019t",
+      "summary": "GA4's AI Assistant channel fragments traffic from a single source into three separate channels, making your AI referral numbers quietly wrong.",
+      "image": "assets/images/generated/ga4s ai assistant channel undercounts your ai traffic how to build one that doesnt.jpg",
+      "link": "https://www.searchenginejournal.com/ga4s-ai-assistant-channel-undercounts-your-ai-traffic-how-to-build-one-that-doesnt/580133/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-07-15T11:30:27+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3155,
+      "signals": {
+        "score": 0.3155,
+        "recency": 0.1419718367107904,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
     },
     {
       "id": "fintech funding surges 23 in h1 2026 as investors concentrate their bets on ai and financial infrastructure",
@@ -1692,10 +1800,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3204,
+      "score": 0.3142,
       "signals": {
-        "score": 0.3204,
-        "recency": 0.15570959401108556,
+        "score": 0.3142,
+        "recency": 0.13066878228463236,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1720,14 +1828,42 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3189,
+      "score": 0.3126,
       "signals": {
-        "score": 0.3189,
-        "recency": 0.15548628219380625,
+        "score": 0.3126,
+        "recency": 0.13048138289271324,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the real convergence story is happening in local markets",
+      "title": "The Real Convergence Story Is Happening in Local Markets",
+      "summary": "TV convergence has largely been framed as a national conversation: advertisers looking for more connected ways to plan across linear and streaming, measure performance,",
+      "image": "assets/images/generated/the real convergence story is happening in local markets.jpg",
+      "link": "https://www.adexchanger.com/content-studio/the-real-convergence-story-is-happening-in-local-markets/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-15T14:00:56+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AdExchanger"
+      ],
+      "keywords": [
+        "streaming"
+      ],
+      "score": 0.3124,
+      "signals": {
+        "score": 0.3124,
+        "recency": 0.21564595467543687,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1748,10 +1884,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3174,
+      "score": 0.3111,
       "signals": {
-        "score": 0.3174,
-        "recency": 0.15545749110376839,
+        "score": 0.3111,
+        "recency": 0.13045722191085599,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1776,10 +1912,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3147,
+      "score": 0.3082,
       "signals": {
-        "score": 0.3147,
-        "recency": 0.16288411414732562,
+        "score": 0.3082,
+        "recency": 0.13668951476186378,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1804,40 +1940,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3119,
+      "score": 0.306,
       "signals": {
-        "score": 0.3119,
-        "recency": 0.145411371376697,
+        "score": 0.306,
+        "recency": 0.12202669301660828,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.77,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "stripe and advent reportedly offered to buy paypal for around 534b",
-      "title": "Stripe and Advent reportedly offered to buy PayPal for around $53.4B",
-      "summary": "If completed, the acquisition would unite two of the biggest names in digital payments.",
-      "image": "assets/images/generated/stripe and advent reportedly offered to buy paypal for around 534b.jpg",
-      "link": "https://techcrunch.com/2026/07/15/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-15T15:30:26+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.3084,
-      "signals": {
-        "score": 0.3084,
-        "recency": 0.32949989287979353,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1858,10 +1968,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3078,
+      "score": 0.3034,
       "signals": {
-        "score": 0.3078,
-        "recency": 0.11139015983909636,
+        "score": 0.3034,
+        "recency": 0.09347668418960133,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1869,58 +1979,6 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "ajay vikram cco publicis groupe south east asianamed 2026 audio radio jury president for lia roastbrief us",
-      "title": "Ajay Vikram, CCO, Publicis Groupe South East Asia,Named 2026 Audio & Radio Jury President For LIA - Roastbrief US",
-      "summary": "Ajay Vikram, CCO, Publicis Groupe South East Asia,Named 2026 Audio & Radio Jury President For LIA &nbsp;&nbsp; Roastbrief US",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Ajay%20Vikram%2C%20CCO%2C%20Publicis%20Groupe%20South%20East%20Asia%2CNamed%202026%20Audio%20%26amp%3B%20Radio%20Jury%20President%20For%20LIA%20-%20Roastbrief%20US%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGOOGLE%20NEWS%20-%20PUBLICIS%20GROUPE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EAJAY%20VIKRAM%2C%20CCO%2C%20PUBLICIS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EGROUPE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EAjay%20Vikram%2C%20CCO%2C%20Publicis%20Groupe%20South%20East%20Asia%2CNamed%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGRfQTdmODlQZkRGd2liUkw3NVZnNkRUVWdnT2VkOGZ4Q1ZaNkdMcUxTdVdaN0ZMR3JweUw4MTFiYi1HT1hZdll0bHJ5YTZnMVUyM2VrY2FqcWE3MzZjbGdVZ2FfUS1ONmVFdl9VN1hwWnhFOW1LeVZOUEM4X19fNW5IaW5BaEFpRkwwcXYwU0Q1VkZpUURZRVJuWV9LY2U2VnppZ0dJMjlnckQ0SXpKNloxMXMxQQ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-15T16:13:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.3067,
-      "signals": {
-        "score": 0.3067,
-        "recency": 0.37085708382237254,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "macys inc taps kering beaut exec to lead bluemercury",
-      "title": "Macy\u2019s Inc. taps Kering Beaut\u00e9 exec to lead Bluemercury",
-      "summary": "Alexandre Choueiri&nbsp;was CEO and president of the Americas, the&nbsp;largest region for the&nbsp;L&#39;Or&eacute;al-aligned luxury beauty business.",
-      "image": "https://imgproxy.divecdn.com/ajoGSjnOZny8WoSiOJhYJDJrf_5WR3CgPKzW6mNzhyI/g:nowe:0:0/c:1280:723/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9ibHVlbTEuanBlZw==.webp",
-      "link": "https://www.retaildive.com/news/macys-inc-taps-kering-beaute-exec-CEO-bluemercury/825269/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-15T11:26:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [],
-      "score": 0.3014,
-      "signals": {
-        "score": 0.3014,
-        "recency": 0.325467045567935,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
     },
     {
       "id": "account win roundup omnicom wins 559m adidas account and sketchers streamlines roster performance marketing world",
@@ -1937,10 +1995,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2997,
+      "score": 0.2955,
       "signals": {
-        "score": 0.2997,
-        "recency": 0.10266910192043975,
+        "score": 0.2955,
+        "recency": 0.08615812411177157,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.76,
@@ -1950,85 +2008,27 @@
       "image_failure_reason": ""
     },
     {
-      "id": "35 million people use microseries apps in poland seal news senal news",
-      "title": "3.5 million people use micro-series apps in Poland - Se\u00f1al News - Senal News",
-      "summary": "3.5 million people use micro-series apps in Poland - Se\u00f1al News &nbsp;&nbsp; Senal News",
-      "image": "assets/images/generated/35 million people use microseries apps in poland seal news senal news.jpg",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTFl4UjQwaEZDczIzYjY5MGlUV0dwcWJ1Vnc5Ul9HNTFyV3UxQk11ZXkwblZBUmlFVDBCbWU5Z2xIU1RFTTcySTNyTHJPNTFKMXFaLVJUMnduNWlXeEdrWF9lRzNJaVh0WUZCX3I2OTRtQlFHdlBEVldBYTdfb2lOdzFoODFxQdIBiwFBVV95cUxPUnBzNlVzVEE1UndDbWtKOEIxU1BRLUphdjg2dUgyYldDbzFUQlFyWGd1czZjZDdYY2NRYXNELVFmMHhoZTRhYUNmUUl2eGxsUF9NanVpVkZQWkJWczVDMENjTW9jTE9rUFZMYklpbV9mM1laZW5pSDZ1SmVicE1yYlJ6aFJoaF90Nk44?oc=5",
-      "category": "advertising",
+      "id": "stripe and advent reportedly offered to buy paypal for around 534b",
+      "title": "Stripe and Advent reportedly offered to buy PayPal for around $53.4B",
+      "summary": "If completed, the acquisition would unite two of the biggest names in digital payments.",
+      "image": "assets/images/generated/stripe and advent reportedly offered to buy paypal for around 534b.jpg",
+      "link": "https://techcrunch.com/2026/07/15/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-07-15T11:42:28+00:00",
+      "published_at": "2026-07-15T15:30:26+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - WPP"
+        "TechCrunch"
       ],
-      "keywords": [
-        "series"
-      ],
-      "score": 0.2977,
+      "keywords": [],
+      "score": 0.2951,
       "signals": {
-        "score": 0.2977,
-        "recency": 0.17492114775145373,
-        "keyword_volume": 0.2,
+        "score": 0.2951,
+        "recency": 0.27651057752070274,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.76,
+        "authority": 0.84,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "wpp 35m poles use microseries apps broadband tv news",
-      "title": "WPP: 3.5m Poles use micro-series apps - Broadband TV News",
-      "summary": "WPP: 3.5m Poles use micro-series apps &nbsp;&nbsp; Broadband TV News",
-      "image": "assets/images/generated/wpp 35m poles use microseries apps broadband tv news.jpg",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSkpQdzllT2dzSE9sOUFydVFEZ1BqcFdtZ1dsb1F4NXpjXzEzR21yMWVIWDlVWUFfSUFEaFhLbEluQm1HTktMM0xhWmFEWUEtRXBqY09ubVREaV9aNkJ2LWtGMUlIV21PdVBKNUxjT0NIVmtTemVPTzlpdGpXOWp1RmJCWW5oM3M?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-15T11:36:21+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [
-        "series"
-      ],
-      "score": 0.297,
-      "signals": {
-        "score": 0.297,
-        "recency": 0.17197421406739358,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "ipbased ctv targeting fails 3 in every 4 times new research finds",
-      "title": "IP-Based CTV Targeting Fails 3 In Every 4 Times, New Research Finds",
-      "summary": "The reliability of IP-based identity mapping is under increasing scrutiny.",
-      "image": "assets/images/generated/ipbased ctv targeting fails 3 in every 4 times new research finds.jpg",
-      "link": "https://www.adweek.com/convergent-tv/ip-based-ctv-targeting-fails-3-in-every-4-times-new-research-finds/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-07-15T06:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Adweek"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2969,
-      "signals": {
-        "score": 0.2969,
-        "recency": 0.06756154713270279,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2049,10 +2049,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2967,
+      "score": 0.2931,
       "signals": {
-        "score": 0.2967,
-        "recency": 0.09094557166720897,
+        "score": 0.2931,
+        "recency": 0.07631994148727862,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2062,26 +2062,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "marketing vanguard at cannes how saying no made lego stronger ft julia goldin",
-      "title": "Marketing Vanguard at Cannes: How Saying No Made Lego Stronger ft. Julia Goldin",
-      "summary": "How to balance innovation risk with consumer trust and brand authenticity.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Marketing%20Vanguard%20at%20Cannes%3A%20How%20Saying%20No%20Made%20Lego%20Stronger%20ft.%20Julia%20Goldin%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EADW%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EADWEEK%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EMARKETING%20VANGUARD%20AT%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECANNES%3A%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EHow%20to%20balance%20innovation%20risk%20with%20consumer%20trust%20and%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://www.adweek.com/brand-marketing/marketing-vanguard-at-cannes-how-saying-no-made-lego-stronger-ft-julia-goldin/",
-      "category": "brands",
+      "id": "ajay vikram cco publicis groupe south east asianamed 2026 audio radio jury president for lia roastbrief us",
+      "title": "Ajay Vikram, CCO, Publicis Groupe South East Asia,Named 2026 Audio & Radio Jury President For LIA - Roastbrief US",
+      "summary": "Ajay Vikram, CCO, Publicis Groupe South East Asia,Named 2026 Audio & Radio Jury President For LIA &nbsp;&nbsp; Roastbrief US",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Ajay%20Vikram%2C%20CCO%2C%20Publicis%20Groupe%20South%20East%20Asia%2CNamed%202026%20Audio%20%26amp%3B%20Radio%20Jury%20President%20For%20LIA%20-%20Roastbrief%20US%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGOOGLE%20NEWS%20-%20PUBLICIS%20GROUPE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EAJAY%20VIKRAM%2C%20CCO%2C%20PUBLICIS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EGROUPE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EAjay%20Vikram%2C%20CCO%2C%20Publicis%20Groupe%20South%20East%20Asia%2CNamed%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTGRfQTdmODlQZkRGd2liUkw3NVZnNkRUVWdnT2VkOGZ4Q1ZaNkdMcUxTdVdaN0ZMR3JweUw4MTFiYi1HT1hZdll0bHJ5YTZnMVUyM2VrY2FqcWE3MzZjbGdVZ2FfUS1ONmVFdl9VN1hwWnhFOW1LeVZOUEM4X19fNW5IaW5BaEFpRkwwcXYwU0Q1VkZpUURZRVJuWV9LY2U2VnppZ0dJMjlnckQ0SXpKNloxMXMxQQ?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-15T14:51:26+00:00",
+      "published_at": "2026-07-15T16:13:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Adweek"
+        "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2939,
+      "score": 0.2918,
       "signals": {
-        "score": 0.2939,
-        "recency": 0.2956696239005591,
+        "score": 0.2918,
+        "recency": 0.3112168126342249,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": true,
@@ -2103,10 +2103,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2936,
+      "score": 0.2917,
       "signals": {
-        "score": 0.2936,
-        "recency": 0.04854462297325293,
+        "score": 0.2917,
+        "recency": 0.04073780302792358,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2131,10 +2131,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2936,
+      "score": 0.2917,
       "signals": {
-        "score": 0.2936,
-        "recency": 0.04854462297325293,
+        "score": 0.2917,
+        "recency": 0.04073780302792358,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2159,14 +2159,42 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2936,
+      "score": 0.2917,
       "signals": {
-        "score": 0.2936,
-        "recency": 0.04854462297325293,
+        "score": 0.2917,
+        "recency": 0.04073780302792358,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "35 million people use microseries apps in poland seal news senal news",
+      "title": "3.5 million people use micro-series apps in Poland - Se\u00f1al News - Senal News",
+      "summary": "3.5 million people use micro-series apps in Poland - Se\u00f1al News &nbsp;&nbsp; Senal News",
+      "image": "assets/images/generated/35 million people use microseries apps in poland seal news senal news.jpg",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTFl4UjQwaEZDczIzYjY5MGlUV0dwcWJ1Vnc5Ul9HNTFyV3UxQk11ZXkwblZBUmlFVDBCbWU5Z2xIU1RFTTcySTNyTHJPNTFKMXFaLVJUMnduNWlXeEdrWF9lRzNJaVh0WUZCX3I2OTRtQlFHdlBEVldBYTdfb2lOdzFoODFxQdIBiwFBVV95cUxPUnBzNlVzVEE1UndDbWtKOEIxU1BRLUphdjg2dUgyYldDbzFUQlFyWGd1czZjZDdYY2NRYXNELVFmMHhoZTRhYUNmUUl2eGxsUF9NanVpVkZQWkJWczVDMENjTW9jTE9rUFZMYklpbV9mM1laZW5pSDZ1SmVicE1yYlJ6aFJoaF90Nk44?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-15T11:42:28+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [
+        "series"
+      ],
+      "score": 0.2907,
+      "signals": {
+        "score": 0.2907,
+        "recency": 0.14679078394415088,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2186,10 +2214,10 @@
         "Modern Retail"
       ],
       "keywords": [],
-      "score": 0.2921,
+      "score": 0.2902,
       "signals": {
-        "score": 0.2921,
-        "recency": 0.04854462297325293,
+        "score": 0.2902,
+        "recency": 0.04073780302792358,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.8,
@@ -2199,56 +2227,58 @@
       "image_failure_reason": ""
     },
     {
-      "id": "consumers say rewards matter but many arent actually using them",
-      "title": "Consumers say rewards matter, but many aren\u2019t actually using them",
-      "summary": "In the crowded loyalty landscape, a successful program goes beyond growing enrollment to actually influencing customers&rsquo; shopping behavior.",
-      "image": "https://imgproxy.divecdn.com/wIYHlNzgjG5VIqXFFW0zTqpa9JcgofkM6_t3f5aiVE4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg2OTExMDUyLmpwZw==.webp",
-      "link": "https://www.marketingdive.com/news/consumers-rewards-matter-many-arent-using/825292/",
-      "category": "brands",
+      "id": "wpp 35m poles use microseries apps broadband tv news",
+      "title": "WPP: 3.5m Poles use micro-series apps - Broadband TV News",
+      "summary": "WPP: 3.5m Poles use micro-series apps &nbsp;&nbsp; Broadband TV News",
+      "image": "assets/images/generated/wpp 35m poles use microseries apps broadband tv news.jpg",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSkpQdzllT2dzSE9sOUFydVFEZ1BqcFdtZ1dsb1F4NXpjXzEzR21yMWVIWDlVWUFfSUFEaFhLbEluQm1HTktMM0xhWmFEWUEtRXBqY09ubVREaV9aNkJ2LWtGMUlIV21PdVBKNUxjT0NIVmtTemVPTzlpdGpXOWp1RmJCWW5oM3M?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-07-15T10:44:00-04:00",
+      "published_at": "2026-07-15T11:36:21+00:00",
       "source_count": 1,
       "source_names": [
-        "Marketing Dive"
+        "Google News - WPP"
       ],
-      "keywords": [],
-      "score": 0.2909,
+      "keywords": [
+        "series"
+      ],
+      "score": 0.2901,
       "signals": {
-        "score": 0.2909,
-        "recency": 0.28962719090823386,
-        "keyword_volume": 0.0,
+        "score": 0.2901,
+        "recency": 0.14431776846674696,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.79,
+        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "week of july 6 morning news ratings gma recaptures total viewers crown",
-      "title": "Week of July 6 Morning News Ratings: GMA Recaptures Total Viewers Crown",
-      "summary": "Today continued to be the No. 1 morning show in the Adults 25-54 demo.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Week%20of%20July%206%20Morning%20News%20Ratings%3A%20GMA%20Recaptures%20Total%20Viewers%20Crown%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2315803d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23052e16%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EADW%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EBRANDS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EADWEEK%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWEEK%20OF%20JULY%206%20MORNING%20NEWS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ERATINGS%3A%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EToday%20continued%20to%20be%20the%20No.%201%20morning%20show%20in%20the%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EBRANDS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://www.adweek.com/tvnewser/week-of-july-6-2026-morning-news-ratings/",
+      "id": "macys inc taps kering beaut exec to lead bluemercury",
+      "title": "Macy\u2019s Inc. taps Kering Beaut\u00e9 exec to lead Bluemercury",
+      "summary": "Alexandre Choueiri&nbsp;was CEO and president of the Americas, the&nbsp;largest region for the&nbsp;L&#39;Or&eacute;al-aligned luxury beauty business.",
+      "image": "https://imgproxy.divecdn.com/ajoGSjnOZny8WoSiOJhYJDJrf_5WR3CgPKzW6mNzhyI/g:nowe:0:0/c:1280:723/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9ibHVlbTEuanBlZw==.webp",
+      "link": "https://www.retaildive.com/news/macys-inc-taps-kering-beaute-exec-CEO-bluemercury/825269/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-07-15T14:33:42+00:00",
+      "published_at": "2026-07-15T11:26:00-04:00",
       "source_count": 1,
       "source_names": [
-        "Adweek"
+        "Retail Dive"
       ],
       "keywords": [],
-      "score": 0.2904,
+      "score": 0.2883,
       "signals": {
-        "score": 0.2904,
-        "recency": 0.28145805643597205,
+        "score": 0.2883,
+        "recency": 0.273126282219394,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.4
       },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+      "ai_image_pending": false,
+      "image_failure_reason": ""
     },
     {
       "id": "use 2027 budget optimism to drive an ai reset",
@@ -2266,10 +2296,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2874,
+      "score": 0.2862,
       "signals": {
-        "score": 0.2874,
-        "recency": 0.02941655203541833,
+        "score": 0.2862,
+        "recency": 0.02468585868387135,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2294,10 +2324,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2847,
+      "score": 0.2837,
       "signals": {
-        "score": 0.2847,
-        "recency": 0.024854504203856768,
+        "score": 0.2837,
+        "recency": 0.02085746751336994,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2322,10 +2352,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2847,
+      "score": 0.2837,
       "signals": {
-        "score": 0.2847,
-        "recency": 0.024854504203856768,
+        "score": 0.2837,
+        "recency": 0.02085746751336994,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2350,10 +2380,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2844,
+      "score": 0.2827,
       "signals": {
-        "score": 0.2844,
-        "recency": 0.041557032861272235,
+        "score": 0.2827,
+        "recency": 0.034873938974873314,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2363,49 +2393,75 @@
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
-      "id": "how google may understand unique content",
-      "title": "How Google May \u2018Understand\u2019 Unique Content",
-      "summary": "Long doesn't mean valuable. Google normalizes for length.",
-      "image": "assets/images/generated/how google may understand unique content.jpg",
-      "link": "https://www.searchenginejournal.com/how-google-may-understand-unique-content/581959/",
-      "category": "digital-media",
+      "id": "marketing vanguard at cannes how saying no made lego stronger ft julia goldin",
+      "title": "Marketing Vanguard at Cannes: How Saying No Made Lego Stronger ft. Julia Goldin",
+      "summary": "How to balance innovation risk with consumer trust and brand authenticity.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Marketing%20Vanguard%20at%20Cannes%3A%20How%20Saying%20No%20Made%20Lego%20Stronger%20ft.%20Julia%20Goldin%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EADW%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EADWEEK%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EMARKETING%20VANGUARD%20AT%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECANNES%3A%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EHow%20to%20balance%20innovation%20risk%20with%20consumer%20trust%20and%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://www.adweek.com/brand-marketing/marketing-vanguard-at-cannes-how-saying-no-made-lego-stronger-ft-julia-goldin/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-07-15T13:30:00+00:00",
+      "published_at": "2026-07-15T14:51:26+00:00",
       "source_count": 1,
       "source_names": [
-        "Search Engine Journal"
+        "Adweek"
       ],
       "keywords": [],
-      "score": 0.279,
+      "score": 0.282,
       "signals": {
-        "score": 0.279,
-        "recency": 0.23581297022985542,
+        "score": 0.282,
+        "recency": 0.24812080436669007,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+    },
+    {
+      "id": "consumers say rewards matter but many arent actually using them",
+      "title": "Consumers say rewards matter, but many aren\u2019t actually using them",
+      "summary": "In the crowded loyalty landscape, a successful program goes beyond growing enrollment to actually influencing customers&rsquo; shopping behavior.",
+      "image": "https://imgproxy.divecdn.com/wIYHlNzgjG5VIqXFFW0zTqpa9JcgofkM6_t3f5aiVE4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTg2OTExMDUyLmpwZw==.webp",
+      "link": "https://www.marketingdive.com/news/consumers-rewards-matter-many-arent-using/825292/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-15T10:44:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Marketing Dive"
+      ],
+      "keywords": [],
+      "score": 0.2793,
+      "signals": {
+        "score": 0.2793,
+        "recency": 0.24305009972476913,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
         "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "why capital is fleeing adtech at precisely the wrong moment",
-      "title": "Why Capital Is Fleeing AdTech at Precisely the Wrong Moment",
-      "summary": "The capital exists, so does the conviction.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Why%20Capital%20Is%20Fleeing%20AdTech%20at%20Precisely%20the%20Wrong%20Moment%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2315803d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23052e16%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EADW%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EADWEEK%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWHY%20CAPITAL%20IS%20FLEEING%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADTECH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EThe%20capital%20exists%2C%20so%20does%20the%20conviction.%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://www.adweek.com/dealroom/why-capital-is-fleeing-adtech-at-precisely-the-wrong-moment/",
+      "id": "week of july 6 morning news ratings gma recaptures total viewers crown",
+      "title": "Week of July 6 Morning News Ratings: GMA Recaptures Total Viewers Crown",
+      "summary": "Today continued to be the No. 1 morning show in the Adults 25-54 demo.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Week%20of%20July%206%20Morning%20News%20Ratings%3A%20GMA%20Recaptures%20Total%20Viewers%20Crown%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2315803d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23052e16%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EADW%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EBRANDS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EADWEEK%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWEEK%20OF%20JULY%206%20MORNING%20NEWS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ERATINGS%3A%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EToday%20continued%20to%20be%20the%20No.%201%20morning%20show%20in%20the%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EBRANDS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://www.adweek.com/tvnewser/week-of-july-6-2026-morning-news-ratings/",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-07-15T13:11:03+00:00",
+      "published_at": "2026-07-15T14:33:42+00:00",
       "source_count": 1,
       "source_names": [
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2759,
+      "score": 0.279,
       "signals": {
-        "score": 0.2759,
-        "recency": 0.22372108123330428,
+        "score": 0.279,
+        "recency": 0.23619470420088207,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2430,10 +2486,10 @@
       "keywords": [
         "game"
       ],
-      "score": 0.2736,
+      "score": 0.2717,
       "signals": {
-        "score": 0.2736,
-        "recency": 0.04854462297325293,
+        "score": 0.2717,
+        "recency": 0.04073780302792358,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2458,10 +2514,10 @@
       "keywords": [
         "platform"
       ],
-      "score": 0.2718,
+      "score": 0.2697,
       "signals": {
-        "score": 0.2718,
-        "recency": 0.05337758192377856,
+        "score": 0.2697,
+        "recency": 0.044793538096193276,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2469,6 +2525,58 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
+    },
+    {
+      "id": "how google may understand unique content",
+      "title": "How Google May \u2018Understand\u2019 Unique Content",
+      "summary": "Long doesn't mean valuable. Google normalizes for length.",
+      "image": "assets/images/generated/how google may understand unique content.jpg",
+      "link": "https://www.searchenginejournal.com/how-google-may-understand-unique-content/581959/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-07-15T13:30:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [],
+      "score": 0.2695,
+      "signals": {
+        "score": 0.2695,
+        "recency": 0.1978901419822837,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "why capital is fleeing adtech at precisely the wrong moment",
+      "title": "Why Capital Is Fleeing AdTech at Precisely the Wrong Moment",
+      "summary": "The capital exists, so does the conviction.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Why%20Capital%20Is%20Fleeing%20AdTech%20at%20Precisely%20the%20Wrong%20Moment%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2315803d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23052e16%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EADW%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EADWEEK%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWHY%20CAPITAL%20IS%20FLEEING%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADTECH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EThe%20capital%20exists%2C%20so%20does%20the%20conviction.%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://www.adweek.com/dealroom/why-capital-is-fleeing-adtech-at-precisely-the-wrong-moment/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-07-15T13:11:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Adweek"
+      ],
+      "keywords": [],
+      "score": 0.2669,
+      "signals": {
+        "score": 0.2669,
+        "recency": 0.1877428391090401,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "google says no seo penalty for yearlong ab tests via sejournal martinibuster",
@@ -2484,10 +2592,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.2703,
+      "score": 0.2622,
       "signals": {
-        "score": 0.2703,
-        "recency": 0.2013097058563157,
+        "score": 0.2622,
+        "recency": 0.16893560280203127,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2510,10 +2618,10 @@
         "MarTech"
       ],
       "keywords": [],
-      "score": 0.2687,
+      "score": 0.2604,
       "signals": {
-        "score": 0.2687,
-        "recency": 0.2069512868306722,
+        "score": 0.2604,
+        "recency": 0.17366991940442914,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -2536,10 +2644,10 @@
         "Practical Ecommerce"
       ],
       "keywords": [],
-      "score": 0.2685,
+      "score": 0.2602,
       "signals": {
-        "score": 0.2685,
-        "recency": 0.20596678496021864,
+        "score": 0.2602,
+        "recency": 0.17284374256294338,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -2562,10 +2670,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.266,
+      "score": 0.2586,
       "signals": {
-        "score": 0.266,
-        "recency": 0.1840258117173827,
+        "score": 0.2586,
+        "recency": 0.1544312595429378,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2588,10 +2696,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.264,
+      "score": 0.257,
       "signals": {
-        "score": 0.264,
-        "recency": 0.1761237970237759,
+        "score": 0.257,
+        "recency": 0.1478000262899928,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2614,10 +2722,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2629,
+      "score": 0.255,
       "signals": {
-        "score": 0.2629,
-        "recency": 0.1956044577280564,
+        "score": 0.255,
+        "recency": 0.16414785783174865,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2640,10 +2748,10 @@
         "Crunchbase News"
       ],
       "keywords": [],
-      "score": 0.2604,
+      "score": 0.2542,
       "signals": {
-        "score": 0.2604,
-        "recency": 0.15568796918034317,
+        "score": 0.2542,
+        "recency": 0.1306506351028985,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2666,10 +2774,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2583,
+      "score": 0.2512,
       "signals": {
-        "score": 0.2583,
-        "recency": 0.17737576942027158,
+        "score": 0.2512,
+        "recency": 0.14885065974352568,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2692,10 +2800,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2572,
+      "score": 0.2503,
       "signals": {
-        "score": 0.2572,
-        "recency": 0.17281223503651305,
+        "score": 0.2503,
+        "recency": 0.14502102108428336,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2718,10 +2826,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.2515,
+      "score": 0.2462,
       "signals": {
-        "score": 0.2515,
-        "recency": 0.1318602560492616,
+        "score": 0.2462,
+        "recency": 0.11065483279386223,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2744,10 +2852,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2507,
+      "score": 0.2458,
       "signals": {
-        "score": 0.2507,
-        "recency": 0.12287740364122797,
+        "score": 0.2458,
+        "recency": 0.103116579335204,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2770,10 +2878,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.2503,
+      "score": 0.2454,
       "signals": {
-        "score": 0.2503,
-        "recency": 0.1211545216836235,
+        "score": 0.2454,
+        "recency": 0.10167076677079444,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2796,10 +2904,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2501,
+      "score": 0.2443,
       "signals": {
-        "score": 0.2501,
-        "recency": 0.1443783291350623,
+        "score": 0.2443,
+        "recency": 0.12115978194012457,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2822,10 +2930,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2482,
+      "score": 0.2427,
       "signals": {
-        "score": 0.2482,
-        "recency": 0.13693693252286507,
+        "score": 0.2427,
+        "recency": 0.11491509136734218,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2848,10 +2956,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2482,
+      "score": 0.2427,
       "signals": {
-        "score": 0.2482,
-        "recency": 0.13672788305162983,
+        "score": 0.2427,
+        "recency": 0.11473966068808927,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2874,10 +2982,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2436,
+      "score": 0.2398,
       "signals": {
-        "score": 0.2436,
-        "recency": 0.09428973463643947,
+        "score": 0.2398,
+        "recency": 0.0791263048698689,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2900,10 +3008,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2436,
+      "score": 0.2398,
       "signals": {
-        "score": 0.2436,
-        "recency": 0.09428973463643947,
+        "score": 0.2398,
+        "recency": 0.0791263048698689,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2926,10 +3034,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.2328,
+      "score": 0.2305,
       "signals": {
-        "score": 0.2328,
-        "recency": 0.05730092516543559,
+        "score": 0.2305,
+        "recency": 0.0480859394869224,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2952,10 +3060,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.2307,
+      "score": 0.2287,
       "signals": {
-        "score": 0.2307,
-        "recency": 0.04883540970653742,
+        "score": 0.2287,
+        "recency": 0.040981826195437,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2978,10 +3086,10 @@
         "Modern Retail"
       ],
       "keywords": [],
-      "score": 0.2306,
+      "score": 0.2287,
       "signals": {
-        "score": 0.2306,
-        "recency": 0.04840996391138836,
+        "score": 0.2287,
+        "recency": 0.04062479948598265,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -3004,10 +3112,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.2271,
+      "score": 0.2259,
       "signals": {
-        "score": 0.2271,
-        "recency": 0.02828798454058751,
+        "score": 0.2259,
+        "recency": 0.02373878447683782,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -3030,10 +3138,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2253,
+      "score": 0.2235,
       "signals": {
-        "score": 0.2253,
-        "recency": 0.04516432522742647,
+        "score": 0.2235,
+        "recency": 0.037901115969480766,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -3056,10 +3164,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.225,
+      "score": 0.2232,
       "signals": {
-        "score": 0.225,
-        "recency": 0.04404717479612001,
+        "score": 0.2232,
+        "recency": 0.0369636227635247,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
