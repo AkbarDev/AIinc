@@ -1,20 +1,78 @@
 {
-  "generated_at": "2026-07-19T22:00:47.577856+00:00",
-  "sources_scanned": 2837,
-  "feeds_polled": 34,
+  "generated_at": "2026-07-19T23:05:48.199285+00:00",
+  "sources_scanned": 2537,
+  "feeds_polled": 31,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1748,
+    "NA": 1648,
     "SA": 0,
-    "EU": 1089,
+    "EU": 889,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 16,
+  "clusters": 13,
   "trends": [
+    {
+      "id": "chinese smartphone companies rework devices around ai",
+      "title": "Chinese Smartphone Companies Rework Devices Around AI",
+      "summary": "Chinese tech companies have begun to rework mobile devices around artificial intelligence.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/AI-smartphones-ZTE-1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/chinese-smartphone-companies-rework-devices-around-ai/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-19T22:58:45+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.5651,
+      "signals": {
+        "score": 0.5651,
+        "recency": 0.9805981273247308,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "white house weighs regulator to police ai models",
+      "title": "White House Weighs Regulator to Police AI Models",
+      "summary": "The White House is reportedly exploring plans to create a regulator focused on artificial intelligence safety.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/AI-regulation-xxx1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/white-house-weighs-regulator-to-police-ai-models/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-19T22:15:32+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.5374,
+      "signals": {
+        "score": 0.5374,
+        "recency": 0.8696722557944231,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
     {
       "id": "netflix paid 587m for ben afflecks ai filmmaking startup",
       "title": "Netflix paid $587M for Ben Affleck\u2019s AI filmmaking startup",
@@ -32,14 +90,40 @@
         "ai",
         "film"
       ],
-      "score": 0.5653,
+      "score": 0.5257,
       "signals": {
-        "score": 0.5653,
-        "recency": 0.9570789962834301,
+        "score": 0.5257,
+        "recency": 0.7989525908351763,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "polymarket faces ban by frances gambling regulator",
+      "title": "Polymarket Faces Ban by France\u2019s Gambling Regulator",
+      "summary": "France\u2019s gambling regulator has called on internet service providers to block Polymarket.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/07/France-Polymarket-1.jpg?w=457",
+      "link": "https://www.pymnts.com/legal/2026/polymarket-faces-ban-by-frances-gambling-regulator/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-07-19T22:33:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.4484,
+      "signals": {
+        "score": 0.4484,
+        "recency": 0.9137535239527097,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -60,40 +144,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4481,
+      "score": 0.4213,
       "signals": {
-        "score": 0.4481,
-        "recency": 0.6482669688431583,
+        "score": 0.4213,
+        "recency": 0.5411617811292206,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "publicis reveals its massive new business haul adnewscomau",
-      "title": "Publicis reveals its massive new business haul - adnews.com.au",
-      "summary": "Publicis reveals its massive new business haul &nbsp;&nbsp; adnews.com.au",
-      "image": "assets/images/generated/publicis reveals its massive new business haul adnewscomau.jpg",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaVhWZEtNV0ItN3A3NHN4RWktalMwRTJ1UjZ5ellxcWZVVUppVzFGVFZUM0h6NkFCejRmemlMYUtHTkR1VXRvb3BLSmhreUNiZE9WRkJYQ2ZiRTFPYmJWRml4cUxnOEJrQ0ZzbEpudTNUeTA5eHBLZVRFZ3hNcEs4dFdQSQ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-19T21:36:07+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.4474,
-      "signals": {
-        "score": 0.4474,
-        "recency": 0.9337511871929136,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -112,10 +170,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.4468,
+      "score": 0.4103,
       "signals": {
-        "score": 0.4468,
-        "recency": 0.8832907771280704,
+        "score": 0.4103,
+        "recency": 0.737355492689445,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -140,10 +198,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3791,
+      "score": 0.3637,
       "signals": {
-        "score": 0.3791,
-        "recency": 0.3722037760418839,
+        "score": 0.3637,
+        "recency": 0.31070911841349674,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -168,10 +226,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.362,
+      "score": 0.3494,
       "signals": {
-        "score": 0.362,
-        "recency": 0.3040019396900071,
+        "score": 0.3494,
+        "recency": 0.2537754336657939,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -196,40 +254,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3518,
+      "score": 0.3409,
       "signals": {
-        "score": 0.3518,
-        "recency": 0.2630171573521363,
+        "score": 0.3409,
+        "recency": 0.21956206344158669,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "publicis groupe stock trades near highs as organic growth and margin guidance support valuation adhocnewsde",
-      "title": "Publicis Groupe stock trades near highs as organic growth and margin guidance support valuation - ad-hoc-news.de",
-      "summary": "Publicis Groupe stock trades near highs as organic growth and margin guidance support valuation &nbsp;&nbsp; ad-hoc-news.de",
-      "image": "assets/images/generated/publicis groupe stock trades near highs as organic growth and margin guidance support valuation adhocnewsde.jpg",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaktJbGlLOGZyNEJxZzh2cUtPekF0RDc2NVRvbG5NcnFOS3BtSlpqZ3Y2QW9LNmpUWjhjTUR6a3hyTU03YWgwWjB3bnpOWFpuZkxyQVNwUURRanBhUjFXdWZEVmpGcGZ5MkdjOGFBUk9JbGF2Sy1tVmVETEZqb1lKdGFEWVIwTjdGd0k2VzhaQnVNWGtaaWxCdkw4VHFMdUx6RVJTVnhZa0hDaWxoTWl1VkN1bHExMXY2RTQ4MmpOVEVaaG5qbGc?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-19T18:12:47+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.3467,
-      "signals": {
-        "score": 0.3467,
-        "recency": 0.5308052499554652,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -250,10 +282,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3272,
+      "score": 0.3194,
       "signals": {
-        "score": 0.3272,
-        "recency": 0.1888443197938485,
+        "score": 0.3194,
+        "recency": 0.15764389266685025,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -278,10 +310,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2947,
+      "score": 0.2923,
       "signals": {
-        "score": 0.2947,
-        "recency": 0.05879039706755351,
+        "score": 0.2923,
+        "recency": 0.049077181962773636,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -304,10 +336,10 @@
         "Practical Ecommerce"
       ],
       "keywords": [],
-      "score": 0.2749,
+      "score": 0.2653,
       "signals": {
-        "score": 0.2749,
-        "recency": 0.23165021185025028,
+        "score": 0.2653,
+        "recency": 0.1933774930219719,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -330,117 +362,13 @@
         "Forrester Blogs"
       ],
       "keywords": [],
-      "score": 0.2706,
+      "score": 0.2622,
       "signals": {
-        "score": 0.2706,
-        "recency": 0.2023964760394677,
+        "score": 0.2622,
+        "recency": 0.16895699261563868,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "publicis groupe stock trades steady as agency group highlights higher margins and cash generation adhocnewsde",
-      "title": "Publicis Groupe stock trades steady as agency group highlights higher margins and cash generation - ad-hoc-news.de",
-      "summary": "Publicis Groupe stock trades steady as agency group highlights higher margins and cash generation &nbsp;&nbsp; ad-hoc-news.de",
-      "image": "assets/images/generated/publicis groupe stock trades steady as agency group highlights higher margins and cash generation adhocnewsde.jpg",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbmJtRnc1YnpoaWVkLW5jZXF5OUFKanRNNHFtQWZoTmlJNGRONWVIdWNabkRMZGxjbHFBcVJrVDZDTnQ5V0RGOUxWcERrdTR3Y1V3WVJRdHZvOUhkUUptUVhtOUVIX1NST183NWVMM1JSQmp0bXZiZ0VXSXItYThCR2tqc0NHTGZXUEpQTzZWWmM2dzhZUV91T2QycXRaeHlvSmxZZlJoaC03NGVlb0pqSVlKM21hRUJXZXZjN1pzUU9UR3A0WHlR?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-19T11:47:09+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.2595,
-      "signals": {
-        "score": 0.2595,
-        "recency": 0.18185169447155722,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "omnicom group stock holds focus on earnings and cash flow adhocnewsde",
-      "title": "Omnicom Group stock holds focus on earnings and cash flow - ad-hoc-news.de",
-      "summary": "Omnicom Group stock holds focus on earnings and cash flow &nbsp;&nbsp; ad-hoc-news.de",
-      "image": "assets/images/generated/omnicom group stock holds focus on earnings and cash flow adhocnewsde.jpg",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSTBiQXBmS19kNXl2NTIyZjMtYzhqUlBjSmhYdFhvb3VlMUpaQU1YZHVPeHBJM3BneGc1emx0MXFnU1VlMVl6OGV5bGJ6WnVPR0RZX3M0dzFrZWh4SHVvUlpPRjduZVRQTDF4eUFCQ0xSbjJEaWhCcTR2cHp4d3k5TGRwQ05KeW9rbjVYRXlJQ3lLNGEwVkJGREpoYTlncTJHaFhOeXJrXzZWWi1JaHdPQk9LU1pucE0?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-19T11:28:45+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.2572,
-      "signals": {
-        "score": 0.2572,
-        "recency": 0.172790586435804,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "wpp stock edges higher as investors digest first half 2026 trading update adhocnewsde",
-      "title": "WPP stock edges higher as investors digest first half 2026 trading update - ad-hoc-news.de",
-      "summary": "WPP stock edges higher as investors digest first half 2026 trading update &nbsp;&nbsp; ad-hoc-news.de",
-      "image": "assets/images/generated/wpp stock edges higher as investors digest first half 2026 trading update adhocnewsde.jpg",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYkdTcEhJQ1BpOEJoa0wxTDNTOWJEWUU3STYxNWJhYUUzeS1KRUV3N3hxZHc2SW1CWUExRmlaaXZaY1gwZmJMb2xVN29IdXp3T082QnZhZ3VsQUJ0Rng1OWREVkFKWXFfZ05BRXlfQTU0SFAxNlZfb2tURjFzZ3N2djYtdVYxMzFLdzNZQkJ6dkVQSTFJd0FidHhRNVdyS0JwNFVZN0ZHYURjZGFlSlB6SzFrTTZJVTB5WUlxMjlLTGxocG1IbTA2d19iTng?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-19T07:31:15+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.2363,
-      "signals": {
-        "score": 0.2363,
-        "recency": 0.0893318561453074,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "publicis groupe stock holds near recent highs as h1 2026 growth and margins support valuation adhocnewsde",
-      "title": "Publicis Groupe stock holds near recent highs as H1 2026 growth and margins support valuation - ad-hoc-news.de",
-      "summary": "Publicis Groupe stock holds near recent highs as H1 2026 growth and margins support valuation &nbsp;&nbsp; ad-hoc-news.de",
-      "image": "assets/images/generated/publicis groupe stock holds near recent highs as h1 2026 growth and margins support valuation adhocnewsde.jpg",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazhIcXFCWkhqcmlDaENsZ01CdmMwZnBGRm80WW9pLTZnRDJEMEVxQVhIaG96Q1RjT0RGaVlXQWwzLTZUUTl6QmZJNnVEaC03MU1yUFBYUGNTYUo0b3NpbXZLdVIzbFpVYUVpY05oeklSaUJDeVVrWGJZOEdteXVkTTVLMUwxZ21LM1E2c3RkRzBVN2lnRGZEd0wxd0czRllRbzN0ci1tSUcyNjhjSVRVR2dHb1RON1hSanpvcjhmdVFYWV92?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-19T05:45:48+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.2307,
-      "signals": {
-        "score": 0.2307,
-        "recency": 0.06664909641393228,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
