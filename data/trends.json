@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-25T22:08:51.941261+00:00",
-  "sources_scanned": 2026,
-  "feeds_polled": 33,
+  "generated_at": "2026-07-25T23:12:46.877051+00:00",
+  "sources_scanned": 2867,
+  "feeds_polled": 35,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1766,
+    "NA": 1776,
     "SA": 0,
-    "EU": 260,
+    "EU": 1091,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 26,
+  "clusters": 23,
   "trends": [
     {
       "id": "elon musks boring company reportedly raising funding at a 20 billion valuation",
@@ -32,10 +32,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.4839,
+      "score": 0.4582,
       "signals": {
-        "score": 0.4839,
-        "recency": 0.6317531542425817,
+        "score": 0.4582,
+        "recency": 0.5289825346400274,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -60,37 +60,11 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.4529,
+      "score": 0.4225,
       "signals": {
-        "score": 0.4529,
-        "recency": 0.7477807725811184,
+        "score": 0.4225,
+        "recency": 0.6261353279815188,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "warner bros lawsuit accuses amazon of illegally poaching executives",
-      "title": "Warner Bros. lawsuit accuses Amazon of illegally poaching executives",
-      "summary": "The lawsuit will likely renew debates about whether term employment agreements are enforceable under California.",
-      "image": "assets/images/generated/warner bros lawsuit accuses amazon of illegally poaching executives.jpg",
-      "link": "https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-25T20:55:11+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.4297,
-      "signals": {
-        "score": 0.4297,
-        "recency": 0.814913581341032,
-        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -115,10 +89,10 @@
         "ai",
         "game"
       ],
-      "score": 0.4282,
+      "score": 0.4116,
       "signals": {
-        "score": 0.4282,
-        "recency": 0.40872222799418245,
+        "score": 0.4116,
+        "recency": 0.3422332261835645,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -143,14 +117,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4281,
+      "score": 0.404,
       "signals": {
-        "score": 0.4281,
-        "recency": 0.5922968816063787,
+        "score": 0.404,
+        "recency": 0.4959448220993279,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "warner bros lawsuit accuses amazon of illegally poaching executives",
+      "title": "Warner Bros. lawsuit accuses Amazon of illegally poaching executives",
+      "summary": "The lawsuit will likely renew debates about whether term employment agreements are enforceable under California.",
+      "image": "assets/images/generated/warner bros lawsuit accuses amazon of illegally poaching executives.jpg",
+      "link": "https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-25T20:55:11+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3966,
+      "signals": {
+        "score": 0.3966,
+        "recency": 0.6823472884550669,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -171,98 +171,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3757,
+      "score": 0.3611,
       "signals": {
-        "score": 0.3757,
-        "recency": 0.35893035367079296,
+        "score": 0.3611,
+        "recency": 0.3005412588270382,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "prentis new ai lab cofounded by reid hoffman mark pincus in talks to raise 100m",
-      "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
-      "summary": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
-      "image": "assets/images/generated/prentis new ai lab cofounded by reid hoffman mark pincus in talks to raise 100m.jpg",
-      "link": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-24T22:25:58+00:00",
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch Startups"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3516,
-      "signals": {
-        "score": 0.3516,
-        "recency": 0.01920667737231223,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "techcrunchdisrupt 2026s new smart money stage explores fintech payments ai and everything between",
-      "title": "TechCrunch\u00a0Disrupt 2026\u2019s new Smart Money Stage explores fintech, payments, AI, and everything between",
-      "summary": "Money has evolved into far more than the cash in your wallet or your bank account.",
-      "image": "assets/images/generated/techcrunchdisrupt 2026s new smart money stage explores fintech payments ai and everything between.jpg",
-      "link": "https://techcrunch.com/2026/07/24/techcrunch-disrupt-2026s-new-smart-money-stage-explores-fintech-payments-ai-and-everything-between/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-24T22:10:00+00:00",
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch Startups"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3513,
-      "signals": {
-        "score": 0.3513,
-        "recency": 0.01837344005498716,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "publicis groupe stock trades steady as h1 2026 revenue and margin trends support digital and data pi ad hoc news",
-      "title": "Publicis Groupe stock trades steady as H1 2026 revenue and margin trends support digital and data pi - AD HOC NEWS",
-      "summary": "Publicis Groupe stock trades steady as H1 2026 revenue and margin trends support digital and data pi &nbsp;&nbsp; AD HOC NEWS",
-      "image": "assets/images/generated/publicis groupe stock trades steady as h1 2026 revenue and margin trends support digital and data pi ad hoc news.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX1ZzeUpjNG43Mm1yZ2V2YThGNjVTUFJ4QlVfem5jSWtDbTdGSHNvNWNWc0FNOGpOdDkwRmZLOHFqTGpTMVk4LUt1QkVEbU9GZGJYeDlPLTYxRDVreGpjeWhMY21aUjhFR3BtcU9MZHlYYklreS1wWTNYOGgyY2doZTlrbzNCUHpQTGxGZHZVTk5UU3UybzdDamVpLXE0TnpfcHRaeVRfWW5MdklvMW9zRGdpZmxmOGNsSmdmTHhOMmpsaFJYR1BjN3F6VQ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-07-25T18:13:14+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.3439,
-      "signals": {
-        "score": 0.3439,
-        "recency": 0.5196840139250768,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -284,10 +200,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.3437,
+      "score": 0.3398,
       "signals": {
-        "score": 0.3437,
-        "recency": 0.09462615561946763,
+        "score": 0.3398,
+        "recency": 0.07923281950659991,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -312,10 +228,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3433,
+      "score": 0.333,
       "signals": {
-        "score": 0.3433,
-        "recency": 0.2532972129372491,
+        "score": 0.333,
+        "recency": 0.21209201856291976,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -340,14 +256,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3412,
+      "score": 0.3322,
       "signals": {
-        "score": 0.3412,
-        "recency": 0.22074700182818155,
+        "score": 0.3322,
+        "recency": 0.18483692207482064,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "publicis groupe stock trades steady as h1 2026 revenue and margin trends support digital and data pi ad hoc news",
+      "title": "Publicis Groupe stock trades steady as H1 2026 revenue and margin trends support digital and data pi - AD HOC NEWS",
+      "summary": "Publicis Groupe stock trades steady as H1 2026 revenue and margin trends support digital and data pi &nbsp;&nbsp; AD HOC NEWS",
+      "image": "assets/images/generated/publicis groupe stock trades steady as h1 2026 revenue and margin trends support digital and data pi ad hoc news.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX1ZzeUpjNG43Mm1yZ2V2YThGNjVTUFJ4QlVfem5jSWtDbTdGSHNvNWNWc0FNOGpOdDkwRmZLOHFqTGpTMVk4LUt1QkVEbU9GZGJYeDlPLTYxRDVreGpjeWhMY21aUjhFR3BtcU9MZHlYYklreS1wWTNYOGgyY2doZTlrbzNCUHpQTGxGZHZVTk5UU3UybzdDamVpLXE0TnpfcHRaeVRfWW5MdklvMW9zRGdpZmxmOGNsSmdmTHhOMmpsaFJYR1BjN3F6VQ?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-25T18:13:14+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [],
+      "score": 0.3228,
+      "signals": {
+        "score": 0.3228,
+        "recency": 0.43514427280949103,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -368,40 +310,11 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3301,
+      "score": 0.322,
       "signals": {
-        "score": 0.3301,
-        "recency": 0.20051842675294712,
+        "score": 0.322,
+        "recency": 0.16789903606096662,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "world foundation raises 52 million as ai drives demand for id solutions",
-      "title": "World Foundation Raises $52 Million as AI Drives Demand for ID Solutions",
-      "summary": "World Foundation raised $52.5 million in new funding to bring World ID technology to organizations, consumers and artificial intelligence (AI) agents.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2022/12/identity-verification.jpg?w=457",
-      "link": "https://www.pymnts.com/news/investment-tracker/2026/world-foundation-raises-52-million-as-ai-drives-demand-for-id-solutions/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-24T22:48:32+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai",
-        "artificial intelligence"
-      ],
-      "score": 0.3251,
-      "signals": {
-        "score": 0.3251,
-        "recency": 0.020449188173132113,
-        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -425,10 +338,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3147,
+      "score": 0.309,
       "signals": {
-        "score": 0.3147,
-        "recency": 0.13876168959072388,
+        "score": 0.309,
+        "recency": 0.11618859324673605,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -453,10 +366,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2926,
+      "score": 0.2916,
       "signals": {
-        "score": 0.2926,
-        "recency": 0.02659863371131365,
+        "score": 0.2916,
+        "recency": 0.022271693594377633,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -481,10 +394,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2917,
+      "score": 0.2907,
       "signals": {
-        "score": 0.2917,
-        "recency": 0.022678456155277964,
+        "score": 0.2907,
+        "recency": 0.018989232009651708,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -509,10 +422,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2906,
+      "score": 0.2887,
       "signals": {
-        "score": 0.2906,
-        "recency": 0.04857594107625434,
+        "score": 0.2887,
+        "recency": 0.04067383638764534,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -536,10 +449,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2897,
+      "score": 0.2872,
       "signals": {
-        "score": 0.2897,
-        "recency": 0.06292963878917386,
+        "score": 0.2872,
+        "recency": 0.05269254234367673,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.76,
@@ -564,10 +477,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2866,
+      "score": 0.2855,
       "signals": {
-        "score": 0.2866,
-        "recency": 0.026336411327552843,
+        "score": 0.2855,
+        "recency": 0.022052128309630548,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -592,10 +505,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2863,
+      "score": 0.2853,
       "signals": {
-        "score": 0.2863,
-        "recency": 0.025273305980043407,
+        "score": 0.2853,
+        "recency": 0.021161963919412132,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -620,10 +533,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2861,
+      "score": 0.2851,
       "signals": {
-        "score": 0.2861,
-        "recency": 0.024338599671886386,
+        "score": 0.2851,
+        "recency": 0.02037931121920406,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -648,10 +561,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2808,
+      "score": 0.2797,
       "signals": {
-        "score": 0.2808,
-        "recency": 0.027207665110111117,
+        "score": 0.2797,
+        "recency": 0.022781650641442157,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -674,10 +587,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2558,
+      "score": 0.249,
       "signals": {
-        "score": 0.2558,
-        "recency": 0.16701474007675018,
+        "score": 0.249,
+        "recency": 0.13984557090809663,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -700,10 +613,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2389,
+      "score": 0.2349,
       "signals": {
-        "score": 0.2389,
-        "recency": 0.09962061384501551,
+        "score": 0.2349,
+        "recency": 0.0834148028549404,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -726,10 +639,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2328,
+      "score": 0.2298,
       "signals": {
-        "score": 0.2328,
-        "recency": 0.07529164025790189,
+        "score": 0.2298,
+        "recency": 0.0630435517944986,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
