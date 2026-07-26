@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-25T23:12:46.877051+00:00",
-  "sources_scanned": 2867,
-  "feeds_polled": 35,
+  "generated_at": "2026-07-26T00:15:52.615880+00:00",
+  "sources_scanned": 2857,
+  "feeds_polled": 34,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1776,
+    "NA": 1766,
     "SA": 0,
     "EU": 1091,
     "AF": 0,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 23,
+  "clusters": 20,
   "trends": [
     {
       "id": "elon musks boring company reportedly raising funding at a 20 billion valuation",
@@ -32,10 +32,39 @@
         "ai",
         "bill"
       ],
-      "score": 0.4582,
+      "score": 0.437,
       "signals": {
-        "score": 0.4582,
-        "recency": 0.5289825346400274,
+        "score": 0.437,
+        "recency": 0.44394013798395277,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "kalshi demands netflix take down trailer for prediction games documentary",
+      "title": "Kalshi demands Netflix take down trailer for \u2018Prediction Games\u2019 documentary",
+      "summary": "Kalshi claims the trailer is \u201cdefamatory\u201d and contains \u201cboth fabricated documents and false and misleading statements.\u201d",
+      "image": "assets/images/generated/kalshi demands netflix take down trailer for prediction games documentary.jpg",
+      "link": "https://techcrunch.com/2026/07/25/kalshi-demands-netflix-take-down-trailer-for-prediction-games-documentary/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-07-25T16:46:46+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai",
+        "game"
+      ],
+      "score": 0.3978,
+      "signals": {
+        "score": 0.3978,
+        "recency": 0.28721376549419364,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -60,43 +89,14 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.4225,
+      "score": 0.3974,
       "signals": {
-        "score": 0.4225,
-        "recency": 0.6261353279815188,
+        "score": 0.3974,
+        "recency": 0.5254740670973179,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "kalshi demands netflix take down trailer for prediction games documentary",
-      "title": "Kalshi demands Netflix take down trailer for \u2018Prediction Games\u2019 documentary",
-      "summary": "Kalshi claims the trailer is \u201cdefamatory\u201d and contains \u201cboth fabricated documents and false and misleading statements.\u201d",
-      "image": "assets/images/generated/kalshi demands netflix take down trailer for prediction games documentary.jpg",
-      "link": "https://techcrunch.com/2026/07/25/kalshi-demands-netflix-take-down-trailer-for-prediction-games-documentary/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-25T16:46:46+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai",
-        "game"
-      ],
-      "score": 0.4116,
-      "signals": {
-        "score": 0.4116,
-        "recency": 0.3422332261835645,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -117,10 +117,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.404,
+      "score": 0.3841,
       "signals": {
-        "score": 0.404,
-        "recency": 0.4959448220993279,
+        "score": 0.3841,
+        "recency": 0.41621376574375585,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -143,10 +143,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3966,
+      "score": 0.3692,
       "signals": {
-        "score": 0.3966,
-        "recency": 0.6823472884550669,
+        "score": 0.3692,
+        "recency": 0.572649056543722,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -171,10 +171,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3611,
+      "score": 0.3491,
       "signals": {
-        "score": 0.3611,
-        "recency": 0.3005412588270382,
+        "score": 0.3491,
+        "recency": 0.2522244482123405,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -200,39 +200,11 @@
         "ai",
         "platform"
       ],
-      "score": 0.3398,
+      "score": 0.3366,
       "signals": {
-        "score": 0.3398,
-        "recency": 0.07923281950659991,
+        "score": 0.3366,
+        "recency": 0.06649487746992239,
         "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "google data compares gemini ai mode use against daily life via sejournal mattgsouthern",
-      "title": "Google Data Compares Gemini & AI Mode Use Against Daily Life via @sejournal, @MattGSouthern",
-      "summary": "Google's new AI & Economy report compares Gemini and AI Mode conversations against how Americans spend their days.",
-      "image": "assets/images/generated/google data compares gemini ai mode use against daily life via sejournal mattgsouthern.jpg",
-      "link": "https://www.searchenginejournal.com/google-data-compares-gemini-ai-mode-use-against-daily-life/583533/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-07-25T13:54:31+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.333,
-      "signals": {
-        "score": 0.333,
-        "recency": 0.21209201856291976,
-        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -256,10 +228,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3322,
+      "score": 0.3248,
       "signals": {
-        "score": 0.3322,
-        "recency": 0.18483692207482064,
+        "score": 0.3248,
+        "recency": 0.15512143278277515,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -269,27 +241,29 @@
       "image_failure_reason": ""
     },
     {
-      "id": "publicis groupe stock trades steady as h1 2026 revenue and margin trends support digital and data pi ad hoc news",
-      "title": "Publicis Groupe stock trades steady as H1 2026 revenue and margin trends support digital and data pi - AD HOC NEWS",
-      "summary": "Publicis Groupe stock trades steady as H1 2026 revenue and margin trends support digital and data pi &nbsp;&nbsp; AD HOC NEWS",
-      "image": "assets/images/generated/publicis groupe stock trades steady as h1 2026 revenue and margin trends support digital and data pi ad hoc news.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX1ZzeUpjNG43Mm1yZ2V2YThGNjVTUFJ4QlVfem5jSWtDbTdGSHNvNWNWc0FNOGpOdDkwRmZLOHFqTGpTMVk4LUt1QkVEbU9GZGJYeDlPLTYxRDVreGpjeWhMY21aUjhFR3BtcU9MZHlYYklreS1wWTNYOGgyY2doZTlrbzNCUHpQTGxGZHZVTk5UU3UybzdDamVpLXE0TnpfcHRaeVRfWW5MdklvMW9zRGdpZmxmOGNsSmdmTHhOMmpsaFJYR1BjN3F6VQ?oc=5",
-      "category": "advertising",
+      "id": "google data compares gemini ai mode use against daily life via sejournal mattgsouthern",
+      "title": "Google Data Compares Gemini & AI Mode Use Against Daily Life via @sejournal, @MattGSouthern",
+      "summary": "Google's new AI & Economy report compares Gemini and AI Mode conversations against how Americans spend their days.",
+      "image": "assets/images/generated/google data compares gemini ai mode use against daily life via sejournal mattgsouthern.jpg",
+      "link": "https://www.searchenginejournal.com/google-data-compares-gemini-ai-mode-use-against-daily-life/583533/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-07-25T18:13:14+00:00",
+      "published_at": "2026-07-25T13:54:31+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Publicis Groupe"
+        "Search Engine Journal"
       ],
-      "keywords": [],
-      "score": 0.3228,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3245,
       "signals": {
-        "score": 0.3228,
-        "recency": 0.43514427280949103,
-        "keyword_volume": 0.0,
+        "score": 0.3245,
+        "recency": 0.17799483691874812,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
+        "authority": 0.8,
+        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -310,14 +284,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.322,
+      "score": 0.3152,
       "signals": {
-        "score": 0.322,
-        "recency": 0.16789903606096662,
+        "score": 0.3152,
+        "recency": 0.140906582647385,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "publicis groupe stock trades steady as h1 2026 revenue and margin trends support digital and data pi ad hoc news",
+      "title": "Publicis Groupe stock trades steady as H1 2026 revenue and margin trends support digital and data pi - AD HOC NEWS",
+      "summary": "Publicis Groupe stock trades steady as H1 2026 revenue and margin trends support digital and data pi &nbsp;&nbsp; AD HOC NEWS",
+      "image": "assets/images/generated/publicis groupe stock trades steady as h1 2026 revenue and margin trends support digital and data pi ad hoc news.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX1ZzeUpjNG43Mm1yZ2V2YThGNjVTUFJ4QlVfem5jSWtDbTdGSHNvNWNWc0FNOGpOdDkwRmZLOHFqTGpTMVk4LUt1QkVEbU9GZGJYeDlPLTYxRDVreGpjeWhMY21aUjhFR3BtcU9MZHlYYklreS1wWTNYOGgyY2doZTlrbzNCUHpQTGxGZHZVTk5UU3UybzdDamVpLXE0TnpfcHRaeVRfWW5MdklvMW9zRGdpZmxmOGNsSmdmTHhOMmpsaFJYR1BjN3F6VQ?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-07-25T18:13:14+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [],
+      "score": 0.3053,
+      "signals": {
+        "score": 0.3053,
+        "recency": 0.36518787646822765,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -338,10 +338,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.309,
+      "score": 0.3044,
       "signals": {
-        "score": 0.309,
-        "recency": 0.11618859324673605,
+        "score": 0.3044,
+        "recency": 0.09750941995319014,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -366,38 +366,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2916,
-      "signals": {
-        "score": 0.2916,
-        "recency": 0.022271693594377633,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "spacex launches new v3 starlink satellites but suffers another booster failure",
-      "title": "SpaceX launches new V3 Starlink satellites but suffers another booster failure",
-      "summary": "The company ticked off a few more boxes on the second Starship V3 flight, but appears to have had another issue relighting the booster's rocket engines.",
-      "image": "assets/images/generated/spacex launches new v3 starlink satellites but suffers another booster failure.jpg",
-      "link": "https://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-07-24T23:25:47+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
       "score": 0.2907,
       "signals": {
         "score": 0.2907,
-        "recency": 0.018989232009651708,
+        "recency": 0.018691162902292478,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -422,10 +394,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2887,
+      "score": 0.287,
       "signals": {
-        "score": 0.2887,
-        "recency": 0.04067383638764534,
+        "score": 0.287,
+        "recency": 0.03413486713801546,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -449,10 +421,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2872,
+      "score": 0.2851,
       "signals": {
-        "score": 0.2872,
-        "recency": 0.05269254234367673,
+        "score": 0.2851,
+        "recency": 0.044221374028342184,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.76,
@@ -477,66 +449,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2855,
+      "score": 0.2846,
       "signals": {
-        "score": 0.2855,
-        "recency": 0.022052128309630548,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "flex seeks bank charter to scale flexible rent payments",
-      "title": "Flex Seeks Bank Charter to Scale Flexible Rent Payments",
-      "summary": "Flexible Finance aims to secure a Utah industrial bank charter to support its flexible rent payments solution Flex Rent.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/08/rent-payments.jpg?w=457",
-      "link": "https://www.pymnts.com/news/banking/2026/flex-seeks-bank-charter-to-scale-flexible-rent-payments/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-25T00:04:47+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2853,
-      "signals": {
-        "score": 0.2853,
-        "recency": 0.021161963919412132,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "this week in stablecoins visa goldman and samsung raise the stakes",
-      "title": "This Week in Stablecoins: Visa, Goldman and Samsung Raise the Stakes",
-      "summary": "Stablecoins spent years waiting for regulatory legitimacy.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/12/stablecoins-1.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/this-week-in-stablecoins-visa-goldman-and-samsung-raise-the-stakes/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-07-24T23:51:13+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2851,
-      "signals": {
-        "score": 0.2851,
-        "recency": 0.02037931121920406,
+        "score": 0.2846,
+        "recency": 0.018506896246166603,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -561,10 +477,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2797,
+      "score": 0.2788,
       "signals": {
-        "score": 0.2797,
-        "recency": 0.022781650641442157,
+        "score": 0.2788,
+        "recency": 0.01911913620389454,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -587,10 +503,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.249,
+      "score": 0.2433,
       "signals": {
-        "score": 0.249,
-        "recency": 0.13984557090809663,
+        "score": 0.2433,
+        "recency": 0.11736316036905191,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -613,10 +529,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2349,
+      "score": 0.2315,
       "signals": {
-        "score": 0.2349,
-        "recency": 0.0834148028549404,
+        "score": 0.2315,
+        "recency": 0.07000454015845003,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -639,10 +555,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2298,
+      "score": 0.2272,
       "signals": {
-        "score": 0.2298,
-        "recency": 0.0630435517944986,
+        "score": 0.2272,
+        "recency": 0.05290829327984094,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
