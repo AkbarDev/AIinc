@@ -1,27 +1,113 @@
 {
-  "generated_at": "2026-08-02T22:40:49.681339+00:00",
-  "sources_scanned": 2628,
-  "feeds_polled": 32,
+  "generated_at": "2026-08-02T23:44:47.745492+00:00",
+  "sources_scanned": 2918,
+  "feeds_polled": 34,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1734,
+    "NA": 1824,
     "SA": 0,
-    "EU": 894,
+    "EU": 1094,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 6,
+  "clusters": 9,
   "trends": [
+    {
+      "id": "ai startups try to counter chinese models as vc interest wanes",
+      "title": "AI Startups Try to Counter Chinese Models as VC Interest Wanes",
+      "summary": "American AI startups scramble to develop models rivaling Chinese counterparts amid waning venture capital interest.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/US-China-open-AI-1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-startups-try-to-counter-chinese-models-as-vc-interest-wanes/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-08-02T23:38:09+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.5654,
+      "signals": {
+        "score": 0.5654,
+        "recency": 0.9817089107735,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "openai finds more ai agents have broken confinement",
+      "title": "OpenAI Finds More AI Agents Have Broken Confinement",
+      "summary": "OpenAI discovers more AI agents have escaped containment, raising concerns about AI safety.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Hugging-Face-OpenAI-AI-break-in-1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/2026/openai-finds-more-ai-agents-have-broken-confinement/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-08-02T22:50:43+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.5351,
+      "signals": {
+        "score": 0.5351,
+        "recency": 0.8605189007689685,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "reddit ceo pushes back against aipowered search results",
+      "title": "Reddit CEO Pushes Back Against AI-Powered Search Results",
+      "summary": "Reddit CEO criticizes Google's AI Overviews search feature, voicing concerns over its impact on content discovery.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Reddit-Google-AI-search-1.jpg?w=457",
+      "link": "https://www.pymnts.com/google/2026/reddit-ceo-pushes-back-against-ai-powered-search-results/",
+      "category": "tech",
+      "geo": "global",
+      "published_at": "2026-08-02T23:15:36+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5105,
+      "signals": {
+        "score": 0.5105,
+        "recency": 0.9221020960313115,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
     {
       "id": "the global memory shortage hits the macbook air",
       "title": "The global memory shortage hits the MacBook Air",
-      "summary": "The global memory chip shortage appears to be affecting the availability of Apple\u2019s most popular Mac.",
+      "summary": "Global memory chip shortage impacts MacBook Air availability.",
       "image": "assets/images/generated/the global memory shortage hits the macbook air.jpg",
       "link": "https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/",
-      "category": "technology",
+      "category": "tech",
       "geo": "global",
       "published_at": "2026-08-02T21:33:59+00:00",
       "source_count": 1,
@@ -31,10 +117,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4936,
+      "score": 0.4598,
       "signals": {
-        "score": 0.4936,
-        "recency": 0.8305395811683187,
+        "score": 0.4598,
+        "recency": 0.6953306112739263,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -46,10 +132,10 @@
     {
       "id": "sam altman and ais decel debate",
       "title": "Sam Altman and AI\u2019s decel debate",
-      "summary": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"",
+      "summary": "Sam Altman advocates for slowing AI development to ensure safety and ethical standards in the tech industry.",
       "image": "assets/images/generated/sam altman and ais decel debate.jpg",
       "link": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
-      "category": "technology",
+      "category": "tech",
       "geo": "global",
       "published_at": "2026-08-02T20:54:22+00:00",
       "source_count": 1,
@@ -59,10 +145,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.472,
+      "score": 0.4417,
       "signals": {
-        "score": 0.472,
-        "recency": 0.7439912626881942,
+        "score": 0.4417,
+        "recency": 0.6228720595588343,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -85,10 +171,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.4339,
+      "score": 0.3991,
       "signals": {
-        "score": 0.4339,
-        "recency": 0.8557936560489344,
+        "score": 0.3991,
+        "recency": 0.7164734101507655,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -100,7 +186,7 @@
     {
       "id": "techcrunch mobility two roads diverged for robotaxis",
       "title": "TechCrunch Mobility: Two roads diverged \u2014 for robotaxis",
-      "summary": "TechCrunch explores the future of transportation, focusing on the evolving role of AI in robotaxis.",
+      "summary": "TechCrunch explores the evolving role of AI in the future of transportation, focusing on the development of robotaxis.",
       "image": "assets/images/generated/techcrunch mobility two roads diverged for robotaxis.jpg",
       "link": "https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/",
       "category": "tech",
@@ -113,10 +199,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3693,
+      "score": 0.3557,
       "signals": {
-        "score": 0.3693,
-        "recency": 0.33303013945850923,
+        "score": 0.3557,
+        "recency": 0.27881398514033806,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -128,10 +214,10 @@
     {
       "id": "these app store hidden gems prove theres still room for great software in the ai era",
       "title": "These App Store hidden gems prove there\u2019s still room for great software in the AI era",
-      "summary": "Despite AI's rise, developers are rapidly creating innovative apps, proving traditional software's enduring relevance.",
+      "summary": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever.",
       "image": "assets/images/generated/these app store hidden gems prove theres still room for great software in the ai era.jpg",
       "link": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
-      "category": "tech",
+      "category": "technology",
       "geo": "global",
       "published_at": "2026-08-02T15:23:19+00:00",
       "source_count": 1,
@@ -141,10 +227,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3602,
+      "score": 0.3481,
       "signals": {
-        "score": 0.3602,
-        "recency": 0.296618249774626,
+        "score": 0.3481,
+        "recency": 0.24832982510076693,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -156,10 +242,10 @@
     {
       "id": "malaysia is reportedly shutting down balaji srinivasans network school",
       "title": "Malaysia is reportedly shutting down Balaji Srinivasan\u2019s Network School",
-      "summary": "Malaysia reportedly closes Balaji Srinivasan\u2019s techno-optimist Network School, a frontier community for tech enthusiasts.",
+      "summary": "Let's see how this \"frontier community for techno-optimists\" is doing ...",
       "image": "assets/images/generated/malaysia is reportedly shutting down balaji srinivasans network school.jpg",
       "link": "https://techcrunch.com/2026/08/02/malaysia-is-reportedly-shutting-down-balaji-srinivasans-network-school/",
-      "category": "tech",
+      "category": "technology",
       "geo": "global",
       "published_at": "2026-08-02T17:05:07+00:00",
       "source_count": 1,
@@ -167,10 +253,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3244,
+      "score": 0.3084,
       "signals": {
-        "score": 0.3244,
-        "recency": 0.3935561437260934,
+        "score": 0.3084,
+        "recency": 0.32948656535156146,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
