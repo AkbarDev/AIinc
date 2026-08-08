@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-08T18:03:57.551060+00:00",
-  "sources_scanned": 2921,
-  "feeds_polled": 33,
+  "generated_at": "2026-08-08T18:54:14.378426+00:00",
+  "sources_scanned": 2931,
+  "feeds_polled": 34,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1826,
+    "NA": 1836,
     "SA": 0,
     "EU": 1095,
     "AF": 0,
@@ -13,15 +13,15 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 38,
+  "clusters": 34,
   "trends": [
     {
       "id": "omnicom group omc posted strong q2 results is it still below fair value simplywallst",
       "title": "Omnicom Group (OMC) Posted Strong Q2 Results, Is It Still Below Fair Value? - simplywall.st",
-      "summary": "Omnicom Group (OMC) Posted Strong Q2 Results, Is It Still Below Fair Value?",
+      "summary": "Omnicom Group reports strong Q2 results, prompting valuation questions.",
       "image": "assets/images/generated/omnicom group omc posted strong q2 results is it still below fair value simplywallst.jpg",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOERlMWJQOWhFTjV2bzZPa1FWRVJJUmhfc1hOeHpnX0d5aU9KODF5UEVNUkRGWVJTSWRNeHdiQ2tnQkVhNlBDODN1b2pWd2FNZVZTWUdRMmdHZTZMUWt6NUo3eW1WSUoyQWJXdGl5eW9kcVl4QnU0Rk9Pd0FWV28yRy1rUHJkeHlkbTVEVkhpYVRJNjdvUHFEVWxJWDZiZC1iU3RDVTh3S0VoMERzY0RiNVMwcl81aVVFWFlWbjNxRm5UQ09t0gHKAUFVX3lxTE9kc005d1p3aXNnbXF2VWk1YklkejhGZTc3OWZEeDhuQW5iT2htN1FiZHBfX0wzc2lreVNzcG9NS2RaMlZKTEJha3BpTF91Sy12OFZDdjBuZ3ZNZDJSQlpObDBDMEJqTnBnQ0REd0hHLTFPNFU2NFhocXE4M2VOdGdZZTB1Z2hDNW1fSjNjYlBEeXZUbUhaZ2p5VG5QdXRiLTBkeFAyNXRqeUIzRE1jOHdKbTlNZ3hrRmVBdzZwWXhzZVNKcGJxWktaSUE?oc=5",
-      "category": "advertising",
+      "category": "ads",
       "geo": "global",
       "published_at": "2026-08-08T16:39:59+00:00",
       "source_count": 1,
@@ -31,41 +31,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.472,
+      "score": 0.4462,
       "signals": {
-        "score": 0.472,
-        "recency": 0.7919426885105427,
+        "score": 0.4462,
+        "recency": 0.6887105578812618,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "googles top hacker hunter explains why hacking groups get codenames",
-      "title": "Google\u2019s top hacker hunter explains why hacking groups get codenames",
-      "summary": "Google recently changed how it refers and assigns names to hacking groups.",
-      "image": "assets/images/generated/googles top hacker hunter explains why hacking groups get codenames.jpg",
-      "link": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-08T15:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.436,
-      "signals": {
-        "score": 0.436,
-        "recency": 0.5998967425901357,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -88,13 +60,41 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4311,
+      "score": 0.4192,
       "signals": {
-        "score": 0.4311,
-        "recency": 0.364361473378321,
+        "score": 0.4192,
+        "recency": 0.3168658505740865,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "googles top hacker hunter explains why hacking groups get codenames",
+      "title": "Google\u2019s top hacker hunter explains why hacking groups get codenames",
+      "summary": "Google recently changed how it refers and assigns names to hacking groups.",
+      "image": "assets/images/generated/googles top hacker hunter explains why hacking groups get codenames.jpg",
+      "link": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-08T15:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4164,
+      "signals": {
+        "score": 0.4164,
+        "recency": 0.5216983832977251,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -114,36 +114,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.4209,
+      "score": 0.3955,
       "signals": {
-        "score": 0.4209,
-        "recency": 0.7796828031552596,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "the kindle scribe colorsoft is a lot of fun but its not a musthave",
-      "title": "The Kindle Scribe Colorsoft is a lot of fun, but it\u2019s not a must-have",
-      "summary": "While the device is pretty and lightweight, it\u2019s not something the everyday person needs due to its hefty price tag and size.",
-      "image": "assets/images/generated/the kindle scribe colorsoft is a lot of fun but its not a musthave.jpg",
-      "link": "https://techcrunch.com/2026/08/08/the-kindle-scribe-colorsoft-is-a-lot-of-fun-but-its-not-a-must-have/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-08T16:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.4032,
-      "signals": {
-        "score": 0.4032,
-        "recency": 0.7086942635030388,
+        "score": 0.3955,
+        "recency": 0.6780487857541933,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -169,14 +143,40 @@
         "ai",
         "cloud"
       ],
-      "score": 0.3958,
+      "score": 0.3867,
       "signals": {
-        "score": 0.3958,
-        "recency": 0.2793850332874756,
+        "score": 0.3867,
+        "recency": 0.24296634709890463,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the kindle scribe colorsoft is a lot of fun but its not a musthave",
+      "title": "The Kindle Scribe Colorsoft is a lot of fun, but it\u2019s not a must-have",
+      "summary": "While the device is pretty and lightweight, it\u2019s not something the everyday person needs due to its hefty price tag and size.",
+      "image": "assets/images/generated/the kindle scribe colorsoft is a lot of fun but its not a musthave.jpg",
+      "link": "https://techcrunch.com/2026/08/08/the-kindle-scribe-colorsoft-is-a-lot-of-fun-but-its-not-a-must-have/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-08T16:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3801,
+      "signals": {
+        "score": 0.3801,
+        "recency": 0.6163138174839405,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -199,10 +199,10 @@
         "artificial intelligence",
         "bill"
       ],
-      "score": 0.372,
+      "score": 0.3705,
       "signals": {
-        "score": 0.372,
-        "recency": 0.04807566208223604,
+        "score": 0.3705,
+        "recency": 0.04180885376369888,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -229,10 +229,10 @@
         "enterprise",
         "platform"
       ],
-      "score": 0.3673,
+      "score": 0.3664,
       "signals": {
-        "score": 0.3673,
-        "recency": 0.029346255350781617,
+        "score": 0.3664,
+        "recency": 0.025520881987527444,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -258,10 +258,10 @@
         "ai",
         "console"
       ],
-      "score": 0.3341,
+      "score": 0.3331,
       "signals": {
-        "score": 0.3341,
-        "recency": 0.03247920821292546,
+        "score": 0.3331,
+        "recency": 0.028245444944931482,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -287,10 +287,10 @@
         "ai",
         "govern"
       ],
-      "score": 0.3335,
+      "score": 0.3325,
       "signals": {
-        "score": 0.3335,
-        "recency": 0.029878164074684466,
+        "score": 0.3325,
+        "recency": 0.025983454796514458,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -316,10 +316,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.3315,
+      "score": 0.33,
       "signals": {
-        "score": 0.3315,
-        "recency": 0.04589429778365396,
+        "score": 0.33,
+        "recency": 0.039911836915365755,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -345,10 +345,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.3292,
+      "score": 0.328,
       "signals": {
-        "score": 0.3292,
-        "recency": 0.03685662268247967,
+        "score": 0.328,
+        "recency": 0.03205225016599396,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -374,41 +374,13 @@
         "ai",
         "bill"
       ],
-      "score": 0.3277,
+      "score": 0.3269,
       "signals": {
-        "score": 0.3277,
-        "recency": 0.024751526759199588,
+        "score": 0.3269,
+        "recency": 0.021525090199143126,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.81,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "how omnicom group inc omc affects rotational strategy timing stock traders daily",
-      "title": "How Omnicom Group Inc. (OMC) Affects Rotational Strategy Timing - Stock Traders Daily",
-      "summary": "How Omnicom Group Inc. (OMC) Affects Rotational Strategy Timing &nbsp;&nbsp; Stock Traders Daily",
-      "image": "assets/images/generated/how omnicom group inc omc affects rotational strategy timing stock traders daily.jpg",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaDJXN0czZmFIMEJFN1piWEJtU19ET3NYYkNjYzBtQjE5clhLbnpmZjI2SzlWMW82VDNhWXBmb1haS1NXOUt0NUFmekg1S01lNUN2UWhvVWQ3VFJXVGlzSWwzSmlwUVhHdTkxeE5jeXhSYTdVcjgxTzljTVlYbW9qTkFSSk1KNkN5TWpiQVlISkNUZmo2eDhYRUpRa3JfRFVPcl9sQ3ZDVXIzSkxhcnRUQlFxVnNJaktZTnlvcmN3V1pBQk5Pb2F4Zl9ISjIzamd3VmpqeGJBOA?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-08T08:38:01+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3259,
-      "signals": {
-        "score": 0.3259,
-        "recency": 0.20761652117810753,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -431,10 +403,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.3256,
+      "score": 0.3249,
       "signals": {
-        "score": 0.3256,
-        "recency": 0.022504200691111535,
+        "score": 0.3249,
+        "recency": 0.01957070989795619,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -444,30 +416,29 @@
       "image_failure_reason": ""
     },
     {
-      "id": "wall streets new cybersecurity threat starts with a phone call",
-      "title": "Wall Street\u2019s New Cybersecurity Threat Starts With a Phone Call",
-      "summary": "As banks and investment firms move more operations into cloud-based identity platforms, collaboration suites and SaaS ecosystems, attackers are no longer trying to breach the",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Wall-Street-cybersecurity-threat.jpeg?w=457",
-      "link": "https://www.pymnts.com/cybersecurity/2026/wall-streets-new-cybersecurity-threat-starts-with-a-phone-call/",
-      "category": "commerce",
+      "id": "how omnicom group inc omc affects rotational strategy timing stock traders daily",
+      "title": "How Omnicom Group Inc. (OMC) Affects Rotational Strategy Timing - Stock Traders Daily",
+      "summary": "How Omnicom Group Inc. (OMC) Affects Rotational Strategy Timing &nbsp;&nbsp; Stock Traders Daily",
+      "image": "assets/images/generated/how omnicom group inc omc affects rotational strategy timing stock traders daily.jpg",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaDJXN0czZmFIMEJFN1piWEJtU19ET3NYYkNjYzBtQjE5clhLbnpmZjI2SzlWMW82VDNhWXBmb1haS1NXOUt0NUFmekg1S01lNUN2UWhvVWQ3VFJXVGlzSWwzSmlwUVhHdTkxeE5jeXhSYTdVcjgxTzljTVlYbW9qTkFSSk1KNkN5TWpiQVlISkNUZmo2eDhYRUpRa3JfRFVPcl9sQ3ZDVXIzSkxhcnRUQlFxVnNJaktZTnlvcmN3V1pBQk5Pb2F4Zl9ISjIzamd3VmpqeGJBOA?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-08-07T18:11:09+00:00",
+      "published_at": "2026-08-08T08:38:01+00:00",
       "source_count": 1,
       "source_names": [
-        "PYMNTS"
+        "Google News - Omnicom"
       ],
       "keywords": [
-        "cloud",
-        "platform"
+        "ai"
       ],
-      "score": 0.3047,
+      "score": 0.3191,
       "signals": {
-        "score": 0.3047,
-        "recency": 0.018685162635090787,
-        "keyword_volume": 0.4,
+        "score": 0.3191,
+        "recency": 0.18055307814618163,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
+        "authority": 0.76,
+        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -488,10 +459,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3025,
+      "score": 0.2994,
       "signals": {
-        "score": 0.3025,
-        "recency": 0.0959113388793464,
+        "score": 0.2994,
+        "recency": 0.08340900505182708,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -516,40 +487,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2961,
+      "score": 0.2948,
       "signals": {
-        "score": 0.2961,
-        "recency": 0.04036118903718337,
+        "score": 0.2948,
+        "recency": 0.03509998567046506,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "tvs motors rs 200crore media mandate likely split between dentsu and omnicom kinnect impact magazine",
-      "title": "TVS Motor\u2019s Rs 200-crore media mandate likely split between Dentsu and Omnicom Kinnect - IMPACT Magazine",
-      "summary": "TVS Motor\u2019s Rs 200-crore media mandate likely split between Dentsu and Omnicom Kinnect &nbsp;&nbsp; IMPACT Magazine",
-      "image": "assets/images/generated/tvs motors rs 200crore media mandate likely split between dentsu and omnicom kinnect impact magazine.jpg",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdi1vVjUxQ0licUEyNVFDSTNqYkl6NU95S2NRVE9uNWswc05qZ2tFak5pV2loX2pfdEVmQXlrVEdxM1dfakRqM2Y3bW1RbEtpQTBHaVdpVGhKQUFRS1NlOERpRnpXdDJ3SnAwcG9TX3hxTlNWc3ROYVhzcXEwdXh1Y2ZDSDl6S0l6NkJ6U2hIbUtraW5DWjl2dlBmNC1RTTc5SzFtakUwTldOUE5ITVNFUjU5TXU5R3hiYUhlNzY4aDl2QVVqZ2lCQzhNZzVZNkV6MjVxbVA4RzU?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-08T10:50:55+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.2891,
-      "signals": {
-        "score": 0.2891,
-        "recency": 0.30032325060214676,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -570,10 +515,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2873,
+      "score": 0.2861,
       "signals": {
-        "score": 0.2873,
-        "recency": 0.03514848860148566,
+        "score": 0.2861,
+        "recency": 0.030566776541545302,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -598,10 +543,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2859,
+      "score": 0.2851,
       "signals": {
-        "score": 0.2859,
-        "recency": 0.023642686802770017,
+        "score": 0.2851,
+        "recency": 0.02056079089305326,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -626,10 +571,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2854,
+      "score": 0.2847,
       "signals": {
-        "score": 0.2854,
-        "recency": 0.021431448440269875,
+        "score": 0.2847,
+        "recency": 0.01863779415561241,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -639,79 +584,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "spacex tesla to spend 168b on terafab chip factory in texas",
-      "title": "SpaceX, Tesla to Spend $16.8B on Terafab Chip Factory in Texas",
-      "summary": "The move comes as Elon Musk\u2019s companies look to secure chip capacity for AI, robotics and space-based data centers.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/blta9eec015c942b6c5/6a7621bf9355eadfa5406d80/SpaceX.jpg?width=720&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/data-centers/tesla-spacex-spend-16-8b-terafab-chip-factory-texas",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-08-07T18:17:18+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AI Business"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2848,
-      "signals": {
-        "score": 0.2848,
-        "recency": 0.01900710963097646,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "wpp pins turnaround hopes on ai commerce as india business slumps 29 financebiggocom",
-      "title": "WPP Pins Turnaround Hopes on AI, Commerce as India Business Slumps 2.9% - finance.biggo.com",
-      "summary": "WPP Pins Turnaround Hopes on AI, Commerce as India Business Slumps 2.9% &nbsp;&nbsp; finance.biggo.com",
-      "image": "assets/images/generated/wpp pins turnaround hopes on ai commerce as india business slumps 29 financebiggocom.jpg",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtdzYyMDYwcTBOVWRJd0dVOFJlSV85R1Nlblk0STNHSmRrak5JLWprVE9qZW9qVHVFeG11S1pBUWdaYkFVdnpzNUxXbXdXX1c0UXVLTDdiR3p1d19BaFMxSzVMR2xqbldEZ3pBcHFXbUFkUzJTZEE?oc=5",
+      "id": "tvs motors rs 200crore media mandate likely split between dentsu and omnicom kinnect impact magazine",
+      "title": "TVS Motor\u2019s Rs 200-crore media mandate likely split between Dentsu and Omnicom Kinnect - IMPACT Magazine",
+      "summary": "TVS Motor\u2019s Rs 200-crore media mandate likely split between Dentsu and Omnicom Kinnect &nbsp;&nbsp; IMPACT Magazine",
+      "image": "assets/images/generated/tvs motors rs 200crore media mandate likely split between dentsu and omnicom kinnect impact magazine.jpg",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdi1vVjUxQ0licUEyNVFDSTNqYkl6NU95S2NRVE9uNWswc05qZ2tFak5pV2loX2pfdEVmQXlrVEdxM1dfakRqM2Y3bW1RbEtpQTBHaVdpVGhKQUFRS1NlOERpRnpXdDJ3SnAwcG9TX3hxTlNWc3ROYVhzcXEwdXh1Y2ZDSDl6S0l6NkJ6U2hIbUtraW5DWjl2dlBmNC1RTTc5SzFtakUwTldOUE5ITVNFUjU5TXU5R3hiYUhlNzY4aDl2QVVqZ2lCQzhNZzVZNkV6MjVxbVA4RzU?oc=5",
       "category": "advertising",
       "geo": "global",
-      "published_at": "2026-08-07T18:08:00+00:00",
+      "published_at": "2026-08-08T10:50:55+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2786,
-      "signals": {
-        "score": 0.2786,
-        "recency": 0.01852238067170506,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "wpp media names siddesh kerkar as senior vp client solutions exchange4media",
-      "title": "WPP Media names Siddesh Kerkar as Senior VP - Client Solutions - Exchange4Media",
-      "summary": "WPP Media names Siddesh Kerkar as Senior VP - Client Solutions &nbsp;&nbsp; Exchange4Media",
-      "image": "assets/images/generated/wpp media names siddesh kerkar as senior vp client solutions exchange4media.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTTJmSE5ObFVWUlN1YnItbXpUc2dsckVycWpZYTZodHZQand5VFc2Wmp6enlvc3VBTnFxMDN3R2FIWHItS21JYS12aUEwdHNacjVuSlJWX2ptSlFvZ2hpS2RCTTVpQWh2UXVDbElCU2NLVkJFd0U2bkRZa1YxdjY0bFNQdzVzSWJkV0U3ZURHcDN2enpBZEhzTV9VVjlwdldkaXJMT1JTNHZRSExMTkxIV2pJeHBIZXFLRm8zUW91OUNoZw?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-08T09:07:19+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
+        "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2703,
+      "score": 0.2793,
       "signals": {
-        "score": 0.2703,
-        "recency": 0.22522088208217983,
+        "score": 0.2793,
+        "recency": 0.26117520430162416,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -736,13 +625,39 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.2676,
+      "score": 0.2666,
       "signals": {
-        "score": 0.2676,
-        "recency": 0.030248383042511446,
+        "score": 0.2666,
+        "recency": 0.026305414599375812,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "wpp media names siddesh kerkar as senior vp client solutions exchange4media",
+      "title": "WPP Media names Siddesh Kerkar as Senior VP - Client Solutions - Exchange4Media",
+      "summary": "WPP Media names Siddesh Kerkar as Senior VP - Client Solutions &nbsp;&nbsp; Exchange4Media",
+      "image": "assets/images/generated/wpp media names siddesh kerkar as senior vp client solutions exchange4media.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTTJmSE5ObFVWUlN1YnItbXpUc2dsckVycWpZYTZodHZQand5VFc2Wmp6enlvc3VBTnFxMDN3R2FIWHItS21JYS12aUEwdHNacjVuSlJWX2ptSlFvZ2hpS2RCTTVpQWh2UXVDbElCU2NLVkJFd0U2bkRZa1YxdjY0bFNQdzVzSWJkV0U3ZURHcDN2enpBZEhzTV9VVjlwdldkaXJMT1JTNHZRSExMTkxIV2pJeHBIZXFLRm8zUW91OUNoZw?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-08T09:07:19+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.263,
+      "signals": {
+        "score": 0.263,
+        "recency": 0.19586265722972576,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -762,10 +677,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.2668,
+      "score": 0.2607,
       "signals": {
-        "score": 0.2668,
-        "recency": 0.1872253741026974,
+        "score": 0.2607,
+        "recency": 0.16281997891831043,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -788,13 +703,39 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2569,
+      "score": 0.256,
       "signals": {
-        "score": 0.2569,
-        "recency": 0.027689771921055473,
+        "score": 0.256,
+        "recency": 0.024080326195348334,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 1.0,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+    },
+    {
+      "id": "arrowstreet capital limited partnership buys new holdings in wpp plc wpp marketbeat",
+      "title": "Arrowstreet Capital Limited Partnership Buys New Holdings in Wpp Plc $WPP - MarketBeat",
+      "summary": "Arrowstreet Capital Limited Partnership Buys New Holdings in Wpp Plc $WPP &nbsp;&nbsp; MarketBeat",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Arrowstreet%20Capital%20Limited%20Partnership%20Buys%20New%20Holdings%20in%20Wpp%20Plc%20%24WPP%20-%20MarketBeat%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%230f766e%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23042f2e%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%235eead4%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%235eead4%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%235eead4%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%235eead4%22%3EGOOGLE%20NEWS%20-%20WPP%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EARROWSTREET%20CAPITAL%20LIMITED%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPARTNERSHIP%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EArrowstreet%20Capital%20Limited%20Partnership%20Buys%20New%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX3lRLVNLTUxkOXhzTWdMY3VPT2tPTmhvY0F3TmU0OFlHZU1GMlY0WWtjRDFhQzd0cHlrZmZhY1ZGV3hKcERkd2pVR1Jtb0JYOFg4d002aW1aamxfT08yaG54UDNhbEpORlBqemZxbGYxQ2ROV1RnZVBwTDd0VzRScjhOcGpzaG05SUVZVzdfaEVYLTdIZE5nT19oTkdCbEF0aUVfWHZLRkl2S1QyeVFxc1FCTnZQWFJmVjFhYzd6bjJrT1F0WnlsQUkwWEpSdw?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-08T08:10:13+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.2558,
+      "signals": {
+        "score": 0.2558,
+        "recency": 0.1671351178285763,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": true,
@@ -814,10 +755,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2447,
+      "score": 0.2407,
       "signals": {
-        "score": 0.2447,
-        "recency": 0.12274277163492542,
+        "score": 0.2407,
+        "recency": 0.10674287919441587,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -840,10 +781,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2363,
+      "score": 0.2334,
       "signals": {
-        "score": 0.2363,
-        "recency": 0.08932369587101083,
+        "score": 0.2334,
+        "recency": 0.07768008128345896,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -866,10 +807,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2339,
+      "score": 0.2329,
       "signals": {
-        "score": 0.2339,
-        "recency": 0.03157334021034858,
+        "score": 0.2329,
+        "recency": 0.027457659583095654,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -892,10 +833,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2328,
+      "score": 0.2304,
       "signals": {
-        "score": 0.2328,
-        "recency": 0.0752790585459411,
+        "score": 0.2304,
+        "recency": 0.06546620501725997,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -918,10 +859,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.2314,
+      "score": 0.2297,
       "signals": {
-        "score": 0.2314,
-        "recency": 0.051630813537347144,
+        "score": 0.2297,
+        "recency": 0.0449005804473645,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -944,10 +885,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.2306,
+      "score": 0.2292,
       "signals": {
-        "score": 0.2306,
-        "recency": 0.042497392874021135,
+        "score": 0.2292,
+        "recency": 0.036957728860169424,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -970,10 +911,10 @@
         "Digital Commerce 360"
       ],
       "keywords": [],
-      "score": 0.2288,
+      "score": 0.2278,
       "signals": {
-        "score": 0.2288,
-        "recency": 0.02905425523120198,
+        "score": 0.2278,
+        "recency": 0.025266944968883688,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -996,10 +937,10 @@
         "Forrester Blogs"
       ],
       "keywords": [],
-      "score": 0.2254,
+      "score": 0.2247,
       "signals": {
-        "score": 0.2254,
-        "recency": 0.02151694744877011,
+        "score": 0.2247,
+        "recency": 0.018712148109120367,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1007,58 +948,6 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
-    },
-    {
-      "id": "social engineering scam breaches levi strauss company files",
-      "title": "Social Engineering Scam Breaches Levi Strauss Company Files",
-      "summary": "Levi Strauss &#38; Co. has disclosed that an unauthorized third party accessed company files through a social engineering scam, according to the company\u2019s Friday (Aug.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2021/08/levis.jpg?w=457",
-      "link": "https://www.pymnts.com/cybersecurity/2026/social-engineering-scam-breaches-levi-strauss-company-files/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-08-07T18:22:27+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.2248,
-      "signals": {
-        "score": 0.2248,
-        "recency": 0.0192809710934978,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "wpps elevate 28 plan is taking hold emarketer",
-      "title": "WPP\u2019s Elevate 28 plan is taking hold - eMarketer",
-      "summary": "WPP\u2019s Elevate 28 plan is taking hold &nbsp;&nbsp; eMarketer",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22WPP%E2%80%99s%20Elevate%2028%20plan%20is%20taking%20hold%20-%20eMarketer%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2392400e%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23211006%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3EGOOGLE%20NEWS%20-%20WPP%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWPP%E2%80%99S%20ELEVATE%2028%20PLAN%20IS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETAKING%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EWPP%E2%80%99s%20Elevate%2028%20plan%20is%20taking%20hold%20%26amp%3Bnbsp%3B%26amp%3Bnbsp%3B%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53SGZRSl9Gal9ndHRIdUZoM0R1enVadGNwRGczQnJKMXBQZkxsZ1ZCem5zUHJ2VTkwMDlfVHE0RVZJZWhHWW1IUTlRemoxNlRPT3kweklobmFNOHoyQW9yd0VDQ3VldElVdDNvckxOVkdtYldSQWc?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-07T18:32:16+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.219,
-      "signals": {
-        "score": 0.219,
-        "recency": 0.01981396861071914,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     }
   ]
 }
