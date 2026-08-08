@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-08T19:58:57.950737+00:00",
-  "sources_scanned": 2931,
-  "feeds_polled": 34,
+  "generated_at": "2026-08-08T20:42:26.860214+00:00",
+  "sources_scanned": 2921,
+  "feeds_polled": 33,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1836,
+    "NA": 1826,
     "SA": 0,
     "EU": 1095,
     "AF": 0,
@@ -13,12 +13,12 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 29,
+  "clusters": 28,
   "trends": [
     {
       "id": "openai acquires presentation startup nextslide",
       "title": "OpenAI acquires presentation startup NextSlide",
-      "summary": "OpenAI acquires presentation startup NextSlide, integrating its team into ChatGPT development.",
+      "summary": "OpenAI acquires NextSlide, integrating the startup's team into ChatGPT development.",
       "image": "assets/images/generated/openai acquires presentation startup nextslide.jpg",
       "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
       "category": "tech",
@@ -32,10 +32,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5847,
+      "score": 0.5576,
       "signals": {
-        "score": 0.5847,
-        "recency": 0.9518924008829517,
+        "score": 0.5576,
+        "recency": 0.8435921624516596,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -60,10 +60,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4178,
+      "score": 0.4015,
       "signals": {
-        "score": 0.4178,
-        "recency": 0.5753773452664757,
+        "score": 0.4015,
+        "recency": 0.5099145853762583,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -89,10 +89,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4062,
+      "score": 0.3987,
       "signals": {
-        "score": 0.4062,
-        "recency": 0.2647228648124694,
+        "score": 0.3987,
+        "recency": 0.2346043878177881,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.8,
@@ -117,10 +117,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.395,
+      "score": 0.3826,
       "signals": {
-        "score": 0.395,
-        "recency": 0.43584845241098974,
+        "score": 0.3826,
+        "recency": 0.3862603988954495,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -146,10 +146,10 @@
         "ai",
         "cloud"
       ],
-      "score": 0.3767,
+      "score": 0.371,
       "signals": {
-        "score": 0.3767,
-        "recency": 0.20298415667233438,
+        "score": 0.371,
+        "recency": 0.17988991561631013,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -176,40 +176,14 @@
         "artificial intelligence",
         "bill"
       ],
-      "score": 0.3687,
+      "score": 0.3677,
       "signals": {
-        "score": 0.3687,
-        "recency": 0.03492884929947413,
+        "score": 0.3677,
+        "recency": 0.03095486788754681,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "x replaces misaligned revenue sharing program with original content rewards",
-      "title": "X replaces \u2018misaligned\u2019 revenue sharing program with Original Content Rewards",
-      "summary": "X is winding down its existing Revenue Sharing program.",
-      "image": "assets/images/generated/x replaces misaligned revenue sharing program with original content rewards.jpg",
-      "link": "https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-08T16:34:22+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.3676,
-      "signals": {
-        "score": 0.3676,
-        "recency": 0.566470058929555,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -232,14 +206,40 @@
         "enterprise",
         "platform"
       ],
-      "score": 0.3653,
+      "score": 0.3647,
       "signals": {
-        "score": 0.3653,
-        "recency": 0.02132120258474997,
+        "score": 0.3647,
+        "recency": 0.01889541231535771,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "x replaces misaligned revenue sharing program with original content rewards",
+      "title": "X replaces \u2018misaligned\u2019 revenue sharing program with Original Content Rewards",
+      "summary": "X is winding down its existing Revenue Sharing program.",
+      "image": "assets/images/generated/x replaces misaligned revenue sharing program with original content rewards.jpg",
+      "link": "https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-08T16:34:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3515,
+      "signals": {
+        "score": 0.3515,
+        "recency": 0.5020207131953593,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -258,10 +258,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3547,
+      "score": 0.3401,
       "signals": {
-        "score": 0.3547,
-        "recency": 0.5148941076870998,
+        "score": 0.3401,
+        "recency": 0.45631274431277735,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -287,10 +287,10 @@
         "ai",
         "console"
       ],
-      "score": 0.3319,
+      "score": 0.3312,
       "signals": {
-        "score": 0.3319,
-        "recency": 0.023597415405220167,
+        "score": 0.3312,
+        "recency": 0.020912652177383643,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -316,10 +316,10 @@
         "ai",
         "govern"
       ],
-      "score": 0.3314,
+      "score": 0.3308,
       "signals": {
-        "score": 0.3314,
-        "recency": 0.02170765508178471,
+        "score": 0.3308,
+        "recency": 0.019237896715228932,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -345,10 +345,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.3283,
+      "score": 0.3274,
       "signals": {
-        "score": 0.3283,
-        "recency": 0.03334400279809688,
+        "score": 0.3274,
+        "recency": 0.029550335100006278,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -374,10 +374,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.3267,
+      "score": 0.3259,
       "signals": {
-        "score": 0.3267,
-        "recency": 0.026777778268800827,
+        "score": 0.3259,
+        "recency": 0.023731173664665553,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -402,10 +402,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3117,
+      "score": 0.3074,
       "signals": {
-        "score": 0.3117,
-        "recency": 0.15084152492599248,
+        "score": 0.3074,
+        "recency": 0.133679739518659,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -430,10 +430,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2959,
+      "score": 0.2939,
       "signals": {
-        "score": 0.2959,
-        "recency": 0.06968333990069658,
+        "score": 0.2939,
+        "recency": 0.06175521449604577,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -458,10 +458,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2933,
+      "score": 0.2925,
       "signals": {
-        "score": 0.2933,
-        "recency": 0.02932398282972946,
+        "score": 0.2925,
+        "recency": 0.02598768733113211,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -486,10 +486,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2849,
+      "score": 0.2842,
       "signals": {
-        "score": 0.2849,
-        "recency": 0.025536752034023703,
+        "score": 0.2842,
+        "recency": 0.022631343469484037,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -514,39 +514,13 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.2655,
+      "score": 0.2649,
       "signals": {
-        "score": 0.2655,
-        "recency": 0.02197663364546867,
+        "score": 0.2649,
+        "recency": 0.019476272615678216,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "wpp selling off noncore assets 08072026 mediapost",
-      "title": "WPP Selling Off 'Non-Core' Assets 08/07/2026 - MediaPost",
-      "summary": "WPP Selling Off 'Non-Core' Assets 08/07/2026 &nbsp;&nbsp; MediaPost",
-      "image": "assets/images/generated/wpp selling off noncore assets 08072026 mediapost.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWFFKYlZWUVdrYzFnZGk2T3JIMVd4Yll0QVB4V3F1RVpER1VYLWtpQUQ4TVRYRVBjNWpma2hIektCNHdzUW9DYk5lbm5fRkZocG9JTUg5el9IY3ZBdW1wTUZ1NFVnRlphU1lqM0gxcWhGbE90ekxfUFRfX0hjX1AtNVpaQVBtN0o2blI2SFhWd3JXSGFrUE1pSnhYMzJQMEU3bXlPcGNDV0k?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-07T20:32:45+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.255,
-      "signals": {
-        "score": 0.255,
-        "recency": 0.02011770256877496,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 1.0,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -566,10 +540,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2549,
+      "score": 0.2503,
       "signals": {
-        "score": 0.2549,
-        "recency": 0.16363178183353286,
+        "score": 0.2503,
+        "recency": 0.14501480267594016,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -592,10 +566,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.254,
+      "score": 0.2501,
       "signals": {
-        "score": 0.254,
-        "recency": 0.13602655884144665,
+        "score": 0.2501,
+        "recency": 0.12055032566440681,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -605,10 +579,10 @@
       "image_failure_reason": ""
     },
     {
-      "id": "arrowstreet capital limited partnership buys new holdings in wpp plc wpp marketbeatcom",
-      "title": "Arrowstreet Capital Limited Partnership Buys New Holdings in Wpp Plc $WPP - marketbeat.com",
-      "summary": "Arrowstreet Capital Limited Partnership Buys New Holdings in Wpp Plc $WPP &nbsp;&nbsp; marketbeat.com",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Arrowstreet%20Capital%20Limited%20Partnership%20Buys%20New%20Holdings%20in%20Wpp%20Plc%20%24WPP%20-%20marketbeat.com%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2315803d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23052e16%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGOOGLE%20NEWS%20-%20WPP%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EARROWSTREET%20CAPITAL%20LIMITED%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPARTNERSHIP%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EArrowstreet%20Capital%20Limited%20Partnership%20Buys%20New%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "id": "arrowstreet capital limited partnership buys new holdings in wpp plc wpp marketbeat",
+      "title": "Arrowstreet Capital Limited Partnership Buys New Holdings in Wpp Plc $WPP - MarketBeat",
+      "summary": "Arrowstreet Capital Limited Partnership Buys New Holdings in Wpp Plc $WPP &nbsp;&nbsp; MarketBeat",
+      "image": "assets/images/generated/arrowstreet capital limited partnership buys new holdings in wpp plc wpp marketbeat.jpg",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX3lRLVNLTUxkOXhzTWdMY3VPT2tPTmhvY0F3TmU0OFlHZU1GMlY0WWtjRDFhQzd0cHlrZmZhY1ZGV3hKcERkd2pVR1Jtb0JYOFg4d002aW1aamxfT08yaG54UDNhbEpORlBqemZxbGYxQ2ROV1RnZVBwTDd0VzRScjhOcGpzaG05SUVZVzdfaEVYLTdIZE5nT19oTkdCbEF0aUVfWHZLRkl2S1QyeVFxc1FCTnZQWFJmVjFhYzd6bjJrT1F0WnlsQUkwWEpSdw?oc=5",
       "category": "advertising",
       "geo": "global",
@@ -618,17 +592,17 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2489,
+      "score": 0.2449,
       "signals": {
-        "score": 0.2489,
-        "recency": 0.13963160473806105,
+        "score": 0.2449,
+        "recency": 0.1237452124613194,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.4
       },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+      "ai_image_pending": false,
+      "image_failure_reason": ""
     },
     {
       "id": "wpp plc to go exdividend on october 9th 2026 with 050516 usd dividend per share moomoo",
@@ -644,10 +618,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2363,
+      "score": 0.2338,
       "signals": {
-        "score": 0.2363,
-        "recency": 0.08917742548615308,
+        "score": 0.2338,
+        "recency": 0.07903138751602042,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -670,10 +644,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2317,
+      "score": 0.2311,
       "signals": {
-        "score": 0.2317,
-        "recency": 0.02293926686234414,
+        "score": 0.2311,
+        "recency": 0.02032938357267139,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -696,10 +670,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2302,
+      "score": 0.2284,
       "signals": {
-        "score": 0.2302,
-        "recency": 0.06489715953601871,
+        "score": 0.2284,
+        "recency": 0.05751357516792723,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -722,10 +696,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.2279,
+      "score": 0.2268,
       "signals": {
-        "score": 0.2279,
-        "recency": 0.0375118059148187,
+        "score": 0.2268,
+        "recency": 0.03324395219438254,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -733,32 +707,6 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
-    },
-    {
-      "id": "wpp axes jobs in costcutting efforts to drive profit recovery london evening standard",
-      "title": "WPP axes jobs in cost-cutting efforts to drive profit recovery - London Evening Standard",
-      "summary": "WPP axes jobs in cost-cutting efforts to drive profit recovery &nbsp;&nbsp; London Evening Standard",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22WPP%20axes%20jobs%20in%20cost-cutting%20efforts%20to%20drive%20profit%20recovery%20-%20London%20Evening%20Standard%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23334155%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23020617%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGOOGLE%20NEWS%20-%20WPP%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWPP%20AXES%20JOBS%20IN%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECOST-CUTTING%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EWPP%20axes%20jobs%20in%20cost-cutting%20efforts%20to%20drive%20profit%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcmEtaGFEUjVTdENmM1BJVnhoZEczVVlWdkZFcHFSd1VrM3RkaWMxUkhnUmp0R2hFN3VVVmVzb3VCenZGcUx5ZHN0QlFMOXR3ZmhDaFNDeDdZckY5V2ZMTWhXN004ZGRCVzNybGtxNG9BOTNTb3cxWmpPZVdEVThVbFVIZmEwTmJUMkdiTzNzVXAyeTV6dVVvQjlzWmp6Wmxjd2c?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-08T02:32:48+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.2277,
-      "signals": {
-        "score": 0.2277,
-        "recency": 0.05469318107069887,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "consumers cut extras as credit card debt nears a record",
@@ -774,10 +722,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.2277,
+      "score": 0.2268,
       "signals": {
-        "score": 0.2277,
-        "recency": 0.030876018488900016,
+        "score": 0.2268,
+        "recency": 0.02736314228455681,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -800,10 +748,10 @@
         "Digital Commerce 360"
       ],
       "keywords": [],
-      "score": 0.2268,
+      "score": 0.2262,
       "signals": {
-        "score": 0.2268,
-        "recency": 0.02110905307436404,
+        "score": 0.2262,
+        "recency": 0.018707399821441886,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -811,6 +759,32 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
+    },
+    {
+      "id": "wpp axes jobs in costcutting efforts to drive profit recovery london evening standard",
+      "title": "WPP axes jobs in cost-cutting efforts to drive profit recovery - London Evening Standard",
+      "summary": "WPP axes jobs in cost-cutting efforts to drive profit recovery &nbsp;&nbsp; London Evening Standard",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22WPP%20axes%20jobs%20in%20cost-cutting%20efforts%20to%20drive%20profit%20recovery%20-%20London%20Evening%20Standard%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23334155%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23020617%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGOOGLE%20NEWS%20-%20WPP%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWPP%20AXES%20JOBS%20IN%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ECOST-CUTTING%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EWPP%20axes%20jobs%20in%20cost-cutting%20efforts%20to%20drive%20profit%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcmEtaGFEUjVTdENmM1BJVnhoZEczVVlWdkZFcHFSd1VrM3RkaWMxUkhnUmp0R2hFN3VVVmVzb3VCenZGcUx5ZHN0QlFMOXR3ZmhDaFNDeDdZckY5V2ZMTWhXN004ZGRCVzNybGtxNG9BOTNTb3cxWmpPZVdEVThVbFVIZmEwTmJUMkdiTzNzVXAyeTV6dVVvQjlzWmp6Wmxjd2c?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-08T02:32:48+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.2261,
+      "signals": {
+        "score": 0.2261,
+        "recency": 0.048470540208109515,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     }
   ]
 }
