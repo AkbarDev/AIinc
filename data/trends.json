@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T21:12:49.420231+00:00",
+  "generated_at": "2026-08-08T21:49:08.296403+00:00",
   "sources_scanned": 2931,
   "feeds_polled": 34,
   "feed_pool": 38,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 24,
+  "clusters": 23,
   "trends": [
     {
       "id": "openai acquires presentation startup nextslide",
@@ -32,14 +32,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5406,
+      "score": 0.522,
       "signals": {
-        "score": 0.5406,
-        "recency": 0.7753320423953395,
+        "score": 0.522,
+        "recency": 0.7009366293187057,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "planned amazon data center could become the biggest climate polluter in the us",
+      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "summary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.",
+      "image": "assets/images/generated/planned amazon data center could become the biggest climate polluter in the us.jpg",
+      "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-08T21:24:02+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.4592,
+      "signals": {
+        "score": 0.4592,
+        "recency": 0.9326400560531244,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -61,10 +87,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3939,
+      "score": 0.3887,
       "signals": {
-        "score": 0.3939,
-        "recency": 0.2156211345456842,
+        "score": 0.3887,
+        "recency": 0.19493164604857494,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.8,
@@ -89,13 +115,43 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3912,
+      "score": 0.3799,
       "signals": {
-        "score": 0.3912,
-        "recency": 0.46865432672817425,
+        "score": 0.3799,
+        "recency": 0.4236855516477858,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "harvey targets 155 billion valuation as revenue surges past 350 million",
+      "title": "Harvey Targets $15.5 Billion Valuation as Revenue Surges Past $350 Million",
+      "summary": "Legal artificial intelligence (AI) startup Harvey is in talks to raise $500 million at a $15.5 billion valuation, including the investment, The Information reported Friday (Aug.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2024/01/legal-AI.jpg?w=457",
+      "link": "https://www.pymnts.com/news/investment-tracker/2026/harvey-targets-15-5-billion-valuation-as-revenue-surges-past-350-million/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-07T23:51:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence",
+        "bill"
+      ],
+      "score": 0.3664,
+      "signals": {
+        "score": 0.3664,
+        "recency": 0.02572024933831251,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -117,10 +173,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3748,
+      "score": 0.3662,
       "signals": {
-        "score": 0.3748,
-        "recency": 0.35500574483965597,
+        "score": 0.3662,
+        "recency": 0.3209418888556704,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -146,43 +202,13 @@
         "ai",
         "cloud"
       ],
-      "score": 0.3673,
+      "score": 0.3634,
       "signals": {
-        "score": 0.3673,
-        "recency": 0.16533393965607324,
+        "score": 0.3634,
+        "recency": 0.14946965691818914,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "harvey targets 155 billion valuation as revenue surges past 350 million",
-      "title": "Harvey Targets $15.5 Billion Valuation as Revenue Surges Past $350 Million",
-      "summary": "Legal artificial intelligence (AI) startup Harvey is in talks to raise $500 million at a $15.5 billion valuation, including the investment, The Information reported Friday (Aug.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2024/01/legal-AI.jpg?w=457",
-      "link": "https://www.pymnts.com/news/investment-tracker/2026/harvey-targets-15-5-billion-valuation-as-revenue-surges-past-350-million/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-08-07T23:51:22+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai",
-        "artificial intelligence",
-        "bill"
-      ],
-      "score": 0.3671,
-      "signals": {
-        "score": 0.3671,
-        "recency": 0.028450123186990705,
-        "keyword_volume": 0.6,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -202,69 +228,14 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3413,
+      "score": 0.3303,
       "signals": {
-        "score": 0.3413,
-        "recency": 0.4613991952643671,
+        "score": 0.3303,
+        "recency": 0.41712657160383704,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "the kindle scribe colorsoft is a lot of fun but its not a musthave",
-      "title": "The Kindle Scribe Colorsoft is a lot of fun, but it\u2019s not a must-have",
-      "summary": "While the device is pretty and lightweight, it\u2019s not something the everyday person needs due to its hefty price tag and size.",
-      "image": "assets/images/generated/the kindle scribe colorsoft is a lot of fun but its not a musthave.jpg",
-      "link": "https://techcrunch.com/2026/08/08/the-kindle-scribe-colorsoft-is-a-lot-of-fun-but-its-not-a-must-have/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-08T16:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.3308,
-      "signals": {
-        "score": 0.3308,
-        "recency": 0.4193897332934521,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "after rippling blew millions on ai in months it built an employee roi tool",
-      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
-      "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
-      "image": "assets/images/generated/after rippling blew millions on ai in months it built an employee roi tool.jpg",
-      "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-07T21:30:11+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai",
-        "console"
-      ],
-      "score": 0.3308,
-      "signals": {
-        "score": 0.3308,
-        "recency": 0.019220483601308142,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -286,10 +257,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.3268,
+      "score": 0.3261,
       "signals": {
-        "score": 0.3268,
-        "recency": 0.027159239602190424,
+        "score": 0.3261,
+        "recency": 0.024553229868850952,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -315,14 +286,40 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.3255,
+      "score": 0.3249,
       "signals": {
-        "score": 0.3255,
-        "recency": 0.021810941548331395,
+        "score": 0.3249,
+        "recency": 0.01971811690372442,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the kindle scribe colorsoft is a lot of fun but its not a musthave",
+      "title": "The Kindle Scribe Colorsoft is a lot of fun, but it\u2019s not a must-have",
+      "summary": "While the device is pretty and lightweight, it\u2019s not something the everyday person needs due to its hefty price tag and size.",
+      "image": "assets/images/generated/the kindle scribe colorsoft is a lot of fun but its not a musthave.jpg",
+      "link": "https://techcrunch.com/2026/08/08/the-kindle-scribe-colorsoft-is-a-lot-of-fun-but-its-not-a-must-have/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-08T16:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3208,
+      "signals": {
+        "score": 0.3208,
+        "recency": 0.37914804232441496,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -343,41 +340,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3047,
+      "score": 0.3018,
       "signals": {
-        "score": 0.3047,
-        "recency": 0.12286290707900942,
+        "score": 0.3018,
+        "recency": 0.11107384610366243,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "how once upon a farm is shaking up the baby aisle with coolers",
-      "title": "How Once Upon a Farm is shaking up the baby aisle with coolers",
-      "summary": "This week's episode of the Modern Retail Podcast features a conversation with Once Upon a Farm Chief Marketing Officer Katie Marston about how the company has sought to shake up",
-      "image": "assets/images/generated/how once upon a farm is shaking up the baby aisle with coolers.jpg",
-      "link": "https://www.modernretail.co/podcasts/how-once-upon-a-farm-is-shaking-up-the-baby-aisle-with-coolers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-08-08T04:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Modern Retail"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2927,
-      "signals": {
-        "score": 0.2927,
-        "recency": 0.056758228341796814,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -399,13 +368,41 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.292,
+      "score": 0.2914,
       "signals": {
-        "score": 0.292,
-        "recency": 0.0238848671104537,
+        "score": 0.2914,
+        "recency": 0.02159304314626797,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "how once upon a farm is shaking up the baby aisle with coolers",
+      "title": "How Once Upon a Farm is shaking up the baby aisle with coolers",
+      "summary": "This week's episode of the Modern Retail Podcast features a conversation with Once Upon a Farm Chief Marketing Officer Katie Marston about how the company has sought to shake up",
+      "image": "assets/images/generated/how once upon a farm is shaking up the baby aisle with coolers.jpg",
+      "link": "https://www.modernretail.co/podcasts/how-once-upon-a-farm-is-shaking-up-the-baby-aisle-with-coolers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-08T04:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Modern Retail"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2913,
+      "signals": {
+        "score": 0.2913,
+        "recency": 0.05131210769658191,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -427,10 +424,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2837,
+      "score": 0.2832,
       "signals": {
-        "score": 0.2837,
-        "recency": 0.02080010523491674,
+        "score": 0.2832,
+        "recency": 0.018804273337903438,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -453,10 +450,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.2477,
+      "score": 0.245,
       "signals": {
-        "score": 0.2477,
-        "recency": 0.11079587313515821,
+        "score": 0.245,
+        "recency": 0.10016467991939598,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -479,10 +476,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2473,
+      "score": 0.2441,
       "signals": {
-        "score": 0.2473,
-        "recency": 0.1332807820422783,
+        "score": 0.2441,
+        "recency": 0.12049209501139166,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -505,10 +502,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2424,
+      "score": 0.2397,
       "signals": {
-        "score": 0.2424,
-        "recency": 0.11373224240899453,
+        "score": 0.2397,
+        "recency": 0.10281929583708604,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -531,10 +528,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2322,
+      "score": 0.2304,
       "signals": {
-        "score": 0.2322,
-        "recency": 0.07263648220492439,
+        "score": 0.2304,
+        "recency": 0.0656667959252575,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -542,32 +539,6 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
-    },
-    {
-      "id": "wacoms movinkpad 11 is a fun midpriced entry point for digital artists",
-      "title": "Wacom\u2019s MovinkPad 11 is a fun, midpriced entry point for digital artists",
-      "summary": "The MovinkPad 11 a versatile little graphics tablet that can help make your wildest digital art dreams come true.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Wacom%E2%80%99s%20MovinkPad%2011%20is%20a%20fun%2C%20midpriced%20entry%20point%20for%20digital%20artists%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2392400e%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23211006%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWACOM%E2%80%99S%20MOVINKPAD%2011%20IS%20A%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EFUN%2C%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EThe%20MovinkPad%2011%20a%20versatile%20little%20graphics%20tablet%20that%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://techcrunch.com/2026/08/07/wacoms-movinkpad-11-is-a-fun-and-mid-priced-entry-point-for-digital-artists/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-07T21:20:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.2307,
-      "signals": {
-        "score": 0.2307,
-        "recency": 0.01868441077051943,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "e4mexclusive tvs motor splits media mandate digital biz likely to go to omnicom kinnect exchange4media",
@@ -583,10 +554,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2272,
+      "score": 0.2259,
       "signals": {
-        "score": 0.2272,
-        "recency": 0.052859805585216246,
+        "score": 0.2259,
+        "recency": 0.04778775018619853,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -609,10 +580,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.2263,
+      "score": 0.2257,
       "signals": {
-        "score": 0.2263,
-        "recency": 0.025149025723737,
+        "score": 0.2257,
+        "recency": 0.022735901984632847,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -635,10 +606,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.2261,
+      "score": 0.2254,
       "signals": {
-        "score": 0.2261,
-        "recency": 0.030553983902903613,
+        "score": 0.2254,
+        "recency": 0.027622238367699357,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -661,10 +632,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2251,
+      "score": 0.2241,
       "signals": {
-        "score": 0.2251,
-        "recency": 0.04454849702057597,
+        "score": 0.2241,
+        "recency": 0.04027393637227629,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
