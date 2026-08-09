@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T22:39:17.393486+00:00",
+  "generated_at": "2026-08-09T23:11:28.625720+00:00",
   "sources_scanned": 2931,
   "feeds_polled": 34,
   "feed_pool": 38,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 22,
+  "clusters": 25,
   "trends": [
     {
       "id": "openai halts new model rollout due to security worries",
@@ -32,10 +32,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.555,
+      "score": 0.5349,
       "signals": {
-        "score": 0.555,
-        "recency": 0.9401355801587479,
+        "score": 0.5349,
+        "recency": 0.8597272599477414,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -45,26 +45,52 @@
       "image_failure_reason": ""
     },
     {
-      "id": "brazil tells crypto exchanges to delay overseas transfers",
-      "title": "Brazil Tells Crypto Exchanges to Delay Overseas Transfers",
-      "summary": "Brazil\u2019s new fraud-prevention rules require cryptocurrency exchanges to delay some overseas transfers by 24 hours.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Brazil-cryptocurrency.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/brazil-tells-crypto-exchanges-to-delay-overseas-transfers/",
+      "id": "occ says no to bunq us banking license bid",
+      "title": "OCC Says No to Bunq US Banking License Bid",
+      "summary": "American banking regulators have reportedly turned down Dutch FinTech Bunq\u2019s request for a banking license.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2023/04/Bunq.jpg?w=457",
+      "link": "https://www.pymnts.com/legal/bank-regulation/2026/occ-said-no-to-bunq-us-banking-license-bid/",
       "category": "commerce",
       "geo": "global",
-      "published_at": "2026-08-09T22:31:31+00:00",
+      "published_at": "2026-08-09T22:45:01+00:00",
       "source_count": 1,
       "source_names": [
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.4647,
+      "score": 0.4523,
       "signals": {
-        "score": 0.4647,
-        "recency": 0.9786391536969185,
+        "score": 0.4523,
+        "recency": 0.9291350394319156,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "publicis groupe appoints rebecca sowden director of sport partnerships content nz adnewscomau",
+      "title": "Publicis Groupe appoints Rebecca Sowden director of sport, partnerships & content NZ - adnews.com.au",
+      "summary": "Publicis Groupe appoints Rebecca Sowden director of sport, partnerships & content NZ &nbsp;&nbsp; adnews.com.au",
+      "image": "assets/images/generated/publicis groupe appoints rebecca sowden director of sport partnerships content nz adnewscomau.jpg",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNenJfU3ctQkJWclJTczJjWXM5clhzb3YxUzM1MHpoaUdQVDc3UEVsS255UjFnQUdSUTRnbEgtRzkzQ1VzZTI4WkdkVmF6aVR5UENueGV2NDVqMmxaZ1E0VGJLMk94QU41Vm5NVkc0ZXNtbFhLeDBKZUxLYk1KZUYzcDdEcnVneFVvQmgxOXdFbzdndm5zdWU0a2IxRnZfd295OUVVRW5ETHhjUm84SlpBd3g2amxfTkU?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-09T22:48:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [],
+      "score": 0.4482,
+      "signals": {
+        "score": 0.4482,
+        "recency": 0.936996937822383,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -86,14 +112,66 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4632,
+      "score": 0.448,
       "signals": {
-        "score": 0.4632,
-        "recency": 0.7086010098704253,
+        "score": 0.448,
+        "recency": 0.6479954779599293,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "brazil tells crypto exchanges to delay overseas transfers",
+      "title": "Brazil Tells Crypto Exchanges to Delay Overseas Transfers",
+      "summary": "Brazil\u2019s new fraud-prevention rules require cryptocurrency exchanges to delay some overseas transfers by 24 hours.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Brazil-cryptocurrency.jpg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/brazil-tells-crypto-exchanges-to-delay-overseas-transfers/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-09T22:31:31+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.4437,
+      "signals": {
+        "score": 0.4437,
+        "recency": 0.8949376832896366,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "publicis appoints rebecca sowden in nz mediaweek",
+      "title": "Publicis appoints Rebecca Sowden in NZ - Mediaweek",
+      "summary": "Publicis appoints Rebecca Sowden in NZ &nbsp;&nbsp; Mediaweek",
+      "image": "assets/images/generated/publicis appoints rebecca sowden in nz mediaweek.jpg",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55NnZiUm9yZmtlbnhycVF4WHlZYl8xdEg3YS1pRHZuZzRwcVpTLWVFZHg0SWJQMURvTXY3WUdXbGxHLXJKaE55dFhVelJaektheUdSZzl1d1FxZmtlVnhsejBHTjZxQnlDUWRnZDg2ZDJmUQ?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-09T22:40:51+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [],
+      "score": 0.4436,
+      "signals": {
+        "score": 0.4436,
+        "recency": 0.9184431553459922,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -112,10 +190,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.4426,
+      "score": 0.4235,
       "signals": {
-        "score": 0.4426,
-        "recency": 0.8902364147816532,
+        "score": 0.4235,
+        "recency": 0.8140958918464672,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -138,10 +216,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.4141,
+      "score": 0.397,
       "signals": {
-        "score": 0.4141,
-        "recency": 0.8004263069674212,
+        "score": 0.397,
+        "recency": 0.7319671015567698,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -167,10 +245,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3968,
+      "score": 0.3925,
       "signals": {
-        "score": 0.3968,
-        "recency": 0.2000598739843038,
+        "score": 0.3925,
+        "recency": 0.18294906704517364,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -193,39 +271,13 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.3883,
+      "score": 0.3734,
       "signals": {
-        "score": 0.3883,
-        "recency": 0.6970502008960887,
+        "score": 0.3734,
+        "recency": 0.6374325915430474,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "anthropic is turning claude codes auto mode on by default",
-      "title": "Anthropic is turning Claude Code\u2019s auto mode on by default",
-      "summary": "Programming with Claude Code will soon require even less human oversight.",
-      "image": "assets/images/generated/anthropic is turning claude codes auto mode on by default.jpg",
-      "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-09T19:20:32+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.3699,
-      "signals": {
-        "score": 0.3699,
-        "recency": 0.5757385945075241,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -247,14 +299,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3696,
+      "score": 0.3625,
       "signals": {
-        "score": 0.3696,
-        "recency": 0.3344560833636305,
+        "score": 0.3625,
+        "recency": 0.30585057963077444,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "anthropic is turning claude codes auto mode on by default",
+      "title": "Anthropic is turning Claude Code\u2019s auto mode on by default",
+      "summary": "Programming with Claude Code will soon require even less human oversight.",
+      "image": "assets/images/generated/anthropic is turning claude codes auto mode on by default.jpg",
+      "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-09T19:20:32+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3576,
+      "signals": {
+        "score": 0.3576,
+        "recency": 0.5264965763964994,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -275,10 +353,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3502,
+      "score": 0.3447,
       "signals": {
-        "score": 0.3502,
-        "recency": 0.25688196305519273,
+        "score": 0.3447,
+        "recency": 0.23491125204531263,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -303,10 +381,10 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.3358,
+      "score": 0.3298,
       "signals": {
-        "score": 0.3358,
-        "recency": 0.2792060458936517,
+        "score": 0.3298,
+        "recency": 0.25532599112615234,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -331,10 +409,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3218,
+      "score": 0.3177,
       "signals": {
-        "score": 0.3218,
-        "recency": 0.19115051151222465,
+        "score": 0.3177,
+        "recency": 0.17480170835813355,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -359,10 +437,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3151,
+      "score": 0.3119,
       "signals": {
-        "score": 0.3151,
-        "recency": 0.15253788447211672,
+        "score": 0.3119,
+        "recency": 0.13949155868911384,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -385,10 +463,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.3125,
+      "score": 0.3041,
       "signals": {
-        "score": 0.3125,
-        "recency": 0.3939442036861913,
+        "score": 0.3041,
+        "recency": 0.3602507744151489,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -413,10 +491,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3054,
+      "score": 0.3027,
       "signals": {
-        "score": 0.3054,
-        "recency": 0.12575192740160943,
+        "score": 0.3027,
+        "recency": 0.11499656247440136,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -441,10 +519,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2957,
+      "score": 0.2939,
       "signals": {
-        "score": 0.2957,
-        "recency": 0.08694566282773027,
+        "score": 0.2939,
+        "recency": 0.0795093367858738,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -469,10 +547,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2884,
+      "score": 0.2872,
       "signals": {
-        "score": 0.2884,
-        "recency": 0.05778170755046789,
+        "score": 0.2872,
+        "recency": 0.05283972881770657,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -497,10 +575,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2865,
+      "score": 0.2854,
       "signals": {
-        "score": 0.2865,
-        "recency": 0.04998709338545993,
+        "score": 0.2854,
+        "recency": 0.04571177576512602,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -523,10 +601,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2851,
+      "score": 0.28,
       "signals": {
-        "score": 0.2851,
-        "recency": 0.23634281532794627,
+        "score": 0.28,
+        "recency": 0.21612878537787109,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -549,10 +627,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2432,
+      "score": 0.2407,
       "signals": {
-        "score": 0.2432,
-        "recency": 0.11671955586492748,
+        "score": 0.2407,
+        "recency": 0.10673671549493662,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -575,10 +653,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2406,
+      "score": 0.2383,
       "signals": {
-        "score": 0.2406,
-        "recency": 0.1062104228111079,
+        "score": 0.2383,
+        "recency": 0.09712641209246255,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -601,10 +679,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2322,
+      "score": 0.2307,
       "signals": {
-        "score": 0.2322,
-        "recency": 0.07289259541445663,
+        "score": 0.2307,
+        "recency": 0.0666582061659322,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
