@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-14T20:07:28.385594+00:00",
-  "sources_scanned": 2952,
-  "feeds_polled": 34,
+  "generated_at": "2026-08-14T20:44:44.834126+00:00",
+  "sources_scanned": 2942,
+  "feeds_polled": 33,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1850,
+    "NA": 1840,
     "SA": 0,
     "EU": 1102,
     "AF": 0,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 90,
+  "clusters": 87,
   "trends": [
     {
       "id": "goldman sachs mobilizes investors for nvidias 500 billion ai infrastructure push",
@@ -33,10 +33,10 @@
         "artificial intelligence",
         "bill"
       ],
-      "score": 0.6075,
+      "score": 0.5831,
       "signals": {
-        "score": 0.6075,
-        "recency": 0.9898030123706101,
+        "score": 0.5831,
+        "recency": 0.8924465840311614,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -62,13 +62,41 @@
         "ai",
         "enterprise"
       ],
-      "score": 0.5547,
+      "score": 0.5316,
       "signals": {
-        "score": 0.5547,
-        "recency": 0.9386572441538084,
+        "score": 0.5316,
+        "recency": 0.8463314827814558,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "selfdriving trucks are officially testing on california highways",
+      "title": "Self-driving trucks are officially testing on California highways",
+      "summary": "Aurora Innovation and Kodiak AI, two companies developing self-driving trucks, have received permits from the California Department of Motor Vehicles.",
+      "image": "assets/images/generated/selfdriving trucks are officially testing on california highways.jpg",
+      "link": "https://techcrunch.com/2026/08/14/self-driving-trucks-are-officially-testing-on-california-highways/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-14T20:37:49+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5312,
+      "signals": {
+        "score": 0.5312,
+        "recency": 0.9809325482777219,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -91,42 +119,13 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.5528,
+      "score": 0.5299,
       "signals": {
-        "score": 0.5528,
-        "recency": 0.9311262126225964,
+        "score": 0.5299,
+        "recency": 0.8395411989772432,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "the weeks 10 biggest funding rounds data neolab ai infrastructure defense and ai coding lead",
-      "title": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
-      "summary": "Databricks is back raising another $5 billion, after it raised that amount just eight months ago.",
-      "image": "https://news.crunchbase.com/wp-content/uploads/Top_10_.jpeg",
-      "link": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-08-14T19:32:36+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Crunchbase News"
-      ],
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.5484,
-      "signals": {
-        "score": 0.5484,
-        "recency": 0.9076742652758655,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.81,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -151,13 +150,70 @@
         "govern",
         "policy"
       ],
-      "score": 0.5429,
+      "score": 0.5289,
       "signals": {
-        "score": 0.5429,
-        "recency": 0.5717809399584152,
+        "score": 0.5289,
+        "recency": 0.5155409109716363,
         "keyword_volume": 0.8,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the weeks 10 biggest funding rounds data neolab ai infrastructure defense and ai coding lead",
+      "title": "The Week\u2019s 10 Biggest Funding Rounds: Data, Neolab, AI Infrastructure, Defense And AI Coding Lead",
+      "summary": "Databricks is back raising another $5 billion, after it raised that amount just eight months ago.",
+      "image": "https://news.crunchbase.com/wp-content/uploads/Top_10_.jpeg",
+      "link": "https://news.crunchbase.com/ai/biggest-funding-rounds-databricks-river-ai-data-energy/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-08-14T19:32:36+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Crunchbase News"
+      ],
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.5261,
+      "signals": {
+        "score": 0.5261,
+        "recency": 0.8183959710511919,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.81,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "home depotowned srs expands hvac distribution with lohmiller acquisition",
+      "title": "Home Depot-owned SRS expands HVAC distribution with Lohmiller acquisition",
+      "summary": "Home Depot-owned SRS Distribution has entered into an agreement to acquire Lohmiller &#38; Company, a Denver-based wholesale heating, ventilation and air conditioning (HVAC)",
+      "image": "assets/images/generated/home depotowned srs expands hvac distribution with lohmiller acquisition.jpg",
+      "link": "https://www.digitalcommerce360.com/2026/08/14/home-depot-srs-hvac-lohmiller-acquisition/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-14T20:32:59+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Digital Commerce 360"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5235,
+      "signals": {
+        "score": 0.5235,
+        "recency": 0.9678506354491421,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.81,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -179,14 +235,42 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5132,
+      "score": 0.4908,
       "signals": {
-        "score": 0.5132,
-        "recency": 0.9086833527376129,
+        "score": 0.4908,
+        "recency": 0.8193058052777703,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "banks find the big money in fincens 49 billion smuggling data",
+      "title": "Banks Find the Big Money in FinCEN\u2019s $4.9 Billion Smuggling Data",
+      "summary": "Financial institutions have spent years trying to see more suspicious activity.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/04/FinCEN-AML-stablecoins-1.jpg?w=457",
+      "link": "https://www.pymnts.com/cybersecurity/2026/banks-find-big-money-fincen-5-billion-dollar-smuggling-data/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-14T20:09:38+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.4868,
+      "signals": {
+        "score": 0.4868,
+        "recency": 0.9070673127114303,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -208,10 +292,10 @@
         "ai",
         "quantum"
       ],
-      "score": 0.5045,
+      "score": 0.4864,
       "signals": {
-        "score": 0.5045,
-        "recency": 0.7380321795735565,
+        "score": 0.4864,
+        "recency": 0.6654397787575883,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -237,10 +321,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5016,
+      "score": 0.4857,
       "signals": {
-        "score": 0.5016,
-        "recency": 0.6463248506830391,
+        "score": 0.4857,
+        "recency": 0.5827527275200438,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.8,
@@ -265,10 +349,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4997,
+      "score": 0.4784,
       "signals": {
-        "score": 0.4997,
-        "recency": 0.866770698133095,
+        "score": 0.4784,
+        "recency": 0.7815156541446735,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -293,10 +377,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4932,
+      "score": 0.4722,
       "signals": {
-        "score": 0.4932,
-        "recency": 0.852720538468655,
+        "score": 0.4722,
+        "recency": 0.7688474597252701,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -322,10 +406,10 @@
         "ai",
         "tour"
       ],
-      "score": 0.4865,
+      "score": 0.4701,
       "signals": {
-        "score": 0.4865,
-        "recency": 0.6660083727931674,
+        "score": 0.4701,
+        "recency": 0.6005001902468076,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -335,26 +419,54 @@
       "image_failure_reason": ""
     },
     {
-      "id": "frontier ai threats drive companies to boost security budgets",
-      "title": "Frontier AI Threats Drive Companies to Boost Security Budgets",
-      "summary": "After learning about the cyber capabilities of frontier artificial intelligence models, a higher percentage of organizations plan to increase their security spending, IBM said",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/06/cybersecurity-security-fraud.jpeg?w=457",
-      "link": "https://www.pymnts.com/cybersecurity/2026/frontier-ai-threats-drive-companies-boost-security-budgets/",
-      "category": "commerce",
+      "id": "universitas gadjah mada indosat and nvidia open indonesias first university ai center to develop local ai talent",
+      "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia\u2019s First University AI Center to Develop Local AI Talent",
+      "summary": "Indonesia is taking charge of its AI future.",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/Launching-Ceremony-2-1-scaled.jpeg",
+      "link": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
+      "category": "ai",
       "geo": "global",
-      "published_at": "2026-08-14T16:24:16+00:00",
+      "published_at": "2026-08-14T17:13:05+00:00",
       "source_count": 1,
       "source_names": [
-        "PYMNTS"
+        "NVIDIA Blog"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4249,
+      "signals": {
+        "score": 0.4249,
+        "recency": 0.555461886392413,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ibm openai partner to accelerate enterprise ai",
+      "title": "IBM, OpenAI Partner to Accelerate Enterprise AI",
+      "summary": "The deal comes less than a year after IBM undertook a similar initiative with Anthropic.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/bltecf0f6dd11e9a9e3/6a7f3407ccd7972590b5ce0b/IBM.jpg?width=720&quality=80&disable=upscale",
+      "link": "https://aibusiness.com/generative-ai/ibm-openai-partner-accelerate-enterprise-ai",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-08-14T15:26:02+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AI Business"
       ],
       "keywords": [
         "ai",
-        "artificial intelligence"
+        "enterprise"
       ],
-      "score": 0.4545,
+      "score": 0.4231,
       "signals": {
-        "score": 0.4545,
-        "recency": 0.5379348345254142,
+        "score": 0.4231,
+        "recency": 0.4125836133481635,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -377,42 +489,14 @@
         "HubSpot Marketing Blog"
       ],
       "keywords": [],
-      "score": 0.4453,
+      "score": 0.4231,
       "signals": {
-        "score": 0.4453,
-        "recency": 0.9011841760331892,
+        "score": 0.4231,
+        "recency": 0.8125442430787627,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "universitas gadjah mada indosat and nvidia open indonesias first university ai center to develop local ai talent",
-      "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia\u2019s First University AI Center to Develop Local AI Talent",
-      "summary": "Indonesia is taking charge of its AI future.",
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/Launching-Ceremony-2-1-scaled.jpeg",
-      "link": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-08-14T17:13:05+00:00",
-      "source_count": 1,
-      "source_names": [
-        "NVIDIA Blog"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.44,
-      "signals": {
-        "score": 0.44,
-        "recency": 0.6160568691123757,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -431,43 +515,14 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.4359,
+      "score": 0.4153,
       "signals": {
-        "score": 0.4359,
-        "recency": 0.8395975018971447,
+        "score": 0.4153,
+        "recency": 0.757015197129594,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "ibm openai partner to accelerate enterprise ai",
-      "title": "IBM, OpenAI Partner to Accelerate Enterprise AI",
-      "summary": "The deal comes less than a year after IBM undertook a similar initiative with Anthropic.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6b0f74e5591baa03/bltecf0f6dd11e9a9e3/6a7f3407ccd7972590b5ce0b/IBM.jpg?width=720&quality=80&disable=upscale",
-      "link": "https://aibusiness.com/generative-ai/ibm-openai-partner-accelerate-enterprise-ai",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-08-14T15:26:02+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AI Business"
-      ],
-      "keywords": [
-        "ai",
-        "enterprise"
-      ],
-      "score": 0.4344,
-      "signals": {
-        "score": 0.4344,
-        "recency": 0.4575920964391345,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -486,39 +541,13 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.4323,
+      "score": 0.412,
       "signals": {
-        "score": 0.4323,
-        "recency": 0.8250705591249177,
+        "score": 0.412,
+        "recency": 0.7439171157018161,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "what a claude watermark can cant tell you about authorship via sejournal mattgsouthern",
-      "title": "What A Claude Watermark Can & Can\u2019t Tell You About Authorship via @sejournal, @MattGSouthern",
-      "summary": "Anthropic plans to watermark Claude text.",
-      "image": "assets/images/generated/what a claude watermark can cant tell you about authorship via sejournal mattgsouthern.jpg",
-      "link": "https://www.searchenginejournal.com/what-a-claude-watermark-can-cant-tell-you-about-authorship/585754/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-08-14T19:00:39+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [],
-      "score": 0.4276,
-      "signals": {
-        "score": 0.4276,
-        "recency": 0.8305894052326205,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -541,10 +570,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.4173,
+      "score": 0.4084,
       "signals": {
-        "score": 0.4173,
-        "recency": 0.36536087930546834,
+        "score": 0.4084,
+        "recency": 0.329424203199635,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -554,29 +583,27 @@
       "image_failure_reason": ""
     },
     {
-      "id": "google will now allow users to remove visible watermark from its ai generations",
-      "title": "Google will now allow users to remove visible watermark from its AI generations",
-      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
-      "image": "assets/images/generated/google will now allow users to remove visible watermark from its ai generations.jpg",
-      "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
-      "category": "technology",
+      "id": "what a claude watermark can cant tell you about authorship via sejournal mattgsouthern",
+      "title": "What A Claude Watermark Can & Can\u2019t Tell You About Authorship via @sejournal, @MattGSouthern",
+      "summary": "Anthropic plans to watermark Claude text.",
+      "image": "assets/images/generated/what a claude watermark can cant tell you about authorship via sejournal mattgsouthern.jpg",
+      "link": "https://www.searchenginejournal.com/what-a-claude-watermark-can-cant-tell-you-about-authorship/585754/",
+      "category": "digital-media",
       "geo": "global",
-      "published_at": "2026-08-14T16:13:40+00:00",
+      "published_at": "2026-08-14T19:00:39+00:00",
       "source_count": 1,
       "source_names": [
-        "TechCrunch"
+        "Search Engine Journal"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4166,
+      "keywords": [],
+      "score": 0.4072,
       "signals": {
-        "score": 0.4166,
-        "recency": 0.5223265583356163,
-        "keyword_volume": 0.2,
+        "score": 0.4072,
+        "recency": 0.7488931314292453,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -598,10 +625,10 @@
         "ai",
         "enterprise"
       ],
-      "score": 0.4165,
+      "score": 0.407,
       "signals": {
-        "score": 0.4165,
-        "recency": 0.38585780041701834,
+        "score": 0.407,
+        "recency": 0.34790505949178546,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -611,27 +638,29 @@
       "image_failure_reason": ""
     },
     {
-      "id": "stablecoin competition moves from issuing tokens to owning distribution",
-      "title": "Stablecoin Competition Moves From Issuing Tokens to Owning Distribution",
-      "summary": "The stablecoin industry\u2019s most important developments this week did not involve tokens, valuations or assets in circulation.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2022/06/stablecoins-1.jpg?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-competition-moves-from-issuing-tokens-to-owning-distribution/",
-      "category": "commerce",
+      "id": "google will now allow users to remove visible watermark from its ai generations",
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "image": "assets/images/generated/google will now allow users to remove visible watermark from its ai generations.jpg",
+      "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-08-14T18:26:23+00:00",
+      "published_at": "2026-08-14T16:13:40+00:00",
       "source_count": 1,
       "source_names": [
-        "PYMNTS"
+        "TechCrunch"
       ],
-      "keywords": [],
-      "score": 0.4088,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4037,
       "signals": {
-        "score": 0.4088,
-        "recency": 0.7551756644797095,
-        "keyword_volume": 0.0,
+        "score": 0.4037,
+        "recency": 0.47095083254892617,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
+        "authority": 0.84,
+        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -652,14 +681,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4061,
+      "score": 0.3943,
       "signals": {
-        "score": 0.4061,
-        "recency": 0.4802967269606699,
+        "score": 0.3943,
+        "recency": 0.4330550300819883,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "stablecoin competition moves from issuing tokens to owning distribution",
+      "title": "Stablecoin Competition Moves From Issuing Tokens to Owning Distribution",
+      "summary": "The stablecoin industry\u2019s most important developments this week did not involve tokens, valuations or assets in circulation.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2022/06/stablecoins-1.jpg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-competition-moves-from-issuing-tokens-to-owning-distribution/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-14T18:26:23+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.3902,
+      "signals": {
+        "score": 0.3902,
+        "recency": 0.6808970408104111,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -680,10 +735,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3983,
+      "score": 0.3866,
       "signals": {
-        "score": 0.3983,
-        "recency": 0.47305842875656756,
+        "score": 0.3866,
+        "recency": 0.4265286865310846,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -707,10 +762,10 @@
         "TechCrunch Startups"
       ],
       "keywords": [],
-      "score": 0.3903,
+      "score": 0.3801,
       "signals": {
-        "score": 0.3903,
-        "recency": 0.4142190063567794,
+        "score": 0.3801,
+        "recency": 0.3734766742915058,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -733,36 +788,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.3874,
+      "score": 0.3709,
       "signals": {
-        "score": 0.3874,
-        "recency": 0.6694707182347052,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "sec cancels planned meeting on registration exemptions for crypto tokens",
-      "title": "SEC Cancels Planned Meeting on Registration Exemptions for Crypto Tokens",
-      "summary": "The Securities and Exchange Commission has abruptly canceled an open meeting scheduled for Friday (Aug.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/02/SEC-crypto.png?w=457",
-      "link": "https://www.pymnts.com/cryptocurrency/2026/sec-cancels-planned-meeting-on-registration-exemptions-for-crypto-tokens/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-08-14T17:27:16+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.3802,
-      "signals": {
-        "score": 0.3802,
-        "recency": 0.6408128364123946,
+        "score": 0.3709,
+        "recency": 0.603621981475383,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -787,10 +816,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3788,
+      "score": 0.3691,
       "signals": {
-        "score": 0.3788,
-        "recency": 0.3953694960686337,
+        "score": 0.3691,
+        "recency": 0.35648119048607046,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -815,14 +844,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3776,
+      "score": 0.3687,
       "signals": {
-        "score": 0.3776,
-        "recency": 0.36032149935086794,
+        "score": 0.3687,
+        "recency": 0.32488049362317395,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.85,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "sec cancels planned meeting on registration exemptions for crypto tokens",
+      "title": "SEC Cancels Planned Meeting on Registration Exemptions for Crypto Tokens",
+      "summary": "The Securities and Exchange Commission has abruptly canceled an open meeting scheduled for Friday (Aug.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/02/SEC-crypto.png?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/sec-cancels-planned-meeting-on-registration-exemptions-for-crypto-tokens/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-14T17:27:16+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.3644,
+      "signals": {
+        "score": 0.3644,
+        "recency": 0.5777828716542933,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -843,96 +898,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3625,
+      "score": 0.3543,
       "signals": {
-        "score": 0.3625,
-        "recency": 0.3361482363290545,
+        "score": 0.3543,
+        "recency": 0.3030848981975394,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "unforgetful is a new reminders app for people who cant stop hitting snooze",
-      "title": "Unforgetful is a new reminders app for people who can\u2019t stop hitting snooze",
-      "summary": "Unforgetful, the latest app from longtime indie developer Marco Arment, is designed to make reminders harder to ignore \u2014 or accidentally dismiss.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Unforgetful%20is%20a%20new%20reminders%20app%20for%20people%20who%20can%E2%80%99t%20stop%20hitting%20snooze%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2392400e%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23211006%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EUNFORGETFUL%20IS%20A%20NEW%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EREMINDERS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EUnforgetful%2C%20the%20latest%20app%20from%20longtime%20indie%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-14T16:21:04+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.3593,
-      "signals": {
-        "score": 0.3593,
-        "recency": 0.533174380469947,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "crocs hatches new mascot niles to enrich brand storytelling",
-      "title": "Crocs hatches new mascot Niles to enrich brand storytelling",
-      "summary": "The 6-foot tall reptile, who appears in a new social series where he interacts with real employees, is expected to be a long-term fixture of Crocs&rsquo; marketing.&nbsp",
-      "image": "https://imgproxy.divecdn.com/mXHPzT0uAVA6pTz0BPj7KVdKPKHWeriW5e_zWmGgEGE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Dcm9jcy1OaWxlcy0zLmpwZw==.webp",
-      "link": "https://www.marketingdive.com/news/crocs-hatches-new-mascot-niles-to-enrich-brand-storytelling/827895/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-08-14T10:40:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Marketing Dive"
-      ],
-      "keywords": [
-        "series"
-      ],
-      "score": 0.3592,
-      "signals": {
-        "score": 0.3592,
-        "recency": 0.402666146402254,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "cloudflare machine traffic could hit 1000x human traffic in 5 years via sejournal slobodanmanic",
-      "title": "Cloudflare: Machine Traffic Could Hit 1,000x Human Traffic In 5 Years via @sejournal, @slobodanmanic",
-      "summary": "One company measures the bot problem, frames it, and sells the fix.",
-      "image": "assets/images/generated/cloudflare machine traffic could hit 1000x human traffic in 5 years via sejournal slobodanmanic.jpg",
-      "link": "https://www.searchenginejournal.com/the-biggest-ai-crawler-on-my-website-was-hunting-for-credentials/585159/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-08-14T14:30:22+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "cloud"
-      ],
-      "score": 0.358,
-      "signals": {
-        "score": 0.358,
-        "recency": 0.39203398737496475,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -954,10 +927,10 @@
         "ai",
         "award"
       ],
-      "score": 0.3576,
+      "score": 0.3533,
       "signals": {
-        "score": 0.3576,
-        "recency": 0.1742138772003303,
+        "score": 0.3533,
+        "recency": 0.15707830513254106,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -983,13 +956,123 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3532,
+      "score": 0.3526,
       "signals": {
-        "score": 0.3532,
-        "recency": 0.025932971894417157,
+        "score": 0.3526,
+        "recency": 0.02338222039304426,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "crocs hatches new mascot niles to enrich brand storytelling",
+      "title": "Crocs hatches new mascot Niles to enrich brand storytelling",
+      "summary": "The 6-foot tall reptile, who appears in a new social series where he interacts with real employees, is expected to be a long-term fixture of Crocs&rsquo; marketing.&nbsp",
+      "image": "https://imgproxy.divecdn.com/mXHPzT0uAVA6pTz0BPj7KVdKPKHWeriW5e_zWmGgEGE/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9Dcm9jcy1OaWxlcy0zLmpwZw==.webp",
+      "link": "https://www.marketingdive.com/news/crocs-hatches-new-mascot-niles-to-enrich-brand-storytelling/827895/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-08-14T10:40:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Marketing Dive"
+      ],
+      "keywords": [
+        "series"
+      ],
+      "score": 0.3493,
+      "signals": {
+        "score": 0.3493,
+        "recency": 0.3630601466861664,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "cloudflare machine traffic could hit 1000x human traffic in 5 years via sejournal slobodanmanic",
+      "title": "Cloudflare: Machine Traffic Could Hit 1,000x Human Traffic In 5 Years via @sejournal, @slobodanmanic",
+      "summary": "One company measures the bot problem, frames it, and sells the fix.",
+      "image": "assets/images/generated/cloudflare machine traffic could hit 1000x human traffic in 5 years via sejournal slobodanmanic.jpg",
+      "link": "https://www.searchenginejournal.com/the-biggest-ai-crawler-on-my-website-was-hunting-for-credentials/585159/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-08-14T14:30:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "cloud"
+      ],
+      "score": 0.3484,
+      "signals": {
+        "score": 0.3484,
+        "recency": 0.35347376041921136,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "unforgetful is a new reminders app for people who cant stop hitting snooze",
+      "title": "Unforgetful is a new reminders app for people who can\u2019t stop hitting snooze",
+      "summary": "Unforgetful, the latest app from longtime indie developer Marco Arment, is designed to make reminders harder to ignore \u2014 or accidentally dismiss.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Unforgetful%20is%20a%20new%20reminders%20app%20for%20people%20who%20can%E2%80%99t%20stop%20hitting%20snooze%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2392400e%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23211006%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3ETEC%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3ETECHCRUNCH%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EUNFORGETFUL%20IS%20A%20NEW%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EREMINDERS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EUnforgetful%2C%20the%20latest%20app%20from%20longtime%20indie%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETECHNOLOGY%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-14T16:21:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3462,
+      "signals": {
+        "score": 0.3462,
+        "recency": 0.4807316694295642,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+    },
+    {
+      "id": "the download flocks new rules clonings future and childrens cells",
+      "title": "The Download: Flock\u2019s new rules, cloning\u2019s future, and children\u2019s cells",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/12/MIT_AI-Hype_2-5-top.jpg?fit=1920,1280",
+      "link": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-14T12:17:21+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MIT Technology Review"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3441,
+      "signals": {
+        "score": 0.3441,
+        "recency": 0.2442808319054112,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1011,71 +1094,14 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.3529,
+      "score": 0.3435,
       "signals": {
-        "score": 0.3529,
-        "recency": 0.38352472629513906,
+        "score": 0.3435,
+        "recency": 0.3458014651357976,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "databricks wanted to raise 1b investors wanted 15b it settled on 5b at a 190b valuation",
-      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
-      "summary": "AI is expensive, Ali Ghodsi tells TechCrunch.",
-      "image": "assets/images/generated/databricks wanted to raise 1b investors wanted 15b it settled on 5b at a 190b valuation.jpg",
-      "link": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-13T20:14:39+00:00",
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch Startups"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3514,
-      "signals": {
-        "score": 0.3514,
-        "recency": 0.01868444073220715,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "the download flocks new rules clonings future and childrens cells",
-      "title": "The Download: Flock\u2019s new rules, cloning\u2019s future, and children\u2019s cells",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/12/MIT_AI-Hype_2-5-top.jpg?fit=1920,1280",
-      "link": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-14T12:17:21+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MIT Technology Review"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3507,
-      "signals": {
-        "score": 0.3507,
-        "recency": 0.27092927197078287,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1096,39 +1122,13 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.3487,
+      "score": 0.3405,
       "signals": {
-        "score": 0.3487,
-        "recency": 0.33065342112784124,
+        "score": 0.3405,
+        "recency": 0.2981305497111063,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "michaels debuts new store format at 3 locations",
-      "title": "Michaels debuts new store format at 3 locations",
-      "summary": "The spaces include revamped department layouts, new personalization services and a self-checkout queue exclusive to rewards members.",
-      "image": "https://imgproxy.divecdn.com/EW2cso-B9AEuaJF0yp4ODwwYLJLTdgXqh48KP7_Y-N4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9taWNoYWVsc19mcmFtaW5nX2N1c3RvbS5qcGc=.webp",
-      "link": "https://www.retaildive.com/news/michaels-debuts-store-format-knit-sew-party-shops/827904/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-08-14T11:41:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [],
-      "score": 0.3393,
-      "signals": {
-        "score": 0.3393,
-        "recency": 0.4770170536914182,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -1150,11 +1150,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3383,
+      "score": 0.3332,
       "signals": {
-        "score": 0.3383,
-        "recency": 0.2093361077116294,
+        "score": 0.3332,
+        "recency": 0.18874593419773475,
         "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "writer introduces new ai model and upgraded harness to contain token costs",
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "image": "assets/images/generated/writer introduces new ai model and upgraded harness to contain token costs.jpg",
+      "link": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-13T21:13:24+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai",
+        "open source"
+      ],
+      "score": 0.331,
+      "signals": {
+        "score": 0.331,
+        "recency": 0.019832981647497742,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -1178,69 +1207,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3363,
+      "score": 0.3309,
       "signals": {
-        "score": 0.3363,
-        "recency": 0.21908294236395068,
+        "score": 0.3309,
+        "recency": 0.19753407606219275,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "writer introduces new ai model and upgraded harness to contain token costs",
-      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
-      "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
-      "image": "assets/images/generated/writer introduces new ai model and upgraded harness to contain token costs.jpg",
-      "link": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-13T21:13:24+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai",
-        "open source"
-      ],
-      "score": 0.3315,
-      "signals": {
-        "score": 0.3315,
-        "recency": 0.02199654895905663,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "apple proposes to take a 15 cut of purchases made outside the app store",
-      "title": "Apple proposes to take a 15% cut of purchases made outside the App Store",
-      "summary": "Apple is asking a federal judge to allow it to charge commissions of up to 15% on purchases made through external links in iOS apps.",
-      "image": "assets/images/generated/apple proposes to take a 15 cut of purchases made outside the app store.jpg",
-      "link": "https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-14T14:54:48+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.3309,
-      "signals": {
-        "score": 0.3309,
-        "recency": 0.4195651882255072,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1262,14 +1236,66 @@
         "ai",
         "film"
       ],
-      "score": 0.3289,
+      "score": 0.3275,
       "signals": {
-        "score": 0.3289,
-        "recency": 0.059784515342652625,
+        "score": 0.3275,
+        "recency": 0.05390414640962062,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "michaels debuts new store format at 3 locations",
+      "title": "Michaels debuts new store format at 3 locations",
+      "summary": "The spaces include revamped department layouts, new personalization services and a self-checkout queue exclusive to rewards members.",
+      "image": "https://imgproxy.divecdn.com/EW2cso-B9AEuaJF0yp4ODwwYLJLTdgXqh48KP7_Y-N4/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9taWNoYWVsc19mcmFtaW5nX2N1c3RvbS5qcGc=.webp",
+      "link": "https://www.retaildive.com/news/michaels-debuts-store-format-knit-sew-party-shops/827904/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-08-14T11:41:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Retail Dive"
+      ],
+      "keywords": [],
+      "score": 0.3275,
+      "signals": {
+        "score": 0.3275,
+        "recency": 0.4300979435008192,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "apple proposes to take a 15 cut of purchases made outside the app store",
+      "title": "Apple proposes to take a 15% cut of purchases made outside the App Store",
+      "summary": "Apple is asking a federal judge to allow it to charge commissions of up to 15% on purchases made through external links in iOS apps.",
+      "image": "assets/images/generated/apple proposes to take a 15 cut of purchases made outside the app store.jpg",
+      "link": "https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-14T14:54:48+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.3206,
+      "signals": {
+        "score": 0.3206,
+        "recency": 0.3782970089305452,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1288,10 +1314,10 @@
         "AI Business"
       ],
       "keywords": [],
-      "score": 0.3289,
+      "score": 0.3182,
       "signals": {
-        "score": 0.3289,
-        "recency": 0.43543630939742795,
+        "score": 0.3182,
+        "recency": 0.3926070561799485,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1314,10 +1340,10 @@
         "Retail Dive"
       ],
       "keywords": [],
-      "score": 0.3288,
+      "score": 0.3181,
       "signals": {
-        "score": 0.3288,
-        "recency": 0.4352347651708037,
+        "score": 0.3181,
+        "recency": 0.39242533572210586,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1340,10 +1366,10 @@
         "Forrester Blogs"
       ],
       "keywords": [],
-      "score": 0.3225,
+      "score": 0.3124,
       "signals": {
-        "score": 0.3225,
-        "recency": 0.41007847282531534,
+        "score": 0.3124,
+        "recency": 0.3697434011451942,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1368,10 +1394,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3155,
+      "score": 0.312,
       "signals": {
-        "score": 0.3155,
-        "recency": 0.1419425804211759,
+        "score": 0.312,
+        "recency": 0.12798119367413663,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1397,39 +1423,13 @@
         "govern",
         "policy"
       ],
-      "score": 0.3083,
+      "score": 0.3078,
       "signals": {
-        "score": 0.3083,
-        "recency": 0.021192839248728133,
+        "score": 0.3078,
+        "recency": 0.019108324340366037,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.82,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "in pictures the monthly cut 016 london little black book lbbonline",
-      "title": "In Pictures: The Monthly Cut 016 London - Little Black Book | LBBOnline",
-      "summary": "In Pictures: The Monthly Cut 016 London &nbsp;&nbsp; Little Black Book | LBBOnline",
-      "image": "assets/images/generated/in pictures the monthly cut 016 london little black book lbbonline.jpg",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZM3QzZlpIU1Y0aW9mdnBZdVdZVU5jcVpNWVRkU283R0U2ZnpVS1JLNlpSWmpkY1NLY3g3Ui04aW5FRklVX2tEWVFjMUZvWGhJV0xwTUJCU01GS2RwNHVyb3FKRHo0cVhoRW4zajRiNTQ5aGM?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-14T14:08:24+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.3062,
-      "signals": {
-        "score": 0.3062,
-        "recency": 0.3688278558956996,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -1451,10 +1451,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3045,
+      "score": 0.3015,
       "signals": {
-        "score": 0.3045,
-        "recency": 0.12195636945289023,
+        "score": 0.3015,
+        "recency": 0.10996081438305584,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1479,10 +1479,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3037,
+      "score": 0.3014,
       "signals": {
-        "score": 0.3037,
-        "recency": 0.09497971603045648,
+        "score": 0.3014,
+        "recency": 0.08563756834869328,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1507,40 +1507,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3037,
+      "score": 0.3014,
       "signals": {
-        "score": 0.3037,
-        "recency": 0.09497971603045648,
+        "score": 0.3014,
+        "recency": 0.08563756834869328,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "applovins play to reach nongaming advertisers",
-      "title": "AppLovin\u2019s Play To Reach Non-Gaming Advertisers",
-      "summary": "Gaming apps are filled with ads for more gaming apps.",
-      "image": "assets/images/generated/applovins play to reach nongaming advertisers.jpg",
-      "link": "https://www.adexchanger.com/the-big-story/applovins-play-to-reach-non-gaming-advertisers/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-08-14T13:30:46+00:00",
-      "source_count": 1,
-      "source_names": [
-        "AdExchanger"
-      ],
-      "keywords": [],
-      "score": 0.3016,
-      "signals": {
-        "score": 0.3016,
-        "recency": 0.3322185325545074,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1561,14 +1535,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3004,
+      "score": 0.2982,
       "signals": {
-        "score": 0.3004,
-        "recency": 0.08755158549380951,
+        "score": 0.2982,
+        "recency": 0.0789400642591765,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "in pictures the monthly cut 016 london little black book lbbonline",
+      "title": "In Pictures: The Monthly Cut 016 London - Little Black Book | LBBOnline",
+      "summary": "In Pictures: The Monthly Cut 016 London &nbsp;&nbsp; Little Black Book | LBBOnline",
+      "image": "assets/images/generated/in pictures the monthly cut 016 london little black book lbbonline.jpg",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZM3QzZlpIU1Y0aW9mdnBZdVdZVU5jcVpNWVRkU283R0U2ZnpVS1JLNlpSWmpkY1NLY3g3Ui04aW5FRklVX2tEWVFjMUZvWGhJV0xwTUJCU01GS2RwNHVyb3FKRHo0cVhoRW4zajRiNTQ5aGM?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-14T14:08:24+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.2971,
+      "signals": {
+        "score": 0.2971,
+        "recency": 0.3325501700599069,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1589,10 +1589,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2986,
+      "score": 0.2969,
       "signals": {
-        "score": 0.2986,
-        "recency": 0.06824524748891263,
+        "score": 0.2969,
+        "recency": 0.061532686036155075,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1617,14 +1617,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2956,
+      "score": 0.2939,
       "signals": {
-        "score": 0.2956,
-        "recency": 0.06826736758838432,
+        "score": 0.2939,
+        "recency": 0.06155263041596118,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "applovins play to reach nongaming advertisers",
+      "title": "AppLovin\u2019s Play To Reach Non-Gaming Advertisers",
+      "summary": "Gaming apps are filled with ads for more gaming apps.",
+      "image": "assets/images/generated/applovins play to reach nongaming advertisers.jpg",
+      "link": "https://www.adexchanger.com/the-big-story/applovins-play-to-reach-non-gaming-advertisers/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-08-14T13:30:46+00:00",
+      "source_count": 1,
+      "source_names": [
+        "AdExchanger"
+      ],
+      "keywords": [],
+      "score": 0.2934,
+      "signals": {
+        "score": 0.2934,
+        "recency": 0.2995417177201943,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1645,13 +1671,69 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2923,
+      "score": 0.2917,
       "signals": {
-        "score": 0.2923,
-        "recency": 0.025180522040323887,
+        "score": 0.2917,
+        "recency": 0.02270378105355187,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "state of open models summer 2026 observations",
+      "title": "State of Open Models: Summer 2026 Observations",
+      "summary": "Summary unavailable from feed.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22State%20of%20Open%20Models%3A%20Summer%202026%20Observations%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23334155%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23020617%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EHF%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EAI%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EHUGGING%20FACE%20BLOG%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESTATE%20OF%20OPEN%20MODELS%3A%20SUMMER%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3E2026%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3ESummary%20unavailable%20from%20feed.%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EAI%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-08-14T00:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2864,
+      "signals": {
+        "score": 0.2864,
+        "recency": 0.03150430078739848,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.6
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
+    },
+    {
+      "id": "google is removing language targeting from search campaigns via sejournal brookeosmundson",
+      "title": "Google Is Removing Language Targeting From Search Campaigns via @sejournal, @brookeosmundson",
+      "summary": "Google Ads is changing language targeting for Search and Performance Max in September 2026.",
+      "image": "assets/images/generated/google is removing language targeting from search campaigns via sejournal brookeosmundson.jpg",
+      "link": "https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-08-13T21:30:33+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2852,
+      "signals": {
+        "score": 0.2852,
+        "recency": 0.020800669642837055,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1671,10 +1753,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2876,
+      "score": 0.2804,
       "signals": {
-        "score": 0.2876,
-        "recency": 0.29451502486296244,
+        "score": 0.2804,
+        "recency": 0.2655467043440246,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1682,90 +1764,6 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "state of open models summer 2026 observations",
-      "title": "State of Open Models: Summer 2026 Observations",
-      "summary": "Summary unavailable from feed.",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22State%20of%20Open%20Models%3A%20Summer%202026%20Observations%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23334155%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23020617%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EHF%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EAI%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EHUGGING%20FACE%20BLOG%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESTATE%20OF%20OPEN%20MODELS%3A%20SUMMER%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3E2026%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3ESummary%20unavailable%20from%20feed.%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EAI%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-08-14T00:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2872,
-      "signals": {
-        "score": 0.2872,
-        "recency": 0.03494108485590659,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "what bero is doing to further its distribution reach in the us",
-      "title": "What Bero is doing to further its distribution reach in the U.S.",
-      "summary": "Non-alcoholic beer brand Bero has grown its distribution presence, expanding into retailers including Walmart, Kroger and Publix, and it has developed an internal portal",
-      "image": "assets/images/generated/what bero is doing to further its distribution reach in the us.jpg",
-      "link": "https://www.digitalcommerce360.com/2026/08/13/bero-b2b-distribution-reach/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-08-13T20:39:42+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Digital Commerce 360"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2865,
-      "signals": {
-        "score": 0.2865,
-        "recency": 0.020030867613580586,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "google is removing language targeting from search campaigns via sejournal brookeosmundson",
-      "title": "Google Is Removing Language Targeting From Search Campaigns via @sejournal, @brookeosmundson",
-      "summary": "Google Ads is changing language targeting for Search and Performance Max in September 2026.",
-      "image": "assets/images/generated/google is removing language targeting from search campaigns via sejournal brookeosmundson.jpg",
-      "link": "https://www.searchenginejournal.com/google-is-removing-language-targeting-from-search-campaigns/585592/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-08-13T21:30:33+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2858,
-      "signals": {
-        "score": 0.2858,
-        "recency": 0.023069801420279885,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
     },
     {
       "id": "chatgpt already knows who itll recommend before it searches via sejournal suganthan",
@@ -1781,10 +1779,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.2846,
+      "score": 0.2782,
       "signals": {
-        "score": 0.2846,
-        "recency": 0.25825336324057874,
+        "score": 0.2782,
+        "recency": 0.23285171792578463,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1792,34 +1790,6 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
-    },
-    {
-      "id": "omnicom routinizes agentic buys compresses media supply chain 04292026 mediapost",
-      "title": "Omnicom Routinizes Agentic Buys, Compresses Media Supply Chain 04/29/2026 - MediaPost",
-      "summary": "Omnicom Routinizes Agentic Buys, Compresses Media Supply Chain 04/29/2026 &nbsp;&nbsp; MediaPost",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Omnicom%20Routinizes%20Agentic%20Buys%2C%20Compresses%20Media%20Supply%20Chain%2004/29/2026%20-%20MediaPost%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2315803d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23052e16%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGOOGLE%20NEWS%20-%20OMNICOM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EOMNICOM%20ROUTINIZES%20AGENTIC%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EBUYS%2C%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EOmnicom%20Routinizes%20Agentic%20Buys%2C%20Compresses%20Media%20Supply%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcUVRdC1mWm1fV2dFSW1sLW9Sc1BCMUlFamp4aVBJTEVidmdPV0E3cm1rZDAyZkprSG1IeTlyUWFqVXA3MzRVX01rQm5oQV9TMV9qYUpkUnVnbVZRVTdLeVhSUzE5VldBZ0tuQUdJaGlSU3YtTDYwQjdkX1VvV3NkbUlsSjY4N1BXaDVUUHhPUmZhSUtEREFpY1ViX2hkbExmWGdfdG44Mm1Jb1E?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-13T20:14:40+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2787,
-      "signals": {
-        "score": 0.2787,
-        "recency": 0.018685305772635354,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "future of marketing briefingthe public ad tech era is over",
@@ -1837,10 +1807,10 @@
       "keywords": [
         "platform"
       ],
-      "score": 0.2786,
+      "score": 0.2769,
       "signals": {
-        "score": 0.2786,
-        "recency": 0.06824524748891263,
+        "score": 0.2769,
+        "recency": 0.061532686036155075,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1865,10 +1835,10 @@
       "keywords": [
         "govern"
       ],
-      "score": 0.2721,
+      "score": 0.2715,
       "signals": {
-        "score": 0.2721,
-        "recency": 0.02436290044113899,
+        "score": 0.2715,
+        "recency": 0.02196658022257537,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1891,10 +1861,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2696,
+      "score": 0.2647,
       "signals": {
-        "score": 0.2696,
-        "recency": 0.198252799795217,
+        "score": 0.2647,
+        "recency": 0.17875277377475546,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1917,10 +1887,10 @@
         "InternetRetailing"
       ],
       "keywords": [],
-      "score": 0.2666,
+      "score": 0.2616,
       "signals": {
-        "score": 0.2666,
-        "recency": 0.20432833149451068,
+        "score": 0.2616,
+        "recency": 0.18423071983416542,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.77,
@@ -1943,10 +1913,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2635,
+      "score": 0.2592,
       "signals": {
-        "score": 0.2635,
-        "recency": 0.17393986736535033,
+        "score": 0.2592,
+        "recency": 0.15683124673994925,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1969,10 +1939,10 @@
         "MIT Technology Review"
       ],
       "keywords": [],
-      "score": 0.2621,
+      "score": 0.2583,
       "signals": {
-        "score": 0.2621,
-        "recency": 0.15659507810447157,
+        "score": 0.2583,
+        "recency": 0.1411924805075267,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -1995,10 +1965,10 @@
         "MIT Technology Review"
       ],
       "keywords": [],
-      "score": 0.2621,
+      "score": 0.2583,
       "signals": {
-        "score": 0.2621,
-        "recency": 0.15659507810447157,
+        "score": 0.2583,
+        "recency": 0.1411924805075267,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -2021,10 +1991,10 @@
         "MIT Technology Review"
       ],
       "keywords": [],
-      "score": 0.2621,
+      "score": 0.2583,
       "signals": {
-        "score": 0.2621,
-        "recency": 0.15659507810447157,
+        "score": 0.2583,
+        "recency": 0.1411924805075267,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -2034,10 +2004,10 @@
       "image_failure_reason": ""
     },
     {
-      "id": "publicis groupe elevates krishma solanki to senior director afaqs",
-      "title": "Publicis Groupe elevates Krishma Solanki to Senior Director - afaqs!",
-      "summary": "Publicis Groupe elevates Krishma Solanki to Senior Director &nbsp;&nbsp; afaqs!",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Publicis%20Groupe%20elevates%20Krishma%20Solanki%20to%20Senior%20Director%20-%20afaqs%21%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%239f1239%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232a0712%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGOOGLE%20NEWS%20-%20PUBLICIS%20GROUPE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPUBLICIS%20GROUPE%20ELEVATES%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EKRISHMA%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EPublicis%20Groupe%20elevates%20Krishma%20Solanki%20to%20Senior%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "id": "publicis groupe elevates krishma solanki to senior director afaqscom",
+      "title": "Publicis Groupe elevates Krishma Solanki to Senior Director - afaqs.com",
+      "summary": "Publicis Groupe elevates Krishma Solanki to Senior Director &nbsp;&nbsp; afaqs.com",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Publicis%20Groupe%20elevates%20Krishma%20Solanki%20to%20Senior%20Director%20-%20afaqs.com%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGOOGLE%20NEWS%20-%20PUBLICIS%20GROUPE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPUBLICIS%20GROUPE%20ELEVATES%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EKRISHMA%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EPublicis%20Groupe%20elevates%20Krishma%20Solanki%20to%20Senior%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcUJKTnhNU3ZQSE9zNDV3OEZwcDBYZlY1UDQyMjlDUzBqam16c09GT016R0s0bVU1M0hodnNFRERWRFJFTDNickVpZU1fTzhRNVZtZlBjWktDTHdEYjJ1OG5ITmFJQWhVWk1jdTA3aV91LTV4SXZFY2dOeVNCMTVMRWUxRmZtdGJlT0VNV3lnMFhCQVdjaFVRc3Z5U0NJYnU0cVVxbFloQ1ZWZw?oc=5",
       "category": "advertising",
       "geo": "global",
@@ -2047,10 +2017,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2605,
+      "score": 0.256,
       "signals": {
-        "score": 0.2605,
-        "recency": 0.18614644892210705,
+        "score": 0.256,
+        "recency": 0.16783719628432822,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2073,10 +2043,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2513,
+      "score": 0.2476,
       "signals": {
-        "score": 0.2513,
-        "recency": 0.14908202929915934,
+        "score": 0.2476,
+        "recency": 0.13441841065912163,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2099,10 +2069,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2508,
+      "score": 0.2472,
       "signals": {
-        "score": 0.2508,
-        "recency": 0.1473596675252629,
+        "score": 0.2472,
+        "recency": 0.13286545935227687,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2125,10 +2095,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2503,
+      "score": 0.2468,
       "signals": {
-        "score": 0.2503,
-        "recency": 0.1453406096752789,
+        "score": 0.2468,
+        "recency": 0.13104499481674892,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2151,10 +2121,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2462,
+      "score": 0.243,
       "signals": {
-        "score": 0.2462,
-        "recency": 0.12861346379741828,
+        "score": 0.243,
+        "recency": 0.11596312093607196,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2177,10 +2147,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2458,
+      "score": 0.2427,
       "signals": {
-        "score": 0.2458,
-        "recency": 0.12710403774276677,
+        "score": 0.2427,
+        "recency": 0.11460216111933516,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2203,10 +2173,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.245,
+      "score": 0.2419,
       "signals": {
-        "score": 0.245,
-        "recency": 0.12387403533161459,
+        "score": 0.2419,
+        "recency": 0.11168985980056954,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2229,10 +2199,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2436,
+      "score": 0.2407,
       "signals": {
-        "score": 0.2436,
-        "recency": 0.11848358934501714,
+        "score": 0.2407,
+        "recency": 0.106829614835643,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2255,10 +2225,10 @@
         "Digiday"
       ],
       "keywords": [],
-      "score": 0.2386,
+      "score": 0.2369,
       "signals": {
-        "score": 0.2386,
-        "recency": 0.06824524748891263,
+        "score": 0.2369,
+        "recency": 0.061532686036155075,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2281,10 +2251,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.238,
+      "score": 0.2356,
       "signals": {
-        "score": 0.238,
-        "recency": 0.09586768014669553,
+        "score": 0.2356,
+        "recency": 0.08643819284909951,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2307,10 +2277,10 @@
         "Modern Retail"
       ],
       "keywords": [],
-      "score": 0.2355,
+      "score": 0.2338,
       "signals": {
-        "score": 0.2355,
-        "recency": 0.06805594040522935,
+        "score": 0.2338,
+        "recency": 0.06136199908324167,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2333,10 +2303,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2341,
+      "score": 0.2321,
       "signals": {
-        "score": 0.2341,
-        "recency": 0.08039859385508152,
+        "score": 0.2321,
+        "recency": 0.07249063657123976,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2359,10 +2329,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2305,
+      "score": 0.2289,
       "signals": {
-        "score": 0.2305,
-        "recency": 0.06601401427841184,
+        "score": 0.2289,
+        "recency": 0.0595209155808205,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2370,32 +2340,6 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "omnicom group stock hits 52week high at 8742 usd by investingcom investingcom australia",
-      "title": "Omnicom Group stock hits 52-week high at 87.42 USD By Investing.com - Investing.com Australia",
-      "summary": "Omnicom Group stock hits 52-week high at 87.42 USD By Investing.com &nbsp;&nbsp; Investing.com Australia",
-      "image": "assets/images/generated/omnicom group stock hits 52week high at 8742 usd by investingcom investingcom australia.jpg",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOGh0VF9RZHNWczZrQnBQWm5PSm1NY0VFcmVJcDFIcElhS2VkNDdTMnlMaE9yaUwtRlhEcG1qSDFxbkx4Vzdjb1ZyQlpBQkJ3ZnBZaDlzWi1vTGZvTFJxa2ZhSnIySlpVVmlXMkZqUEttUEIxdWFyQlZkNk0zbzFULWl2ZUpRRlE5SHJ5YVVjUFZPQXRVUXA4T0NPZU9RbEowUlhUYnNRbTBVWVZpZHc?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-14T01:52:30+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.2259,
-      "signals": {
-        "score": 0.2259,
-        "recency": 0.047758800486826285,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
     },
     {
       "id": "movers shakers omnicom media jack nimble nine 303 mediahub adnewscomau",
@@ -2411,10 +2355,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2218,
+      "score": 0.221,
       "signals": {
-        "score": 0.2218,
-        "recency": 0.031021542169843094,
+        "score": 0.221,
+        "recency": 0.0279702819599917,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2437,10 +2381,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2201,
+      "score": 0.2195,
       "signals": {
-        "score": 0.2201,
-        "recency": 0.02441031883382723,
+        "score": 0.2195,
+        "recency": 0.02200933457070926,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2448,32 +2392,6 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "omnicom group nyseomc sets new 52week high time to buy marketbeat",
-      "title": "Omnicom Group (NYSE:OMC) Sets New 52-Week High - Time to Buy? - MarketBeat",
-      "summary": "Omnicom Group (NYSE:OMC) Sets New 52-Week High - Time to Buy?",
-      "image": "assets/images/generated/omnicom group nyseomc sets new 52week high time to buy marketbeat.jpg",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2d0OUtmSDluMGoyaWE4VkdZb1VoMGc5SFh0SW81UnZKVC1rLWJqMDdubUFLVUZ6czJ2ajEzSzZ4YXo1T1poNFRDX0hIdHJYRktnVDdJTG9uTTliVTAtWWdZR3pnUFZUTmhQODB0SWcyOTNFZC1EaHV0OEd0REJBUFFoeEVhUWVEVDRlNDY2Rl80dlhVVXZwNTdPWEdpWFVsV09KOXRrSjUya05lSlE?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-13T20:15:53+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.2187,
-      "signals": {
-        "score": 0.2187,
-        "recency": 0.0187485620167929,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
     }
   ]
 }
