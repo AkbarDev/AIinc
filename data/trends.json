@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-17T16:47:30.915686+00:00",
-  "sources_scanned": 2945,
-  "feeds_polled": 33,
+  "generated_at": "2026-08-17T17:13:28.371803+00:00",
+  "sources_scanned": 2955,
+  "feeds_polled": 34,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1843,
+    "NA": 1853,
     "SA": 0,
     "EU": 1102,
     "AF": 0,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 90,
+  "clusters": 91,
   "trends": [
     {
       "id": "fireblocks chooses exsec commissioner as new policy chief",
@@ -33,10 +33,10 @@
         "platform",
         "policy"
       ],
-      "score": 0.6093,
+      "score": 0.592,
       "signals": {
-        "score": 0.6093,
-        "recency": 0.9973223096660855,
+        "score": 0.592,
+        "recency": 0.9279422937203887,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -63,13 +63,71 @@
         "bill",
         "cloud"
       ],
-      "score": 0.5945,
+      "score": 0.5786,
       "signals": {
-        "score": 0.5945,
-        "recency": 0.9141463361992973,
+        "score": 0.5786,
+        "recency": 0.8505525643890162,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ai labs stop competing on smarts and start competing on price",
+      "title": "AI Labs Stop Competing on Smarts and Start Competing on Price",
+      "summary": "The cost of querying an artificial intelligence (AI) model performing at GPT-3.5\u2019s level fell from $20 per million tokens in November 2022 to $0.07 per million tokens by October",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/AI-Costs-decrease.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-labs-stop-competing-on-smarts-and-start-competing-on-price/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-17T17:07:12+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.5657,
+      "signals": {
+        "score": 0.5657,
+        "recency": 0.9827263102819912,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "google lets you turn off visible watermarks in gemini via sejournal mattgsouthern",
+      "title": "Google Lets You Turn Off Visible Watermarks In Gemini via @sejournal, @MattGSouthern",
+      "summary": "Google Gemini allows users to disable the visible watermark on AI-generated images, videos, and music, while SynthID and C2PA marks stay embedded.",
+      "image": "assets/images/generated/google lets you turn off visible watermarks in gemini via sejournal mattgsouthern.jpg",
+      "link": "https://www.searchenginejournal.com/google-lets-you-turn-off-visible-watermarks-in-gemini/586145/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-08-17T17:00:44+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "ai",
+        "music"
+      ],
+      "score": 0.5613,
+      "signals": {
+        "score": 0.5613,
+        "recency": 0.9652312360752481,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -92,11 +150,67 @@
         "ai",
         "bill"
       ],
-      "score": 0.5543,
+      "score": 0.538,
       "signals": {
-        "score": 0.5543,
-        "recency": 0.9371145050844989,
+        "score": 0.538,
+        "recency": 0.8719229229093496,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "feedly attributes weeklong slowdown to bug not its ai pivot",
+      "title": "Feedly attributes weeklong slowdown to bug, not its AI pivot",
+      "summary": "Feedly says a bug is behind the performance issues that have made its web app nearly \"unusable\" for some users, while complaints about its mobile apps and customer support are",
+      "image": "assets/images/generated/feedly attributes weeklong slowdown to bug not its ai pivot.jpg",
+      "link": "https://techcrunch.com/2026/08/17/feedly-attributes-weeklong-slowdown-to-bug-not-its-ai-pivot/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-17T17:10:59+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5343,
+      "signals": {
+        "score": 0.5343,
+        "recency": 0.9931084948377783,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "meet digital experience techs new interface agentic ai systems of action",
+      "title": "Meet Digital Experience Tech\u2019s New Interface: Agentic AI Systems of Action",
+      "summary": "User interfaces and workflows built with agentic AI are emerging as the next frontier of digital experience tech&#8217;s evolution.",
+      "image": "assets/images/generated/meet digital experience techs new interface agentic ai systems of action.jpg",
+      "link": "https://www.forrester.com/blogs/meet-digital-experience-techs-new-interface-agentic-ai-systems-of-action/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-08-17T17:02:56+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Forrester Blogs"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5228,
+      "signals": {
+        "score": 0.5228,
+        "recency": 0.9711479317856941,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -121,41 +235,13 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.5332,
+      "score": 0.5183,
       "signals": {
-        "score": 0.5332,
-        "recency": 0.8526996118580467,
+        "score": 0.5183,
+        "recency": 0.7933804608732379,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "amazon once an online bookseller is destroying rare books to train ai models",
-      "title": "Amazon, once an online bookseller, is destroying rare books to train AI models",
-      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
-      "image": "assets/images/generated/amazon once an online bookseller is destroying rare books to train ai models.jpg",
-      "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-17T16:38:44+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.53,
-      "signals": {
-        "score": 0.53,
-        "recency": 0.9759008901309941,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -179,13 +265,41 @@
         "artificial intelligence",
         "bill"
       ],
-      "score": 0.529,
+      "score": 0.5173,
       "signals": {
-        "score": 0.529,
-        "recency": 0.6761198096297845,
+        "score": 0.5173,
+        "recency": 0.6290846608933427,
         "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "amazon which started off selling books is destroying rare texts to train ai",
+      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
+      "image": "assets/images/generated/amazon which started off selling books is destroying rare texts to train ai.jpg",
+      "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-17T16:38:44+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.513,
+      "signals": {
+        "score": 0.513,
+        "recency": 0.9080110829317773,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -208,10 +322,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.5196,
+      "score": 0.5058,
       "signals": {
-        "score": 0.5196,
-        "recency": 0.7985932761130139,
+        "score": 0.5058,
+        "recency": 0.7430381023303299,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -237,10 +351,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.513,
+      "score": 0.4996,
       "signals": {
-        "score": 0.513,
-        "recency": 0.7720190164341065,
+        "score": 0.4996,
+        "recency": 0.7183125153847989,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -265,10 +379,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5116,
+      "score": 0.4955,
       "signals": {
-        "score": 0.5116,
-        "recency": 0.9264165738186575,
+        "score": 0.4955,
+        "recency": 0.8619692070637553,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -293,41 +407,11 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.503,
+      "score": 0.4875,
       "signals": {
-        "score": 0.503,
-        "recency": 0.8920301416966142,
+        "score": 0.4875,
+        "recency": 0.8299749115517332,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "higgsfield raises 400 million for ai video platform",
-      "title": "Higgsfield Raises $400 Million for AI Video Platform",
-      "summary": "AI video generation platform Higgsfield is now a $5.4 billion company.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Higgsfield-AI-video.jpg?w=457",
-      "link": "https://www.pymnts.com/news/investment-tracker/2026/higgsfield-raises-400-million-for-ai-video-platform/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-08-17T13:12:54+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai",
-        "bill",
-        "platform"
-      ],
-      "score": 0.4977,
-      "signals": {
-        "score": 0.4977,
-        "recency": 0.5509267030577117,
-        "keyword_volume": 0.6,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -352,10 +436,10 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.4961,
+      "score": 0.4838,
       "signals": {
-        "score": 0.4961,
-        "recency": 0.704266848537499,
+        "score": 0.4838,
+        "recency": 0.6552736146471262,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -380,10 +464,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.489,
+      "score": 0.4744,
       "signals": {
-        "score": 0.489,
-        "recency": 0.8359311217548967,
+        "score": 0.4744,
+        "recency": 0.7777784924646957,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -408,10 +492,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4801,
+      "score": 0.4666,
       "signals": {
-        "score": 0.4801,
-        "recency": 0.7763918317414849,
+        "score": 0.4666,
+        "recency": 0.7223811301415498,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -435,10 +519,10 @@
         "TechCrunch Startups"
       ],
       "keywords": [],
-      "score": 0.4754,
+      "score": 0.4623,
       "signals": {
-        "score": 0.4754,
-        "recency": 0.7545280962421343,
+        "score": 0.4623,
+        "recency": 0.7020383736706193,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -463,40 +547,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4694,
+      "score": 0.4566,
       "signals": {
-        "score": 0.4694,
-        "recency": 0.7336196188884637,
+        "score": 0.4566,
+        "recency": 0.6825844215773768,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "uber teams with zipline to expand drone delivery service",
-      "title": "Uber Teams With Zipline to Expand Drone Delivery Service",
-      "summary": "Uber hopes to expand its U.S. delivery business by teaming with drone company Zipline.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Zipline-Uber-Eats-delivery.png?w=457",
-      "link": "https://www.pymnts.com/news/delivery/2026/uber-teams-with-zipline-to-expand-drone-delivery-service/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-08-17T16:31:20+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.459,
-      "signals": {
-        "score": 0.459,
-        "recency": 0.9560454738457158,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -517,10 +575,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4577,
+      "score": 0.4453,
       "signals": {
-        "score": 0.4577,
-        "recency": 0.7107523075899206,
+        "score": 0.4453,
+        "recency": 0.6613079043552835,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -530,10 +588,36 @@
       "image_failure_reason": ""
     },
     {
-      "id": "exwpp executive claims sony probe found 350m in client rebates retained campaign us",
-      "title": "Ex-WPP executive claims Sony probe found $350m in client rebates retained - Campaign US",
-      "summary": "Ex-WPP executive claims Sony probe found $350m in client rebates retained &nbsp;&nbsp; Campaign US",
-      "image": "assets/images/generated/exwpp executive claims sony probe found 350m in client rebates retained campaign us.jpg",
+      "id": "uber teams with zipline to expand drone delivery service",
+      "title": "Uber Teams With Zipline to Expand Drone Delivery Service",
+      "summary": "Uber hopes to expand its U.S. delivery business by teaming with drone company Zipline.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Zipline-Uber-Eats-delivery.png?w=457",
+      "link": "https://www.pymnts.com/news/delivery/2026/uber-teams-with-zipline-to-expand-drone-delivery-service/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-17T16:31:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.4424,
+      "signals": {
+        "score": 0.4424,
+        "recency": 0.8895369343521642,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "exwpp executive claims sony probe found 350m in client rebates retained campaignlivecom",
+      "title": "Ex-WPP executive claims Sony probe found $350m in client rebates retained - campaignlive.com",
+      "summary": "Ex-WPP executive claims Sony probe found $350m in client rebates retained &nbsp;&nbsp; campaignlive.com",
+      "image": "assets/images/generated/exwpp executive claims sony probe found 350m in client rebates retained campaignlivecom.jpg",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZTlBVlhiLUozMUl5bm5nVnBjVkE3YmlFb01weHhLb3o4TC04NlJRbi1wX0VNOW9vZXVkWF9LU2lvd3lzTy1yZFNVa0tTYkZQV0hEejJjVzBuNVlnNFBQVS01eFFRV2FFY01XcmMxLXRqa3BwU29JOWZRdVAxOGVHUVZjV1RpWmNzb3FnUlJhaXVQdU05aDNQUWZabldKaG1jQ2Zndm5jSWl3OFlDOGU4dlI4U3o?oc=5",
       "category": "advertising",
       "geo": "global",
@@ -545,10 +629,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4542,
+      "score": 0.4416,
       "signals": {
-        "score": 0.4542,
-        "recency": 0.7206927383940976,
+        "score": 0.4416,
+        "recency": 0.6705568162382286,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -573,10 +657,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4509,
+      "score": 0.439,
       "signals": {
-        "score": 0.4509,
-        "recency": 0.683420976997038,
+        "score": 0.439,
+        "recency": 0.6358779131127521,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -601,10 +685,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4487,
+      "score": 0.437,
       "signals": {
-        "score": 0.4487,
-        "recency": 0.6749626328208238,
+        "score": 0.437,
+        "recency": 0.6280079845852529,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -629,10 +713,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4425,
+      "score": 0.431,
       "signals": {
-        "score": 0.4425,
-        "recency": 0.6619038432635429,
+        "score": 0.431,
+        "recency": 0.6158576466077014,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -657,10 +741,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4355,
+      "score": 0.4246,
       "signals": {
-        "score": 0.4355,
-        "recency": 0.6279340269572793,
+        "score": 0.4246,
+        "recency": 0.5842509844935766,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -685,10 +769,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4335,
+      "score": 0.4229,
       "signals": {
-        "score": 0.4335,
-        "recency": 0.614133840775581,
+        "score": 0.4229,
+        "recency": 0.5714108261063636,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -713,40 +797,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4328,
+      "score": 0.4221,
       "signals": {
-        "score": 0.4328,
-        "recency": 0.6110142574527142,
+        "score": 0.4221,
+        "recency": 0.5685082606307732,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "backtoschool spending could be moderate at best",
-      "title": "Back-to-school spending could be \u2018moderate at best\u2019",
-      "summary": "Growth is concentrated in higher-income consumers as many shoppers contemplate discretionary purchases, per new data from Circana.",
-      "image": "https://imgproxy.divecdn.com/mp82H5ofpZ49tRAmdLQNGQQdgayByOBJzvaBAoafbJw/g:nowe:0:0/c:2699:1525/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9UQVJHRVRfQmFja190b19TY2hvb2wuanBn.webp",
-      "link": "https://www.retaildive.com/news/back-to-school-spending-moderate-circana/828013/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-08-17T11:34:00-04:00",
-      "source_count": 1,
-      "source_names": [
-        "Retail Dive"
-      ],
-      "keywords": [],
-      "score": 0.4238,
-      "signals": {
-        "score": 0.4238,
-        "recency": 0.8152919088205137,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -767,10 +825,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4227,
+      "score": 0.4132,
       "signals": {
-        "score": 0.4227,
-        "recency": 0.5466330306326349,
+        "score": 0.4132,
+        "recency": 0.5086057970952295,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -795,10 +853,64 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.419,
+      "score": 0.4097,
       "signals": {
-        "score": 0.419,
-        "recency": 0.532002437605808,
+        "score": 0.4097,
+        "recency": 0.49499300018873227,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "backtoschool spending could be moderate at best",
+      "title": "Back-to-school spending could be \u2018moderate at best\u2019",
+      "summary": "Growth is concentrated in higher-income consumers as many shoppers contemplate discretionary purchases, per new data from Circana.",
+      "image": "https://imgproxy.divecdn.com/mp82H5ofpZ49tRAmdLQNGQQdgayByOBJzvaBAoafbJw/g:nowe:0:0/c:2699:1525/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9UQVJHRVRfQmFja190b19TY2hvb2wuanBn.webp",
+      "link": "https://www.retaildive.com/news/back-to-school-spending-moderate-circana/828013/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-08-17T11:34:00-04:00",
+      "source_count": 1,
+      "source_names": [
+        "Retail Dive"
+      ],
+      "keywords": [],
+      "score": 0.4096,
+      "signals": {
+        "score": 0.4096,
+        "recency": 0.7585750730632715,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "securing the infrastructure of intelligence",
+      "title": "Securing the Infrastructure of Intelligence",
+      "summary": "AI factories are the defining infrastructure of the AI era \u2014 where compute transforms energy and data into intelligence that powers every business, industry and country.",
+      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png",
+      "link": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-08-17T12:34:51+00:00",
+      "source_count": 1,
+      "source_names": [
+        "NVIDIA Blog"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4013,
+      "signals": {
+        "score": 0.4013,
+        "recency": 0.4611866679615506,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -823,42 +935,14 @@
       "keywords": [
         "platform"
       ],
-      "score": 0.4112,
+      "score": 0.4006,
       "signals": {
-        "score": 0.4112,
-        "recency": 0.6107314459523477,
+        "score": 0.4006,
+        "recency": 0.568245123278087,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "securing the infrastructure of intelligence",
-      "title": "Securing the Infrastructure of Intelligence",
-      "summary": "AI factories are the defining infrastructure of the AI era \u2014 where compute transforms energy and data into intelligence that powers every business, industry and country.",
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/08/partner-promo-pack-logo-lockup-openai-sbenergy-5590550_-press-1920x1080-1.png",
-      "link": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-08-17T12:34:51+00:00",
-      "source_count": 1,
-      "source_names": [
-        "NVIDIA Blog"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4099,
-      "signals": {
-        "score": 0.4099,
-        "recency": 0.4956684871367812,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -877,10 +961,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.4093,
+      "score": 0.3962,
       "signals": {
-        "score": 0.4093,
-        "recency": 0.7572927655696371,
+        "score": 0.3962,
+        "recency": 0.7046107152018142,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -905,13 +989,41 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4008,
+      "score": 0.392,
       "signals": {
-        "score": 0.4008,
-        "recency": 0.5072526395847777,
+        "score": 0.392,
+        "recency": 0.47196495386693615,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the download dead robot friends and the censorshipindustrial complex",
+      "title": "The Download: dead robot friends and the \u201ccensorship-industrial complex\u201d",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/10/IR_14499.jpg",
+      "link": "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-17T12:10:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MIT Technology Review"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3906,
+      "signals": {
+        "score": 0.3906,
+        "recency": 0.43042586526478605,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.82,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -931,10 +1043,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.3998,
+      "score": 0.3868,
       "signals": {
-        "score": 0.3998,
-        "recency": 0.7430193930384617,
+        "score": 0.3868,
+        "recency": 0.6913302882853251,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -957,10 +1069,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.3998,
+      "score": 0.3868,
       "signals": {
-        "score": 0.3998,
-        "recency": 0.7430881943156048,
+        "score": 0.3868,
+        "recency": 0.691394303312668,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -968,34 +1080,6 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "the download dead robot friends and the censorshipindustrial complex",
-      "title": "The Download: dead robot friends and the \u201ccensorship-industrial complex\u201d",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.",
-      "image": "https://wp.technologyreview.com/wp-content/uploads/2025/10/IR_14499.jpg",
-      "link": "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-17T12:10:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MIT Technology Review"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3987,
-      "signals": {
-        "score": 0.3987,
-        "recency": 0.46260777312435997,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.82,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
     },
     {
       "id": "ai assistants are choosing local businesses for your customers via sejournal mattgsouthern",
@@ -1013,10 +1097,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3925,
+      "score": 0.3847,
       "signals": {
-        "score": 0.3925,
-        "recency": 0.45005939042512194,
+        "score": 0.3847,
+        "recency": 0.4187504270322745,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1041,10 +1125,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3912,
+      "score": 0.3831,
       "signals": {
-        "score": 0.3912,
-        "recency": 0.4627577166051798,
+        "score": 0.3831,
+        "recency": 0.4305653777334953,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.77,
@@ -1069,10 +1153,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.39,
+      "score": 0.382,
       "signals": {
-        "score": 0.39,
-        "recency": 0.4578563454560817,
+        "score": 0.382,
+        "recency": 0.42600497680554283,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.77,
@@ -1095,10 +1179,10 @@
         "Marketing Dive"
       ],
       "keywords": [],
-      "score": 0.3835,
+      "score": 0.372,
       "signals": {
-        "score": 0.3835,
-        "recency": 0.6599455492998321,
+        "score": 0.372,
+        "recency": 0.6140355838955247,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1123,10 +1207,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3783,
+      "score": 0.3715,
       "signals": {
-        "score": 0.3783,
-        "recency": 0.39324225585761907,
+        "score": 0.3715,
+        "recency": 0.3658858498918705,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1151,10 +1235,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3768,
+      "score": 0.3702,
       "signals": {
-        "score": 0.3768,
-        "recency": 0.38128465396817834,
+        "score": 0.3702,
+        "recency": 0.354760094038281,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1177,42 +1261,14 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.366,
+      "score": 0.3563,
       "signals": {
-        "score": 0.366,
-        "recency": 0.5600561016257057,
+        "score": 0.3563,
+        "recency": 0.5210950747994976,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "how small businesses are really using ai 5 eyeopening findings",
-      "title": "How Small Businesses Are Really Using AI: 5 Eye-Opening Findings",
-      "summary": "Two years ago, about a third of marketers used AI every day.",
-      "image": "https://www.socialmediaexaminer.com/wp-content/uploads/2026/08/2026-ai-report-og.png",
-      "link": "https://www.socialmediaexaminer.com/how-small-businesses-are-really-using-ai-5-eye-opening-findings/",
-      "category": "social-media",
-      "geo": "global",
-      "published_at": "2026-08-17T10:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Social Media Examiner"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3591,
-      "signals": {
-        "score": 0.3591,
-        "recency": 0.32239207906294026,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1234,13 +1290,41 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3559,
+      "score": 0.3553,
       "signals": {
-        "score": 0.3559,
-        "recency": 0.036633152149382564,
+        "score": 0.3553,
+        "recency": 0.03408471955579477,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "how small businesses are really using ai 5 eyeopening findings",
+      "title": "How Small Businesses Are Really Using AI: 5 Eye-Opening Findings",
+      "summary": "Two years ago, about a third of marketers used AI every day.",
+      "image": "https://www.socialmediaexaminer.com/wp-content/uploads/2026/08/2026-ai-report-og.png",
+      "link": "https://www.socialmediaexaminer.com/how-small-businesses-are-really-using-ai-5-eye-opening-findings/",
+      "category": "social-media",
+      "geo": "global",
+      "published_at": "2026-08-17T10:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Social Media Examiner"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3535,
+      "signals": {
+        "score": 0.3535,
+        "recency": 0.2999644572506477,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1263,10 +1347,10 @@
         "ai",
         "policy"
       ],
-      "score": 0.3552,
+      "score": 0.3533,
       "signals": {
-        "score": 0.3552,
-        "recency": 0.10466538392457175,
+        "score": 0.3533,
+        "recency": 0.09738420116623098,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.86,
@@ -1291,10 +1375,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3552,
+      "score": 0.35,
       "signals": {
-        "score": 0.3552,
-        "recency": 0.3008609119162477,
+        "score": 0.35,
+        "recency": 0.2799311335849328,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1319,10 +1403,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3512,
+      "score": 0.3465,
       "signals": {
-        "score": 0.3512,
-        "recency": 0.272899003176269,
+        "score": 0.3465,
+        "recency": 0.2539144311794051,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -1330,32 +1414,6 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
-    },
-    {
-      "id": "publicis groupe stock holds firm as dividend increase supports income appeal ad hoc news",
-      "title": "Publicis Groupe stock holds firm as dividend increase supports income appeal - AD HOC NEWS",
-      "summary": "Publicis Groupe stock holds firm as dividend increase supports income appeal &nbsp;&nbsp; AD HOC NEWS",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Publicis%20Groupe%20stock%20holds%20firm%20as%20dividend%20increase%20supports%20income%20appeal%20-%20AD%20HOC%20NEWS%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2315803d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23052e16%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGOOGLE%20NEWS%20-%20PUBLICIS%20GROUPE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPUBLICIS%20GROUPE%20STOCK%20HOLDS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EFIRM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EPublicis%20Groupe%20stock%20holds%20firm%20as%20dividend%20increase%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdlMyazNJQUxYMDRYOEpHT2xrczd0WF9KX2xLQ01SaUk1OG5INVE2OVQweERxLXl6NXMxRzE5RUprZjNlMzR1dlNwejdPcU40N2RxZ1lDSDF5WlJuckZCcWFPeDBOQTJwRE9LRDVYYnZidnpqdWRfdkZ3dTZpaDF4Sml2WUgzTDdZUDdZTDdVWl9PRGYyR3BoWW4zYVJOY05rTlV4Tzc1R0duN0tOMGIxemdQcEVLTDFCTm5BN1F0a1ZBdTFvcXlPb0EtcHA?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-17T13:06:25+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.3493,
-      "signals": {
-        "score": 0.3493,
-        "recency": 0.541093729278599,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "why retails biggest ai assumption is wrong",
@@ -1373,10 +1431,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3482,
+      "score": 0.3435,
       "signals": {
-        "score": 0.3482,
-        "recency": 0.272899003176269,
+        "score": 0.3435,
+        "recency": 0.2539144311794051,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1401,10 +1459,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3482,
+      "score": 0.3435,
       "signals": {
-        "score": 0.3482,
-        "recency": 0.272899003176269,
+        "score": 0.3435,
+        "recency": 0.2539144311794051,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1412,6 +1470,32 @@
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
+    },
+    {
+      "id": "publicis groupe stock holds firm as dividend increase supports income appeal ad hoc news",
+      "title": "Publicis Groupe stock holds firm as dividend increase supports income appeal - AD HOC NEWS",
+      "summary": "Publicis Groupe stock holds firm as dividend increase supports income appeal &nbsp;&nbsp; AD HOC NEWS",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Publicis%20Groupe%20stock%20holds%20firm%20as%20dividend%20increase%20supports%20income%20appeal%20-%20AD%20HOC%20NEWS%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2315803d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23052e16%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2386efac%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2386efac%22%3EGOOGLE%20NEWS%20-%20PUBLICIS%20GROUPE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EPUBLICIS%20GROUPE%20STOCK%20HOLDS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EFIRM%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EPublicis%20Groupe%20stock%20holds%20firm%20as%20dividend%20increase%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdlMyazNJQUxYMDRYOEpHT2xrczd0WF9KX2xLQ01SaUk1OG5INVE2OVQweERxLXl6NXMxRzE5RUprZjNlMzR1dlNwejdPcU40N2RxZ1lDSDF5WlJuckZCcWFPeDBOQTJwRE9LRDVYYnZidnpqdWRfdkZ3dTZpaDF4Sml2WUgzTDdZUDdZTDdVWl9PRGYyR3BoWW4zYVJOY05rTlV4Tzc1R0duN0tOMGIxemdQcEVLTDFCTm5BN1F0a1ZBdTFvcXlPb0EtcHA?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-17T13:06:25+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [],
+      "score": 0.3399,
+      "signals": {
+        "score": 0.3399,
+        "recency": 0.5034518444018485,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": true,
+      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
       "id": "ticker 2 former 60 minutes correspondents recipients of edward r murrow awards",
@@ -1429,10 +1513,10 @@
       "keywords": [
         "award"
       ],
-      "score": 0.34,
+      "score": 0.3344,
       "signals": {
-        "score": 0.34,
-        "recency": 0.3199979975006164,
+        "score": 0.3344,
+        "recency": 0.2977369230676008,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1457,10 +1541,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3271,
+      "score": 0.3244,
       "signals": {
-        "score": 0.3271,
-        "recency": 0.15228723501796976,
+        "score": 0.3244,
+        "recency": 0.14169317661631795,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.86,
@@ -1485,10 +1569,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.324,
+      "score": 0.3216,
       "signals": {
-        "score": 0.324,
-        "recency": 0.14011101999762618,
+        "score": 0.3216,
+        "recency": 0.13036401573692954,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.86,
@@ -1498,10 +1582,10 @@
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
     },
     {
-      "id": "waymo picks wpp media as media agency for north america emea campaign middle east",
-      "title": "Waymo picks WPP Media as media agency for North America, EMEA - Campaign Middle East",
-      "summary": "Waymo picks WPP Media as media agency for North America, EMEA &nbsp;&nbsp; Campaign Middle East",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Waymo%20picks%20WPP%20Media%20as%20media%20agency%20for%20North%20America%2C%20EMEA%20-%20Campaign%20Middle%20East%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23334155%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23020617%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23cbd5e1%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23cbd5e1%22%3EGOOGLE%20NEWS%20-%20WPP%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWAYMO%20PICKS%20WPP%20MEDIA%20AS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EMEDIA%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EWaymo%20picks%20WPP%20Media%20as%20media%20agency%20for%20North%20America%2C%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "id": "waymo picks wpp media as media agency for north america emea campaignmecom",
+      "title": "Waymo picks WPP Media as media agency for North America, EMEA - campaignme.com",
+      "summary": "Waymo picks WPP Media as media agency for North America, EMEA &nbsp;&nbsp; campaignme.com",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Waymo%20picks%20WPP%20Media%20as%20media%20agency%20for%20North%20America%2C%20EMEA%20-%20campaignme.com%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23be185d%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232b0718%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23f9a8d4%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23f9a8d4%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23f9a8d4%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23f9a8d4%22%3EGOOGLE%20NEWS%20-%20WPP%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWAYMO%20PICKS%20WPP%20MEDIA%20AS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EMEDIA%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EWaymo%20picks%20WPP%20Media%20as%20media%20agency%20for%20North%20America%2C%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObUVoSkluRGpPUDBBTnJaNTVfelBheGZOMmdLNFRRUU9iNG5hZmlzbkMwN043WUdLOEU1R1RVX2VjZ0phcGhVaXk3RTlkUDFMUlpPN1dQSGRjS1V0Q0lBZHZMY0Y2VFV4T1hDMUM5OHNCaFNfZ3FGNFhmOUhPVktXQkM5QjNqVVZtTktlWmJsVzBIYWJncmVN?oc=5",
       "category": "advertising",
       "geo": "global",
@@ -1513,10 +1597,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3238,
+      "score": 0.3204,
       "signals": {
-        "score": 0.3238,
-        "recency": 0.1993339192441819,
+        "score": 0.3204,
+        "recency": 0.18546699742598854,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1541,10 +1625,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3223,
+      "score": 0.3189,
       "signals": {
-        "score": 0.3223,
-        "recency": 0.1930848158587424,
+        "score": 0.3189,
+        "recency": 0.17965262099724702,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1569,10 +1653,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3214,
+      "score": 0.3185,
       "signals": {
-        "score": 0.3214,
-        "recency": 0.16552161243142247,
+        "score": 0.3185,
+        "recency": 0.15400688745380264,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1595,10 +1679,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.3204,
+      "score": 0.313,
       "signals": {
-        "score": 0.3204,
-        "recency": 0.42542269727627313,
+        "score": 0.313,
+        "recency": 0.39582761729598925,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1621,10 +1705,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.318,
+      "score": 0.3112,
       "signals": {
-        "score": 0.318,
-        "recency": 0.3919154859364211,
+        "score": 0.3112,
+        "recency": 0.3646513784356691,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -1632,32 +1716,6 @@
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "crm for insurance companies what it does and why it matters",
-      "title": "CRM for insurance companies: What it does and why it matters",
-      "summary": "Insurance is a business built on relationships, but agents can\u2019t manage all their contacts and communications alone.",
-      "image": "https://no-cache.hubspot.com/cta/default/53/b173b371-487a-4b24-8d8d-508e4cff3779.png",
-      "link": "https://blog.hubspot.com/marketing/crm-for-insurance-companies",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-08-17T11:00:04+00:00",
-      "source_count": 1,
-      "source_names": [
-        "HubSpot Marketing Blog"
-      ],
-      "keywords": [],
-      "score": 0.3152,
-      "signals": {
-        "score": 0.3152,
-        "recency": 0.3809317760165449,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
     },
     {
       "id": "creators build geo strategies to get discovered by brands and agencies in ai search",
@@ -1675,10 +1733,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3112,
+      "score": 0.3092,
       "signals": {
-        "score": 0.3112,
-        "recency": 0.11893132425795076,
+        "score": 0.3092,
+        "recency": 0.11065771291537274,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1703,10 +1761,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3112,
+      "score": 0.3092,
       "signals": {
-        "score": 0.3112,
-        "recency": 0.11893132425795076,
+        "score": 0.3092,
+        "recency": 0.11065771291537274,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -1731,14 +1789,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3112,
+      "score": 0.3089,
       "signals": {
-        "score": 0.3112,
-        "recency": 0.13086262008622174,
+        "score": 0.3089,
+        "recency": 0.12175899272294978,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "crm for insurance companies what it does and why it matters",
+      "title": "CRM for insurance companies: What it does and why it matters",
+      "summary": "Insurance is a business built on relationships, but agents can\u2019t manage all their contacts and communications alone.",
+      "image": "https://no-cache.hubspot.com/cta/default/53/b173b371-487a-4b24-8d8d-508e4cff3779.png",
+      "link": "https://blog.hubspot.com/marketing/crm-for-insurance-companies",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-08-17T11:00:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "HubSpot Marketing Blog"
+      ],
+      "keywords": [],
+      "score": 0.3086,
+      "signals": {
+        "score": 0.3086,
+        "recency": 0.3544317644976015,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1758,10 +1842,10 @@
         "Modern Retail"
       ],
       "keywords": [],
-      "score": 0.3097,
+      "score": 0.3077,
       "signals": {
-        "score": 0.3097,
-        "recency": 0.11893132425795076,
+        "score": 0.3077,
+        "recency": 0.11065771291537274,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.8,
@@ -1786,66 +1870,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3083,
+      "score": 0.3062,
       "signals": {
-        "score": 0.3083,
-        "recency": 0.11917383869191021,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "retail construction hits record lows making it hard to find space",
-      "title": "Retail construction hits record lows, making it hard to find space",
-      "summary": "Recently, retailers have had a hard time finding space in which to put new stores.",
-      "image": "assets/images/generated/retail construction hits record lows making it hard to find space.jpg",
-      "link": "https://www.modernretail.co/operations/retail-construction-hits-record-lows-making-it-hard-to-find-space/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-08-17T04:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Modern Retail"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3082,
-      "signals": {
-        "score": 0.3082,
-        "recency": 0.11860141788377394,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "how dtc startups are using ai to scale more efficiently",
-      "title": "How DTC startups are using AI to scale more efficiently",
-      "summary": "Several brand executives spoke at eTail Boston about the new DTC playbook \u2014 specifically, how they are reshaping wholesale strategies and using AI for search, content",
-      "image": "assets/images/generated/how dtc startups are using ai to scale more efficiently.jpg",
-      "link": "https://www.modernretail.co/operations/how-dtc-startups-are-using-ai-to-scale-more-efficiently/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-08-17T04:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Modern Retail"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3082,
-      "signals": {
-        "score": 0.3082,
-        "recency": 0.11860141788377394,
+        "score": 0.3062,
+        "recency": 0.11088335651917818,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1870,10 +1898,66 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3082,
+      "score": 0.3062,
       "signals": {
-        "score": 0.3082,
-        "recency": 0.11893132425795076,
+        "score": 0.3062,
+        "recency": 0.11065771291537274,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "retail construction hits record lows making it hard to find space",
+      "title": "Retail construction hits record lows, making it hard to find space",
+      "summary": "Recently, retailers have had a hard time finding space in which to put new stores.",
+      "image": "assets/images/generated/retail construction hits record lows making it hard to find space.jpg",
+      "link": "https://www.modernretail.co/operations/retail-construction-hits-record-lows-making-it-hard-to-find-space/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-17T04:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Modern Retail"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3061,
+      "signals": {
+        "score": 0.3061,
+        "recency": 0.11035075690466326,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.79,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "how dtc startups are using ai to scale more efficiently",
+      "title": "How DTC startups are using AI to scale more efficiently",
+      "summary": "Several brand executives spoke at eTail Boston about the new DTC playbook \u2014 specifically, how they are reshaping wholesale strategies and using AI for search, content",
+      "image": "assets/images/generated/how dtc startups are using ai to scale more efficiently.jpg",
+      "link": "https://www.modernretail.co/operations/how-dtc-startups-are-using-ai-to-scale-more-efficiently/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-17T04:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Modern Retail"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3061,
+      "signals": {
+        "score": 0.3061,
+        "recency": 0.11035075690466326,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -1896,10 +1980,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.3014,
+      "score": 0.2953,
       "signals": {
-        "score": 0.3014,
-        "recency": 0.3494372478585755,
+        "score": 0.2953,
+        "recency": 0.325128193911346,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -1924,10 +2008,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2945,
+      "score": 0.2939,
       "signals": {
-        "score": 0.2945,
-        "recency": 0.03417075951842478,
+        "score": 0.2939,
+        "recency": 0.03179362645192529,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1950,10 +2034,10 @@
         "MIT Technology Review"
       ],
       "keywords": [],
-      "score": 0.2912,
+      "score": 0.2865,
       "signals": {
-        "score": 0.2912,
-        "recency": 0.272899003176269,
+        "score": 0.2865,
+        "recency": 0.2539144311794051,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.82,
@@ -1976,10 +2060,10 @@
         "InternetRetailing"
       ],
       "keywords": [],
-      "score": 0.2909,
+      "score": 0.2857,
       "signals": {
-        "score": 0.2909,
-        "recency": 0.3017257347505596,
+        "score": 0.2857,
+        "recency": 0.2807357939006153,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.77,
@@ -1989,38 +2073,10 @@
       "image_failure_reason": ""
     },
     {
-      "id": "anthropic ceo says ai backlash is fundamentally a crisis of trust",
-      "title": "Anthropic CEO says AI backlash is \u2018fundamentally a crisis of trust\u2019",
-      "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
-      "image": "assets/images/generated/anthropic ceo says ai backlash is fundamentally a crisis of trust.jpg",
-      "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-16T16:53:51+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2907,
-      "signals": {
-        "score": 0.2907,
-        "recency": 0.018640782257867344,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "sidharth nandwani promoted to associate vp performance marketing at performics exchange4mediacom",
-      "title": "Sidharth Nandwani promoted to Associate VP - Performance Marketing at Performics - exchange4media.com",
-      "summary": "Sidharth Nandwani promoted to Associate VP - Performance Marketing at Performics &nbsp;&nbsp; exchange4media.com",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Sidharth%20Nandwani%20promoted%20to%20Associate%20VP%20-%20Performance%20Marketing%20at%20Performics%20-%20exchange4media.com%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%231d4ed8%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23071a3b%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%2393c5fd%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%2393c5fd%22%3EGOOGLE%20NEWS%20-%20PUBLICIS%20GROUPE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESIDHARTH%20NANDWANI%20PROMOTED%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETO%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3ESidharth%20Nandwani%20promoted%20to%20Associate%20VP%20-%20Performance%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
+      "id": "sidharth nandwani promoted to associate vp performance marketing at performics exchange4media",
+      "title": "Sidharth Nandwani promoted to Associate VP - Performance Marketing at Performics - Exchange4Media",
+      "summary": "Sidharth Nandwani promoted to Associate VP - Performance Marketing at Performics &nbsp;&nbsp; Exchange4Media",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22Sidharth%20Nandwani%20promoted%20to%20Associate%20VP%20-%20Performance%20Marketing%20at%20Performics%20-%20Exchange4Media%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%239f1239%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%232a0712%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fda4af%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fda4af%22%3EGOOGLE%20NEWS%20-%20PUBLICIS%20GROUPE%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESIDHARTH%20NANDWANI%20PROMOTED%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ETO%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3ESidharth%20Nandwani%20promoted%20to%20Associate%20VP%20-%20Performance%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYnc5SHBDUFFKX1ptRUI1eEtvWnhCSktLUTZveXItVTE2a1ZyUzZzN1NndVA4ejU4NjNzQzNKNHowbVBhQlF3MDNHcTVBclJfTWdIZ0V3VEpVSFI5bHQtbEY4c1hZNmhrM0VyTWtqT0dENEtObEVBNlgySGtCU3VWaUk2S1hyZ0g5eXFHVTBFVmYzUnhWU1phMVFxMGMyN20zTEdpS2Y5NWphNElrYlhSODNrVTJTN1J0YWlfZFJaQWQxRGliZmZkQ1E1ajRNTjVhYmZhVnd1ajlBQQ?oc=5",
       "category": "advertising",
       "geo": "global",
@@ -2030,10 +2086,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2887,
+      "score": 0.2835,
       "signals": {
-        "score": 0.2887,
-        "recency": 0.2988065038072889,
+        "score": 0.2835,
+        "recency": 0.2780196430322916,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2056,10 +2112,10 @@
         "Retail Dive"
       ],
       "keywords": [],
-      "score": 0.2882,
+      "score": 0.2835,
       "signals": {
-        "score": 0.2882,
-        "recency": 0.272899003176269,
+        "score": 0.2835,
+        "recency": 0.2539144311794051,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2082,42 +2138,14 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2861,
+      "score": 0.2811,
       "signals": {
-        "score": 0.2861,
-        "recency": 0.2884891077750458,
+        "score": 0.2811,
+        "recency": 0.2684199899947628,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.4
-      },
-      "ai_image_pending": true,
-      "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
-    },
-    {
-      "id": "wpp rebate whistleblower amends complaint says sony probe backs his claims 08172026 mediapost",
-      "title": "WPP Rebate Whistleblower Amends Complaint, Says Sony Probe Backs His Claims 08/17/2026 - MediaPost",
-      "summary": "WPP Rebate Whistleblower Amends Complaint, Says Sony Probe Backs His Claims 08/17/2026 &nbsp;&nbsp; MediaPost",
-      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22640%22%20height%3D%22360%22%20viewBox%3D%220%200%20640%20360%22%20role%3D%22img%22%20aria-label%3D%22WPP%20Rebate%20Whistleblower%20Amends%20Complaint%2C%20Says%20Sony%20Probe%20Backs%20His%20Claims%2008/17/2026%20-%20MediaPost%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22snapfactsGeneratedVisual%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2392400e%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23211006%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url%28%23snapfactsGeneratedVisual%29%22/%3E%0A%20%20%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.22%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2272%22%20fill%3D%22none%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%222%22%20stroke-opacity%3D%220.6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22558%22%20cy%3D%2286%22%20r%3D%2242%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.12%22%20stroke%3D%22%23fdba74%22%20stroke-width%3D%221.5%22%20stroke-opacity%3D%220.75%22/%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%2298%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%3EGN%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22184%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3EGENERATED%20VISUAL%3C/text%3E%0A%20%20%3Ctext%20x%3D%22558%22%20y%3D%22206%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.84%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%2228%22%20y%3D%2236%22%20width%3D%22430%22%20height%3D%22220%22%20rx%3D%2216%22%20fill%3D%22%23020617%22%20fill-opacity%3D%220.28%22/%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2266%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22800%22%20fill%3D%22%23fdba74%22%3EGOOGLE%20NEWS%20-%20WPP%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%2296%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EWPP%20REBATE%20WHISTLEBLOWER%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22140%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EAMENDS%3C/text%3E%0A%20%20%3Ctext%20x%3D%2248%22%20y%3D%22224%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2216%22%20font-weight%3D%22500%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.82%22%3EWPP%20Rebate%20Whistleblower%20Amends%20Complaint%2C%20Says%20Sony%3C/text%3E%0A%20%20%3Crect%20x%3D%2236%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22120%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3EADS%3C/text%3E%0A%20%20%3Crect%20x%3D%22220%22%20y%3D%22292%22%20width%3D%22168%22%20height%3D%2236%22%20rx%3D%2218%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.16%22/%3E%0A%20%20%3Ctext%20x%3D%22304%22%20y%3D%22315%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fbff%22%3ESNAPFACTS%3C/text%3E%0A%3C/svg%3E",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc3hOeXpPbXJmQVpFNmUydjBiNUxrNFdna05fUHdXQlhCdmdYSlJ1Z1R1S19uV0xpeHduWHlHZERMdmQtYUx1bmRUR1JQR0d5TlhNcGYzZlZvM19WWFNfMkRaUDB5ekI2bVAyeHU4UjRfYm1VTVBKVXVZalR0Zno2TkFfSS1rYlFlLTczc3JLb1lNMll4UTJTSmhNMEVMMkh2NFUxak9OMU1CUjdO?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-16T21:44:50+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2845,
-      "signals": {
-        "score": 0.2845,
-        "recency": 0.0418310468750912,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
       },
       "ai_image_pending": true,
       "image_failure_reason": "Skipped generation (exceeded target generation limits or not in target categories)"
@@ -2136,10 +2164,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2812,
+      "score": 0.2765,
       "signals": {
-        "score": 0.2812,
-        "recency": 0.26884851273700777,
+        "score": 0.2765,
+        "recency": 0.25014571834457544,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2162,10 +2190,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2678,
+      "score": 0.264,
       "signals": {
-        "score": 0.2678,
-        "recency": 0.21501808596798333,
+        "score": 0.264,
+        "recency": 0.20006007481302718,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2188,10 +2216,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.263,
+      "score": 0.26,
       "signals": {
-        "score": 0.263,
-        "recency": 0.17192610079764487,
+        "score": 0.26,
+        "recency": 0.15996583930623612,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2214,10 +2242,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2614,
+      "score": 0.2585,
       "signals": {
-        "score": 0.2614,
-        "recency": 0.16552161243142247,
+        "score": 0.2585,
+        "recency": 0.15400688745380264,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2240,10 +2268,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2555,
+      "score": 0.2526,
       "signals": {
-        "score": 0.2555,
-        "recency": 0.16598203386633872,
+        "score": 0.2526,
+        "recency": 0.1544352790763036,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2266,10 +2294,10 @@
         "AdExchanger"
       ],
       "keywords": [],
-      "score": 0.2535,
+      "score": 0.2511,
       "signals": {
-        "score": 0.2535,
-        "recency": 0.14011101999762618,
+        "score": 0.2511,
+        "recency": 0.13036401573692954,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2292,10 +2320,10 @@
         "Digiday"
       ],
       "keywords": [],
-      "score": 0.2512,
+      "score": 0.2492,
       "signals": {
-        "score": 0.2512,
-        "recency": 0.11893132425795076,
+        "score": 0.2492,
+        "recency": 0.11065771291537274,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2318,10 +2346,10 @@
         "Digiday"
       ],
       "keywords": [],
-      "score": 0.2512,
+      "score": 0.2492,
       "signals": {
-        "score": 0.2512,
-        "recency": 0.11893132425795076,
+        "score": 0.2492,
+        "recency": 0.11065771291537274,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2344,10 +2372,10 @@
         "Digiday"
       ],
       "keywords": [],
-      "score": 0.2512,
+      "score": 0.2492,
       "signals": {
-        "score": 0.2512,
-        "recency": 0.11893132425795076,
+        "score": 0.2492,
+        "recency": 0.11065771291537274,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.81,
@@ -2370,10 +2398,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2506,
+      "score": 0.2481,
       "signals": {
-        "score": 0.2506,
-        "recency": 0.1464650685634425,
+        "score": 0.2481,
+        "recency": 0.1362760366988876,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2396,10 +2424,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2504,
+      "score": 0.2479,
       "signals": {
-        "score": 0.2504,
-        "recency": 0.14559969402153267,
+        "score": 0.2479,
+        "recency": 0.13547086305585948,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -2422,10 +2450,10 @@
         "Modern Retail"
       ],
       "keywords": [],
-      "score": 0.2482,
+      "score": 0.2461,
       "signals": {
-        "score": 0.2482,
-        "recency": 0.11860141788377394,
+        "score": 0.2461,
+        "recency": 0.11035075690466326,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2448,10 +2476,10 @@
         "Modern Retail"
       ],
       "keywords": [],
-      "score": 0.2482,
+      "score": 0.2461,
       "signals": {
-        "score": 0.2482,
-        "recency": 0.11860141788377394,
+        "score": 0.2461,
+        "recency": 0.11035075690466326,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -2474,10 +2502,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.226,
+      "score": 0.2252,
       "signals": {
-        "score": 0.226,
-        "recency": 0.048195188017357636,
+        "score": 0.2252,
+        "recency": 0.044842427449643396,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
