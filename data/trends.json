@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T19:37:33.703443+00:00",
+  "generated_at": "2026-08-22T19:56:41.039176+00:00",
   "sources_scanned": 2961,
   "feeds_polled": 33,
   "feed_pool": 38,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 26,
+  "clusters": 35,
   "trends": [
     {
       "id": "inherent founded by deepmind alumni says its ai teammate just outperformed anthropic and openai at replicating research",
@@ -31,10 +31,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5112,
+      "score": 0.4996,
       "signals": {
-        "score": 0.5112,
-        "recency": 0.9009206245070129,
+        "score": 0.4996,
+        "recency": 0.8543148149011323,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -60,10 +60,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.4747,
+      "score": 0.467,
       "signals": {
-        "score": 0.4747,
-        "recency": 0.5948590959838872,
+        "score": 0.467,
+        "recency": 0.5640862520555757,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -88,10 +88,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4226,
+      "score": 0.4155,
       "signals": {
-        "score": 0.4226,
-        "recency": 0.5464359807309562,
+        "score": 0.4155,
+        "recency": 0.5181681282842601,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -115,10 +115,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.4066,
+      "score": 0.3998,
       "signals": {
-        "score": 0.4066,
-        "recency": 0.5305564788830804,
+        "score": 0.3998,
+        "recency": 0.5031100939659608,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.76,
@@ -143,13 +143,43 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3839,
+      "score": 0.3788,
       "signals": {
-        "score": 0.3839,
-        "recency": 0.391538489417826,
+        "score": 0.3788,
+        "recency": 0.3712836880570883,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "nscale targets 3 billion ipo as ai data center demand soars",
+      "title": "Nscale Targets $3 Billion IPO as AI Data Center Demand Soars",
+      "summary": "Nscale, a developer of artificial intelligence (AI) data centers, aims to raise as much as $3 billion in an initial public offering that could take place as soon as September",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/01/Nscale-AI-hyperscaler1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/investment-tracker/ipo/2026/nscale-targets-3-billion-ipo-as-ai-data-center-demand-soars/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-21T23:59:25+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence",
+        "bill"
+      ],
+      "score": 0.369,
+      "signals": {
+        "score": 0.369,
+        "recency": 0.035945817114688604,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -169,42 +199,14 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.3754,
+      "score": 0.367,
       "signals": {
-        "score": 0.3754,
-        "recency": 0.6455378358009666,
+        "score": 0.367,
+        "recency": 0.6121433139637125,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "spam update generative ui in aios reddit drop seo pulse via sejournal mattgsouthern",
-      "title": "Spam Update, Generative UI In AIOs, Reddit Drop \u2013 SEO Pulse via @sejournal, @MattGSouthern",
-      "summary": "Google's August spam update rolls out as generative UI reaches AI Overviews, websites get a new button, and Reddit's ChatGPT citation share falls.",
-      "image": "assets/images/generated/spam update generative ui in aios reddit drop seo pulse via sejournal mattgsouthern.jpg",
-      "link": "https://www.searchenginejournal.com/seo-pulse-spam-update-generative-ui-ai-overviews-reddit-drop/586597/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-08-22T12:30:28+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3563,
-      "signals": {
-        "score": 0.3563,
-        "recency": 0.3053260187267559,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -226,13 +228,41 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3537,
+      "score": 0.3534,
       "signals": {
-        "score": 0.3537,
-        "recency": 0.027973041161089854,
+        "score": 0.3534,
+        "recency": 0.026525958926553805,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "spam update generative ui in aios reddit drop seo pulse via sejournal mattgsouthern",
+      "title": "Spam Update, Generative UI In AIOs, Reddit Drop \u2013 SEO Pulse via @sejournal, @MattGSouthern",
+      "summary": "Google's August spam update rolls out as generative UI reaches AI Overviews, websites get a new button, and Reddit's ChatGPT citation share falls.",
+      "image": "assets/images/generated/spam update generative ui in aios reddit drop seo pulse via sejournal mattgsouthern.jpg",
+      "link": "https://www.searchenginejournal.com/seo-pulse-spam-update-generative-ui-ai-overviews-reddit-drop/586597/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-08-22T12:30:28+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3524,
+      "signals": {
+        "score": 0.3524,
+        "recency": 0.2895311019389563,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -252,14 +282,130 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3482,
+      "score": 0.3419,
       "signals": {
-        "score": 0.3482,
-        "recency": 0.48897239968007894,
+        "score": 0.3419,
+        "recency": 0.463677213908868,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "fifth third backs payloads embedded payments expansion",
+      "title": "Fifth Third Backs Payload\u2019s Embedded Payments Expansion",
+      "summary": "Payload has secured a strategic investment led by Fifth Third to expand its embedded payments platform, Payload said in a Wednesday (Aug.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/06/Fifth-Third-Bank.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/investment-tracker/2026/fifth-third-backs-payloads-embedded-payments-expansion/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-22T00:26:59+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "platform"
+      ],
+      "score": 0.3297,
+      "signals": {
+        "score": 0.3297,
+        "recency": 0.0388064627550999,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "apple cuts vision pro roles to focus on smart glasses push",
+      "title": "Apple Cuts Vision Pro Roles to Focus on Smart Glasses Push",
+      "summary": "Apple is realigning some teams as it shifts its focus to new devices and artificial intelligence (AI), Bloomberg reported Friday (Aug.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/05/Apple.jpeg?w=457",
+      "link": "https://www.pymnts.com/apple/2026/apple-cuts-vision-pro-roles-to-focus-on-smart-glasses-push/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-22T00:14:30+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.3294,
+      "signals": {
+        "score": 0.3294,
+        "recency": 0.03748387620645551,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "card processors add new rails as customers go global",
+      "title": "Card Processors Add New Rails as Customers Go Global",
+      "summary": "The card-issuing platforms that grew up alongside, and serving, FinTechs are following their customers into businesses that have little to do with issuing another card.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2021/04/payment-rails.jpg?w=457",
+      "link": "https://www.pymnts.com/news/payment-methods/2026/card-processors-add-new-rails-customers-go-global/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-21T21:15:14+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "platform"
+      ],
+      "score": 0.3257,
+      "signals": {
+        "score": 0.3257,
+        "recency": 0.022781479647865806,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ai is opening new revenue streams for automakers",
+      "title": "AI Is Opening New Revenue Streams for Automakers",
+      "summary": "Artificial intelligence (AI) could give automakers something they have spent years trying to build: a way to keep making money from a vehicle long after it leaves the dealership.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Ford.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-is-opening-new-revenue-streams-for-automakers/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-21T20:18:05+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.3249,
+      "signals": {
+        "score": 0.3249,
+        "recency": 0.01943737792867363,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -281,10 +427,10 @@
         "ai",
         "studio"
       ],
-      "score": 0.32,
+      "score": 0.3197,
       "signals": {
-        "score": 0.32,
-        "recency": 0.02402206329911715,
+        "score": 0.3197,
+        "recency": 0.022779370349256343,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -310,10 +456,10 @@
         "ai",
         "govern"
       ],
-      "score": 0.3194,
+      "score": 0.3191,
       "signals": {
-        "score": 0.3194,
-        "recency": 0.02148693195729386,
+        "score": 0.3191,
+        "recency": 0.020375384688227697,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -338,13 +484,41 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3176,
+      "score": 0.3153,
       "signals": {
-        "score": 0.3176,
-        "recency": 0.17425971237496135,
+        "score": 0.3153,
+        "recency": 0.16524502811088745,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "your ai notetaker would like a word",
+      "title": "Your AI Notetaker Would Like a Word",
+      "summary": "The modern meeting has acquired a new participant.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/AI-notetakers-weekender.jpeg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/your-ai-notetaker-would-like-a-word/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-22T08:00:28+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3142,
+      "signals": {
+        "score": 0.3142,
+        "recency": 0.1367648085342121,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -366,10 +540,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2982,
+      "score": 0.2976,
       "signals": {
-        "score": 0.2982,
-        "recency": 0.04889687325971317,
+        "score": 0.2976,
+        "recency": 0.04636737365289477,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -393,10 +567,10 @@
         "TechCrunch Startups"
       ],
       "keywords": [],
-      "score": 0.2981,
+      "score": 0.2975,
       "signals": {
-        "score": 0.2981,
-        "recency": 0.04524210897890219,
+        "score": 0.2975,
+        "recency": 0.04290167513835933,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -421,10 +595,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.297,
+      "score": 0.296,
       "signals": {
-        "score": 0.297,
-        "recency": 0.07395206822290018,
+        "score": 0.296,
+        "recency": 0.0701264304055358,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.79,
@@ -449,10 +623,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2936,
+      "score": 0.2932,
       "signals": {
-        "score": 0.2936,
-        "recency": 0.030203390722506024,
+        "score": 0.2932,
+        "recency": 0.02864092956979859,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -477,10 +651,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2917,
+      "score": 0.2914,
       "signals": {
-        "score": 0.2917,
-        "recency": 0.022908751714099816,
+        "score": 0.2914,
+        "recency": 0.021723651837759466,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -505,10 +679,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2908,
+      "score": 0.2906,
       "signals": {
-        "score": 0.2908,
-        "recency": 0.019372995650358642,
+        "score": 0.2906,
+        "recency": 0.01837080508859829,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -518,55 +692,57 @@
       "image_failure_reason": ""
     },
     {
-      "id": "nvidia just showed that the harness not the ai model is now the real hero",
-      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
-      "summary": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
-      "image": "assets/images/generated/nvidia just showed that the harness not the ai model is now the real hero.jpg",
-      "link": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-      "category": "technology",
+      "id": "standard chartered and hsbc complete first interbank transaction on swifts blockchainbased ledger",
+      "title": "Standard Chartered and HSBC Complete First Interbank Transaction on Swift\u2019s Blockchain-Based Ledger",
+      "summary": "Standard Chartered and HSBC have completed the first interbank transaction executed on Swift\u2019s blockchain-based ledger, Standard Chartered said in a Wednesday (Aug.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/01/blockchain-stablecoins-digital-payments.jpg?w=457",
+      "link": "https://www.pymnts.com/blockchain/2026/standard-chartered-and-hsbc-complete-first-interbank-transaction-on-swifts-blockchain-based-ledger/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-08-21T19:43:39+00:00",
+      "published_at": "2026-08-21T23:42:50+00:00",
       "source_count": 1,
       "source_names": [
-        "TechCrunch"
+        "PYMNTS"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.2907,
+      "score": 0.2886,
       "signals": {
-        "score": 0.2907,
-        "recency": 0.018628024803215182,
+        "score": 0.2886,
+        "recency": 0.03432753870459071,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "wpp stock trades below recent high as turnaround metrics draw attention adhocnewsde",
-      "title": "WPP stock trades below recent high as turnaround metrics draw attention - Ad-hoc-news.de",
-      "summary": "WPP stock trades below recent high as turnaround metrics draw attention &nbsp;&nbsp; Ad-hoc-news.de",
-      "image": "assets/images/generated/wpp stock trades below recent high as turnaround metrics draw attention adhocnewsde.jpg",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcWIzR0pDQkNjTUhaX3piMk1MUksweWFIN05XRjRFeEFJX1JiZnlsOVpzMktHR0x4b2NTT0w1YWtRU1JnTTI3RWlJWmctMTFHSk5VVmF6b1JsNGNCTVQtYnZwejQ0OVNvSW9TcE1FaHlYVWJTcWJZZjdNcWd2VVNMNTlZVUJkZGVJZ1pFRmpSa0dMSzl0UFgzUG9BVEp1RWNMMlJoUzk1d05sWktSM2FJTFZ2Ujg2OFAzbVVodXBQWk9IemVEeGlNS2UzdlgzZFE?oc=5",
-      "category": "advertising",
+      "id": "one ai agent 2395 payments still no final say",
+      "title": "One AI Agent, 2,395 Payments. Still No Final Say",
+      "summary": "Preparing a batch of payments used to mean a person checking each invoice, confirming it matched what was approved, and grouping everything by hand.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/06/Coupa-agentic-AI.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/one-ai-agent-2395-payments-still-no-final-say/",
+      "category": "commerce",
       "geo": "global",
-      "published_at": "2026-08-22T12:29:45+00:00",
+      "published_at": "2026-08-21T23:12:32+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - WPP"
+        "PYMNTS"
       ],
-      "keywords": [],
-      "score": 0.2902,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2879,
       "signals": {
-        "score": 0.2902,
-        "recency": 0.3047187983917351,
-        "keyword_volume": 0.0,
+        "score": 0.2879,
+        "recency": 0.03155655216614503,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
+        "authority": 0.8,
+        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -587,14 +763,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.287,
+      "score": 0.2867,
       "signals": {
-        "score": 0.287,
-        "recency": 0.022027816598051513,
+        "score": 0.2867,
+        "recency": 0.02088828865466159,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.81,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "wpp stock trades below recent high as turnaround metrics draw attention adhocnewsde",
+      "title": "WPP stock trades below recent high as turnaround metrics draw attention - Ad-hoc-news.de",
+      "summary": "WPP stock trades below recent high as turnaround metrics draw attention &nbsp;&nbsp; Ad-hoc-news.de",
+      "image": "assets/images/generated/wpp stock trades below recent high as turnaround metrics draw attention adhocnewsde.jpg",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcWIzR0pDQkNjTUhaX3piMk1MUksweWFIN05XRjRFeEFJX1JiZnlsOVpzMktHR0x4b2NTT0w1YWtRU1JnTTI3RWlJWmctMTFHSk5VVmF6b1JsNGNCTVQtYnZwejQ0OVNvSW9TcE1FaHlYVWJTcWJZZjdNcWd2VVNMNTlZVUJkZGVJZ1pFRmpSa0dMSzl0UFgzUG9BVEp1RWNMMlJoUzk1d05sWktSM2FJTFZ2Ujg2OFAzbVVodXBQWk9IemVEeGlNS2UzdlgzZFE?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-22T12:29:45+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.2862,
+      "signals": {
+        "score": 0.2862,
+        "recency": 0.2889552939110278,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -613,10 +815,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.2865,
+      "score": 0.2828,
       "signals": {
-        "score": 0.2865,
-        "recency": 0.29017973009407944,
+        "score": 0.2828,
+        "recency": 0.2751683507512534,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -641,10 +843,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2792,
+      "score": 0.279,
       "signals": {
-        "score": 0.2792,
-        "recency": 0.020981658222646853,
+        "score": 0.279,
+        "recency": 0.0198962494288639,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -667,10 +869,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2342,
+      "score": 0.2338,
       "signals": {
-        "score": 0.2342,
-        "recency": 0.03280843592442545,
+        "score": 0.2338,
+        "recency": 0.03111121235492706,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -693,10 +895,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2332,
+      "score": 0.2322,
       "signals": {
-        "score": 0.2332,
-        "recency": 0.07670686666944444,
+        "score": 0.2322,
+        "recency": 0.07273871950285465,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -719,13 +921,65 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2312,
+      "score": 0.231,
       "signals": {
-        "score": 0.2312,
-        "recency": 0.02091570871804144,
+        "score": 0.231,
+        "recency": 0.01983371157892776,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "apollo global management hit by social engineering attack and data breach",
+      "title": "Apollo Global Management Hit by Social Engineering Attack and Data Breach",
+      "summary": "Apollo Global Management disclosed Friday (Aug.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Apollo-Global-Management.png?w=457",
+      "link": "https://www.pymnts.com/cybersecurity/2026/apollo-global-management-social-engineering-attack-data-breach/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-21T21:55:52+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.2264,
+      "signals": {
+        "score": 0.2264,
+        "recency": 0.025503565861483828,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "former jpmorgan coo matt zames to advise social security administration on modernization",
+      "title": "Former JPMorgan COO Matt Zames to Advise Social Security Administration on Modernization",
+      "summary": "Former JPMorgan Chase Chief Operating Officer Matt Zames will become an advisor to the Social Security Administration Monday (Aug.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2025/06/Social-Security-Administration.jpg?w=457",
+      "link": "https://www.pymnts.com/personnel/2026/former-jpmorgan-coo-matt-zames-to-advise-social-security-administration-on-modernization/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-21T20:12:24+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.2248,
+      "signals": {
+        "score": 0.2248,
+        "recency": 0.019132928821220065,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
