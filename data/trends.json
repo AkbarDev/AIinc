@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T23:11:21.987396+00:00",
+  "generated_at": "2026-08-23T23:37:39.020890+00:00",
   "sources_scanned": 2971,
   "feeds_polled": 34,
   "feed_pool": 38,
@@ -13,7 +13,7 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 13,
+  "clusters": 14,
   "trends": [
     {
       "id": "apollo economist says ai affecting wages more than employment",
@@ -32,11 +32,39 @@
         "ai",
         "artificial intelligence"
       ],
-      "score": 0.5411,
+      "score": 0.5256,
       "signals": {
-        "score": 0.5411,
-        "recency": 0.8845835538267348,
+        "score": 0.5256,
+        "recency": 0.8223007168218435,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "helcim raises 38 million to fill small business banking void",
+      "title": "Helcim Raises $38 Million to Fill Small Business Banking Void",
+      "summary": "Helcim, a payments company focused on Canadian small and medium-sized businesses, has raised $38 million in new funding.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Helcim-1.jpg?w=457",
+      "link": "https://www.pymnts.com/smbs/2026/helcim-raises-38-million-to-fill-small-business-banking-void/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-23T23:14:24+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5144,
+      "signals": {
+        "score": 0.5144,
+        "recency": 0.9374570828648114,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
@@ -60,10 +88,10 @@
       "keywords": [
         "artificial intelligence"
       ],
-      "score": 0.469,
+      "score": 0.4543,
       "signals": {
-        "score": 0.469,
-        "recency": 0.8360831624255981,
+        "score": 0.4543,
+        "recency": 0.7772152000916664,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -86,10 +114,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.4588,
+      "score": 0.442,
       "signals": {
-        "score": 0.4588,
-        "recency": 0.9552459298189172,
+        "score": 0.442,
+        "recency": 0.8879878101205365,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -114,10 +142,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4336,
+      "score": 0.4232,
       "signals": {
-        "score": 0.4336,
-        "recency": 0.590297255479953,
+        "score": 0.4232,
+        "recency": 0.5487348868507326,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -142,10 +170,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4153,
+      "score": 0.4062,
       "signals": {
-        "score": 0.4153,
-        "recency": 0.5173783272235984,
+        "score": 0.4062,
+        "recency": 0.4809501233700116,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -168,10 +196,10 @@
         "Google News - Omnicom"
       ],
       "keywords": [],
-      "score": 0.3988,
+      "score": 0.3858,
       "signals": {
-        "score": 0.3988,
-        "recency": 0.7390373456767972,
+        "score": 0.3858,
+        "recency": 0.6870023034897804,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -194,10 +222,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3612,
+      "score": 0.3517,
       "signals": {
-        "score": 0.3612,
-        "recency": 0.5406912724723867,
+        "score": 0.3517,
+        "recency": 0.5026216223554674,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -222,10 +250,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3499,
+      "score": 0.3454,
       "signals": {
-        "score": 0.3499,
-        "recency": 0.25540447247493403,
+        "score": 0.3454,
+        "recency": 0.23742164308514827,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -248,36 +276,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3021,
+      "score": 0.2967,
       "signals": {
-        "score": 0.3021,
-        "recency": 0.30424961154164026,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "flock ceo calls for compromise as surveillance company faces growing backlash",
-      "title": "Flock CEO calls for \u2018compromise\u2019 as surveillance company faces growing backlash",
-      "summary": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
-      "image": "assets/images/generated/flock ceo calls for compromise as surveillance company faces growing backlash.jpg",
-      "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-23T15:30:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.2954,
-      "signals": {
-        "score": 0.2954,
-        "recency": 0.27760015539883903,
+        "score": 0.2967,
+        "recency": 0.28282763406707245,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -301,13 +303,39 @@
         "TechCrunch Startups"
       ],
       "keywords": [],
-      "score": 0.2954,
+      "score": 0.2948,
       "signals": {
-        "score": 0.2954,
-        "recency": 0.034565236622292855,
+        "score": 0.2948,
+        "recency": 0.03213152531343051,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "flock ceo calls for compromise as surveillance company faces growing backlash",
+      "title": "Flock CEO calls for \u2018compromise\u2019 as surveillance company faces growing backlash",
+      "summary": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
+      "image": "assets/images/generated/flock ceo calls for compromise as surveillance company faces growing backlash.jpg",
+      "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-08-23T15:30:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.2905,
+      "signals": {
+        "score": 0.2905,
+        "recency": 0.2580545453132315,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -327,10 +355,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.281,
+      "score": 0.2763,
       "signals": {
-        "score": 0.281,
-        "recency": 0.26795295339208475,
+        "score": 0.2763,
+        "recency": 0.24908659526355995,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -353,10 +381,10 @@
         "Practical Ecommerce"
       ],
       "keywords": [],
-      "score": 0.2587,
+      "score": 0.2558,
       "signals": {
-        "score": 0.2587,
-        "recency": 0.16698345762782155,
+        "score": 0.2558,
+        "recency": 0.1552262828205858,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
