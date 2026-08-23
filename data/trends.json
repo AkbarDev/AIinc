@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-23T22:24:43.051259+00:00",
-  "sources_scanned": 2961,
-  "feeds_polled": 33,
+  "generated_at": "2026-08-23T22:49:22.609010+00:00",
+  "sources_scanned": 2971,
+  "feeds_polled": 34,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1855,
+    "NA": 1865,
     "SA": 0,
     "EU": 1106,
     "AF": 0,
@@ -13,8 +13,37 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 10,
+  "clusters": 11,
   "trends": [
+    {
+      "id": "apollo economist says ai affecting wages more than employment",
+      "title": "Apollo Economist Says AI Affecting Wages More Than Employment",
+      "summary": "Artificial intelligence is affecting the labor market, though not in the way people might think.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/AI-wages-employment-1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/apollo-economist-says-ai-affecting-wages-more-than-employment/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-23T22:27:13+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.5551,
+      "signals": {
+        "score": 0.5551,
+        "recency": 0.9403003131330417,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
     {
       "id": "anthropic customers switch to cheaper models ahead of ipo",
       "title": "Anthropic Customers Switch to Cheaper Models Ahead of IPO",
@@ -31,10 +60,10 @@
       "keywords": [
         "artificial intelligence"
       ],
-      "score": 0.4979,
+      "score": 0.4822,
       "signals": {
-        "score": 0.4979,
-        "recency": 0.951755773497887,
+        "score": 0.4822,
+        "recency": 0.8887450552670373,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -59,10 +88,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.454,
+      "score": 0.4429,
       "signals": {
-        "score": 0.454,
-        "recency": 0.6719652377080348,
+        "score": 0.4429,
+        "recency": 0.6274779717169544,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -87,10 +116,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4332,
+      "score": 0.4235,
       "signals": {
-        "score": 0.4332,
-        "recency": 0.5889579316358479,
+        "score": 0.4235,
+        "recency": 0.5499661405550944,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -113,10 +142,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3799,
+      "score": 0.3697,
       "signals": {
-        "score": 0.3799,
-        "recency": 0.6154962369563415,
+        "score": 0.3697,
+        "recency": 0.5747474849771758,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -141,10 +170,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3587,
+      "score": 0.3539,
       "signals": {
-        "score": 0.3587,
-        "recency": 0.2907398356761337,
+        "score": 0.3539,
+        "recency": 0.27149148817523666,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -167,10 +196,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3126,
+      "score": 0.3069,
       "signals": {
-        "score": 0.3126,
-        "recency": 0.346342729267693,
+        "score": 0.3069,
+        "recency": 0.32341320813120944,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -193,10 +222,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.305,
+      "score": 0.2998,
       "signals": {
-        "score": 0.305,
-        "recency": 0.3160063047535264,
+        "score": 0.2998,
+        "recency": 0.2950851979082096,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -220,10 +249,10 @@
         "TechCrunch Startups"
       ],
       "keywords": [],
-      "score": 0.2966,
+      "score": 0.2959,
       "signals": {
-        "score": 0.2966,
-        "recency": 0.039347358009395796,
+        "score": 0.2959,
+        "recency": 0.03674237744852515,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -246,10 +275,10 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2903,
+      "score": 0.2852,
       "signals": {
-        "score": 0.2903,
-        "recency": 0.30502440651580676,
+        "score": 0.2852,
+        "recency": 0.28483035309613264,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -272,10 +301,10 @@
         "Practical Ecommerce"
       ],
       "keywords": [],
-      "score": 0.2645,
+      "score": 0.2614,
       "signals": {
-        "score": 0.2645,
-        "recency": 0.19008571995977933,
+        "score": 0.2614,
+        "recency": 0.17750114934448957,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
