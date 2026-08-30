@@ -1,29 +1,59 @@
 {
-  "generated_at": "2026-08-30T21:38:21.572689+00:00",
-  "sources_scanned": 2982,
-  "feeds_polled": 33,
+  "generated_at": "2026-08-30T23:54:17.636266+00:00",
+  "sources_scanned": 2992,
+  "feeds_polled": 34,
   "feed_pool": 38,
   "continent_counts": {
     "NA": 1880,
     "SA": 0,
-    "EU": 1102,
+    "EU": 1112,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 12,
+  "clusters": 18,
   "trends": [
     {
-      "id": "openai cancels cursor partnership citing distrust of elon musk",
-      "title": "OpenAI Cancels Cursor Partnership Citing Distrust of Elon Musk",
-      "summary": "OpenAI is ending its relationship with Cursor following that company\u2019s acquisition by SpaceX.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/OpenAI-Cursor-SpaceX-1.jpg?w=457",
-      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-cancels-cursor-partnership-citing-distrust-of-elon-musk/",
+      "id": "anthropic accused of stealing thousands of songs in music label suit",
+      "title": "Anthropic Accused of Stealing Thousands of Songs in Music Label Suit",
+      "summary": "The music industry is once again accusing artificial intelligence giant Anthropic of intellectual property theft.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Anthropic-music-suit-1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-accused-of-stealing-thousands-of-songs-in-music-label-suit/",
       "category": "commerce",
       "geo": "global",
-      "published_at": "2026-08-30T21:02:29+00:00",
+      "published_at": "2026-08-30T21:44:27+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence",
+        "music"
+      ],
+      "score": 0.5343,
+      "signals": {
+        "score": 0.5343,
+        "recency": 0.6972037373010206,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "dormant crypto wallets begin moving millions in bitcoin",
+      "title": "Dormant Crypto Wallets Begin Moving Millions in Bitcoin",
+      "summary": "Bitcoin wallets that had laid dormant for more than a decade are being revived.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Dormant-Crypto-Wallets-1.jpg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/dormant-crypto-wallets-begin-moving-millions-in-bitcoin/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-30T23:34:47+00:00",
       "source_count": 1,
       "source_names": [
         "PYMNTS"
@@ -31,10 +61,38 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5063,
+      "score": 0.5168,
       "signals": {
-        "score": 0.5063,
-        "recency": 0.9051486062066828,
+        "score": 0.5168,
+        "recency": 0.9472463110912507,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "anthropic warns hackers are stealing claude sessions to hijack accounts via sejournal martinibuster",
+      "title": "Anthropic Warns Hackers Are Stealing Claude Sessions To Hijack Accounts via @sejournal, @martinibuster",
+      "summary": "Anthropic warns that infostealer malware is stealing Claude login sessions to drain account usage.",
+      "image": "assets/images/generated/anthropic warns hackers are stealing claude sessions to hijack accounts via sejournal martinibuster.jpg",
+      "link": "https://www.searchenginejournal.com/anthropic-warns-hackers-are-stealing-claude-sessions-to-hijack-accounts/587566/",
+      "category": "digital-media",
+      "geo": "global",
+      "published_at": "2026-08-30T22:45:39+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Search Engine Journal"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4866,
+      "signals": {
+        "score": 0.4866,
+        "recency": 0.8263989721815894,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -60,14 +118,146 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4964,
+      "score": 0.4494,
       "signals": {
-        "score": 0.4964,
-        "recency": 0.5987862511008414,
+        "score": 0.4494,
+        "recency": 0.4104725904605838,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "nium debuts usdc funding for client payouts",
+      "title": "Nium Debuts USDC Funding for Client Payouts",
+      "summary": "Cross-border payments company Nium has debuted a stablecoin-focused funding program.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Nium-stablecoins-1.jpg?w=457",
+      "link": "https://www.pymnts.com/cryptocurrency/2026/nium-debuts-usdc-funding-for-client-payouts/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-30T23:03:36+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.4372,
+      "signals": {
+        "score": 0.4372,
+        "recency": 0.8686486994980925,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "openai cancels cursor partnership citing distrust of elon musk",
+      "title": "OpenAI Cancels Cursor Partnership Citing Distrust of Elon Musk",
+      "summary": "OpenAI is ending its relationship with Cursor following that company\u2019s acquisition by SpaceX.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/OpenAI-Cursor-SpaceX-1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-cancels-cursor-partnership-citing-distrust-of-elon-musk/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-30T21:02:29+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4351,
+      "signals": {
+        "score": 0.4351,
+        "recency": 0.6204863462686174,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "havas play wins mocconas tasty social account bandtcomau",
+      "title": "Havas Play Wins Moccona\u2019s Tasty Social Account - bandt.com.au",
+      "summary": "Havas Play Wins Moccona\u2019s Tasty Social Account &nbsp;&nbsp; bandt.com.au",
+      "image": "assets/images/generated/havas play wins mocconas tasty social account bandtcomau.jpg",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51REEtTWZPVzNGSWdWWFJ5R1dka1dObzR1S2t1b0VJbmItNWk1QzhRSlBEVnBRMEE2ODE3LTdoYmp2RFJjazIzYU1tU0Y5dmRwU3lBN2s3S3dGamlULWd3bWFMS2JOb1pKbmRONVo0OXJ3ZURXWTdQUkxPRQ?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-30T22:57:13+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [],
+      "score": 0.4273,
+      "signals": {
+        "score": 0.4273,
+        "recency": 0.8533820215692992,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "hbo max australia malteser teaser via publicis groupes onemars adnewscomau",
+      "title": "HBO Max Australia \u2018Malteser Teaser\u2019 via Publicis Groupe\u2019s OneMars - adnews.com.au",
+      "summary": "HBO Max Australia \u2018Malteser Teaser\u2019 via Publicis Groupe\u2019s OneMars &nbsp;&nbsp; adnews.com.au",
+      "image": "assets/images/generated/hbo max australia malteser teaser via publicis groupes onemars adnewscomau.jpg",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZlRrcGxELUZwMVVNNjI1Ym5NTlR5aFdDandlZTVqTmVnRmp1NkdtQ1pnemNFNjhKSWxlZ3dIWlBuUklLRmxoaU1RTHFRcmFtU0JMakE3Vmp1cDR5UzZSVmJRLXlWUExyb0h3R2dqUDhyM0EwV3ZUcXFGcS0xX0drSHB4NTBzUkMycldMd21rVzdqcl9yU3BleXNYa0Jlak5q?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-30T22:53:25+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Publicis Groupe"
+      ],
+      "keywords": [],
+      "score": 0.4251,
+      "signals": {
+        "score": 0.4251,
+        "recency": 0.8444214752013438,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "samsung adds qr payment feature to south african digital wallets",
+      "title": "Samsung Adds QR Payment Feature to South African Digital Wallets",
+      "summary": "Samsung South Africa has added a new QR payment feature to its digital wallet.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Samsung-QR-1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/payment-methods/mobile-payments/2026/samsung-adds-qr-payment-feature-to-south-african-digital-wallets/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-30T22:03:07+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.4036,
+      "signals": {
+        "score": 0.4036,
+        "recency": 0.7343087099283552,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -86,14 +276,43 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.4617,
+      "score": 0.3857,
       "signals": {
-        "score": 0.4617,
-        "recency": 0.966832304295259,
+        "score": 0.3857,
+        "recency": 0.6627709967545925,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "explaining wpp ppc land",
+      "title": "Explaining WPP - PPC Land",
+      "summary": "Explaining WPP &nbsp;&nbsp; PPC Land",
+      "image": "assets/images/generated/explaining wpp ppc land.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE9CQ2dsNmNtRW02NlMzLV9OWGJsX3pvUlRkanhLWkZxVlprdl90NmI5ZU43VFUyVEZo?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-30T08:47:25+00:00",
+      "source_count": 2,
+      "source_names": [
+        "Google News - Publicis Groupe",
+        "Google News - WPP"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3541,
+      "signals": {
+        "score": 0.3541,
+        "recency": 0.08053176864677065,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.76,
+        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -114,10 +333,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3845,
+      "score": 0.3535,
       "signals": {
-        "score": 0.3845,
-        "recency": 0.3939409353671966,
+        "score": 0.3535,
+        "recency": 0.2700495476162936,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -142,42 +361,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3687,
+      "score": 0.3427,
       "signals": {
-        "score": 0.3687,
-        "recency": 0.3306964839623817,
+        "score": 0.3427,
+        "recency": 0.22669498870204596,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "explaining wpp ppc land",
-      "title": "Explaining WPP - PPC Land",
-      "summary": "Explaining WPP &nbsp;&nbsp; PPC Land",
-      "image": "assets/images/generated/explaining wpp ppc land.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiOEFVX3lxTE9CQ2dsNmNtRW02NlMzLV9OWGJsX3pvUlRkanhLWkZxVlprdl90NmI5ZU43VFUyVEZo?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-30T08:47:25+00:00",
-      "source_count": 2,
-      "source_names": [
-        "Google News - Publicis Groupe",
-        "Google News - WPP"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3634,
-      "signals": {
-        "score": 0.3634,
-        "recency": 0.11747755383230786,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.76,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -197,10 +387,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3396,
+      "score": 0.3039,
       "signals": {
-        "score": 0.3396,
-        "recency": 0.45442144568315723,
+        "score": 0.3039,
+        "recency": 0.3115094036101974,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -223,42 +413,14 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.2942,
+      "score": 0.269,
       "signals": {
-        "score": 0.2942,
-        "recency": 0.32067044696097324,
+        "score": 0.269,
+        "recency": 0.21982206305878715,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "openai brings chatgpt ads to india with wpp omnicom as partners bw businessworld",
-      "title": "OpenAI Brings ChatGPT Ads To India With WPP, Omnicom As Partners - BW Businessworld",
-      "summary": "OpenAI Brings ChatGPT Ads To India With WPP, Omnicom As Partners &nbsp;&nbsp; BW Businessworld",
-      "image": "assets/images/generated/openai brings chatgpt ads to india with wpp omnicom as partners bw businessworld.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVUJPTUFiRmRFbHlJSjJNNi1lRVVfYzFDWGpaaktadlAtbV9XNjlHaFliaUpjMTYzeTVNbjJTaTdVRTU2OUw4blMtRmZqRlJnRnlmQkhxNlU0WTdnakJQdlpNekRPWXVUbHppRlE0UzdWbGFmRG9YcHFld0dic18wbXZwUGRRYkVYcXY4LXNMRkFlRExvTU0xUWZxYWpsT0hZODhCSTc0UlJxY0E?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-08-29T23:48:02+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2806,
-      "signals": {
-        "score": 0.2806,
-        "recency": 0.02625772541029319,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -277,10 +439,10 @@
         "Practical Ecommerce"
       ],
       "keywords": [],
-      "score": 0.273,
+      "score": 0.2554,
       "signals": {
-        "score": 0.273,
-        "recency": 0.22395216261785925,
+        "score": 0.2554,
+        "recency": 0.15352093365537434,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
@@ -303,10 +465,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2724,
+      "score": 0.254,
       "signals": {
-        "score": 0.2724,
-        "recency": 0.23368610088561892,
+        "score": 0.254,
+        "recency": 0.16019362336527526,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -329,10 +491,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.2638,
+      "score": 0.25,
       "signals": {
-        "score": 0.2638,
-        "recency": 0.17519101864572886,
+        "score": 0.25,
+        "recency": 0.12009479362082118,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
