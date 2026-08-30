@@ -1,20 +1,48 @@
 {
-  "generated_at": "2026-08-30T18:42:44.922801+00:00",
-  "sources_scanned": 2992,
-  "feeds_polled": 34,
+  "generated_at": "2026-08-30T21:38:21.572689+00:00",
+  "sources_scanned": 2982,
+  "feeds_polled": 33,
   "feed_pool": 38,
   "continent_counts": {
     "NA": 1880,
     "SA": 0,
-    "EU": 1112,
+    "EU": 1102,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 10,
+  "clusters": 12,
   "trends": [
+    {
+      "id": "openai cancels cursor partnership citing distrust of elon musk",
+      "title": "OpenAI Cancels Cursor Partnership Citing Distrust of Elon Musk",
+      "summary": "OpenAI is ending its relationship with Cursor following that company\u2019s acquisition by SpaceX.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/OpenAI-Cursor-SpaceX-1.jpg?w=457",
+      "link": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-cancels-cursor-partnership-citing-distrust-of-elon-musk/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-30T21:02:29+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5063,
+      "signals": {
+        "score": 0.5063,
+        "recency": 0.9051486062066828,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
     {
       "id": "liuxs big microcar bets on sustainability to take on chinese rivals",
       "title": "Liux\u2019s Big microcar bets on sustainability to take on Chinese rivals",
@@ -32,14 +60,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.5906,
+      "score": 0.4964,
       "signals": {
-        "score": 0.5906,
-        "recency": 0.9752682454664335,
+        "score": 0.4964,
+        "recency": 0.5987862511008414,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "affirm ceo sees greater bnpl demand as gas prices climb",
+      "title": "Affirm CEO Sees Greater BNPL Demand as Gas Prices Climb",
+      "summary": "The head of buy now, pay later provider Affirm says gas prices are weighing on consumers.",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/08/Affirm-gas-prices-1.jpg?w=457",
+      "link": "https://www.pymnts.com/bnpl/2026/affirm-ceo-sees-greater-bnpl-demand-as-gas-prices-climb/",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-08-30T21:26:13+00:00",
+      "source_count": 1,
+      "source_names": [
+        "PYMNTS"
+      ],
+      "keywords": [],
+      "score": 0.4617,
+      "signals": {
+        "score": 0.4617,
+        "recency": 0.966832304295259,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -60,10 +114,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4464,
+      "score": 0.3845,
       "signals": {
-        "score": 0.4464,
-        "recency": 0.6416281004225476,
+        "score": 0.3845,
+        "recency": 0.3939409353671966,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -88,40 +142,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4207,
+      "score": 0.3687,
       "signals": {
-        "score": 0.4207,
-        "recency": 0.5386192136225176,
+        "score": 0.3687,
+        "recency": 0.3306964839623817,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "musks faster path to more gas turbines comes with pollution problem",
-      "title": "Musk\u2019s faster path to more gas turbines comes with pollution problem",
-      "summary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else \u2014 but it's a bet on a fuel",
-      "image": "assets/images/generated/musks faster path to more gas turbines comes with pollution problem.jpg",
-      "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-08-30T16:54:25+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.411,
-      "signals": {
-        "score": 0.411,
-        "recency": 0.7401352406120907,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -143,10 +171,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3818,
+      "score": 0.3634,
       "signals": {
-        "score": 0.3818,
-        "recency": 0.19134061210839046,
+        "score": 0.3634,
+        "recency": 0.11747755383230786,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.76,
@@ -156,30 +184,27 @@
       "image_failure_reason": ""
     },
     {
-      "id": "openai brings chatgpt ads to india with wpp omnicom as partners bw businessworld",
-      "title": "OpenAI Brings ChatGPT Ads To India With WPP, Omnicom As Partners - BW Businessworld",
-      "summary": "OpenAI Brings ChatGPT Ads To India With WPP, Omnicom As Partners &nbsp;&nbsp; BW Businessworld",
-      "image": "assets/images/generated/openai brings chatgpt ads to india with wpp omnicom as partners bw businessworld.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVUJPTUFiRmRFbHlJSjJNNi1lRVVfYzFDWGpaaktadlAtbV9XNjlHaFliaUpjMTYzeTVNbjJTaTdVRTU2OUw4blMtRmZqRlJnRnlmQkhxNlU0WTdnakJQdlpNekRPWXVUbHppRlE0UzdWbGFmRG9YcHFld0dic18wbXZwUGRRYkVYcXY4LXNMRkFlRExvTU0xUWZxYWpsT0hZODhCSTc0UlJxY0E?oc=5",
-      "category": "advertising",
+      "id": "musks faster path to more gas turbines comes with pollution problem",
+      "title": "Musk\u2019s faster path to more gas turbines comes with pollution problem",
+      "summary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else \u2014 but it's a bet on a fuel",
+      "image": "assets/images/generated/musks faster path to more gas turbines comes with pollution problem.jpg",
+      "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-08-29T23:48:02+00:00",
-      "source_count": 2,
+      "published_at": "2026-08-30T16:54:25+00:00",
+      "source_count": 1,
       "source_names": [
-        "Google News - Omnicom",
-        "Google News - WPP"
+        "TechCrunch"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3447,
+      "keywords": [],
+      "score": 0.3396,
       "signals": {
-        "score": 0.3447,
-        "recency": 0.04276705709884999,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.76,
-        "engagement": 0.6
+        "score": 0.3396,
+        "recency": 0.45442144568315723,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -198,13 +223,67 @@
         "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.3446,
+      "score": 0.2942,
       "signals": {
-        "score": 0.3446,
-        "recency": 0.5222893872489683,
+        "score": 0.2942,
+        "recency": 0.32067044696097324,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "openai brings chatgpt ads to india with wpp omnicom as partners bw businessworld",
+      "title": "OpenAI Brings ChatGPT Ads To India With WPP, Omnicom As Partners - BW Businessworld",
+      "summary": "OpenAI Brings ChatGPT Ads To India With WPP, Omnicom As Partners &nbsp;&nbsp; BW Businessworld",
+      "image": "assets/images/generated/openai brings chatgpt ads to india with wpp omnicom as partners bw businessworld.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVUJPTUFiRmRFbHlJSjJNNi1lRVVfYzFDWGpaaktadlAtbV9XNjlHaFliaUpjMTYzeTVNbjJTaTdVRTU2OUw4blMtRmZqRlJnRnlmQkhxNlU0WTdnakJQdlpNekRPWXVUbHppRlE0UzdWbGFmRG9YcHFld0dic18wbXZwUGRRYkVYcXY4LXNMRkFlRExvTU0xUWZxYWpsT0hZODhCSTc0UlJxY0E?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-08-29T23:48:02+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2806,
+      "signals": {
+        "score": 0.2806,
+        "recency": 0.02625772541029319,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "competing with wicked fast delivery",
+      "title": "Competing with Wicked Fast Delivery",
+      "summary": "Ecommerce SMBs can compete where delivery speed creates value, not where it merely adds cost.",
+      "image": "assets/images/generated/competing with wicked fast delivery.jpg",
+      "link": "https://www.practicalecommerce.com/competing-with-wicked-fast-delivery",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-08-30T12:39:41+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Practical Ecommerce"
+      ],
+      "keywords": [],
+      "score": 0.273,
+      "signals": {
+        "score": 0.273,
+        "recency": 0.22395216261785925,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.78,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -224,10 +303,10 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.3092,
+      "score": 0.2724,
       "signals": {
-        "score": 0.3092,
-        "recency": 0.3806143397274295,
+        "score": 0.2724,
+        "recency": 0.23368610088561892,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
@@ -237,35 +316,9 @@
       "image_failure_reason": ""
     },
     {
-      "id": "competing with wicked fast delivery",
-      "title": "Competing with Wicked Fast Delivery",
-      "summary": "Ecommerce SMBs can compete where delivery speed creates value, not where it merely adds cost.",
-      "image": "assets/images/generated/competing with wicked fast delivery.jpg",
-      "link": "https://www.practicalecommerce.com/competing-with-wicked-fast-delivery",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-08-30T12:39:41+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Practical Ecommerce"
-      ],
-      "keywords": [],
-      "score": 0.3082,
-      "signals": {
-        "score": 0.3082,
-        "recency": 0.3647602667950203,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.78,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
       "id": "rank math wordpress plugin accused of secretly taking admin access via sejournal martinibuster",
       "title": "Rank Math WordPress Plugin Accused Of Secretly Taking Admin Access via @sejournal, @martinibuster",
-      "summary": "New allegations surfaced that Rank Math has introduced a functionality that silently gives the company administrator-level permissions over WordPress sites.",
+      "summary": "New allegations surfaced that the Rank Math WordPress plugin has introduced a functionality that silently gives the company administrator-level permissions over WordPress sites.",
       "image": "assets/images/generated/rank math wordpress plugin accused of secretly taking admin access via sejournal martinibuster.jpg",
       "link": "https://www.searchenginejournal.com/rank-math-wordpress-plugin-accused-of-secretly-taking-admin-access/587554/",
       "category": "digital-media",
@@ -276,10 +329,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.2913,
+      "score": 0.2638,
       "signals": {
-        "score": 0.2913,
-        "recency": 0.2853409493988583,
+        "score": 0.2638,
+        "recency": 0.17519101864572886,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
