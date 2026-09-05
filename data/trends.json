@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-05T20:36:59.184551+00:00",
-  "sources_scanned": 3005,
+  "generated_at": "2026-09-05T22:19:04.610982+00:00",
+  "sources_scanned": 2996,
   "feeds_polled": 33,
   "feed_pool": 38,
   "continent_counts": {
     "NA": 1886,
     "SA": 0,
-    "EU": 1119,
+    "EU": 1110,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 16,
+  "clusters": 13,
   "trends": [
     {
       "id": "hikers rescued after using google gemini for planning",
@@ -31,10 +31,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4967,
+      "score": 0.4447,
       "signals": {
-        "score": 0.4967,
-        "recency": 0.8427597473242531,
+        "score": 0.4447,
+        "recency": 0.6346650396789213,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -59,10 +59,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4501,
+      "score": 0.4096,
       "signals": {
-        "score": 0.4501,
-        "recency": 0.6564331160922666,
+        "score": 0.4096,
+        "recency": 0.4943462843283652,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -89,10 +89,10 @@
         "ai",
         "series"
       ],
-      "score": 0.3943,
+      "score": 0.3924,
       "signals": {
-        "score": 0.3943,
-        "recency": 0.030134280224659225,
+        "score": 0.3924,
+        "recency": 0.022693506916059026,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -118,10 +118,10 @@
         "ai",
         "console"
       ],
-      "score": 0.3848,
+      "score": 0.3688,
       "signals": {
-        "score": 0.3848,
-        "recency": 0.25916604513165775,
+        "score": 0.3688,
+        "recency": 0.19517262047593664,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -144,65 +144,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.3628,
+      "score": 0.329,
       "signals": {
-        "score": 0.3628,
-        "recency": 0.5473099364984807,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "ai compute provider nscale is looking for 35b in preipo financing",
-      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-      "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
-      "image": "assets/images/generated/ai compute provider nscale is looking for 35b in preipo financing.jpg",
-      "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-09-04T21:12:11+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai",
-        "bill"
-      ],
-      "score": 0.331,
-      "signals": {
-        "score": 0.331,
-        "recency": 0.020196806800580332,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "oura is going public but these smart ring companies are coming for its crown",
-      "title": "Oura is going public, but these smart ring companies are coming for its crown",
-      "summary": "While Oura has largely dominated the smart ring market for years, a growing number of rivals are now racing to dethrone it by trying all sorts of approaches to get an edge over it.",
-      "image": "assets/images/generated/oura is going public but these smart ring companies are coming for its crown.jpg",
-      "link": "https://techcrunch.com/2026/09/05/oura-is-going-public-but-these-smart-ring-companies-are-coming-for-its-crown/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-09-05T15:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.324,
-      "signals": {
-        "score": 0.324,
-        "recency": 0.3921647060893138,
+        "score": 0.329,
+        "recency": 0.4121678612052048,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -227,14 +172,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3106,
+      "score": 0.303,
       "signals": {
-        "score": 0.3106,
-        "recency": 0.12236470788311402,
+        "score": 0.303,
+        "recency": 0.09215034584946327,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "oura is going public but these smart ring companies are coming for its crown",
+      "title": "Oura is going public, but these smart ring companies are coming for its crown",
+      "summary": "While Oura has largely dominated the smart ring market for years, a growing number of rivals are now racing to dethrone it by trying all sorts of approaches to get an edge over it.",
+      "image": "assets/images/generated/oura is going public but these smart ring companies are coming for its crown.jpg",
+      "link": "https://techcrunch.com/2026/09/05/oura-is-going-public-but-these-smart-ring-companies-are-coming-for-its-crown/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-09-05T15:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.2998,
+      "signals": {
+        "score": 0.2998,
+        "recency": 0.2953311777657611,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -255,41 +226,13 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3071,
+      "score": 0.2989,
       "signals": {
-        "score": 0.3071,
-        "recency": 0.13235987156833845,
+        "score": 0.2989,
+        "recency": 0.09967749813339828,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "why fragrance is the new key to commanding a premium price tag",
-      "title": "Why fragrance is the new key to commanding a premium price tag",
-      "summary": "This week's Modern Retail Podcast features Diana Melencio of XRC Ventures discussing the growth of fragrance as a premiumization play for CPG brands.",
-      "image": "assets/images/generated/why fragrance is the new key to commanding a premium price tag.jpg",
-      "link": "https://www.modernretail.co/podcasts/why-fragrance-is-the-new-key-to-commanding-a-premium-price-tag/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-09-05T04:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Modern Retail"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2942,
-      "signals": {
-        "score": 0.2942,
-        "recency": 0.06269919363097727,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -311,10 +254,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2931,
+      "score": 0.2914,
       "signals": {
-        "score": 0.2931,
-        "recency": 0.028422786908897678,
+        "score": 0.2914,
+        "recency": 0.021404616486008502,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -324,56 +267,28 @@
       "image_failure_reason": ""
     },
     {
-      "id": "lowes names execs to oversee pro services and ai",
-      "title": "Lowe\u2019s names execs to oversee Pro services and AI",
-      "summary": "Lowe&#8217;s Companies Inc. announced a slate of new executive appointments encompassing five roles that it said would support the company&#8217;s &#8220;Total Home&#8221",
-      "image": "https://www.digitalcommerce360.com/wp-content/uploads/2026/09/joseph-mcfarland-lowes-259x300.jpg",
-      "link": "https://www.digitalcommerce360.com/2026/09/04/lowes-names-execs-oversee-pro-services-ai/",
+      "id": "why fragrance is the new key to commanding a premium price tag",
+      "title": "Why fragrance is the new key to commanding a premium price tag",
+      "summary": "This week's Modern Retail Podcast features Diana Melencio of XRC Ventures discussing the growth of fragrance as a premiumization play for CPG brands.",
+      "image": "assets/images/generated/why fragrance is the new key to commanding a premium price tag.jpg",
+      "link": "https://www.modernretail.co/podcasts/why-fragrance-is-the-new-key-to-commanding-a-premium-price-tag/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
       "category": "commerce",
       "geo": "global",
-      "published_at": "2026-09-04T21:43:14+00:00",
+      "published_at": "2026-09-05T04:00:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Digital Commerce 360"
+        "Modern Retail"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.287,
+      "score": 0.2903,
       "signals": {
-        "score": 0.287,
-        "recency": 0.022016111202683025,
+        "score": 0.2903,
+        "recency": 0.04721747371060683,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.81,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "yuno fasttracks merchant access to revolut payment stack",
-      "title": "Yuno Fast-Tracks Merchant Access to Revolut Payment Stack",
-      "summary": "Merchants can now use one Yuno connection to add Revolut\u2019s biometric one-click checkout, Revolut Pay, as well as Revolut\u2019s acquiring and gateway services, Yuno said in a Thursday",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/01/Revolut.png?w=457",
-      "link": "https://www.pymnts.com/partnerships/2026/yuno-fast-tracks-merchant-access-revolut-payment-stack/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-09-04T21:39:02+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2854,
-      "signals": {
-        "score": 0.2854,
-        "recency": 0.021760749080824506,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.79,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -393,10 +308,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.2278,
+      "score": 0.2259,
       "signals": {
-        "score": 0.2278,
-        "recency": 0.031135498116715253,
+        "score": 0.2259,
+        "recency": 0.02344750352684459,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -419,10 +334,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.2269,
+      "score": 0.2252,
       "signals": {
-        "score": 0.2269,
-        "recency": 0.027660772478141644,
+        "score": 0.2252,
+        "recency": 0.020830759084219705,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -445,10 +360,10 @@
         "PYMNTS"
       ],
       "keywords": [],
-      "score": 0.2266,
+      "score": 0.2249,
       "signals": {
-        "score": 0.2266,
-        "recency": 0.026239968719721576,
+        "score": 0.2249,
+        "recency": 0.01976078098360843,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
