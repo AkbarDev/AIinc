@@ -969,13 +969,19 @@ footer {
 }
 
 .news-card-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
 }
 
 .news-card {
     display: flex;
     flex-direction: column;
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.news-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -10px rgba(56, 189, 248, 0.15), 0 4px 12px -5px rgba(0, 0, 0, 0.1);
 }
 
 .news-card h4 {
