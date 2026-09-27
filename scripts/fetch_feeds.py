@@ -980,63 +980,8 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
                 else:
                     print(f"warn: Google Imagen 3 image failed quality validation: {validation_msg}", file=sys.stderr)
 
-    # Models pipeline to loop through
-    MODELS_PIPELINE = [
-        {"name": "FLUX.1 Dev", "hf_id": "black-forest-labs/FLUX.1-dev", "pollinations_model": "flux-realism"},
-        {"name": "FLUX.1 Schnell", "hf_id": "black-forest-labs/FLUX.1-schnell", "pollinations_model": "flux"},
-        {"name": "SDXL 1.0", "hf_id": "stabilityai/stable-diffusion-xl-base-1.0", "pollinations_model": "turbo"},
-        {"name": "SDXL Lightning", "hf_id": "ByteDance/SDXL-Lightning", "pollinations_model": "turbo"},
-        {"name": "Juggernaut XL", "hf_id": "cagliostrolab/animagine-xl-3.1", "pollinations_model": "flux"},
-        {"name": "DreamShaper XL", "hf_id": "Lykon/dreamshaper-xl-v2-turbo", "pollinations_model": "turbo"},
-        {"name": "Playground v2.5", "hf_id": "playgroundai/playground-v2.5", "pollinations_model": "flux"}
-    ]
-
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
-
-    # Loop through models in priority
-    for model in MODELS_PIPELINE:
-        print(f"info: Testing model: {model['name']}...")
-        
-        # Loop through prompt variations for each model
-        for p_idx, prompt in enumerate(prompt_variations):
-            print(f"info: Attempting prompt variation {p_idx + 1} on model {model['name']}...")
-            image_bytes = None
-            
-            # Try HF if API key is present
-            if api_key and model["hf_id"]:
-                print(f"info: Trying Hugging Face inference for model: {model['hf_id']}...")
-                image_bytes = generate_hf_image(prompt, model["hf_id"], api_key)
-                
-            # If HF fails or is skipped, try Pollinations (if pollinations_model parameter is supported)
-            if not image_bytes and model["pollinations_model"]:
-                print(f"info: Falling back to Pollinations for model: {model['pollinations_model']}...")
-                encoded_prompt = quote(prompt)
-                pollinations_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=640&height=360&nologo=true&private=true&model={model['pollinations_model']}"
-                
-                try:
-                    req = Request(pollinations_url, headers=headers, method="GET")
-                    with urlopen(req, timeout=30) as response:
-                        content_type = (response.info().get_content_type() or "").lower()
-                        resp_bytes = response.read()
-                        if "image" in content_type:
-                            image_bytes = resp_bytes
-                except Exception as exc:
-                    print(f"warn: Pollinations fetch failed for model {model['name']}: {exc}", file=sys.stderr)
-
-            # If image was successfully generated, check quality
-            if image_bytes:
-                is_valid, validation_msg = validate_image_quality(image_bytes)
-                if is_valid:
-                    try:
-                        image_path.write_bytes(image_bytes)
-                        print(f"info: AI image successfully validated and saved via {model['name']}: {image_path}")
-                        return f"assets/images/generated/{trend_id}.jpg"
-                    except Exception as e:
-                        print(f"warn: Failed to write image bytes: {e}", file=sys.stderr)
-                else:
-                    print(f"warn: Generated image failed quality assessment: {validation_msg}. Trying next variant/model...", file=sys.stderr)
+    else:
+        print("warn: GEMINI_API_KEY is missing. Skipping AI image generation.", file=sys.stderr)
 
     # 3. Public domain free-use Unsplash stock image fallback (if all models fail)
     print(f"info: Using curated open stock image fallback for category: {category}")
