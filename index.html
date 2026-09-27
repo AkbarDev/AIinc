@@ -132,6 +132,30 @@
                 </section>
                 <div class="news-board-shell">
                     <div class="news-card-grid" id="news-card-grid"></div>
+                    
+                    <aside class="news-sidebar">
+                        <!-- Newsletter Widget -->
+                        <div class="sidebar-widget newsletter-widget">
+                            <div class="widget-icon"><i class="fa-regular fa-envelope"></i></div>
+                            <h3>The Snapfacts Brief</h3>
+                            <p>Get the most important industry signals delivered straight to your inbox every morning.</p>
+                            <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Newsletter signup coming soon!');">
+                                <input type="email" placeholder="Your email address" required aria-label="Email address" />
+                                <button type="submit" class="btn-subscribe">Subscribe</button>
+                            </form>
+                            <span class="privacy-note">No spam. Unsubscribe anytime.</span>
+                        </div>
+
+                        <!-- Trending News Widget -->
+                        <div class="sidebar-widget trending-widget">
+                            <div class="widget-header">
+                                <h3><i class="fa-solid fa-fire-flame-curved"></i> Trending Now</h3>
+                            </div>
+                            <ul class="trending-list" id="sidebar-trending-list">
+                                <!-- Populated dynamically by app.js -->
+                            </ul>
+                        </div>
+                    </aside>
                 </div>
             </div>
         </section>

@@ -578,10 +578,42 @@ function renderNewsBoard() {
                         Read on ${escapeHtml(sourceName)} <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.72rem; margin-left: 0.2rem;"></i>
                     </a>
                 </p>
+                ${renderRelatedArticles(item)}
             </div>
         </article>`;
         })
         .join('');
+        
+    renderSidebarTrending(list);
+}
+
+function renderSidebarTrending(list) {
+    const trendingList = document.getElementById('sidebar-trending-list');
+    if (!trendingList) return;
+    
+    // Get top 5 trending stories based on score, excluding saved/search filters if possible
+    // Here we just use the top 5 of the current list to keep it contextual.
+    const top5 = list.slice(0, 5);
+    
+    if (top5.length === 0) {
+        trendingList.innerHTML = '<li class="trending-list-item"><div class="trending-content">No trending stories right now.</div></li>';
+        return;
+    }
+    
+    trendingList.innerHTML = top5.map((item, idx) => {
+        const headline = cleanHeadline(item.title);
+        const sourceName = getPrimarySource(item);
+        const signal = getStorySignalLabel(item);
+        return `
+            <li class="trending-list-item">
+                <div class="trending-rank">#${idx + 1}</div>
+                <div class="trending-content">
+                    <a href="${escapeAttr(item.link)}" target="_blank" rel="noopener" title="${escapeAttr(headline)}">${escapeHtml(headline)}</a>
+                    <div class="trending-meta">${escapeHtml(sourceName)} • ${escapeHtml(signal)}</div>
+                </div>
+            </li>
+        `;
+    }).join('');
 }
 
 
@@ -1236,6 +1268,47 @@ function renderCardMedia(item, imageUrl, index = 99) {
         return `<img class="card-image board-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(cleanHeadline(item.title))}" ${loading} decoding="async" ${fetchPriority} width="640" height="360" sizes="(max-width: 768px) 96vw, (max-width: 1024px) 48vw, 24vw" />`;
     }
     return `<div class="board-image image-fallback" role="img" aria-label="No image available for this news feed"><i class="fa-regular fa-image" aria-hidden="true"></i><span>No image available from this feed</span></div>`;
+}
+
+function renderRelatedArticles(currentItem) {
+    if (!currentItem || !state.trends) return '';
+    
+    // Find articles in the same category
+    const category = String(currentItem.category || '').toLowerCase();
+    
+    let related = state.trends.filter(item => {
+        if (item.id === currentItem.id || item.link === currentItem.link) return false;
+        return String(item.category || '').toLowerCase() === category;
+    });
+    
+    // Fallback to recent if not enough in same category
+    if (related.length < 2) {
+        const fallbacks = state.trends.filter(item => item.id !== currentItem.id && item.link !== currentItem.link);
+        related = [...related, ...fallbacks];
+    }
+    
+    // Deduplicate by link
+    related = [...new Map(related.map(item => [item.link, item])).values()].slice(0, 2);
+    
+    if (related.length === 0) return '';
+    
+    const linksHtml = related.map(r => `
+        <li style="margin-bottom: 0.4rem;">
+            <a href="${escapeAttr(r.link)}" target="_blank" rel="noopener" style="font-size: 0.8rem; color: var(--text-muted); text-decoration: none; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; transition: color 0.2s;" onmouseover="this.style.color='var(--text-color)'" onmouseout="this.style.color='var(--text-muted)'">
+                <i class="fa-solid fa-link" style="font-size: 0.65rem; opacity: 0.5; margin-right: 4px;"></i>
+                ${escapeHtml(cleanHeadline(r.title))}
+            </a>
+        </li>
+    `).join('');
+    
+    return `
+        <div class="related-articles" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+            <h5 style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 0.6rem; margin-top: 0; opacity: 0.8;">Related Stories</h5>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                ${linksHtml}
+            </ul>
+        </div>
+    `;
 }
 
 function formatDate(value) {
