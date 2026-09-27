@@ -73,11 +73,11 @@ We ship a ready-to-run workflow: `.github/workflows/refresh-trends.yml`.
 - [x] 7. PageSpeed/Core Web Vitals (Lazy loading optimized in `app.js`)
 
 ### Phase 2 — User experience
-- [ ] 8. Related articles
-- [ ] 9. Search
-- [ ] 10. Newsletter
-- [ ] 11. Trending-news section
-- [ ] 12. Social sharing
+- [x] 8. Related articles
+- [x] 9. Search
+- [x] 10. Newsletter
+- [x] 11. Trending-news section
+- [x] 12. Social sharing
 - [ ] 13. Web push notifications
 
 ### Phase 3 — AI
