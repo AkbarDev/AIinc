@@ -534,7 +534,7 @@ function renderNewsBoard() {
     grid.classList.toggle('is-brief-mode', !mobileReader && state.briefMode);
 
     grid.innerHTML = cards
-        .map((item) => {
+        .map((item, index) => {
             const image = resolveCardImage(item);
             const isAiGenerated = image && (image.includes('/generated/') || image.startsWith('data:image/svg+xml'));
             const aiBadge = isAiGenerated 
@@ -554,7 +554,7 @@ function renderNewsBoard() {
             return `
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">
             <div class="card-media-wrapper">
-                ${renderCardMedia(item, image)}
+                ${renderCardMedia(item, image, index)}
                 ${aiBadge}
                 <div class="card-image-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
                     <button class="card-image-action-btn" type="button" data-action="listen" aria-label="Listen to story" title="Listen"><i class="fa-solid fa-volume-high" aria-hidden="true"></i></button>
@@ -1229,9 +1229,11 @@ function renderMetaStrip() {
     strip.querySelectorAll('[data-meta="feeds"]').forEach((el) => (el.textContent = feedLabel));
 }
 
-function renderCardMedia(item, imageUrl) {
+function renderCardMedia(item, imageUrl, index = 99) {
     if (imageUrl) {
-        return `<img class="card-image board-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(cleanHeadline(item.title))}" loading="lazy" decoding="async" fetchpriority="low" width="640" height="360" sizes="(max-width: 768px) 96vw, (max-width: 1024px) 48vw, 24vw" />`;
+        const loading = index < 4 ? '' : 'loading="lazy"';
+        const fetchPriority = index < 2 ? 'fetchpriority="high"' : 'fetchpriority="low"';
+        return `<img class="card-image board-image" src="${escapeAttr(imageUrl)}" alt="${escapeAttr(cleanHeadline(item.title))}" ${loading} decoding="async" ${fetchPriority} width="640" height="360" sizes="(max-width: 768px) 96vw, (max-width: 1024px) 48vw, 24vw" />`;
     }
     return `<div class="board-image image-fallback" role="img" aria-label="No image available for this news feed"><i class="fa-regular fa-image" aria-hidden="true"></i><span>No image available from this feed</span></div>`;
 }

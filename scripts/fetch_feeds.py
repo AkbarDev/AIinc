@@ -1160,6 +1160,22 @@ def matches_ui_category(cluster_category: str, title: str, summary: str, ui_cate
     return False
 
 
+def fetch_og_image(url: str) -> Optional[str]:
+    try:
+        req = Request(url, headers={"User-Agent": USER_AGENT})
+        with urlopen(req, timeout=3) as resp:
+            html = resp.read(10000).decode("utf-8", errors="ignore")
+            match = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
+            if match:
+                return match.group(1)
+            match = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', html, re.IGNORECASE)
+            if match:
+                return match.group(1)
+    except Exception:
+        pass
+    return None
+
+
 def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, window_hours: Optional[int] = 24) -> Dict[str, object]:
     now_utc = datetime.now(timezone.utc)
     cutoff_utc = None if window_hours is None else now_utc - timedelta(hours=window_hours)
@@ -1252,7 +1268,17 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
                     except Exception:
                         pass
                 
-                # 2. Generate new image
+                # 2. Try to fetch og:image from the source link before falling back to AI generation
+                if cluster.link:
+                    og_image = fetch_og_image(cluster.link)
+                    if og_image and _looks_like_image(og_image):
+                        print(f"info: Successfully found og:image on article page for {cluster.key}")
+                        cluster.image = og_image
+                        cluster.ai_image_pending = False
+                        cluster.image_failure_reason = ""
+                        continue
+
+                # 3. Generate new image
                 if gen_count < max_generations_per_run:
                     ai_image = fetch_ai_image(cluster.title, cluster.summary, cluster.category, cluster.key)
                     if ai_image:
@@ -1407,6 +1433,7 @@ def main() -> None:
 
     args.output.write_text(json.dumps(data, indent=2))
     write_badges(data)
+    write_news_sitemap(data)
     print(f"wrote {args.output.relative_to(BASE_DIR)} with {data['clusters']} clusters")
 
 
@@ -1436,6 +1463,46 @@ def write_badges(data: Dict[str, object]) -> None:
         "color": color,
     }
     (BADGE_DIR / "feeds-polled.json").write_text(json.dumps(feeds_payload))
+
+
+def write_news_sitemap(data: Dict[str, object]) -> None:
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=48)
+    
+    urlset_lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+        '        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">'
+    ]
+    
+    import html
+    for trend in data.get("trends", []):
+        try:
+            pub_date = datetime.fromisoformat(trend["published_at"])
+            if pub_date.tzinfo is None:
+                pub_date = pub_date.replace(tzinfo=timezone.utc)
+        except Exception:
+            continue
+            
+        if pub_date >= cutoff:
+            loc = f"https://www.snapfacts.in/?trend={quote(trend['id'])}"
+            title = html.escape(trend["title"])
+            urlset_lines.append("  <url>")
+            urlset_lines.append(f"    <loc>{loc}</loc>")
+            urlset_lines.append("    <news:news>")
+            urlset_lines.append("      <news:publication>")
+            urlset_lines.append("        <news:name>Snapfacts</news:name>")
+            urlset_lines.append("        <news:language>en</news:language>")
+            urlset_lines.append("      </news:publication>")
+            urlset_lines.append(f"      <news:publication_date>{pub_date.isoformat()}</news:publication_date>")
+            urlset_lines.append(f"      <news:title>{title}</news:title>")
+            urlset_lines.append("    </news:news>")
+            urlset_lines.append("  </url>")
+            
+    urlset_lines.append("</urlset>")
+    
+    out_path = BASE_DIR / "news-sitemap.xml"
+    out_path.write_text("\\n".join(urlset_lines), encoding="utf-8")
 
 
 if __name__ == "__main__":

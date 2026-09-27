@@ -1,5 +1,7 @@
 # TrendGrid (AIinc)
 
+_Last updated: 2026-09-25T19:49:01+05:30_
+
 ![Refresh Trend Data](https://github.com/AkbarDev/AIinc/actions/workflows/refresh-trends.yml/badge.svg)
 ![Last Refresh](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AkbarDev/AIinc/main/data/badges/last-refresh.json)
 ![Feeds Polled](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AkbarDev/AIinc/main/data/badges/feeds-polled.json)
@@ -58,6 +60,38 @@ We ship a ready-to-run workflow: `.github/workflows/refresh-trends.yml`.
 5. Shields badges read from `data/badges/*.json` via the Shields endpoint URLs shown above, so the homepage always advertises the last refresh time and feed coverage.
 
 ## Roadmap
+
+### Phase 1 — SEO & measurement
+- [x] 1. Google Search Console (Already Verified)
+- [x] 2. GA4 (Tracking ID: G-K14N70DFTW)
+- [x] 3. XML sitemap (Already implemented: `sitemap.xml`)
+- [x] 4. News sitemap (`news-sitemap.xml` generated automatically via ingestion script)
+- [x] 5. NewsArticle structured data (Already in `index.html` & dynamically generated)
+- [ ] 6. Rich Results testing
+- [x] 7. PageSpeed/Core Web Vitals (Lazy loading optimized in `app.js`)
+
+### Phase 2 — User experience
+- [ ] 8. Related articles
+- [ ] 9. Search
+- [ ] 10. Newsletter
+- [ ] 11. Trending-news section
+- [ ] 12. Social sharing
+- [ ] 13. Web push notifications
+
+### Phase 3 — AI
+- [ ] 14. Gemini-powered article summarization
+- [ ] 15. Automatic headline generation
+- [ ] 16. Topic/category classification
+- [ ] 17. Duplicate-news detection
+- [ ] 18. Entity extraction
+- [ ] 19. AI-generated "What happened?" summaries
+
+### Phase 4 — Data/automation
+- [ ] 20. Search Console API → your data pipeline
+- [ ] 21. GA4 → analytics warehouse
+- [ ] 22. Scheduled news collection
+- [ ] 23. AI processing
+- [ ] 24. Automated publishing
 
 - NLP-powered clustering (e.g., cosine similarity on embeddings)
 - Historical archives for week-over-week comparisons
