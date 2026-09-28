@@ -1138,31 +1138,13 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
                 cluster.summary = enhanced["summary"]
                 cluster.category = enhanced["category"]
 
-    # Build the set of clusters to target for image generation to cover all UI tabs
-    target_clusters_set = {}  # cluster.key -> (cluster, score_block)
-    
-    # 1. Add top 10 overall trends
-    for cluster, score_block in scored_clusters[:10]:
-        target_clusters_set[cluster.key] = (cluster, score_block)
+    # The user mandated that EVERY article across EVERY category must eventually have an AI-generated image.
+    # Therefore, we will try to generate images for all active clusters, ordered by score descending.
+    to_generate = list(scored_clusters)
 
-    # 2. Add top 6 trends for each category tab to ensure all tabs are populated with images
-    ui_categories = ['ai', 'technology', 'startup', 'commerce', 'brands', 'advertising', 'media', 'marketing', 'business', 'seo', 'retail', 'tech', 'ads']
-    for ui_cat in ui_categories:
-        cat_count = 0
-        for cluster, score_block in scored_clusters:
-            if matches_ui_category(cluster.category, cluster.title, cluster.summary, ui_cat):
-                target_clusters_set[cluster.key] = (cluster, score_block)
-                cat_count += 1
-                if cat_count >= 6:
-                    break
-
-    # Convert back to sorted list by overall score descending
-    to_generate = list(target_clusters_set.values())
-    to_generate.sort(key=lambda item: item[1]["score"], reverse=True)
-
-    # Generate AI images for target clusters that lack a real image (limit to 15 new generations per run)
+    # Generate AI images for target clusters that lack a real image (limit to 30 new generations per run to handle feed spikes)
     gen_count = 0
-    max_generations_per_run = 15
+    max_generations_per_run = 30
     for cluster, score_block in to_generate:
         if not cluster.image or is_generated_visual(cluster.image):
             # 1. Has AI Image? Validate existing file
@@ -1218,7 +1200,7 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
                         cluster.image_failure_reason = "Image generation failed (all service endpoints timed out or returned invalid data)"
                 else:
                     cluster.ai_image_pending = True
-                    cluster.image_failure_reason = "Generation skipped during this run to respect rate limits (max 15 generations per run)"
+                    cluster.image_failure_reason = "Generation skipped during this run to respect rate limits (max 30 generations per run)"
 
     payload = []
     for cluster, score_block in scored_clusters:
