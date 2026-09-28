@@ -939,11 +939,8 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
             f"No text, no logos, no watermarks, landscape 16:9, clean negative space, premium news hero layout."
         )
 
-    # Setup prompt variations
-    prompt_variations = [
-        prompt_to_use,
-        f"{prompt_to_use}. Award-winning editorial illustration, cinematic lighting, sharp details, high contrast, 8k resolution, photorealistic composition."
-    ]
+    # Use the exact prompt without adding extra keywords, as per strict editorial guidelines
+    prompt_variations = [prompt_to_use]
 
     # 2.5 Try Google Imagen 3 (Nano Banana) first if GEMINI_API_KEY is available
     gemini_key = os.environ.get("GEMINI_API_KEY")
