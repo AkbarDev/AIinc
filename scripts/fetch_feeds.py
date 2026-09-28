@@ -1146,7 +1146,7 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
         target_clusters_set[cluster.key] = (cluster, score_block)
 
     # 2. Add top 6 trends for each category tab to ensure all tabs are populated with images
-    ui_categories = ['commerce', 'tech', 'ads', 'startup', 'ai', 'media', 'brands']
+    ui_categories = ['ai', 'technology', 'startup', 'commerce', 'brands', 'advertising', 'media', 'marketing', 'business', 'seo', 'retail', 'tech', 'ads']
     for ui_cat in ui_categories:
         cat_count = 0
         for cluster, score_block in scored_clusters:
