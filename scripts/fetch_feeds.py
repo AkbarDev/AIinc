@@ -969,11 +969,59 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
                             print(f"warn: Failed to write Google Imagen 3 image bytes: {e}", file=sys.stderr)
                     else:
                         print(f"warn: Google Imagen 3 image failed quality validation: {validation_msg}", file=sys.stderr)
-                        return None, f"Image quality validation failed: {validation_msg}"
             except Exception as e:
-                return None, f"Google Imagen 3 API Error: {str(e)}"
+                print(f"warn: Google Imagen 3 API Error: {str(e)}", file=sys.stderr)
     else:
-        print("warn: GEMINI_API_KEY is missing. Skipping AI image generation.", file=sys.stderr)
+        print("warn: GEMINI_API_KEY is missing. Skipping Google Imagen 3 generation.", file=sys.stderr)
+
+    # 2.6 Try Hugging Face Open Source Models (FLUX.1) if Gemini fails or is missing
+    hf_key = os.environ.get("HF_API_KEY")
+    if hf_key:
+        print("info: HF_API_KEY detected. Attempting generation with Hugging Face Open Source Model (FLUX.1-schnell)...")
+        hf_model = "black-forest-labs/FLUX.1-schnell"
+        for p_idx, prompt in enumerate(prompt_variations):
+            print(f"info: Trying prompt variation {p_idx + 1} on Hugging Face...")
+            try:
+                image_bytes = generate_hf_image(prompt, hf_model, hf_key)
+                if image_bytes:
+                    is_valid, validation_msg = validate_image_quality(image_bytes)
+                    if is_valid:
+                        try:
+                            image_path.write_bytes(image_bytes)
+                            print(f"info: AI image successfully generated via HF ({hf_model}): {image_path}")
+                            return f"assets/images/generated/{trend_id}.jpg", ""
+                        except Exception as e:
+                            print(f"warn: Failed to write HF image bytes: {e}", file=sys.stderr)
+                    else:
+                        print(f"warn: HF image failed quality validation: {validation_msg}", file=sys.stderr)
+            except Exception as e:
+                print(f"warn: Hugging Face API Error: {str(e)}", file=sys.stderr)
+    else:
+        print("warn: HF_API_KEY is missing. Skipping Hugging Face generation.", file=sys.stderr)
+
+    # 2.7 Try Pollinations AI (Free Open Source Models - FLUX)
+    print("info: Attempting generation with Pollinations AI (Free Open Source FLUX)...")
+    for p_idx, prompt in enumerate(prompt_variations):
+        try:
+            import urllib.parse
+            encoded_prompt = urllib.parse.quote(prompt)
+            pollinations_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=768&height=432&nologo=true"
+            req = Request(pollinations_url, headers={"User-Agent": USER_AGENT}, method="GET")
+            with urlopen(req, timeout=30) as response:
+                image_bytes = response.read()
+                if image_bytes:
+                    is_valid, validation_msg = validate_image_quality(image_bytes)
+                    if is_valid:
+                        try:
+                            image_path.write_bytes(image_bytes)
+                            print(f"info: AI image successfully generated via Pollinations AI: {image_path}")
+                            return f"assets/images/generated/{trend_id}.jpg", ""
+                        except Exception as e:
+                            print(f"warn: Failed to write Pollinations AI image bytes: {e}", file=sys.stderr)
+                    else:
+                        print(f"warn: Pollinations AI image failed quality validation: {validation_msg}", file=sys.stderr)
+        except Exception as e:
+            print(f"warn: Pollinations AI Error: {str(e)}", file=sys.stderr)
 
     # 3. Public domain free-use Unsplash stock image fallback (if all models fail)
     print(f"info: Using curated open stock image fallback for category: {category}")
