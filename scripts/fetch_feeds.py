@@ -1026,7 +1026,7 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
     # 3. Public domain free-use Unsplash stock image fallback (if all models fail)
     print(f"info: Using curated open stock image fallback for category: {category}")
     curated_stock = {
-        "ai": "https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=640&q=80",
+        "ai": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=640&q=80",
         "tech": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=640&q=80",
         "technology": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=640&q=80",
         "commerce": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=640&q=80",
@@ -1050,6 +1050,16 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
             return f"assets/images/generated/{trend_id}.jpg", ""
     except Exception as e:
         print(f"warn: failed to fetch stock fallback image: {e}", file=sys.stderr)
+        # Try one universal backup image that is known to work
+        try:
+            backup_url = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=640&q=80"
+            req2 = Request(backup_url, headers={"User-Agent": USER_AGENT}, method="GET")
+            with urlopen(req2, timeout=15) as response2:
+                resp_bytes = response2.read()
+                image_path.write_bytes(resp_bytes)
+                return f"assets/images/generated/{trend_id}.jpg", ""
+        except Exception:
+            pass
         return None, f"Fallback failed: {e}"
         
     return None, "All generation attempts failed"
