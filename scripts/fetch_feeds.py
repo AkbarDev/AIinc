@@ -1173,10 +1173,6 @@ def fetch_og_image(url: str) -> Optional[str]:
             # 2. Try twitter:image
             if not match:
                 match = re.search(r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
-            
-            # 3. Fallback to the first <img src="..."> in the document that looks somewhat substantial (e.g., hero image)
-            if not match:
-                match = re.search(r'<img[^>]+src=["\']([^"\']+(?:jpg|jpeg|png|webp|avif))["\']', html, re.IGNORECASE)
                 
             if match:
                 img_url = match.group(1).strip()
