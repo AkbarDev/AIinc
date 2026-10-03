@@ -2418,16 +2418,40 @@ function processAgentQuery(query) {
         return "I don't have access to the news feed right now. Please wait while the page completes loading.";
     }
 
-    const matches = state.trends.filter(item => {
-        const title = (item.title || '').toLowerCase();
-        const summary = (item.summary || '').toLowerCase();
-        const cat = (item.category || '').toLowerCase();
-        return title.includes(q) || summary.includes(q) || cat.includes(q);
-    });
+    if (/^(hi|hello|hey)(\s|$)/.test(q)) {
+        return "Hello! I am ready to answer your questions. You can ask me things like <em>\"What is the latest in AI news?\"</em> or <em>\"Show top trending news\"</em>.";
+    }
+
+    if (q.includes('summary') || q.includes('today') || q.includes('trends') || q.includes('trending') || q.includes('top')) {
+        const topOverall = [...state.trends]
+            .sort((a, b) => (b.score || 0) - (a.score || 0))
+            .slice(0, 3);
+        
+        let response = "Here is the quick executive briefing on today's **top 3 trends**:<br><br>";
+        topOverall.forEach((item, idx) => {
+            response += `• **${cleanHeadline(item.title)}**: ${item.summary}<br><br>`;
+        });
+        return response;
+    }
+
+    const stopWords = ['what', 'whats', 'is', 'the', 'latest', 'in', 'news', 'show', 'happening', 'industry', 'summarize', 'biggest', 'moves', 'today', 'across', 'globe', 'about', 'tell', 'me', 'any', 'new', 'are'];
+    const searchTerms = q.replace(/[^\w\s]/g, '').split(/\s+/).filter(w => w.length > 1 && !stopWords.includes(w));
+
+    let matches = [];
+    if (searchTerms.length > 0) {
+        matches = state.trends.filter(item => {
+            const title = (item.title || '').toLowerCase();
+            const summary = (item.summary || '').toLowerCase();
+            const cat = (item.category || '').toLowerCase();
+            return searchTerms.some(term => title.includes(term) || summary.includes(term) || cat.includes(term));
+        });
+    } else {
+        return "I couldn't find any specific news matching your query right now. Try asking about a specific topic like 'AI', 'Startups', or 'Ad industry'!";
+    }
 
     if (matches.length > 0) {
         const topMatches = matches.sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 3);
-        let response = `I found **${matches.length} matching trends** today. Here is the synthesized briefing:<br><br>`;
+        let response = `I found **${matches.length} articles** matching your query. Here is the synthesized briefing:<br><br>`;
         
         topMatches.forEach((item, idx) => {
             const headline = cleanHeadline(item.title);
@@ -2444,23 +2468,7 @@ function processAgentQuery(query) {
         return response;
     }
 
-    if (q.includes('hello') || q.includes('hi') || q.includes('hey')) {
-        return "Hello! I am ready to answer your questions. You can ask me to search and summarize topics like <em>\"Google\"</em>, <em>\"AI\"</em>, or <em>\"advertising\"</em>.";
-    }
-
-    if (q.includes('summary') || q.includes('today') || q.includes('trends')) {
-        const topOverall = [...state.trends]
-            .sort((a, b) => (b.score || 0) - (a.score || 0))
-            .slice(0, 3);
-        
-        let response = "Here is the quick executive briefing on today's **top 3 trends**:<br><br>";
-        topOverall.forEach((item, idx) => {
-            response += `• **${cleanHeadline(item.title)}**: ${item.summary}<br><br>`;
-        });
-        return response;
-    }
-
-    return "I couldn't find any trends matching your query. Try asking about a specific keyword like <em>\"OpenAI\"</em>, <em>\"Google\"</em>, <em>\"marketing\"</em>, or ask for <em>\"today's top trends\"</em>!";
+    return "I couldn't find any specific news matching your query right now. Try asking about a specific topic like 'AI', 'Startups', or 'Ad industry'!";
 }
 
 function setupPersonalization() {
