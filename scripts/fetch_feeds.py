@@ -871,7 +871,7 @@ def generate_gemini_image(prompt: str, api_key: str) -> Optional[bytes]:
     }
     try:
         req = Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-        with urlopen(req, timeout=30) as response:
+        with urlopen(req, timeout=15) as response:
             res = json.loads(response.read().decode("utf-8"))
             print(f"debug: Google Imagen 3 response keys: {list(res.keys())}")
             if "predictions" in res and len(res["predictions"]) > 0:
@@ -1206,13 +1206,15 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
                         cluster.image = ai_image
                         cluster.ai_image_pending = False
                         cluster.image_failure_reason = ""
+                        time.sleep(5)
                     else:
                         cluster.ai_image_pending = True
                         cluster.image_failure_reason = fail_msg or "Image generation failed"
-                    time.sleep(5)
+                        print(f"warn: Aborting remaining image generations for this run due to API failure: {fail_msg}", file=sys.stderr)
+                        max_generations_per_run = 0 # Prevent further attempts in this run
                 else:
                     cluster.ai_image_pending = True
-                    cluster.image_failure_reason = "Generation skipped during this run to respect rate limits (max 30 generations per run)"
+                    cluster.image_failure_reason = "Generation skipped during this run to respect rate limits or avoid timeouts"
 
     payload = []
     for cluster, score_block in scored_clusters:
