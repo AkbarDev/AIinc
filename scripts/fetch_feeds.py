@@ -883,7 +883,15 @@ def generate_gemini_image(prompt: str, api_key: str) -> Optional[bytes]:
             else:
                 print(f"debug: predictions key not found in response: {res}")
     except Exception as e:
-        print(f"warn: Google Imagen 3 generation failed: {e}", file=sys.stderr)
+        error_details = str(e)
+        if hasattr(e, 'read'):
+            try:
+                err_body = e.read().decode('utf-8')
+                error_details = f"{e} - {err_body}"
+            except:
+                pass
+        print(f"warn: Google Imagen 3 generation failed: {error_details}", file=sys.stderr)
+        raise RuntimeError(error_details)
     return None
 
 
@@ -907,7 +915,7 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
                 except ImportError:
                     pass
             if is_valid:
-                return f"assets/images/generated/{trend_id}.jpg"
+                return f"assets/images/generated/{trend_id}.jpg", ""
             else:
                 raise ValueError("File size too small")
         except Exception as e:
@@ -948,19 +956,22 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
         print("info: GEMINI_API_KEY detected. Attempting generation with Google Imagen 3 (Nano Banana)...")
         for p_idx, prompt in enumerate(prompt_variations):
             print(f"info: Trying prompt variation {p_idx + 1} on Google Imagen 3...")
-            image_bytes = generate_gemini_image(prompt, gemini_key)
-            if image_bytes:
-                is_valid, validation_msg = validate_image_quality(image_bytes)
-                if is_valid:
-                    try:
-                        image_path.write_bytes(image_bytes)
-                        print(f"info: AI image successfully generated and validated via Google Imagen 3: {image_path}")
-                        return f"assets/images/generated/{trend_id}.jpg"
-                    except Exception as e:
-                        print(f"warn: Failed to write Google Imagen 3 image bytes: {e}", file=sys.stderr)
-                else:
-                    print(f"warn: Google Imagen 3 image failed quality validation: {validation_msg}", file=sys.stderr)
-
+            try:
+                image_bytes = generate_gemini_image(prompt, gemini_key)
+                if image_bytes:
+                    is_valid, validation_msg = validate_image_quality(image_bytes)
+                    if is_valid:
+                        try:
+                            image_path.write_bytes(image_bytes)
+                            print(f"info: AI image successfully generated and validated via Google Imagen 3: {image_path}")
+                            return f"assets/images/generated/{trend_id}.jpg", ""
+                        except Exception as e:
+                            print(f"warn: Failed to write Google Imagen 3 image bytes: {e}", file=sys.stderr)
+                    else:
+                        print(f"warn: Google Imagen 3 image failed quality validation: {validation_msg}", file=sys.stderr)
+                        return None, f"Image quality validation failed: {validation_msg}"
+            except Exception as e:
+                return None, f"Google Imagen 3 API Error: {str(e)}"
     else:
         print("warn: GEMINI_API_KEY is missing. Skipping AI image generation.", file=sys.stderr)
 
@@ -983,16 +994,17 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
     fallback_url = curated_stock.get(category.lower(), "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=640&q=80")
     
     try:
-        req = Request(fallback_url, headers=headers, method="GET")
+        req = Request(fallback_url, headers={"User-Agent": USER_AGENT}, method="GET")
         with urlopen(req, timeout=15) as response:
             resp_bytes = response.read()
             image_path.write_bytes(resp_bytes)
             print(f"info: Stock fallback image successfully saved: {image_path}")
-            return f"assets/images/generated/{trend_id}.jpg"
+            return f"assets/images/generated/{trend_id}.jpg", ""
     except Exception as e:
         print(f"warn: failed to fetch stock fallback image: {e}", file=sys.stderr)
+        return None, f"Fallback failed: {e}"
         
-    return None
+    return None, "All generation attempts failed"
 
 
 def cleanup_old_generated_images(active_ids: List[str]) -> None:
@@ -1188,16 +1200,16 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
 
                 # 3. Generate new image
                 if gen_count < max_generations_per_run:
-                    ai_image = fetch_ai_image(cluster.title, cluster.summary, cluster.category, cluster.key)
+                    gen_count += 1
+                    ai_image, fail_msg = fetch_ai_image(cluster.title, cluster.summary, cluster.category, cluster.key)
                     if ai_image:
                         cluster.image = ai_image
                         cluster.ai_image_pending = False
                         cluster.image_failure_reason = ""
-                        gen_count += 1
-                        time.sleep(5)
                     else:
                         cluster.ai_image_pending = True
-                        cluster.image_failure_reason = "Image generation failed (all service endpoints timed out or returned invalid data)"
+                        cluster.image_failure_reason = fail_msg or "Image generation failed"
+                    time.sleep(5)
                 else:
                     cluster.ai_image_pending = True
                     cluster.image_failure_reason = "Generation skipped during this run to respect rate limits (max 30 generations per run)"
