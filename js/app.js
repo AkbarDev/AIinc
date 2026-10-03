@@ -2329,6 +2329,46 @@ function setupAIChat() {
 
     if (!toggleBtn || !panel || !closeBtn || !form || !messageArea) return;
 
+    // Typewriter effect for placeholder
+    const prompts = [
+        "Show top trending news...",
+        "What's happening in the Ad industry?",
+        "What is the latest in AI news?",
+        "Startup launches across the globe...",
+        "Summarize the biggest brand moves today..."
+    ];
+    let promptIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    
+    function typePlaceholder() {
+        const currentPrompt = prompts[promptIndex];
+        
+        if (isDeleting) {
+            userInput.placeholder = currentPrompt.substring(0, charIndex - 1);
+            charIndex--;
+        } else {
+            userInput.placeholder = currentPrompt.substring(0, charIndex + 1);
+            charIndex++;
+        }
+
+        let delay = isDeleting ? 40 : 100;
+
+        if (!isDeleting && charIndex === currentPrompt.length) {
+            delay = 2000;
+            isDeleting = true;
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            promptIndex = (promptIndex + 1) % prompts.length;
+            delay = 500;
+        }
+
+        setTimeout(typePlaceholder, delay);
+    }
+    
+    userInput.placeholder = "";
+    setTimeout(typePlaceholder, 1000);
+
     toggleBtn.addEventListener('click', () => {
         const isClosed = panel.style.display === 'none';
         panel.style.display = isClosed ? 'flex' : 'none';
