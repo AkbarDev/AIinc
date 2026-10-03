@@ -1159,14 +1159,31 @@ def matches_ui_category(cluster_category: str, title: str, summary: str, ui_cate
 def fetch_og_image(url: str) -> Optional[str]:
     try:
         req = Request(url, headers={"User-Agent": USER_AGENT})
-        with urlopen(req, timeout=3) as resp:
-            html = resp.read(10000).decode("utf-8", errors="ignore")
+        with urlopen(req, timeout=5) as resp:
+            # Read up to 100KB to ensure we capture the full <head> and early <body>
+            html = resp.read(100000).decode("utf-8", errors="ignore")
+            
+            from urllib.parse import urljoin
+            
+            # 1. Try og:image
             match = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
+            if not match:
+                match = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', html, re.IGNORECASE)
+            
+            # 2. Try twitter:image
+            if not match:
+                match = re.search(r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
+            
+            # 3. Fallback to the first <img src="..."> in the document that looks somewhat substantial (e.g., hero image)
+            if not match:
+                match = re.search(r'<img[^>]+src=["\']([^"\']+(?:jpg|jpeg|png|webp|avif))["\']', html, re.IGNORECASE)
+                
             if match:
-                return match.group(1)
-            match = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', html, re.IGNORECASE)
-            if match:
-                return match.group(1)
+                img_url = match.group(1).strip()
+                # Resolve relative URLs
+                if not img_url.startswith("http"):
+                    img_url = urljoin(url, img_url)
+                return img_url
     except Exception:
         pass
     return None
