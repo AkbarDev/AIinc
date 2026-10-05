@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-04T22:07:21.886530+00:00",
-  "sources_scanned": 3094,
-  "feeds_polled": 33,
+  "generated_at": "2026-10-05T01:26:08.262259+00:00",
+  "sources_scanned": 2784,
+  "feeds_polled": 30,
   "feed_pool": 38,
   "continent_counts": {
-    "NA": 1961,
+    "NA": 1851,
     "SA": 0,
-    "EU": 1133,
+    "EU": 933,
     "AF": 0,
     "AS": 0,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 14,
+  "clusters": 6,
   "trends": [
     {
       "id": "google froze its open source bug bounty program due to a significant rise in ai submissions",
       "title": "Google froze its open source bug bounty program due to a \u2018significant rise\u2019 in AI submissions",
-      "summary": "Google pauses open source bug bounty program amid surge in AI-generated submissions.",
+      "summary": "Google pauses open source bug bounty program amid surge in low-quality AI-generated submissions.",
       "image": "https://techcrunch.com/wp-content/uploads/2025/07/ai-slop-bug-bounty-reports-1646637201.jpg?resize=1200,863",
       "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
       "category": "tech",
@@ -32,10 +32,10 @@
         "ai",
         "open source"
       ],
-      "score": 0.5174,
+      "score": 0.4362,
       "signals": {
-        "score": 0.5174,
-        "recency": 0.7654006491514495,
+        "score": 0.4362,
+        "recency": 0.44065065528024305,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -45,63 +45,9 @@
       "image_failure_reason": ""
     },
     {
-      "id": "can super intelligence and a nonbinding safety pact solve ais image problem",
-      "title": "Can \u2018super intelligence\u2019 and a non-binding safety pact solve AI\u2019s image problem?",
-      "summary": "Equity discusses the Trump administration's efforts to rebrand AI and address its public perception issues.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297262633.jpg?resize=1200,800",
-      "link": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-10-04T20:08:34+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4657,
-      "signals": {
-        "score": 0.4657,
-        "recency": 0.7189275101212921,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "china shutters nearly 25 of its banks amid oversight push",
-      "title": "China Shutters Nearly 25% of Its Banks Amid Oversight Push",
-      "summary": "China closes nearly 25% of its banks due to increased regulatory oversight.",
-      "image": "https://www.pymnts.com/wp-content/uploads/2026/10/China-banks-close-1.jpg?w=457",
-      "link": "https://www.pymnts.com/legal/bank-regulation/2026/china-shutters-nearly-25-of-its-banks-amid-oversight-push/",
-      "category": "commerce",
-      "geo": "global",
-      "published_at": "2026-10-04T21:55:34+00:00",
-      "source_count": 1,
-      "source_names": [
-        "PYMNTS"
-      ],
-      "keywords": [],
-      "score": 0.4619,
-      "signals": {
-        "score": 0.4619,
-        "recency": 0.9677586759053903,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
       "id": "techcrunch mobility reining in robotaxis",
       "title": "TechCrunch Mobility: Reining in robotaxis",
-      "summary": "TechCrunch explores AI's growing role in the future of transportation, focusing on advancements in robotaxi technology.",
+      "summary": "TechCrunch explores the future of transportation, focusing on AI's role in regulating robotaxis.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/zoox-waymo-getty.jpg?resize=1200,801",
       "link": "https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/",
       "category": "tech",
@@ -115,13 +61,41 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4381,
+      "score": 0.3994,
       "signals": {
-        "score": 0.4381,
-        "recency": 0.3654708265738459,
+        "score": 0.3994,
+        "recency": 0.21040609175615077,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.845,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "can super intelligence and a nonbinding safety pact solve ais image problem",
+      "title": "Can \u2018super intelligence\u2019 and a non-binding safety pact solve AI\u2019s image problem?",
+      "summary": "Efforts to improve AI's public image through 'super intelligence' and a safety pact are discussed, alongside the Trump administration's rebranding attempts.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297262633.jpg?resize=1200,800",
+      "link": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-04T20:08:34+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3895,
+      "signals": {
+        "score": 0.3895,
+        "recency": 0.41389549223031386,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -141,10 +115,10 @@
         "Search Engine Journal"
       ],
       "keywords": [],
-      "score": 0.417,
+      "score": 0.3334,
       "signals": {
-        "score": 0.417,
-        "recency": 0.7880171010654751,
+        "score": 0.3334,
+        "recency": 0.45367122740423865,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -154,36 +128,9 @@
       "image_failure_reason": ""
     },
     {
-      "id": "the battle for 3b how publicis and omnicom are rewriting the agency playbook in 2026 portadaonlinecom",
-      "title": "The Battle for $3B+: How Publicis and Omnicom Are Rewriting the Agency Playbook in 2026 - portada-online.com",
-      "summary": "Publicis and Omnicom compete to redefine the advertising agency model in a $3B+ market by 2026.",
-      "image": "assets/images/generated/the battle for 3b how publicis and omnicom are rewriting the agency playbook in 2026 portadaonlinecom.jpg",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUG9Fa3Y5Q0EyWGVHUV9DRnZJUUZZRUROaGRpUG5Ya294WG4tUjNYekpwZjJ4TE1mOFNweFhTTjZYUkxScWU4RHFrc0Zkc3ZSWm9wQW5lRGFaTm1EbjFyNk1RTWM3ZlBjckZ5Umx5cFotS20tdkN2SkxpMVBBUEZTR05FM3NxU3FWOG1pR0lTWQ?oc=5",
-      "category": "ads",
-      "geo": "global",
-      "published_at": "2026-10-04T18:29:58+00:00",
-      "source_count": 2,
-      "source_names": [
-        "Google News - Omnicom",
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.4107,
-      "signals": {
-        "score": 0.4107,
-        "recency": 0.5466843850676427,
-        "keyword_volume": 0.0,
-        "source_signal": 0.4,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
       "id": "trump unveils his new super intelligence force",
       "title": "Trump unveils his new Super Intelligence Force",
-      "summary": "Trump launches new task force to address AI safety concerns, emphasizing tech oversight.",
+      "summary": "Trump introduces a new task force to address AI safety concerns, dubbed the Super Intelligence Force.",
       "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2297764008.jpg?w=1024",
       "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
       "category": "ai",
@@ -196,10 +143,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3656,
+      "score": 0.3318,
       "signals": {
-        "score": 0.3656,
-        "recency": 0.3182255895016597,
+        "score": 0.3318,
+        "recency": 0.18320642227872141,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -209,89 +156,9 @@
       "image_failure_reason": ""
     },
     {
-      "id": "wpp stock heads into october 29 update after h1 revenue decline ad hoc news",
-      "title": "WPP stock heads into October 29 update after H1 revenue decline - AD HOC NEWS",
-      "summary": "WPP stock heads into October 29 update after H1 revenue decline &nbsp;&nbsp; AD HOC NEWS",
-      "image": "assets/images/generated/wpp stock heads into october 29 update after h1 revenue decline ad hoc news.jpg",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc2MxR1RDVkxjcm9sVXBZdW84MW1KVldwZ3NCVl9OZ0VWZ045S1FtRl9jTXB6QlNUeWp3UVZQN1AyN3VpX1VuVThqSUkzb3VxZ0RIajVTaTV2ek4xVmk4WFRIZUNCaHhfci1Ia2hhWTRpS01ndHJrZ3ZUenREcEZRNTI2N2pUQ29BUG40Q2dDQXNONE9mUkY4VmF4SEJNaEFIQ0ZLSy0wMTZKeDBVM1ZKajNCcUNnNGhpc2ctVk01Vm9WMlRP?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-10-04T17:49:57+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.3363,
-      "signals": {
-        "score": 0.3363,
-        "recency": 0.4891720342693341,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "jon cook to leave wpp eric campbell to take over as wpp creatives ceo manifestmediain",
-      "title": "Jon Cook to leave WPP; Eric Campbell to take over as WPP Creative's CEO - manifest-media.in",
-      "summary": "Jon Cook to leave WPP; Eric Campbell to take over as WPP Creative's CEO &nbsp;&nbsp; manifest-media.in",
-      "image": "assets/images/generated/jon cook to leave wpp eric campbell to take over as wpp creatives ceo manifestmediain.jpg",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLWsxeFRFSkFzN2lmVnJtaDNWdGljNTRmSGp2V0hIZ1dTR0dYQkhUaTBpRzljNkI2d2ZiUmdkaWFBME92SkJucmlGb2hkQm41SXdNVXBJYXNpSnB2dzBhOE5OYTNCUVZPRUdyZUVPZkRTQXI0NDJOYWRRenJGWG5jV3l0QUw2VW9tSWM0X1pnTXVDX2J0WndUQVI5VzAzTHA5ZFJHcF9PQm9hU2ZTN3UyTkRHNmI4T0RKM21JYQ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-10-04T15:22:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.2951,
-      "signals": {
-        "score": 0.2951,
-        "recency": 0.3243236748909572,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "the agent said it was done the database disagreed",
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "summary": "Summary unavailable from feed.",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png",
-      "link": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-10-03T22:56:48+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2838,
-      "signals": {
-        "score": 0.2838,
-        "recency": 0.021011614306132794,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.79,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
       "id": "5 content marketing ideas for november 2026",
       "title": "5 Content Marketing Ideas for November 2026",
-      "summary": "November ideas include Route 66, the science behind products, 1976, television history, and rethinking the holiday gift guide.",
+      "summary": "Explore five unique content marketing ideas for November, from Route 66 to holiday gift guides.",
       "image": "https://www.practicalecommerce.com/wp-content/uploads/2026/09/093026-featured-route-66.jpg",
       "link": "https://www.practicalecommerce.com/5-content-marketing-ideas-for-november",
       "category": "brands",
@@ -302,91 +169,13 @@
         "Practical Ecommerce"
       ],
       "keywords": [],
-      "score": 0.2513,
+      "score": 0.2368,
       "signals": {
-        "score": 0.2513,
-        "recency": 0.1372287746555024,
+        "score": 0.2368,
+        "recency": 0.07900430910568354,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.78,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "dont race out to buy wpp plc lonwpp just because its going exdividend simply wall street",
-      "title": "Don't Race Out To Buy WPP plc (LON:WPP) Just Because It's Going Ex-Dividend - Simply Wall Street",
-      "summary": "Don't Race Out To Buy WPP plc (LON:WPP) Just Because It's Going Ex-Dividend &nbsp;&nbsp; Simply Wall Street",
-      "image": "assets/images/generated/dont race out to buy wpp plc lonwpp just because its going exdividend simply wall street.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTkNpaGRVekQ0cGlUR1hqMnZpMVB3U25TY3ZEbXpFRkJpaGFWR1Y1T2VxN1FyQjFWX1VBbk83QzBiUnQ3MVRBUmtDa3JnVGNkMm9ER2NEZ2Z5VkxNUzkxaTBHNzZhSmdBb0d4Q1FSTmJwdUIzWGtaVEViVHA3SkxEbVQ3TlFZN0lqQmJNVUFaQlFOckFHcjMwVUxGTDM5dW80S21TSjVEQW1QbUgxWDFvWEF1amw4b05pXzgxdVBRLTZUUdIBxwFBVV95cUxQUldxMndGZkZpakNQampjWWJ6SHphaXAzLWsxcm9uV2ZWa3N6R2FNejVGM2ZLdDM4enUzTG9qQ05wbEo2SzMwZWE2NmFFaXhXYU5YSHl4MUJlanJleEo3TE5IVGlCbWswd09qekNHU2RSSWJFbmg1dHNqY1NTa0I0NHRpbElZNE9nSVVMRkxhcVhPeVJuSkhhQ0FOMjA5N0p4MlUwRDRfcV9oQVlFYmVTMHdrU2xBWVYza1hsV2M1bi1NT1NMODhR?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-10-04T08:27:24+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.2396,
-      "signals": {
-        "score": 0.2396,
-        "recency": 0.10252178853254851,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "publicis groupe stock falls 115 percent as target rises ad hoc news",
-      "title": "Publicis Groupe stock falls 1.15 percent as target rises - AD HOC NEWS",
-      "summary": "Publicis Groupe stock falls 1.15 percent as target rises &nbsp;&nbsp; AD HOC NEWS",
-      "image": "assets/images/generated/publicis groupe stock falls 115 percent as target rises ad hoc news.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaHl6eEpkT2hxY1BMejB0bHhMblRrZU1KYko4YmpUWV9UZHprQl9RenlNdDI3TTF1b01Mck9KMW51VmpuaEs4d3NyWTNvWXRMM2FIcG9sU0dCT1d3WmVRbWJ1RVZUaUduM2Q4YTduay02MTVWc2lyRVZlNExteGF6VjBTbWJOdmtwMjFZX0daSThRdzlGN2tNb2ZKSkhBMUtBRUhabVBlWmdjeElBTGNhTkZxVXdVWFpvWU5B?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-10-04T07:22:27+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.2354,
-      "signals": {
-        "score": 0.2354,
-        "recency": 0.08559772283260662,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "jon cook to leave wpp as eric campbell preps to take vml reins reel360com",
-      "title": "Jon Cook to leave WPP as Eric Campbell preps to take VML reins - reel360.com",
-      "summary": "Jon Cook to leave WPP as Eric Campbell preps to take VML reins &nbsp;&nbsp; reel360.com",
-      "image": "assets/images/generated/jon cook to leave wpp as eric campbell preps to take vml reins reel360com.jpg",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaTR3clpfSV81UW1tSVh1ZmdiS0J2NzEwZzdIeFRLSUZYalhuOEZ1N3BnWEVRbDZtNU4xZDg1aFFUa1hYTGEwemc2RXJDQXNRVUFvUlpBWURmUGtZQnlkTUxzbEpuOUQ3dVZZQVMwTkplckZ3Vm14Snc1WTJNb3dHQWRyR1ZSTG1vTHJaT3pFMXA4SWMzN1E?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-10-04T05:15:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.229,
-      "signals": {
-        "score": 0.229,
-        "recency": 0.060077230083706926,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
