@@ -1,17 +1,18 @@
 # TrendGrid (AIinc)
 
-_Last updated: 2026-10-11T08:56:00+05:30_
+_Last updated: 2026-10-11T11:28:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
 
-### Recent Enhancements (2026-10-11T11:08:00+05:30)
-- **Static LLM Intelligence Radar Cockpit (Hero Carousel)**:
-  - **Dynamic Multi-Source Synthesis**: Built a dedicated intelligence cockpit on Slide 0 of the hero carousel that synthesizes lead themes, high-velocity macro signals, and cross-category signal velocity directly from ingested global news data.
-  - **Live Signal Velocity Matrix**: Real-time category momentum percentages computed across AI, Commerce, Tech, and Ads feeds.
-  - **Ecosystem Quick-Jump**: One-click exploration button directing users straight to the new Free AI Tools catalog.
-- **Free Google AI Tool Stack Integration**:
-  - Embedded high-signal ecosystem tools (Pomelli, NotebookLM, Opal, Stitch, Google AI Studio, Antigravity, Mixboard, Flow Music, Illuminate, Pinpoint) into Snapfacts.
-  - Added dedicated navigation tab (`⚡ FREE AI TOOLS`), category filtering, and customized "Why It Matters" playbook takeaways.
+### Recent Enhancements (2026-10-11T11:28:00+05:30)
+- **Removal of Google Stack Tools from News Feed Grid**:
+  - Cleaned the news grid of Google tools cards and removed the navigation pill (`⚡ FREE AI TOOLS`), ensuring the core news feed consists purely of authentic aggregated industry editorial stories.
+- **Dynamic LLM Parameters & Benchmark Carousel**:
+  - Replaced legacy news story and cockpit carousels with a dedicated **Frontier LLM Parameters & Leaderboard Carousel**.
+  - **Direct Dynamic Linking to LLM Feeds & Benchmarks**: Each slide links out to live benchmark feeds including the **LMSYS Chatbot Arena Leaderboard** (`https://arena.ai/leaderboard`) and Hugging Face Open LLM Leaderboard.
+  - **Parameter & Metric Matrices**: Every slide showcases key model parameters including Arena Elo ratings, 2,000,000 token context window capacity, HumanEval/SWE-Bench verified coding ratings, and open-weight parameter sizes (Llama 3.1 405B, DeepSeek-V2.5, Qwen 2.5).
+  - **Editorial 16:9 Visual Framing**: Custom high-resolution editorial imagery with glassmorphic cards, live status pulse dots, parameter chips, and direct external action buttons.
+  - **Optimized Mobile & Touch Carousel Navigation**: Full swipe gesture support, keyboard accessibility, and subtle auto-rotation.
 - **Authentic Editorial News Card Redesign**:
   - **Contextual Media Frame (16:9)**: Cinematic image framing with smooth scale hover micro-interactions, soft gradient vignette, category jump pill, read time indicator, and distinct AI vs. Press badges.
   - **Publisher Credibility Bar**: Embedded source favicons, publication name, and real-time relative timestamps (`15m ago`, `2h ago`).
