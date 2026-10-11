@@ -1,8 +1,14 @@
 # TrendGrid (AIinc)
 
-_Last updated: 2026-10-11T12:08:00+05:30_
+_Last updated: 2026-10-11T12:20:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
+
+### Recent Enhancements (2026-10-11T12:20:00+05:30)
+- **Merged & Deduplicated 62 High-Authority RSS Feeds in `config/sources.json`**:
+  - Ingested curated feeds spanning AI, Commerce, Media, Advertising, Startups, Brand Intelligence, and Data Intelligence.
+  - Automatically filtered out 19 duplicate endpoints against existing inventory, expanding the active feed pool to 100 trusted global sources.
+  - Configured authority weights and regional geo-mapping for all new sources.
 
 ### Recent Enhancements (2026-10-11T12:08:00+05:30)
 - **Upgraded AI Editorial Visual Generation to Gemini 1.5 Flash + Google Imagen 3**:
