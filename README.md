@@ -1,8 +1,19 @@
 # TrendGrid (AIinc)
 
-_Last updated: 2026-10-11T11:36:00+05:30_
+_Last updated: 2026-10-11T11:45:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
+
+### Recent Enhancements (2026-10-11T11:45:00+05:30)
+- **Removal of SnapFacts Brief Chat Window & Sidebar Form**:
+  - Completely removed the floating `#ai-chat-widget` window and chat trigger button from the homepage.
+  - Removed the sidebar newsletter/brief submission widget (`.newsletter-widget`), eliminating all residual chat/newsletter forms.
+- **Full Display View Stretch for News Cards (Left-to-Right Edge Expansion)**:
+  - Redesigned `.news-board-shell` to full 100% width with no restrictive sidebar constraints, expanding max viewport canvas to 1440px / 96vw.
+  - Upgraded `.news-card-grid` to stretch edge-to-edge with responsive auto-fill (`minmax(360px, 1fr)`), allowing news cards to render in an unconstrained, widescreen editorial presentation.
+- **Homepage Streamlining & 6-Column Ribbon Removal**:
+  - Removed the 6 vertical column cards (`.arena-stats-ribbon`) from the homepage layout.
+  - Kept a single unified Frontier LLM Leaderboard Standings Table & Model Matrix with benchmark ratings, direct links to Arena feeds, and category navigation.
 
 ### Recent Enhancements (2026-10-11T11:36:00+05:30)
 - **Dedicated LLM Leaderboard Homepage (Zero News Cards on Home)**:

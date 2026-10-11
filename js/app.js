@@ -757,33 +757,6 @@ function renderLlmLeaderboardHome() {
             </div>
         </div>
 
-        <div class="arena-stats-ribbon">
-            <div class="arena-stat-item">
-                <span class="stat-num">150+</span>
-                <span class="stat-lbl">Models Evaluated</span>
-            </div>
-            <div class="arena-stat-item">
-                <span class="stat-num">2.3M+</span>
-                <span class="stat-lbl">Pairwise Battles</span>
-            </div>
-            <div class="arena-stat-item">
-                <span class="stat-num">1,362</span>
-                <span class="stat-lbl">Overall Top Elo (GPT-4o)</span>
-            </div>
-            <div class="arena-stat-item">
-                <span class="stat-num">1,372</span>
-                <span class="stat-lbl">Coding Elo #1 (Claude 3.5)</span>
-            </div>
-            <div class="arena-stat-item">
-                <span class="stat-num">2,000,000</span>
-                <span class="stat-lbl">Context Record (Gemini 1.5)</span>
-            </div>
-            <div class="arena-stat-item">
-                <span class="stat-num">405B</span>
-                <span class="stat-lbl">Open Weights #1 (Llama 3.1)</span>
-            </div>
-        </div>
-
         <div class="arena-table-card">
             <div class="arena-table-header-row">
                 <span class="col-rank">Rank</span>
