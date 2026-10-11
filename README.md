@@ -91,6 +91,16 @@ _Last updated: 2026-10-11T13:20:00+05:30_
 - **Service Worker Cache Upgrade**:
   - Incremented cache to `snapfacts-v3` to purge stale cached assets.
 
+### Recent Enhancements (2026-10-11T18:50:00+05:30)
+- **Header-Confined Network Graph & Frozen Sticky Header Navigation**:
+  - **Removed Full-Page Network Background**: Completely eliminated the network graph canvas from the page body and news content background across the home page and all category pages. The page body and content area now use the site's clean, distraction-free editorial background.
+  - **Restricted Network Graph to Header**: Mounted `<canvas id="network-canvas">` strictly inside `<header class="masthead">` with `aria-hidden="true"`, sized dynamically to the header's container width and height.
+  - **Frozen (Sticky) Header Across All Pages**: Configured the header with `position: sticky; top: 0; z-index: 100` and backdrop blur (`backdrop-filter: blur(16px)`), ensuring consistent sticky behavior while scrolling without layout shift or content occlusion.
+  - **Interactive Category Node Anchors**: Category nodes float smoothly along a horizontal strip inside the header canvas with gentle drift and connecting lines; clicking any category node navigates directly to that category page.
+  - **Optimized Performance & Accessibility**: Throttled node density on mobile devices, pauses `requestAnimationFrame` when tab visibility changes or when `prefers-reduced-motion` is enabled.
+- **Service Worker & Asset Cache Refresh**:
+  - Incremented cache to `snapfacts-v8` (`?v=20261011_8`) for seamless PWA and browser updates.
+
 ### Recent Enhancements (2026-10-11T11:45:00+05:30)
 - **Removal of SnapFacts Brief Chat Window & Sidebar Form**:
   - Completely removed the floating `#ai-chat-widget` window and chat trigger button from the homepage.

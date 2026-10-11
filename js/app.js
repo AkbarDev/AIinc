@@ -334,6 +334,9 @@ function setupNetworkWallpaper() {
     const canvas = document.getElementById('network-canvas');
     if (!canvas) return;
 
+    const header = canvas.closest('.masthead') || document.querySelector('.masthead');
+    if (!header) return;
+
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
@@ -341,24 +344,24 @@ function setupNetworkWallpaper() {
     let animFrameId = null;
     let isVisible = !document.hidden;
 
-    // Responsive sizing
-    let width = (canvas.width = window.innerWidth);
-    let height = (canvas.height = window.innerHeight);
+    // Sized strictly to the sticky header container
+    let width = (canvas.width = header.clientWidth || window.innerWidth);
+    let height = (canvas.height = header.clientHeight || 70);
 
-    // Mouse / touch interaction point
+    // Mouse / touch interaction point relative to the header
     const pointer = {
         x: null,
         y: null,
-        radius: 140,
+        radius: 90,
         active: false,
     };
 
     // Category node definitions with editorial theme accents
     const categoryNodeDefs = [
         { key: 'ai', label: 'AI', color: '#38bdf8' },
-        { key: 'tech', label: 'Technology', color: '#818cf8' },
+        { key: 'tech', label: 'Tech', color: '#818cf8' },
         { key: 'commerce', label: 'Commerce', color: '#34d399' },
-        { key: 'ads', label: 'Advertising', color: '#f59e0b' },
+        { key: 'ads', label: 'Ads', color: '#f59e0b' },
         { key: 'startup', label: 'Startups', color: '#ec4899' },
         { key: 'media', label: 'Media', color: '#a78bfa' },
         { key: 'brands', label: 'Brands', color: '#f43f5e' },
@@ -369,46 +372,47 @@ function setupNetworkWallpaper() {
     function initNodes() {
         nodes = [];
         const isMobile = width < 768;
-        const ambientCount = isMobile ? 14 : 32;
+        const ambientCount = isMobile ? 8 : 18;
 
-        // 1. Prominent Category Nodes (Larger & Labeled)
+        // 1. Prominent Category Nodes horizontally spaced across header
+        const totalCats = categoryNodeDefs.length;
+        const hPadding = isMobile ? 25 : 60;
+        const availableW = Math.max(200, width - hPadding * 2);
+
         categoryNodeDefs.forEach((cat, index) => {
-            const angle = (index / categoryNodeDefs.length) * Math.PI * 2;
-            const radiusSpread = Math.min(width, height) * (isMobile ? 0.38 : 0.32);
-            const cx = width / 2 + Math.cos(angle) * radiusSpread;
-            const cy = height / 2 + Math.sin(angle) * radiusSpread;
+            const baseX = hPadding + (index / (totalCats - 1 || 1)) * availableW;
+            const baseY = height / 2 + (Math.random() - 0.5) * (height * 0.4);
 
             nodes.push({
-                x: Math.max(50, Math.min(width - 50, cx + (Math.random() - 0.5) * 80)),
-                y: Math.max(50, Math.min(height - 50, cy + (Math.random() - 0.5) * 80)),
-                vx: (Math.random() - 0.5) * 0.32,
-                vy: (Math.random() - 0.5) * 0.32,
-                radius: isMobile ? 6 : 7.5,
+                x: Math.max(20, Math.min(width - 20, baseX + (Math.random() - 0.5) * 20)),
+                y: Math.max(12, Math.min(height - 12, baseY)),
+                vx: (Math.random() - 0.5) * 0.22,
+                vy: (Math.random() - 0.5) * 0.18,
+                radius: isMobile ? 4.5 : 5.5,
                 isCategory: true,
                 key: cat.key,
                 label: cat.label,
                 color: cat.color,
-                pulse: Math.random() * Math.PI * 2,
             });
         });
 
-        // 2. Ambient Connecting Nodes
+        // 2. Ambient Connecting Nodes inside header
         for (let i = 0; i < ambientCount; i++) {
             nodes.push({
                 x: Math.random() * width,
                 y: Math.random() * height,
-                vx: (Math.random() - 0.5) * 0.45,
-                vy: (Math.random() - 0.5) * 0.45,
-                radius: Math.random() * 2 + 1.8,
+                vx: (Math.random() - 0.5) * 0.35,
+                vy: (Math.random() - 0.5) * 0.22,
+                radius: Math.random() * 1.5 + 1.2,
                 isCategory: false,
-                color: 'rgba(148, 163, 184, 0.45)',
+                color: 'rgba(148, 163, 184, 0.35)',
             });
         }
     }
 
     function resize() {
-        width = canvas.width = window.innerWidth;
-        height = canvas.height = window.innerHeight;
+        width = canvas.width = header.clientWidth || window.innerWidth;
+        height = canvas.height = header.clientHeight || 70;
         initNodes();
         if (isReducedMotion) {
             renderFrame();
@@ -416,31 +420,53 @@ function setupNetworkWallpaper() {
     }
 
     window.addEventListener('resize', resize, { passive: true });
+    window.addEventListener('orientationchange', () => setTimeout(resize, 100), { passive: true });
 
-    // Pointer events for gentle attraction & line highlights
-    window.addEventListener('mousemove', (e) => {
-        pointer.x = e.clientX;
-        pointer.y = e.clientY;
+    // Header-scoped pointer events
+    header.addEventListener('mousemove', (e) => {
+        const rect = header.getBoundingClientRect();
+        pointer.x = e.clientX - rect.left;
+        pointer.y = e.clientY - rect.top;
         pointer.active = true;
     }, { passive: true });
 
-    window.addEventListener('mouseleave', () => {
+    header.addEventListener('mouseleave', () => {
         pointer.active = false;
         pointer.x = null;
         pointer.y = null;
     });
 
-    window.addEventListener('touchstart', (e) => {
+    header.addEventListener('touchstart', (e) => {
         const touch = e.touches[0];
         if (touch) {
-            pointer.x = touch.clientX;
-            pointer.y = touch.clientY;
+            const rect = header.getBoundingClientRect();
+            pointer.x = touch.clientX - rect.left;
+            pointer.y = touch.clientY - rect.top;
             pointer.active = true;
         }
     }, { passive: true });
 
-    window.addEventListener('touchend', () => {
+    header.addEventListener('touchend', () => {
         pointer.active = false;
+    });
+
+    // Clicking category nodes inside the header canvas navigates to that category page
+    canvas.addEventListener('click', (e) => {
+        const rect = canvas.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const clickY = e.clientY - rect.top;
+        const hitRadius = 18;
+
+        for (let i = 0; i < nodes.length; i++) {
+            const n = nodes[i];
+            if (!n.isCategory) continue;
+            const dx = n.x - clickX;
+            const dy = n.y - clickY;
+            if (Math.sqrt(dx * dx + dy * dy) <= hitRadius) {
+                navigateToCategory(n.key);
+                break;
+            }
+        }
     });
 
     // Pause on hidden tab to save battery and performance
@@ -457,35 +483,35 @@ function setupNetworkWallpaper() {
     function renderFrame() {
         ctx.clearRect(0, 0, width, height);
 
-        const maxDist = width < 768 ? 130 : 175;
+        const maxDist = width < 768 ? 85 : 120;
 
         // Draw connecting lines
         for (let i = 0; i < nodes.length; i++) {
             const na = nodes[i];
-            for (let j = i + 1; j < nodes[j] ? nodes.length : 0; j++) {
+            for (let j = i + 1; j < nodes.length; j++) {
                 const nb = nodes[j];
                 const dx = na.x - nb.x;
                 const dy = na.y - nb.y;
                 const dist = Math.sqrt(dx * dx + dy * dy);
 
                 if (dist < maxDist) {
-                    const alpha = (1 - dist / maxDist) * (na.isCategory || nb.isCategory ? 0.22 : 0.12);
+                    const alpha = (1 - dist / maxDist) * (na.isCategory || nb.isCategory ? 0.24 : 0.12);
                     ctx.beginPath();
                     ctx.moveTo(na.x, na.y);
                     ctx.lineTo(nb.x, nb.y);
 
                     if (na.isCategory && nb.isCategory) {
-                        ctx.strokeStyle = `rgba(56, 189, 248, ${alpha * 1.5})`;
-                        ctx.lineWidth = 1.2;
+                        ctx.strokeStyle = `rgba(56, 189, 248, ${alpha * 1.4})`;
+                        ctx.lineWidth = 1;
                     } else if (na.isCategory || nb.isCategory) {
                         const col = na.isCategory ? na.color : nb.color;
                         ctx.strokeStyle = col.startsWith('#') 
                             ? hexToRgba(col, alpha * 1.2)
                             : `rgba(148, 163, 184, ${alpha})`;
-                        ctx.lineWidth = 0.9;
+                        ctx.lineWidth = 0.8;
                     } else {
-                        ctx.strokeStyle = `rgba(148, 163, 184, ${alpha * 0.8})`;
-                        ctx.lineWidth = 0.6;
+                        ctx.strokeStyle = `rgba(148, 163, 184, ${alpha * 0.7})`;
+                        ctx.lineWidth = 0.5;
                     }
                     ctx.stroke();
                 }
@@ -497,26 +523,26 @@ function setupNetworkWallpaper() {
                 const pdy = na.y - pointer.y;
                 const pdist = Math.sqrt(pdx * pdx + pdy * pdy);
                 if (pdist < pointer.radius) {
-                    const pAlpha = (1 - pdist / pointer.radius) * 0.45;
+                    const pAlpha = (1 - pdist / pointer.radius) * 0.38;
                     ctx.beginPath();
                     ctx.moveTo(na.x, na.y);
                     ctx.lineTo(pointer.x, pointer.y);
                     ctx.strokeStyle = na.isCategory 
                         ? hexToRgba(na.color, pAlpha)
                         : `rgba(56, 189, 248, ${pAlpha})`;
-                    ctx.lineWidth = 1.2;
+                    ctx.lineWidth = 1;
                     ctx.stroke();
 
                     // Gentle subtle attraction
                     if (!isReducedMotion) {
-                        na.x -= pdx * 0.012;
-                        na.y -= pdy * 0.012;
+                        na.x -= pdx * 0.01;
+                        na.y -= pdy * 0.01;
                     }
                 }
             }
         }
 
-        // Draw nodes
+        // Draw nodes inside header
         for (let i = 0; i < nodes.length; i++) {
             const n = nodes[i];
 
@@ -525,11 +551,11 @@ function setupNetworkWallpaper() {
                 n.x += n.vx;
                 n.y += n.vy;
 
-                // Bounce off edges gently
-                if (n.x < 30) { n.x = 30; n.vx *= -1; }
-                if (n.x > width - 30) { n.x = width - 30; n.vx *= -1; }
-                if (n.y < 30) { n.y = 30; n.vy *= -1; }
-                if (n.y > height - 30) { n.y = height - 30; n.vy *= -1; }
+                // Bounce off edges of the header gently
+                if (n.x < 15) { n.x = 15; n.vx *= -1; }
+                if (n.x > width - 15) { n.x = width - 15; n.vx *= -1; }
+                if (n.y < 8) { n.y = 8; n.vy *= -1; }
+                if (n.y > height - 8) { n.y = height - 8; n.vy *= -1; }
             }
 
             ctx.beginPath();
@@ -539,21 +565,21 @@ function setupNetworkWallpaper() {
                 // Category node: colored core + glowing halo
                 ctx.fillStyle = n.color;
                 ctx.shadowColor = n.color;
-                ctx.shadowBlur = 10;
+                ctx.shadowBlur = 8;
                 ctx.fill();
                 ctx.shadowBlur = 0;
 
                 // Outer faint ring
                 ctx.beginPath();
-                ctx.arc(n.x, n.y, n.radius + 3.5, 0, Math.PI * 2);
-                ctx.strokeStyle = hexToRgba(n.color, 0.35);
-                ctx.lineWidth = 1;
+                ctx.arc(n.x, n.y, n.radius + 2.5, 0, Math.PI * 2);
+                ctx.strokeStyle = hexToRgba(n.color, 0.4);
+                ctx.lineWidth = 0.8;
                 ctx.stroke();
 
-                // Labeled text beside category node
-                ctx.font = '600 11px "Space Grotesk", sans-serif';
-                ctx.fillStyle = 'rgba(241, 245, 249, 0.85)';
-                ctx.fillText(n.label, n.x + n.radius + 6, n.y + 4);
+                // Labeled text beside category node inside header
+                ctx.font = '600 10px "Space Grotesk", sans-serif';
+                ctx.fillStyle = 'rgba(241, 245, 249, 0.8)';
+                ctx.fillText(n.label, n.x + n.radius + 4, n.y + 3.5);
             } else {
                 ctx.fillStyle = n.color;
                 ctx.fill();
