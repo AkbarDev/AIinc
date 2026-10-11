@@ -1,20 +1,1173 @@
 {
-  "generated_at": "2026-10-11T04:35:24.183302+00:00",
-  "sources_scanned": 3135,
-  "feeds_polled": 33,
-  "feed_pool": 38,
+  "generated_at": "2026-10-11T11:07:04.176212+00:00",
+  "sources_scanned": 3846,
+  "feeds_polled": 82,
+  "feed_pool": 100,
   "continent_counts": {
-    "NA": 1999,
+    "NA": 2605,
     "SA": 0,
-    "EU": 1136,
+    "EU": 1180,
     "AF": 0,
-    "AS": 0,
+    "AS": 61,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 11,
+  "clusters": 136,
+  "llm_radar": {
+    "lead_theme": "\u201812.12: The Day\u2019 Director Kim Sung-soo Says AI \u2018Shows What\u2019s in Your Imagination\u2019",
+    "executive_summary": "Synthesized signal intelligence across 82 open publisher feeds. Detected high momentum in advertising, ai, brands.",
+    "macro_signals": [
+      {
+        "category": "MEDIA",
+        "headline": "\u201812.12: The Day\u2019 Director Kim Sung-soo Says AI \u2018Shows What\u2019s in Your Imagination\u2019",
+        "insight": "Kim Sung-soo, director of Korean box office hit \u201c12.12: The Day,\u201d once saw AI as a destroyer of the film industry.",
+        "score": 58.4,
+        "link": "https://variety.com/2026/film/markets-festivals/12-12-the-day-director-kim-sung-soo-ai-craft-1236908089/",
+        "impact": "High Velocity"
+      },
+      {
+        "category": "MEDIA",
+        "headline": "Keanu Reeves-Voiced Stop-Motion Samurai Film \u2018Hidari\u2019 Looks for New Partner After U.S. Talks Stall",
+        "insight": "Japan&#8217;s Dwarf Studios is looking for a new partner for \u201cHidari,\u201d the stop-motion samurai film voiced by Keanu Reeves, after talks with...",
+        "score": 58.0,
+        "link": "https://variety.com/2026/film/markets-festivals/keanu-reeves-hidari-new-partner-us-talks-stall-1236908055/",
+        "impact": "Market Shift"
+      },
+      {
+        "category": "BRANDS",
+        "headline": "Why the community-owned Green Bay Packers are NFL fans\u2019 Hail Mary as private equity takes the field",
+        "insight": "In late August, the estate of Paul G. Allen sold the Seattle Seahawks NFL franchise to an ownership group led by venture capitalist Vinod Kh...",
+        "score": 57.6,
+        "link": "https://www.fastcompany.com/91620956/can-the-green-bay-packers-continue-to-thrive-without-a-billionaire-backer",
+        "impact": "Adoption Alert"
+      }
+    ],
+    "category_velocity": {
+      "media": 99,
+      "brands": 99,
+      "ai": 54,
+      "startup": 99,
+      "technology": 99,
+      "commerce": 25,
+      "advertising": 35,
+      "digital-media": 25
+    },
+    "active_stories_count": 136
+  },
   "trends": [
+    {
+      "id": "1212 the day director kim sungsoo says ai shows whats in your imagination",
+      "title": "\u201812.12: The Day\u2019 Director Kim Sung-soo Says AI \u2018Shows What\u2019s in Your Imagination\u2019",
+      "summary": "Kim Sung-soo, director of Korean box office hit \u201c12.12: The Day,\u201d once saw AI as a destroyer of the film industry.",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Busan-AI-panel.jpg",
+      "link": "https://variety.com/2026/film/markets-festivals/12-12-the-day-director-kim-sung-soo-ai-craft-1236908089/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T10:18:24+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "ai",
+        "box office",
+        "film"
+      ],
+      "score": 0.5844,
+      "signals": {
+        "score": 0.5844,
+        "recency": 0.8735470010324666,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "keanu reevesvoiced stopmotion samurai film hidari looks for new partner after us talks stall",
+      "title": "Keanu Reeves-Voiced Stop-Motion Samurai Film \u2018Hidari\u2019 Looks for New Partner After U.S. Talks Stall",
+      "summary": "Japan&#8217;s Dwarf Studios is looking for a new partner for \u201cHidari,\u201d the stop-motion samurai film voiced by Keanu Reeves, after talks with a U.S.",
+      "image": "https://variety.com/wp-content/uploads/2026/06/MixCollage-25-Jun-2026-07-18-PM-2123.jpg",
+      "link": "https://variety.com/2026/film/markets-festivals/keanu-reeves-hidari-new-partner-us-talks-stall-1236908055/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T10:10:29+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "ai",
+        "film",
+        "studio"
+      ],
+      "score": 0.5796,
+      "signals": {
+        "score": 0.5796,
+        "recency": 0.8545467360514264,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "why the communityowned green bay packers are nfl fans hail mary as private equity takes the field",
+      "title": "Why the community-owned Green Bay Packers are NFL fans\u2019 Hail Mary as private equity takes the field",
+      "summary": "In late August, the estate of Paul G. Allen sold the Seattle Seahawks NFL franchise to an ownership group led by venture capitalist Vinod Khosla for $9.6 billion.",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91620956-Why-the-community-owned-Green-Bay-Packers-are-NFL-fans-Hail-Mary-as-private-equity-takes-the-field.jpg",
+      "link": "https://www.fastcompany.com/91620956/can-the-green-bay-packers-continue-to-thrive-without-a-billionaire-backer",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.749635+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.5756,
+      "signals": {
+        "score": 0.5756,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "its not ai and its not superintelligence so what is it",
+      "title": "It\u2019s not \u2018AI,\u2019 and it\u2019s not \u2018superintelligence.\u2019 So, what is it?",
+      "summary": "When President Donald Trump addressed the United Nations in late September, he said the word \u201cartificial\u201d in &#8220;artificial intelligence&#8221; made the technology sound fake .",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91621442-superintelligence-rebrand.jpg",
+      "link": "https://www.fastcompany.com/91621442/its-not-ai-and-its-not-superintelligence-so-what-is-it",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.750763+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "score": 0.5756,
+      "signals": {
+        "score": 0.5756,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "i made terrible games with googles ai playground",
+      "title": "I Made Terrible Games With Google\u2019s AI Playground",
+      "summary": "A long day\u2019s haul in the video game slop mines.",
+      "image": "assets/images/generated/i made terrible games with googles ai playground.jpg",
+      "link": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-11T11:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Wired AI"
+      ],
+      "keywords": [
+        "ai",
+        "game"
+      ],
+      "score": 0.5651,
+      "signals": {
+        "score": 0.5651,
+        "recency": 0.980553777735684,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ainative studios can create original ip while traditional studios keep their edge vfx veteran hong jae cheol says at busan",
+      "title": "AI-Native Studios Can Create Original IP While Traditional Studios Keep Their Edge, VFX Veteran Hong Jae Cheol Says at Busan",
+      "summary": "Small, AI-native companies running automated pipelines can develop their own intellectual property, while traditional studios hold on to their advantages in established",
+      "image": "https://variety.com/wp-content/uploads/2026/10/InnoAsia1.jpg",
+      "link": "https://variety.com/2026/film/markets-festivals/ai-native-studios-create-original-ip-vfx-veteran-busan-1236908092/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T10:33:16+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "ai",
+        "studio"
+      ],
+      "score": 0.5536,
+      "signals": {
+        "score": 0.5536,
+        "recency": 0.9103764835412133,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "can ai be moral without being sentient",
+      "title": "Can AI be moral without being sentient?",
+      "summary": "Pope Leo XIV and one of the world\u2019s leading AI companies recently found themselves on opposite sides of a thorny question: Can a chatbot have a conscience?",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91620073-Can-AI-be-moral-without-being-sentient-.jpg",
+      "link": "https://www.fastcompany.com/91620073/can-ai-be-moral-without-being-sentient",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.748774+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5356,
+      "signals": {
+        "score": 0.5356,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "want to improve your time management lower your expectations",
+      "title": "Want to improve your time management? Lower your expectations",
+      "summary": "I feel like such a failure: Nothing ever goes according to how I plan, and no matter how hard I try, I can never get everything done that I want to do.",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91619959-Work-Life-Want-to-improve-your-time-management-Lower-your-expectations.jpg",
+      "link": "https://www.fastcompany.com/91619959/want-to-improve-your-productivity-lower-your-expectations",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.750453+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5356,
+      "signals": {
+        "score": 0.5356,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "this free tool fixes your copypaste headaches",
+      "title": "This free tool fixes your copy-paste headaches",
+      "summary": "Have you ever pasted text into Slack or Google Docs and noticed that everything looks just plain wrong ?",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91599559-Tired-of-funky-Slack-formatting-This-free-tool-fixes-your-copy-paste-headache.jpg",
+      "link": "https://www.fastcompany.com/91599559/fix-cut-copy-paste",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.751664+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5356,
+      "signals": {
+        "score": 0.5356,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "can apple keep its airpods from becoming pervertpods",
+      "title": "Can Apple keep its AirPods from becoming \u2018PervertPods\u2019?",
+      "summary": "Apple\u2019s AirPods are arguably the most iconic headphones ever.",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-91606695-will-the-new-camera-apple-airpods-become-pervertpods.jpg",
+      "link": "https://www.fastcompany.com/91606695/can-apple-keep-its-airpods-from-becoming-pervertpods",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.752664+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5356,
+      "signals": {
+        "score": 0.5356,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "how to avoid being a meat proxy when you use ai",
+      "title": "How to avoid being a \u2018meat proxy\u2019 when you use AI",
+      "summary": "\u201cMeat proxy\u201d is the worst insult you can hurl at me right now.",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91619108-Work-Life-Are-you-a-meat-proxy-in-the-way-you-use-AI-.jpg",
+      "link": "https://www.fastcompany.com/91619108/how-to-avoid-being-a-meat-proxy-when-you-use-ai",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.753864+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5356,
+      "signals": {
+        "score": 0.5356,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "agentic ai just got very real",
+      "title": "Agentic AI just got very real",
+      "summary": "Hello again, and welcome back to Fast Company \u2019s Plugged In .",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91620082-Agentic-AI-just-got-very-real.jpg",
+      "link": "https://www.fastcompany.com/91620082/openai-dots-agent-review",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.754621+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5356,
+      "signals": {
+        "score": 0.5356,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "anthropic wants you to stop bullying claude cue the terminator memes",
+      "title": "Anthropic wants you to stop bullying Claude. Cue the \u2018Terminator\u2019 memes",
+      "summary": "Gone are the days when humans could use AI as their virtual punching bags, typing insults in ALL CAPS and forcing chatbots to perform tedious tasks as punishment for subpar",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91621574-no-longer-able-to-bully-claude.jpg",
+      "link": "https://www.fastcompany.com/91621574/anthropic-wants-you-to-stop-bullying-claude-cue-the-terminator-memes",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.755112+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5356,
+      "signals": {
+        "score": 0.5356,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "openai fires 3 safety researchers after dispute over ai risks",
+      "title": "OpenAI fires 3 safety researchers after dispute over AI risks",
+      "summary": "OpenAI said on Friday that it fired three safety researchers for a \u201cbreach of trust,&#8221; defending the dismissals after the trio accused the company of putting its corporate",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/AP26272616587470.jpg",
+      "link": "https://www.fastcompany.com/91621657/openai-chatgpt-ai-artificial-intelligence-safety",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.755349+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5356,
+      "signals": {
+        "score": 0.5356,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "jeff bezos ai could lead to 3day workweeks labor shortages",
+      "title": "Jeff Bezos: AI could lead to 3-day workweeks, labor shortages",
+      "summary": "Amazon founder Jeff Bezos has an optimistic perspective about the potential impact of AI on the American workforce.&nbsp; In an interview with Fox News on Wednesday , Bezos",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91621584-Jeff-Bezos-AI-could-lead-to-3-day-workweeks-labor-shortages.jpg",
+      "link": "https://www.fastcompany.com/91621584/jeff-bezos-ai-could-lead-to-3-day-workweeks-labor-shortages",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.755535+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5356,
+      "signals": {
+        "score": 0.5356,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ai productions require traditional skills to be cinematic say filmmakers on kling ai panel you need experts to prevent everything looking the same",
+      "title": "AI Productions Require Traditional Skills To Be Cinematic, Say Filmmakers On Kling AI Panel: \u201cYou Need Experts To Prevent Everything Looking The Same\u201d",
+      "summary": "Is the world ready for a giant worm going to work on the subway?",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/Kling-AI-panel-.jpg",
+      "link": "https://deadline.com/2026/10/ai-filmmaking-kling-ai-kim-sung-soo-mbc-busan-1237154243/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T09:47:54+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai",
+        "film"
+      ],
+      "score": 0.5266,
+      "signals": {
+        "score": 0.5266,
+        "recency": 0.8025865612006969,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "squid game producer reads founding declaration as asian independent producers form crossborder alliance at busan",
+      "title": "\u2018Squid Game\u2019 Producer Reads Founding Declaration as Asian Independent Producers Form Cross-Border Alliance at Busan",
+      "summary": "Independent producers from five Asian territories joined forces on Sunday, launching the Asian Producers Alliance (APA) at the Busan International Film Festival&#8217;s Asian",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Asian-Producers-Alliance.jpg",
+      "link": "https://variety.com/2026/film/markets-festivals/squid-game-producer-asian-producers-alliance-busan-1236908051/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T08:57:44+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "festival",
+        "film",
+        "game"
+      ],
+      "score": 0.5205,
+      "signals": {
+        "score": 0.5205,
+        "recency": 0.6981876189913012,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ramageddon 3 tips to handle the rising cost of computer memory",
+      "title": "RAMageddon: 3 tips to handle the rising cost of computer memory",
+      "summary": "Unless you happen to live with a software engineer or avid gamer, you may not be aware of the current shortage in computer RAM \u2014which your resident computer expert may be calling",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91620917-RAMageddon-3-tips-to-handle-the-rising-cost-of-computer-memory.jpg",
+      "link": "https://www.fastcompany.com/91620917/ramageddon-3-tips-to-handle-the-rising-cost-of-computer-memory",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.752029+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [
+        "game"
+      ],
+      "score": 0.5156,
+      "signals": {
+        "score": 0.5156,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ann hui busan camellia award recipient talks learning from women bosses hong kong new generation",
+      "title": "Ann Hui, Busan Camellia Award Recipient, Talks Learning From Women Bosses & Hong Kong New Generation",
+      "summary": "Hong Kong filmmaker Ann Hui, who received the Camellia Award at the opening of Busan International Film Festival, shared her experiences of being a woman filmmaker in a",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/BIFF-Ann-Hui.jpg",
+      "link": "https://deadline.com/2026/10/ann-hui-busan-camellia-award-hong-kong-new-generation-1237150754/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T07:40:38+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "award",
+        "festival",
+        "film"
+      ],
+      "score": 0.4869,
+      "signals": {
+        "score": 0.4869,
+        "recency": 0.563586707689482,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "techsparks masterclass gemini ai and the business of building better",
+      "title": "TechSparks masterclass: Gemini, AI, and the business of building better",
+      "summary": "At TechSparks 2026, Google Cloud\u2019s Rajesh Shewani will show how businesses can turn Gemini\u2019s capabilities into enterprise advantage.",
+      "image": "https://images.yourstory.com/cs/2/21ccd920843c11ec88170b5512a0f9d5/TS-Googlecloud-Masterclass1-1791699280371.jpg",
+      "link": "https://yourstory.com/2026/10/techsparks-masterclass-gemini-ai-and-the-business-of-building-better",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T06:16:34+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [
+        "ai",
+        "cloud",
+        "enterprise"
+      ],
+      "score": 0.4776,
+      "signals": {
+        "score": 0.4776,
+        "recency": 0.44621579333944156,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "why you shouldnt treat career development like a guilty secret",
+      "title": "Why you shouldn\u2019t treat career development like a guilty secret",
+      "summary": "Activities that keep you visible and connected benefit your career, such as keeping in touch with your professional network, posting about your work, speaking on panels,",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91618321-career-development.jpg",
+      "link": "https://www.fastcompany.com/91618321/why-you-should-be-transparent-about-your-professional-development-activities",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.750099+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [],
+      "score": 0.4756,
+      "signals": {
+        "score": 0.4756,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "nobody trusts hr its up to companies to fix it",
+      "title": "Nobody trusts HR. It\u2019s up to companies to fix it",
+      "summary": "Earlier this year, I wrote in Fast Company that 2026 could be the year companies finally begin taking employee well-being seriously.",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-91611952-companies-need-to-fix-the-trust-problem-with-HR.jpg",
+      "link": "https://www.fastcompany.com/91611952/hr-has-a-trust-problem-but-companies-not-hr-need-to-fix-it-leadership-workplace-well-being-human-resources",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.751229+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [],
+      "score": 0.4756,
+      "signals": {
+        "score": 0.4756,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "googlebooks mark the end of the old google",
+      "title": "Googlebooks mark the end of the old Google",
+      "summary": "Does Google still believe in the open web?",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91615554-Googlebooks-mark-the-end-of-the-old-Google.jpg",
+      "link": "https://www.fastcompany.com/91615554/googlebooks-mark-the-end-of-the-old-google",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.751483+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [],
+      "score": 0.4756,
+      "signals": {
+        "score": 0.4756,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "home price shifts across local housing markets as told by 3 maps",
+      "title": "Home price shifts across local housing markets, as told by 3 maps",
+      "summary": "Want more housing market stories from Lance Lambert\u2019s ResiClub in your inbox?",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-2-91621680-home-price-shift-housing-markets-maps.jpg",
+      "link": "https://www.fastcompany.com/91621680/housing-market-home-prices-regional-price-shifts-across-local-markets-maps",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.752308+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [],
+      "score": 0.4756,
+      "signals": {
+        "score": 0.4756,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "why a good boss matters more than working from home",
+      "title": "Why a good boss matters more than working from home",
+      "summary": "The post-pandemic push to bring workers back to the office has left many nostalgic for more flexible arrangements , such as hybrid or remote work.",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91620106-Why-your-boss-matters-more-than-remote-or-hybrid-work-when-it-comes-to-burnout-and-job-satisfaction.jpg",
+      "link": "https://www.fastcompany.com/91620106/good-boss-remote-hybrid-work",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.753081+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [],
+      "score": 0.4756,
+      "signals": {
+        "score": 0.4756,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "a new employee was reprimanded for drinking 1 cup of coffee a day an expert says the drink isnt the real problem",
+      "title": "A new employee was reprimanded for drinking 1 cup of coffee a day. An expert says the drink isn\u2019t the real problem",
+      "summary": "A new employee says they were reprimanded for drinking too much coffee.",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/employee-too-much-coffee-inc.jpg",
+      "link": "https://www.fastcompany.com/91618491/employee-reprimanded-drinking-coffee",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.753277+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [],
+      "score": 0.4756,
+      "signals": {
+        "score": 0.4756,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "what to think about before making a big ask from your direct reports",
+      "title": "What to think about before making a big ask from your direct reports",
+      "summary": "As a supervisor, you have some ability to dictate what your direct reports work on.",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91617507-think-before-you-ask.jpg",
+      "link": "https://www.fastcompany.com/91617507/what-to-think-about-before-making-a-big-ask-from-your-direct-reports",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.753485+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [],
+      "score": 0.4756,
+      "signals": {
+        "score": 0.4756,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "78 of americans have switched grocery stores for one surprisingly simple reason",
+      "title": "78% of Americans have switched grocery stores for one surprisingly simple reason",
+      "summary": "Proximity, affordability, and diversity might all be things taken into account when picking one\u2019s favorite grocery store\u2014but the defining factor is something else entirely.",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91621541-americans-have-switched-grocery-stores.jpg",
+      "link": "https://www.fastcompany.com/91621541/78-of-americans-have-switched-grocery-stores-for-one-surprisingly-simple-reason",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:06:57.754799+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Fast Company"
+      ],
+      "keywords": [],
+      "score": 0.4756,
+      "signals": {
+        "score": 0.4756,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "creativity isnt a job you clock out of 5 questions with chlo templeman",
+      "title": "\"Creativity isn\u2019t a job you clock out of\": 5 questions with Chlo\u00e9 Templeman",
+      "summary": "Pearlfisher's executive creative director discusses pet peeves and the 24/7 drive of the creative mind.",
+      "image": "https://cdn.mos.cms.futurecdn.net/vCSy8FYB5ovZUJWZZCAoAo-1920-80.jpg",
+      "link": "https://www.creativebloq.com/features/creativity-isnt-a-job-you-clock-out-of-5-questions-with-chloe-templeman",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T11:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [],
+      "score": 0.4711,
+      "signals": {
+        "score": 0.4711,
+        "recency": 0.980553777735684,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "taiwans sole busan competition title to be ordinary marks lee yun chans return to features after two decades",
+      "title": "Taiwan\u2019s Sole Busan Competition Title \u2018To Be Ordinary\u2019 Marks Lee Yun Chan\u2019s Return to Features After Two Decades",
+      "summary": "Taiwanese director Lee Yun Chan has returned to feature filmmaking after two decades away with \u201cTo Be Ordinary,\u201d the only Taiwanese film in competition at the Busan International",
+      "image": "https://variety.com/wp-content/uploads/2026/10/To-Be-Ordinary-team.jpg",
+      "link": "https://variety.com/2026/film/festivals/busan-competition-to-be-ordinary-lee-yun-chan-comeback-1236908013/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T07:49:52+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "ai",
+        "film"
+      ],
+      "score": 0.4706,
+      "signals": {
+        "score": 0.4706,
+        "recency": 0.5782286295064909,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "snl uk cold open sees reunion between prince william and kate and prince harry and meghan with some help from former prince andrew they must want us to be royals again",
+      "title": "\u2018SNL U.K.\u2019 Cold Open Sees Reunion Between Prince William and Kate and Prince Harry and Meghan (With Some Help From Former Prince Andrew): \u2018They Must Want Us to Be Royals Again!\u2019",
+      "summary": "&#8220;SNL U.K.&#8221; once again skewered the royal family in this week&#8217;s cold open, showing a contentious reunion between Prince William and Kate and Prince Harry",
+      "image": "https://variety.com/wp-content/uploads/2026/10/snl-uk-.jpg",
+      "link": "https://variety.com/2026/tv/global/snl-uk-prince-william-kate-reunite-prince-harry-meghan-1236908054/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T09:13:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4681,
+      "signals": {
+        "score": 0.4681,
+        "recency": 0.7285676288594166,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "globo and banijays endemol shine brasil pact to forge global entertainment ip powerhouse exclusive",
+      "title": "Globo and Banijay\u2019s Endemol Shine Brasil Pact to Forge Global Entertainment IP Powerhouse (EXCLUSIVE)",
+      "summary": "Brazilian media behemoth Globo and Endemol Shine Brasil, part of Banijay Latin America, have forged a non-scripted IP strategic partnership to develop and produce a next",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Globo-x-ESB-1.png",
+      "link": "https://variety.com/2026/film/global/globo-endemol-shine-brasil-entertainment-brand-ip-alliance-1236907789/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T09:01:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4623,
+      "signals": {
+        "score": 0.4623,
+        "recency": 0.7052045212182613,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "frozen 3 incredibles 3 coco 2 and another liveaction remake",
+      "title": "Frozen 3, Incredibles 3, Coco 2 and another live-action remake",
+      "summary": "Frozen 3, Incredibles 3, Coco 2 and yet another live-action remake: D23 showed a creative giant playing it painfully safe.",
+      "image": "https://cdn.mos.cms.futurecdn.net/dY3acB358m9jiyDWUWbdyK-1920-80.png",
+      "link": "https://www.creativebloq.com/news/disneys-announcements-at-d23-tell-you-everything-thats-wrong-with-disney-right-now",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T09:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4616,
+      "signals": {
+        "score": 0.4616,
+        "recency": 0.7025974834490296,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the cocacola rebrand is still causing confusion three months on",
+      "title": "The Coca-Cola rebrand is still causing confusion three months on",
+      "summary": "Design fail or all part of the plan?",
+      "image": "https://cdn.mos.cms.futurecdn.net/5fsRM6ZVoVfrEoUHG9efNG-1920-80.webp",
+      "link": "https://www.creativebloq.com/news/the-coca-cola-rebrand-is-still-causing-confusion-three-months-on",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T09:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4616,
+      "signals": {
+        "score": 0.4616,
+        "recency": 0.7025974834490296,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "foresight ai brings gremlin agents to reliability engineering",
+      "title": "Foresight AI Brings Gremlin Agents to Reliability Engineering",
+      "summary": "Reliability management company Gremlin has announced the general availability of Foresight AI, an agentic product that analyses services for potential failures, recommends",
+      "image": "https://res.infoq.com/news/2026/10/gremlin-foresight-ai/en/headerimage/generatedHeaderImage-1791653267864.jpg",
+      "link": "https://www.infoq.com/news/2026/10/gremlin-foresight-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-11T09:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "InfoQ"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4616,
+      "signals": {
+        "score": 0.4616,
+        "recency": 0.7025974834490296,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "nitter update oct 10th seeking funding and legal help",
+      "title": "Nitter: Update Oct 10th seeking funding and legal help",
+      "summary": "Comments",
+      "image": "assets/images/generated/nitter update oct 10th seeking funding and legal help.jpg",
+      "link": "https://nitter.net",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T10:37:55+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.4566,
+      "signals": {
+        "score": 0.4566,
+        "recency": 0.9222117848915521,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "robot is a social construct why your dishwasher is not a robot",
+      "title": "\"Robot\" Is a Social Construct: Why Your Dishwasher Is Not a Robot",
+      "summary": "Comments",
+      "image": "https://robotgirlgang.com/wp-content/uploads/2026/09/rgg-site-icon-master.png",
+      "link": "https://robotgirlgang.com/2026/10/08/robot-is-a-social-construct-why-your-dishwasher-is-not-a-robot/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T10:34:43+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.4545,
+      "signals": {
+        "score": 0.4545,
+        "recency": 0.9140506721514563,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "retail medias opportunity cost",
+      "title": "Retail Media\u2019s Opportunity Cost",
+      "summary": "Where does merchandising end and media begin when shoppers search a retail site?",
+      "image": "https://www.practicalecommerce.com/wp-content/uploads/2026/10/100726-featured-sponsored.jpg",
+      "link": "https://www.practicalecommerce.com/retail-medias-opportunity-cost",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T09:00:07+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Practical Ecommerce"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4527,
+      "signals": {
+        "score": 0.4527,
+        "recency": 0.702825213976712,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.78,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ircv3",
+      "title": "IRCv3",
+      "summary": "Comments",
+      "image": "assets/images/generated/ircv3.jpg",
+      "link": "https://ircv3.net/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T10:11:27+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.4402,
+      "signals": {
+        "score": 0.4402,
+        "recency": 0.8568444357811807,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "todd haynes zhang ziyi and daniel brhl lead a starstudded lumire fest opening with haynes teasing de noche starring pedro pascal",
+      "title": "Todd Haynes, Zhang Ziyi and Daniel Br\u00fchl Lead a Star-Studded Lumi\u00e8re Fest Opening With Haynes Teasing \u2018De Noche,\u2019 Starring Pedro Pascal",
+      "summary": "LYON, France \u2014 Todd Haynes, Zhang Ziyi, Daniel Br\u00fchl, Tsui Hark and Andrey Zvyagintsev attended the opening gala of France&#8217;s Lumi\u00e8re Festival Saturday night where Haynes",
+      "image": "https://variety.com/wp-content/uploads/2026/10/HD-10Oct-CeremonieOuverture-@LoicBENOIT-1248.jpg",
+      "link": "https://variety.com/2026/film/global/todd-haynes-pedro-pascal-donald-trump-thierry-fremaux-1236908024/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T08:56:26+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "festival"
+      ],
+      "score": 0.4399,
+      "signals": {
+        "score": 0.4399,
+        "recency": 0.6956709326745069,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
     {
       "id": "apple discloses deal to hire team and license tech from personalized podcast startup huxe",
       "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
@@ -24,21 +1177,329 @@
       "category": "technology",
       "geo": "global",
       "published_at": "2026-10-10T19:50:00+00:00",
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
         "TechCrunch",
+        "TechCrunch AI",
         "TechCrunch Startups"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.4048,
+      "score": 0.4261,
       "signals": {
-        "score": 0.4048,
-        "recency": 0.23236335883679218,
+        "score": 0.4261,
+        "recency": 0.07828372395302254,
         "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
+        "source_signal": 0.6,
+        "authority": 0.8433333333333333,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "between two lovers review nanako hiroses contentious family drama examines an illfated throuple",
+      "title": "\u2018Between Two Lovers\u2019 Review: Nanako Hirose\u2019s Contentious Family Drama Examines an Ill-Fated Throuple",
+      "summary": "The sophomore feature from Hirokazu Kore-eda prot\u00e9g\u00e9 Nanako Hirose, &#8220;Between Two Lovers&#8221; tackles a variety of potential hot-button issues, from polyamorous",
+      "image": "https://variety.com/wp-content/uploads/2026/10/1785917076.jpg",
+      "link": "https://variety.com/2026/film/reviews/between-two-lovers-review-1236908080/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T09:38:38+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [],
+      "score": 0.4215,
+      "signals": {
+        "score": 0.4215,
+        "recency": 0.7821910130035346,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "3 days to techcrunch disrupt 2026 meet the startups before they hit mainstream",
+      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+      "summary": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/06/Startup-Battlefield-2023-2.jpg?resize=1200,800",
+      "link": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-10T15:00:00+00:00",
+      "source_count": 3,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch AI",
+        "TechCrunch Startups"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4152,
+      "signals": {
+        "score": 0.4152,
+        "recency": 0.034980268943566,
+        "keyword_volume": 0.2,
+        "source_signal": 0.6,
+        "authority": 0.8433333333333333,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "fox launching extracted international production hub in malaysia",
+      "title": "Fox Launching \u2018Extracted\u2019 International Production Hub In Malaysia",
+      "summary": "EXCLUSIVE: Fox Entertainment Global (FEG) is hoping to take Extracted worldwide via a new production hub in Malaysia, its first international hub.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/@EXT-S3_Plates-Original-1.jpeg",
+      "link": "https://deadline.com/2026/10/fox-launching-extracted-production-hub-malaysia-1237150887/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T07:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4119,
+      "signals": {
+        "score": 0.4119,
+        "recency": 0.5034330956215793,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "weekly funding recap reliance consumer dailyobjects lead investment activity",
+      "title": "Weekly funding recap: Reliance Consumer, DailyObjects lead investment activity",
+      "summary": "This week\u2019s funding activity extended beyond startup fundraising to include investments in manufacturing capacity and business expansion.",
+      "image": "https://etimg.etb2bimg.com/thumb/msid-134866690,imgsize-72136,width-1200,height=627,overlay-etretail,resizemode-75/industry/weekly-funding-recap-reliance-consumer-dailyobjects-lead-investment-activity.jpg",
+      "link": "https://retail.economictimes.indiatimes.com/news/industry/weekly-funding-recap-reliance-consumer-dailyobjects-lead-investment-activity/134866690",
+      "category": "commerce",
+      "geo": "global",
+      "published_at": "2026-10-11T12:38:46+05:30",
+      "source_count": 1,
+      "source_names": [
+        "ET Retail"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.409,
+      "signals": {
+        "score": 0.409,
+        "recency": 0.5158431139789323,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "3rd yandex cloud data center was hit",
+      "title": "3rd Yandex Cloud Data Center Was Hit",
+      "summary": "Comments",
+      "image": "https://storage.yandexcloud.net/cloud-www-assets/statusboard/share/main.en.png",
+      "link": "https://status.yandex.cloud/en/incidents/2136",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T07:34:45+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [
+        "cloud"
+      ],
+      "score": 0.4046,
+      "signals": {
+        "score": 0.4046,
+        "recency": 0.5544510928782653,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "meet the 20 topfunded startups and tech companies in hong kong",
+      "title": "Meet the 20 top-funded startups and tech companies in Hong Kong",
+      "summary": "Here are the companies in Hong Kong that are attracting tons of investors and have the resources to spend on software, talent, and expansion.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2016/10/cityscape-945432_1280.jpg",
+      "link": "https://www.techinasia.com/meet-20-topfunded-startups-tech-companies-hong-kong",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T09:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [],
+      "score": 0.3956,
+      "signals": {
+        "score": 0.3956,
+        "recency": 0.7025974834490296,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "how to design humanintheloop checkpoints for autonomous ai agents",
+      "title": "How to Design Human-in-the-Loop Checkpoints for Autonomous AI Agents",
+      "summary": "Autonomous AI agents can read requests, retrieve data, reason through options, and trigger actions in seconds.",
+      "image": "https://cdn.analyticsvidhya.com/wp-content/uploads/2026/10/HITL-using-Autonomous-AI-Agents.png",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/human-in-the-loop-ai-agent-langgraph/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-11T05:41:01+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Analytics Vidhya"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3871,
+      "signals": {
+        "score": 0.3871,
+        "recency": 0.4042577528283469,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "sakha filmmakers association producers guild of korea pact for coproductions",
+      "title": "Sakha Filmmakers Association & Producers Guild of Korea Pact For Co-Productions",
+      "summary": "EXCLUSIVE: The Producers Guild of Korea (PGK) and the Sakha Filmmakers Association (SFA) have signed a memorandum of understanding (MOU) aimed at creating a direct route",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/SFA-PGK-1.jpg",
+      "link": "https://deadline.com/2026/10/sakha-filmmakers-association-producers-guild-of-korea-busan-1237154165/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T02:18:37+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai",
+        "film"
+      ],
+      "score": 0.3836,
+      "signals": {
+        "score": 0.3836,
+        "recency": 0.23040311630336452,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "techsparks 2026 zakir khan varun mayya keshav reddy and more join the speakers",
+      "title": "TechSparks 2026: Zakir Khan, Varun Mayya, Keshav Reddy, and more join the speakers",
+      "summary": "With mere two days to go, YourStory\u2019s flagship summit adds speakers from AI, enterprise technology, aviation, policymaking, diplomacy and entertainment to its conversations",
+      "image": "https://images.yourstory.com/cs/2/94a03c40169611f0b4b0c5b62b4900c2/Article716-9copy31optimized50001-1791631710641.png",
+      "link": "https://yourstory.com/2026/10/techsparks-2026-announces-final-speaker-lineup-zakir-khan-varun-mayya-keshav-reddy-and-more",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-10T19:09:46+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [
+        "ai",
+        "enterprise",
+        "policy"
+      ],
+      "score": 0.3835,
+      "signals": {
+        "score": 0.3835,
+        "recency": 0.07000596511536739,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "journey drummer deen castronovo returns to the stage to play full show two nights after medical scare",
+      "title": "Journey Drummer Deen Castronovo Returns to the Stage to Play Full Show, Two Nights After Medical Scare",
+      "summary": "No one is saying what caused Journey drummer Deen Castronovo to have been assisted off stage after two songs and admitted to a Tulsa hospital Thursday night.",
+      "image": "https://variety.com/wp-content/uploads/2026/10/GettyImages-1378187352.jpg",
+      "link": "https://variety.com/2026/music/news/journey-deen-castronovo-drummer-returns-stage-san-antonio-1236908003/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T08:11:26+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [],
+      "score": 0.3795,
+      "signals": {
+        "score": 0.3795,
+        "recency": 0.6139274433033889,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "netflix has used ai on about 300 titles but human touch is critical exec says in busan",
+      "title": "Netflix Has Used AI on About 300 Titles, but \u201cHuman Touch Is Critical,\u201d Exec Says in Busan",
+      "summary": "Netflix\u2019s Asia-Pacific production head Sung Q Lee, \u2018The Outlaws\u2019 director Kang Yun-sung and W\u0113t\u0101 FX's Kimball Thurston discussed creative possibilities, production savings",
+      "image": "assets/images/generated/netflix has used ai on about 300 titles but human touch is critical exec says in busan.jpg",
+      "link": "https://www.hollywoodreporter.com/business/business-news/netflix-ai-300-titles-busan-film-fest-1236727138/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T05:12:50+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3795,
+      "signals": {
+        "score": 0.3795,
+        "recency": 0.37381672587435966,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -62,10 +1523,10 @@
         "cloud",
         "platform"
       ],
-      "score": 0.3997,
+      "score": 0.3778,
       "signals": {
-        "score": 0.3997,
-        "recency": 0.13173631991050047,
+        "score": 0.3778,
+        "recency": 0.04438225438849938,
         "keyword_volume": 0.4,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -75,55 +1536,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "3 days to techcrunch disrupt 2026 meet the startups before they hit mainstream",
-      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
-      "summary": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco.",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/06/Startup-Battlefield-2023-2.jpg?resize=1200,800",
-      "link": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
-      "category": "technology",
+      "id": "electric cars are killing the joy of driving but sonic design is here to save it",
+      "title": "Electric cars are killing the joy of driving, but sonic design is here to save it",
+      "summary": "DLMDD\u2019s Max De Lucia discusses the importance of sound in EV design.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Ux6wcAANCSuQJBocwxKvt3-1920-80.jpg",
+      "link": "https://www.creativebloq.com/features/electric-cars-are-killing-the-cinematic-experience-of-driving-but-sonic-design-is-here-to-help",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-10T15:00:00+00:00",
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch Startups"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3727,
-      "signals": {
-        "score": 0.3727,
-        "recency": 0.10382915342171198,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.845,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "omnicom group omc is getting attention but what is the market missing simply wall street",
-      "title": "Omnicom Group (OMC) Is Getting Attention, But What Is The Market Missing? - Simply Wall Street",
-      "summary": "Omnicom Group (OMC) Is Getting Attention, But What Is The Market Missing?",
-      "image": "assets/images/generated/omnicom group omc is getting attention but what is the market missing simply wall street.jpg",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVmlBS3k1ZFVCcFdzSnRHREd0RVFnOHBSbmtidVlLUVhmTncwLVpwTXU0enYwVE1JUWdIMlJfVWFCVGNDWGFDb0FaZTFrSFpDd3YwM015U0lsa1BZQjRjOTlKRkxyNDJHUnhzeHhXSm1yNFVxZ1JhdHdhd3o4SE9pdTJSUjRWSlVxWmFkeHl4TWpscWkwQVloalNrcUtqY1FzdllkOThmeDJMWXRrYzd1R19PREpGbUd6NEg4NTR2cVcyeDhH0gHKAUFVX3lxTE0wZTRnMVZlQzZwZmZOcloxNEg3VUlnM0pLbU5OajZzLWZJSzRDbkZXX2JRbEdJNDJXNEVqU21RVzF6YjBhekZyWXVvbkZNWERiM2Nlc2hvOTNMZlE1RnVzaDB0YzZVSHpMOV9ZbnlUcFZ3RWF0T3BIWFhXV0dxZGNNZHR4MDVrZWpRTGVxNWRCOTFBU3NEbThBZnRnRUFuY2tDdjVpakswYzhqaWRnTkdVVUhPdnhoMWN5UFlCYzkwUEk5SDhQVkxjeWc?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-10-11T01:44:05+00:00",
+      "published_at": "2026-10-11T08:00:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Omnicom"
+        "Creative Bloq"
       ],
       "keywords": [],
-      "score": 0.3693,
+      "score": 0.3747,
       "signals": {
-        "score": 0.3693,
-        "recency": 0.6213329956831073,
+        "score": 0.3747,
+        "recency": 0.5947359296937392,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.76,
+        "authority": 0.84,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -138,17 +1570,72 @@
       "category": "technology",
       "geo": "global",
       "published_at": "2026-10-10T21:47:51+00:00",
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "TechCrunch"
+        "TechCrunch",
+        "TechCrunch AI"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.3666,
+      "score": 0.3732,
       "signals": {
-        "score": 0.3666,
-        "recency": 0.32235823540257585,
+        "score": 0.3732,
+        "recency": 0.10860319475741265,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "i wish you the best in the offline",
+      "title": "I wish you the best in the Offline",
+      "summary": "Comments",
+      "image": "assets/images/generated/i wish you the best in the offline.jpg",
+      "link": "https://daverupert.com/2026/09/i-wish-you-the-best-in-the-offline/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T07:53:42+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.3721,
+      "signals": {
+        "score": 0.3721,
+        "recency": 0.5844185909438987,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "new girl stars reunite in a slightly different way than max greenfield claimed",
+      "title": "\u2018New Girl\u2019 Stars Reunite \u2014 in a Slightly Different Way Than Max Greenfield Claimed",
+      "summary": "Zooey Deschanel, Max Greenfield, Jake Johnson, Lamorne Morris, Hannah Simone and Damon Wayans Jr.",
+      "image": "assets/images/generated/new girl stars reunite in a slightly different way than max greenfield claimed.jpg",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/new-girl-stars-reunite-different-way-max-greenfield-claimed-1236727002/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T04:40:12+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3714,
+      "signals": {
+        "score": 0.3714,
+        "recency": 0.3414213999740495,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -158,28 +1645,1163 @@
       "image_failure_reason": ""
     },
     {
-      "id": "how wpp ai expansion will impact kyndryl stock simply wall street",
-      "title": "How WPP AI Expansion Will Impact Kyndryl Stock - Simply Wall Street",
-      "summary": "How WPP AI Expansion Will Impact Kyndryl Stock &nbsp;&nbsp; Simply Wall Street",
-      "image": "assets/images/generated/how wpp ai expansion will impact kyndryl stock simply wall street.jpg",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOUlHVENKVzVSd0NUa0lBcXpXUkxZWmRMMDZCaU81WWFxTFJqTHJIOE5UeHhqaW52dElvazBIWmQ5LXlOVWROTVhqaHYweWVMdVZEdTVfa20wZm1WT2xueGxfLXE3VGt2bTlRdlBaUEVRQ2ZQMEFJaGhaNmlPaVRkanBMRFpCNEh1bjJ5RzJqclkzRVl4U3BCempLdGxYMTU1bURpcUxIUWNvcGt2OGExMlFNa2FpMHpW0gG-AUFVX3lxTE83ZXVCV3RUeDROWDZYaUV6dkFUR2R4MWtHVzR2dFFBVjBWYXI5X2dWVVlGUGI4S1U0TExQLWM5VWhUcTdMYXBKMzZ4UDBLbVBfV1hoUF9ETW92ZW9GNklaZWpNaVl4dldYQVFCWHZqSHZuQjlILVBCSFFyTjhwUnVIZVVhR2FPTmpLSHhxMUtTcU1mbFhIcktEX2hXSVRYcExSUTJLRGIxQkhrSktLQlJuV2pFR0RtT2VOMzNXSWc?oc=5",
-      "category": "advertising",
+      "id": "blade runner 2099 drops new trailer team teases a detective story set when replicants take over",
+      "title": "\u2018Blade Runner 2099\u2019 Drops New Trailer, Team Teases a Detective Story Set When Replicants Take Over",
+      "summary": "The limited series cast, showrunner and EPs discussed how the lives of Michelle Yeoh\u2019s dying Replicant and Hunter Schafer's undercover human will intertwine at NYCC on Saturday.",
+      "image": "assets/images/generated/blade runner 2099 drops new trailer team teases a detective story set when replicants take over.jpg",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/blade-runner-2099-trailer-michelle-yeoh-detective-mystery-1236727086/",
+      "category": "media",
       "geo": "global",
-      "published_at": "2026-10-10T20:49:13+00:00",
+      "published_at": "2026-10-11T00:47:52+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - WPP"
+        "The Hollywood Reporter"
+      ],
+      "keywords": [
+        "ai",
+        "series"
+      ],
+      "score": 0.3708,
+      "signals": {
+        "score": 0.3708,
+        "recency": 0.17906468710244927,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "cloudflare acquires software startup deno to strengthen workers",
+      "title": "Cloudflare acquires software startup Deno to strengthen Workers",
+      "summary": "Deno was co-founded by Node.js creator Ryan Dahl and had raised US$26 million.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1791679272_1763494237_shutterstock_1786086155-scaled-1.jpg",
+      "link": "https://www.techinasia.com/news/cloudflare-acquires-software-startup-deno-workers-platform",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T01:15:56+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [
+        "ai",
+        "cloud"
+      ],
+      "score": 0.3684,
+      "signals": {
+        "score": 0.3684,
+        "recency": 0.1935837206939183,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "shurukar your next business could start in your hometown",
+      "title": "ShuruKar: Your next business could start in your hometown",
+      "summary": "YourStory's ShuruKar is a nationwide initiative that combines AI tools, founder mentorship, and local networks to help aspiring entrepreneurs move from identifying a problem",
+      "image": "https://images.yourstory.com/cs/2/1a70b4f0170611edbdd8b5d28d859895/Untitleddesign13-1791628875263.jpg",
+      "link": "https://yourstory.com/2026/10/shurukar-your-next-business-could-start-in-your-hometown",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T02:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
       ],
       "keywords": [
         "ai"
       ],
+      "score": 0.3647,
+      "signals": {
+        "score": 0.3647,
+        "recency": 0.21879112146031107,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 1.0,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "shane gillis drops fbomb in snl green eggs ham sketch apologizes",
+      "title": "Shane Gillis Drops F-Bomb In \u2018SNL\u2019 \u201cGreen Eggs & Ham\u201d Sketch, Apologizes",
+      "summary": "Shane Gillis&#8217; return to Saturday Night Live featured a not-safe-to-air slip in a Dr.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-9.01.02-PM.png",
+      "link": "https://deadline.com/2026/10/shane-gillis-drops-f-bomb-snl-green-eggs-ham-sketch-1237154194/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T04:09:59+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3645,
+      "signals": {
+        "score": 0.3645,
+        "recency": 0.31393385354108017,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "saturday night live opens with an overcompensating pete hegseth pumping up his plans to stream a live execution",
+      "title": "\u2018Saturday Night Live\u2019 Opens With An Overcompensating Pete Hegseth Pumping Up His Plans To Stream A Live Execution",
+      "summary": "Saturday Night Live once again returned Pete Hegseth (Colin Jost) to its opener, this time with Donald Trump&#8217;s secretary of defense addressing the crew of the beleaguered",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-11.48.01-PM.jpeg",
+      "link": "https://deadline.com/2026/10/saturday-night-live-open-pete-hegseth-1237154183/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T03:52:25+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3607,
+      "signals": {
+        "score": 0.3607,
+        "recency": 0.2989827890140625,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "mapping the startups setting the pace in koreas ai sector",
+      "title": "Mapping the startups setting the pace in Korea\u2019s AI sector",
+      "summary": "Mapping Korea's AI sector: Key players, top investors, and funding insights in one report.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2025/05/1746500863_Featured-image-AI-in-Korea.png",
+      "link": "https://www.techinasia.com/visual-story/mapping-koreas-leading-ai-startups",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T04:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3563,
+      "signals": {
+        "score": 0.3563,
+        "recency": 0.30534760760852986,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "here are the top ai agents that can live in your text messages",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
+      "link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-10T14:00:00+00:00",
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch AI"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3534,
+      "signals": {
+        "score": 0.3534,
+        "recency": 0.029610158392487314,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "its embroidered logo invite shows apple understands something other tech brands dont",
+      "title": "Its embroidered logo invite shows Apple understands something other tech brands don't",
+      "summary": "Apple seems to have learned from past advertising blunders.",
+      "image": "https://cdn.mos.cms.futurecdn.net/i77v88m3JjugbLWTovhK8T-1920-80.jpg",
+      "link": "https://www.creativebloq.com/news/an-embroidered-logo-shows-apples-understands-something-that-other-tech-brands-dont",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-11T07:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [],
+      "score": 0.3519,
+      "signals": {
+        "score": 0.3519,
+        "recency": 0.5034330956215793,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "design ai impact test your business creativity with edition 253 of our weekly quiz",
+      "title": "Design, AI, impact: test your business creativity with Edition 253 of our weekly quiz!",
+      "summary": "Lateral Sparks, the weekly quiz from YourStory, tests your domain knowledge, business acumen, and lateral thinking skills (see the previous edition here).",
+      "image": "https://images.yourstory.com/cs/2/28b451402d6a11e9aa979329348d4c3e/Lateralsparks3-1791666673656.jpg",
+      "link": "https://yourstory.com/2026/10/design-ai-impact-entrepreneur-education-creativity-quiz",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T03:06:43+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3518,
+      "signals": {
+        "score": 0.3518,
+        "recency": 0.2633388393408355,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "singapores topfunded tech companies in the last decade",
+      "title": "Singapore\u2019s top-funded tech companies in the last decade",
+      "summary": "This automated tracker will help you see which tech firms in the city-state are scoring the most investments.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2022/05/1653040633_singapore_resize.png",
+      "link": "https://www.techinasia.com/visual-story/singapores-topfunded-tech-companies-decade",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T07:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [],
+      "score": 0.3459,
+      "signals": {
+        "score": 0.3459,
+        "recency": 0.5034330956215793,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "aws introduces enhanced custom event buses for eventbridge",
+      "title": "AWS Introduces Enhanced Custom Event Buses for EventBridge",
+      "summary": "AWS recently announced enhanced custom event buses for Amazon EventBridge, allowing organizations to share a centralized bus across accounts with ordered delivery, simplified",
+      "image": "https://res.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses/en/headerimage/generatedHeaderImage-1790663976977.jpg",
+      "link": "https://www.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-11T06:35:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "InfoQ"
+      ],
+      "keywords": [],
+      "score": 0.3434,
+      "signals": {
+        "score": 0.3434,
+        "recency": 0.46965875616009795,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "thats how the cookie crumbles gop senator who sued patients for medical debt gets shamed into paying bakery bill after six years",
+      "title": "That\u2019s How the Cookie Crumbles: GOP Senator Who Sued Patients for Medical Debt Gets Shamed into Paying Bakery Bill After Six Years",
+      "summary": "Sen. Roger Marshall (R-KS) settled a six-year-old unpaid bakery bill after its owner accused him of stiffing the business on nearly $700 worth of cookies The post That\u2019s How the",
+      "image": "https://am13.mediaite.com/med/cnt/uploads/2026/10/Untitled-design-2026-10-10T114455-191.jpg",
+      "link": "https://www.mediaite.com/politics/thats-how-the-cookie-crumbles-gop-senator-who-sued-patients-for-medical-debt-gets-shamed-into-paying-bakery-bill-after-six-years/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T19:01:07+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai",
+        "bill"
+      ],
+      "score": 0.3431,
+      "signals": {
+        "score": 0.3431,
+        "recency": 0.06834392487121888,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "snl shane gillis shares gas station egg nickname from joe rogan pete hegseth celebrates uss lincoln san diego homecoming",
+      "title": "\u2018SNL\u2019: Shane Gillis Shares \u201cGas Station Egg\u201d Nickname From Joe Rogan, Pete Hegseth Celebrates USS Lincoln San Diego Homecoming",
+      "summary": "Rosalia was the night's musical guest, marking her second time on the show.",
+      "image": "assets/images/generated/snl shane gillis shares gas station egg nickname from joe rogan pete hegseth celebrates uss lincoln san diego homecoming.jpg",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/snl-pete-hegseth-lincoln-homecoming-san-diego-shane-gillis-1236727048/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T04:00:45+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
+      ],
+      "keywords": [
+        "music"
+      ],
       "score": 0.3425,
       "signals": {
         "score": 0.3425,
-        "recency": 0.2739082206308419,
+        "recency": 0.3059844115648433,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "500b tokens later letting ai agents decompile a firstperson shooter",
+      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "summary": "Comments",
+      "image": "https://momo5502.com/posts/2026-10-09-game-decompilation/images/game.png",
+      "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T02:02:38+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3411,
+      "signals": {
+        "score": 0.3411,
+        "recency": 0.2203974056704713,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "orcarouter releases orcacyber zero 15 cybersecurity model with 1m context",
+      "title": "OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context",
+      "summary": "OrcaRouter released OrcaCyber Zero 1.5, a gated cybersecurity model with a 1M-token context window.",
+      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-41-1-1024x768.png",
+      "link": "https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-11T06:20:21+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost"
+      ],
+      "keywords": [],
+      "score": 0.3387,
+      "signals": {
+        "score": 0.3387,
+        "recency": 0.4509299183910317,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "lineageos 240",
+      "title": "LineageOS 24.0",
+      "summary": "Comments",
+      "image": "assets/images/generated/lineageos 240.jpg",
+      "link": "https://lineageos.org/Changelog-32/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T06:18:59+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.3383,
+      "signals": {
+        "score": 0.3383,
+        "recency": 0.44922130007467864,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "chris rock takes a scalpel to la in misty green makes a star of rosalind eleazar",
+      "title": "Chris Rock Takes a Scalpel to L.A. in \u2018Misty Green,\u2019 Makes a Star of Rosalind Eleazar",
+      "summary": "With its U.S. premiere at the New York Film Festival, the \u2018Slow Horses\u2019 actor delivers a stunning lead performance in the comedian\u2019s fourth film as director.",
+      "image": "assets/images/generated/chris rock takes a scalpel to la in misty green makes a star of rosalind eleazar.jpg",
+      "link": "https://www.hollywoodreporter.com/movies/movie-features/misty-green-chris-rock-rosalind-eleazar-nyff-1236727022/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T21:57:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
+      ],
+      "keywords": [
+        "festival",
+        "film"
+      ],
+      "score": 0.3339,
+      "signals": {
+        "score": 0.3339,
+        "recency": 0.1115020991650654,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "nat habit raises rs 142 cr in series c led by trident growth partners",
+      "title": "Nat Habit raises Rs 142 Cr in Series C led by Trident Growth Partners",
+      "summary": "Nat Habit said it will use this funding towards expansion of its product portfolio, expanding distribution reach, and manufacturing facilities.",
+      "image": "https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/Nat-habit-FINAL-1791635148010.png",
+      "link": "https://yourstory.com/2026/10/nat-habit-raises-rs-142-cr-in-series-c-led-by-trident-growth-partners",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-10T12:43:32+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [
+        "ai",
+        "series"
+      ],
+      "score": 0.332,
+      "signals": {
+        "score": 0.332,
+        "recency": 0.023943815953516908,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "up cabinet approves startup procurement scheme",
+      "title": "UP cabinet approves startup procurement scheme",
+      "summary": "The scheme aims to facilitate startups\u2019 access to various departments of the Uttar Pradesh government.",
+      "image": "https://images.yourstory.com/cs/21/e1da3a20368f11ea8ceed32dbcb77ccc/Imagebld4-1625852113094.jpg",
+      "link": "https://yourstory.com/2026/10/up-cabinet-approves-startup-procurement-scheme",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-10T11:37:27+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [
+        "ai",
+        "govern"
+      ],
+      "score": 0.331,
+      "signals": {
+        "score": 0.331,
+        "recency": 0.019928388424567334,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "blade runner 2099 trailer hunter schafer teams up with michelle yeoh to find cure for all replicants nycc",
+      "title": "\u2018Blade Runner 2099\u2019 Trailer: Hunter Schafer Teams Up With Michelle Yeoh To Find \u201cCure For All Replicants\u201d \u2014 NYCC",
+      "summary": "Nearly 45 years later, a new Blade Runner is back to make the Ridley Scott franchise &#8220;more human than human&#8221; once again.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/Michelle_Yeoh_as_Olwen_and_Hunter_Schafer_as_Cora_in_Blade_Runner_2099_-_Credit_Clay_Enos_for_Prime_3000_1b35e5-e1791677607674.jpg",
+      "link": "https://deadline.com/2026/10/blade-runner-2099-trailer-hunter-schafer-michelle-yeoh-nycc-1237154128/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T00:33:17+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.329,
+      "signals": {
+        "score": 0.329,
+        "recency": 0.1719558678735176,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "scott bessent mocks elizabeth warrens microscopic native american heritage in snarky letter",
+      "title": "Scott Bessent Mocks Elizabeth Warren\u2019s Microscopic Native American Heritage in \u2018Snarky\u2019 Letter",
+      "summary": "In a Saturday letter first obtained by Fox Business that was \"snarky at times,\" Scott Bessent wished Sen.",
+      "image": "https://am11.mediaite.com/med/cnt/uploads/2026/10/Untitled-design-2026-10-10T163621-375.jpg",
+      "link": "https://www.mediaite.com/politics/scott-bessent-mocks-elizabeth-warrens-microscopic-native-american-heritage-in-snarky-letter/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T00:08:55+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3262,
+      "signals": {
+        "score": 0.3262,
+        "recency": 0.1607021540101199,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "swiggy zomato have a new fight on their hands",
+      "title": "Swiggy, Zomato Have A New Fight On Their Hands",
+      "summary": "For years, Swiggy and Zomato have ruled the Indian foodtech sector with an iron fist, building vast restaurant networks and&#8230",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/Outline-Swiggy-Zomato-ftr.jpg",
+      "link": "https://inc42.com/features/swiggy-zomato-have-a-new-fight-on-their-hands/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T05:30:38+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Inc42"
+      ],
+      "keywords": [],
+      "score": 0.3242,
+      "signals": {
+        "score": 0.3242,
+        "recency": 0.39276445615496725,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "american among 12 killed in houthi strike on saudi arabias busiest airport that injured more than 300",
+      "title": "American Among 12 Killed In Houthi Strike On Saudi Arabia\u2019s Busiest Airport That Injured More than 300",
+      "summary": "Saudi Arabian officials say one American was among the 12 people killed in an air strike on Saudi Arabia's busiest airport Saturday.",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/liptak.jpeg",
+      "link": "https://www.mediaite.com/media/news/one-american-among-those-killed-in-houthi-strike-on-saudi-arabias-busiest-airport/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T23:32:28+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3223,
+      "signals": {
+        "score": 0.3223,
+        "recency": 0.14522767400841377,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ny times writer calls for trump to be impeached for open racism",
+      "title": "NY Times Writer Calls for Trump to Be Impeached for \u2018Open Racism\u2019",
+      "summary": "The New York Times opinion columnist Jamelle Bouie called for President Donald Trump to be impeached again on Saturday, this time for his \"open racism.\" The post NY Times Writer",
+      "image": "assets/images/generated/ny times writer calls for trump to be impeached for open racism.jpg",
+      "link": "https://www.mediaite.com/media/ny-times-writer-calls-for-trump-to-be-impeached-for-open-racism/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T23:20:51+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3212,
+      "signals": {
+        "score": 0.3212,
+        "recency": 0.14061619505500292,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "man dies after jumping into tiger enclosure in caught on video encounter",
+      "title": "Man Dies After Jumping Into Tiger Enclosure in Caught on Video Encounter",
+      "summary": "The man died after inexplicably leaping into a tiger enclosure -- where video showed he remained conscious as the big cat bit his back and batted him around.",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/CNN-Newsroom-With-Fredricka-Whitfield-3-48-14-pm-2026-10-10-0.jpg",
+      "link": "https://www.mediaite.com/media/news/man-dies-after-jumping-into-tiger-enclosure-in-caught-on-video-encounter/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T22:52:38+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3185,
+      "signals": {
+        "score": 0.3185,
+        "recency": 0.1300156110734841,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "joseph gordonlevitt says instead of being afraid of ai we should be concerned about the people building ai",
+      "title": "Joseph Gordon-Levitt Says Instead of Being Afraid of AI, \u201cWe Should Be Concerned About the People Building AI\u201d",
+      "summary": "\"These models are being trained to hijack your intimacy, to make friends with you, to get you to fall in love with it,\" the actor said of technology's training.",
+      "image": "assets/images/generated/joseph gordonlevitt says instead of being afraid of ai we should be concerned about the people building ai.jpg",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/joseph-gordon-levitt-concern-people-building-ai-1236727031/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T22:48:07+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3181,
+      "signals": {
+        "score": 0.3181,
+        "recency": 0.12839458688238303,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "saturday night live shane gillis third time hosting is saved by cast newbie grace reiter",
+      "title": "\u2018Saturday Night Live\u2019: Shane Gillis\u2019 Third Time Hosting Is Saved By Cast Newbie Grace Reiter",
+      "summary": "In his third time hosting Saturday Night Live, Shane Gillis isn&#8217;t making the case for a triumphant return to the cast.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/Screenshot-2026-10-10-at-9.58.45-PM.png",
+      "link": "https://deadline.com/2026/10/saturday-night-live-shane-gillis-grace-reiter-1237154186/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T05:06:21+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [],
+      "score": 0.3178,
+      "signals": {
+        "score": 0.3178,
+        "recency": 0.36714482189273095,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "catherine zetajones comments on actors giving themselves over to ai prefers real people",
+      "title": "Catherine Zeta-Jones Comments On Actors \u201cGiving Themselves Over\u201d To AI, Prefers \u201cReal People\u201d",
+      "summary": "Catherine Zeta-Jones wants to see less AI &#8220;actors&#8221; onscreen and more undiscovered human talents.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/P106I5B5-e1791671386890.jpg",
+      "link": "https://deadline.com/2026/10/catherine-zeta-jones-comments-ai-prefers-real-people-1237154109/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T22:45:06+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3178,
+      "signals": {
+        "score": 0.3178,
+        "recency": 0.12732318305083484,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "restore the authority the challenge for the bbcs new director of news",
+      "title": "\u2018Restore the authority\u2019: the challenge for the BBC\u2019s new director of news",
+      "summary": "Rachel Jupp takes role as corporation grapples with digital transformation, a cash crisis and its public service role With looming job cuts and an ongoing pay dispute, there has",
+      "image": "https://i.guim.co.uk/img/media/e8e3d380d5af52cf3d164a187723ca191ff9cb90/127_231_1670_1337/master/1670.jpg?width=140&quality=85&auto=format&fit=max&s=9718bb504d54116151f145485713a574",
+      "link": "https://www.theguardian.com/media/2026/oct/11/challenge-bbc-director-of-news-rachel-jupp",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T05:00:18+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Guardian Media"
+      ],
+      "keywords": [],
+      "score": 0.3163,
+      "signals": {
+        "score": 0.3163,
+        "recency": 0.3610263057251789,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "sakana ais llm peer review system catches 73 of coreclaim errors",
+      "title": "Sakana AI\u2019s LLM Peer Review System Catches 73% of Core-Claim Errors",
+      "summary": "Sakana AI\u2019s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark.",
+      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-41-1024x768.png",
+      "link": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-10T22:02:18+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3143,
+      "signals": {
+        "score": 0.3143,
+        "recency": 0.11305107566318182,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "bill maher calls for abolishing frats amid cornell 7 saga a gentleman doesnt exploit the woman he saves her",
+      "title": "Bill Maher Calls for Abolishing Frats Amid Cornell 7 Saga: A Gentleman \u2018Doesn\u2019t Exploit the Woman, He Saves Her\u2019",
+      "summary": "The Real Time host argued whether it was a gang rape or group sex doesn't change his mind \u2014 fraternities do anything but produce fine young gentlemen The post Bill Maher Calls",
+      "image": "assets/images/generated/bill maher calls for abolishing frats amid cornell 7 saga a gentleman doesnt exploit the woman he saves her.jpg",
+      "link": "https://www.mediaite.com/media/bill-maher-calls-for-abolishing-frats-amid-cornell-7-saga-a-gentleman-doesnt-exploit-the-woman-he-saves-her/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T00:57:39+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.312,
+      "signals": {
+        "score": 0.312,
+        "recency": 0.18399766125270858,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "when the safety test became the threat the machine that found its own way out",
+      "title": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out",
+      "summary": "In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym discovered an unexpected network pathway, broke out into the open internet,",
+      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-4-1-2-1024x768.png",
+      "link": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-10T21:30:36+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3119,
+      "signals": {
+        "score": 0.3119,
+        "recency": 0.10352200078180561,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "5 mustread books that teach you how to think independently",
+      "title": "5 Must-read books that teach you how to think independently",
+      "summary": "Discover five insightful books that challenge assumptions, encourage critical thinking, and help you develop an independent mindset.",
+      "image": "https://images.yourstory.com/cs/2/ba6b0930e8cd11edbf1c2f9de7fdeb77/SHERLOCKHOLMES-2026-10-08T000756-1791398290101.png",
+      "link": "https://yourstory.com/2026/10/books-think-independently",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T04:40:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [],
+      "score": 0.3113,
+      "signals": {
+        "score": 0.3113,
+        "recency": 0.3412317740972403,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "trump reveals the two places he will not be renaming",
+      "title": "Trump Reveals the Two Places He Will NOT Be Renaming",
+      "summary": "He's itching to rename another geographic location, but President Trump said there are two spots he won't touch: the Mississippi River and the Hudson River.",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/trumpmisss.jpeg",
+      "link": "https://www.mediaite.com/politics/trump-reveals-the-two-places-he-will-not-be-renaming/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T21:18:16+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.311,
+      "signals": {
+        "score": 0.311,
+        "recency": 0.10003547757268882,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "social reckoning director claims much of the country is suffering thanks to zuckerberg and trumps cool kids table syndrome",
+      "title": "Social Reckoning Director Claims \u2018Much of the Country Is Suffering\u2019 Thanks to Zuckerberg and Trump\u2019s \u2018Cool Kids Table\u2019 Syndrome",
+      "summary": "The Social Reckoning's Aaron Sorkin claims the \"country is suffering\" simply because leaders like Trump and Zuckerberg suffer from \"cool kids table\" syndrome.",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/aaron.jpg",
+      "link": "https://www.mediaite.com/media/podcasts/social-reckoning-director-claims-much-of-the-country-is-suffering-thanks-to-zuckerberg-and-trumps-cool-kids-table-syndrome/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T20:43:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3087,
+      "signals": {
+        "score": 0.3087,
+        "recency": 0.09071301344496364,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "wpp appoints mccann global ceo tyler turnbull as ceo of wpp creative from early 2027 storyboard18",
+      "title": "WPP appoints McCann global CEO Tyler Turnbull as CEO of WPP Creative from early 2027 - Storyboard18",
+      "summary": "WPP appoints McCann global CEO Tyler Turnbull as CEO of WPP Creative from early 2027 &nbsp;&nbsp; Storyboard18",
+      "image": "assets/images/generated/wpp appoints mccann global ceo tyler turnbull as ceo of wpp creative from early 2027 storyboard18.jpg",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNenliWTNCMjNKeE5nRlRzcGxXRlpPWmdIellLUUl1T3o0aExYNXZ2TWZyQTZkdTRlZDlZakxaeUpvYlQxcWtaQzBvbE50bVo5YWoxOWVTa0pEUlZhRjM2ZTdtOUxvbm1oS2ZQeEpVbWhIYWwwbGdoMXBXQzhXQTRCM2NLSHphQlJSSlVCN1hzWGdDcHh1UjVtN0pEVkdoTE5Ub3Eya2xaU21rWThSaEVuYmxyOEhlc0Z3XzZtdmhXWHk3dEo2S1doVDA2WEktaHNZaS1lbUg0M07SAdgBQVVfeXFMTXp5YlkzQjIzSnhOZ0ZUc3BsV0ZaT1pnSHpZS1FJdU96NGhMWDV2dk1mckE2ZHU0ZWQ5WWpMWnlKb2JUMXFrWkMwb2xOdG1aOWFqMTllU2tKRFJWYUYzNmU3bTlMb25taEtmUHhKVW1oSGFsMGxnaDFwV0M4V0E0QjNjS0h6YUJSUkpVQjdYc1hnQ3B4dVI1bTdKRFZHaExOVG9xMmtsWlNta1k4UmhFbmJscjhIZXNGd182bXZoV1h5N3RKNktXaFQwNlhJLWhzWWktZW1INDNO?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-10-11T05:11:01+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.307,
+      "signals": {
+        "score": 0.307,
+        "recency": 0.37193508756032206,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
         "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "softbankbacked opay secures 185m ahead of us ipo",
+      "title": "SoftBank-backed OPay secures $185m ahead of US IPO",
+      "summary": "SoftBank's earlier investment valued the Nigeria-focused fintech at US$2 billion in 2021.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1791679180_1777682912_Opay.png",
+      "link": "https://www.techinasia.com/news/softbankbacked-opay-secures-185m-ipo",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T01:05:39+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.307,
+      "signals": {
+        "score": 0.307,
+        "recency": 0.18813226809847,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "pentagon quietly raises number of troop deaths in iran after hegseth slammed reporting questioning the official death toll as disgusting",
+      "title": "Pentagon Quietly Raises Number of Troop Deaths in Iran \u2014 After Hegseth Slammed Reporting Questioning the Official Death Toll as \u2018DISGUSTING\u2019",
+      "summary": "The Pentagon updated troop deaths in the Iran war following Pete Hegseth slamming a report that said the number of troops deaths was greater than the Pentagon had disclosed.",
+      "image": "https://am11.mediaite.com/med/cnt/uploads/2026/06/AP26132712068701-scaled.jpg",
+      "link": "https://www.mediaite.com/media/news/pentagon-raises-number-of-troop-deaths-in-iran-after-hegseth-slams-claim-that-number-is-higher-than-theyve-reported-as-a-lie/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T19:45:24+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3053,
+      "signals": {
+        "score": 0.3053,
+        "recency": 0.07728979554620895,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "at least 12 people killed 50 hurt in strike on international airport in deadliest attack since start of iran war report",
+      "title": "At Least 12 People Killed, 50 Hurt in Strike on International Airport in Deadliest Attack Since Start of Iran War: Report",
+      "summary": "At least 12 people were killed in a strike on the international airport in the Saudi Arabian capital of Riyadh, the deadliest attack since the Iran war began.",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/CNN-Newsroom-With-Fredricka-Whitfield-2-30-05-pm-2026-10-10-0.jpg",
+      "link": "https://www.mediaite.com/media/news/international-airport-evacuated-after-missile-strikes-passenger-terminals-and-leaving-untold-number-hurt-reports/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T19:26:31+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3043,
+      "signals": {
+        "score": 0.3043,
+        "recency": 0.07334015177634136,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "parents fear youtubers are bringing brain rot to netflix but are kids wising up to slop",
+      "title": "Parents fear YouTubers are bringing \u2018brain rot\u2019 to Netflix. But are kids wising up to \u2018slop\u2019?",
+      "summary": "As streamers poach viral creators to appeal to children, digital whack-a-mole has become a new kind of family challenge Exasperated dad Simon Hooper shakes his fist at the camera",
+      "image": "https://i.guim.co.uk/img/media/bfa4ec89d972ddd11fb12e18622373ef31038bc6/385_0_5498_4398/master/5498.jpg?width=140&quality=85&auto=format&fit=max&s=65f0798664eb3c60c5fc746c9135654d",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/oct/11/parents-fear-youtubers-are-bringing-brain-rot-to-netflix-but-are-kids-wising-up-to-slop",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T19:00:06+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Guardian Media"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.303,
+      "signals": {
+        "score": 0.303,
+        "recency": 0.06815118884337477,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "hugh hewitt shuts down trumps shocking call for new ukraine leader zelenskys not going anywhere",
+      "title": "Hugh Hewitt Shuts Down Trump\u2019s \u2018Shocking\u2019 Call for New Ukraine Leader: \u2018Zelensky\u2019s Not Going Anywhere\u2019",
+      "summary": "Hugh Hewitt insisted Trump's call for Ukraine's Zelensky to be replaced was just him venting his frustrations, assuring viewers Zelensky \"isn't going anywhere.\" The post Hugh",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/hewitt.jpg",
+      "link": "https://www.mediaite.com/media/news/hugh-hewitt-shuts-down-trumps-shocking-call-for-new-ukraine-leader-zelenskys-not-going-anywhere/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T17:36:07+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2995,
+      "signals": {
+        "score": 0.2995,
+        "recency": 0.05397071396484309,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ill make a decision ultimately trump says hell determine whether to live stream fort hood shooters execution",
+      "title": "\u2018I\u2019ll Make a Decision Ultimately\u2019 Trump Says He\u2019ll Determine Whether to Live Stream Fort Hood Shooter\u2019s Execution",
+      "summary": "\"So I'll make a decision ultimately. I know what the military would like to do, but we'll make a decision,\" President Donald Trump said Saturday.",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/Fox-News-Live-12-45-27-pm-2026-10-10-0.jpg",
+      "link": "https://www.mediaite.com/media/news/ill-make-a-decision-ultimately-trump-says-hell-determine-whether-to-live-stream-fort-hood-shooters-execution/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T17:27:42+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2992,
+      "signals": {
+        "score": 0.2992,
+        "recency": 0.05272353476462088,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -200,10 +2822,10 @@
         "TechCrunch Startups"
       ],
       "keywords": [],
-      "score": 0.323,
+      "score": 0.299,
       "signals": {
-        "score": 0.323,
-        "recency": 0.1449052566015111,
+        "score": 0.299,
+        "recency": 0.04881889797049375,
         "keyword_volume": 0.0,
         "source_signal": 0.4,
         "authority": 0.845,
@@ -213,25 +2835,79 @@
       "image_failure_reason": ""
     },
     {
-      "id": "here are the top ai agents that can live in your text messages",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
-      "link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "category": "technology",
+      "id": "treasure island review david oyelowo and hayley atwell can only breathe so much life into mgms handsome but undercooked pirate adventure",
+      "title": "\u2018Treasure Island\u2019 Review: David Oyelowo and Hayley Atwell Can Only Breathe So Much Life Into MGM+\u2019s Handsome but Undercooked Pirate Adventure",
+      "summary": "Jack Huston and Tom Sweet also star in the reimagining of Robert Louis Stevenson's classic novel, about a young man's ocean-traversing quest for buried treasure.",
+      "image": "assets/images/generated/treasure island review david oyelowo and hayley atwell can only breathe so much life into mgms handsome but undercooked pirate adventure.jpg",
+      "link": "https://www.hollywoodreporter.com/tv/tv-reviews/treasure-island-review-david-oyelowo-hayley-atwell-mgm-plus-1236726456/",
+      "category": "media",
       "geo": "global",
-      "published_at": "2026-10-10T14:00:00+00:00",
+      "published_at": "2026-10-11T03:40:02+00:00",
       "source_count": 1,
       "source_names": [
-        "TechCrunch"
+        "The Hollywood Reporter"
+      ],
+      "keywords": [],
+      "score": 0.2982,
+      "signals": {
+        "score": 0.2982,
+        "recency": 0.2888732070062107,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "how wpp ai expansion will impact kyndryl stock simply wall street",
+      "title": "How WPP AI Expansion Will Impact Kyndryl Stock - Simply Wall Street",
+      "summary": "How WPP AI Expansion Will Impact Kyndryl Stock &nbsp;&nbsp; Simply Wall Street",
+      "image": "assets/images/generated/how wpp ai expansion will impact kyndryl stock simply wall street.jpg",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOUlHVENKVzVSd0NUa0lBcXpXUkxZWmRMMDZCaU81WWFxTFJqTHJIOE5UeHhqaW52dElvazBIWmQ5LXlOVWROTVhqaHYweWVMdVZEdTVfa20wZm1WT2xueGxfLXE3VGt2bTlRdlBaUEVRQ2ZQMEFJaGhaNmlPaVRkanBMRFpCNEh1bjJ5RzJqclkzRVl4U3BCempLdGxYMTU1bURpcUxIUWNvcGt2OGExMlFNa2FpMHpW0gG-AUFVX3lxTE83ZXVCV3RUeDROWDZYaUV6dkFUR2R4MWtHVzR2dFFBVjBWYXI5X2dWVVlGUGI4S1U0TExQLWM5VWhUcTdMYXBKMzZ4UDBLbVBfV1hoUF9ETW92ZW9GNklaZWpNaVl4dldYQVFCWHZqSHZuQjlILVBCSFFyTjhwUnVIZVVhR2FPTmpLSHhxMUtTcU1mbFhIcktEX2hXSVRYcExSUTJLRGIxQkhrSktLQlJuV2pFR0RtT2VOMzNXSWc?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-10-10T20:49:13+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.308,
+      "score": 0.2971,
       "signals": {
-        "score": 0.308,
-        "recency": 0.08788948088234293,
+        "score": 0.2971,
+        "recency": 0.09228027878263408,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the pen that went viral with those antiai ads has 30 off right now",
+      "title": "The pen that went viral with those anti-AI ads has 30% off right now",
+      "summary": "Rediscover the focus and creativity that comes with handwriting with the iconic pen used by James Bond.",
+      "image": "https://cdn.mos.cms.futurecdn.net/zERNgzeQP5mLzRxaEwMqw9-1920-80.jpg",
+      "link": "https://www.creativebloq.com/deals/the-pen-that-went-viral-with-those-anti-ai-ads-has-27-percent-off-right-now",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-10T15:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2947,
+      "signals": {
+        "score": 0.2947,
+        "recency": 0.034980268943566,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -241,29 +2917,405 @@
       "image_failure_reason": ""
     },
     {
-      "id": "omnicom global solutions expands coimbatore office to develop talent campaign india",
-      "title": "Omnicom Global Solutions expands Coimbatore office to develop talent - Campaign India",
-      "summary": "Omnicom Global Solutions expands Coimbatore office to develop talent &nbsp;&nbsp; Campaign India",
-      "image": "assets/images/generated/omnicom global solutions expands coimbatore office to develop talent campaign india.jpg",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcWZNZldMcEVuWWRoNFJ2Z0VfZXBjeDJILVNGWFZXYTZaeGxLdlBDT2t6RS1PVGZ4ZG95ZmFON0ZRa2dsRS14MkYzS1daSHZGWXZJbmpXQk1xQ2FSaVYtMEJBb3ZQWVBNSlNMaHpzZnctU2JxNDlJZXhGR0dST2RfcmlxdDVRMGhKLV9fYXVNVEh5cnotcWRxXzhlUkFLVHJFNnFXZ3pDY2Y0NDlIeHQ4bG9vV2c2Z1d1U2FGWk9RenNOZXNwQlF0al90Nkc?oc=5",
-      "category": "advertising",
+      "id": "newage tech stocks gain this week mobikwik surges 25 and physicswallah 20",
+      "title": "New-Age Tech Stocks Gain This Week, MobiKwik Surges 25% And PhysicsWallah 20%",
+      "summary": "Most new-age tech stocks gained this week, as benchmark indices snapped an eight-week losing streak despite a midweek sell-off.",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/BullBear_V2-100-5.jpg",
+      "link": "https://inc42.com/buzz/new-age-tech-stocks-gain-this-week-mobikwik-surges-25-and-physicswallah-20/",
+      "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-10T10:08:04+00:00",
+      "published_at": "2026-10-10T14:47:11+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Omnicom"
+        "Inc42"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.2855,
+      "score": 0.2944,
       "signals": {
-        "score": 0.2855,
-        "recency": 0.0461464883910613,
+        "score": 0.2944,
+        "recency": 0.0337568144377529,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.76,
+        "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "atlassians head of ai we bolted ai onto 20 apps almost didnt ship chat and flipped our hiring toward juniors",
+      "title": "Atlassian\u2019s Head of AI: We Bolted AI Onto 20+ Apps, Almost Didn\u2019t Ship Chat, and Flipped Our Hiring Toward Juniors",
+      "summary": "Sherif Mansour has been at Atlassian for 17 years.",
+      "image": "assets/images/generated/atlassians head of ai we bolted ai onto 20 apps almost didnt ship chat and flipped our hiring toward juniors.jpg",
+      "link": "https://www.saastr.com/atlassians-head-of-ai-we-bolted-ai-onto-20-apps-almost-didnt-ship-chat-and-flipped-our-hiring-toward-juniors/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-10T14:10:55+00:00",
+      "source_count": 1,
+      "source_names": [
+        "SaaStr"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2936,
+      "signals": {
+        "score": 0.2936,
+        "recency": 0.030521811691895114,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "us justice department investigating tv networks over trump pool coverage",
+      "title": "US justice department investigating TV networks over Trump pool coverage",
+      "summary": "Investigation launched after five broadcasters last month ceased presidential coverage after CNN, MS Now and Politico were barred from White House The US Department of Justice is",
+      "image": "https://i.guim.co.uk/img/media/73fccaffbcfe0058905fede7dc7ef079174ffcee/68_0_6306_5047/master/6306.jpg?width=140&quality=85&auto=format&fit=max&s=896d2251844edf7d5a865075e8b5c003",
+      "link": "https://www.theguardian.com/us-news/2026/oct/11/justice-department-investigates-tv-networks-trump-pool-coverage",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T03:15:05+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Guardian Media"
+      ],
+      "keywords": [],
+      "score": 0.2934,
+      "signals": {
+        "score": 0.2934,
+        "recency": 0.26953070207169855,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "how can ai agents read untrusted sources safely",
+      "title": "How Can AI Agents Read Untrusted Sources Safely?",
+      "summary": "Add architectural guardrails around how agents read untrusted sources and use them in the workflow.",
+      "image": "assets/images/generated/how can ai agents read untrusted sources safely.jpg",
+      "link": "https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-10T14:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Towards Data Science"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2934,
+      "signals": {
+        "score": 0.2934,
+        "recency": 0.029610158392487314,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "rohan campbell teases directorial debut plans a very personal story",
+      "title": "Rohan Campbell Teases Directorial Debut Plans: \u201cA Very Personal Story\u201d",
+      "summary": "After steadily growing his onscreen career in recent years, Rohan Campbell is ready to step behind the camera.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/P104PDIY-e1791686574189.jpg",
+      "link": "https://deadline.com/2026/10/rohan-campbell-teases-directorial-debut-plans-1237154173/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T02:56:16+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [],
+      "score": 0.29,
+      "signals": {
+        "score": 0.29,
+        "recency": 0.255804578487787,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "a citybuilding game in which the city would prefer you didnt",
+      "title": "A city-building game in which the city would prefer you didn't",
+      "summary": "Comments",
+      "image": "https://housing.over.pizza/share-card.png",
+      "link": "https://housing.over.pizza/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-10T20:31:50+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [
+        "game"
+      ],
+      "score": 0.288,
+      "signals": {
+        "score": 0.288,
+        "recency": 0.08793020873943429,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "anime series sentinel 6 in development with nba and nfl pros michael carterwilliams and jamaal williams as eps",
+      "title": "Anime Series \u2018Sentinel 6\u2019 in Development With NBA and NFL Pros Michael Carter-Williams and Jamaal Williams as EPs",
+      "summary": "Influencer King Vader is among the voice cast, with LeSean Thomas of \u2018Bass x Machina\u2019 and \u2018The Boondocks\u2019 credited as the pilot writer and a consulting producer on the",
+      "image": "assets/images/generated/anime series sentinel 6 in development with nba and nfl pros michael carterwilliams and jamaal williams as eps.jpg",
+      "link": "https://www.hollywoodreporter.com/tv/tv-news/anime-sentinel-6-king-vader-lesean-thomas-nfl-nba-veterans-1236726994/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T20:30:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
+      ],
+      "keywords": [
+        "series"
+      ],
+      "score": 0.2879,
+      "signals": {
+        "score": 0.2879,
+        "recency": 0.08748355428962691,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "eat a big fat dck bill simmons slams shthead aholes at espn for deleting his old content",
+      "title": "\u2018Eat a Big Fat D*ck!\u2019: Bill Simmons Slams \u2018Sh*thead A**holes\u2019 at ESPN for Deleting His Old Content",
+      "summary": "Bill Simmons went off on the \"vindictive f*cking sh*thead a**holes\" at ESPN who deleted his old content during the latest episode of his podcast The post \u2018Eat a Big Fat D*ck!\u2019",
+      "image": "https://am11.mediaite.com/med/cnt/uploads/2026/10/IMG-1568.jpg",
+      "link": "https://www.mediaite.com/media/sports/eat-a-big-fat-dck-bill-simmons-slams-shthead-aholes-at-espn-for-deleting-his-old-content/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T19:51:02+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.2856,
+      "signals": {
+        "score": 0.2856,
+        "recency": 0.07850875003433812,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ai is getting really good at messing with cybercriminals",
+      "title": "AI Is Getting Really Good at Messing With Cybercriminals",
+      "summary": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.",
+      "image": "https://media.wired.com/photos/6ac7e488d45774a31ff822a9/master/pass/Kernel-Panic-AI-Getting-Really-Good-Fucking-With-Cybercriminals-Security.jpg",
+      "link": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-10T12:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Wired AI"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.2853,
+      "signals": {
+        "score": 0.2853,
+        "recency": 0.021216605599266428,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "european alternatives",
+      "title": "European Alternatives",
+      "summary": "Comments",
+      "image": "https://buy-european.net/buy-european-card.png",
+      "link": "https://buy-european.net/en/alternatives",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T01:56:16+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.2801,
+      "signals": {
+        "score": 0.2801,
+        "recency": 0.2165339008332584,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "doj launches investigation of networks for suspending tv pool amid trumps ban on cnn",
+      "title": "DOJ Launches Investigation Of Networks For Suspending TV Pool Amid Trump\u2019s Ban On CNN",
+      "summary": "The Justice Department has launched an investigation into whether the five major networks violated antitrust laws when they suspended participation in the White House TV pool",
+      "image": "https://deadline.com/wp-content/uploads/2026/09/GettyImages-2297090363.jpg",
+      "link": "https://deadline.com/2026/10/trump-doj-antitrust-investigation-network-tv-pool-1237154137/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T01:05:49+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [],
+      "score": 0.2731,
+      "signals": {
+        "score": 0.2731,
+        "recency": 0.1882193865354866,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "justice department investigating tv networks over decision to suspend press pool",
+      "title": "Justice Department Investigating TV Networks Over Decision to Suspend Press Pool",
+      "summary": "\"Group boycotts among commercial competitors can violate the Sherman Act,\" a DOJ spokesperson tells THR.",
+      "image": "assets/images/generated/justice department investigating tv networks over decision to suspend press pool.jpg",
+      "link": "https://www.hollywoodreporter.com/news/politics-news/doj-investigating-tv-networks-decision-suspend-press-pool-1236727085/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T00:54:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
+      ],
+      "keywords": [],
+      "score": 0.2716,
+      "signals": {
+        "score": 0.2716,
+        "recency": 0.18232716379205036,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "pspi 6 raspberry pi in a psp",
+      "title": "PSPi 6 \u2013 Raspberry Pi in a PSP",
+      "summary": "Comments",
+      "image": "assets/images/generated/pspi 6 raspberry pi in a psp.jpg",
+      "link": "https://github.com/othermod/PSPi-Version-6",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T00:45:49+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.2705,
+      "signals": {
+        "score": 0.2705,
+        "recency": 0.17804791092506614,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "trumps doj is investigating whether tv networks broke the law by suspending his pool coverage",
+      "title": "Trump\u2019s DOJ Is Investigating Whether TV Networks Broke The Law By Suspending His Pool Coverage",
+      "summary": "The DOJ is looking into whether major television networks violated antitrust laws when they suspended Trump's press pool coverage, The NYT reported.",
+      "image": "https://am13.mediaite.com/med/cnt/uploads/2026/10/press-room.jpeg",
+      "link": "https://www.mediaite.com/media/news/trumps-doj-is-investigating-whether-tv-networks-broke-the-law-by-suspending-his-pool-coverage/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-11T00:11:57+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.2665,
+      "signals": {
+        "score": 0.2665,
+        "recency": 0.16206193913535774,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "omnicom group omc is getting attention but what is the market missing simply wall street",
+      "title": "Omnicom Group (OMC) Is Getting Attention, But What Is The Market Missing? - Simply Wall Street",
+      "summary": "Omnicom Group (OMC) Is Getting Attention, But What Is The Market Missing?",
+      "image": "assets/images/generated/omnicom group omc is getting attention but what is the market missing simply wall street.jpg",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVmlBS3k1ZFVCcFdzSnRHREd0RVFnOHBSbmtidVlLUVhmTncwLVpwTXU0enYwVE1JUWdIMlJfVWFCVGNDWGFDb0FaZTFrSFpDd3YwM015U0lsa1BZQjRjOTlKRkxyNDJHUnhzeHhXSm1yNFVxZ1JhdHdhd3o4SE9pdTJSUjRWSlVxWmFkeHl4TWpscWkwQVloalNrcUtqY1FzdllkOThmeDJMWXRrYzd1R19PREpGbUd6NEg4NTR2cVcyeDhH0gHKAUFVX3lxTE0wZTRnMVZlQzZwZmZOcloxNEg3VUlnM0pLbU5OajZzLWZJSzRDbkZXX2JRbEdJNDJXNEVqU21RVzF6YjBhekZyWXVvbkZNWERiM2Nlc2hvOTNMZlE1RnVzaDB0YzZVSHpMOV9ZbnlUcFZ3RWF0T3BIWFhXV0dxZGNNZHR4MDVrZWpRTGVxNWRCOTFBU3NEbThBZnRnRUFuY2tDdjVpakswYzhqaWRnTkdVVUhPdnhoMWN5UFlCYzkwUEk5SDhQVkxjeWc?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-10-11T01:44:05+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - Omnicom"
+      ],
+      "keywords": [],
+      "score": 0.2663,
+      "signals": {
+        "score": 0.2663,
+        "recency": 0.20932844558820884,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -284,10 +3336,10 @@
       "keywords": [
         "console"
       ],
-      "score": 0.2757,
+      "score": 0.2653,
       "signals": {
-        "score": 0.2757,
-        "recency": 0.0629755649222752,
+        "score": 0.2653,
+        "recency": 0.021216605599266428,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -297,26 +3349,442 @@
       "image_failure_reason": ""
     },
     {
-      "id": "publicis groupe stock trades flat at eur 9751 in weekend trading ad hoc news",
-      "title": "Publicis Groupe stock trades flat at EUR 97.51 in weekend trading - AD HOC NEWS",
-      "summary": "Publicis Groupe stock trades flat at EUR 97.51 in weekend trading &nbsp;&nbsp; AD HOC NEWS",
-      "image": "assets/images/generated/publicis groupe stock trades flat at eur 9751 in weekend trading ad hoc news.jpg",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLWJ1dHYxRmJueFFNTV9wTnBPZmNlenVDT3RKY1dHSTdabXhheWpxak9YazBMSTE3VGRCcl9IRnk4aHpkZ3BqVjI3cUx0QTFIelhTSFNwNzVVQ2F5cHNmLXpvS0dWQWVubmllX0Npdy1udlh4RXVQM2oxT2c2LUEweHQyUXN1ejdMWFlQdGZ6Z3ZPc21Kb25vWDZsTE9URlRDWTNEaGRMRFRiLVFlZmlpcEFiVVFqdlBTN0Y0Qkp0S2p3RG5JLXh3?oc=5",
-      "category": "advertising",
+      "id": "in a violent nature part 2 gets 2027 premiere date with ifc shudder nycc",
+      "title": "\u2018In a Violent Nature: Part 2\u2019 Gets 2027 Premiere Date With IFC & Shudder \u2014\u00a0NYCC",
+      "summary": "Johnny is back for more first-person POV blood and carnage as Chris Nash&#8217;s In a Violent Nature: Part 2 heads to theaters on Valentine&#8217;s Day weekend.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/IAVN-Part-2-Still-2.jpg",
+      "link": "https://deadline.com/2026/10/in-a-violent-nature-part-2-2027-premiere-date-1237154118/",
+      "category": "media",
       "geo": "global",
-      "published_at": "2026-10-10T08:02:51+00:00",
+      "published_at": "2026-10-10T23:52:22+00:00",
       "source_count": 1,
       "source_names": [
-        "Google News - Publicis Groupe"
+        "Deadline"
       ],
       "keywords": [],
-      "score": 0.2221,
+      "score": 0.2644,
       "signals": {
-        "score": 0.2221,
-        "recency": 0.03258971646591829,
+        "score": 0.2644,
+        "recency": 0.15348156381165887,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.76,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "thank you cnn trump plays video of cnn data guru as he brags about maga approval rating",
+      "title": "\u2018Thank You, CNN!\u2019 Trump Plays Video of CNN Data Guru as He Brags About MAGA Approval Rating",
+      "summary": "The president gleefully played a clip of CNN's Harry Enten talking about how he is much more popular than Ronald Reagan or Abe Lincoln during his Saturday rally The post \u2018Thank",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/EntnTrump.jpg",
+      "link": "https://www.mediaite.com/politics/thank-you-cnn-trump-plays-video-of-cnn-data-guru-as-he-brags-about-maga-approval-rating/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T23:03:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.2595,
+      "signals": {
+        "score": 0.2595,
+        "recency": 0.13383878918571254,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "new and returning investors betting on sea",
+      "title": "New and returning investors betting on SEA",
+      "summary": "New and returning investors are opening their checkbooks.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2024/02/1707113018_Featured-image-Capital-SEA-Southeast-Asias-funding-landscape.png",
+      "link": "https://www.techinasia.com/returning-investors-betting-sea",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-11T00:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [],
+      "score": 0.2592,
+      "signals": {
+        "score": 0.2592,
+        "recency": 0.1567706890018658,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "build your own decision model",
+      "title": "Build your own decision model",
+      "summary": "Comments",
+      "image": "assets/images/generated/build your own decision model.jpg",
+      "link": "https://nishtahir.com/build-your-own-decision-model/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-10T22:50:10+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.2583,
+      "signals": {
+        "score": 0.2583,
+        "recency": 0.12912780838758736,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "trump tells cheering crowd i could say the stupidest things and youd clap",
+      "title": "Trump Tells Cheering Crowd: \u2018I Could Say the Stupidest Things and You\u2019d Clap\u2019",
+      "summary": "President Donald Trump spoke before an adoring crowd in Tennessee Saturday, telling his fans, \"I could say the stupidest things and you'd clap.\" The post Trump Tells Cheering",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/trump-3.jpeg",
+      "link": "https://www.mediaite.com/media/news/trump-tells-cheering-crowd-i-could-say-the-stupidest-things-and-youd-clap/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T21:21:37+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.2512,
+      "signals": {
+        "score": 0.2512,
+        "recency": 0.10097070793710575,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "kimberly guilfoyle allegedly bragged i can deliver the world to you as she wooed businessman at davos wsj",
+      "title": "Kimberly Guilfoyle Allegedly Bragged \u2018I Can Deliver the World to You\u2019 as She Wooed Businessman at Davos: WSJ",
+      "summary": "Donald Trump is considering whether to fire Kimberly Guilfoyle as more questions of corruption come to light, according to The Wall Street Journal.",
+      "image": "https://am14.mediaite.com/med/cnt/uploads/2026/10/AP25083719333791.jpg",
+      "link": "https://www.mediaite.com/media/news/kimberly-guilfoyle-allegedly-bragged-i-can-deliver-the-world-to-you-as-she-wooed-businessman-at-davos-wsj/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T20:35:05+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.2482,
+      "signals": {
+        "score": 0.2482,
+        "recency": 0.08872761712094489,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "meet southeast asias top angel investors",
+      "title": "Meet Southeast Asia\u2019s top angel investors",
+      "summary": "Our constantly updated list shows the most active angel investors for founders in Southeast Asia.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2025/06/1749040117_Angel-investor.png",
+      "link": "https://www.techinasia.com/visual-story/meet-southeast-asias-top-angel-investors",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-10T22:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [],
+      "score": 0.2481,
+      "signals": {
+        "score": 0.2481,
+        "recency": 0.11233110725006284,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ava duvernay sounds the alarm over the erosion of democracy at 14th world premiere we need to fight",
+      "title": "Ava DuVernay Sounds the Alarm Over the \u201cErosion of Democracy\u201d at \u201914th\u2019 World Premiere: \u201cWe Need to Fight\u201d",
+      "summary": "The Netflix documentary about the significance of and challenges to the 14th Amendment to the U.S.",
+      "image": "assets/images/generated/ava duvernay sounds the alarm over the erosion of democracy at 14th world premiere we need to fight.jpg",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/ava-duvernay-need-to-fight-democracy-14th-premiere-1236726993/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T20:31:10+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
+      ],
+      "keywords": [],
+      "score": 0.2479,
+      "signals": {
+        "score": 0.2479,
+        "recency": 0.0877675256984833,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "elsayed spars with sen john kennedy on social media wears his bed sheets out at night",
+      "title": "El-Sayed Spars With Sen John Kennedy on Social Media: \u2018Wears His Bed Sheets Out at Night\u2019",
+      "summary": "Abdul El-Sayed (D) hit back on social media at Sen.",
+      "image": "https://am12.mediaite.com/med/cnt/uploads/2026/10/kennedy.jpg",
+      "link": "https://www.mediaite.com/media/news/el-sayed-spars-with-sen-john-kennedy-on-social-media-wears-his-bed-sheets-out-at-night/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T18:47:07+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.2424,
+      "signals": {
+        "score": 0.2424,
+        "recency": 0.06573712192962992,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "suck it sophie cunningham responds to ny times writer who called for her to be traded over trans comments",
+      "title": "\u2018Suck It\u2019: Sophie Cunningham Responds to NY Times Writer Who Called for Her to Be Traded Over Trans Comments",
+      "summary": "Sophie Cunningham has two words for The Athletic writer Candace Buckner, after she wrote the Indiana Fever should trade her for being a distraction: \"s*ck it.\" The post \u2018Suck",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/sopcun-scaled.jpg",
+      "link": "https://www.mediaite.com/media/sports/suck-it-sophie-cunningham-responds-to-ny-times-writer-who-called-for-her-to-be-traded-over-trans-comments/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T18:13:39+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.241,
+      "signals": {
+        "score": 0.241,
+        "recency": 0.05990145676184218,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "new report exposes katie zacharias deleted tweets promoting trumps biggest talking points",
+      "title": "New Report Exposes Katie Zacharia\u2019s Deleted Tweets Promoting Trump\u2019s Biggest Talking Points",
+      "summary": "Donald Trump's new press secretary has a history of pushing the president's most controversial talking points on X, then deleting some of them.",
+      "image": "https://am14.mediaite.com/med/cnt/uploads/2026/10/zacharia.jpg",
+      "link": "https://www.mediaite.com/media/news/new-report-exposes-katie-zacharias-deleted-tweets-promoting-trumps-biggest-talking-points/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T17:54:07+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.2402,
+      "signals": {
+        "score": 0.2402,
+        "recency": 0.05673785164201738,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "knuth reward check",
+      "title": "Knuth reward check",
+      "summary": "Comments",
+      "image": "https://www.thomas-huehn.com/knuth.scheck-256.jpg",
+      "link": "https://www.thomas-huehn.com/knuth-reward-check/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-10T15:47:01+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.236,
+      "signals": {
+        "score": 0.236,
+        "recency": 0.03986050603083135,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ev bets drive indias cleantech funding surge in q3",
+      "title": "EV Bets Drive India\u2019s Cleantech Funding Surge In Q3",
+      "summary": "India\u2019s cleantech startups attracted substantially more capital in Q3 2026, with large electric mobility rounds driving funding growth alongside an&#8230",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/ev-ftr.jpg",
+      "link": "https://inc42.com/buzz/ev-bets-drive-indias-cleantech-funding-surge-in-q3/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-10T14:45:59+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Inc42"
+      ],
+      "keywords": [],
+      "score": 0.2344,
+      "signals": {
+        "score": 0.2344,
+        "recency": 0.033644479052616506,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "unikernels were hard key word were",
+      "title": "Unikernels were hard. key word: were",
+      "summary": "Comments",
+      "image": "https://storage.ghost.io/c/06/e5/06e5d12b-0328-469d-a0d0-3a0f0ba34c46/content/images/size/w1200/2026/10/Symbolic-traditional-tattoo-art-print-portraying-a-unikernel-operating-system-as-a-lively-streamlined-digital-core-with-complex-ornamental-circuitry--bright-vibrant-retro-colors--intense-dramatic-lighting--energetic-glowing-accents--sharp-h.jpg",
+      "link": "https://ghuntley.com/unikernels/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-10T14:27:09+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.234,
+      "signals": {
+        "score": 0.234,
+        "recency": 0.03192962167419292,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "new orleans court deputy who handcuffed journalist disciplined for violating etiquette",
+      "title": "New Orleans court deputy who handcuffed journalist disciplined \u2013 for violating etiquette",
+      "summary": "Herschel Green handcuffed WWL producer and lawyer for not leaving public space, but was only punished for arguing about it with administrator A New Orleans criminal court deputy",
+      "image": "https://i.guim.co.uk/img/media/b65498d4d0f432659c71b974b970912ef821df47/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=387eb18e7d4ac66b44f029246044893e",
+      "link": "https://www.theguardian.com/us-news/2026/oct/10/new-orleans-court-deputy-handcuffed-journalists",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-10T13:12:09+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Guardian Media"
+      ],
+      "keywords": [],
+      "score": 0.2325,
+      "signals": {
+        "score": 0.2325,
+        "recency": 0.025924820356116318,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "why temperature 0 isnt deterministic",
+      "title": "Why Temperature 0 Isn't Deterministic",
+      "summary": "A one-line formula for how often an LLM's top token flips, and why identical completions fall apart after about a hundred tokens The post Why Temperature 0 Isn't Deterministic",
+      "image": "assets/images/generated/why temperature 0 isnt deterministic.jpg",
+      "link": "https://towardsdatascience.com/why-temperature-0-isnt-deterministic/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-10T12:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Towards Data Science"
+      ],
+      "keywords": [],
+      "score": 0.2313,
+      "signals": {
+        "score": 0.2313,
+        "recency": 0.021216605599266428,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "indian listed newage tech company tracker market cap revenue more",
+      "title": "Indian Listed New-Age Tech Company Tracker: Market Cap, Revenue & More",
+      "summary": "For years, we at Inc42 have tracked the Indian tech startup ecosystem and seen it grow from a kid to&#8230",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/New-age-tech-Ipo-Tracker_FTR-2.jpg",
+      "link": "https://inc42.com/features/indian-listed-new-age-tech-company-tracker-market-cap-revenue-more/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-10T11:35:59+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Inc42"
+      ],
+      "keywords": [],
+      "score": 0.231,
+      "signals": {
+        "score": 0.231,
+        "recency": 0.01984736385606667,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
         "engagement": 0.4
       },
       "ai_image_pending": false,
