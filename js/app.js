@@ -2234,75 +2234,51 @@ function renderTrendChart() {
     }
 
     const list = getEditorialTrends(state.activeCategory);
-    const topTrends = list.slice(0, 5).reverse();
+    const topTrends = list.slice(0, 5);
 
     if (!topTrends.length) {
         chartDiv.innerHTML = '<div style="color: rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; height: 100%; font-size: 0.8rem;">No data available for this category.</div>';
         return;
     }
 
-    const xValues = topTrends.map(item => item.score || 0);
-    const yValues = topTrends.map(item => {
-        const headline = cleanHeadline(item.title);
-        return headline.length > 28 ? headline.slice(0, 26) + '…' : headline;
-    });
-    const hoverTexts = topTrends.map(item => `${cleanHeadline(item.title)}<br>Score: ${(item.score || 0).toFixed(3)}<br>Source: ${getPrimarySource(item)}`);
+    const maxScore = Math.max(...topTrends.map(t => t.score || 0.1), 0.5);
 
-    const data = [{
-        type: 'bar',
-        x: xValues,
-        y: yValues,
-        orientation: 'h',
-        text: xValues.map(v => v.toFixed(2)),
-        textposition: 'auto',
-        hoverinfo: 'text',
-        hovertext: hoverTexts,
-        marker: {
-            color: topTrends.map(item => {
+    chartDiv.innerHTML = `
+        <div class="bars3d-container">
+            ${topTrends.map((item, idx) => {
+                const score = item.score || 0;
+                const pct = Math.min(Math.max((score / maxScore) * 100, 15), 100);
                 const cat = normalizeCategory(item.category || 'all');
-                const colors = {
-                    ai: '#38bdf8',       // cyan
-                    tech: '#10b981',     // emerald
-                    commerce: '#f59e0b', // amber
-                    ads: '#ec4899',      // pink
-                    startup: '#8b5cf6',  // purple
-                    media: '#3b82f6',    // blue
-                    brands: '#f43f5e'    // rose
+                const catColors = {
+                    ai: { front: '#38bdf8', side: '#0284c7', top: '#7dd3fc', glow: 'rgba(56, 189, 248, 0.4)' },
+                    tech: { front: '#10b981', side: '#059669', top: '#6ee7b7', glow: 'rgba(16, 185, 129, 0.4)' },
+                    commerce: { front: '#f59e0b', side: '#d97706', top: '#fcd34d', glow: 'rgba(245, 158, 11, 0.4)' },
+                    ads: { front: '#ec4899', side: '#db2777', top: '#f472b6', glow: 'rgba(236, 72, 153, 0.4)' },
+                    startup: { front: '#8b5cf6', side: '#7c3aed', top: '#c4b5fd', glow: 'rgba(139, 92, 246, 0.4)' },
+                    media: { front: '#3b82f6', side: '#2563eb', top: '#93c5fd', glow: 'rgba(59, 130, 246, 0.4)' },
+                    brands: { front: '#f43f5e', side: '#e11d48', top: '#fda4af', glow: 'rgba(244, 63, 94, 0.4)' }
                 };
-                return colors[cat] || '#6b7280';
-            }),
-            opacity: 0.9,
-            line: {
-                color: 'rgba(255,255,255,0.15)',
-                width: 1
-            }
-        }
-    }];
+                const c = catColors[cat] || { front: '#0284c7', side: '#0369a1', top: '#38bdf8', glow: 'rgba(2, 132, 199, 0.35)' };
+                const headline = cleanHeadline(item.title);
+                const source = getPrimarySource(item);
+                const shortLabel = headline.length > 18 ? headline.slice(0, 16) + '…' : headline;
 
-    const layout = {
-        margin: { l: window.innerWidth < 768 ? 100 : 160, r: 15, t: 5, b: 24 },
-        height: 175,
-        paper_bgcolor: 'rgba(0,0,0,0)',
-        plot_bgcolor: 'rgba(0,0,0,0)',
-        font: {
-            color: 'rgba(255, 255, 255, 0.75)',
-            family: 'Inter, sans-serif',
-            size: window.innerWidth < 768 ? 8 : 10
-        },
-        xaxis: {
-            title: '',
-            gridcolor: 'rgba(255, 255, 255, 0.05)',
-            zerolinecolor: 'rgba(255, 255, 255, 0.1)',
-            tickfont: { color: 'rgba(255, 255, 255, 0.45)', size: 9 }
-        },
-        yaxis: {
-            gridcolor: 'rgba(255, 255, 255, 0.05)',
-            tickfont: { color: 'rgba(255, 255, 255, 0.85)', size: 9 }
-        }
-    };
-
-    const config = { responsive: true, displayModeBar: false };
-    Plotly.newPlot('plotly-trend-chart', data, layout, config);
+                return `
+                    <div class="bar3d-col" title="${escapeAttr(headline)} (${source}) - Score: ${score.toFixed(3)}">
+                        <span class="bar3d-val">${score.toFixed(2)}</span>
+                        <div class="bar3d-track">
+                            <div class="bar3d-pillar" style="height: ${pct}%;">
+                                <div class="bar3d-face-top" style="background: ${c.top};"></div>
+                                <div class="bar3d-face-front" style="background: linear-gradient(180deg, ${c.front}, ${c.side}); box-shadow: 0 4px 14px ${c.glow};"></div>
+                                <div class="bar3d-face-side" style="background: ${c.side};"></div>
+                            </div>
+                        </div>
+                        <span class="bar3d-label" title="${escapeAttr(headline)}">${escapeHtml(shortLabel)}</span>
+                    </div>
+                `;
+            }).join('')}
+        </div>
+    `;
 }
 
 function setupSearch() {
