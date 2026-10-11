@@ -1,8 +1,14 @@
 # TrendGrid (AIinc)
 
-_Last updated: 2026-10-11T12:45:00+05:30_
+_Last updated: 2026-10-11T12:55:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
+
+### Recent Enhancements (2026-10-11T12:55:00+05:30)
+- **News by Category Single-Row Full Display**:
+  - Re-architected the News by Category rail into a single unified row (`.explore-category-single-row`) showing all category channels fully (`AI Intelligence`, `Technology`, `Commerce`, `Advertising`, `Startups`, `Digital Media`, `Brands`).
+  - Each category tab displays its dedicated icon, category name, and active story count with clean one-tap switching.
+  - Bumped cache busters to `v20261011_5` and Service Worker to `snapfacts-v5`.
 
 ### Recent Enhancements (2026-10-11T12:45:00+05:30)
 - **Horizontal Spread for News by Category Section**:

@@ -696,22 +696,24 @@ function renderLlmLeaderboardHome() {
     }).join('');
 
     const categoryCards = [
-        { key: 'ai', label: 'AI', fullName: 'AI Intelligence', desc: 'Enterprise models & research', icon: 'fa-solid fa-robot', color: '#38bdf8' },
-        { key: 'tech', label: 'Technology', fullName: 'Technology', desc: 'Cloud & computing', icon: 'fa-solid fa-laptop-code', color: '#818cf8' },
-        { key: 'commerce', label: 'Commerce', fullName: 'Commerce', desc: 'Retail & payments', icon: 'fa-solid fa-cart-shopping', color: '#34d399' },
-        { key: 'ads', label: 'Advertising', fullName: 'Advertising', desc: 'Adtech & marketing', icon: 'fa-solid fa-bullhorn', color: '#f59e0b' },
-        { key: 'startup', label: 'Startups', fullName: 'Startups', desc: 'Founders & early-stage AI', icon: 'fa-solid fa-rocket', color: '#ec4899' },
-        { key: 'media', label: 'Media', fullName: 'Digital Media', desc: 'Publishing & streaming', icon: 'fa-solid fa-photo-film', color: '#a78bfa' },
-        { key: 'brands', label: 'Brands', fullName: 'Brands', desc: 'Campaigns & positioning', icon: 'fa-solid fa-tag', color: '#f43f5e' },
+        { key: 'ai', label: 'AI', fullName: 'AI Intelligence', icon: 'fa-solid fa-robot', color: '#38bdf8' },
+        { key: 'tech', label: 'Technology', fullName: 'Technology', icon: 'fa-solid fa-laptop-code', color: '#818cf8' },
+        { key: 'commerce', label: 'Commerce', fullName: 'Commerce', icon: 'fa-solid fa-cart-shopping', color: '#34d399' },
+        { key: 'ads', label: 'Advertising', fullName: 'Advertising', icon: 'fa-solid fa-bullhorn', color: '#f59e0b' },
+        { key: 'startup', label: 'Startups', fullName: 'Startups', icon: 'fa-solid fa-rocket', color: '#ec4899' },
+        { key: 'media', label: 'Media', fullName: 'Digital Media', icon: 'fa-solid fa-photo-film', color: '#a78bfa' },
+        { key: 'brands', label: 'Brands', fullName: 'Brands', icon: 'fa-solid fa-tag', color: '#f43f5e' },
     ].map(c => {
         const count = getCategoryStoryCount(c.key);
         return `
-        <button class="home-cat-chip" type="button" data-category-jump="${c.key}">
-            <span class="home-cat-badge" style="color: ${c.color}; background: ${c.color}20; border: 1px solid ${c.color}45;">
-                <i class="${c.icon}"></i> ${escapeHtml(c.label)}
+        <button class="home-cat-tab-btn" type="button" data-category-jump="${c.key}">
+            <span class="home-cat-tab-icon" style="color: ${c.color}; background: ${c.color}18; border: 1px solid ${c.color}35;">
+                <i class="${c.icon}"></i>
             </span>
-            <span class="home-cat-count">${count} stories</span>
-            <i class="fa-solid fa-chevron-right home-cat-arrow-mini"></i>
+            <div class="home-cat-tab-info">
+                <span class="home-cat-tab-name">${escapeHtml(c.fullName)}</span>
+                <span class="home-cat-tab-count">${count} stories</span>
+            </div>
         </button>
         `;
     }).join('');
@@ -732,13 +734,13 @@ function renderLlmLeaderboardHome() {
             </div>
         </div>
 
-        <!-- Horizontal Categories Rail with Category Labels -->
+        <!-- Single Column Row Displaying All Category Tabs Fully -->
         <div class="arena-category-horizontal-bar">
             <div class="cat-bar-header">
                 <span class="explore-eyebrow"><i class="fa-solid fa-layer-group"></i> News by Category</span>
-                <span class="cat-bar-sub">Click any category label to browse dedicated editorial feeds:</span>
+                <span class="cat-bar-sub">Direct access to all editorial category channels:</span>
             </div>
-            <div class="explore-category-horizontal-rail">
+            <div class="explore-category-single-row">
                 ${categoryCards}
             </div>
         </div>
