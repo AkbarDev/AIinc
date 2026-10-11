@@ -1,8 +1,16 @@
 # TrendGrid (AIinc)
 
-_Last updated: 2026-09-27T16:52:00+05:30_
+_Last updated: 2026-10-11T08:56:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
+
+### Recent Enhancements (2026-10-11T08:56:00+05:30)
+- **Authentic Editorial News Card Redesign**:
+  - **Contextual Media Frame (16:9)**: Cinematic image framing with smooth scale hover micro-interactions, soft gradient vignette, category jump pill, read time indicator, and distinct AI vs. Press badges.
+  - **Publisher Credibility Bar**: Embedded source favicons, publication name, and real-time relative timestamps (`15m ago`, `2h ago`).
+  - **"Signal Context" Key Takeaway Box**: Perplexity/Axios-style high-contrast bullet block summarizing the actionable market impact for readers to drive session engagement and dwell time.
+  - **Unified Bottom Action Toolbar**: Clean circular icon cluster for instant bookmarking, text-to-speech audio listening, speed-reading, visual card generation, and native social sharing without obstructing visual artwork.
+  - **Deep-Browse Category Jumps**: Clicking any card category pill smoothly jumps and filters to that topic, encouraging rabbit-hole exploration.
 
 ![Refresh Trend Data](https://github.com/AkbarDev/AIinc/actions/workflows/refresh-trends.yml/badge.svg)
 ![Last Refresh](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AkbarDev/AIinc/main/data/badges/last-refresh.json)

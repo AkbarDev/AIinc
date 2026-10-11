@@ -538,47 +538,94 @@ function renderNewsBoard() {
             const image = resolveCardImage(item);
             const isAiGenerated = image && (image.includes('/generated/') || image.startsWith('data:image/svg+xml'));
             const aiBadge = isAiGenerated 
-                ? `<span class="ai-generated-badge"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI</span>` 
-                : '';
+                ? `<span class="ai-generated-badge" title="AI Editorial Illustration"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI Visual</span>` 
+                : `<span class="press-photo-badge" title="Official Source Image"><i class="fa-regular fa-image" aria-hidden="true"></i> Press</span>`;
             const storyId = String(item.id || item.link || item.title || '').toLowerCase();
             const isSaved = state.savedStoryIds.includes(storyId);
             const headline = cleanHeadline(item.title);
             const categoryLabel = getCategoryLabel(item);
             const sourceName = getPrimarySource(item);
+            const sourceDomain = extractHostname(item.link);
             const sourceLabel = getSourceSummary(item, sourceName);
             const storySignal = getStorySignalLabel(item);
             const whyItMatters = buildWhyItMatters(item);
-            const storyBrief = buildStoryBrief(item, whyItMatters, mobileReader ? 72 : state.briefMode ? 48 : 72);
+            const storyBrief = buildStoryBrief(item, whyItMatters, mobileReader ? 60 : state.briefMode ? 40 : 64);
+            const readTime = estimateReadTime(headline + ' ' + (item.summary || ''));
+            const timeAgo = formatTimeAgo(item.published_at);
             const storyHref = escapeAttr(item.link);
+            const scoreValue = Math.round(item.score || 0);
 
             return `
         <article class="news-card ${image ? '' : 'no-image'}" data-theme-category="${normalizeCategory(item.category || 'all')}">
             <div class="card-media-wrapper">
                 ${renderCardMedia(item, image, index)}
-                ${aiBadge}
-                <div class="card-image-actions" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
-                    <button class="card-image-action-btn" type="button" data-action="listen" aria-label="Listen to story" title="Listen"><i class="fa-solid fa-volume-high" aria-hidden="true"></i></button>
-                    <button class="card-image-action-btn" type="button" data-action="speed-read" aria-label="Speed Read Summary" title="Speed Read Summary"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></button>
-                    <button class="card-image-action-btn" type="button" data-action="export-card" aria-label="Download Visual Card" title="Download Visual Card"><i class="fa-solid fa-image" aria-hidden="true"></i></button>
-                    <button class="card-image-action-btn" type="button" data-action="export-markdown" aria-label="Export to Obsidian" title="Export to Obsidian"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i></button>
-                    <button class="card-image-action-btn" type="button" data-action="share" aria-label="Share story" title="Share"><i class="fa-solid fa-share-nodes" aria-hidden="true"></i></button>
-                    <div class="share-popover">
-                        <a href="https://x.com/intent/tweet?text=${encodeURIComponent('Check out this trend on Snapfacts: ' + headline)}&url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option x-twitter" title="Share on X"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option facebook" title="Share on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option linkedin" title="Share on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <button class="share-option instagram" type="button" data-action="instagram-share" data-link="${escapeAttr(item.link)}" title="Share on Instagram"><i class="fa-brands fa-instagram"></i></button>
-                    </div>
+                <div class="card-media-overlay"></div>
+                <div class="card-top-badges">
+                    <span class="card-category-pill" data-category-jump="${normalizeCategory(item.category || 'all')}">${escapeHtml(categoryLabel)}</span>
+                    ${aiBadge}
+                </div>
+                <div class="card-media-footer">
+                    <span class="card-read-time"><i class="fa-regular fa-clock" aria-hidden="true"></i> ${readTime}</span>
+                    ${scoreValue > 0 ? `<span class="card-signal-badge" title="Algorithmic Signal Score"><i class="fa-solid fa-bolt" aria-hidden="true"></i> ${scoreValue}</span>` : ''}
                 </div>
             </div>
+
             <div class="news-card-body">
-                <h4><a class="headline-link" href="${storyHref}" target="_blank" rel="noopener">${escapeHtml(headline)}</a></h4>
+                <div class="card-publisher-bar">
+                    <img class="card-publisher-icon" src="https://www.google.com/s2/favicons?domain=${encodeURIComponent(sourceDomain)}&sz=32" alt="" width="16" height="16" loading="lazy" onerror="this.style.display='none'" />
+                    <span class="card-publisher-name" title="${escapeAttr(sourceLabel)}">${escapeHtml(sourceName)}</span>
+                    <span class="card-pub-dot">•</span>
+                    <time class="card-pub-time" datetime="${escapeAttr(item.published_at || '')}">${timeAgo}</time>
+                </div>
+
+                <h4 class="news-card-title">
+                    <a class="headline-link" href="${storyHref}" target="_blank" rel="noopener">${escapeHtml(headline)}</a>
+                </h4>
+
                 <p class="card-summary">
                     ${escapeHtml(storyBrief)}
-                    <a class="story-source-link" href="${storyHref}" target="_blank" rel="noopener" style="display: block; margin-top: 0.6rem; font-size: 0.82rem; font-weight: 600; color: #38bdf8; text-decoration: none; transition: opacity 0.2s;">
-                        Read on ${escapeHtml(sourceName)} <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.72rem; margin-left: 0.2rem;"></i>
-                    </a>
                 </p>
+
+                ${whyItMatters ? `
+                <div class="card-key-takeaway">
+                    <div class="takeaway-badge"><i class="fa-solid fa-lightbulb"></i> Signal Context</div>
+                    <div class="takeaway-text">${escapeHtml(whyItMatters)}</div>
+                </div>` : ''}
+
                 ${renderRelatedArticles(item)}
+
+                <div class="news-card-footer" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
+                    <a class="card-read-source-btn" href="${storyHref}" target="_blank" rel="noopener" title="Read full original article on ${escapeAttr(sourceName)}">
+                        <span>Read on ${escapeHtml(sourceName)}</span>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                    <div class="card-action-cluster">
+                        <button class="card-action-icon-btn ${isSaved ? 'is-saved' : ''}" type="button" data-action="save" aria-label="${isSaved ? 'Unsave story' : 'Save story'}" title="${isSaved ? 'Bookmarked' : 'Bookmark story'}">
+                            <i class="${isSaved ? 'fa-solid' : 'fa-regular'} fa-bookmark" aria-hidden="true"></i>
+                        </button>
+                        <button class="card-action-icon-btn" type="button" data-action="listen" aria-label="Listen to audio summary" title="Listen">
+                            <i class="fa-solid fa-volume-high" aria-hidden="true"></i>
+                        </button>
+                        <button class="card-action-icon-btn" type="button" data-action="speed-read" aria-label="Speed Read" title="Speed Read">
+                            <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
+                        </button>
+                        <button class="card-action-icon-btn" type="button" data-action="export-card" aria-label="Download Visual Card" title="Download Card">
+                            <i class="fa-solid fa-image" aria-hidden="true"></i>
+                        </button>
+                        <div class="card-share-wrap">
+                            <button class="card-action-icon-btn" type="button" data-action="share" aria-label="Share story" title="Share">
+                                <i class="fa-solid fa-share-nodes" aria-hidden="true"></i>
+                            </button>
+                            <div class="share-popover">
+                                <a href="https://x.com/intent/tweet?text=${encodeURIComponent('Check out this trend on Snapfacts: ' + headline)}&url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option x-twitter" title="Share on X"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option facebook" title="Share on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option linkedin" title="Share on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <button class="share-option instagram" type="button" data-action="instagram-share" data-link="${escapeAttr(item.link)}" title="Copy link for Instagram"><i class="fa-brands fa-instagram"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </article>`;
         })
@@ -997,6 +1044,19 @@ function setupReaderInteractions() {
 
         // Close popover if other social link options are clicked
         board.addEventListener('click', (event) => {
+            const categoryJump = event.target.closest('[data-category-jump]');
+            if (categoryJump) {
+                const cat = categoryJump.dataset.categoryJump;
+                if (cat) {
+                    setActiveCategory(cat);
+                    const headingEl = document.getElementById('news-heading');
+                    if (headingEl) {
+                        headingEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                    return;
+                }
+            }
+
             const otherShareBtn = event.target.closest('.share-option');
             if (otherShareBtn && otherShareBtn.tagName.toLowerCase() === 'a') {
                 const popover = otherShareBtn.closest('.share-popover');
@@ -1317,6 +1377,42 @@ function formatDate(value) {
         dateStyle: 'medium',
         timeStyle: 'short',
     }).format(new Date(value));
+}
+
+function formatTimeAgo(value) {
+    if (!value) return 'Just now';
+    const date = new Date(value);
+    const now = new Date();
+    const diffMs = now - date;
+    if (diffMs < 0 || isNaN(diffMs)) return 'Just now';
+
+    const diffMinutes = Math.floor(diffMs / (1000 * 60));
+    if (diffMinutes < 1) return 'Just now';
+    if (diffMinutes < 60) return `${diffMinutes}m ago`;
+
+    const diffHours = Math.floor(diffMinutes / 60);
+    if (diffHours < 24) return `${diffHours}h ago`;
+
+    const diffDays = Math.floor(diffHours / 24);
+    if (diffDays < 7) return `${diffDays}d ago`;
+
+    return new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(date);
+}
+
+function extractHostname(link = '') {
+    try {
+        if (!link) return '';
+        const url = new URL(link);
+        return url.hostname.replace(/^www\./, '');
+    } catch {
+        return '';
+    }
+}
+
+function estimateReadTime(text = '') {
+    const words = String(text || '').trim().split(/\s+/).filter(Boolean).length;
+    const minutes = Math.max(1, Math.round(words / 45)); // ~45 words/min for scannable summaries
+    return `${minutes} min read`;
 }
 
 function normalizeCategory(value = '') {
