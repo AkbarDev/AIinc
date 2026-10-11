@@ -674,6 +674,8 @@ function renderLlmLeaderboardHome() {
                     <a href="${escapeAttr(m.link)}" target="_blank" rel="noopener" class="model-name">${escapeHtml(m.model)}</a>
                     <span class="model-badge" style="color: ${m.badgeColor}; border-color: ${m.badgeColor}40; background: ${m.badgeColor}15;">${escapeHtml(m.badge)}</span>
                 </div>
+            </div>
+            <div class="col-prov">
                 <span class="model-provider">${escapeHtml(m.provider)}</span>
             </div>
             <div class="col-elo">
@@ -694,28 +696,22 @@ function renderLlmLeaderboardHome() {
     }).join('');
 
     const categoryCards = [
-        { key: 'ai', label: 'AI Intelligence', desc: 'Enterprise models, agents & research', icon: 'fa-solid fa-robot', color: '#38bdf8' },
-        { key: 'tech', label: 'Technology', desc: 'Cloud, infrastructure & computing', icon: 'fa-solid fa-laptop-code', color: '#818cf8' },
-        { key: 'commerce', label: 'Commerce', desc: 'Retail, payments & logistics', icon: 'fa-solid fa-cart-shopping', color: '#34d399' },
-        { key: 'ads', label: 'Advertising', desc: 'Adtech, media buying & marketing', icon: 'fa-solid fa-bullhorn', color: '#f59e0b' },
-        { key: 'startup', label: 'Startups', desc: 'Founders, rounds & early-stage AI', icon: 'fa-solid fa-rocket', color: '#ec4899' },
-        { key: 'media', label: 'Digital Media', desc: 'Publishing, streaming & audience', icon: 'fa-solid fa-photo-film', color: '#a78bfa' },
-        { key: 'brands', label: 'Brands', desc: 'Global campaigns & consumer positioning', icon: 'fa-solid fa-tag', color: '#f43f5e' },
+        { key: 'ai', label: 'AI', fullName: 'AI Intelligence', desc: 'Enterprise models & research', icon: 'fa-solid fa-robot', color: '#38bdf8' },
+        { key: 'tech', label: 'Technology', fullName: 'Technology', desc: 'Cloud & computing', icon: 'fa-solid fa-laptop-code', color: '#818cf8' },
+        { key: 'commerce', label: 'Commerce', fullName: 'Commerce', desc: 'Retail & payments', icon: 'fa-solid fa-cart-shopping', color: '#34d399' },
+        { key: 'ads', label: 'Advertising', fullName: 'Advertising', desc: 'Adtech & marketing', icon: 'fa-solid fa-bullhorn', color: '#f59e0b' },
+        { key: 'startup', label: 'Startups', fullName: 'Startups', desc: 'Founders & early-stage AI', icon: 'fa-solid fa-rocket', color: '#ec4899' },
+        { key: 'media', label: 'Media', fullName: 'Digital Media', desc: 'Publishing & streaming', icon: 'fa-solid fa-photo-film', color: '#a78bfa' },
+        { key: 'brands', label: 'Brands', fullName: 'Brands', desc: 'Campaigns & positioning', icon: 'fa-solid fa-tag', color: '#f43f5e' },
     ].map(c => {
         const count = getCategoryStoryCount(c.key);
         return `
-        <button class="home-cat-card" type="button" data-category-jump="${c.key}">
-            <div class="home-cat-icon" style="color: ${c.color}; background: ${c.color}15; border: 1px solid ${c.color}35;">
-                <i class="${c.icon}"></i>
-            </div>
-            <div class="home-cat-details">
-                <div class="home-cat-title-row">
-                    <h4>${escapeHtml(c.label)}</h4>
-                    <span class="home-cat-count">${count} articles</span>
-                </div>
-                <p>${escapeHtml(c.desc)}</p>
-            </div>
-            <span class="home-cat-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        <button class="home-cat-chip" type="button" data-category-jump="${c.key}">
+            <span class="home-cat-badge" style="color: ${c.color}; background: ${c.color}20; border: 1px solid ${c.color}45;">
+                <i class="${c.icon}"></i> ${escapeHtml(c.label)}
+            </span>
+            <span class="home-cat-count">${count} stories</span>
+            <i class="fa-solid fa-chevron-right home-cat-arrow-mini"></i>
         </button>
         `;
     }).join('');
@@ -726,7 +722,7 @@ function renderLlmLeaderboardHome() {
             <div class="arena-banner-left">
                 <span class="arena-pulse-badge"><span class="radar-pulse-dot"></span> LIVE LMSYS CHATBOT ARENA STANDINGS</span>
                 <h2 class="arena-banner-heading">Frontier LLM Leaderboard & Parameter Evaluations</h2>
-                <p class="arena-banner-sub">Dynamic benchmark rankings rating 150+ models via 2.3M+ pairwise human blind evaluations with style control and hard prompt filters.</p>
+                <p class="arena-banner-sub">Complete full-view leaderboard ranking frontier LLMs across Elo, coding benchmarks, and reasoning parameters.</p>
             </div>
             <div class="arena-banner-right">
                 <a href="https://arena.ai/leaderboard" target="_blank" rel="noopener" class="arena-live-ext-btn">
@@ -736,32 +732,32 @@ function renderLlmLeaderboardHome() {
             </div>
         </div>
 
-        <div class="arena-table-card">
+        <!-- Horizontal Categories Rail with Category Labels -->
+        <div class="arena-category-horizontal-bar">
+            <div class="cat-bar-header">
+                <span class="explore-eyebrow"><i class="fa-solid fa-layer-group"></i> News by Category</span>
+                <span class="cat-bar-sub">Click any category label to browse dedicated editorial feeds:</span>
+            </div>
+            <div class="explore-category-horizontal-rail">
+                ${categoryCards}
+            </div>
+        </div>
+
+        <!-- Full Horizontal View Leaderboard Table with zero trimming -->
+        <div class="arena-table-card full-view-board">
             <div class="arena-table-header-row">
                 <span class="col-rank">Rank</span>
-                <span class="col-model">Model & Provider</span>
+                <span class="col-model">Model</span>
+                <span class="col-prov">Provider</span>
                 <span class="col-elo">Arena Elo</span>
                 <span class="col-code">Coding Elo</span>
                 <span class="col-hard">Hard Prompts</span>
-                <span class="col-ctx">Context</span>
-                <span class="col-lic">License</span>
+                <span class="col-ctx">Context Window</span>
+                <span class="col-lic">License & Access</span>
                 <span class="col-act">Arena Link</span>
             </div>
             <div class="arena-table-body">
                 ${tableRows}
-            </div>
-        </div>
-
-        <div class="arena-category-explore">
-            <div class="explore-header">
-                <div>
-                    <span class="explore-eyebrow"><i class="fa-solid fa-newspaper"></i> News by Category</span>
-                    <h3>Explore Curated Industry News</h3>
-                    <p>Select any category tab above or click a category card below to view dedicated news coverage:</p>
-                </div>
-            </div>
-            <div class="explore-category-grid">
-                ${categoryCards}
             </div>
         </div>
     </div>

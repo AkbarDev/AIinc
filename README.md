@@ -1,8 +1,16 @@
 # TrendGrid (AIinc)
 
-_Last updated: 2026-10-11T12:35:00+05:30_
+_Last updated: 2026-10-11T12:45:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
+
+### Recent Enhancements (2026-10-11T12:45:00+05:30)
+- **Horizontal Spread for News by Category Section**:
+  - Replaced the tall vertical/grid category block with a sleek, space-saving **Horizontal Category Rail** (`.explore-category-horizontal-rail`) featuring labeled category pills and story counters (`AI`, `Technology`, `Commerce`, `Advertising`, `Startups`, `Media`, `Brands`).
+  - Saved vertical viewport space while enabling instant one-tap horizontal category discovery.
+- **Full Horizontal View for LLM Leaderboard (Zero Trimming)**:
+  - Spread the LLM models and providers across dedicated horizontal columns (`Rank`, `Model`, `Provider`, `Arena Elo`, `Coding Elo`, `Hard Prompts`, `Context Window`, `License & Access`, `Arena Link`).
+  - Expanded board width to a widescreen `1050px+` container with custom slim scroll styling so all model names, providers, and evaluation metrics are displayed in full view without being truncated.
 
 ### Recent Enhancements (2026-10-11T12:35:00+05:30)
 - **3D Vertical Bar Chart for Real-Time Trend Score Distribution**:
