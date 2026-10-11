@@ -56,7 +56,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-8XFHbRmq9Vc3rroWAtxEvsC0BpvyEukgqS0bkkCm1cW0XkyR3O6jwxKF1u9IiiaivGi99ZTSdKCbFf8Cj8BkVA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css?v=20261011_6" />
+    <link rel="stylesheet" href="css/style.css?v=20261011_7" />
     <script src="https://cdn.plot.ly/plotly-2.32.0.min.js" charset="utf-8"></script>
     <script>
         window.SNAPFACTS_API_BASE = window.SNAPFACTS_API_BASE || (window.location.hostname === "localhost" ? "http://localhost:8834" : "https://api.snapfacts.in");
@@ -87,27 +87,17 @@
                 <div class="category-pills header-tabs" id="category-pills"></div>
                 <div class="mobile-category-nav" id="mobile-category-nav">
                     <button class="mobile-all-news-pill" id="mobile-all-news" type="button" aria-label="Show LLM Leaderboard">🏆 LEADERBOARD</button>
-                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open category menu" aria-expanded="false" aria-controls="mobile-category-menu">☰</button>
-                    <div class="mobile-category-menu" id="mobile-category-menu" aria-label="More categories"></div>
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open category workspace" aria-haspopup="dialog" aria-controls="category-workspace-dialog" aria-expanded="false">☰</button>
+                    <div class="mobile-category-menu" id="mobile-category-menu" aria-label="More categories" style="display: none;"></div>
                 </div>
             </nav>
         </div>
     </header>
 
-    <main>
-        <section class="front-section">
-            <div class="container">
-                <section class="hero-carousel" aria-label="LLM Parameters and Frontier Benchmarks Carousel">
-                    <div class="hero-carousel-track" id="hero-carousel-track"></div>
-                    <div class="hero-carousel-controls">
-                        <button class="hero-carousel-arrow" id="hero-carousel-prev" type="button" aria-label="Previous benchmark slide">Prev</button>
-                        <div class="hero-carousel-dots" id="hero-carousel-dots" aria-label="Benchmark navigation"></div>
-                        <button class="hero-carousel-arrow" id="hero-carousel-next" type="button" aria-label="Next benchmark slide">Next</button>
-                    </div>
-                </section>
-            </div>
-        </section>
+    <!-- Dynamic Network Wallpaper Canvas -->
+    <canvas id="network-canvas" class="network-wallpaper-canvas" aria-hidden="true"></canvas>
 
+    <main>
         <section class="news-board" id="news-board">
             <div class="container">
                 <div class="section-heading board-heading">
@@ -235,7 +225,39 @@
         </div>
     </dialog>
 
+    <!-- Floating Category Workspace Modal Dialog -->
+    <dialog class="category-workspace-dialog" id="category-workspace-dialog" aria-modal="true" aria-labelledby="workspace-title" aria-describedby="workspace-subtitle">
+        <div class="workspace-backdrop" id="workspace-backdrop"></div>
+        <div class="workspace-modal-container">
+            <div class="workspace-header">
+                <div class="workspace-header-text">
+                    <span class="workspace-eyebrow"><i class="fa-solid fa-network-wired"></i> CONNECTED INTELLIGENCE GRAPH</span>
+                    <h2 class="workspace-title" id="workspace-title">Floating Category Workspace</h2>
+                    <p class="workspace-subtitle" id="workspace-subtitle">Navigate editorial intelligence channels. Each node links live verified news streams.</p>
+                </div>
+                <button type="button" class="workspace-close-btn" id="workspace-close-btn" aria-label="Close category workspace">&times;</button>
+            </div>
+
+            <div class="workspace-search-wrap">
+                <i class="fa-solid fa-magnifying-glass workspace-search-icon"></i>
+                <input type="search" id="workspace-filter-input" class="workspace-filter-input" placeholder="Filter category streams..." aria-label="Filter category streams" />
+            </div>
+
+            <div class="workspace-cards-grid" id="workspace-cards-grid" role="list">
+                <!-- Dynamically generated connected category nodes -->
+            </div>
+
+            <div class="workspace-footer">
+                <button type="button" class="workspace-all-news-btn" data-category-jump="all">
+                    <span>🏆 Return to LLM Leaderboard / All News</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+                <span class="workspace-keyboard-hint"><kbd>ESC</kbd> to close</span>
+            </div>
+        </div>
+    </dialog>
+
     <script id="news-article-schema" type="application/ld+json">{"@context":"https://schema.org","@graph":[]}</script>
-    <script src="js/app.js?v=20261011_6" defer></script>
+    <script src="js/app.js?v=20261011_7" defer></script>
 </body>
 </html>

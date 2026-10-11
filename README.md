@@ -1,8 +1,32 @@
 # TrendGrid (AIinc)
 
-_Last updated: 2026-10-11T13:05:00+05:30_
+_Last updated: 2026-10-11T13:20:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
+
+### Recent Enhancements (2026-10-11T13:20:00+05:30)
+- **Replaced Homepage Carousel with Animated Dynamic Network Wallpaper & Floating Category Workspace**:
+  - **Removed Carousel**:
+    - Completely deleted the `.hero-carousel` slider component, Prev/Next buttons, touch gesture handlers, slide timer, and old benchmark panel CSS without breaking feed filtering, ranking formulas, or reader tools.
+  - **Dynamic Network Wallpaper (`<canvas id="network-canvas">`)**:
+    - Lightweight vanilla HTML5 `<canvas>` rendering softly drifting connected nodes via `requestAnimationFrame`.
+    - Prominent category nodes with distinct theme colors and labels (`AI`, `Technology`, `Commerce`, `Advertising`, `Startups`, `Media`, `Brands`) plus ambient interconnected nodes.
+    - Gentle pointer attraction and interactive line highlights on mousemove and touch without flashing.
+    - Automatic animation pause via `document.visibilitychange` when tab is backgrounded.
+    - Reduced ambient node count on mobile viewports (<768px).
+    - Respects `prefers-reduced-motion` with static graph rendering.
+  - **Floating Category Workspace (Modal Overlay Dialog)**:
+    - Triggered via the header ☰ menu button, opening with a dimmed, blurred backdrop (`backdrop-filter: blur(16px)`).
+    - Displays connected category cards with live story counters from `state.trends`, descriptions, and quick search filter input.
+    - Closes with × button, Escape key, backdrop click, or category selection.
+    - Focus trap and accessible dialog keyboard controls (`aria-modal="true"`, `aria-labelledby`).
+  - **Category Pages & SEO Routing**:
+    - Deep URL routing supporting `/category/<id>` (e.g. `/category/ai`, `/category/commerce`, `/category/tech`) and browser back/forward buttons via `popstate`.
+    - Unique `<title>`, `<meta name="description">`, OpenGraph tags, and canonical links per category.
+    - Dedicated category header with H1 and return links.
+    - Added all category URLs to [sitemap.xml](file:///Users/akbar/Desktop/AIinc-main/sitemap.xml).
+    - Created [404.html](file:///Users/akbar/Desktop/AIinc-main/404.html) GitHub Pages SPA redirect fallback.
+    - Bumped cache to `v20261011_7` and Service Worker to `snapfacts-v7`.
 
 ### Recent Enhancements (2026-10-11T13:05:00+05:30)
 - **Full-Page Carousel & Multi-Column View for News by Category and LLM Ladder**:
