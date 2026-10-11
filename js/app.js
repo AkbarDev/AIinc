@@ -76,6 +76,81 @@ const CATEGORY_MAP = {
     brands: 'brands',
 };
 
+const LLM_BENCHMARK_SLIDES = [
+    {
+        id: "llm-arena-leaderboard",
+        category: "LEADERBOARD EVAL",
+        badge: "LMSYS ARENA • RANK #1",
+        title: "LMSYS Chatbot Arena: Crowdsourced Frontier LLM Leaderboard",
+        summary: "Live human preference benchmark rating 150+ frontier foundation models across 2.3M+ pairwise blind battles with style-control and hard prompt evals.",
+        link: "https://arena.ai/leaderboard",
+        source: "arena.ai/leaderboard",
+        ctaText: "Inspect Live Arena Leaderboard",
+        image: "assets/images/generated/llm_arena_leaderboard_benchmark.jpg",
+        parameters: [
+            { label: "Frontier Elo", value: "1,362 Elo" },
+            { label: "Coding Arena", value: "1,348 Elo" },
+            { label: "Hard Prompts", value: "1,315 Elo" },
+            { label: "Pairwise Battles", value: "2.3M+ Votes" }
+        ],
+        tags: ["Crowdsourced Elo", "Hard Prompts", "Style Control", "LMSYS Org"]
+    },
+    {
+        id: "gemini-multimodal-context",
+        category: "CONTEXT WINDOW RECORD",
+        badge: "DEEPMIND • 2M TOKENS",
+        title: "Gemini 1.5 Pro: Record 2,000,000 Token Context & Native Multimodal",
+        summary: "Pioneering 2M token context window processing 1 hour of video, 11 hours of audio, or 700,000 words in a single prompt with 99.7% needle-in-a-haystack recall.",
+        link: "https://arena.ai/leaderboard",
+        source: "arena.ai / DeepMind",
+        ctaText: "Compare on Arena Leaderboard",
+        image: "assets/images/generated/gemini_frontier_multimodal.jpg",
+        parameters: [
+            { label: "Context Window", value: "2,000,000 Tokens" },
+            { label: "MMLU-Pro", value: "85.9%" },
+            { label: "Native Modalities", value: "Video • Audio • Vision" },
+            { label: "Free Tier", value: "15 RPM via AI Studio" }
+        ],
+        tags: ["2M Context", "Multimodal Tokens", "Long-Context Recall", "Google AI Studio"]
+    },
+    {
+        id: "claude-sonnet-coding",
+        category: "AGENTIC CODING BENCHMARK",
+        badge: "ANTHROPIC • SWE-BENCH 49%",
+        title: "Claude 3.5 Sonnet: Frontier Coding Elo & Computer Use Agent",
+        summary: "Rank #1 coding evaluation on Chatbot Arena with 93.7% HumanEval, groundbreaking desktop computer use agent APIs, and sub-second token latency.",
+        link: "https://arena.ai/leaderboard",
+        source: "arena.ai / Anthropic",
+        ctaText: "View Claude Arena Ranking",
+        image: "assets/images/generated/claude_agentic_coding_evals.jpg",
+        parameters: [
+            { label: "Coding Arena Elo", value: "1,358 Elo" },
+            { label: "SWE-Bench", value: "49.0% Verified" },
+            { label: "Context Window", value: "200,000 Tokens" },
+            { label: "Capabilities", value: "Computer Use • Tool APIs" }
+        ],
+        tags: ["SWE-Bench #1", "Coding Elo", "Computer Use", "Tool Calling"]
+    },
+    {
+        id: "open-llm-leaderboard",
+        category: "OPEN WEIGHTS BENCHMARK",
+        badge: "HUGGING FACE • OPEN LLM",
+        title: "Open LLM Leaderboard: Llama 3.1 405B, DeepSeek-V2.5 & Qwen 2.5",
+        summary: "Tracking the open-weight revolution closing the gap with closed frontier APIs across reasoning, math, and coding benchmarks with local inference viability.",
+        link: "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+        source: "huggingface.co/open-llm",
+        ctaText: "Explore Open LLM Leaderboard",
+        image: "assets/images/generated/open_llm_leaderboard_clusters.jpg",
+        parameters: [
+            { label: "Frontier Size", value: "405B Parameters" },
+            { label: "Open LLM Elo", value: "1,270+ Arena" },
+            { label: "Math Benchmark", value: "90.2% DeepSeek" },
+            { label: "Inference", value: "FP8 / 4-bit Quant" }
+        ],
+        tags: ["Open Weights", "Llama 3.1 405B", "DeepSeek-V2.5", "Hugging Face"]
+    }
+];
+
 const HEADER_CATEGORIES = [
     { key: 'all', label: '🏆 LLM LEADERBOARD' },
     { key: 'ai', label: 'AI' },
@@ -87,108 +162,16 @@ const HEADER_CATEGORIES = [
     { key: 'brands', label: 'BRANDS' },
 ];
 
-const CATEGORY_META = {
-    all: {
-        name: 'LLM Leaderboard & All News',
-        eyebrow: 'Frontier AI Intelligence',
-        heading: 'LMSYS Chatbot Arena Leaderboard & Model Evaluations',
-        title: 'Snapfacts | Real-Time AI, Commerce, Media and Brand Intelligence',
-        description: 'Track high-signal AI, commerce, tech, advertising, startup, media, and brand intelligence from verified global sources with real-time LMSYS Chatbot Arena benchmarks.',
-        icon: 'fa-solid fa-trophy',
-        color: '#38bdf8'
-    },
-    ai: {
-        name: 'Artificial Intelligence',
-        eyebrow: 'AI Intelligence Focus',
-        heading: 'Frontier foundation models, autonomous agents, and neural tooling',
-        title: 'AI News & Models | Snapfacts Intelligence',
-        description: 'Live coverage of frontier LLMs, reasoning architectures, multimodal models, AI agent platforms, and open-weights benchmarks.',
-        icon: 'fa-solid fa-brain',
-        color: '#38bdf8',
-        desc: 'Frontier foundation LLMs, autonomous reasoning agents, neural silicon & multimodal benchmarks.'
-    },
-    commerce: {
-        name: 'Commerce & Retail',
-        eyebrow: 'Commerce Focus',
-        heading: 'Retail, payments, checkout rails, and ecommerce intelligence',
-        title: 'Commerce & Retail Intelligence | Snapfacts',
-        description: 'Global omni-channel retail, checkout infrastructure, merchant fintech, and automated supply chains.',
-        icon: 'fa-solid fa-cart-shopping',
-        color: '#34d399',
-        desc: 'Global omni-channel retail, checkout infrastructure, merchant fintech & automated supply chains.'
-    },
-    tech: {
-        name: 'Technology & Platforms',
-        eyebrow: 'Tech Focus',
-        heading: 'Cloud infrastructure, developer ecosystems, and silicon innovations',
-        title: 'Technology & Platform News | Snapfacts',
-        description: 'Hyperscalers, cloud infrastructure, developer ecosystems, cybersecurity, operating systems, and silicon engineering.',
-        icon: 'fa-solid fa-microchip',
-        color: '#818cf8',
-        desc: 'Cloud hyperscalers, developer ecosystems, enterprise security, operating systems & quantum compute.'
-    },
-    ads: {
-        name: 'Advertising & Adtech',
-        eyebrow: 'Ads Focus',
-        heading: 'Programmatic media, generative creative, and performance marketing',
-        title: 'Advertising & Adtech Intelligence | Snapfacts',
-        description: 'Programmatic ad platforms, generative creative pipelines, media buying trends, and ROAS attribution metrics.',
-        icon: 'fa-solid fa-bullhorn',
-        color: '#f59e0b',
-        desc: 'Programmatic ad platforms, generative creative pipelines, performance media buying & ROAS metrics.'
-    },
-    startup: {
-        name: 'Startups & Venture Capital',
-        eyebrow: 'Startup Focus',
-        heading: 'AI-native founders, early-stage rounds, and venture accelerators',
-        title: 'Startup & Venture Capital Intelligence | Snapfacts',
-        description: 'Venture capital funding, seed rounds, AI-native founders, accelerator cohorts, and high-growth scaleups.',
-        icon: 'fa-solid fa-rocket',
-        color: '#ec4899',
-        desc: 'AI-native venture rounds, accelerator cohorts, founder playbooks & high-growth scaleups.'
-    },
-    media: {
-        name: 'Digital Media & Publishing',
-        eyebrow: 'Media Focus',
-        heading: 'Interactive streaming, digital publishing, and creator economy',
-        title: 'Digital Media & Publishing Intelligence | Snapfacts',
-        description: 'Streaming platform distribution, digital publisher monetization models, creator economy, and digital rights.',
-        icon: 'fa-solid fa-photo-film',
-        color: '#a78bfa',
-        desc: 'Interactive streaming, digital publisher monetization models, creator economy & rights policies.'
-    },
-    brands: {
-        name: 'Brand Strategy & Culture',
-        eyebrow: 'Brands Focus',
-        heading: 'Global brand narratives, consumer sentiment, and cultural marketing',
-        title: 'Brand Strategy & Culture Intelligence | Snapfacts',
-        description: 'Global brand positioning, cultural storytelling, consumer sentiment, and high-impact brand campaigns.',
-        icon: 'fa-solid fa-tag',
-        color: '#f43f5e',
-        desc: 'Global brand positioning, cultural storytelling, consumer sentiment & high-impact campaigns.'
-    },
-    saved: {
-        name: 'Saved Stories',
-        eyebrow: 'Saved Stories',
-        heading: 'Your bookmarked trends and clustered summaries',
-        title: 'Saved Stories | Snapfacts',
-        description: 'Your saved and bookmarked editorial intelligence stories on Snapfacts.',
-        icon: 'fa-solid fa-bookmark',
-        color: '#06b6d4',
-        desc: 'Your bookmarked stories and saved trends.'
-    }
-};
-
 const CATEGORY_COPY = {
-    all: { eyebrow: CATEGORY_META.all.eyebrow, heading: CATEGORY_META.all.heading },
-    commerce: { eyebrow: CATEGORY_META.commerce.eyebrow, heading: CATEGORY_META.commerce.heading },
-    tech: { eyebrow: CATEGORY_META.tech.eyebrow, heading: CATEGORY_META.tech.heading },
-    ads: { eyebrow: CATEGORY_META.ads.eyebrow, heading: CATEGORY_META.ads.heading },
-    startup: { eyebrow: CATEGORY_META.startup.eyebrow, heading: CATEGORY_META.startup.heading },
-    ai: { eyebrow: CATEGORY_META.ai.eyebrow, heading: CATEGORY_META.ai.heading },
-    media: { eyebrow: CATEGORY_META.media.eyebrow, heading: CATEGORY_META.media.heading },
-    brands: { eyebrow: CATEGORY_META.brands.eyebrow, heading: CATEGORY_META.brands.heading },
-    saved: { eyebrow: CATEGORY_META.saved.eyebrow, heading: CATEGORY_META.saved.heading },
+    all: { eyebrow: 'Frontier AI Intelligence', heading: 'LMSYS Chatbot Arena Leaderboard & Model Evaluations' },
+    commerce: { eyebrow: 'Commerce Focus', heading: 'Retail, payments, and ecommerce intelligence' },
+    tech: { eyebrow: 'Tech Focus', heading: 'Platform, infrastructure, and product shifts' },
+    ads: { eyebrow: 'Ads Focus', heading: 'Campaign, adtech, and performance marketing trends' },
+    startup: { eyebrow: 'Startup Focus', heading: 'AI-native startups shaping analytics and growth stacks' },
+    ai: { eyebrow: 'AI Focus', heading: 'Models, tooling, and enterprise AI adoption' },
+    media: { eyebrow: 'Media Focus', heading: 'Digital media distribution and audience growth' },
+    brands: { eyebrow: 'Brands Focus', heading: 'Insights into how leading global and emerging brands connect with consumers through storytelling, innovation, and purpose-driven marketing.' },
+    saved: { eyebrow: 'Saved Stories', heading: 'Your bookmarked trends and clustered summaries' },
 };
 
 const CATEGORY_FILTERS = {
@@ -229,8 +212,8 @@ const state = {
     meta: {},
     sources: [],
     activeCategory: 'all',
+    carouselIndex: 0,
     mobileMenuOpen: false,
-    workspaceOpen: false,
     density: 'comfortable',
     briefMode: false,
     followedTopics: [],
@@ -238,6 +221,12 @@ const state = {
     searchQuery: '',
     boostKeywords: [],
     muteKeywords: [],
+};
+
+const carouselTouch = {
+    startX: 0,
+    startY: 0,
+    isTracking: false,
 };
 
 const STORAGE_KEYS = {
@@ -256,12 +245,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     initSyncKey();
     hydrateReaderPrefs();
-    initRouting();
     renderSkeletons();
     loadData();
     setupCategoryFilters();
-    setupNetworkWallpaper();
-    setupCategoryWorkspace();
+    setupHeroCarousel();
     setupReaderInteractions();
     setupSyncDialog();
     setupSearch();
@@ -307,10 +294,26 @@ async function loadData() {
 }
 
 function renderSkeletons() {
-    // Skeletons are kept simple and clean
+    const carouselTrack = document.getElementById('hero-carousel-track');
+    const carouselDots = document.getElementById('hero-carousel-dots');
+    if (carouselTrack) {
+        carouselTrack.innerHTML = `
+            <article class="hero-carousel-slide is-active">
+                <div class="hero-carousel-panel">
+                    <div class="skeleton-line short"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                </div>
+            </article>
+        `;
+    }
+    if (carouselDots) {
+        carouselDots.innerHTML = '<span class="hero-carousel-dot active" aria-hidden="true"></span>';
+    }
 }
 
 function renderAll() {
+    renderHeroCarousel();
     renderCategoryPills();
     renderMobileCategoryMenu();
     renderMobileReaderChrome();
@@ -320,493 +323,163 @@ function renderAll() {
     renderMetaStrip();
     syncActiveCategoryTheme();
     renderTrendChart();
-    if (typeof updateWorkspaceCards === 'function') {
-        updateWorkspaceCards();
-    }
 }
 
-/* ========================================================
-   DYNAMIC NETWORK WALLPAPER ENGINE (<canvas> + requestAnimationFrame)
-   ======================================================== */
-let networkWallpaperEngine = null;
+function renderHeroCarousel() {
+    const track = document.getElementById('hero-carousel-track');
+    const dots = document.getElementById('hero-carousel-dots');
+    if (!track || !dots) return;
 
-function setupNetworkWallpaper() {
-    const canvas = document.getElementById('network-canvas');
-    if (!canvas) return;
-
-    const header = canvas.closest('.masthead') || document.querySelector('.masthead');
-    if (!header) return;
-
-    const ctx = canvas.getContext('2d');
-    if (!ctx) return;
-
-    const isReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    let animFrameId = null;
-    let isVisible = !document.hidden;
-
-    // Sized strictly to the sticky header container
-    let width = (canvas.width = header.clientWidth || window.innerWidth);
-    let height = (canvas.height = header.clientHeight || 70);
-
-    // Mouse / touch interaction point relative to the header
-    const pointer = {
-        x: null,
-        y: null,
-        radius: 90,
-        active: false,
-    };
-
-    // Category node definitions with editorial theme accents
-    // Category node definitions with rich, accessible theme accents
-    const categoryNodeDefs = [
-        { key: 'ai', label: 'AI', color: '#0284c7' },
-        { key: 'tech', label: 'Tech', color: '#4f46e5' },
-        { key: 'commerce', label: 'Commerce', color: '#059669' },
-        { key: 'ads', label: 'Ads', color: '#d97706' },
-        { key: 'startup', label: 'Startups', color: '#db2777' },
-        { key: 'media', label: 'Media', color: '#7c3aed' },
-        { key: 'brands', label: 'Brands', color: '#e11d48' },
-    ];
-
-    let nodes = [];
-
-    function initNodes() {
-        nodes = [];
-        const isMobile = width < 768;
-        const ambientCount = isMobile ? 8 : 18;
-
-        // 1. Prominent Category Nodes horizontally spaced across header
-        const totalCats = categoryNodeDefs.length;
-        const hPadding = isMobile ? 25 : 60;
-        const availableW = Math.max(200, width - hPadding * 2);
-
-        categoryNodeDefs.forEach((cat, index) => {
-            const baseX = hPadding + (index / (totalCats - 1 || 1)) * availableW;
-            const baseY = height / 2 + (Math.random() - 0.5) * (height * 0.4);
-
-            nodes.push({
-                x: Math.max(20, Math.min(width - 20, baseX + (Math.random() - 0.5) * 20)),
-                y: Math.max(12, Math.min(height - 12, baseY)),
-                vx: (Math.random() - 0.5) * 0.22,
-                vy: (Math.random() - 0.5) * 0.18,
-                radius: isMobile ? 4.5 : 5.5,
-                isCategory: true,
-                key: cat.key,
-                label: cat.label,
-                color: cat.color,
-            });
-        });
-
-        // 2. Ambient Connecting Nodes inside header
-        for (let i = 0; i < ambientCount; i++) {
-            nodes.push({
-                x: Math.random() * width,
-                y: Math.random() * height,
-                vx: (Math.random() - 0.5) * 0.35,
-                vy: (Math.random() - 0.5) * 0.22,
-                radius: Math.random() * 1.5 + 1.2,
-                isCategory: false,
-                color: 'rgba(100, 116, 139, 0.28)',
-            });
-        }
+    const totalSlides = LLM_BENCHMARK_SLIDES.length;
+    if (state.carouselIndex >= totalSlides) {
+        state.carouselIndex = 0;
     }
 
-    function resize() {
-        width = canvas.width = header.clientWidth || window.innerWidth;
-        height = canvas.height = header.clientHeight || 70;
-        initNodes();
-        if (isReducedMotion) {
-            renderFrame();
-        }
-    }
+    const slidesHtml = LLM_BENCHMARK_SLIDES.map((slide, idx) => {
+        const isActive = idx === state.carouselIndex ? 'is-active' : '';
+        const paramCardsHtml = (slide.parameters || []).map(p => `
+            <div class="llm-param-card">
+                <span class="llm-param-label">${escapeHtml(p.label)}</span>
+                <span class="llm-param-value">${escapeHtml(p.value)}</span>
+            </div>
+        `).join('');
 
-    window.addEventListener('resize', resize, { passive: true });
-    window.addEventListener('orientationchange', () => setTimeout(resize, 100), { passive: true });
-
-    // Header-scoped pointer events
-    header.addEventListener('mousemove', (e) => {
-        const rect = header.getBoundingClientRect();
-        pointer.x = e.clientX - rect.left;
-        pointer.y = e.clientY - rect.top;
-        pointer.active = true;
-    }, { passive: true });
-
-    header.addEventListener('mouseleave', () => {
-        pointer.active = false;
-        pointer.x = null;
-        pointer.y = null;
-    });
-
-    header.addEventListener('touchstart', (e) => {
-        const touch = e.touches[0];
-        if (touch) {
-            const rect = header.getBoundingClientRect();
-            pointer.x = touch.clientX - rect.left;
-            pointer.y = touch.clientY - rect.top;
-            pointer.active = true;
-        }
-    }, { passive: true });
-
-    header.addEventListener('touchend', () => {
-        pointer.active = false;
-    });
-
-    // Clicking category nodes inside the header canvas navigates to that category page
-    canvas.addEventListener('click', (e) => {
-        const rect = canvas.getBoundingClientRect();
-        const clickX = e.clientX - rect.left;
-        const clickY = e.clientY - rect.top;
-        const hitRadius = 18;
-
-        for (let i = 0; i < nodes.length; i++) {
-            const n = nodes[i];
-            if (!n.isCategory) continue;
-            const dx = n.x - clickX;
-            const dy = n.y - clickY;
-            if (Math.sqrt(dx * dx + dy * dy) <= hitRadius) {
-                navigateToCategory(n.key);
-                break;
-            }
-        }
-    });
-
-    // Pause on hidden tab to save battery and performance
-    document.addEventListener('visibilitychange', () => {
-        isVisible = !document.hidden;
-        if (isVisible && !isReducedMotion && !animFrameId) {
-            loop();
-        } else if (!isVisible && animFrameId) {
-            cancelAnimationFrame(animFrameId);
-            animFrameId = null;
-        }
-    });
-
-    function renderFrame() {
-        ctx.clearRect(0, 0, width, height);
-
-        const maxDist = width < 768 ? 85 : 120;
-
-        // Draw connecting lines
-        for (let i = 0; i < nodes.length; i++) {
-            const na = nodes[i];
-            for (let j = i + 1; j < nodes.length; j++) {
-                const nb = nodes[j];
-                const dx = na.x - nb.x;
-                const dy = na.y - nb.y;
-                const dist = Math.sqrt(dx * dx + dy * dy);
-
-                if (dist < maxDist) {
-                    const alpha = (1 - dist / maxDist) * (na.isCategory || nb.isCategory ? 0.28 : 0.14);
-                    ctx.beginPath();
-                    ctx.moveTo(na.x, na.y);
-                    ctx.lineTo(nb.x, nb.y);
-
-                    if (na.isCategory && nb.isCategory) {
-                        ctx.strokeStyle = `rgba(37, 99, 235, ${alpha * 1.2})`;
-                        ctx.lineWidth = 1;
-                    } else if (na.isCategory || nb.isCategory) {
-                        const col = na.isCategory ? na.color : nb.color;
-                        ctx.strokeStyle = col.startsWith('#') 
-                            ? hexToRgba(col, alpha)
-                            : `rgba(100, 116, 139, ${alpha})`;
-                        ctx.lineWidth = 0.8;
-                    } else {
-                        ctx.strokeStyle = `rgba(148, 163, 184, ${alpha * 0.7})`;
-                        ctx.lineWidth = 0.5;
-                    }
-                    ctx.stroke();
-                }
-            }
-
-            // Draw line to pointer if close
-            if (pointer.active && pointer.x !== null) {
-                const pdx = na.x - pointer.x;
-                const pdy = na.y - pointer.y;
-                const pdist = Math.sqrt(pdx * pdx + pdy * pdy);
-                if (pdist < pointer.radius) {
-                    const pAlpha = (1 - pdist / pointer.radius) * 0.35;
-                    ctx.beginPath();
-                    ctx.moveTo(na.x, na.y);
-                    ctx.lineTo(pointer.x, pointer.y);
-                    ctx.strokeStyle = na.isCategory 
-                        ? hexToRgba(na.color, pAlpha)
-                        : `rgba(37, 99, 235, ${pAlpha})`;
-                    ctx.lineWidth = 1;
-                    ctx.stroke();
-
-                    // Gentle subtle attraction
-                    if (!isReducedMotion) {
-                        na.x -= pdx * 0.01;
-                        na.y -= pdy * 0.01;
-                    }
-                }
-            }
-        }
-
-        // Draw nodes inside header
-        for (let i = 0; i < nodes.length; i++) {
-            const n = nodes[i];
-
-            // Soft drift
-            if (!isReducedMotion) {
-                n.x += n.vx;
-                n.y += n.vy;
-
-                // Bounce off edges of the header gently
-                if (n.x < 15) { n.x = 15; n.vx *= -1; }
-                if (n.x > width - 15) { n.x = width - 15; n.vx *= -1; }
-                if (n.y < 8) { n.y = 8; n.vy *= -1; }
-                if (n.y > height - 8) { n.y = height - 8; n.vy *= -1; }
-            }
-
-            ctx.beginPath();
-            ctx.arc(n.x, n.y, n.radius, 0, Math.PI * 2);
-
-            if (n.isCategory) {
-                // Category node: colored core
-                ctx.fillStyle = n.color;
-                ctx.shadowColor = 'rgba(37, 99, 235, 0.2)';
-                ctx.shadowBlur = 4;
-                ctx.fill();
-                ctx.shadowBlur = 0;
-
-                // Outer faint ring
-                ctx.beginPath();
-                ctx.arc(n.x, n.y, n.radius + 2.5, 0, Math.PI * 2);
-                ctx.strokeStyle = hexToRgba(n.color, 0.35);
-                ctx.lineWidth = 0.8;
-                ctx.stroke();
-
-                // Labeled text beside category node inside header (dark, high contrast)
-                ctx.font = '700 11px "Space Grotesk", sans-serif';
-                ctx.fillStyle = '#0f172a';
-                ctx.fillText(n.label, n.x + n.radius + 4, n.y + 3.5);
-            } else {
-                ctx.fillStyle = n.color;
-                ctx.fill();
-            }
-        }
-    }
-
-    function hexToRgba(hex, alpha) {
-        if (!hex || !hex.startsWith('#')) return `rgba(56, 189, 248, ${alpha})`;
-        const r = parseInt(hex.slice(1, 3), 16) || 56;
-        const g = parseInt(hex.slice(3, 5), 16) || 189;
-        const b = parseInt(hex.slice(5, 7), 16) || 248;
-        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
-    }
-
-    function loop() {
-        if (!isVisible) return;
-        renderFrame();
-        animFrameId = requestAnimationFrame(loop);
-    }
-
-    initNodes();
-
-    if (isReducedMotion) {
-        renderFrame();
-    } else {
-        loop();
-    }
-}
-
-/* ========================================================
-   FLOATING CATEGORY WORKSPACE & ROUTING
-   ======================================================== */
-function setupCategoryWorkspace() {
-    const dialog = document.getElementById('category-workspace-dialog');
-    const menuToggle = document.getElementById('mobile-menu-toggle');
-    const closeBtn = document.getElementById('workspace-close-btn');
-    const backdrop = document.getElementById('workspace-backdrop');
-    const filterInput = document.getElementById('workspace-filter-input');
-    const grid = document.getElementById('workspace-cards-grid');
-
-    if (!dialog) return;
-
-    function openWorkspace() {
-        state.workspaceOpen = true;
-        if (typeof dialog.showModal === 'function') {
-            dialog.showModal();
-        } else {
-            dialog.setAttribute('open', '');
-        }
-        if (menuToggle) menuToggle.setAttribute('aria-expanded', 'true');
-        document.body.classList.add('workspace-modal-active');
-        updateWorkspaceCards();
-        if (filterInput) {
-            filterInput.value = '';
-            setTimeout(() => filterInput.focus(), 80);
-        }
-    }
-
-    function closeWorkspace() {
-        state.workspaceOpen = false;
-        if (typeof dialog.close === 'function') {
-            dialog.close();
-        } else {
-            dialog.removeAttribute('open');
-        }
-        if (menuToggle) {
-            menuToggle.setAttribute('aria-expanded', 'false');
-            menuToggle.focus();
-        }
-        document.body.classList.remove('workspace-modal-active');
-    }
-
-    if (menuToggle) {
-        menuToggle.addEventListener('click', (e) => {
-            e.preventDefault();
-            if (state.workspaceOpen) {
-                closeWorkspace();
-            } else {
-                openWorkspace();
-            }
-        });
-    }
-
-    if (closeBtn) closeBtn.addEventListener('click', closeWorkspace);
-    if (backdrop) backdrop.addEventListener('click', closeWorkspace);
-
-    dialog.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-            e.preventDefault();
-            closeWorkspace();
-            return;
-        }
-
-        // Accessible Focus Trap within modal
-        if (e.key === 'Tab') {
-            const focusable = dialog.querySelectorAll('button:not([disabled]), [href], input:not([disabled]), [tabindex]:not([tabindex="-1"])');
-            if (!focusable.length) return;
-            const first = focusable[0];
-            const last = focusable[focusable.length - 1];
-
-            if (e.shiftKey && document.activeElement === first) {
-                e.preventDefault();
-                last.focus();
-            } else if (!e.shiftKey && document.activeElement === last) {
-                e.preventDefault();
-                first.focus();
-            }
-        }
-    });
-
-    if (filterInput) {
-        filterInput.addEventListener('input', () => {
-            const query = filterInput.value.trim().toLowerCase();
-            const cards = grid ? grid.querySelectorAll('.workspace-node-card') : [];
-            cards.forEach(card => {
-                const text = card.textContent.toLowerCase();
-                card.style.display = text.includes(query) ? '' : 'none';
-            });
-        });
-    }
-
-    if (grid) {
-        grid.addEventListener('click', (e) => {
-            const card = e.target.closest('[data-category-jump]');
-            if (!card) return;
-            e.preventDefault();
-            const cat = card.dataset.categoryJump || 'all';
-            navigateToCategory(cat);
-            closeWorkspace();
-        });
-    }
-
-    const allNewsBtn = dialog.querySelector('.workspace-all-news-btn');
-    if (allNewsBtn) {
-        allNewsBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            navigateToCategory('all');
-            closeWorkspace();
-        });
-    }
-}
-
-function updateWorkspaceCards() {
-    const grid = document.getElementById('workspace-cards-grid');
-    if (!grid) return;
-
-    const categories = [
-        { key: 'ai', meta: CATEGORY_META.ai },
-        { key: 'tech', meta: CATEGORY_META.tech },
-        { key: 'commerce', meta: CATEGORY_META.commerce },
-        { key: 'ads', meta: CATEGORY_META.ads },
-        { key: 'startup', meta: CATEGORY_META.startup },
-        { key: 'media', meta: CATEGORY_META.media },
-        { key: 'brands', meta: CATEGORY_META.brands },
-    ];
-
-    grid.innerHTML = categories.map(({ key, meta }) => {
-        const count = getCategoryStoryCount(key);
-        const isActive = state.activeCategory === key ? 'is-current' : '';
-        const href = key === 'all' ? '/' : `/category/${key}`;
+        const tagsHtml = (slide.tags || []).map(t => `
+            <span class="llm-tag-chip">${escapeHtml(t)}</span>
+        `).join('');
 
         return `
-        <a href="${href}" class="workspace-node-card ${isActive}" data-category-jump="${key}" style="--node-color: ${meta.color};" role="listitem">
-            <div class="workspace-node-top">
-                <span class="workspace-node-icon" style="color: ${meta.color}; background: ${meta.color}15; border-color: ${meta.color}35;">
-                    <i class="${meta.icon}"></i>
-                </span>
-                <span class="workspace-node-count" style="color: ${meta.color}; background: ${meta.color}12; border-color: ${meta.color}25;">
-                    <span class="workspace-node-dot" style="background: ${meta.color};"></span> ${count} stories
-                </span>
-            </div>
+        <article class="hero-carousel-slide ${isActive}" data-carousel-index="${idx}" data-theme-category="ai">
+            <div class="hero-carousel-panel llm-benchmark-panel" style="background-image: linear-gradient(135deg, rgba(6, 11, 25, 0.94) 0%, rgba(6, 11, 25, 0.78) 48%, rgba(6, 11, 25, 0.45) 100%), url('${slide.image}');">
+                <div class="llm-slide-inner">
+                    <div class="llm-slide-header">
+                        <div class="llm-badge-cluster">
+                            <span class="llm-live-badge"><span class="radar-pulse-dot"></span> ${escapeHtml(slide.badge)}</span>
+                            <span class="llm-source-pill"><i class="fa-solid fa-link"></i> ${escapeHtml(slide.source)}</span>
+                        </div>
+                        <span class="llm-category-eyebrow">${escapeHtml(slide.category)}</span>
+                    </div>
 
-            <div class="workspace-node-info">
-                <h3 class="workspace-node-title">${escapeHtml(meta.name)}</h3>
-                <p class="workspace-node-desc">${escapeHtml(meta.desc)}</p>
-            </div>
+                    <div class="llm-slide-body">
+                        <h2 class="llm-slide-title">${escapeHtml(slide.title)}</h2>
+                        <p class="llm-slide-summary">${escapeHtml(slide.summary)}</p>
 
-            <div class="workspace-node-action" style="color: ${meta.color};">
-                <span>Open Stream</span>
-                <i class="fa-solid fa-arrow-right"></i>
+                        <div class="llm-param-grid">
+                            ${paramCardsHtml}
+                        </div>
+
+                        <div class="llm-slide-tags">
+                            ${tagsHtml}
+                        </div>
+
+                        <div class="llm-slide-actions">
+                            <a href="${escapeAttr(slide.link)}" target="_blank" rel="noopener" class="llm-cta-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i> ${escapeHtml(slide.ctaText)}
+                            </a>
+                            <a href="https://arena.ai/leaderboard" target="_blank" rel="noopener" class="llm-sub-btn">
+                                <i class="fa-solid fa-chart-line"></i> Chatbot Arena Feed
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </a>
-        `;
+        </article>`;
+    }).join('');
+
+    track.innerHTML = slidesHtml;
+
+    dots.innerHTML = LLM_BENCHMARK_SLIDES.map((slide, index) => {
+        const active = index === state.carouselIndex ? 'active' : '';
+        return `<button class="hero-carousel-dot ${active}" type="button" data-carousel-target="${index}" aria-label="${escapeAttr(slide.title)}"></button>`;
     }).join('');
 }
 
-/* ========================================================
-   SPA ROUTING & CANONICAL SEO SYNC
-   ======================================================== */
-function initRouting() {
-    // 1. Detect category from pathname (/category/<id>) or query parameter (?category=<id>)
-    const categoryFromUrl = getCategoryFromLocation();
-    state.activeCategory = categoryFromUrl || 'all';
+function setupHeroCarousel() {
+    const prev = document.getElementById('hero-carousel-prev');
+    const next = document.getElementById('hero-carousel-next');
+    const dots = document.getElementById('hero-carousel-dots');
+    const track = document.getElementById('hero-carousel-track');
 
-    // 2. Listen to browser Back/Forward (popstate)
-    window.addEventListener('popstate', () => {
-        const cat = getCategoryFromLocation();
-        setActiveCategory(cat || 'all', false);
-    });
+    if (prev) {
+        prev.addEventListener('click', () => {
+            moveHeroCarousel(-1);
+        });
+    }
+
+    if (next) {
+        next.addEventListener('click', () => {
+            moveHeroCarousel(1);
+        });
+    }
+
+    if (dots) {
+        dots.addEventListener('click', (event) => {
+            const button = event.target.closest('[data-carousel-target]');
+            if (!button) return;
+            state.carouselIndex = Number(button.dataset.carouselTarget || 0);
+            renderHeroCarousel();
+        });
+    }
+
+    if (track) {
+        track.addEventListener('touchstart', handleCarouselTouchStart, { passive: true });
+        track.addEventListener('touchend', handleCarouselTouchEnd, { passive: true });
+        track.addEventListener('touchcancel', resetCarouselTouch, { passive: true });
+    }
+
+    window.setInterval(() => {
+        const total = LLM_BENCHMARK_SLIDES.length;
+        if (total <= 1) return;
+        moveHeroCarousel(1);
+    }, 7000);
 }
 
-function getCategoryFromLocation() {
-    const path = window.location.pathname.toLowerCase().replace(/\/$/, '');
-    const match = path.match(/\/category\/([a-z0-9_-]+)/);
-    if (match && match[1]) {
-        return normalizeCategory(match[1]);
-    }
-    const params = new URLSearchParams(window.location.search);
-    const catQuery = params.get('category');
-    if (catQuery) {
-        return normalizeCategory(catQuery);
-    }
-    return 'all';
+function moveHeroCarousel(direction) {
+    const total = LLM_BENCHMARK_SLIDES.length;
+    if (total <= 0) return;
+    state.carouselIndex = (state.carouselIndex + direction + total) % total;
+    renderHeroCarousel();
 }
 
-function navigateToCategory(nextCategory) {
-    const valid = normalizeCategory(nextCategory || 'all');
-    if (state.activeCategory === valid) return;
+function handleCarouselTouchStart(event) {
+    const touch = event.changedTouches?.[0];
+    if (!touch) return;
+    carouselTouch.startX = touch.clientX;
+    carouselTouch.startY = touch.clientY;
+    carouselTouch.isTracking = true;
+}
 
-    setActiveCategory(valid, true);
-
-    const target = document.getElementById('news-board');
-    if (target) {
-        window.scrollTo({ top: target.offsetTop - 30, behavior: 'smooth' });
+function handleCarouselTouchEnd(event) {
+    if (!carouselTouch.isTracking) return;
+    const touch = event.changedTouches?.[0];
+    if (!touch) {
+        resetCarouselTouch();
+        return;
     }
+
+    const deltaX = touch.clientX - carouselTouch.startX;
+    const deltaY = touch.clientY - carouselTouch.startY;
+    const minSwipe = 42;
+
+    // Ignore mostly vertical gestures so page scrolling remains natural.
+    if (Math.abs(deltaY) > Math.abs(deltaX)) {
+        resetCarouselTouch();
+        return;
+    }
+
+    if (deltaX <= -minSwipe) {
+        moveHeroCarousel(1);
+    } else if (deltaX >= minSwipe) {
+        moveHeroCarousel(-1);
+    }
+
+    resetCarouselTouch();
+}
+
+function resetCarouselTouch() {
+    carouselTouch.startX = 0;
+    carouselTouch.startY = 0;
+    carouselTouch.isTracking = false;
 }
 
 function renderCategoryPills() {
@@ -1287,45 +960,21 @@ function renderNewsBoard() {
     const list = getEditorialTrends(state.activeCategory);
     const mobileReader = isMobileViewport();
     const cards = list;
-    const catMeta = CATEGORY_META[state.activeCategory] || CATEGORY_META.all;
-
-    const categoryHeaderHtml = `
-    <div class="category-page-header" style="grid-column: 1 / -1; width: 100%;">
-        <div class="category-page-header-left">
-            <span class="category-page-eyebrow" style="color: ${catMeta.color};">
-                <i class="${catMeta.icon}"></i> ${escapeHtml(catMeta.eyebrow || 'EDITORIAL STREAM')}
-            </span>
-            <h1 class="category-page-h1">${escapeHtml(catMeta.heading || catMeta.name)}</h1>
-            <p class="category-page-desc">${escapeHtml(catMeta.description)}</p>
-        </div>
-        <div class="category-page-header-actions">
-            <button type="button" class="category-page-back-btn" data-category-jump="all">
-                <i class="fa-solid fa-arrow-left"></i>
-                <span>All News / Leaderboard</span>
-            </button>
-            <button type="button" class="category-page-menu-btn" id="category-page-menu-trigger">
-                <i class="fa-solid fa-network-wired"></i>
-                <span>Switch Stream (☰)</span>
-            </button>
-        </div>
-    </div>
-    `;
 
     if (!cards.length) {
         if (state.activeCategory === 'saved') {
-            grid.innerHTML = `${categoryHeaderHtml}<div class="empty-saved-state" style="grid-column: 1 / -1;"><p>No saved stories yet.</p><span>Tap the bookmark icon on any news card to save it here.</span></div>`;
+            grid.innerHTML = '<div class="empty-saved-state"><p>No saved stories yet.</p><span>Tap the bookmark icon on any news card to save it here.</span></div>';
         } else {
-            grid.innerHTML = `${categoryHeaderHtml}<div class="empty-saved-state" style="grid-column: 1 / -1;"><p>No stories currently available for this category.</p><button type="button" class="btn-jump-home" data-category-jump="all">← Return to LLM Leaderboard</button></div>`;
+            grid.innerHTML = `<div class="empty-saved-state"><p>No stories currently available for this category.</p><button type="button" class="btn-jump-home" data-category-jump="all">← Return to LLM Leaderboard</button></div>`;
         }
         renderSidebarTrending([]);
-        setupCategoryPageMenuTrigger();
         return;
     }
 
     grid.classList.toggle('is-compact', !mobileReader && state.density === 'compact');
     grid.classList.toggle('is-brief-mode', !mobileReader && state.briefMode);
 
-    const cardsHtml = cards
+    grid.innerHTML = cards
         .map((item, index) => {
             const image = resolveCardImage(item);
             const isAiGenerated = image && (image.includes('/generated/') || image.startsWith('data:image/svg+xml'));
@@ -1422,20 +1071,8 @@ function renderNewsBoard() {
         </article>`;
         })
         .join('');
-
-    grid.innerHTML = categoryHeaderHtml + cardsHtml;
-    setupCategoryPageMenuTrigger();
+        
     renderSidebarTrending(list);
-}
-
-function setupCategoryPageMenuTrigger() {
-    const trigger = document.getElementById('category-page-menu-trigger');
-    if (trigger) {
-        trigger.addEventListener('click', () => {
-            const toggle = document.getElementById('mobile-menu-toggle');
-            if (toggle) toggle.click();
-        });
-    }
 }
 
 function renderSidebarTrending(list) {
@@ -1715,22 +1352,8 @@ function setupMobileCategoryMenu() {
     });
 }
 
-function setActiveCategory(nextCategory, shouldPushHistory = true) {
-    const valid = normalizeCategory(nextCategory || 'all');
-    state.activeCategory = valid;
-
-    // 1. History & URL Sync
-    if (shouldPushHistory) {
-        const nextUrl = valid === 'all' ? '/' : `/category/${valid}`;
-        if (window.location.pathname !== nextUrl) {
-            window.history.pushState({ category: valid }, '', nextUrl);
-        }
-    }
-
-    // 2. SEO Meta Sync (<title>, <meta description>, canonical)
-    updateCategorySeo(valid);
-
-    // 3. Render Views
+function setActiveCategory(nextCategory) {
+    state.activeCategory = nextCategory || 'all';
     renderCategoryPills();
     renderMobileCategoryMenu();
     renderMobileReaderChrome();
@@ -1738,32 +1361,6 @@ function setActiveCategory(nextCategory, shouldPushHistory = true) {
     renderSectionHeading();
     renderNewsArticleSchema();
     syncActiveCategoryTheme();
-}
-
-function updateCategorySeo(categoryKey) {
-    const meta = CATEGORY_META[categoryKey] || CATEGORY_META.all;
-    if (meta.title) {
-        document.title = meta.title;
-    }
-    const descEl = document.querySelector('meta[name="description"]');
-    if (descEl && meta.description) {
-        descEl.setAttribute('content', meta.description);
-    }
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle && meta.title) {
-        ogTitle.setAttribute('content', meta.title);
-    }
-    const ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc && meta.description) {
-        ogDesc.setAttribute('content', meta.description);
-    }
-    const canonical = document.querySelector('link[rel="canonical"]');
-    if (canonical) {
-        const url = categoryKey === 'all' 
-            ? 'https://www.snapfacts.in/' 
-            : `https://www.snapfacts.in/category/${categoryKey}`;
-        canonical.setAttribute('href', url);
-    }
 }
 
 function setupReaderInteractions() {
@@ -2808,7 +2405,7 @@ function renderTrendChart() {
     if (!chartDiv) return;
 
     if (typeof Plotly === 'undefined') {
-        chartDiv.innerHTML = '<div style="color: #64748b; display: flex; align-items: center; justify-content: center; height: 100%;">Loading chart components...</div>';
+        chartDiv.innerHTML = '<div style="color: rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; height: 100%;">Loading chart components...</div>';
         return;
     }
 
@@ -2816,7 +2413,7 @@ function renderTrendChart() {
     const topTrends = list.slice(0, 5);
 
     if (!topTrends.length) {
-        chartDiv.innerHTML = '<div style="color: #64748b; display: flex; align-items: center; justify-content: center; height: 100%; font-size: 0.8rem;">No data available for this category.</div>';
+        chartDiv.innerHTML = '<div style="color: rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; height: 100%; font-size: 0.8rem;">No data available for this category.</div>';
         return;
     }
 

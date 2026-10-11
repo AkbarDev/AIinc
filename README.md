@@ -91,6 +91,12 @@ _Last updated: 2026-10-11T13:20:00+05:30_
 - **Service Worker Cache Upgrade**:
   - Incremented cache to `snapfacts-v3` to purge stale cached assets.
 
+### Recent Enhancements (2026-10-11T19:33:00+05:30)
+- **Safe Rollback of Background & White-Theme Modifications**:
+  - Restored the previous high-performance working design (rich dark editorial layout, multi-column panoramic LLM Ladder & standings matrix, Frontier benchmark parameter carousel, and responsive category rails).
+  - Safely removed the network graph background/header canvas and white-theme overrides.
+  - Incremented cache to `snapfacts-v10` (`?v=20261011_10`) to immediately purge cached experimental assets across client browsers and PWA service workers.
+
 ### Recent Enhancements (2026-10-11T19:15:00+05:30)
 - **Clean White (Light) Editorial Theme & High-Contrast Controls Overhaul**:
   - **Comprehensive Light Theme**: Re-architected site-wide design tokens (`:root`) with clean `#ffffff` and subtle `#f8fafc` backgrounds, high-contrast dark headings (`#111827`), readable body text (`#374151`), and slate secondary metadata (`#64748b`), achieving WCAG AA contrast (minimum 4.5:1 text, 3:1 UI borders) across all viewports.
