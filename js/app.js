@@ -2234,15 +2234,18 @@ function renderTrendChart() {
     }
 
     const list = getEditorialTrends(state.activeCategory);
-    const topTrends = list.slice(0, 10).reverse();
+    const topTrends = list.slice(0, 5).reverse();
 
     if (!topTrends.length) {
-        chartDiv.innerHTML = '<div style="color: rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; height: 100%;">No data available for this category.</div>';
+        chartDiv.innerHTML = '<div style="color: rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; height: 100%; font-size: 0.8rem;">No data available for this category.</div>';
         return;
     }
 
     const xValues = topTrends.map(item => item.score || 0);
-    const yValues = topTrends.map(item => cleanHeadline(item.title));
+    const yValues = topTrends.map(item => {
+        const headline = cleanHeadline(item.title);
+        return headline.length > 28 ? headline.slice(0, 26) + '…' : headline;
+    });
     const hoverTexts = topTrends.map(item => `${cleanHeadline(item.title)}<br>Score: ${(item.score || 0).toFixed(3)}<br>Source: ${getPrimarySource(item)}`);
 
     const data = [{
@@ -2268,32 +2271,33 @@ function renderTrendChart() {
                 };
                 return colors[cat] || '#6b7280';
             }),
-            opacity: 0.85,
+            opacity: 0.9,
             line: {
-                color: 'rgba(255,255,255,0.1)',
+                color: 'rgba(255,255,255,0.15)',
                 width: 1
             }
         }
     }];
 
     const layout = {
-        margin: { l: window.innerWidth < 768 ? 120 : 250, r: 20, t: 10, b: 30 },
+        margin: { l: window.innerWidth < 768 ? 100 : 160, r: 15, t: 5, b: 24 },
+        height: 175,
         paper_bgcolor: 'rgba(0,0,0,0)',
         plot_bgcolor: 'rgba(0,0,0,0)',
         font: {
             color: 'rgba(255, 255, 255, 0.75)',
             family: 'Inter, sans-serif',
-            size: window.innerWidth < 768 ? 9 : 11
+            size: window.innerWidth < 768 ? 8 : 10
         },
         xaxis: {
-            title: 'Editorial Score',
+            title: '',
             gridcolor: 'rgba(255, 255, 255, 0.05)',
             zerolinecolor: 'rgba(255, 255, 255, 0.1)',
-            tickfont: { color: 'rgba(255, 255, 255, 0.5)' }
+            tickfont: { color: 'rgba(255, 255, 255, 0.45)', size: 9 }
         },
         yaxis: {
             gridcolor: 'rgba(255, 255, 255, 0.05)',
-            tickfont: { color: 'rgba(255, 255, 255, 0.85)' }
+            tickfont: { color: 'rgba(255, 255, 255, 0.85)', size: 9 }
         }
     };
 
