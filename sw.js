@@ -1,4 +1,4 @@
-const CACHE_NAME = 'snapfacts-v8';
+const CACHE_NAME = 'snapfacts-v9';
 const ASSETS = [
     './',
     './index.html',

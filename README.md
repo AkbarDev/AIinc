@@ -91,6 +91,15 @@ _Last updated: 2026-10-11T13:20:00+05:30_
 - **Service Worker Cache Upgrade**:
   - Incremented cache to `snapfacts-v3` to purge stale cached assets.
 
+### Recent Enhancements (2026-10-11T19:15:00+05:30)
+- **Clean White (Light) Editorial Theme & High-Contrast Controls Overhaul**:
+  - **Comprehensive Light Theme**: Re-architected site-wide design tokens (`:root`) with clean `#ffffff` and subtle `#f8fafc` backgrounds, high-contrast dark headings (`#111827`), readable body text (`#374151`), and slate secondary metadata (`#64748b`), achieving WCAG AA contrast (minimum 4.5:1 text, 3:1 UI borders) across all viewports.
+  - **Visible Controls & Focus Rings**: Restyled search box with visible `#d1d5db` border, crisp white background, clear placeholder text, and focused accent outlines (`0 0 0 3px rgba(37, 99, 235, 0.18)`). Updated category tabs, filter pills, and navigation buttons with clear borders, hover highlights, and filled `#2563eb` active states.
+  - **Light Header & Recolor of Network Graph**: Kept the frozen sticky header confined with a translucent white background (`rgba(255, 255, 255, 0.94)`) and backdrop blur. Recolored network graph nodes and connecting lines in accessible mid-tone accent hues with dark, legible category text labels (`#0f172a`).
+  - **Floating Category Workspace & Modals**: Converted modal container to white `#ffffff` with soft backdrop dimming (`rgba(15, 23, 42, 0.45)`), accessible category cards with dark typography, and light theme dialogs for Speed Reader and Feed Personalization.
+  - **Leaderboard & Methodology Harmonization**: Upgraded the Frontier LLM Leaderboard, model benchmark cards, full-view standings table, and 3D data intelligence charts to light editorial cards with crisp borders and high-contrast text.
+  - **Service Worker Cache Upgrade**: Incremented cache to `snapfacts-v9` (`?v=20261011_9`) for immediate asset refresh.
+
 ### Recent Enhancements (2026-10-11T18:50:00+05:30)
 - **Header-Confined Network Graph & Frozen Sticky Header Navigation**:
   - **Removed Full-Page Network Background**: Completely eliminated the network graph canvas from the page body and news content background across the home page and all category pages. The page body and content area now use the site's clean, distraction-free editorial background.

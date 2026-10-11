@@ -357,14 +357,15 @@ function setupNetworkWallpaper() {
     };
 
     // Category node definitions with editorial theme accents
+    // Category node definitions with rich, accessible theme accents
     const categoryNodeDefs = [
-        { key: 'ai', label: 'AI', color: '#38bdf8' },
-        { key: 'tech', label: 'Tech', color: '#818cf8' },
-        { key: 'commerce', label: 'Commerce', color: '#34d399' },
-        { key: 'ads', label: 'Ads', color: '#f59e0b' },
-        { key: 'startup', label: 'Startups', color: '#ec4899' },
-        { key: 'media', label: 'Media', color: '#a78bfa' },
-        { key: 'brands', label: 'Brands', color: '#f43f5e' },
+        { key: 'ai', label: 'AI', color: '#0284c7' },
+        { key: 'tech', label: 'Tech', color: '#4f46e5' },
+        { key: 'commerce', label: 'Commerce', color: '#059669' },
+        { key: 'ads', label: 'Ads', color: '#d97706' },
+        { key: 'startup', label: 'Startups', color: '#db2777' },
+        { key: 'media', label: 'Media', color: '#7c3aed' },
+        { key: 'brands', label: 'Brands', color: '#e11d48' },
     ];
 
     let nodes = [];
@@ -405,7 +406,7 @@ function setupNetworkWallpaper() {
                 vy: (Math.random() - 0.5) * 0.22,
                 radius: Math.random() * 1.5 + 1.2,
                 isCategory: false,
-                color: 'rgba(148, 163, 184, 0.35)',
+                color: 'rgba(100, 116, 139, 0.28)',
             });
         }
     }
@@ -495,19 +496,19 @@ function setupNetworkWallpaper() {
                 const dist = Math.sqrt(dx * dx + dy * dy);
 
                 if (dist < maxDist) {
-                    const alpha = (1 - dist / maxDist) * (na.isCategory || nb.isCategory ? 0.24 : 0.12);
+                    const alpha = (1 - dist / maxDist) * (na.isCategory || nb.isCategory ? 0.28 : 0.14);
                     ctx.beginPath();
                     ctx.moveTo(na.x, na.y);
                     ctx.lineTo(nb.x, nb.y);
 
                     if (na.isCategory && nb.isCategory) {
-                        ctx.strokeStyle = `rgba(56, 189, 248, ${alpha * 1.4})`;
+                        ctx.strokeStyle = `rgba(37, 99, 235, ${alpha * 1.2})`;
                         ctx.lineWidth = 1;
                     } else if (na.isCategory || nb.isCategory) {
                         const col = na.isCategory ? na.color : nb.color;
                         ctx.strokeStyle = col.startsWith('#') 
-                            ? hexToRgba(col, alpha * 1.2)
-                            : `rgba(148, 163, 184, ${alpha})`;
+                            ? hexToRgba(col, alpha)
+                            : `rgba(100, 116, 139, ${alpha})`;
                         ctx.lineWidth = 0.8;
                     } else {
                         ctx.strokeStyle = `rgba(148, 163, 184, ${alpha * 0.7})`;
@@ -523,13 +524,13 @@ function setupNetworkWallpaper() {
                 const pdy = na.y - pointer.y;
                 const pdist = Math.sqrt(pdx * pdx + pdy * pdy);
                 if (pdist < pointer.radius) {
-                    const pAlpha = (1 - pdist / pointer.radius) * 0.38;
+                    const pAlpha = (1 - pdist / pointer.radius) * 0.35;
                     ctx.beginPath();
                     ctx.moveTo(na.x, na.y);
                     ctx.lineTo(pointer.x, pointer.y);
                     ctx.strokeStyle = na.isCategory 
                         ? hexToRgba(na.color, pAlpha)
-                        : `rgba(56, 189, 248, ${pAlpha})`;
+                        : `rgba(37, 99, 235, ${pAlpha})`;
                     ctx.lineWidth = 1;
                     ctx.stroke();
 
@@ -562,23 +563,23 @@ function setupNetworkWallpaper() {
             ctx.arc(n.x, n.y, n.radius, 0, Math.PI * 2);
 
             if (n.isCategory) {
-                // Category node: colored core + glowing halo
+                // Category node: colored core
                 ctx.fillStyle = n.color;
-                ctx.shadowColor = n.color;
-                ctx.shadowBlur = 8;
+                ctx.shadowColor = 'rgba(37, 99, 235, 0.2)';
+                ctx.shadowBlur = 4;
                 ctx.fill();
                 ctx.shadowBlur = 0;
 
                 // Outer faint ring
                 ctx.beginPath();
                 ctx.arc(n.x, n.y, n.radius + 2.5, 0, Math.PI * 2);
-                ctx.strokeStyle = hexToRgba(n.color, 0.4);
+                ctx.strokeStyle = hexToRgba(n.color, 0.35);
                 ctx.lineWidth = 0.8;
                 ctx.stroke();
 
-                // Labeled text beside category node inside header
-                ctx.font = '600 10px "Space Grotesk", sans-serif';
-                ctx.fillStyle = 'rgba(241, 245, 249, 0.8)';
+                // Labeled text beside category node inside header (dark, high contrast)
+                ctx.font = '700 11px "Space Grotesk", sans-serif';
+                ctx.fillStyle = '#0f172a';
                 ctx.fillText(n.label, n.x + n.radius + 4, n.y + 3.5);
             } else {
                 ctx.fillStyle = n.color;
@@ -2807,7 +2808,7 @@ function renderTrendChart() {
     if (!chartDiv) return;
 
     if (typeof Plotly === 'undefined') {
-        chartDiv.innerHTML = '<div style="color: rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; height: 100%;">Loading chart components...</div>';
+        chartDiv.innerHTML = '<div style="color: #64748b; display: flex; align-items: center; justify-content: center; height: 100%;">Loading chart components...</div>';
         return;
     }
 
@@ -2815,7 +2816,7 @@ function renderTrendChart() {
     const topTrends = list.slice(0, 5);
 
     if (!topTrends.length) {
-        chartDiv.innerHTML = '<div style="color: rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; height: 100%; font-size: 0.8rem;">No data available for this category.</div>';
+        chartDiv.innerHTML = '<div style="color: #64748b; display: flex; align-items: center; justify-content: center; height: 100%; font-size: 0.8rem;">No data available for this category.</div>';
         return;
     }
 
