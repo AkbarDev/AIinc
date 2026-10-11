@@ -2398,8 +2398,7 @@ body[data-active-category="saved"] .masthead .category-pill.active {
 /* Mobile Reader Experience (Phase 1-8) */
 .mobile-context-bar,
 .mobile-reader-tools,
-.mobile-category-rail,
-.quick-brief {
+.mobile-category-rail {
     display: none;
 }
 
@@ -2724,8 +2723,7 @@ body[data-active-category="saved"] .masthead .category-pill.active {
     .site-footer,
     .board-heading,
     .mobile-context-bar,
-    .mobile-reader-tools,
-    .quick-brief {
+    .mobile-reader-tools {
         display: none !important;
     }
 
@@ -2861,53 +2859,6 @@ body[data-active-category="saved"] .masthead .category-pill.active {
         border-color: #0991ff;
         color: #0066cc;
         background: rgba(9, 145, 255, 0.08);
-    }
-
-    .quick-brief {
-        display: none;
-        border: 1px solid #d9e4f5;
-        background: #f8fbff;
-        border-radius: 12px;
-        padding: 0.62rem 0.72rem;
-        margin: 0 0 0.64rem;
-    }
-
-    .quick-brief.is-active {
-        display: block;
-    }
-
-    .quick-brief h4 {
-        margin: 0 0 0.35rem;
-        font-size: 0.8rem;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        color: #1b2a42;
-    }
-
-    .quick-brief ul {
-        margin: 0;
-        padding-left: 1rem;
-        display: grid;
-        gap: 0.36rem;
-    }
-
-    .quick-brief a {
-        color: #133a74;
-        font-size: 0.82rem;
-        line-height: 1.36;
-        text-decoration: none;
-    }
-
-    .quick-brief span {
-        display: block;
-        color: #657184;
-        font-size: 0.7rem;
-        font-weight: 700;
-        margin-top: 0.1rem;
-    }
-
-    .quick-brief a:hover {
-        text-decoration: underline;
     }
 
     .news-card-grid {

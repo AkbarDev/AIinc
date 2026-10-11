@@ -160,8 +160,6 @@ const HEADER_CATEGORIES = [
     { key: 'startup', label: 'STARTUP' },
     { key: 'media', label: 'MEDIA' },
     { key: 'brands', label: 'BRANDS' },
-    { key: 'saved', label: 'SAVED' },
-    { key: 'sync', label: '⚙️ SYNC' },
 ];
 
 const CATEGORY_COPY = {
@@ -520,11 +518,8 @@ function renderMobileReaderChrome() {
     const contextCategory = document.getElementById('mobile-context-category');
     const contextMeta = document.getElementById('mobile-context-meta');
     const densityBtn = document.getElementById('density-toggle');
-    const briefBtn = document.getElementById('brief-toggle');
     const followBtn = document.getElementById('follow-topic-toggle');
     const rail = document.getElementById('mobile-category-rail');
-    const briefSection = document.getElementById('quick-brief');
-    const briefList = document.getElementById('quick-brief-list');
 
     const activeLabel = (HEADER_CATEGORIES.find((item) => item.key === state.activeCategory)?.label || 'ALL NEWS').toUpperCase();
     const latestTime = formatDate(state.meta.generated_at);
@@ -536,10 +531,6 @@ function renderMobileReaderChrome() {
         const isCompact = state.density === 'compact';
         densityBtn.textContent = isCompact ? 'Compact' : 'Comfortable';
         densityBtn.setAttribute('aria-pressed', isCompact ? 'true' : 'false');
-    }
-    if (briefBtn) {
-        briefBtn.textContent = state.briefMode ? 'Shorts On' : 'Shorts';
-        briefBtn.setAttribute('aria-pressed', state.briefMode ? 'true' : 'false');
     }
     if (followBtn) {
         const isFollowed = state.activeCategory !== 'all' && state.followedTopics.includes(state.activeCategory);
@@ -553,18 +544,6 @@ function renderMobileReaderChrome() {
                 const active = key === state.activeCategory ? 'active' : '';
                 const followed = state.followedTopics.includes(key) ? 'followed' : '';
                 return `<button class="mobile-rail-pill ${active} ${followed}" data-mobile-rail="${key}" type="button">${label}</button>`;
-            })
-            .join('');
-    }
-
-    if (briefSection && briefList) {
-        const briefItems = getEditorialTrends(state.activeCategory).slice(0, 5);
-        briefSection.classList.toggle('is-active', state.briefMode);
-        briefList.innerHTML = briefItems
-            .map((item) => {
-                const sourceName = getPrimarySource(item);
-                const headline = cleanHeadline(item.title);
-                return `<li><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener">${escapeHtml(headline)}</a><span>${escapeHtml(sourceName)} - ${escapeHtml(formatDate(item.published_at))}</span></li>`;
             })
             .join('');
     }
@@ -1198,17 +1177,6 @@ function setupMobileCategoryMenu() {
 }
 
 function setActiveCategory(nextCategory) {
-    if (nextCategory === 'sync') {
-        const dialog = document.getElementById('sync-dialog');
-        if (dialog) {
-            const currentKeyInput = document.getElementById('sync-current-key');
-            if (currentKeyInput) {
-                currentKeyInput.value = safeStorageGet(STORAGE_KEYS.syncKey) || initSyncKey();
-            }
-            dialog.showModal();
-        }
-        return;
-    }
     state.activeCategory = nextCategory || 'all';
     renderCategoryPills();
     renderMobileCategoryMenu();
@@ -1221,7 +1189,6 @@ function setActiveCategory(nextCategory) {
 
 function setupReaderInteractions() {
     const densityBtn = document.getElementById('density-toggle');
-    const briefBtn = document.getElementById('brief-toggle');
     const followBtn = document.getElementById('follow-topic-toggle');
     const rail = document.getElementById('mobile-category-rail');
     const board = document.getElementById('news-card-grid');
@@ -1229,15 +1196,6 @@ function setupReaderInteractions() {
     if (densityBtn) {
         densityBtn.addEventListener('click', () => {
             state.density = state.density === 'compact' ? 'comfortable' : 'compact';
-            persistReaderPrefs();
-            renderMobileReaderChrome();
-            renderNewsBoard();
-        });
-    }
-
-    if (briefBtn) {
-        briefBtn.addEventListener('click', () => {
-            state.briefMode = !state.briefMode;
             persistReaderPrefs();
             renderMobileReaderChrome();
             renderNewsBoard();

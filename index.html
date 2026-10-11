@@ -122,14 +122,9 @@
                 </div>
                 <div class="mobile-reader-tools" id="mobile-reader-tools">
                     <button class="mobile-tool-btn" id="density-toggle" type="button" aria-pressed="false">Comfortable</button>
-                    <button class="mobile-tool-btn" id="brief-toggle" type="button" aria-pressed="false">Shorts</button>
                     <button class="mobile-tool-btn" id="follow-topic-toggle" type="button" aria-pressed="false">Follow Topic</button>
                 </div>
                 <div class="mobile-category-rail" id="mobile-category-rail"></div>
-                <section class="quick-brief" id="quick-brief" aria-label="Shorts highlights">
-                    <h4>Shorts</h4>
-                    <ul id="quick-brief-list"></ul>
-                </section>
                 <div class="news-board-shell">
                     <div class="news-card-grid" id="news-card-grid"></div>
                 </div>
@@ -189,42 +184,6 @@
         </div>
         <p class="footer-note">&copy; Snapfacts — Global AI, media, commerce, and advertising signals from trusted open feeds. <a href="/privacy.html" style="color: #64748b; margin-left: 0.5rem; text-decoration: underline;">Privacy Policy</a></p>
     </footer>
-
-    <dialog class="sync-dialog" id="sync-dialog">
-        <div class="sync-dialog-content">
-            <div class="sync-dialog-header">
-                <h3>Sync Bookmarks</h3>
-                <button class="sync-close-btn" id="sync-close-btn" type="button" aria-label="Close sync modal">&times;</button>
-            </div>
-            <div class="sync-dialog-body">
-                <p class="sync-intro">Keep your saved stories synced between this browser, your other devices, and the Snapfacts iOS app wrapper.</p>
-                
-                <div class="sync-section">
-                    <label for="sync-current-key">This Device's Sync Key</label>
-                    <div class="sync-input-group">
-                        <input type="text" id="sync-current-key" readonly value="" />
-                        <button class="sync-action-btn copy-btn" id="sync-copy-btn" type="button">
-                            <i class="fa-regular fa-copy"></i> Copy
-                        </button>
-                    </div>
-                    <span class="sync-tip">Share this key with your other devices to load this bookmarks list.</span>
-                </div>
-                
-                <div class="sync-divider"><span>OR</span></div>
-                
-                <div class="sync-section">
-                    <label for="sync-input-key">Link Another Device</label>
-                    <div class="sync-input-group">
-                        <input type="text" id="sync-input-key" placeholder="Paste Sync Key here..." />
-                        <button class="sync-action-btn save-btn" id="sync-save-btn" type="button">
-                            Sync
-                        </button>
-                    </div>
-                    <span class="sync-tip warning-tip">Warning: Syncing a new key will overwrite current bookmarks on this device.</span>
-                </div>
-            </div>
-        </div>
-    </dialog>
 
     <div id="speed-reader-modal" class="speed-modal" style="display: none; position: fixed; inset: 0; z-index: 1100; align-items: center; justify-content: center;">
         <div class="speed-modal-backdrop" style="position: absolute; inset: 0; background: rgba(6, 10, 20, 0.9); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);"></div>

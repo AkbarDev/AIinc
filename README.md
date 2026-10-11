@@ -1,8 +1,20 @@
 # TrendGrid (AIinc)
 
-_Last updated: 2026-10-11T11:45:00+05:30_
+_Last updated: 2026-10-11T12:00:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
+
+### Recent Enhancements (2026-10-11T12:00:00+05:30)
+- **Removal of "Snapfacts Brief" / Shorts Section Across All Tabs**:
+  - Removed `#quick-brief` section container and list markup from `index.html`.
+  - Removed `#brief-toggle` ("Shorts") button from mobile reader tools.
+  - Removed all corresponding CSS styling and dynamic DOM population logic in `js/app.js`.
+- **Removal of Header "SYNC" and "SAVED" Navigation Tabs**:
+  - Removed `{ key: 'saved', label: 'SAVED' }` and `{ key: 'sync', label: '⚙️ SYNC' }` from `HEADER_CATEGORIES`.
+  - Removed `#sync-dialog` modal from `index.html` and cleared sync trigger logic from category navigation.
+  - Streamlined primary navigation strictly to editorial intelligence categories (`AI`, `COMMERCE`, `TECH`, `ADS`, `STARTUP`, `MEDIA`, `BRANDS`) and the `🏆 LLM LEADERBOARD` home tab.
+- **Service Worker Cache Upgrade**:
+  - Incremented cache to `snapfacts-v3` to purge stale cached assets.
 
 ### Recent Enhancements (2026-10-11T11:45:00+05:30)
 - **Removal of SnapFacts Brief Chat Window & Sidebar Form**:
