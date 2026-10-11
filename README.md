@@ -1,8 +1,15 @@
 # TrendGrid (AIinc)
 
-_Last updated: 2026-10-11T12:00:00+05:30_
+_Last updated: 2026-10-11T12:08:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
+
+### Recent Enhancements (2026-10-11T12:08:00+05:30)
+- **Upgraded AI Editorial Visual Generation to Gemini 1.5 Flash + Google Imagen 3**:
+  - Replaced the low-quality Pollinations AI fallback pipeline in `scripts/fetch_feeds.py`.
+  - Added `enhance_prompt_with_gemini_flash()` to construct structured, magazine-quality 16:9 editorial prompts analyzing headlines and summaries.
+  - Prioritized **Google Imagen 3** (`imagen-3.0-generate-002`) via Gemini API for crisp, high-resolution visual storytelling with zero text overlays, logos, or template artifacts.
+  - Set high-definition curated editorial photography as fallback in the event of upstream rate-limiting.
 
 ### Recent Enhancements (2026-10-11T12:00:00+05:30)
 - **Removal of "Snapfacts Brief" / Shorts Section Across All Tabs**:

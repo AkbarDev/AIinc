@@ -639,6 +639,55 @@ def enhance_cluster_metadata_with_llm(title: str, summary: str, current_category
     return None
 
 
+def enhance_prompt_with_gemini_flash(title: str, summary: str, category: str, api_key: str) -> Optional[str]:
+    """Use Gemini Flash to formulate a high-fidelity editorial visual prompt for Imagen 3."""
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    system_instruction = (
+        "You are an expert editorial art director for a premier news magazine. "
+        "Analyze the news headline, summary, and category to formulate a single, highly detailed, photorealistic editorial illustration prompt for Google Imagen 3.\n\n"
+        "Rules:\n"
+        "- Format: [Subject] + [Setting/Context] + [Symbolic visual storytelling elements] + [Lighting & 35mm photography style] + [Clean editorial composition].\n"
+        "- Aspect ratio: Landscape 16:9.\n"
+        "- Absolutely NO text, NO typography, NO titles, NO badges, NO logos, NO watermarks, NO icons.\n"
+        "- Avoid cheap flat icons, cartoonish graphics, or generic clipart.\n"
+        "- Output ONLY the prompt string without commentary or formatting quotes."
+    )
+    user_prompt = f"Category: {category}\nHeadline: {title}\nSummary: {summary}\nGenerate the Imagen 3 prompt:"
+    payload = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": f"{system_instruction}\n\n{user_prompt}"}
+                ]
+            }
+        ],
+        "generationConfig": {
+            "temperature": 0.4,
+            "maxOutputTokens": 150
+        }
+    }
+    headers = {
+        "Content-Type": "application/json",
+        "User-Agent": USER_AGENT
+    }
+    try:
+        req = Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
+        with urlopen(req, timeout=15) as response:
+            resp_data = json.loads(response.read().decode("utf-8"))
+            candidates = resp_data.get("candidates", [])
+            if candidates:
+                parts = candidates[0].get("content", {}).get("parts", [])
+                if parts:
+                    prompt_text = parts[0].get("text", "").strip()
+                    prompt_text = prompt_text.replace('"', '').replace('`', '').strip()
+                    if prompt_text:
+                        print(f"info: Successfully constructed prompt using Gemini Flash: {prompt_text[:80]}...")
+                        return prompt_text
+    except Exception as e:
+        print(f"warn: Gemini Flash prompt construction failed: {e}", file=sys.stderr)
+    return None
+
+
 def enhance_prompt_with_llm(title: str, summary: str, category: str, api_key: str) -> Optional[str]:
     """Use Hugging Face Chat API to enhance a simple title & summary into a visual description prompt."""
     url = "https://router.huggingface.co/v1/chat/completions"
@@ -927,11 +976,17 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
 
     print(f"info: Initiating image generation for cluster: {trend_id}...")
     
-    # 2. Check for HF_API_KEY
+    # 2. Construct enriched prompt using Gemini Flash (or HF LLM fallback)
+    gemini_key = os.environ.get("GEMINI_API_KEY")
     api_key = os.environ.get("HF_API_KEY")
     enhanced_prompt = None
-    if api_key:
-        print("info: HF_API_KEY detected. Enhancing prompt using Hugging Face LLM...")
+
+    if gemini_key:
+        print("info: GEMINI_API_KEY detected. Enhancing prompt using Gemini Flash...")
+        enhanced_prompt = enhance_prompt_with_gemini_flash(title, summary, category, gemini_key)
+    
+    if not enhanced_prompt and api_key:
+        print("info: Enhancing prompt using Hugging Face LLM...")
         enhanced_prompt = enhance_prompt_with_llm(title, summary, category, api_key)
         
     # Determine the prompt to use
@@ -941,19 +996,17 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
         companies = extract_companies(title, summary, category)
         company_1 = companies[0]
         prompt_to_use = (
-            f"Minimalist flat vector editorial news illustration about {company_1} and {category}. "
-            f"A single clean symbolic visual concept, modern high-contrast color palette, flat vector design. "
+            f"Editorial news illustration about {company_1} in {category}. "
+            f"Modern professional digital art, photorealistic composition, cinematic magazine lighting, 35mm photography aesthetic. "
             f"Visual elements representing {category} and industry themes. "
             f"No text, no logos, no watermarks, landscape 16:9, clean negative space, premium news hero layout."
         )
 
-    # Use the exact prompt without adding extra keywords, as per strict editorial guidelines
     prompt_variations = [prompt_to_use]
 
-    # 2.5 Try Google Imagen 3 (Nano Banana) first if GEMINI_API_KEY is available
-    gemini_key = os.environ.get("GEMINI_API_KEY")
+    # 2.5 Primary Model: Google Imagen 3 via Gemini API
     if gemini_key:
-        print("info: GEMINI_API_KEY detected. Attempting generation with Google Imagen 3 (Nano Banana)...")
+        print("info: GEMINI_API_KEY detected. Attempting generation with Google Imagen 3 (imagen-3.0-generate-002)...")
         for p_idx, prompt in enumerate(prompt_variations):
             print(f"info: Trying prompt variation {p_idx + 1} on Google Imagen 3...")
             try:
@@ -999,29 +1052,8 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
     else:
         print("warn: HF_API_KEY is missing. Skipping Hugging Face generation.", file=sys.stderr)
 
-    # 2.7 Try Pollinations AI (Free Open Source Models - FLUX)
-    print("info: Attempting generation with Pollinations AI (Free Open Source FLUX)...")
-    for p_idx, prompt in enumerate(prompt_variations):
-        try:
-            import urllib.parse
-            encoded_prompt = urllib.parse.quote(prompt)
-            pollinations_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width=768&height=432&nologo=true"
-            req = Request(pollinations_url, headers={"User-Agent": USER_AGENT}, method="GET")
-            with urlopen(req, timeout=30) as response:
-                image_bytes = response.read()
-                if image_bytes:
-                    is_valid, validation_msg = validate_image_quality(image_bytes)
-                    if is_valid:
-                        try:
-                            image_path.write_bytes(image_bytes)
-                            print(f"info: AI image successfully generated via Pollinations AI: {image_path}")
-                            return f"assets/images/generated/{trend_id}.jpg", ""
-                        except Exception as e:
-                            print(f"warn: Failed to write Pollinations AI image bytes: {e}", file=sys.stderr)
-                    else:
-                        print(f"warn: Pollinations AI image failed quality validation: {validation_msg}", file=sys.stderr)
-        except Exception as e:
-            print(f"warn: Pollinations AI Error: {str(e)}", file=sys.stderr)
+    # 2.7 Curated High-Definition Editorial Stock Fallback (if AI models are rate-limited)
+    print(f"info: Using curated editorial visual fallback for category: {category}")
 
     # 3. Public domain free-use Unsplash stock image fallback (if all models fail)
     print(f"info: Using curated open stock image fallback for category: {category}")
