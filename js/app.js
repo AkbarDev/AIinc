@@ -661,6 +661,70 @@ function getCategoryStoryCount(catKey) {
 }
 
 function renderLlmLeaderboardHome() {
+    // 1. Panoramic Multi-Column Frontier Model Cards (Carousel Full-Page Style)
+    const modelCards = LLM_ARENA_LEADERBOARD_DATA.map(m => {
+        const rankMedal = m.rank === 1 ? '🥇 #1' : m.rank === 2 ? '🥈 #2' : m.rank === 3 ? '🥉 #3' : `#${m.rank}`;
+        const eloPercent = Math.min(100, Math.max(20, Math.round(((m.elo - 1200) / (1400 - 1200)) * 100)));
+        const rankClass = m.rank === 1 ? 'rank-gold' : m.rank === 2 ? 'rank-silver' : m.rank === 3 ? 'rank-bronze' : '';
+        
+        return `
+        <article class="arena-model-card ${rankClass}">
+            <div class="model-card-top">
+                <div class="model-card-rank-wrap">
+                    <span class="model-card-rank-badge ${rankClass}">${rankMedal}</span>
+                    <span class="model-card-provider-pill">${escapeHtml(m.provider)}</span>
+                </div>
+                <span class="model-card-special-badge" style="color: ${m.badgeColor}; border-color: ${m.badgeColor}40; background: ${m.badgeColor}18;">
+                    ${escapeHtml(m.badge)}
+                </span>
+            </div>
+
+            <div class="model-card-heading">
+                <h3 class="model-card-name">
+                    <a href="${escapeAttr(m.link)}" target="_blank" rel="noopener">${escapeHtml(m.model)}</a>
+                </h3>
+            </div>
+
+            <div class="model-card-elo-spotlight">
+                <div class="model-card-elo-header">
+                    <span class="model-card-elo-label">Arena Elo Rating</span>
+                    <span class="model-card-elo-score">${m.elo}</span>
+                </div>
+                <div class="model-card-elo-gauge">
+                    <div class="model-card-elo-fill" style="width: ${eloPercent}%;"></div>
+                </div>
+            </div>
+
+            <div class="model-card-benchmarks-grid">
+                <div class="bench-param-box">
+                    <span class="bench-param-label"><i class="fa-solid fa-code"></i> Coding Elo</span>
+                    <span class="bench-param-val">${m.codingElo}</span>
+                </div>
+                <div class="bench-param-box">
+                    <span class="bench-param-label"><i class="fa-solid fa-brain"></i> Hard Elo</span>
+                    <span class="bench-param-val">${m.hardElo}</span>
+                </div>
+                <div class="bench-param-box span-2">
+                    <span class="bench-param-label"><i class="fa-solid fa-layer-group"></i> Context Window</span>
+                    <span class="bench-param-val highlight-ctx">${escapeHtml(m.context)}</span>
+                </div>
+                <div class="bench-param-box span-2">
+                    <span class="bench-param-label"><i class="fa-solid fa-scale-balanced"></i> Access & License</span>
+                    <span class="bench-param-val">${escapeHtml(m.license)}</span>
+                </div>
+            </div>
+
+            <div class="model-card-footer">
+                <a href="${escapeAttr(m.link)}" target="_blank" rel="noopener" class="model-card-cta-btn">
+                    <span>Inspect Model on Arena</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </article>
+        `;
+    }).join('');
+
+    // 2. Comprehensive Data Table Rows for Full Deep-Dive Matrix
     const tableRows = LLM_ARENA_LEADERBOARD_DATA.map(m => {
         const rankMedal = m.rank === 1 ? '🥇' : m.rank === 2 ? '🥈' : m.rank === 3 ? '🥉' : `#${m.rank}`;
         const eloPercent = Math.min(100, Math.max(20, Math.round(((m.elo - 1200) / (1400 - 1200)) * 100)));
@@ -695,31 +759,106 @@ function renderLlmLeaderboardHome() {
         `;
     }).join('');
 
+    // 3. Expansive Multi-Column Editorial Category Channels (Carousel Full-Page Style)
     const categoryCards = [
-        { key: 'ai', label: 'AI', fullName: 'AI Intelligence', icon: 'fa-solid fa-robot', color: '#38bdf8' },
-        { key: 'tech', label: 'Technology', fullName: 'Technology', icon: 'fa-solid fa-laptop-code', color: '#818cf8' },
-        { key: 'commerce', label: 'Commerce', fullName: 'Commerce', icon: 'fa-solid fa-cart-shopping', color: '#34d399' },
-        { key: 'ads', label: 'Advertising', fullName: 'Advertising', icon: 'fa-solid fa-bullhorn', color: '#f59e0b' },
-        { key: 'startup', label: 'Startups', fullName: 'Startups', icon: 'fa-solid fa-rocket', color: '#ec4899' },
-        { key: 'media', label: 'Media', fullName: 'Digital Media', icon: 'fa-solid fa-photo-film', color: '#a78bfa' },
-        { key: 'brands', label: 'Brands', fullName: 'Brands', icon: 'fa-solid fa-tag', color: '#f43f5e' },
+        { 
+            key: 'ai', 
+            label: 'AI', 
+            fullName: 'Artificial Intelligence', 
+            icon: 'fa-solid fa-brain', 
+            color: '#38bdf8',
+            desc: 'Frontier foundation LLMs, autonomous reasoning agents, neural silicon & multimodal benchmarks.',
+            tags: ['LLMs', 'Agents', 'Imagen 3', 'Neural Chips']
+        },
+        { 
+            key: 'tech', 
+            label: 'Tech', 
+            fullName: 'Technology & Platforms', 
+            icon: 'fa-solid fa-microchip', 
+            color: '#818cf8',
+            desc: 'Cloud hyperscalers, developer ecosystems, enterprise security, operating systems & quantum compute.',
+            tags: ['Cloud', 'DevTools', 'Silicon', 'Security']
+        },
+        { 
+            key: 'commerce', 
+            label: 'Commerce', 
+            fullName: 'Commerce & Retail', 
+            icon: 'fa-solid fa-cart-shopping', 
+            color: '#34d399',
+            desc: 'Global omni-channel retail, checkout infrastructure, merchant fintech & automated supply chains.',
+            tags: ['E-Commerce', 'Fintech', 'Logistics', 'Retail']
+        },
+        { 
+            key: 'ads', 
+            label: 'Advertising', 
+            fullName: 'Advertising & Adtech', 
+            icon: 'fa-solid fa-bullhorn', 
+            color: '#f59e0b',
+            desc: 'Programmatic ad platforms, generative creative pipelines, performance media buying & ROAS metrics.',
+            tags: ['AdTech', 'Programmatic', 'Media Buying', 'ROAS']
+        },
+        { 
+            key: 'startup', 
+            label: 'Startups', 
+            fullName: 'Startups & Venture Capital', 
+            icon: 'fa-solid fa-rocket', 
+            color: '#ec4899',
+            desc: 'AI-native venture rounds, accelerator cohorts, founder playbooks & high-growth scaleups.',
+            tags: ['Venture Capital', 'Founders', 'Seed', 'Unicorns']
+        },
+        { 
+            key: 'media', 
+            label: 'Media', 
+            fullName: 'Digital Media & Publishing', 
+            icon: 'fa-solid fa-photo-film', 
+            color: '#a78bfa',
+            desc: 'Interactive streaming, digital publisher monetization models, creator economy & rights policies.',
+            tags: ['Publishing', 'Streaming', 'Creators', 'Monetization']
+        },
+        { 
+            key: 'brands', 
+            label: 'Brands', 
+            fullName: 'Brand Strategy & Culture', 
+            icon: 'fa-solid fa-tag', 
+            color: '#f43f5e',
+            desc: 'Global brand positioning, cultural storytelling, consumer sentiment & high-impact campaigns.',
+            tags: ['Brand Equity', 'Storytelling', 'Campaigns', 'Culture']
+        },
     ].map(c => {
         const count = getCategoryStoryCount(c.key);
+        const tagsHtml = c.tags.map(t => `<span class="cat-channel-tag">${escapeHtml(t)}</span>`).join('');
         return `
-        <button class="home-cat-tab-btn" type="button" data-category-jump="${c.key}">
-            <span class="home-cat-tab-icon" style="color: ${c.color}; background: ${c.color}18; border: 1px solid ${c.color}35;">
-                <i class="${c.icon}"></i>
-            </span>
-            <div class="home-cat-tab-info">
-                <span class="home-cat-tab-name">${escapeHtml(c.fullName)}</span>
-                <span class="home-cat-tab-count">${count} stories</span>
+        <article class="cat-channel-card" data-category-jump="${c.key}">
+            <div class="cat-channel-card-top">
+                <span class="cat-channel-icon" style="color: ${c.color}; background: ${c.color}18; border-color: ${c.color}35;">
+                    <i class="${c.icon}"></i>
+                </span>
+                <span class="cat-channel-count-pill" style="color: ${c.color}; background: ${c.color}12; border-color: ${c.color}25;">
+                    <span class="channel-dot" style="background: ${c.color};"></span> ${count} stories
+                </span>
             </div>
-        </button>
+
+            <div class="cat-channel-body">
+                <h3 class="cat-channel-title">${escapeHtml(c.fullName)}</h3>
+                <p class="cat-channel-desc">${escapeHtml(c.desc)}</p>
+                <div class="cat-channel-tags-row">
+                    ${tagsHtml}
+                </div>
+            </div>
+
+            <div class="cat-channel-footer">
+                <button type="button" class="cat-channel-jump-btn" style="color: ${c.color};">
+                    <span>Explore Channel</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
         `;
     }).join('');
 
     return `
     <div class="llm-leaderboard-home">
+        <!-- Banner -->
         <div class="arena-top-banner">
             <div class="arena-banner-left">
                 <span class="arena-pulse-badge"><span class="radar-pulse-dot"></span> LIVE LMSYS CHATBOT ARENA STANDINGS</span>
@@ -734,32 +873,69 @@ function renderLlmLeaderboardHome() {
             </div>
         </div>
 
-        <!-- Single Column Row Displaying All Category Tabs Fully -->
-        <div class="arena-category-horizontal-bar">
-            <div class="cat-bar-header">
-                <span class="explore-eyebrow"><i class="fa-solid fa-layer-group"></i> News by Category</span>
-                <span class="cat-bar-sub">Direct access to all editorial category channels:</span>
+        <!-- Section 1: Full-Page Multi-Column Frontier Model Cards (LLM Ladder) -->
+        <div class="arena-showcase-section">
+            <div class="arena-showcase-header">
+                <div class="arena-showcase-header-left">
+                    <span class="explore-eyebrow"><i class="fa-solid fa-trophy"></i> FRONTIER MODEL LADDER</span>
+                    <h3 class="arena-showcase-title">Top Evaluated Foundation Models by Arena Elo</h3>
+                    <p class="arena-showcase-sub">Panoramic multi-column evaluations across coding Elo, hard reasoning prompts, and context capacity.</p>
+                </div>
+                <div class="arena-showcase-header-right">
+                    <span class="arena-metric-counter-badge"><i class="fa-solid fa-cubes"></i> 8 Frontier Models Benchmarked</span>
+                </div>
             </div>
-            <div class="explore-category-single-row">
+
+            <!-- Multi-Column Grid of Model Cards (Unrestricted Full Page View) -->
+            <div class="arena-model-cards-grid">
+                ${modelCards}
+            </div>
+        </div>
+
+        <!-- Section 2: Full-Page Multi-Column News by Category Channel Cards -->
+        <div class="arena-category-showcase-section">
+            <div class="cat-bar-header">
+                <div class="cat-bar-header-left">
+                    <span class="explore-eyebrow"><i class="fa-solid fa-layer-group"></i> NEWS BY CATEGORY</span>
+                    <h3 class="cat-bar-title">Editorial Intelligence Channels</h3>
+                    <p class="cat-bar-sub">Direct access to all 7 editorial streams with verified sources, sentiment indicators, and live story feeds.</p>
+                </div>
+                <div class="cat-bar-header-right">
+                    <span class="cat-channel-counter-badge"><i class="fa-solid fa-bolt"></i> 7 Active Channels</span>
+                </div>
+            </div>
+
+            <!-- Multi-Column Grid of Category Cards (Unrestricted Full Page View) -->
+            <div class="cat-channels-grid">
                 ${categoryCards}
             </div>
         </div>
 
-        <!-- Full Horizontal View Leaderboard Table with zero trimming -->
-        <div class="arena-table-card full-view-board">
-            <div class="arena-table-header-row">
-                <span class="col-rank">Rank</span>
-                <span class="col-model">Model</span>
-                <span class="col-prov">Provider</span>
-                <span class="col-elo">Arena Elo</span>
-                <span class="col-code">Coding Elo</span>
-                <span class="col-hard">Hard Prompts</span>
-                <span class="col-ctx">Context Window</span>
-                <span class="col-lic">License & Access</span>
-                <span class="col-act">Arena Link</span>
+        <!-- Section 3: Deep-Dive Tabular Leaderboard Matrix -->
+        <div class="arena-deep-dive-section">
+            <div class="deep-dive-header">
+                <div class="deep-dive-header-left">
+                    <span class="explore-eyebrow"><i class="fa-solid fa-table-list"></i> COMPLETE BENCHMARK MATRIX</span>
+                    <h4 class="deep-dive-title">Detailed Parameter & Licensing Breakdown</h4>
+                </div>
+                <span class="deep-dive-meta-tag"><i class="fa-solid fa-users"></i> 1.5M+ Verified Battle Pairs</span>
             </div>
-            <div class="arena-table-body">
-                ${tableRows}
+
+            <div class="arena-table-card full-view-board">
+                <div class="arena-table-header-row">
+                    <span class="col-rank">Rank</span>
+                    <span class="col-model">Model</span>
+                    <span class="col-prov">Provider</span>
+                    <span class="col-elo">Arena Elo</span>
+                    <span class="col-code">Coding Elo</span>
+                    <span class="col-hard">Hard Prompts</span>
+                    <span class="col-ctx">Context Window</span>
+                    <span class="col-lic">License & Access</span>
+                    <span class="col-act">Arena Link</span>
+                </div>
+                <div class="arena-table-body">
+                    ${tableRows}
+                </div>
             </div>
         </div>
     </div>
@@ -773,10 +949,12 @@ function renderNewsBoard() {
     // 1. If on homepage ('all'), display the LLM Leaderboard without any news cards!
     if (state.activeCategory === 'all') {
         grid.classList.remove('is-compact', 'is-brief-mode');
+        grid.classList.add('has-leaderboard-home');
         grid.innerHTML = renderLlmLeaderboardHome();
         renderSidebarTrending([]);
         return;
     }
+    grid.classList.remove('has-leaderboard-home');
 
     // 2. If on a category tab, render the respective news cards for that category!
     const list = getEditorialTrends(state.activeCategory);

@@ -1,14 +1,26 @@
 # TrendGrid (AIinc)
 
-_Last updated: 2026-10-11T12:55:00+05:30_
+_Last updated: 2026-10-11T13:05:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
 
-### Recent Enhancements (2026-10-11T12:55:00+05:30)
-- **News by Category Single-Row Full Display**:
-  - Re-architected the News by Category rail into a single unified row (`.explore-category-single-row`) showing all category channels fully (`AI Intelligence`, `Technology`, `Commerce`, `Advertising`, `Startups`, `Digital Media`, `Brands`).
-  - Each category tab displays its dedicated icon, category name, and active story count with clean one-tap switching.
-  - Bumped cache busters to `v20261011_5` and Service Worker to `snapfacts-v5`.
+### Recent Enhancements (2026-10-11T13:05:00+05:30)
+- **Full-Page Carousel & Multi-Column View for News by Category and LLM Ladder**:
+  - Replaced the cramped single-column and squished button layouts with expansive, full-page panoramic presentation matching the fidelity of the hero carousel panels.
+  - **Frontier Model Ladder (`.arena-model-cards-grid`)**:
+    - Unrestricted multi-column responsive cards (`minmax(320px, 1fr)`) displaying top benchmarked models (GPT-4o, Claude 3.5 Sonnet, o1, Gemini 1.5 Pro, Llama 3.1 405B, Qwen 2.5, DeepSeek-V2.5, Gemini 1.5 Flash).
+    - Top 3 rank medals (🥇 Gold, 🥈 Silver, 🥉 Bronze) with custom neon glowing accent bars.
+    - Large Arena Elo score spotlight with progress bar gauge.
+    - 2x2 benchmark matrix for Coding Elo, Hard Prompts Elo, Context Window, and Access/Licensing.
+    - Direct "Inspect Model on Arena ↗" action links.
+  - **Editorial Category Channels (`.cat-channels-grid`)**:
+    - Expansive multi-column panoramic grid (`minmax(310px, 1fr)`) covering all 7 streams (`AI Intelligence`, `Technology & Platforms`, `Commerce & Retail`, `Advertising & Adtech`, `Startups & Capital`, `Digital Media & Publishing`, `Brand Strategy & Culture`).
+    - Dedicated glowing iconography, active story count badge, editorial summaries, and domain tags.
+    - Direct "Explore Channel →" interactive buttons with smooth auto-scroll.
+  - **Full Benchmark Matrix Deep-Dive**:
+    - Maintained full 100% widescreen comparative tabular matrix beneath the cards for in-depth evaluation.
+  - **Cache & Performance**:
+    - Bumped cache busters in `index.html` to `v20261011_6` and Service Worker to `snapfacts-v6`.
 
 ### Recent Enhancements (2026-10-11T12:45:00+05:30)
 - **Horizontal Spread for News by Category Section**:
