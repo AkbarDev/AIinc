@@ -1,10 +1,19 @@
 # TrendGrid (AIinc)
 
-_Last updated: 2026-10-11T11:28:00+05:30_
+_Last updated: 2026-10-11T11:36:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
 
-### Recent Enhancements (2026-10-11T11:28:00+05:30)
+### Recent Enhancements (2026-10-11T11:36:00+05:30)
+- **Dedicated LLM Leaderboard Homepage (Zero News Cards on Home)**:
+  - Transformed the home view (`all`) into the **LMSYS Chatbot Arena Leaderboard Homepage**:
+  - Removed all news cards from the homepage to maintain clear architectural focus on LLM model benchmarks and evaluation parameters.
+  - Implemented the interactive **Frontier LLM Leaderboard Table & Stats Matrix** on the home dashboard (tracking GPT-4o, Claude 3.5 Sonnet, o1, Gemini 1.5 Pro, Llama 3.1 405B, Qwen 2.5, DeepSeek-V2.5) with Elo ratings, coding scores, context sizes, and direct links to [arena.ai/leaderboard](https://arena.ai/leaderboard).
+  - Added an interactive **Category News Exploration Rail** with verified article counts directing users directly to dedicated category feeds.
+- **Relocated All News Cards to Dedicated Category Tabs**:
+  - News cards strictly render when viewing their respective category tabs (`AI`, `COMMERCE`, `TECH`, `ADS`, `STARTUP`, `MEDIA`, `BRANDS`, `SAVED`).
+  - Added automatic view-switching (`is-category-view`) that hides the hero front-section when browsing category feeds so news cards are immediately visible at the top of the viewport.
+  - Sidebar dynamically adapts: shows LMSYS Arena fast-look stats on the homepage, and contextual trending stories when viewing category tabs.
 - **Removal of Google Stack Tools from News Feed Grid**:
   - Cleaned the news grid of Google tools cards and removed the navigation pill (`⚡ FREE AI TOOLS`), ensuring the core news feed consists purely of authentic aggregated industry editorial stories.
 - **Dynamic LLM Parameters & Benchmark Carousel**:

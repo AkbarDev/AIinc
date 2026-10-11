@@ -152,7 +152,7 @@ const LLM_BENCHMARK_SLIDES = [
 ];
 
 const HEADER_CATEGORIES = [
-    { key: 'all', label: 'ALL NEWS' },
+    { key: 'all', label: '🏆 LLM LEADERBOARD' },
     { key: 'ai', label: 'AI' },
     { key: 'commerce', label: 'COMMERCE' },
     { key: 'tech', label: 'TECH' },
@@ -165,15 +165,15 @@ const HEADER_CATEGORIES = [
 ];
 
 const CATEGORY_COPY = {
-    all: { eyebrow: 'Latest coverage', heading: 'Image-first cards with concise summaries' },
-    commerce: { eyebrow: 'Commerce focus', heading: 'Retail, payments, and ecommerce intelligence' },
-    tech: { eyebrow: 'Tech focus', heading: 'Platform, infrastructure, and product shifts' },
-    ads: { eyebrow: 'Ads focus', heading: 'Campaign, adtech, and performance marketing trends' },
-    startup: { eyebrow: 'Startup focus', heading: 'AI-native startups shaping analytics and growth stacks' },
-    ai: { eyebrow: 'AI focus', heading: 'Models, tooling, and enterprise AI adoption' },
-    media: { eyebrow: 'Media focus', heading: 'Digital media distribution and audience growth' },
-    brands: { eyebrow: 'Brands focus', heading: 'Insights into how leading global and emerging brands connect with consumers through storytelling, innovation, and purpose-driven marketing.' },
-    saved: { eyebrow: 'Saved stories', heading: 'Your bookmarked trends and clustered summaries' },
+    all: { eyebrow: 'Frontier AI Intelligence', heading: 'LMSYS Chatbot Arena Leaderboard & Model Evaluations' },
+    commerce: { eyebrow: 'Commerce Focus', heading: 'Retail, payments, and ecommerce intelligence' },
+    tech: { eyebrow: 'Tech Focus', heading: 'Platform, infrastructure, and product shifts' },
+    ads: { eyebrow: 'Ads Focus', heading: 'Campaign, adtech, and performance marketing trends' },
+    startup: { eyebrow: 'Startup Focus', heading: 'AI-native startups shaping analytics and growth stacks' },
+    ai: { eyebrow: 'AI Focus', heading: 'Models, tooling, and enterprise AI adoption' },
+    media: { eyebrow: 'Media Focus', heading: 'Digital media distribution and audience growth' },
+    brands: { eyebrow: 'Brands Focus', heading: 'Insights into how leading global and emerging brands connect with consumers through storytelling, innovation, and purpose-driven marketing.' },
+    saved: { eyebrow: 'Saved Stories', heading: 'Your bookmarked trends and clustered summaries' },
 };
 
 const CATEGORY_FILTERS = {
@@ -570,19 +570,276 @@ function renderMobileReaderChrome() {
     }
 }
 
+const LLM_ARENA_LEADERBOARD_DATA = [
+    {
+        rank: 1,
+        model: "GPT-4o (2024-11-20)",
+        provider: "OpenAI",
+        elo: 1362,
+        codingElo: 1348,
+        hardElo: 1315,
+        context: "128k Tokens",
+        license: "Proprietary API",
+        badge: "Frontier Overall #1",
+        badgeColor: "#10b981",
+        link: "https://arena.ai/leaderboard"
+    },
+    {
+        rank: 2,
+        model: "Claude 3.5 Sonnet",
+        provider: "Anthropic",
+        elo: 1358,
+        codingElo: 1372,
+        hardElo: 1310,
+        context: "200k Tokens",
+        license: "Proprietary API",
+        badge: "Coding Elo Rank #1",
+        badgeColor: "#f59e0b",
+        link: "https://arena.ai/leaderboard"
+    },
+    {
+        rank: 3,
+        model: "o1 / o1-preview",
+        provider: "OpenAI",
+        elo: 1355,
+        codingElo: 1350,
+        hardElo: 1360,
+        context: "128k Tokens",
+        license: "Reasoning API",
+        badge: "Reasoning & Math #1",
+        badgeColor: "#8b5cf6",
+        link: "https://arena.ai/leaderboard"
+    },
+    {
+        rank: 4,
+        model: "Gemini 1.5 Pro (002)",
+        provider: "Google DeepMind",
+        elo: 1348,
+        codingElo: 1320,
+        hardElo: 1290,
+        context: "2,000,000 Tokens",
+        license: "Free Tier Available",
+        badge: "Record 2M Context",
+        badgeColor: "#0284c7",
+        link: "https://arena.ai/leaderboard"
+    },
+    {
+        rank: 5,
+        model: "Llama 3.1 405B Instruct",
+        provider: "Meta AI",
+        elo: 1288,
+        codingElo: 1280,
+        hardElo: 1245,
+        context: "128k Tokens",
+        license: "Open Weights",
+        badge: "Open Weights #1",
+        badgeColor: "#06b6d4",
+        link: "https://arena.ai/leaderboard"
+    },
+    {
+        rank: 6,
+        model: "Qwen 2.5 72B Instruct",
+        provider: "Alibaba Cloud",
+        elo: 1278,
+        codingElo: 1295,
+        hardElo: 1238,
+        context: "128k Tokens",
+        license: "Apache 2.0 Open",
+        badge: "Open Weights #2",
+        badgeColor: "#ec4899",
+        link: "https://arena.ai/leaderboard"
+    },
+    {
+        rank: 7,
+        model: "DeepSeek-V2.5 / Coder",
+        provider: "DeepSeek",
+        elo: 1274,
+        codingElo: 1310,
+        hardElo: 1230,
+        context: "128k Tokens",
+        license: "Open Weights MoE",
+        badge: "Open Coding Leader",
+        badgeColor: "#3b82f6",
+        link: "https://arena.ai/leaderboard"
+    },
+    {
+        rank: 8,
+        model: "Gemini 1.5 Flash (002)",
+        provider: "Google DeepMind",
+        elo: 1270,
+        codingElo: 1240,
+        hardElo: 1215,
+        context: "1,000,000 Tokens",
+        license: "High-Throughput Free Tier",
+        badge: "Sub-Second Latency",
+        badgeColor: "#14b8a6",
+        link: "https://arena.ai/leaderboard"
+    }
+];
+
+function getCategoryStoryCount(catKey) {
+    return (state.trends || []).filter(item => matchesCategory(item, catKey)).length;
+}
+
+function renderLlmLeaderboardHome() {
+    const tableRows = LLM_ARENA_LEADERBOARD_DATA.map(m => {
+        const rankMedal = m.rank === 1 ? '🥇' : m.rank === 2 ? '🥈' : m.rank === 3 ? '🥉' : `#${m.rank}`;
+        const eloPercent = Math.min(100, Math.max(20, Math.round(((m.elo - 1200) / (1400 - 1200)) * 100)));
+        return `
+        <div class="arena-table-row">
+            <div class="col-rank">
+                <span class="arena-rank-badge ${m.rank <= 3 ? 'top-rank' : ''}">${rankMedal}</span>
+            </div>
+            <div class="col-model">
+                <div class="model-title-wrap">
+                    <a href="${escapeAttr(m.link)}" target="_blank" rel="noopener" class="model-name">${escapeHtml(m.model)}</a>
+                    <span class="model-badge" style="color: ${m.badgeColor}; border-color: ${m.badgeColor}40; background: ${m.badgeColor}15;">${escapeHtml(m.badge)}</span>
+                </div>
+                <span class="model-provider">${escapeHtml(m.provider)}</span>
+            </div>
+            <div class="col-elo">
+                <span class="elo-val">${m.elo}</span>
+                <div class="elo-bar"><div class="elo-fill" style="width: ${eloPercent}%;"></div></div>
+            </div>
+            <div class="col-code"><span class="metric-chip">${m.codingElo}</span></div>
+            <div class="col-hard"><span class="metric-chip">${m.hardElo}</span></div>
+            <div class="col-ctx"><span class="metric-chip ctx-chip">${escapeHtml(m.context)}</span></div>
+            <div class="col-lic"><span class="license-tag">${escapeHtml(m.license)}</span></div>
+            <div class="col-act">
+                <a href="${escapeAttr(m.link)}" target="_blank" rel="noopener" class="arena-inspect-link">
+                    <span>Inspect</span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+        `;
+    }).join('');
+
+    const categoryCards = [
+        { key: 'ai', label: 'AI Intelligence', desc: 'Enterprise models, agents & research', icon: 'fa-solid fa-robot', color: '#38bdf8' },
+        { key: 'tech', label: 'Technology', desc: 'Cloud, infrastructure & computing', icon: 'fa-solid fa-laptop-code', color: '#818cf8' },
+        { key: 'commerce', label: 'Commerce', desc: 'Retail, payments & logistics', icon: 'fa-solid fa-cart-shopping', color: '#34d399' },
+        { key: 'ads', label: 'Advertising', desc: 'Adtech, media buying & marketing', icon: 'fa-solid fa-bullhorn', color: '#f59e0b' },
+        { key: 'startup', label: 'Startups', desc: 'Founders, rounds & early-stage AI', icon: 'fa-solid fa-rocket', color: '#ec4899' },
+        { key: 'media', label: 'Digital Media', desc: 'Publishing, streaming & audience', icon: 'fa-solid fa-photo-film', color: '#a78bfa' },
+        { key: 'brands', label: 'Brands', desc: 'Global campaigns & consumer positioning', icon: 'fa-solid fa-tag', color: '#f43f5e' },
+    ].map(c => {
+        const count = getCategoryStoryCount(c.key);
+        return `
+        <button class="home-cat-card" type="button" data-category-jump="${c.key}">
+            <div class="home-cat-icon" style="color: ${c.color}; background: ${c.color}15; border: 1px solid ${c.color}35;">
+                <i class="${c.icon}"></i>
+            </div>
+            <div class="home-cat-details">
+                <div class="home-cat-title-row">
+                    <h4>${escapeHtml(c.label)}</h4>
+                    <span class="home-cat-count">${count} articles</span>
+                </div>
+                <p>${escapeHtml(c.desc)}</p>
+            </div>
+            <span class="home-cat-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </button>
+        `;
+    }).join('');
+
+    return `
+    <div class="llm-leaderboard-home">
+        <div class="arena-top-banner">
+            <div class="arena-banner-left">
+                <span class="arena-pulse-badge"><span class="radar-pulse-dot"></span> LIVE LMSYS CHATBOT ARENA STANDINGS</span>
+                <h2 class="arena-banner-heading">Frontier LLM Leaderboard & Parameter Evaluations</h2>
+                <p class="arena-banner-sub">Dynamic benchmark rankings rating 150+ models via 2.3M+ pairwise human blind evaluations with style control and hard prompt filters.</p>
+            </div>
+            <div class="arena-banner-right">
+                <a href="https://arena.ai/leaderboard" target="_blank" rel="noopener" class="arena-live-ext-btn">
+                    <span>Open arena.ai Leaderboard</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="arena-stats-ribbon">
+            <div class="arena-stat-item">
+                <span class="stat-num">150+</span>
+                <span class="stat-lbl">Models Evaluated</span>
+            </div>
+            <div class="arena-stat-item">
+                <span class="stat-num">2.3M+</span>
+                <span class="stat-lbl">Pairwise Battles</span>
+            </div>
+            <div class="arena-stat-item">
+                <span class="stat-num">1,362</span>
+                <span class="stat-lbl">Overall Top Elo (GPT-4o)</span>
+            </div>
+            <div class="arena-stat-item">
+                <span class="stat-num">1,372</span>
+                <span class="stat-lbl">Coding Elo #1 (Claude 3.5)</span>
+            </div>
+            <div class="arena-stat-item">
+                <span class="stat-num">2,000,000</span>
+                <span class="stat-lbl">Context Record (Gemini 1.5)</span>
+            </div>
+            <div class="arena-stat-item">
+                <span class="stat-num">405B</span>
+                <span class="stat-lbl">Open Weights #1 (Llama 3.1)</span>
+            </div>
+        </div>
+
+        <div class="arena-table-card">
+            <div class="arena-table-header-row">
+                <span class="col-rank">Rank</span>
+                <span class="col-model">Model & Provider</span>
+                <span class="col-elo">Arena Elo</span>
+                <span class="col-code">Coding Elo</span>
+                <span class="col-hard">Hard Prompts</span>
+                <span class="col-ctx">Context</span>
+                <span class="col-lic">License</span>
+                <span class="col-act">Arena Link</span>
+            </div>
+            <div class="arena-table-body">
+                ${tableRows}
+            </div>
+        </div>
+
+        <div class="arena-category-explore">
+            <div class="explore-header">
+                <div>
+                    <span class="explore-eyebrow"><i class="fa-solid fa-newspaper"></i> News by Category</span>
+                    <h3>Explore Curated Industry News</h3>
+                    <p>Select any category tab above or click a category card below to view dedicated news coverage:</p>
+                </div>
+            </div>
+            <div class="explore-category-grid">
+                ${categoryCards}
+            </div>
+        </div>
+    </div>
+    `;
+}
+
 function renderNewsBoard() {
     const grid = document.getElementById('news-card-grid');
     if (!grid) return;
 
+    // 1. If on homepage ('all'), display the LLM Leaderboard without any news cards!
+    if (state.activeCategory === 'all') {
+        grid.classList.remove('is-compact', 'is-brief-mode');
+        grid.innerHTML = renderLlmLeaderboardHome();
+        renderSidebarTrending([]);
+        return;
+    }
+
+    // 2. If on a category tab, render the respective news cards for that category!
     const list = getEditorialTrends(state.activeCategory);
     const mobileReader = isMobileViewport();
-    const cards = state.activeCategory === 'all' && !mobileReader ? list.slice(4, 16) : list.slice(0, 12);
+    const cards = list;
+
     if (!cards.length) {
         if (state.activeCategory === 'saved') {
             grid.innerHTML = '<div class="empty-saved-state"><p>No saved stories yet.</p><span>Tap the bookmark icon on any news card to save it here.</span></div>';
         } else {
-            grid.innerHTML = '<p>No stories available for this category.</p>';
+            grid.innerHTML = `<div class="empty-saved-state"><p>No stories currently available for this category.</p><button type="button" class="btn-jump-home" data-category-jump="all">← Return to LLM Leaderboard</button></div>`;
         }
+        renderSidebarTrending([]);
         return;
     }
 
@@ -694,12 +951,51 @@ function renderSidebarTrending(list) {
     const trendingList = document.getElementById('sidebar-trending-list');
     if (!trendingList) return;
     
-    // Get top 5 trending stories based on score, excluding saved/search filters if possible
-    // Here we just use the top 5 of the current list to keep it contextual.
+    // On the homepage, display the Chatbot Arena live highlights in the sidebar!
+    if (state.activeCategory === 'all') {
+        trendingList.innerHTML = `
+            <li class="arena-sb-item">
+                <div class="arena-sb-rank">#1</div>
+                <div class="arena-sb-info">
+                    <a href="https://arena.ai/leaderboard" target="_blank" rel="noopener">GPT-4o (OpenAI)</a>
+                    <div class="arena-sb-sub">1,362 Arena Elo • 128k Context</div>
+                </div>
+            </li>
+            <li class="arena-sb-item">
+                <div class="arena-sb-rank">#2</div>
+                <div class="arena-sb-info">
+                    <a href="https://arena.ai/leaderboard" target="_blank" rel="noopener">Claude 3.5 Sonnet (Anthropic)</a>
+                    <div class="arena-sb-sub">1,358 Elo • Coding Elo #1 (1,372)</div>
+                </div>
+            </li>
+            <li class="arena-sb-item">
+                <div class="arena-sb-rank">#3</div>
+                <div class="arena-sb-info">
+                    <a href="https://arena.ai/leaderboard" target="_blank" rel="noopener">Gemini 1.5 Pro (DeepMind)</a>
+                    <div class="arena-sb-sub">1,348 Elo • Record 2M Context</div>
+                </div>
+            </li>
+            <li class="arena-sb-item">
+                <div class="arena-sb-rank">#4</div>
+                <div class="arena-sb-info">
+                    <a href="https://arena.ai/leaderboard" target="_blank" rel="noopener">Llama 3.1 405B (Meta)</a>
+                    <div class="arena-sb-sub">1,288 Elo • #1 Open Weights</div>
+                </div>
+            </li>
+            <li class="arena-sb-cta">
+                <a href="https://arena.ai/leaderboard" target="_blank" rel="noopener" class="arena-sb-btn">
+                    <span>Inspect Full Arena on arena.ai</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </li>
+        `;
+        return;
+    }
+
+    // On category tabs, display the top trending stories for that category!
     const top5 = list.slice(0, 5);
-    
     if (top5.length === 0) {
-        trendingList.innerHTML = '<li class="trending-list-item"><div class="trending-content">No trending stories right now.</div></li>';
+        trendingList.innerHTML = '<li class="trending-list-item"><div class="trending-content">No trending stories in this category right now.</div></li>';
         return;
     }
     
@@ -1363,6 +1659,7 @@ function buildWhyItMatters(item) {
 
 function syncActiveCategoryTheme() {
     document.body.dataset.activeCategory = state.activeCategory || 'all';
+    document.body.classList.toggle('is-category-view', state.activeCategory !== 'all');
 }
 
 function renderMetaStrip() {
