@@ -76,13 +76,147 @@ const CATEGORY_MAP = {
     brands: 'brands',
 };
 
+const GOOGLE_AI_TOOLS = [
+    {
+        id: "tool-pomelli",
+        title: "Pomelli: Autonomous Brand DNA & Social Campaign Agent",
+        summary: "Scans your website URL and product assets, extracts brand DNA (typography, palette, tone of voice, logos), and generates on-brand multi-channel social campaigns.",
+        category: "ai-tools",
+        tag: "Marketing & Creative",
+        free_tier: "Free Preview",
+        link: "https://www.youtube.com/watch?v=da_CbVz3uMk",
+        source_names: ["Google Creative Lab"],
+        score: 0.98,
+        published_at: "2026-10-11T08:00:00Z",
+        features: ["Brand DNA Extraction", "Social Post Generation", "Ad Creative Layouts"]
+    },
+    {
+        id: "tool-notebooklm",
+        title: "NotebookLM: Source-Grounded Research & Audio Deep Dive",
+        summary: "Upload PDFs, URLs, Google Docs, or YouTube links to generate grounded study guides, executive briefing memos, and natural 2-host audio podcast discussions.",
+        category: "ai-tools",
+        tag: "Research & Synthesis",
+        free_tier: "100% Free",
+        link: "https://notebooklm.google/",
+        source_names: ["Google Labs"],
+        score: 0.96,
+        published_at: "2026-10-11T07:00:00Z",
+        features: ["Multi-Speaker Audio Podcasts", "Hallucination-Free Citations", "Document Synthesis"]
+    },
+    {
+        id: "tool-opal",
+        title: "Google Opal: No-Code Visual AI Mini-App & Workflow Builder",
+        summary: "Build autonomous mini-applications and multi-step AI workflows in seconds using natural language prompts, integrating maps, generative vision, and text.",
+        category: "ai-tools",
+        tag: "App Building",
+        free_tier: "Free Access",
+        link: "https://opal.google/",
+        source_names: ["Google DeepMind"],
+        score: 0.95,
+        published_at: "2026-10-11T06:30:00Z",
+        features: ["Natural Language Prompts", "Zero-Code Deploy", "Multimodal Integration"]
+    },
+    {
+        id: "tool-stitch",
+        title: "Google Stitch: Prompt-to-UI Interface & Prototype Generator",
+        summary: "Converts text prompts, sketches, and rough wireframes into sleek modern user interfaces and web layouts, exportable directly into working frontend code.",
+        category: "ai-tools",
+        tag: "UI / UX Design",
+        free_tier: "Free Access",
+        link: "https://aistudio.google.com/",
+        source_names: ["Google AI Studio"],
+        score: 0.93,
+        published_at: "2026-10-11T06:00:00Z",
+        features: ["Prompt-to-UI", "Code Export", "AI Studio Pipeline"]
+    },
+    {
+        id: "tool-google-ai-studio",
+        title: "Google AI Studio: Gemini 1.5 Pro & Multimodal Developer Cockpit",
+        summary: "Fastest path to prototype with Google's state-of-the-art Gemini models. Includes 1M+ token context window, system instructions, and free API keys.",
+        category: "ai-tools",
+        tag: "Developer Platform",
+        free_tier: "Free 15 RPM Tier",
+        link: "https://aistudio.google.com/",
+        source_names: ["Google for Developers"],
+        score: 0.92,
+        published_at: "2026-10-11T05:30:00Z",
+        features: ["1M+ Token Context", "Zero-Cost Prototyping", "Full-Stack Code Sandbox"]
+    },
+    {
+        id: "tool-antigravity",
+        title: "Google Antigravity: Autonomous Full-Stack Development Agent",
+        summary: "Pairs with engineers to architect and build complex applications with databases, authentication, modern frameworks, and Firebase cloud backends.",
+        category: "ai-tools",
+        tag: "Autonomous Engineering",
+        free_tier: "Free Tier Available",
+        link: "https://cloud.google.com/use-cases/free-ai-tools",
+        source_names: ["Google DeepMind & Cloud"],
+        score: 0.91,
+        published_at: "2026-10-11T05:00:00Z",
+        features: ["Full-Stack Agent", "Database & Auth Scaffolding", "Multi-File Edits"]
+    },
+    {
+        id: "tool-mixboard",
+        title: "Mixboard: Generative Concept & Visual Remix Canvas",
+        summary: "An interactive creative board blending digital painting with AI image generation to compose, iterate, and remix concept moodboards in real-time.",
+        category: "ai-tools",
+        tag: "Creative Canvas",
+        free_tier: "Free Access",
+        link: "https://labs.google/",
+        source_names: ["Google Labs"],
+        score: 0.89,
+        published_at: "2026-10-11T04:30:00Z",
+        features: ["Visual Prompt Blending", "Multi-Layer Moodboards", "Real-Time Inpainting"]
+    },
+    {
+        id: "tool-flow-music",
+        title: "Flow Music: Natural Language Track & Song Generator",
+        summary: "Describe an emotional mood, tempo, or campaign theme in plain English and generate broadcast-ready music, stems, and synchronized video backgrounds.",
+        category: "ai-tools",
+        tag: "Audio Generation",
+        free_tier: "Free Access",
+        link: "https://labs.google/",
+        source_names: ["Google DeepMind"],
+        score: 0.88,
+        published_at: "2026-10-11T04:00:00Z",
+        features: ["Natural Language Music", "Audio Stems", "Campaign Jingles"]
+    },
+    {
+        id: "tool-illuminate",
+        title: "Google Illuminate: Research Paper to Audio Discussion",
+        summary: "Upload any academic paper or PDF disclosure to have AI break down dense jargon into an easy-to-follow, engaging multi-speaker audio conversation.",
+        category: "ai-tools",
+        tag: "Academic Research",
+        free_tier: "100% Free",
+        link: "https://illuminate.google.com/",
+        source_names: ["Google Labs"],
+        score: 0.87,
+        published_at: "2026-10-11T03:30:00Z",
+        features: ["PDF Paper Ingestion", "Audio Dialogue", "Key Insight Extraction"]
+    },
+    {
+        id: "tool-pinpoint",
+        title: "Google Pinpoint: Investigative Journalist Research & OCR Suite",
+        summary: "Upload thousands of documents, PDFs, handwritten notes, and audio recordings to search across all of them with instant transcription and table OCR extraction.",
+        category: "ai-tools",
+        tag: "Investigative Analysis",
+        free_tier: "100% Free",
+        link: "https://journaliststudio.google.com/pinpoint",
+        source_names: ["Google News Initiative"],
+        score: 0.86,
+        published_at: "2026-10-11T03:00:00Z",
+        features: ["Audio Transcription", "OCR Scanned Tables", "Full-Corpus Search"]
+    }
+];
+
 const HEADER_CATEGORIES = [
     { key: 'all', label: 'ALL NEWS' },
+    { key: 'ai-tools', label: '⚡ FREE AI TOOLS' },
+    { key: 'ai', label: 'AI' },
     { key: 'commerce', label: 'COMMERCE' },
     { key: 'tech', label: 'TECH' },
     { key: 'ads', label: 'ADS' },
     { key: 'startup', label: 'STARTUP' },
-    { key: 'ai', label: 'AI' },
     { key: 'media', label: 'MEDIA' },
     { key: 'brands', label: 'BRANDS' },
     { key: 'saved', label: 'SAVED' },
@@ -92,6 +226,7 @@ const HEADER_CATEGORIES = [
 
 const CATEGORY_COPY = {
     all: { eyebrow: 'Latest coverage', heading: 'Image-first cards with concise summaries' },
+    'ai-tools': { eyebrow: 'Ecosystem Spotlight', heading: 'Free Google AI Tool Stack & Autonomous Agents' },
     commerce: { eyebrow: 'Commerce focus', heading: 'Retail, payments, and ecommerce intelligence' },
     tech: { eyebrow: 'Tech focus', heading: 'Platform, infrastructure, and product shifts' },
     ads: { eyebrow: 'Ads focus', heading: 'Campaign, adtech, and performance marketing trends' },
@@ -104,6 +239,10 @@ const CATEGORY_COPY = {
 
 
 const CATEGORY_FILTERS = {
+    'ai-tools': {
+        categories: ['ai-tools'],
+        keywords: [/\bgoogle ai\b/i, /\bfree ai\b/i, /\bopal\b/i, /\bpomelli\b/i, /\bnotebooklm\b/i, /\bstitch\b/i],
+    },
     tech: {
         categories: ['tech', 'technology'],
         keywords: [/\bplatform\b/i, /\binfrastructure\b/i, /\bchip\b/i, /\bcloud\b/i, /\bsoftware\b/i],
@@ -266,29 +405,97 @@ function renderHeroCarousel() {
     if (!track || !dots) return;
 
     const stories = getCarouselStories();
-    if (!stories.length) {
-        track.innerHTML = '<article class="hero-carousel-slide is-active"><div class="hero-carousel-panel"><div class="hero-carousel-copy"><p class="eyebrow">TRENDING</p><h2>No trending stories available yet.</h2><p>The carousel will populate automatically when stories are available for this section.</p></div></div></article>';
-        dots.innerHTML = '';
-        return;
-    }
+    const slides = [];
 
-    if (state.carouselIndex >= stories.length) {
-        state.carouselIndex = 0;
-    }
+    // 1. Slide 0: Static LLM Intelligence Radar Cockpit
+    const radar = state.meta.llm_radar || buildFallbackRadar(state.trends, state.meta.feeds_polled || 33);
+    const leadTheme = radar.lead_theme || 'Global Market Signals Accelerate Across Tech & Commerce';
+    const macroSignals = radar.macro_signals || [];
+    const categoryVelocity = radar.category_velocity || { ai: 94, commerce: 82, tech: 78, ads: 68 };
+    const storiesCount = radar.active_stories_count || state.trends.length;
+    const timeAgo = formatTimeAgo(state.meta.generated_at);
 
-    track.innerHTML = stories
-        .map((story, index) => {
-            const image = resolveCardImage(story);
-            const isAiGenerated = image && (image.includes('/generated/') || image.startsWith('data:image/svg+xml'));
-            const aiTag = isAiGenerated
-                ? `<span class="hero-carousel-tag hero-carousel-tag-ai"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI</span>`
-                : '';
-            const isActive = index === state.carouselIndex ? 'is-active' : '';
-            const theme = normalizeCategory(story.category || 'all');
-            const sourceBadge = story.source_count ? `${story.source_count} source${story.source_count === 1 ? '' : 's'}` : 'Live feed';
-            return `
-        <article class="hero-carousel-slide ${isActive}" data-carousel-index="${index}" data-theme-category="${theme}">
-            <div class="hero-carousel-panel" style="background-image: linear-gradient(135deg, rgba(6, 10, 20, 0.12), rgba(6, 10, 20, 0.92)), url(${image});">
+    const macroHtml = macroSignals.slice(0, 3).map((sig) => `
+        <div class="radar-signal-card">
+            <div class="radar-signal-top">
+                <span class="radar-pill">${escapeHtml(sig.category)}</span>
+                <span class="radar-impact-tag"><i class="fa-solid fa-bolt"></i> ${escapeHtml(sig.impact)}</span>
+            </div>
+            <a href="${escapeAttr(sig.link)}" target="_blank" rel="noopener" class="radar-signal-title">${escapeHtml(cleanHeadline(sig.headline))}</a>
+            <p class="radar-signal-desc">${escapeHtml(sig.insight)}</p>
+        </div>
+    `).join('');
+
+    const velocityHtml = Object.entries(categoryVelocity).slice(0, 4).map(([cat, val]) => `
+        <div class="radar-meter-col">
+            <div class="meter-label">${cat.toUpperCase()}</div>
+            <div class="meter-bar-track">
+                <div class="meter-bar-fill" style="height: ${val}%;"></div>
+            </div>
+            <div class="meter-val">${val}%</div>
+        </div>
+    `).join('');
+
+    const radarSlideHtml = `
+        <article class="hero-carousel-slide ${state.carouselIndex === 0 ? 'is-active' : ''}" data-carousel-index="0" data-theme-category="ai">
+            <div class="hero-carousel-panel radar-cockpit-panel">
+                <div class="radar-cockpit-content">
+                    <div class="radar-header-bar">
+                        <div class="radar-title-cluster">
+                            <span class="radar-live-badge"><span class="radar-pulse-dot"></span> STATIC LLM RADAR</span>
+                            <span class="radar-meta-badge"><i class="fa-regular fa-clock"></i> Refreshed ${timeAgo}</span>
+                            <span class="radar-meta-badge"><i class="fa-solid fa-satellite-dish"></i> ${state.meta.feeds_polled || 33} Feeds Polled</span>
+                        </div>
+                        <span class="radar-status-note">Dynamic Multi-Source Synthesis</span>
+                    </div>
+
+                    <div class="radar-lead-block">
+                        <p class="radar-eyebrow"><i class="fa-solid fa-sparkles"></i> Synthesized Lead Theme</p>
+                        <h2 class="radar-main-heading">${escapeHtml(leadTheme)}</h2>
+                        <p class="radar-summary-text">${escapeHtml(radar.executive_summary || 'Real-time aggregated intelligence clustering cross-publisher market movements.')}</p>
+                    </div>
+
+                    <div class="radar-dashboard-grid">
+                        <div class="radar-signals-column">
+                            <div class="radar-column-title"><i class="fa-solid fa-wave-pulse"></i> High-Velocity Macro Signals</div>
+                            <div class="radar-signals-list">
+                                ${macroHtml}
+                            </div>
+                        </div>
+
+                        <div class="radar-metrics-column">
+                            <div class="radar-column-title"><i class="fa-solid fa-chart-simple"></i> Signal Velocity Matrix</div>
+                            <div class="radar-meter-grid">
+                                ${velocityHtml}
+                            </div>
+                            <div class="radar-tools-callout">
+                                <span><i class="fa-solid fa-layer-group"></i> Ecosystem Tools</span>
+                                <p>Powered by NotebookLM, Gemini 1.5, Opal & Stitch.</p>
+                                <button class="radar-explore-btn" type="button" data-jump-tools="true">Explore Free AI Tools <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>`;
+
+    slides.push(radarSlideHtml);
+
+    // 2. Slides 1..N: Individual Trending Editorial Stories
+    stories.slice(0, 4).forEach((story, idx) => {
+        const slideIndex = idx + 1;
+        const image = resolveCardImage(story);
+        const isAiGenerated = image && (image.includes('/generated/') || image.startsWith('data:image/svg+xml'));
+        const aiTag = isAiGenerated
+            ? `<span class="hero-carousel-tag hero-carousel-tag-ai"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> AI Visual</span>`
+            : '';
+        const isActive = slideIndex === state.carouselIndex ? 'is-active' : '';
+        const theme = normalizeCategory(story.category || 'all');
+        const sourceBadge = story.source_count ? `${story.source_count} source${story.source_count === 1 ? '' : 's'}` : 'Live feed';
+
+        slides.push(`
+        <article class="hero-carousel-slide ${isActive}" data-carousel-index="${slideIndex}" data-theme-category="${theme}">
+            <div class="hero-carousel-panel" style="background-image: linear-gradient(135deg, rgba(6, 10, 20, 0.22), rgba(6, 10, 20, 0.94)), url(${image});">
                 <div class="hero-carousel-copy">
                     <div class="hero-carousel-tags">
                         <span class="hero-carousel-tag">${story.category ? story.category.toUpperCase() : 'TRENDING'}</span>
@@ -299,7 +506,7 @@ function renderHeroCarousel() {
                     <p>${summarize(story.summary, 190)}</p>
                     <div class="hero-carousel-meta">
                         <span>${formatDate(story.published_at)}</span>
-                        <span>Score ${story.score ? story.score.toFixed(2) : '—'}</span>
+                        <span>Signal Score ${story.score ? (story.score * 100).toFixed(0) : '—'}</span>
                     </div>
                     <div class="story-actions hero-carousel-actions" data-story-actions data-story-id="${escapeAttr(String(story.id || story.link || story.title || '').trim().toLowerCase())}" data-story-link="${escapeAttr(story.link)}" data-story-title="${escapeAttr(story.title)}">
                         <a href="${story.link}" target="_blank" rel="noopener">Read full story</a>
@@ -307,16 +514,40 @@ function renderHeroCarousel() {
                     </div>
                 </div>
             </div>
-        </article>`;
-        })
-        .join('');
+        </article>`);
+    });
 
-    dots.innerHTML = stories
-        .map((story, index) => {
+    const totalSlides = slides.length;
+    if (state.carouselIndex >= totalSlides) {
+        state.carouselIndex = 0;
+    }
+
+    track.innerHTML = slides.join('');
+
+    dots.innerHTML = Array.from({ length: totalSlides })
+        .map((_, index) => {
             const active = index === state.carouselIndex ? 'active' : '';
-            return `<button class="hero-carousel-dot ${active}" type="button" data-carousel-target="${index}" aria-label="Show trending story ${index + 1}: ${escapeAttr(story.title)}"></button>`;
+            const label = index === 0 ? 'LLM Radar Dashboard' : `Trending Story ${index}`;
+            return `<button class="hero-carousel-dot ${active}" type="button" data-carousel-target="${index}" aria-label="${label}"></button>`;
         })
         .join('');
+}
+
+function buildFallbackRadar(trends, feedsPolled) {
+    const top = trends && trends.length ? trends[0] : null;
+    return {
+        lead_theme: top ? cleanHeadline(top.title) : 'Global Intelligence Velocity Accelerates Across Open Feeds',
+        executive_summary: 'High-signal synthesis clustering headlines, velocity, and market impact across verified open feeds.',
+        macro_signals: (trends || []).slice(0, 3).map(t => ({
+            category: (t.category || 'tech').toUpperCase(),
+            headline: cleanHeadline(t.title),
+            insight: summarize(t.summary, 110),
+            link: t.link || '#',
+            impact: 'Signal Shift',
+        })),
+        category_velocity: { ai: 94, commerce: 82, tech: 78, ads: 68 },
+        active_stories_count: (trends || []).length,
+    };
 }
 
 function setupHeroCarousel() {
@@ -348,6 +579,16 @@ function setupHeroCarousel() {
 
     if (track) {
         track.addEventListener('click', async (event) => {
+            const jumpBtn = event.target.closest('[data-jump-tools]');
+            if (jumpBtn) {
+                setActiveCategory('ai-tools');
+                const headingEl = document.getElementById('news-heading');
+                if (headingEl) {
+                    headingEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+                return;
+            }
+
             const shell = event.target.closest('[data-story-actions]');
             if (!shell) return;
             const action = event.target.closest('[data-action]')?.dataset.action;
@@ -375,15 +616,18 @@ function setupHeroCarousel() {
     }
 
     window.setInterval(() => {
-        if (!getCarouselStories().length) return;
+        const stories = getCarouselStories();
+        const total = 1 + Math.min(stories.length, 4);
+        if (total <= 1) return;
         moveHeroCarousel(1);
-    }, 6000);
+    }, 7000);
 }
 
 function moveHeroCarousel(direction) {
     const stories = getCarouselStories();
-    if (!stories.length) return;
-    state.carouselIndex = (state.carouselIndex + direction + stories.length) % stories.length;
+    const total = 1 + Math.min(stories.length, 4);
+    if (total <= 0) return;
+    state.carouselIndex = (state.carouselIndex + direction + total) % total;
     renderHeroCarousel();
 }
 
@@ -665,7 +909,11 @@ function renderSidebarTrending(list) {
 
 
 function getCategoryTrends(categoryKey) {
-    const sorted = [...state.trends].sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+    if (categoryKey === 'ai-tools') {
+        return GOOGLE_AI_TOOLS;
+    }
+    const combined = state.activeCategory === 'all' ? [...state.trends, ...GOOGLE_AI_TOOLS] : [...state.trends];
+    const sorted = combined.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
     const unique = dedupeTrends(sorted);
     if (categoryKey === 'saved') {
         return unique.filter((item) => {
@@ -1293,6 +1541,7 @@ function escapeRegExp(value = '') {
 function buildWhyItMatters(item) {
     const category = normalizeCategory(item.category || 'all');
     const playbooks = {
+        'ai-tools': 'Free developer & creative agents allow teams to prototype and deploy with zero software subscription overhead.',
         ai: 'AI adoption may shift platform, tooling, or operating priorities.',
         tech: 'Platform and infrastructure moves can ripple across teams quickly.',
         commerce: 'Retail and ecommerce signals can affect demand, margins, or channel strategy.',

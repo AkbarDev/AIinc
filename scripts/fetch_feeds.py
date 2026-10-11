@@ -1341,6 +1341,9 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
     ordered_continents = ["NA", "SA", "EU", "AF", "AS", "OC", "global"]
     normalized_counts = {key: continent_counts.get(key, 0) for key in ordered_continents}
     top_continent = max(normalized_counts, key=normalized_counts.get) if normalized_counts else "global"
+    
+    llm_radar = build_llm_radar(payload, feeds_polled)
+
     return {
         "generated_at": now_utc.isoformat(),
         "sources_scanned": len(entries),
@@ -1349,7 +1352,81 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
         "continent_counts": normalized_counts,
         "top_continent": top_continent,
         "clusters": len(payload),
+        "llm_radar": llm_radar,
         "trends": payload,
+    }
+
+
+def build_llm_radar(trends: List[Dict[str, object]], feeds_polled: int) -> Dict[str, object]:
+    """Compile a high-signal static LLM intelligence radar summarizing macro news themes across categories."""
+    if not trends:
+        return {
+            "lead_theme": "Global Market Signals Normalizing Across Open Feeds",
+            "executive_summary": "Continuous real-time aggregation across open RSS endpoints tracking technology, commerce, AI, and advertising.",
+            "macro_signals": [],
+            "category_velocity": {},
+            "active_stories_count": 0,
+        }
+
+    # Count category distributions and average scores
+    cat_counts = defaultdict(int)
+    cat_scores = defaultdict(float)
+    for t in trends:
+        cat = str(t.get("category", "tech")).lower()
+        score = float(t.get("score", 0.0))
+        cat_counts[cat] += 1
+        cat_scores[cat] += score
+
+    # Compute velocity score out of 100
+    category_velocity = {}
+    for cat, count in cat_counts.items():
+        avg_score = (cat_scores[cat] / count) if count else 0
+        velocity = min(99, max(25, int(count * 8 + avg_score * 40)))
+        category_velocity[cat] = velocity
+
+    top_story = trends[0] if trends else {}
+    second_story = trends[1] if len(trends) > 1 else {}
+    third_story = trends[2] if len(trends) > 2 else {}
+
+    lead_theme = top_story.get("title", "Global Market Signals Accelerate Across Tech & Commerce")
+    if " - " in lead_theme:
+        lead_theme = lead_theme.rsplit(" - ", 1)[0].strip()
+
+    macro_signals = []
+    if top_story:
+        macro_signals.append({
+            "category": top_story.get("category", "tech").upper(),
+            "headline": top_story.get("title", ""),
+            "insight": top_story.get("summary", "")[:140] + ("..." if len(top_story.get("summary", "")) > 140 else ""),
+            "score": round(float(top_story.get("score", 0.85)) * 100, 1),
+            "link": top_story.get("link", "#"),
+            "impact": "High Velocity",
+        })
+    if second_story:
+        macro_signals.append({
+            "category": second_story.get("category", "commerce").upper(),
+            "headline": second_story.get("title", ""),
+            "insight": second_story.get("summary", "")[:140] + ("..." if len(second_story.get("summary", "")) > 140 else ""),
+            "score": round(float(second_story.get("score", 0.75)) * 100, 1),
+            "link": second_story.get("link", "#"),
+            "impact": "Market Shift",
+        })
+    if third_story:
+        macro_signals.append({
+            "category": third_story.get("category", "ai").upper(),
+            "headline": third_story.get("title", ""),
+            "insight": third_story.get("summary", "")[:140] + ("..." if len(third_story.get("summary", "")) > 140 else ""),
+            "score": round(float(third_story.get("score", 0.65)) * 100, 1),
+            "link": third_story.get("link", "#"),
+            "impact": "Adoption Alert",
+        })
+
+    return {
+        "lead_theme": lead_theme,
+        "executive_summary": f"Synthesized signal intelligence across {feeds_polled} open publisher feeds. Detected high momentum in {', '.join(sorted(cat_counts.keys())[:3])}.",
+        "macro_signals": macro_signals,
+        "category_velocity": category_velocity,
+        "active_stories_count": len(trends),
     }
 
 

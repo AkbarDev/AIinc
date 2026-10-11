@@ -402,6 +402,331 @@ img {
     margin-top: 1.15rem;
 }
 
+/* Static LLM Intelligence Radar Cockpit */
+.radar-cockpit-panel {
+    background: radial-gradient(circle at 80% 20%, #1e293b, #090d16 60%) !important;
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.radar-cockpit-content {
+    position: relative;
+    z-index: 2;
+    padding: 1.8rem 2.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.radar-header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 0.9rem;
+}
+
+.radar-title-cluster {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    flex-wrap: wrap;
+}
+
+.radar-live-badge {
+    background: rgba(14, 165, 233, 0.18);
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    padding: 3px 10px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    text-transform: uppercase;
+}
+
+.radar-pulse-dot {
+    width: 7px;
+    height: 7px;
+    background: #38bdf8;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #38bdf8;
+    animation: radarPulse 1.8s infinite ease-in-out;
+}
+
+@keyframes radarPulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+}
+
+.radar-meta-badge {
+    background: rgba(255, 255, 255, 0.06);
+    color: #94a3b8;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.radar-status-note {
+    font-size: 0.75rem;
+    color: #cbd5e1;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.radar-lead-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.radar-eyebrow {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #f59e0b;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radar-main-heading {
+    margin: 0;
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: clamp(1.4rem, 2.4vw, 1.95rem);
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.25;
+}
+
+.radar-summary-text {
+    margin: 0;
+    font-size: 0.92rem;
+    color: #94a3b8;
+    line-height: 1.45;
+    max-width: 85ch;
+}
+
+.radar-dashboard-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    margin-top: 0.2rem;
+}
+
+.radar-signals-column,
+.radar-metrics-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+.radar-column-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #cbd5e1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radar-signals-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+}
+
+.radar-signal-card {
+    background: rgba(15, 23, 42, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    transition: transform 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.radar-signal-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(56, 189, 248, 0.4);
+    background: rgba(15, 23, 42, 0.85);
+}
+
+.radar-signal-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.radar-pill {
+    background: rgba(56, 189, 248, 0.15);
+    color: #38bdf8;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 1px 6px;
+    border-radius: 4px;
+}
+
+.radar-impact-tag {
+    font-size: 0.62rem;
+    color: #f59e0b;
+    font-weight: 600;
+}
+
+.radar-signal-title {
+    color: #f8fafc;
+    font-size: 0.82rem;
+    font-weight: 600;
+    line-height: 1.3;
+    text-decoration: none;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: color 0.18s;
+}
+
+.radar-signal-title:hover {
+    color: #38bdf8;
+}
+
+.radar-signal-desc {
+    color: #94a3b8;
+    font-size: 0.72rem;
+    line-height: 1.35;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Radar Metrics Matrix */
+.radar-meter-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 0.75rem 0.5rem;
+}
+
+.radar-meter-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.meter-label {
+    font-size: 0.62rem;
+    font-weight: 700;
+    color: #94a3b8;
+    letter-spacing: 0.04em;
+}
+
+.meter-bar-track {
+    width: 14px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 999px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.meter-bar-fill {
+    width: 100%;
+    background: linear-gradient(180deg, #38bdf8, #0284c7);
+    border-radius: 999px;
+    transition: height 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.meter-val {
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: #f8fafc;
+}
+
+.radar-tools-callout {
+    background: rgba(56, 189, 248, 0.08);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-radius: 10px;
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.radar-tools-callout span {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #38bdf8;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radar-tools-callout p {
+    font-size: 0.74rem;
+    color: #94a3b8;
+    margin: 0;
+    line-height: 1.35;
+}
+
+.radar-explore-btn {
+    align-self: flex-start;
+    margin-top: 0.2rem;
+    background: #0284c7;
+    border: none;
+    color: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 999px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: background 0.18s, transform 0.18s;
+}
+
+.radar-explore-btn:hover {
+    background: #0369a1;
+    transform: translateX(2px);
+}
+
+@media (max-width: 900px) {
+    .radar-dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    .radar-signals-list {
+        grid-template-columns: 1fr;
+    }
+    .radar-cockpit-content {
+        padding: 1.2rem;
+    }
+}
+
 @keyframes carouselFade {
     from {
         opacity: 0;

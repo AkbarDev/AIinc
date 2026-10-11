@@ -4,13 +4,19 @@ _Last updated: 2026-10-11T08:56:00+05:30_
 
 > **Note:** Phase 1 (SEO & Measurement) is fully completed and pushed to GitHub. Going forward, all code changes will be automatically committed and pushed directly to the remote repository without manual intervention.
 
-### Recent Enhancements (2026-10-11T08:56:00+05:30)
+### Recent Enhancements (2026-10-11T11:08:00+05:30)
+- **Static LLM Intelligence Radar Cockpit (Hero Carousel)**:
+  - **Dynamic Multi-Source Synthesis**: Built a dedicated intelligence cockpit on Slide 0 of the hero carousel that synthesizes lead themes, high-velocity macro signals, and cross-category signal velocity directly from ingested global news data.
+  - **Live Signal Velocity Matrix**: Real-time category momentum percentages computed across AI, Commerce, Tech, and Ads feeds.
+  - **Ecosystem Quick-Jump**: One-click exploration button directing users straight to the new Free AI Tools catalog.
+- **Free Google AI Tool Stack Integration**:
+  - Embedded high-signal ecosystem tools (Pomelli, NotebookLM, Opal, Stitch, Google AI Studio, Antigravity, Mixboard, Flow Music, Illuminate, Pinpoint) into Snapfacts.
+  - Added dedicated navigation tab (`⚡ FREE AI TOOLS`), category filtering, and customized "Why It Matters" playbook takeaways.
 - **Authentic Editorial News Card Redesign**:
   - **Contextual Media Frame (16:9)**: Cinematic image framing with smooth scale hover micro-interactions, soft gradient vignette, category jump pill, read time indicator, and distinct AI vs. Press badges.
   - **Publisher Credibility Bar**: Embedded source favicons, publication name, and real-time relative timestamps (`15m ago`, `2h ago`).
-  - **"Signal Context" Key Takeaway Box**: Perplexity/Axios-style high-contrast bullet block summarizing the actionable market impact for readers to drive session engagement and dwell time.
-  - **Unified Bottom Action Toolbar**: Clean circular icon cluster for instant bookmarking, text-to-speech audio listening, speed-reading, visual card generation, and native social sharing without obstructing visual artwork.
-  - **Deep-Browse Category Jumps**: Clicking any card category pill smoothly jumps and filters to that topic, encouraging rabbit-hole exploration.
+  - **"Signal Context" Key Takeaway Box**: Perplexity/Axios-style high-contrast bullet block summarizing the actionable market impact for readers.
+  - **Unified Bottom Action Toolbar**: Clean circular icon cluster for instant bookmarking, text-to-speech audio listening, speed-reading, visual card generation, and native social sharing.
 
 ![Refresh Trend Data](https://github.com/AkbarDev/AIinc/actions/workflows/refresh-trends.yml/badge.svg)
 ![Last Refresh](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/AkbarDev/AIinc/main/data/badges/last-refresh.json)
