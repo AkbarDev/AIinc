@@ -1,38 +1,30 @@
 {
-  "generated_at": "2026-10-18T19:06:45.601526+00:00",
-  "sources_scanned": 3795,
-  "feeds_polled": 83,
+  "generated_at": "2026-10-18T22:04:49.567781+00:00",
+  "sources_scanned": 3886,
+  "feeds_polled": 82,
   "feed_pool": 100,
   "continent_counts": {
-    "NA": 2550,
+    "NA": 2651,
     "SA": 0,
-    "EU": 1184,
+    "EU": 1174,
     "AF": 0,
     "AS": 61,
     "OC": 0,
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 143,
+  "clusters": 145,
   "llm_radar": {
-    "lead_theme": "Woodstock Film Festival Names Jessica Edwards Executive Director, Announces 2026 Maverick Award Winners \u2014 Full List",
-    "executive_summary": "Synthesized signal intelligence across 83 open publisher feeds. Detected high momentum in advertising, ai, brands.",
+    "lead_theme": "The AI productivity paradox: Why AI is everywhere except in the productivity numbers",
+    "executive_summary": "Synthesized signal intelligence across 82 open publisher feeds. Detected high momentum in advertising, ai, brands.",
     "macro_signals": [
-      {
-        "category": "MEDIA",
-        "headline": "Woodstock Film Festival Names Jessica Edwards Executive Director, Announces 2026 Maverick Award Winners \u2014 Full List",
-        "insight": "The 27th Woodstock Film Festival has concluded with the announcement of its Maverick Award winners and a new executive director.",
-        "score": 58.5,
-        "link": "https://deadline.com/2026/10/woodstock-film-festival-jessica-edwards-executive-director-1237167150/",
-        "impact": "High Velocity"
-      },
       {
         "category": "BRANDS",
         "headline": "The AI productivity paradox: Why AI is everywhere except in the productivity numbers",
         "insight": "In December 2024, just as the AI hype was ramping up, my colleagues Nicole Radziwill , Todd McClees , and I warned in the Harvard Business R...",
         "score": 57.6,
         "link": "https://www.fastcompany.com/91623123/ai-productivity-paradox",
-        "impact": "Market Shift"
+        "impact": "High Velocity"
       },
       {
         "category": "BRANDS",
@@ -40,51 +32,29 @@
         "insight": "Imagine an artificial intelligence system that has performed reliably for months.",
         "score": 57.6,
         "link": "https://www.fastcompany.com/91625215/cleaning-up-ai-mess",
+        "impact": "Market Shift"
+      },
+      {
+        "category": "BRANDS",
+        "headline": "Why companies may be liable for AI errors",
+        "insight": "Artificial intelligence has moved quickly from a novelty on the job to a common workplace tool.",
+        "score": 57.6,
+        "link": "https://www.fastcompany.com/91623691/companies-liable-ai-errors",
         "impact": "Adoption Alert"
       }
     ],
     "category_velocity": {
-      "media": 99,
       "brands": 99,
+      "media": 99,
       "technology": 99,
       "startup": 99,
-      "ai": 77,
-      "advertising": 36,
-      "digital-media": 25
+      "ai": 76,
+      "digital-media": 25,
+      "advertising": 35
     },
-    "active_stories_count": 143
+    "active_stories_count": 145
   },
   "trends": [
-    {
-      "id": "woodstock film festival names jessica edwards executive director announces 2026 maverick award winners full list",
-      "title": "Woodstock Film Festival Names Jessica Edwards Executive Director, Announces 2026 Maverick Award Winners \u2014 Full List",
-      "summary": "The 27th Woodstock Film Festival has concluded with the announcement of its Maverick Award winners and a new executive director.",
-      "image": "https://deadline.com/wp-content/uploads/2026/10/Woodstock-Film-Fest-Jessica-Edwards.jpg",
-      "link": "https://deadline.com/2026/10/woodstock-film-festival-jessica-edwards-executive-director-1237167150/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T18:50:12+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Deadline"
-      ],
-      "keywords": [
-        "award",
-        "festival",
-        "film"
-      ],
-      "score": 0.5848,
-      "signals": {
-        "score": 0.5848,
-        "recency": 0.955041894718771,
-        "keyword_volume": 0.6,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
     {
       "id": "the ai productivity paradox why ai is everywhere except in the productivity numbers",
       "title": "The AI productivity paradox: Why AI is everywhere except in the productivity numbers",
@@ -93,7 +63,7 @@
       "link": "https://www.fastcompany.com/91623123/ai-productivity-paradox",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.775463+00:00",
+      "published_at": "2026-10-18T22:04:43.589565+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -122,7 +92,7 @@
       "link": "https://www.fastcompany.com/91625215/cleaning-up-ai-mess",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.777004+00:00",
+      "published_at": "2026-10-18T22:04:43.591114+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -151,7 +121,7 @@
       "link": "https://www.fastcompany.com/91623691/companies-liable-ai-errors",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.779858+00:00",
+      "published_at": "2026-10-18T22:04:43.594036+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -173,30 +143,59 @@
       "image_failure_reason": ""
     },
     {
-      "id": "disney agrees to hire the majority of characterais workforce",
-      "title": "Disney agrees to hire the majority of Character.AI\u2019s workforce",
-      "summary": "The filing also says that the \u201cvast majority\u201d of Character.AI employees who were offered jobs at Disney accepted them.",
-      "image": "https://techcrunch.com/wp-content/uploads/2024/01/character-ai-alexa.jpg?resize=1200,675",
-      "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "id": "julianne moore says the debut is one of the best scripts ive ever read as jesse eisenbergs musical comedy closes london film festival on a high note",
+      "title": "Julianne Moore Says \u2018The Debut\u2019 Is \u2018One of the Best Scripts I\u2019ve Ever Read\u2019 as Jesse Eisenberg\u2019s Musical Comedy Closes London Film Festival on a High Note",
+      "summary": "&#8220;The Debut&#8221; ended London Film Festival on a high note Sunday night as director Jesse Eisenberg and star Julianne Moore gushed over each other to a packed audience",
+      "image": "https://variety.com/wp-content/uploads/2026/10/the-debut-1000.jpg",
+      "link": "https://variety.com/2026/film/festivals/julianne-moore-jesse-eisenberg-the-debut-london-premiere-1236915637/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T20:40:12+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "festival",
+        "film",
+        "music"
+      ],
+      "score": 0.5436,
+      "signals": {
+        "score": 0.5436,
+        "recency": 0.7905134701390402,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "anthropic says its committing 5 of its shares to a public benefit fund",
+      "title": "Anthropic says it\u2019s committing 5% of its shares to a \u2018public benefit fund\u2019",
+      "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024",
+      "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
       "category": "technology",
       "geo": "global",
-      "published_at": "2026-10-18T16:30:00+00:00",
-      "source_count": 3,
+      "published_at": "2026-10-18T20:37:40+00:00",
+      "source_count": 2,
       "source_names": [
         "TechCrunch",
-        "TechCrunch AI",
-        "TechCrunch Startups"
+        "TechCrunch AI"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.5682,
+      "score": 0.5422,
       "signals": {
-        "score": 0.5682,
-        "recency": 0.6469770121028421,
+        "score": 0.5422,
+        "recency": 0.7849701248100585,
         "keyword_volume": 0.2,
-        "source_signal": 0.6,
-        "authority": 0.8433333333333333,
+        "source_signal": 0.4,
+        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -210,7 +209,7 @@
       "link": "https://www.fastcompany.com/91622554/ai-biggest-breakthrough-eureka-moment",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.777631+00:00",
+      "published_at": "2026-10-18T22:04:43.591793+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -238,7 +237,7 @@
       "link": "https://www.fastcompany.com/91620310/what-actually-motives-ai-talent-to-work-for-companies",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.779015+00:00",
+      "published_at": "2026-10-18T22:04:43.593170+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -266,7 +265,7 @@
       "link": "https://www.fastcompany.com/91622552/5-tips-resiliently-optimistic",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.782288+00:00",
+      "published_at": "2026-10-18T22:04:43.596546+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -287,27 +286,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "aran murphy on playing an angry young man in youth and war and his father cillians influence",
-      "title": "Aran Murphy on Playing an Angry Young Man in \u2018Youth\u2019 and \u2018War\u2019 \u2014\u00a0and His Father Cillian\u2019s Influence",
-      "summary": "Aran Murphy is having quite a month, as he co-stars on not one, but two HBO shows \u2014 \u201cYouth\u201d and \u201cWar\u201d \u2014 and plays one of the leads of Taika Waititi&#8217;s dystopian film \u201cKlara",
-      "image": "https://variety.com/wp-content/uploads/2026/10/aran-murphy-Youth.solo_.jpg",
-      "link": "https://variety.com/2026/tv/news/aran-murphy-youth-war-and-cillian-murphy-influence-1236909378/",
+      "id": "trump claims he lifted russian sanctions to keep putin at the negotiating table dont want to foolishly drive him away",
+      "title": "Trump Claims He Lifted Russian Sanctions To Keep Putin At The Negotiating Table: Don\u2019t Want to \u2018Foolishly\u2019 Drive Him Away",
+      "summary": "Donald Trump has hit out at critics claiming he's giving Vladimir Putin a financial leg up in the Ukraine war by dropping all sanctions against Russia.",
+      "image": "https://am13.mediaite.com/med/cnt/uploads/2025/10/AP25289541118340.jpg",
+      "link": "https://www.mediaite.com/media/news/trump-claims-he-lifted-russian-sanctions-to-keep-putin-at-the-negotiating-table-dont-want-to-foolishly-drive-him-away/",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T18:00:00+00:00",
+      "published_at": "2026-10-18T21:37:29+00:00",
       "source_count": 1,
       "source_names": [
-        "Variety"
+        "Mediaite"
       ],
       "keywords": [
-        "ai",
-        "film"
+        "ai"
       ],
-      "score": 0.5337,
+      "score": 0.5177,
       "signals": {
-        "score": 0.5337,
-        "recency": 0.8307349275527417,
-        "keyword_volume": 0.4,
+        "score": 0.5177,
+        "recency": 0.9268604982333216,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -323,7 +321,7 @@
       "link": "https://www.fastcompany.com/91625189/nathan-fielder-may-have-already-won-hollywoods-big-parade-of-prestige-movies-based-on-tech-founders",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.783204+00:00",
+      "published_at": "2026-10-18T22:04:43.597580+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -344,112 +342,85 @@
       "image_failure_reason": ""
     },
     {
-      "id": "capturing bigfoot review an astounding documentary uncovers the truth",
-      "title": "\u2018Capturing Bigfoot\u2019 Review: An Astounding Documentary Uncovers the Truth",
-      "summary": "\"Capturing Bigfoot\" is an amazing documentary about the legend of Bigfoot \u2014 about how it was born, how it took hold, and how that iconic piece of film footage came to be.",
-      "image": "https://variety.com/wp-content/uploads/2026/10/BIGFOOT_4K_Credit-Patterson-Gimlin-1.jpeg",
-      "link": "https://variety.com/2026/film/reviews/capturing-bigfoot-review-an-amazing-doc-uncovers-the-truth-1236915797/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T19:05:42+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [
-        "film"
-      ],
-      "score": 0.5153,
-      "signals": {
-        "score": 0.5153,
-        "recency": 0.9970598157401956,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "everyones watching the elizabeth holmes documentary you can see everything",
-      "title": "Everyone\u2019s watching the Elizabeth Holmes documentary \u2018You Can See Everything\u2019",
-      "summary": "\"You Can See Everything\" is having the second biggest opening weekend ever for a documentary film.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/V8_PHASE-1_LOBTS.jpg?resize=1200,900",
-      "link": "https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything/",
+      "id": "disney agrees to hire the majority of characterais workforce",
+      "title": "Disney agrees to hire the majority of Character.AI\u2019s workforce",
+      "summary": "The filing also says that the \u201cvast majority\u201d of Character.AI employees who were offered jobs at Disney accepted them.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/01/character-ai-alexa.jpg?resize=1200,675",
+      "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
       "category": "technology",
       "geo": "global",
-      "published_at": "2026-10-18T19:03:38+00:00",
-      "source_count": 1,
+      "published_at": "2026-10-18T16:30:00+00:00",
+      "source_count": 3,
       "source_names": [
-        "TechCrunch"
+        "TechCrunch",
+        "TechCrunch AI",
+        "TechCrunch Startups"
       ],
       "keywords": [
-        "film"
+        "ai"
       ],
-      "score": 0.5138,
+      "score": 0.5051,
       "signals": {
-        "score": 0.5138,
-        "recency": 0.9913523520443418,
+        "score": 0.5051,
+        "recency": 0.39452507373445567,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
+        "source_signal": 0.6,
+        "authority": 0.8433333333333333,
+        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "woodstock film festival names jessica edwards as executive director",
-      "title": "Woodstock Film Festival Names Jessica Edwards as Executive Director",
-      "summary": "Jessica Edwards has been named the new executive director of the Woodstock Film Festival, the organization announced Sunday as the 27th annual festival came to a close.",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Jessica_Edwards_photo_by_Sara_Fox.jpg",
-      "link": "https://variety.com/2026/film/news/woodstock-film-festival-jessica-edwards-executive-director-1236915828/",
+      "id": "tiktok restores musk doc account after an error resulted in suspension",
+      "title": "TikTok Restores \u2018Musk\u2019 Doc Account \u201cAfter An Error\u201d Resulted In Suspension",
+      "summary": "As Alex Gibney takes on Elon Musk with his latest documentary, the Bleecker/Universal project is continuing to push back against censorship on social platforms.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/Musk-TikTok.jpg",
+      "link": "https://deadline.com/2026/10/tiktok-restores-musk-doc-account-after-error-1237167167/",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T18:00:00+00:00",
+      "published_at": "2026-10-18T20:04:51+00:00",
       "source_count": 1,
       "source_names": [
-        "Variety"
+        "Deadline"
       ],
       "keywords": [
-        "festival",
-        "film"
+        "ai",
+        "platform"
       ],
-      "score": 0.5137,
+      "score": 0.5051,
       "signals": {
-        "score": 0.5137,
-        "recency": 0.8307349275527417,
+        "score": 0.5051,
+        "recency": 0.7165788227858573,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
+        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "air force service member dies following stunt gone terribly wrong before packed house of college football fans",
-      "title": "Air Force Service Member Dies Following Stunt Gone Terribly Wrong Before Packed House Of College Football Fans",
-      "summary": "An Air Force service member has died after a pre-game stunt went horribly wrong before Saturday's game between UTSA and the U.S.",
-      "image": "https://am11.mediaite.com/med/cnt/uploads/2026/10/airman.jpg",
-      "link": "https://www.mediaite.com/media/news/air-force-service-member-dies-following-stunt-gone-terribly-wrong-before-packed-house-of-college-football-fans/",
+      "id": "kimberly guilfoyle reportedly turned to pete hegseth to make personal pitch to trump as her ambassadorship crumbled",
+      "title": "Kimberly Guilfoyle Reportedly Turned to Pete Hegseth to Make \u2018Personal Pitch\u2019 to Trump As Her Ambassadorship Crumbled",
+      "summary": "Kimberly Guilfoyle made \"frenzied calls\" to Pete Hegseth and Rupert Murdoch to enlist their help with placating President Donald Trump, the Daily Mail reported The post Kimberly",
+      "image": "https://am14.mediaite.com/med/cnt/uploads/2026/10/Untitled-Design-2026-10-18T141328-816.jpg",
+      "link": "https://www.mediaite.com/politics/kimberly-guilfoyle-reportedly-turned-to-pete-hegseth-to-make-personal-pitch-to-trump-as-her-ambassadorship-crumbled/",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T17:03:08+00:00",
+      "published_at": "2026-10-18T21:15:21+00:00",
       "source_count": 1,
       "source_names": [
         "Mediaite"
       ],
       "keywords": [
-        "ai",
-        "game"
+        "ai"
       ],
-      "score": 0.5033,
+      "score": 0.5039,
       "signals": {
-        "score": 0.5033,
-        "recency": 0.7093491084671975,
-        "keyword_volume": 0.4,
+        "score": 0.5039,
+        "recency": 0.8715921402489593,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -458,27 +429,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "dreadline express game developer david konecny talks stressful player choice the art of building a psychological horror",
-      "title": "\u2018Dreadline Express\u2019 Game Developer David Konecny Talks Stressful Player Choice & The Art Of Building A Psychological Horror",
-      "summary": "For Czech developer David Konecny, Dreadline Express brings together a lifelong fascination with trains, psychological horror, and stories shaped by difficult choices.",
-      "image": "https://deadline.com/wp-content/uploads/2026/10/dreadline.jpeg",
-      "link": "https://deadline.com/2026/10/dreadline-express-video-game-interview-david-konecny-1237166952/",
+      "id": "snl uk takes aim at shane gillis on weekend update you stupid fcking cnt",
+      "title": "\u2018SNL UK\u2019 Takes Aim At Shane Gillis On \u2018Weekend Update\u2019: \u201cYou Stupid F*cking C*nt\u201d",
+      "summary": "While Saturday Night Live was off this weekend, its British counterpart pulled no punches in criticizing last week&#8217;s episode of the U.S.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/Screenshot-2026-10-18-at-1.59.00-PM.png",
+      "link": "https://deadline.com/2026/10/snl-uk-takes-aim-shane-gillis-weekend-update-1237167181/",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T17:00:00+00:00",
+      "published_at": "2026-10-18T21:14:08+00:00",
       "source_count": 1,
       "source_names": [
         "Deadline"
       ],
       "keywords": [
-        "ai",
-        "game"
+        "ai"
       ],
-      "score": 0.5018,
+      "score": 0.5032,
       "signals": {
-        "score": 0.5018,
-        "recency": 0.7032019344017241,
-        "keyword_volume": 0.4,
+        "score": 0.5032,
+        "recency": 0.868651453641634,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -487,29 +457,84 @@
       "image_failure_reason": ""
     },
     {
-      "id": "london film festival sergei loznitsas imperium sompot chidgasornpongses 9 temples to heaven among big winners full list",
-      "title": "London Film Festival: Sergei Loznitsa\u2019s \u2018Imperium\u2019 & Sompot Chidgasornpongse\u2019s \u20189 Temples To Heaven\u2019 Among Big Winners \u2014 Full List",
-      "summary": "Ukrainian filmmaker Sergei Loznitsa\u2019s latest feature Imperium has won the Best Film Award in the Official Competition at this year\u2019s London Film Festival.",
-      "image": "https://deadline.com/wp-content/uploads/2026/08/9TH-00001-2000-2000-1125-1125-crop-fill-e1787757327376.jpg",
-      "link": "https://deadline.com/2026/10/london-film-festival-award-winners-2026-1237166918/",
+      "id": "cbs reporter apologizes and deletes post praising abdul elsayed heckler",
+      "title": "CBS reporter apologizes and deletes post praising Abdul El-Sayed heckler",
+      "summary": "Jan Crawford had praised man who asked Democratic candidate whether he would disavow Muslim Brotherhood CBS \u2019s chief legal correspondent Jan Crawford has apologized for",
+      "image": "https://i.guim.co.uk/img/media/7ba03938b1e04ec9513de537fd928c26fe0c8f40/253_0_3184_2548/master/3184.jpg?width=140&quality=85&auto=format&fit=max&s=9ed8674f9ea39924e93bfa3beb15971e",
+      "link": "https://www.theguardian.com/media/2026/oct/18/cbs-reporter-apologizes-abdul-el-sayed-post",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T13:00:00+00:00",
+      "published_at": "2026-10-18T21:07:58+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Guardian Media"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4995,
+      "signals": {
+        "score": 0.4995,
+        "recency": 0.8538984930766104,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "woodstock film festival names jessica edwards executive director announces 2026 maverick award winners full list",
+      "title": "Woodstock Film Festival Names Jessica Edwards Executive Director, Announces 2026 Maverick Award Winners \u2014 Full List",
+      "summary": "The 27th Woodstock Film Festival has concluded with the announcement of its Maverick Award winners and a new executive director.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/Woodstock-Film-Fest-Jessica-Edwards.jpg",
+      "link": "https://deadline.com/2026/10/woodstock-film-festival-jessica-edwards-executive-director-1237167150/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T18:50:12+00:00",
       "source_count": 1,
       "source_names": [
         "Deadline"
       ],
       "keywords": [
-        "ai",
         "award",
         "festival",
         "film"
       ],
-      "score": 0.4963,
+      "score": 0.4916,
       "signals": {
-        "score": 0.4963,
-        "recency": 0.361035911258679,
-        "keyword_volume": 0.8,
+        "score": 0.4916,
+        "recency": 0.5823823209865825,
+        "keyword_volume": 0.6,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "betty mcguire dies broadway actress growing pains guest star was 100",
+      "title": "Betty McGuire Dies: Broadway Actress & \u2018Growing Pains\u2019 Guest Star Was 100",
+      "summary": "Betty McGuire, the Broadway actress who also appeared on the ABC sitcom Growing Pains, has died.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/Betty-McGuire-Headshot.jpg",
+      "link": "https://deadline.com/2026/10/betty-mcguire-dead-1237167173/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T20:48:34+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4883,
+      "signals": {
+        "score": 0.4883,
+        "recency": 0.8091007431225893,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -518,143 +543,30 @@
       "image_failure_reason": ""
     },
     {
-      "id": "curtain up la bola negra shines as netflix shares grosses in historic first specialty box office",
-      "title": "Curtain Up: \u2018La Bola Negra\u2019 Shines As Netflix Shares Grosses In Historic First \u2014 Specialty Box Office",
-      "summary": "UPDATED with Once Upon A Time In Harlem, Musk, more: Netflix&#8217;s Spanish drama La Bola Negra debuted to $277.5k on four screens \u2013 these numbers coming directly from the giant",
-      "image": "https://deadline.com/wp-content/uploads/2026/10/MCDLABO_ZX011.jpg",
-      "link": "https://deadline.com/2026/10/indie-film-box-office-la-bola-negra-shines-netflix-shares-grosses-1237167026/",
+      "id": "jesse eisenberg says he couldnt get movie studio parts anymore after winning a razzie for batman v superman the industry did not want me to be in a superhero movie",
+      "title": "Jesse Eisenberg Says He \u2018Couldn\u2019t Get Movie Studio Parts Anymore\u2019 After Winning a Razzie for \u2018Batman v Superman\u2019: \u2018The Industry Did Not Want Me to Be in a Superhero Movie\u2019",
+      "summary": "Jesse Eisenberg has said he was frozen out of studio movies after winning a Razzie for Zack Snyder\u2019s \u201cBatman v Superman: Dawn of Justice.\u201d The Razzies &#8212; short for Golden",
+      "image": "https://variety.com/wp-content/uploads/2015/03/jesse-eisenberg-lex-luthor.jpg",
+      "link": "https://variety.com/2026/film/global/jesse-eisenberg-razzie-batman-v-superman-1236915876/",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T16:46:26+00:00",
+      "published_at": "2026-10-18T19:27:18+00:00",
       "source_count": 1,
       "source_names": [
-        "Deadline"
+        "Variety"
       ],
       "keywords": [
         "ai",
-        "box office"
+        "studio"
       ],
-      "score": 0.4953,
+      "score": 0.4874,
       "signals": {
-        "score": 0.4953,
-        "recency": 0.6771947596968193,
+        "score": 0.4874,
+        "recency": 0.6456016653742794,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "cindy crawford rande gerber and kaia gerber remember presley gerber as a sweet beautiful soul we love you forever",
-      "title": "Cindy Crawford, Rande Gerber and Kaia Gerber Remember Presley Gerber as a \u2018Sweet, Beautiful Soul\u2019: \u2018We Love You Forever\u2019",
-      "summary": "Cindy Crawford, Rande Gerber and Kaia Gerber took to social media on Sunday to remember their son and brother Presley Gerber, who died in September at the age of 27.",
-      "image": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2276771291.jpg",
-      "link": "https://variety.com/2026/digital/news/cindy-crawford-rande-kaia-gerber-remember-presley-gerber-1236870915/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T17:52:24+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4893,
-      "signals": {
-        "score": 0.4893,
-        "recency": 0.8133810149005021,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "tom arnold denies chuck lorres claim that he made writers put his name on roseanne scripts never",
-      "title": "Tom Arnold Denies Chuck Lorre\u2019s Claim That He Made Writers Put His Name On \u2018Roseanne\u2019 Scripts: \u201cNever\u201d",
-      "summary": "As Chuck Lorre&#8217;s memoir continues to make the rounds, Tom Arnold is the latest sitcom actor to respond to criticisms of himself in the book.",
-      "image": "https://deadline.com/wp-content/uploads/2026/10/Chuck-Lorre-Tom-Arnold-2-shot.jpg",
-      "link": "https://deadline.com/2026/10/tom-arnold-denies-chuck-lorre-claim-roseanne-scripts-1237167120/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T17:44:39+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Deadline"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.485,
-      "signals": {
-        "score": 0.485,
-        "recency": 0.7960578626713618,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "georgina cates an awfully big adventure and 2point4 children actress dies at 51",
-      "title": "Georgina Cates, \u2018An Awfully Big Adventure\u2019 and \u20182point4 Children\u2019 Actress, Dies at 51",
-      "summary": "Georgina Cates, the British actress who appeared in films including \u201cAn Awfully Big Adventure\u201d and the TV series \u201c2point4 Children,\u201d has died.",
-      "image": "https://variety.com/wp-content/uploads/2026/10/GettyImages-486336193.jpg",
-      "link": "https://variety.com/2026/film/news/georgina-cates-dead-awfully-big-adventure-2point4-children-1236915784/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T17:01:39+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [
-        "film",
-        "series"
-      ],
-      "score": 0.4826,
-      "signals": {
-        "score": 0.4826,
-        "recency": 0.7064323406269197,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "taylor swift fires up academy gala with four songs in her first band performance since the eras tour",
-      "title": "Taylor Swift Fires Up Academy Gala With Four Songs in Her First Band Performance Since the Eras Tour",
-      "summary": "Taylor Swift got some of the old gang back together for her first full-band performance since the Eras Tour, delivering a four-song set to a black-tie audience Saturday night",
-      "image": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2300770690.jpg",
-      "link": "https://variety.com/2026/film/news/taylor-swift-performance-academy-gala-five-songs-1236915817/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T18:05:24+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [
-        "tour"
-      ],
-      "score": 0.4768,
-      "signals": {
-        "score": 0.4768,
-        "recency": 0.8432898781913809,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -667,7 +579,7 @@
       "link": "https://www.fastcompany.com/91625154/wendys-store-closures-update-see-newest-list-doomed-locations",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.774810+00:00",
+      "published_at": "2026-10-18T22:04:43.588860+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -693,7 +605,7 @@
       "link": "https://www.fastcompany.com/91606189/slow-wi-fi-open-speed-test",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.775849+00:00",
+      "published_at": "2026-10-18T22:04:43.589937+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -719,7 +631,7 @@
       "link": "https://www.fastcompany.com/91623293/whats-with-those-bobblehead-nfl-helmets",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.776484+00:00",
+      "published_at": "2026-10-18T22:04:43.590601+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -745,7 +657,7 @@
       "link": "https://www.fastcompany.com/91622900/parallel-work-how-working-multiple-jobs-at-once-shed-its-taboo",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.778043+00:00",
+      "published_at": "2026-10-18T22:04:43.592187+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -771,7 +683,7 @@
       "link": "https://www.fastcompany.com/91623689/my-pip-worked-my-job-still-didnt",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.778676+00:00",
+      "published_at": "2026-10-18T22:04:43.592828+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -797,7 +709,7 @@
       "link": "https://www.fastcompany.com/91624387/arsenal-rocastle-new-font",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.779363+00:00",
+      "published_at": "2026-10-18T22:04:43.593543+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -823,7 +735,7 @@
       "link": "https://www.fastcompany.com/91603161/yes-you-should-be-backing-up-your-iphone-every-day-heres-how-icloud-data",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.780250+00:00",
+      "published_at": "2026-10-18T22:04:43.594451+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -849,7 +761,7 @@
       "link": "https://www.fastcompany.com/91613574/find-kindle-ebooks-uncovered",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.780537+00:00",
+      "published_at": "2026-10-18T22:04:43.594745+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -875,7 +787,7 @@
       "link": "https://www.fastcompany.com/91624045/7-tips-to-help-you-survive-the-cost-of-living-crisis",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.781090+00:00",
+      "published_at": "2026-10-18T22:04:43.595286+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -901,7 +813,7 @@
       "link": "https://www.fastcompany.com/91623140/paramount-warner-merger-threatens-democracy",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.781635+00:00",
+      "published_at": "2026-10-18T22:04:43.595884+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -927,7 +839,7 @@
       "link": "https://www.fastcompany.com/91620292/this-is-the-worst-advice-we-give-new-ceos",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.782575+00:00",
+      "published_at": "2026-10-18T22:04:43.596843+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -953,7 +865,7 @@
       "link": "https://www.fastcompany.com/91625533/apples-homeview-has-a-google-problem",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.782861+00:00",
+      "published_at": "2026-10-18T22:04:43.597137+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -979,7 +891,7 @@
       "link": "https://www.fastcompany.com/91625146/gen-z-is-bringing-back-something-the-digital-age-was-supposed-to-replace",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-18T19:06:35.783396+00:00",
+      "published_at": "2026-10-18T22:04:43.597835+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -998,14 +910,42 @@
       "image_failure_reason": ""
     },
     {
-      "id": "jaime pressly defends mom costars as beautifully flawed after creator chuck lorre revealed his reluctance to hire anna faris",
-      "title": "Jaime Pressly Defends \u2018Mom\u2019 Co-Stars as \u2018Beautifully Flawed\u2019 After Creator Chuck Lorre Revealed His \u2018Reluctance to Hire\u2019 Anna Faris",
-      "summary": "Jaime Pressly has joined former \u201cMom\u201d co-star Anna Faris in responding to show co-creator Chuck Lorre\u2019s professional criticism.",
-      "image": "https://variety.com/wp-content/uploads/2015/03/jaime-pressly-series-regular-mom.jpg",
-      "link": "https://variety.com/2026/tv/news/jaime-pressly-defends-mom-co-stars-chuck-lorre-memoir-1236915780/",
+      "id": "jesse eisenberg tv series produced by peter rice to be taken out by a24",
+      "title": "Jesse Eisenberg TV Series Produced By Peter Rice To Be Taken Out By A24",
+      "summary": "Jesse Eisenberg is shifting his attention to television.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/JesseEisenberg.jpg",
+      "link": "https://deadline.com/2026/10/jesse-eisenberg-tv-series-peter-rice-a24-1237167146/",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T17:23:50+00:00",
+      "published_at": "2026-10-18T20:28:32+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "series"
+      ],
+      "score": 0.4573,
+      "signals": {
+        "score": 0.4573,
+        "recency": 0.7653056443418461,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "betty mcguire growing pains actress dies at 100",
+      "title": "Betty McGuire, \u2018Growing Pains\u2019 Actress, Dies at 100",
+      "summary": "Betty McGuire, the actress best known for her role as grandmother Kate Malone on the ABC sitcom \u201cGrowing Pains, died Oct.",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Betty-McGuire-Headshot.jpg",
+      "link": "https://variety.com/2026/tv/people-news/betty-mcguire-dead-growing-pains-1236915890/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T19:38:44+00:00",
       "source_count": 1,
       "source_names": [
         "Variety"
@@ -1013,10 +953,589 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4738,
+      "score": 0.4526,
       "signals": {
-        "score": 0.4738,
-        "recency": 0.7513321274405216,
+        "score": 0.4526,
+        "recency": 0.6664345636890378,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "aran murphy on playing an angry young man in youth and war and his father cillians influence",
+      "title": "Aran Murphy on Playing an Angry Young Man in \u2018Youth\u2019 and \u2018War\u2019 \u2014\u00a0and His Father Cillian\u2019s Influence",
+      "summary": "Aran Murphy is having quite a month, as he co-stars on not one, but two HBO shows \u2014 \u201cYouth\u201d and \u201cWar\u201d \u2014 and plays one of the leads of Taika Waititi&#8217;s dystopian film \u201cKlara",
+      "image": "https://variety.com/wp-content/uploads/2026/10/aran-murphy-Youth.solo_.jpg",
+      "link": "https://variety.com/2026/tv/news/aran-murphy-youth-war-and-cillian-murphy-influence-1236909378/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T18:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "ai",
+        "film"
+      ],
+      "score": 0.4526,
+      "signals": {
+        "score": 0.4526,
+        "recency": 0.5065802221956465,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "joe manganiello says ben afflecks scrapped batman film would have seen deathstroke dismantle batmans entire life and kill commissioner gordon",
+      "title": "Joe Manganiello Says Ben Affleck\u2019s Scrapped Batman Film Would Have Seen Deathstroke \u2018Dismantle Batman\u2019s Entire Life\u2019 and Kill Commissioner Gordon",
+      "summary": "Joe Manganiello, who was set to reprise the role of Deathstroke in Ben Affleck\u2019s scrapped Batman film, is telling all about what would have happened had the superhero film made",
+      "image": "https://variety.com/wp-content/uploads/2026/10/GettyImages-1388071981.jpg",
+      "link": "https://variety.com/2026/film/news/joe-manganiello-ben-afflecks-batman-film-deathstroke-1236915997/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T20:12:37+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "film"
+      ],
+      "score": 0.4491,
+      "signals": {
+        "score": 0.4491,
+        "recency": 0.7322063155977825,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "cindy crawford kaia gerber pay tribute to presley til we meet again our sweet boy",
+      "title": "Cindy Crawford & Kaia Gerber Pay Tribute To Presley: \u201c\u2018Til We Meet Again, Our Sweet Boy\u201d",
+      "summary": "Following Presley Gerber&#8217;s death at age 27 last month, his family has shared a statement paying tribute and thanking fans for their support.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/GettyImages-2276771314.jpg",
+      "link": "https://deadline.com/2026/10/cindy-crawford-family-pay-tribute-presley-gerber-1237167162/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T19:29:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4483,
+      "signals": {
+        "score": 0.4483,
+        "recency": 0.6492584364961325,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "taylor swifts the life of a showgirl spends 15th week at no 1 on albums chart",
+      "title": "Taylor Swift\u2019s \u2018The Life of a Showgirl\u2019 Spends 15th Week at No. 1 on Albums Chart",
+      "summary": "Taylor Swift holds steady at No. 1 on the Billboard 200 as &#8220;The Life of a Showgirl&#8221; spends a 15th non-consecutive week atop the chart.",
+      "image": "https://variety.com/wp-content/uploads/2026/10/GF2_8744-e1792352715384.jpg",
+      "link": "https://variety.com/2026/music/news/taylor-swift-the-life-of-a-showgirl-15th-week-no-1-chart-1236915983/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T19:49:28+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.4377,
+      "signals": {
+        "score": 0.4377,
+        "recency": 0.6866033571930912,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "no agenda no rush no leaving san francisco benchmarks partners on investing in a frenzied market",
+      "title": "No agenda, no rush, no leaving San Francisco: Benchmark\u2019s partners on investing in a frenzied market",
+      "summary": "Benchmark may have grown its funds and swapped out some partners, but onstage the five who are left sounded like friends who just happen to be running one of the Valley\u2019s most",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Benchmark2.jpg?w=799",
+      "link": "https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-18T21:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [],
+      "score": 0.4348,
+      "signals": {
+        "score": 0.4348,
+        "recency": 0.8352095876499595,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "air force service member dies following stunt gone terribly wrong before packed house of college football fans",
+      "title": "Air Force Service Member Dies Following Stunt Gone Terribly Wrong Before Packed House Of College Football Fans",
+      "summary": "An Air Force service member has died after a pre-game stunt went horribly wrong before Saturday's game between UTSA and the U.S.",
+      "image": "https://am11.mediaite.com/med/cnt/uploads/2026/10/airman.jpg",
+      "link": "https://www.mediaite.com/media/news/air-force-service-member-dies-following-stunt-gone-terribly-wrong-before-packed-house-of-college-football-fans/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T17:03:08+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai",
+        "game"
+      ],
+      "score": 0.4341,
+      "signals": {
+        "score": 0.4341,
+        "recency": 0.4325594326943508,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "dreadline express game developer david konecny talks stressful player choice the art of building a psychological horror",
+      "title": "\u2018Dreadline Express\u2019 Game Developer David Konecny Talks Stressful Player Choice & The Art Of Building A Psychological Horror",
+      "summary": "For Czech developer David Konecny, Dreadline Express brings together a lifelong fascination with trains, psychological horror, and stories shaped by difficult choices.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/dreadline.jpeg",
+      "link": "https://deadline.com/2026/10/dreadline-express-video-game-interview-david-konecny-1237166952/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T17:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai",
+        "game"
+      ],
+      "score": 0.4332,
+      "signals": {
+        "score": 0.4332,
+        "recency": 0.4288109002796413,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "woodstock film festival names jessica edwards as executive director",
+      "title": "Woodstock Film Festival Names Jessica Edwards as Executive Director",
+      "summary": "Jessica Edwards has been named the new executive director of the Woodstock Film Festival, the organization announced Sunday as the 27th annual festival came to a close.",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Jessica_Edwards_photo_by_Sara_Fox.jpg",
+      "link": "https://variety.com/2026/film/news/woodstock-film-festival-jessica-edwards-executive-director-1236915828/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T18:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "festival",
+        "film"
+      ],
+      "score": 0.4326,
+      "signals": {
+        "score": 0.4326,
+        "recency": 0.5065802221956465,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "young miko gets flirty with la during her late checkout tour",
+      "title": "Young Miko Gets Flirty With L.A. During Her Late Checkout Tour",
+      "summary": "The Puerto Rican rapper and singer performed her sophomore album, 'Do Not Disturb,' as well as several other hits to a sold-out crowd at Inglewood\u2019s Intuit Dome Saturday night.",
+      "image": "assets/images/generated/young miko gets flirty with la during her late checkout tour.jpg",
+      "link": "https://www.hollywoodreporter.com/music/music-news/young-miko-la-concert-late-checkout-tour-highlights-1236734751/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T19:34:06+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
+      ],
+      "keywords": [
+        "tour"
+      ],
+      "score": 0.4305,
+      "signals": {
+        "score": 0.4305,
+        "recency": 0.6579122642422714,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "curtain up la bola negra shines as netflix shares grosses in historic first specialty box office",
+      "title": "Curtain Up: \u2018La Bola Negra\u2019 Shines As Netflix Shares Grosses In Historic First \u2014 Specialty Box Office",
+      "summary": "UPDATED with Once Upon A Time In Harlem, Musk, more: Netflix&#8217;s Spanish drama La Bola Negra debuted to $277.5k on four screens \u2013 these numbers coming directly from the giant",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/MCDLABO_ZX011.jpg",
+      "link": "https://deadline.com/2026/10/indie-film-box-office-la-bola-negra-shines-netflix-shares-grosses-1237167026/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T16:46:26+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai",
+        "box office"
+      ],
+      "score": 0.4292,
+      "signals": {
+        "score": 0.4292,
+        "recency": 0.41295178577304054,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "hybrid reasoning agents llm agents that think in latent space act through text",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "summary": "Comments",
+      "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "link": "https://arxiv.org/abs/2610.18861",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T20:48:14+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.4281,
+      "signals": {
+        "score": 0.4281,
+        "recency": 0.8083519224975609,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "chaos in france historic building burned down and shops smashed as 2000 rioters arrested",
+      "title": "Chaos in France: Historic Building Burned Down and Shops \u2018Smashed\u2019 as 2,000 Rioters Arrested",
+      "summary": "Jarring footage out of France showed thousands of protesters and rioters looting businesses, attacking police officers, and burning buildings this weekend.",
+      "image": "assets/images/generated/chaos in france historic building burned down and shops smashed as 2000 rioters arrested.jpg",
+      "link": "https://www.mediaite.com/politics/chaos-in-france-historic-building-burned-down-and-shops-smashed-as-2000-rioters-arrested/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T20:44:57+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.4263,
+      "signals": {
+        "score": 0.4263,
+        "recency": 0.8010129714225481,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "katie zacharia posts then appears to alter oval office photo depicting sensitive information report",
+      "title": "Katie Zacharia Posts \u2014 Then Appears to Alter \u2014 Oval Office Photo Depicting \u2018Sensitive\u2019 Information: Report",
+      "summary": "Katie Zacharia is under scrutiny for reportedly posting Oval Office photos with Donald Trump depicting \"sensitive\" information blurred out on his desk.",
+      "image": "https://am12.mediaite.com/med/cnt/uploads/2026/10/zacharia-4.jpg",
+      "link": "https://www.mediaite.com/media/news/katie-zacharia-posts-then-appears-to-alter-oval-office-photo-depicting-sensitive-information-report/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T20:44:52+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.4262,
+      "signals": {
+        "score": 0.4262,
+        "recency": 0.8008275732121913,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "netflix vmaf perceptual video quality assessment based on multimethod fusion",
+      "title": "Netflix vmaf: Perceptual video quality assessment based on multi-method fusion",
+      "summary": "Comments",
+      "image": "assets/images/generated/netflix vmaf perceptual video quality assessment based on multimethod fusion.jpg",
+      "link": "https://github.com/Netflix/vmaf",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T20:43:40+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.4255,
+      "signals": {
+        "score": 0.4255,
+        "recency": 0.7981625920709607,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "tinyfish makes search free what it really costs an ai agent to read the web",
+      "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
+      "summary": "An AI agent that reads the web pays 2 kinds of cost.",
+      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-454-7-scaled.png",
+      "link": "https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-18T18:20:28+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4201,
+      "signals": {
+        "score": 0.4201,
+        "recency": 0.5362146505666968,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "i pushed nvidias rtx spark to its limits in our favourite creative laptop",
+      "title": "I pushed Nvidia\u2019s RTX Spark to its limits in our favourite creative laptop",
+      "summary": "Will this spark something?",
+      "image": "https://cdn.mos.cms.futurecdn.net/aX4jntubkPXgrzfH65Yvqf-1920-80.jpg",
+      "link": "https://www.creativebloq.com/reviews/i-pushed-nvidias-rtx-spark-to-its-limits-in-our-favourite-creative-laptop",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-18T20:32:32+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [],
+      "score": 0.4195,
+      "signals": {
+        "score": 0.4195,
+        "recency": 0.773856456933344,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "capturing bigfoot review an astounding documentary uncovers the truth",
+      "title": "\u2018Capturing Bigfoot\u2019 Review: An Astounding Documentary Uncovers the Truth",
+      "summary": "\"Capturing Bigfoot\" is an amazing documentary about the legend of Bigfoot \u2014 about how it was born, how it took hold, and how that iconic piece of film footage came to be.",
+      "image": "https://variety.com/wp-content/uploads/2026/10/BIGFOOT_4K_Credit-Patterson-Gimlin-1.jpeg",
+      "link": "https://variety.com/2026/film/reviews/capturing-bigfoot-review-an-amazing-doc-uncovers-the-truth-1236915797/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T19:05:42+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "film"
+      ],
+      "score": 0.418,
+      "signals": {
+        "score": 0.418,
+        "recency": 0.6080047512724225,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "how do you give the pope crap peter doocy cant believe pope leos older bro teases him",
+      "title": "\u2018How Do You Give the Pope Crap?!\u2019 Peter Doocy Can\u2019t Believe Pope Leo\u2019s Older Bro Teases Him",
+      "summary": "Pope Leo XIV's older bro Louis Prevost made Fox News anchor Peter Doocy crack up when he admitted he still teases him, despite him being the pope The post \u2018How Do You Give the",
+      "image": "assets/images/generated/how do you give the pope crap peter doocy cant believe pope leos older bro teases him.jpg",
+      "link": "https://www.mediaite.com/media/how-do-you-give-the-pope-crap-peter-doocy-cant-believe-pope-leos-older-bro-teases-him/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T20:28:18+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.4172,
+      "signals": {
+        "score": 0.4172,
+        "recency": 0.7648097736219025,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "everyones watching the elizabeth holmes documentary you can see everything",
+      "title": "Everyone\u2019s watching the Elizabeth Holmes documentary \u2018You Can See Everything\u2019",
+      "summary": "\"You Can See Everything\" is having the second biggest opening weekend ever for a documentary film.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/V8_PHASE-1_LOBTS.jpg?resize=1200,900",
+      "link": "https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-18T19:03:38+00:00",
+      "source_count": 1,
+      "source_names": [
+        "TechCrunch"
+      ],
+      "keywords": [
+        "film"
+      ],
+      "score": 0.4171,
+      "signals": {
+        "score": 0.4171,
+        "recency": 0.6045243532160453,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "cindy crawford kaia gerber break their silence on presley gerbers death a sweet beautiful soul",
+      "title": "Cindy Crawford, Kaia Gerber Break Their Silence on Presley Gerber\u2019s Death: \u201cA Sweet, Beautiful Soul\u201d",
+      "summary": "Crawford's son Presley died in September at age 27.",
+      "image": "assets/images/generated/cindy crawford kaia gerber break their silence on presley gerbers death a sweet beautiful soul.jpg",
+      "link": "https://www.hollywoodreporter.com/news/general-news/cindy-crawford-tribute-son-presley-gerber-dead-1236734874/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T18:08:13+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4156,
+      "signals": {
+        "score": 0.4156,
+        "recency": 0.5182754048679492,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "tom arnold denies chuck lorres claim that he made writers put his name on roseanne scripts never",
+      "title": "Tom Arnold Denies Chuck Lorre\u2019s Claim That He Made Writers Put His Name On \u2018Roseanne\u2019 Scripts: \u201cNever\u201d",
+      "summary": "As Chuck Lorre&#8217;s memoir continues to make the rounds, Tom Arnold is the latest sitcom actor to respond to criticisms of himself in the book.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/Chuck-Lorre-Tom-Arnold-2-shot.jpg",
+      "link": "https://deadline.com/2026/10/tom-arnold-denies-chuck-lorre-claim-roseanne-scripts-1237167120/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T17:44:39+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4074,
+      "signals": {
+        "score": 0.4074,
+        "recency": 0.48543422887085397,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1041,10 +1560,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4721,
+      "score": 0.3995,
       "signals": {
-        "score": 0.4721,
-        "recency": 0.744235160018752,
+        "score": 0.3995,
+        "recency": 0.45383286560342184,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1054,24 +1573,52 @@
       "image_failure_reason": ""
     },
     {
-      "id": "how a24 spurred a meme craze got the many to watch you can see everything documentary opens to 15m milestone",
-      "title": "How A24 Spurred A Meme Craze & Got The Many To Watch \u2018You Can See Everything\u2019: Documentary  Opens To $15M Milestone",
-      "summary": "Less than two months ago, the public didn&#8217;t even know that a Nathan Fielder co-directed and starring documentary which followed controversial Theranos founder Elizabeth",
-      "image": "https://deadline.com/wp-content/uploads/2026/09/You-Can-See-Everything.jpg",
-      "link": "https://deadline.com/2026/10/you-can-see-everything-box-office-elizabeth-holmes-1237167129/",
+      "id": "cnns dana bash throws down with gop candidate mike rogers about trump calling elsayed a jihadist",
+      "title": "CNN\u2019s Dana Bash Throws Down With GOP Candidate Mike Rogers About Trump Calling El-Sayed a \u2018Jihadist\u2019",
+      "summary": "Dana Bash threw down with Michigan Senate candidate Mike Rogers (R-MI) after he accused her of defending Abdul El-Sayed's (D) Muslim \"ideology.\" The post CNN\u2019s Dana Bash Throws",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/bash.jpeg",
+      "link": "https://www.mediaite.com/media/news/cnns-dana-bash-throws-down-with-gop-candidate-mike-rogers-about-trump-calling-el-sayed-a-jihadist/",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T18:50:39+00:00",
+      "published_at": "2026-10-18T19:49:01+00:00",
       "source_count": 1,
       "source_names": [
-        "Deadline"
+        "Mediaite"
       ],
       "keywords": [],
-      "score": 0.4651,
+      "score": 0.3974,
       "signals": {
-        "score": 0.4651,
-        "recency": 0.9562364435246329,
+        "score": 0.3974,
+        "recency": 0.6857456391820388,
         "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "taylor swift fires up academy gala with four songs in her first band performance since the eras tour",
+      "title": "Taylor Swift Fires Up Academy Gala With Four Songs in Her First Band Performance Since the Eras Tour",
+      "summary": "Taylor Swift got some of the old gang back together for her first full-band performance since the Eras Tour, delivering a four-song set to a black-tie audience Saturday night",
+      "image": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2300770690.jpg",
+      "link": "https://variety.com/2026/film/news/taylor-swift-performance-academy-gala-five-songs-1236915817/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T18:05:24+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "tour"
+      ],
+      "score": 0.3946,
+      "signals": {
+        "score": 0.3946,
+        "recency": 0.5142362018267346,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -1095,10 +1642,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4603,
+      "score": 0.3923,
       "signals": {
-        "score": 0.4603,
-        "recency": 0.6972371373878354,
+        "score": 0.3923,
+        "recency": 0.4251735809658271,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1108,133 +1655,85 @@
       "image_failure_reason": ""
     },
     {
-      "id": "hoas are making the home crisis worse",
-      "title": "HOA's are making the home crisis worse",
-      "summary": "Comments",
-      "image": "https://hoaspy.com/og-image.png",
-      "link": "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html",
-      "category": "startup",
+      "id": "techcrunch mobility rivians next act",
+      "title": "TechCrunch Mobility: Rivian\u2019s next act",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Techcrunch-disrupt-RJ-Scaringe.jpg?resize=1200,801",
+      "link": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-10-18T18:40:16+00:00",
+      "published_at": "2026-10-18T16:05:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.4583,
-      "signals": {
-        "score": 0.4583,
-        "recency": 0.9290500530140404,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "foxs jonathan turley pushes scotus to hear catherine herridge case after network petitions high court stakes for the country could not be higher",
-      "title": "Fox\u2019s Jonathan Turley Pushes SCOTUS to Hear Catherine Herridge Case After Network Petitions High Court: \u2018Stakes for the Country Could Not Be Higher\u2019",
-      "summary": "Fox News legal analyst Jonathan Turley called on the Supreme Court to hear reporter Catherine Herridge's case, arguing she is \"fighting for journalistic values\" The post Fox\u2019s",
-      "image": "https://am12.mediaite.com/med/cnt/uploads/2026/10/Untitled-Design-2026-10-18T112445-735.jpg",
-      "link": "https://www.mediaite.com/media/news/foxs-jonathan-turley-pushes-scotus-to-hear-catherine-herridge-case-after-network-petitions-high-court-stakes-for-the-country-could-not-be-higher/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T18:35:34+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Mediaite"
-      ],
-      "keywords": [],
-      "score": 0.4552,
-      "signals": {
-        "score": 0.4552,
-        "recency": 0.9169996221313156,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "cfpb opens debanking investigation into nine large national banks",
-      "title": "CFPB Opens Debanking Investigation into Nine Large National Banks",
-      "summary": "Comments",
-      "image": "assets/images/generated/cfpb opens debanking investigation into nine large national banks.jpg",
-      "link": "https://www.forbes.com/sites/ajdhaliwal/2026/10/16/cfpb-opens-debanking-investigation-into-nine-large-national-banks/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-18T18:26:40+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.4497,
-      "signals": {
-        "score": 0.4497,
-        "recency": 0.8946072883044621,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "box office la bola negra scores 277500 from four theaters as netflix reports grosses for first time ever",
-      "title": "Box Office: \u2018La Bola Negra\u2019 Scores $277,500 From Four Theaters as Netflix Reports Grosses for First Time Ever",
-      "summary": "In a major shift in the theatrical tides, Netflix has reported box office grosses for the first time ever.",
-      "image": "https://variety.com/wp-content/uploads/2025/12/la-bola-negra-Credit-Carla-Oset.jpg",
-      "link": "https://variety.com/2026/film/news/la-bola-negra-box-office-netflix-reports-grosses-1236915765/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T17:12:54+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
+        "TechCrunch"
       ],
       "keywords": [
-        "box office"
+        "ai"
       ],
-      "score": 0.4482,
+      "score": 0.378,
       "signals": {
-        "score": 0.4482,
-        "recency": 0.728856910285985,
+        "score": 0.378,
+        "recency": 0.36805715995949495,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
+        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "matthew mcconaughey issues rousing call for political independence the system has never been more lopsided",
-      "title": "Matthew McConaughey Issues Rousing Call for Political Independence: \u2018The System Has Never Been More Lopsided\u2019",
-      "summary": "Matthew McConaughey called on his fellow Americans to embrace Independent candidates heading into the 2026 midterms in a video posted to X on Sunday The post Matthew McConaughey",
-      "image": "https://am12.mediaite.com/med/cnt/uploads/2026/10/matthewm-scaled.jpg",
-      "link": "https://www.mediaite.com/politics/matthew-mcconaughey-issues-rousing-call-for-political-independence-the-system-has-never-been-more-lopsided/",
-      "category": "media",
+      "id": "anthropic gives outside ai watchdog employeelike access",
+      "title": "Anthropic gives outside AI watchdog \u201cemployee-like\u201d access",
+      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/claudebyanthropic-1024x648.jpg",
+      "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "category": "ai",
       "geo": "global",
-      "published_at": "2026-10-18T18:19:18+00:00",
+      "published_at": "2026-10-18T16:25:19+00:00",
       "source_count": 1,
       "source_names": [
-        "Mediaite"
+        "Ars Technica AI"
       ],
-      "keywords": [],
-      "score": 0.4451,
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3774,
       "signals": {
-        "score": 0.4451,
-        "recency": 0.8764870021617797,
-        "keyword_volume": 0.0,
+        "score": 0.3774,
+        "recency": 0.3894258353395252,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "rj mittes mother opens up about his tragic passing to help other families while clarifying speculation about his finances career and fiance",
+      "title": "R.J. Mitte\u2019s Mother Opens Up About His Tragic Passing to Help Other Families (While Clarifying Speculation About His Finances, Career and Fianc\u00e9e)",
+      "summary": "\"I\u2019m taking one step at a time,\" Dyna Mitte said hours after her son's Celebration of Life ceremony.",
+      "image": "assets/images/generated/rj mittes mother opens up about his tragic passing to help other families while clarifying speculation about his finances career and fiance.jpg",
+      "link": "https://www.hollywoodreporter.com/news/general-news/r-j-mitte-mother-family-interview-death-suicide-prevention-1236734202/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T16:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3767,
+      "signals": {
+        "score": 0.3767,
+        "recency": 0.3629805905206078,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
+        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1255,10 +1754,10 @@
       "keywords": [
         "film"
       ],
-      "score": 0.4418,
+      "score": 0.3732,
       "signals": {
-        "score": 0.4418,
-        "recency": 0.7032019344017241,
+        "score": 0.3732,
+        "recency": 0.4288109002796413,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1283,10 +1782,10 @@
       "keywords": [
         "box office"
       ],
-      "score": 0.4415,
+      "score": 0.373,
       "signals": {
-        "score": 0.4415,
-        "recency": 0.7021284183688327,
+        "score": 0.373,
+        "recency": 0.42815627270538636,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1296,51 +1795,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "anthropic gives outside ai watchdog employeelike access",
-      "title": "Anthropic gives outside AI watchdog \u201cemployee-like\u201d access",
-      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/claudebyanthropic-1024x648.jpg",
-      "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-10-18T16:25:19+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Ars Technica AI"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4397,
-      "signals": {
-        "score": 0.4397,
-        "recency": 0.6386148312418791,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "cindy crawford breaks her silence on son presley gerbers death a sweet beautiful soul",
-      "title": "Cindy Crawford Breaks Her Silence on Son Presley Gerber\u2019s Death: \u201cA Sweet, Beautiful Soul\u201d",
-      "summary": "Presley died in September at age 27.",
-      "image": "assets/images/generated/cindy crawford breaks her silence on son presley gerbers death a sweet beautiful soul.jpg",
-      "link": "https://www.hollywoodreporter.com/news/general-news/cindy-crawford-tribute-son-presley-gerber-dead-1236734874/",
+      "id": "how a24 spurred a meme craze got the many to watch you can see everything documentary opens to 15m milestone",
+      "title": "How A24 Spurred A Meme Craze & Got The Many To Watch \u2018You Can See Everything\u2019; Documentary  Opens To $15M Milestone",
+      "summary": "Less than two months ago, the public didn&#8217;t even know that a Nathan Fielder co-directed and starring documentary following controversial Theranos founder Elizabeth Holmes",
+      "image": "https://deadline.com/wp-content/uploads/2026/09/You-Can-See-Everything.jpg",
+      "link": "https://deadline.com/2026/10/you-can-see-everything-box-office-elizabeth-holmes-1237167129/",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T18:08:13+00:00",
+      "published_at": "2026-10-18T18:50:39+00:00",
       "source_count": 1,
       "source_names": [
-        "The Hollywood Reporter"
+        "Deadline"
       ],
       "keywords": [],
-      "score": 0.4385,
+      "score": 0.3718,
       "signals": {
-        "score": 0.4385,
-        "recency": 0.8499137195866701,
+        "score": 0.3718,
+        "recency": 0.5831107540636409,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1350,218 +1821,27 @@
       "image_failure_reason": ""
     },
     {
-      "id": "techcrunch mobility rivians next act",
-      "title": "TechCrunch Mobility: Rivian\u2019s next act",
-      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Techcrunch-disrupt-RJ-Scaringe.jpg?resize=1200,801",
-      "link": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-18T16:05:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4369,
-      "signals": {
-        "score": 0.4369,
-        "recency": 0.6035725926862816,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "rj mittes mother opens up about his tragic passing to help other families while clarifying speculation about his finances career and fianc",
-      "title": "R.J. Mitte\u2019s Mother Opens Up About His Tragic Passing to Help Other Families (While Clarifying Speculation About His Finances, Career and Fianc\u00e9)",
-      "summary": "\"I\u2019m taking one step at a time,\" Dyna Mitte said hours after her son's Celebration of Life ceremony.",
-      "image": "assets/images/generated/rj mittes mother opens up about his tragic passing to help other families while clarifying speculation about his finances career and fianc.jpg",
-      "link": "https://www.hollywoodreporter.com/news/general-news/r-j-mitte-mother-family-interview-death-suicide-prevention-1236734202/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T16:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "The Hollywood Reporter"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4348,
-      "signals": {
-        "score": 0.4348,
-        "recency": 0.5952475863787879,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "street fighter socks 31m you can see everything has 2000 sellouts with 15m docu milestone sunday update",
-      "title": "\u2018Street Fighter\u2019 Socks $31M, \u2018You Can See Everything\u2019 Has 2,000+ Sellouts With $15M Docu Milestone \u2013 Sunday Update",
-      "summary": "SUNDAY AM Writethru after Saturday update: It&#8217;s a healthy third weekend at the October box office even with a bellyflop in 20th Century Studio&#8217;s $60M Whalefall in the",
-      "image": "https://deadline.com/wp-content/uploads/2026/10/Street-Fighter-and-You-Can-See-Everything-.jpg",
-      "link": "https://deadline.com/2026/10/box-office-street-fighter-you-can-see-everything-1237159320/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T15:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Deadline"
-      ],
-      "keywords": [
-        "box office",
-        "studio"
-      ],
-      "score": 0.432,
-      "signals": {
-        "score": 0.432,
-        "recency": 0.5038662036548911,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "palmos lemmings by aaron ardiri",
-      "title": "PalmOS Lemmings by Aaron Ardiri",
+      "id": "free pascal compiler now supports dynamic packages",
+      "title": "Free Pascal compiler now supports dynamic packages",
       "summary": "Comments",
-      "image": "assets/images/generated/palmos lemmings by aaron ardiri.jpg",
-      "link": "https://github.com/ardiri/palmos-lemmings",
+      "image": "assets/images/generated/free pascal compiler now supports dynamic packages.jpg",
+      "link": "https://www.getlazarus.org/dynamic/",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-18T17:56:59+00:00",
+      "published_at": "2026-10-18T18:48:04+00:00",
       "source_count": 1,
       "source_names": [
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.432,
+      "score": 0.3707,
       "signals": {
-        "score": 0.432,
-        "recency": 0.8238027615947152,
+        "score": 0.3707,
+        "recency": 0.5789413719658824,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "cbs news correspondent deletes and apologizes for post lauding heckler at elsayed town hall amid heavy backlash a violation of cbs news standards",
-      "title": "CBS News Correspondent Deletes and Apologizes for Post Lauding Heckler at El-Sayed Town Hall Amid Heavy Backlash: \u2018A Violation of CBS News Standards\u2019",
-      "summary": "Jan Crawford deleted a controversial post amplifying a heckler of Abdul El-Sayed (D), Sunday, and apologized for violating CBS News standards.",
-      "image": "https://am13.mediaite.com/med/cnt/uploads/2026/10/crawford.jpg",
-      "link": "https://www.mediaite.com/media/news/cbs-news-correspondent-deletes-and-apologizes-for-post-lauding-heckler-at-el-sayed-town-hall-amid-heavy-backlash-a-violation-of-cbs-news-standards/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T17:56:27+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Mediaite"
-      ],
-      "keywords": [],
-      "score": 0.4316,
-      "signals": {
-        "score": 0.4316,
-        "recency": 0.8225832166486995,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "charli xcx brings out chappell roan for boom clap at los angeles concert",
-      "title": "Charli xcx Brings Out Chappell Roan for \u2018Boom Clap\u2019 at Los Angeles Concert",
-      "summary": "As anyone who\u2019s seen her in concert knows, Charli xcx is usually laser-focused on her current material and rarely looks back for more than a couple of songs.",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Screenshot-2026-10-18-at-1.50.21-PM-e1792345934562.png",
-      "link": "https://variety.com/2026/music/news/chappell-roan-charli-xcx-boom-clap-los-angeles-1236915831/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T17:53:29+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [],
-      "score": 0.43,
-      "signals": {
-        "score": 0.43,
-        "recency": 0.8158323757912394,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "cbs news correspondent jan crawford apologizes for post on abdul elsayed that sparked socialmedia ire",
-      "title": "CBS News Correspondent Jan Crawford Apologizes for Post on Abdul El-Sayed That Sparked Social-Media Ire",
-      "summary": "CBS News veteran Jan Crawford usually has the delicate task of covering the U.S.",
-      "image": "https://variety.com/wp-content/uploads/2026/10/headshot-600-jan-crawford.webp",
-      "link": "https://variety.com/2026/tv/news/cbs-news-jan-crawford-apologizes-abdul-el-sayed-post-1236915791/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T17:51:35+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [],
-      "score": 0.4289,
-      "signals": {
-        "score": 0.4289,
-        "recency": 0.8115379363249293,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "monday night friction espn nfl broadcasters joe buck troy aikman have noisy start to super bowl year",
-      "title": "\u2018Monday Night\u2019 Friction? ESPN NFL Broadcasters Joe Buck & Troy Aikman Have Noisy Start To Super Bowl Year",
-      "summary": "NFL announcing duo Joe Buck and Troy Aikman, who helped revive Monday Night Football after moving to ESPN in 2022, now find themselves at the center of one of the NFL&#8217;s",
-      "image": "https://deadline.com/wp-content/uploads/2026/10/Joe-Buck-Troy-Aikman.jpg",
-      "link": "https://deadline.com/2026/10/nfl-espn-joe-buck-troy-aikman-monday-night-1237166923/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T15:43:56+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Deadline"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4283,
-      "signals": {
-        "score": 0.4283,
-        "recency": 0.569265993862851,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1582,10 +1862,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4234,
+      "score": 0.3698,
       "signals": {
-        "score": 0.4234,
-        "recency": 0.5495590994858703,
+        "score": 0.3698,
+        "recency": 0.3351198577232287,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1610,10 +1890,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4225,
+      "score": 0.3692,
       "signals": {
-        "score": 0.4225,
-        "recency": 0.545932831569923,
+        "score": 0.3692,
+        "recency": 0.33290856800171303,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1623,23 +1903,101 @@
       "image_failure_reason": ""
     },
     {
-      "id": "mitos editor is a fork of helix",
-      "title": "Mitos editor is a fork of Helix",
+      "id": "floridas hoas and condo associations are making the housing crisis worse",
+      "title": "Florida's HOAs and condo associations are making the housing crisis worse",
       "summary": "Comments",
-      "image": "assets/images/generated/mitos editor is a fork of helix.jpg",
-      "link": "https://mitos.computer/",
+      "image": "https://hoaspy.com/og-image.png",
+      "link": "https://hoaspy.com/hoa/fl/florida-hoa-housing-crisis.html",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-18T17:19:34+00:00",
+      "published_at": "2026-10-18T18:40:16+00:00",
       "source_count": 1,
       "source_names": [
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.4116,
+      "score": 0.3676,
       "signals": {
-        "score": 0.4116,
-        "recency": 0.7424800109794916,
+        "score": 0.3676,
+        "recency": 0.5665325565077433,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "musk tiktok ad account temporarily suspended ahead of documentarys wide release",
+      "title": "\u2018Musk\u2019 TikTok Ad Account Temporarily Suspended Ahead of Documentary\u2019s Wide Release",
+      "summary": "TikTok temporarily suspended the \u201cMusk\u201d advertisement account on Friday ahead of the documentary&#8217;s wide release, Variety can confirm.",
+      "image": "https://variety.com/wp-content/uploads/2026/08/Musk.jpg",
+      "link": "https://variety.com/2026/film/news/musk-documentary-tiktok-account-permanently-suspended-1236914995/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T18:36:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [],
+      "score": 0.366,
+      "signals": {
+        "score": 0.366,
+        "recency": 0.5598577292429281,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "foxs jonathan turley pushes scotus to hear catherine herridge case after network petitions high court stakes for the country could not be higher",
+      "title": "Fox\u2019s Jonathan Turley Pushes SCOTUS to Hear Catherine Herridge Case After Network Petitions High Court: \u2018Stakes for the Country Could Not Be Higher\u2019",
+      "summary": "Fox News legal analyst Jonathan Turley called on the Supreme Court to hear reporter Catherine Herridge's case, arguing she is \"fighting for journalistic values\" The post Fox\u2019s",
+      "image": "https://am12.mediaite.com/med/cnt/uploads/2026/10/Untitled-Design-2026-10-18T112445-735.jpg",
+      "link": "https://www.mediaite.com/media/news/foxs-jonathan-turley-pushes-scotus-to-hear-catherine-herridge-case-after-network-petitions-high-court-stakes-for-the-country-could-not-be-higher/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T18:35:34+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.3658,
+      "signals": {
+        "score": 0.3658,
+        "recency": 0.5591842318476652,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "matthew mcconaughey issues rousing call for political independence the system has never been more lopsided",
+      "title": "Matthew McConaughey Issues Rousing Call for Political Independence: \u2018The System Has Never Been More Lopsided\u2019",
+      "summary": "Matthew McConaughey called on his fellow Americans to embrace Independent candidates heading into the 2026 midterms in a video posted to X on Sunday The post Matthew McConaughey",
+      "image": "https://am12.mediaite.com/med/cnt/uploads/2026/10/matthewm-scaled.jpg",
+      "link": "https://www.mediaite.com/politics/matthew-mcconaughey-issues-rousing-call-for-political-independence-the-system-has-never-been-more-lopsided/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T18:19:18+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.3596,
+      "signals": {
+        "score": 0.3596,
+        "recency": 0.5344797306340788,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1664,10 +2022,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4016,
+      "score": 0.3565,
       "signals": {
-        "score": 0.4016,
-        "recency": 0.4622933529986466,
+        "score": 0.3565,
+        "recency": 0.28190540895098765,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1692,40 +2050,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.4015,
+      "score": 0.3564,
       "signals": {
-        "score": 0.4015,
-        "recency": 0.4619510402760489,
+        "score": 0.3564,
+        "recency": 0.2816966674507539,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "publicis groupe confirms outlook what it means for publicis groupe stock adhocnewsde",
-      "title": "Publicis Groupe confirms outlook. What it means for Publicis Groupe stock - ad-hoc-news.de",
-      "summary": "Publicis Groupe confirms outlook. What it means for Publicis Groupe stock &nbsp;&nbsp; ad-hoc-news.de",
-      "image": "assets/images/generated/publicis groupe confirms outlook what it means for publicis groupe stock adhocnewsde.jpg",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdkoyZ0c2dHZQNU5CZHN5ZWwzb1NRTEYwd0RvTWxqNnF0aG8wUTM2ajJHUko2UlNmOElOM3ktaHdYZ3JpZ1YtRGJnVVpQdUlJbFNWb29aQVEyNEppTUtIcjBLcERUeGlvUmJzTmE1RHhHUldKT2l0cmpla2FMNGJ3TEVUQm5ITDhTVHhWWTFXLV9wLVJ4RnVFUEJ0a1FpTzdhbDlLR194QUtHMHBtZlR0a0J3cmhDamZkNUVyMUNfREEyZmNMSGpVc2pkV25WMlBK?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-10-18T15:54:18+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Publicis Groupe"
-      ],
-      "keywords": [],
-      "score": 0.3965,
-      "signals": {
-        "score": 0.3965,
-        "recency": 0.5858970533242137,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 1.0,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1746,10 +2078,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3959,
+      "score": 0.353,
       "signals": {
-        "score": 0.3959,
-        "recency": 0.4396249051317968,
+        "score": 0.353,
+        "recency": 0.2680822422869255,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1759,49 +2091,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "georgina cates dead bbc star clay pigeons actress was 51",
-      "title": "Georgina Cates Dead: BBC Star & \u2018Clay Pigeons\u2019 Actress Was 51",
-      "summary": "Georgina Cates, the actress known for her roles in Clay Pigeons (1998) and several BBC projects, has died.",
-      "image": "https://deadline.com/wp-content/uploads/2026/10/GettyImages-486336193.jpg",
-      "link": "https://deadline.com/2026/10/georgina-cates-dead-bbc-1237167085/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T16:38:18+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Deadline"
-      ],
-      "keywords": [],
-      "score": 0.3915,
-      "signals": {
-        "score": 0.3915,
-        "recency": 0.6620667088032068,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "someone behind the software",
-      "title": "Someone behind the software",
+      "id": "palmos lemmings",
+      "title": "PalmOS Lemmings",
       "summary": "Comments",
-      "image": "https://karrisaarinen.com/static/linear-assets/081de7ffce667bb13cb63d8b2a1d312e19d747ea1d3818af2c5cc1e5a9445e21.webp",
-      "link": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "image": "assets/images/generated/palmos lemmings.jpg",
+      "link": "https://github.com/ardiri/palmos-lemmings",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-18T16:32:00+00:00",
+      "published_at": "2026-10-18T17:56:59+00:00",
       "source_count": 1,
       "source_names": [
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.3886,
+      "score": 0.3516,
       "signals": {
-        "score": 0.3886,
-        "recency": 0.6505813315648882,
+        "score": 0.3516,
+        "recency": 0.502353003554847,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1811,184 +2117,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "the intel 8087 chip floatingpoint addition and subtraction",
-      "title": "The Intel 8087 chip: floating-point addition and subtraction",
-      "summary": "Comments",
-      "image": "assets/images/generated/the intel 8087 chip floatingpoint addition and subtraction.jpg",
-      "link": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-18T16:20:27+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.3835,
-      "signals": {
-        "score": 0.3835,
-        "recency": 0.6300397962943862,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "el gouna unveils third cohort of cinegouna emerge programs rising stars",
-      "title": "El Gouna Unveils Third Cohort Of CineGouna Emerge Program\u2019s Rising Stars",
-      "summary": "EXCLUSIVE: Egypt\u2019s El Gouna Film Festival has announced the third cohort of emerging talents from across the Arab world selected for its Rising Stars program.",
-      "image": "https://deadline.com/wp-content/uploads/2026/10/gff-emerge-rising-stars-1000x667-1.jpg",
-      "link": "https://deadline.com/2026/10/el-gouna-cinegouna-emerge-2026-rising-stars-1237166913/",
+      "id": "cbs news correspondent deletes and apologizes for post lauding heckler at elsayed town hall amid heavy backlash a violation of cbs news standards",
+      "title": "CBS News Correspondent Deletes and Apologizes for Post Lauding Heckler at El-Sayed Town Hall Amid Heavy Backlash: \u2018A Violation of CBS News Standards\u2019",
+      "summary": "Jan Crawford deleted a controversial post amplifying a heckler of Abdul El-Sayed (D), Sunday, and apologized for violating CBS News standards.",
+      "image": "https://am13.mediaite.com/med/cnt/uploads/2026/10/crawford.jpg",
+      "link": "https://www.mediaite.com/media/news/cbs-news-correspondent-deletes-and-apologizes-for-post-lauding-heckler-at-el-sayed-town-hall-amid-heavy-backlash-a-violation-of-cbs-news-standards/",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T12:01:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Deadline"
-      ],
-      "keywords": [
-        "festival",
-        "film"
-      ],
-      "score": 0.3826,
-      "signals": {
-        "score": 0.3826,
-        "recency": 0.3064603985567885,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "you can see everything triumphs with 15m as street fighter wins weekend",
-      "title": "\u2018You Can See Everything\u2019 Triumphs With $15M as \u2018Street Fighter\u2019 Wins Weekend",
-      "summary": "A24's Elizabeth Holmes documentary had audiences pumped, notching 2,000 sellout screenings and becoming the highest-grossing title in two decades for a release under 1,000",
-      "image": "assets/images/generated/you can see everything triumphs with 15m as street fighter wins weekend.jpg",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/street-fighter-box-office-you-can-see-everything-whalefall-1236734312/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T16:04:19+00:00",
-      "source_count": 1,
-      "source_names": [
-        "The Hollywood Reporter"
-      ],
-      "keywords": [],
-      "score": 0.3766,
-      "signals": {
-        "score": 0.3766,
-        "recency": 0.6024280091254424,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "andy mccarthy shreds trump for giving aid and comfort to putin in scorching column demands congress investigate immediately",
-      "title": "Andy McCarthy Shreds Trump for Giving \u2018Aid and Comfort\u2019 to Putin in Scorching Column \u2014 Demands Congress Investigate Immediately",
-      "summary": "\"It has been excruciating to watch America\u2019s president blame the victim,\" McCarthy wrote \u2014 calling out Trump's \"lunatic public statements\" in a stunning column.",
-      "image": "https://am11.mediaite.com/med/cnt/uploads/2025/02/Untitled-design-39.jpg",
-      "link": "https://www.mediaite.com/media/news/andy-mccarthy-shreds-trump-for-giving-aid-and-comfort-to-putin-in-scorching-column-demands-congress-investigate-immediately/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T12:53:40+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Mediaite"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3747,
-      "signals": {
-        "score": 0.3747,
-        "recency": 0.3547398975461997,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "georgina cates an awfully big adventure and clay pigeons actress dies at 51",
-      "title": "Georgina Cates, \u2018An Awfully Big Adventure\u2019 and \u2018Clay Pigeons\u2019 Actress, Dies at 51",
-      "summary": "The Englishwoman started out on the BBC sitcom \u20182point4 Children\u2019 and also appeared in \u2018Illuminata\u2019 and \u2018Jackass: Bad Grandpa.\u2019",
-      "image": "assets/images/generated/georgina cates an awfully big adventure and clay pigeons actress dies at 51.jpg",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/georgina-cates-dead-awfully-big-adventure-skeet-ulrich-1236734334/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T15:48:31+00:00",
-      "source_count": 1,
-      "source_names": [
-        "The Hollywood Reporter"
-      ],
-      "keywords": [],
-      "score": 0.3701,
-      "signals": {
-        "score": 0.3701,
-        "recency": 0.5765599260803296,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "scott bessent says we will own the economy after kristen welker calls him out for blaming biden trumps been president for 636 days",
-      "title": "Scott Bessent Says \u2018We Will Own the Economy\u2019 \u2014 After Kristen Welker Calls Him Out for Blaming Biden: Trump\u2019s Been President for \u2018636 Days\u2019",
-      "summary": "\"I hear you blaming President Biden, but President Trump has been in office now for 636 days,\" Welker told Bessent in a Meet the Press showdown Sunday.",
-      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/Screen-Shot-2026-10-18-at-11-46-08-AM-scaled-e1792338391798.jpg",
-      "link": "https://www.mediaite.com/media/news/scott-bessent-says-we-will-own-the-economy-after-kristen-welker-calls-him-out-for-blaming-biden-trumps-been-president-for-636-days/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T15:48:06+00:00",
+      "published_at": "2026-10-18T17:56:27+00:00",
       "source_count": 1,
       "source_names": [
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.37,
+      "score": 0.3514,
       "signals": {
-        "score": 0.37,
-        "recency": 0.5758929973796302,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "macos 1582 breaks opengl",
-      "title": "macOS 15.8.2 Breaks OpenGL",
-      "summary": "Comments",
-      "image": "assets/images/generated/macos 1582 breaks opengl.jpg",
-      "link": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-18T15:26:06+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.3614,
-      "signals": {
-        "score": 0.3614,
-        "recency": 0.541753317401696,
+        "score": 0.3514,
+        "recency": 0.5016093278897943,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2014,10 +2159,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.3593,
+      "score": 0.3463,
       "signals": {
-        "score": 0.3593,
-        "recency": 0.13314398468517746,
+        "score": 0.3463,
+        "recency": 0.08119089147307919,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2027,25 +2172,25 @@
       "image_failure_reason": ""
     },
     {
-      "id": "the brain sandwich",
-      "title": "The Brain Sandwich",
-      "summary": "Comments",
-      "image": "https://i0.wp.com/terriblesoftware.org/wp-content/uploads/2026/10/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2lzMTk5NzYtaW1hZ2Uta3d2eWVzNXYuanBn.webp?fit=1024%2C683&#038;ssl=1",
-      "link": "https://terriblesoftware.org/2026/10/02/the-brain-sandwich/",
-      "category": "startup",
+      "id": "andy mccarthy shreds trump for giving aid and comfort to putin in scorching column demands congress investigate immediately",
+      "title": "Andy McCarthy Shreds Trump for Giving \u2018Aid and Comfort\u2019 to Putin in Scorching Column \u2014 Demands Congress Investigate Immediately",
+      "summary": "\"It has been excruciating to watch America\u2019s president blame the victim,\" McCarthy wrote \u2014 calling out Trump's \"lunatic public statements\" in a stunning column.",
+      "image": "https://am11.mediaite.com/med/cnt/uploads/2025/02/Untitled-design-39.jpg",
+      "link": "https://www.mediaite.com/media/news/andy-mccarthy-shreds-trump-for-giving-aid-and-comfort-to-putin-in-scorching-column-demands-congress-investigate-immediately/",
+      "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T11:15:37+00:00",
+      "published_at": "2026-10-18T12:53:40+00:00",
       "source_count": 1,
       "source_names": [
-        "Hacker News"
+        "Mediaite"
       ],
       "keywords": [
         "ai"
       ],
-      "score": 0.3535,
+      "score": 0.3401,
       "signals": {
-        "score": 0.3535,
-        "recency": 0.27016252621723774,
+        "score": 0.3401,
+        "recency": 0.21631956254686982,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2055,104 +2200,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "meta removes language that raised scraping and ai training concerns",
-      "title": "Meta removes language that raised scraping and AI training concerns",
-      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/05/meta-ai-GettyImages-2264943773.jpg?w=1024",
-      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-17T21:31:32+00:00",
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch AI"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3528,
-      "signals": {
-        "score": 0.3528,
-        "recency": 0.027382479004924496,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "will it be a golden age or a dark age for mathematics and science",
-      "title": "Will it be a golden age or a dark age for mathematics (and science)?",
+      "id": "mitos editor is a fork of helix",
+      "title": "Mitos editor is a fork of Helix",
       "summary": "Comments",
-      "image": "assets/images/generated/will it be a golden age or a dark age for mathematics and science.jpg",
-      "link": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/",
+      "image": "assets/images/generated/mitos editor is a fork of helix.jpg",
+      "link": "https://mitos.computer/",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-18T15:00:40+00:00",
+      "published_at": "2026-10-18T17:19:34+00:00",
       "source_count": 1,
       "source_names": [
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.3522,
+      "score": 0.3392,
       "signals": {
-        "score": 0.3522,
-        "recency": 0.5048001537188889,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "google adopts pyrefly for faster more accurate python type checking",
-      "title": "Google Adopts Pyrefly for Faster, More Accurate Python Type Checking",
-      "summary": "Google has replaced its long-standing Python type checker, Pytype, with Pyrefly, an open-source tool originally developed by Meta.",
-      "image": "https://res.infoq.com/news/2026/10/google-pyrefly-python/en/headerimage/qodana-php-taint-analysis-1792333929462.jpeg",
-      "link": "https://www.infoq.com/news/2026/10/google-pyrefly-python/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-18T15:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "InfoQ"
-      ],
-      "keywords": [],
-      "score": 0.352,
-      "signals": {
-        "score": 0.352,
-        "recency": 0.5038662036548911,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "java sealed classes and exhaustive pattern matching",
-      "title": "Java sealed classes and exhaustive pattern matching",
-      "summary": "Comments",
-      "image": "https://s0.wp.com/i/blank.jpg?m=1383295312i",
-      "link": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-18T14:47:37+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.3477,
-      "signals": {
-        "score": 0.3477,
-        "recency": 0.48682884600754345,
+        "score": 0.3392,
+        "recency": 0.4527625798109197,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2178,10 +2242,10 @@
         "ai",
         "platform"
       ],
-      "score": 0.3465,
+      "score": 0.3385,
       "signals": {
-        "score": 0.3465,
-        "recency": 0.08203712387539905,
+        "score": 0.3385,
+        "recency": 0.050026046892620836,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2191,268 +2255,155 @@
       "image_failure_reason": ""
     },
     {
-      "id": "the bestdressed stars at the academy museum gala including inde navarrette and taylor swift",
-      "title": "The Best-Dressed Stars at the Academy Museum Gala, Including Inde Navarrette and Taylor Swift",
-      "summary": "Taylor Swift in Dior, Sabrina Carpenter in Giorgio Armani Priv\u00e9 and Colman Domingo in custom Valentino were among the night's wow moments in style.",
-      "image": "assets/images/generated/the bestdressed stars at the academy museum gala including inde navarrette and taylor swift.jpg",
-      "link": "https://www.hollywoodreporter.com/lifestyle/style/best-dressed-stars-academy-museum-gala-2026-1236734403/",
+      "id": "show hn ranet3 high performance policy routed ipsec mesh sdwan",
+      "title": "Show HN: Ranet3 \u2013 High performance policy routed IPsec mesh SD-WAN",
+      "summary": "Comments",
+      "image": "assets/images/generated/show hn ranet3 high performance policy routed ipsec mesh sdwan.jpg",
+      "link": "https://ranet3.com/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T14:31:52+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [
+        "policy"
+      ],
+      "score": 0.337,
+      "signals": {
+        "score": 0.337,
+        "recency": 0.28415917269109686,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "investing in the public benefit",
+      "title": "Investing in the public benefit",
+      "summary": "We\u2019re committing a portion of Anthropic\u2019s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+      "link": "https://www.anthropic.com/news/public-benefit-fund",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-18T16:49:35+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Anthropic News"
+      ],
+      "keywords": [],
+      "score": 0.3271,
+      "signals": {
+        "score": 0.3271,
+        "recency": 0.41658096841771325,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.82,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "georgina cates dead bbc star clay pigeons actress was 51",
+      "title": "Georgina Cates Dead: BBC Star & \u2018Clay Pigeons\u2019 Actress Was 51",
+      "summary": "Georgina Cates, the actress known for her roles in Clay Pigeons (1998) and several BBC projects, has died.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/GettyImages-486336193.jpg",
+      "link": "https://deadline.com/2026/10/georgina-cates-dead-bbc-1237167085/",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T14:27:52+00:00",
+      "published_at": "2026-10-18T16:38:18+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [],
+      "score": 0.3269,
+      "signals": {
+        "score": 0.3269,
+        "recency": 0.40372673560493294,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "someone behind the software",
+      "title": "Someone behind the software",
+      "summary": "Comments",
+      "image": "https://karrisaarinen.com/static/linear-assets/081de7ffce667bb13cb63d8b2a1d312e19d747ea1d3818af2c5cc1e5a9445e21.webp",
+      "link": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T16:32:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.3252,
+      "signals": {
+        "score": 0.3252,
+        "recency": 0.3967229793399492,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the intel 8087 chip floatingpoint addition and subtraction",
+      "title": "The Intel 8087 chip: floating-point addition and subtraction",
+      "summary": "Comments",
+      "image": "assets/images/generated/the intel 8087 chip floatingpoint addition and subtraction.jpg",
+      "link": "https://www.righto.com/2026/10/8087-addition-subtraction-microcode.html",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T16:20:27+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.322,
+      "signals": {
+        "score": 0.322,
+        "recency": 0.3841967990188384,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "you can see everything triumphs with 15m as street fighter wins weekend",
+      "title": "\u2018You Can See Everything\u2019 Triumphs With $15M as \u2018Street Fighter\u2019 Wins Weekend",
+      "summary": "A24's Elizabeth Holmes documentary had audiences pumped, notching 2,000 sellout screenings and becoming the highest-grossing title in two decades for a release under 1,000",
+      "image": "assets/images/generated/you can see everything triumphs with 15m as street fighter wins weekend.jpg",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/street-fighter-box-office-you-can-see-everything-whalefall-1236734312/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T16:04:19+00:00",
       "source_count": 1,
       "source_names": [
         "The Hollywood Reporter"
       ],
       "keywords": [],
-      "score": 0.3412,
+      "score": 0.3178,
       "signals": {
-        "score": 0.3412,
-        "recency": 0.46084027349038686,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "onlyfans creators are pissed that meta lets muse talk dirty",
-      "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
-      "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
-      "image": "https://media.wired.com/photos/6ad240695195eb0dd6087017/master/pass/101626_Naughty%20Meta%20Muse%20OnlyFans.jpg",
-      "link": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-10-18T10:30:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Wired AI"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3395,
-      "signals": {
-        "score": 0.3395,
-        "recency": 0.23800954166316296,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "reverse engineer anything rea can ai really crack closed code",
-      "title": "Reverse Engineer Anything (REA): Can AI Really Crack Closed Code?",
-      "summary": "Every developer hits this wall eventually.",
-      "image": "https://cdn.analyticsvidhya.com/wp-content/uploads/2026/10/REA-Github-Repository.png",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/rea-ai-agent-reverse-engineer-anything/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-18T09:14:08+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Analytics Vidhya"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3342,
-      "signals": {
-        "score": 0.3342,
-        "recency": 0.19278392904930947,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "inferring the host a bayesian look at the monty hall problem",
-      "title": "Inferring the Host: A Bayesian Look at the Monty Hall Problem",
-      "summary": "&quot;Always switch&quot; is true for one particular host.",
-      "image": "assets/images/generated/inferring the host a bayesian look at the monty hall problem.jpg",
-      "link": "https://towardsdatascience.com/inferring-the-host-a-bayesian-look-at-the-monty-hall-problem/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-18T14:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Towards Data Science"
-      ],
-      "keywords": [],
-      "score": 0.3326,
-      "signals": {
-        "score": 0.3326,
-        "recency": 0.42651353318387775,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "rtx spark ignites global celebration as new windows pcs arrive",
-      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-      "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs.",
-      "image": "https://blogs.nvidia.com/wp-content/uploads/2026/10/nvidia-rtx-spark-berlin-oct26-event-tech-blog-1280x680-1.jpg",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-10-17T21:00:13+00:00",
-      "source_count": 1,
-      "source_names": [
-        "NVIDIA Blog"
-      ],
-      "keywords": [
-        "ai",
-        "platform"
-      ],
-      "score": 0.3323,
-      "signals": {
-        "score": 0.3323,
-        "recency": 0.02510112374220638,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "i think of brushstrokes as having a rhythm isabella nalin fais on her career in concept art",
-      "title": "\"I think of brushstrokes as having a rhythm\" \u2013 Isabella Nalin Fais on her career in concept art",
-      "summary": "The Brazilian-born artist talks about her work and influences.",
-      "image": "https://cdn.mos.cms.futurecdn.net/xktifUf3cuTEFf7HGjnVhX-1920-80.jpg",
-      "link": "https://www.creativebloq.com/features/i-think-of-brushstrokes-as-having-a-rhythm-isabella-nalin-fais-on-her-career-in-concept-art",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-10-18T09:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Creative Bloq"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3323,
-      "signals": {
-        "score": 0.3323,
-        "recency": 0.1853620174257375,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "lily allens provocative poster is a massive middle finger to the grammys",
-      "title": "Lily Allen\u2019s provocative poster is a massive middle finger to the Grammys",
-      "summary": "It\u2019s wonderfully unserious.",
-      "image": "https://cdn.mos.cms.futurecdn.net/BhT6oTWDqiKTPmSFZh2gu6-1920-80.jpg",
-      "link": "https://www.creativebloq.com/news/lily-allens-provocative-poster-is-a-massive-middle-finger-to-the-grammys",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-10-18T11:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Creative Bloq"
-      ],
-      "keywords": [
-        "grammys"
-      ],
-      "score": 0.3307,
-      "signals": {
-        "score": 0.3307,
-        "recency": 0.2586935346583835,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "reprapmicron",
-      "title": "RepRapMicron",
-      "summary": "Comments",
-      "image": "assets/images/generated/reprapmicron.jpg",
-      "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-18T13:48:48+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.3294,
-      "signals": {
-        "score": 0.3294,
-        "recency": 0.41344851073246,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "the electronic disturbance theater and electronic civil disobedience 1998",
-      "title": "The Electronic Disturbance Theater and Electronic Civil Disobedience (1998)",
-      "summary": "Comments",
-      "image": "assets/images/generated/the electronic disturbance theater and electronic civil disobedience 1998.jpg",
-      "link": "https://www.thing.net/~rdom/ecd/EDTECD.html",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-18T13:41:06+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.3272,
-      "signals": {
-        "score": 0.3272,
-        "recency": 0.40469920895029926,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "new polls trump hits record low in abcwash post survey whopping 66 of voters say hes using the presidency to enrich himself",
-      "title": "NEW POLLS: Trump Hits Record Low in ABC/Wash. Post Survey \u2014 Whopping 66% of Voters Say He\u2019s \u2018Using the Presidency to Enrich Himself",
-      "summary": "Beyond the grim approval numbers, the headline takeaway is the stunning finding that 66% of voters think Trump is \"using the presidency to enrich himself.\" The post NEW POLLS",
-      "image": "https://am13.mediaite.com/med/cnt/uploads/2026/10/AP26169758951387-768x513-1.jpg",
-      "link": "https://www.mediaite.com/media/news/new-polls-trump-hits-record-low-in-abc-wash-post-survey-whopping-66-of-voters-say-hes-using-the-presidency-to-enrich-himself/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-18T13:36:45+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Mediaite"
-      ],
-      "keywords": [],
-      "score": 0.326,
-      "signals": {
-        "score": 0.326,
-        "recency": 0.39983851931641406,
+        "score": 0.3178,
+        "recency": 0.3673591955723714,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2478,10 +2429,10 @@
         "award",
         "platform"
       ],
-      "score": 0.3237,
+      "score": 0.3168,
       "signals": {
-        "score": 0.3237,
-        "recency": 0.07064270426878308,
+        "score": 0.3168,
+        "recency": 0.04307775637940716,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2491,23 +2442,133 @@
       "image_failure_reason": ""
     },
     {
-      "id": "cabinet approves godelhi foundation to help young innovators startups",
-      "title": "Cabinet approves Go-Delhi Foundation to help young innovators, startups",
-      "summary": "Delhi is home to nearly 21,000 startups recognised by the Department for Promotion of Industry and Internal Trade.",
-      "image": "https://images.yourstory.com/cs/5/80396100-2d6d-11e9-aa97-9329348d4c3e/Incubator1565935018542.png",
-      "link": "https://yourstory.com/2026/10/cabinet-approves-go-delhi-foundation-to-help-young-innovators-startups",
-      "category": "startup",
+      "id": "onlyfans creators are pissed that meta lets muse talk dirty",
+      "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
+      "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
+      "image": "https://media.wired.com/photos/6ad240695195eb0dd6087017/master/pass/101626_Naughty%20Meta%20Muse%20OnlyFans.jpg",
+      "link": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+      "category": "ai",
       "geo": "global",
-      "published_at": "2026-10-18T13:17:59+00:00",
+      "published_at": "2026-10-18T10:30:00+00:00",
       "source_count": 1,
       "source_names": [
-        "YourStory"
+        "Wired AI"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3163,
+      "signals": {
+        "score": 0.3163,
+        "recency": 0.14513766365355366,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "reverse engineer anything rea can ai really crack closed code",
+      "title": "Reverse Engineer Anything (REA): Can AI Really Crack Closed Code?",
+      "summary": "Every developer hits this wall eventually.",
+      "image": "https://cdn.analyticsvidhya.com/wp-content/uploads/2026/10/REA-Github-Repository.png",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/rea-ai-agent-reverse-engineer-anything/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-18T09:14:08+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Analytics Vidhya"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3154,
+      "signals": {
+        "score": 0.3154,
+        "recency": 0.11755919051248585,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "i think of brushstrokes as having a rhythm isabella nalin fais on her career in concept art",
+      "title": "\"I think of brushstrokes as having a rhythm\" \u2013 Isabella Nalin Fais on her career in concept art",
+      "summary": "The Brazilian-born artist talks about her work and influences.",
+      "image": "https://cdn.mos.cms.futurecdn.net/xktifUf3cuTEFf7HGjnVhX-1920-80.jpg",
+      "link": "https://www.creativebloq.com/features/i-think-of-brushstrokes-as-having-a-rhythm-isabella-nalin-fais-on-her-career-in-concept-art",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-18T09:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3143,
+      "signals": {
+        "score": 0.3143,
+        "recency": 0.11303332610654178,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "georgina cates an awfully big adventure and clay pigeons actress dies at 51",
+      "title": "Georgina Cates, \u2018An Awfully Big Adventure\u2019 and \u2018Clay Pigeons\u2019 Actress, Dies at 51",
+      "summary": "The Englishwoman started out on the BBC sitcom \u20182point4 Children\u2019 and also appeared in \u2018Illuminata\u2019 and \u2018Jackass: Bad Grandpa.\u2019",
+      "image": "assets/images/generated/georgina cates an awfully big adventure and clay pigeons actress dies at 51.jpg",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/georgina-cates-dead-awfully-big-adventure-skeet-ulrich-1236734334/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T15:48:31+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Hollywood Reporter"
       ],
       "keywords": [],
-      "score": 0.3209,
+      "score": 0.3139,
       "signals": {
-        "score": 0.3209,
-        "recency": 0.3795290470640749,
+        "score": 0.3139,
+        "recency": 0.3515848988356586,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "scott bessent says we will own the economy after kristen welker calls him out for blaming biden trumps been president for 636 days",
+      "title": "Scott Bessent Says \u2018We Will Own the Economy\u2019 \u2014 After Kristen Welker Calls Him Out for Blaming Biden: Trump\u2019s Been President for \u2018636 Days\u2019",
+      "summary": "\"I hear you blaming President Biden, but President Trump has been in office now for 636 days,\" Welker told Bessent in a Meet the Press showdown Sunday.",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/Screen-Shot-2026-10-18-at-11-46-08-AM-scaled-e1792338391798.jpg",
+      "link": "https://www.mediaite.com/media/news/scott-bessent-says-we-will-own-the-economy-after-kristen-welker-calls-him-out-for-blaming-biden-trumps-been-president-for-636-days/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-18T15:48:06+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.3138,
+      "signals": {
+        "score": 0.3138,
+        "recency": 0.35117820726872967,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2532,14 +2593,42 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3193,
+      "score": 0.3063,
       "signals": {
-        "score": 0.3193,
-        "recency": 0.13314398468517746,
+        "score": 0.3063,
+        "recency": 0.08119089147307919,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "lily allens provocative poster is a massive middle finger to the grammys",
+      "title": "Lily Allen\u2019s provocative poster is a massive middle finger to the Grammys",
+      "summary": "It\u2019s wonderfully unserious.",
+      "image": "https://cdn.mos.cms.futurecdn.net/BhT6oTWDqiKTPmSFZh2gu6-1920-80.jpg",
+      "link": "https://www.creativebloq.com/news/lily-allens-provocative-poster-is-a-massive-middle-finger-to-the-grammys",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-18T11:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [
+        "grammys"
+      ],
+      "score": 0.3054,
+      "signals": {
+        "score": 0.3054,
+        "recency": 0.15775071436309757,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2560,10 +2649,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3192,
+      "score": 0.3039,
       "signals": {
-        "score": 0.3192,
-        "recency": 0.15690556023974236,
+        "score": 0.3039,
+        "recency": 0.09568064485278874,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2573,26 +2662,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "show hn the zelda timeline to catch up before the ocarina of time remake",
-      "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
-      "summary": "Comments",
-      "image": "assets/images/generated/show hn the zelda timeline to catch up before the ocarina of time remake.jpg",
-      "link": "https://legendofhyrule.com/",
-      "category": "startup",
+      "id": "publicis groupe confirms outlook what it means for publicis groupe stock adhocnewsde",
+      "title": "Publicis Groupe confirms outlook. What it means for Publicis Groupe stock - ad-hoc-news.de",
+      "summary": "Publicis Groupe confirms outlook. What it means for Publicis Groupe stock &nbsp;&nbsp; ad-hoc-news.de",
+      "image": "assets/images/generated/publicis groupe confirms outlook what it means for publicis groupe stock adhocnewsde.jpg",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdkoyZ0c2dHZQNU5CZHN5ZWwzb1NRTEYwd0RvTWxqNnF0aG8wUTM2ajJHUko2UlNmOElOM3ktaHdYZ3JpZ1YtRGJnVVpQdUlJbFNWb29aQVEyNEppTUtIcjBLcERUeGlvUmJzTmE1RHhHUldKT2l0cmpla2FMNGJ3TEVUQm5ITDhTVHhWWTFXLV9wLVJ4RnVFUEJ0a1FpTzdhbDlLR194QUtHMHBtZlR0a0J3cmhDamZkNUVyMUNfREEyZmNMSGpVc2pkV25WMlBK?oc=5",
+      "category": "advertising",
       "geo": "global",
-      "published_at": "2026-10-18T13:06:54+00:00",
+      "published_at": "2026-10-18T15:54:18+00:00",
       "source_count": 1,
       "source_names": [
-        "Hacker News"
+        "Google News - Publicis Groupe"
       ],
       "keywords": [],
-      "score": 0.318,
+      "score": 0.3033,
       "signals": {
-        "score": 0.318,
-        "recency": 0.36802250722010565,
+        "score": 0.3033,
+        "recency": 0.3572786572620798,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -2614,14 +2703,66 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3138,
+      "score": 0.303,
       "signals": {
-        "score": 0.3138,
-        "recency": 0.11121120423612738,
+        "score": 0.303,
+        "recency": 0.06781633308538848,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "google adopts pyrefly for faster more accurate python type checking",
+      "title": "Google Adopts Pyrefly for Faster, More Accurate Python Type Checking",
+      "summary": "Google has replaced its long-standing Python type checker, Pytype, with Pyrefly, an open-source tool originally developed by Meta.",
+      "image": "https://res.infoq.com/news/2026/10/google-pyrefly-python/en/headerimage/qodana-php-taint-analysis-1792333929462.jpeg",
+      "link": "https://www.infoq.com/news/2026/10/google-pyrefly-python/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-18T15:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "InfoQ"
+      ],
+      "keywords": [],
+      "score": 0.3028,
+      "signals": {
+        "score": 0.3028,
+        "recency": 0.3072564363656979,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "java sealed classes and exhaustive pattern matching",
+      "title": "Java sealed classes and exhaustive pattern matching",
+      "summary": "Comments",
+      "image": "https://s0.wp.com/i/blank.jpg?m=1383295312i",
+      "link": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T14:47:37+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.3002,
+      "signals": {
+        "score": 0.3002,
+        "recency": 0.2968670953901769,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2642,40 +2783,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3081,
+      "score": 0.2995,
       "signals": {
-        "score": 0.3081,
-        "recency": 0.08849204099779169,
+        "score": 0.2995,
+        "recency": 0.05396224030602293,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "both charts are right so why do they disagree",
-      "title": "Both Charts Are Right. So Why Do They Disagree?",
-      "summary": "The statistical paradox that shows how combining data can reverse the story.",
-      "image": "assets/images/generated/both charts are right so why do they disagree.jpg",
-      "link": "https://towardsdatascience.com/both-charts-are-right-so-why-do-they-disagree/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-18T12:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Towards Data Science"
-      ],
-      "keywords": [],
-      "score": 0.3024,
-      "signals": {
-        "score": 0.3024,
-        "recency": 0.30561030090970126,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2696,10 +2811,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3001,
+      "score": 0.2923,
       "signals": {
-        "score": 0.3001,
-        "recency": 0.08055800069848333,
+        "score": 0.2923,
+        "recency": 0.049124081027499426,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2709,23 +2824,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "open micromanipulator a submicrometer 3d motion control plattform",
-      "title": "Open MicroManipulator \u2013 A sub-micrometer 3D motion control plattform",
-      "summary": "Comments",
-      "image": "assets/images/generated/open micromanipulator a submicrometer 3d motion control plattform.jpg",
-      "link": "https://github.com/0x23/MicroManipulatorStepper",
-      "category": "startup",
+      "id": "inferring the host a bayesian look at the monty hall problem",
+      "title": "Inferring the Host: A Bayesian Look at the Monty Hall Problem",
+      "summary": "&quot;Always switch&quot; is true for one particular host.",
+      "image": "assets/images/generated/inferring the host a bayesian look at the monty hall problem.jpg",
+      "link": "https://towardsdatascience.com/inferring-the-host-a-bayesian-look-at-the-monty-hall-problem/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-10-18T11:16:22+00:00",
+      "published_at": "2026-10-18T14:00:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Hacker News"
+        "Towards Data Science"
       ],
       "keywords": [],
-      "score": 0.2937,
+      "score": 0.291,
       "signals": {
-        "score": 0.2937,
-        "recency": 0.27072595151108625,
+        "score": 0.291,
+        "recency": 0.26008695823857914,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2750,10 +2865,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2936,
+      "score": 0.2906,
       "signals": {
-        "score": 0.2936,
-        "recency": 0.030342283821764612,
+        "score": 0.2906,
+        "recency": 0.018502653939968146,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2763,57 +2878,27 @@
       "image_failure_reason": ""
     },
     {
-      "id": "no kings instagram page yanked in midst of antitrump protests",
-      "title": "No Kings Instagram Page Yanked In Midst of Anti-Trump Protests",
-      "summary": "Meta inexplicably yanked the main accounts for the No Kings Coalition in the midst of Saturday's protests across the country.",
-      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f6a8.png",
-      "link": "https://www.mediaite.com/media/news/no-kings-instagram-page-yanked-in-midst-of-anti-trump-protests/",
-      "category": "media",
+      "id": "reprapmicron",
+      "title": "RepRapMicron",
+      "summary": "Comments",
+      "image": "assets/images/generated/reprapmicron.jpg",
+      "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
+      "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-17T22:01:09+00:00",
+      "published_at": "2026-10-18T13:48:48+00:00",
       "source_count": 1,
       "source_names": [
-        "Mediaite"
+        "Hacker News"
       ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2934,
+      "keywords": [],
+      "score": 0.289,
       "signals": {
-        "score": 0.2934,
-        "recency": 0.029730453028913632,
-        "keyword_volume": 0.2,
+        "score": 0.289,
+        "recency": 0.2521199380051483,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "democratic congresswoman calls out her own party for embracing dangerous hasan piker",
-      "title": "Democratic Congresswoman Calls Out Her Own Party for Embracing \u2018Dangerous\u2019 Hasan Piker",
-      "summary": "Rep. Angie Craig (D-MN) called out her fellow Democrats for cozying up to socialist streamer Hasan Piker and his \"dangerous\" rhetoric in a Saturday post on X The post Democratic",
-      "image": "https://am12.mediaite.com/med/cnt/uploads/2026/10/Untitled-Design-2026-10-17T141353-409.jpg",
-      "link": "https://www.mediaite.com/politics/angie-craig-calls-out-democrats-for-embracing-hasan-piker-dangerous/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-17T21:49:45+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Mediaite"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2932,
-      "signals": {
-        "score": 0.2932,
-        "recency": 0.028803739093033656,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2834,10 +2919,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2931,
+      "score": 0.288,
       "signals": {
-        "score": 0.2931,
-        "recency": 0.05221723515320154,
+        "score": 0.288,
+        "recency": 0.03184194826655072,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2862,10 +2947,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2919,
+      "score": 0.2872,
       "signals": {
-        "score": 0.2919,
-        "recency": 0.04754653482711839,
+        "score": 0.2872,
+        "recency": 0.02899376609613599,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -2875,84 +2960,27 @@
       "image_failure_reason": ""
     },
     {
-      "id": "aws will run its european sovereign cloud without the global backbone for several hours",
-      "title": "AWS Will Run Its European Sovereign Cloud Without the Global Backbone for Several Hours",
-      "summary": "On October 24, AWS will operate its European Sovereign Cloud without a connection to the AWS Global Network backbone, with a team of EU residents and the region\u2019s own hardware",
-      "image": "https://res.infoq.com/news/2026/10/aws-sovereign-cloud-exercise/en/headerimage/generatedHeaderImage-1791945895599.jpg",
-      "link": "https://www.infoq.com/news/2026/10/aws-sovereign-cloud-exercise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "category": "technology",
+      "id": "new polls trump hits record low in abcwash post survey whopping 66 of voters say hes using the presidency to enrich himself",
+      "title": "NEW POLLS: Trump Hits Record Low in ABC/Wash. Post Survey \u2014 Whopping 66% of Voters Say He\u2019s \u2018Using the Presidency to Enrich Himself",
+      "summary": "Beyond the grim approval numbers, the headline takeaway is the stunning finding that 66% of voters think Trump is \"using the presidency to enrich himself.\" The post NEW POLLS",
+      "image": "https://am13.mediaite.com/med/cnt/uploads/2026/10/AP26169758951387-768x513-1.jpg",
+      "link": "https://www.mediaite.com/media/news/new-polls-trump-hits-record-low-in-abc-wash-post-survey-whopping-66-of-voters-say-hes-using-the-presidency-to-enrich-himself/",
+      "category": "media",
       "geo": "global",
-      "published_at": "2026-10-18T05:30:00+00:00",
+      "published_at": "2026-10-18T13:36:45+00:00",
       "source_count": 1,
       "source_names": [
-        "InfoQ"
-      ],
-      "keywords": [
-        "cloud"
-      ],
-      "score": 0.2919,
-      "signals": {
-        "score": 0.2919,
-        "recency": 0.10343852041440144,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "anthropic says its workforce has become less junior and is spending more time in meetings",
-      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "summary": "The composition of Anthropic\u2019s workforce and the type of work getting done have changed significantly in the past year.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
-      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-17T20:21:19+00:00",
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch AI"
+        "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2916,
+      "score": 0.287,
       "signals": {
-        "score": 0.2916,
-        "recency": 0.02253020965933574,
+        "score": 0.287,
+        "recency": 0.24382059696753,
         "keyword_volume": 0.0,
-        "source_signal": 0.4,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "meet kyutai reki the 24b vla model bringing efficient memory to robot manipulation",
-      "title": "Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation",
-      "summary": "Kyutai, with Inria and \u00c9cole des Ponts, has released REKI, a 2.4B vision-language-action model (VLA) for robot manipulation.",
-      "image": "assets/images/generated/meet kyutai reki the 24b vla model bringing efficient memory to robot manipulation.jpg",
-      "link": "https://www.marktechpost.com/2026/10/17/meet-kyutai-reki-the-2-4b-vla-model-bringing-efficient-memory-to-robot-manipulation/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-10-17T20:22:11+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2916,
-      "signals": {
-        "score": 0.2916,
-        "recency": 0.022584514393542345,
-        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2973,14 +3001,40 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.291,
+      "score": 0.2867,
       "signals": {
-        "score": 0.291,
-        "recency": 0.04390724244350129,
+        "score": 0.2867,
+        "recency": 0.026774534084598074,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "cabinet approves godelhi foundation to help young innovators startups",
+      "title": "Cabinet approves Go-Delhi Foundation to help young innovators, startups",
+      "summary": "Delhi is home to nearly 21,000 startups recognised by the Department for Promotion of Industry and Internal Trade.",
+      "image": "https://images.yourstory.com/cs/5/80396100-2d6d-11e9-aa97-9329348d4c3e/Incubator1565935018542.png",
+      "link": "https://yourstory.com/2026/10/cabinet-approves-go-delhi-foundation-to-help-young-innovators-startups",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T13:17:59+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [],
+      "score": 0.2839,
+      "signals": {
+        "score": 0.2839,
+        "recency": 0.2314359281339049,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -3001,14 +3055,148 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2878,
+      "score": 0.2824,
       "signals": {
-        "score": 0.2878,
-        "recency": 0.05515686045577851,
+        "score": 0.2824,
+        "recency": 0.03363452492314836,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.76,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "show hn the zelda timeline to catch up before the ocarina of time remake",
+      "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+      "summary": "Comments",
+      "image": "assets/images/generated/show hn the zelda timeline to catch up before the ocarina of time remake.jpg",
+      "link": "https://legendofhyrule.com/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T13:06:54+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.2821,
+      "signals": {
+        "score": 0.2821,
+        "recency": 0.22441926696133005,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "aws will run its european sovereign cloud without the global backbone for several hours",
+      "title": "AWS Will Run Its European Sovereign Cloud Without the Global Backbone for Several Hours",
+      "summary": "On October 24, AWS will operate its European Sovereign Cloud without a connection to the AWS Global Network backbone, with a team of EU residents and the region\u2019s own hardware",
+      "image": "https://res.infoq.com/news/2026/10/aws-sovereign-cloud-exercise/en/headerimage/generatedHeaderImage-1791945895599.jpg",
+      "link": "https://www.infoq.com/news/2026/10/aws-sovereign-cloud-exercise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-18T05:30:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "InfoQ"
+      ],
+      "keywords": [
+        "cloud"
+      ],
+      "score": 0.2818,
+      "signals": {
+        "score": 0.2818,
+        "recency": 0.06307656861073734,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "both charts are right so why do they disagree",
+      "title": "Both Charts Are Right. So Why Do They Disagree?",
+      "summary": "The statistical paradox that shows how combining data can reverse the story.",
+      "image": "assets/images/generated/both charts are right so why do they disagree.jpg",
+      "link": "https://towardsdatascience.com/both-charts-are-right-so-why-do-they-disagree/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-18T12:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Towards Data Science"
+      ],
+      "keywords": [],
+      "score": 0.2726,
+      "signals": {
+        "score": 0.2726,
+        "recency": 0.1863604490498395,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "beyond tetris the other games of alexey pajitnov video",
+      "title": "Beyond Tetris: The other games of Alexey Pajitnov [video]",
+      "summary": "Comments",
+      "image": "assets/images/generated/beyond tetris the other games of alexey pajitnov video.jpg",
+      "link": "https://www.youtube.com/watch?v=QH_LPimUJMs",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-17T23:08:30+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [
+        "game"
+      ],
+      "score": 0.2715,
+      "signals": {
+        "score": 0.2715,
+        "recency": 0.021859314879523743,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "open micromanipulator a submicrometer 3d motion control plattform",
+      "title": "Open MicroManipulator \u2013 A sub-micrometer 3D motion control plattform",
+      "summary": "Comments",
+      "image": "assets/images/generated/open micromanipulator a submicrometer 3d motion control plattform.jpg",
+      "link": "https://github.com/0x23/MicroManipulatorStepper",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T11:16:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.2673,
+      "signals": {
+        "score": 0.2673,
+        "recency": 0.16508805410966285,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -3027,10 +3215,10 @@
         "Adweek"
       ],
       "keywords": [],
-      "score": 0.2847,
+      "score": 0.2594,
       "signals": {
-        "score": 0.2847,
-        "recency": 0.2586935346583835,
+        "score": 0.2594,
+        "recency": 0.15775071436309757,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -3053,39 +3241,13 @@
         "Tech in Asia"
       ],
       "keywords": [],
-      "score": 0.2847,
+      "score": 0.2594,
       "signals": {
-        "score": 0.2847,
-        "recency": 0.2586935346583835,
+        "score": 0.2594,
+        "recency": 0.15775071436309757,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "legal experts warn metas new terms still grant broad scraping permissions",
-      "title": "Legal experts warn Meta's new terms still grant broad scraping permissions",
-      "summary": "Comments",
-      "image": "https://www.niemanlab.org/images/AdobeStock_1108807119_Editorial_Use_Only-700x440.jpeg",
-      "link": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-18T10:21:51+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.2842,
-      "signals": {
-        "score": 0.2842,
-        "recency": 0.23268180466332797,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -3105,10 +3267,10 @@
         "Creative Bloq"
       ],
       "keywords": [],
-      "score": 0.2807,
+      "score": 0.2594,
       "signals": {
-        "score": 0.2807,
-        "recency": 0.21897934943567832,
+        "score": 0.2594,
+        "recency": 0.1335330967968014,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3131,10 +3293,10 @@
         "Wired AI"
       ],
       "keywords": [],
-      "score": 0.2795,
+      "score": 0.2563,
       "signals": {
-        "score": 0.2795,
-        "recency": 0.23800954166316296,
+        "score": 0.2563,
+        "recency": 0.14513766365355366,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -3144,26 +3306,24 @@
       "image_failure_reason": ""
     },
     {
-      "id": "james mcavoy pitched star trek series about young picard jokes all i really want to do is play young patrick stewart",
-      "title": "James McAvoy Pitched \u2018Star Trek\u2019 Series About \u201cYoung Picard,\u201d Jokes \u201cAll I Really Want To Do\u201d Is Play Young Patrick Stewart",
-      "summary": "After putting in his tenure in the X-Men franchise, James McAvoy had his sights set on another iconic character originated by Patrick Stewart.",
-      "image": "https://deadline.com/wp-content/uploads/2026/10/Patrick-Stewart-James-McAvoy-Picard-2-shot.jpg",
-      "link": "https://deadline.com/2026/10/james-mcavoy-pitched-star-trek-series-young-picard-1237166532/",
-      "category": "media",
+      "id": "vance defends indentured servants remark on h1b workers admits rhetoric has been imperfect",
+      "title": "Vance defends 'indentured servants' remark on H-1B workers, admits 'rhetoric' has been 'imperfect'",
+      "summary": "The US Vice President clarified that he meant US companies and the visa system, not H-1B visa holders.",
+      "image": "https://images.yourstory.com/cs/2/96eabe90392211eb93f18319e8c07a74/Imagec1tp-1681224111007.jpg",
+      "link": "https://yourstory.com/2026/10/vance-defends-indentured-servants-remark-on-h-1b-workers",
+      "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-18T00:29:09+00:00",
+      "published_at": "2026-10-18T08:38:28+00:00",
       "source_count": 1,
       "source_names": [
-        "Deadline"
+        "YourStory"
       ],
-      "keywords": [
-        "series"
-      ],
-      "score": 0.2772,
+      "keywords": [],
+      "score": 0.2526,
       "signals": {
-        "score": 0.2772,
-        "recency": 0.04484817901964055,
-        "keyword_volume": 0.2,
+        "score": 0.2526,
+        "recency": 0.10647049257257435,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -3185,123 +3345,13 @@
         "Google News - WPP"
       ],
       "keywords": [],
-      "score": 0.2771,
+      "score": 0.2525,
       "signals": {
-        "score": 0.2771,
-        "recency": 0.2523297313123499,
+        "score": 0.2525,
+        "recency": 0.1538700819181129,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "beyond tetris the other games of alexey pajitnov video",
-      "title": "Beyond Tetris: The Other Games of Alexey Pajitnov [video]",
-      "summary": "Comments",
-      "image": "assets/images/generated/beyond tetris the other games of alexey pajitnov video.jpg",
-      "link": "https://www.youtube.com/watch?v=QH_LPimUJMs",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-17T23:08:30+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [
-        "game"
-      ],
-      "score": 0.275,
-      "signals": {
-        "score": 0.275,
-        "recency": 0.03584683248012874,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "tiktok permanently bans musk documentary advertising account",
-      "title": "TikTok permanently bans \u2018Musk\u2019 documentary advertising account",
-      "summary": "A four-hour documentary about Elon Musk continues to meet resistance from social media platforms.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297262633.jpg?resize=1200,800",
-      "link": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-17T20:55:52+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [
-        "platform"
-      ],
-      "score": 0.2722,
-      "signals": {
-        "score": 0.2722,
-        "recency": 0.024799643607641565,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "bono wants to know how any good christian or jew could support elon musks unconscionable doge cuts",
-      "title": "Bono Wants to Know How Any Good Christian or Jew Could Support Elon Musk\u2019s \u2018Unconscionable\u2019 DOGE Cuts",
-      "summary": "U2 singer Bono asked during a NYT interview how any good Christian or Jew could possibly support Elon Musk's efforts to cut government programs with DOGE.",
-      "image": "assets/images/generated/bono wants to know how any good christian or jew could support elon musks unconscionable doge cuts.jpg",
-      "link": "https://www.mediaite.com/media/bono-wants-to-know-how-any-good-christian-or-jew-could-support-elon-musks-unconscionable-doge-cuts/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-17T20:39:39+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Mediaite"
-      ],
-      "keywords": [
-        "govern"
-      ],
-      "score": 0.2719,
-      "signals": {
-        "score": 0.2719,
-        "recency": 0.023707299253706154,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "vance defends indentured servants remark on h1b workers admits rhetoric has been imperfect",
-      "title": "Vance defends 'indentured servants' remark on H-1B workers, admits 'rhetoric' has been 'imperfect'",
-      "summary": "The US Vice President clarified that he meant US companies and the visa system, not H-1B visa holders.",
-      "image": "https://images.yourstory.com/cs/2/96eabe90392211eb93f18319e8c07a74/Imagec1tp-1681224111007.jpg",
-      "link": "https://yourstory.com/2026/10/vance-defends-indentured-servants-remark-on-h-1b-workers",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-18T08:38:28+00:00",
-      "source_count": 1,
-      "source_names": [
-        "YourStory"
-      ],
-      "keywords": [],
-      "score": 0.2696,
-      "signals": {
-        "score": 0.2696,
-        "recency": 0.17459970417009782,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -3321,10 +3371,10 @@
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.2675,
+      "score": 0.2513,
       "signals": {
-        "score": 0.2675,
-        "recency": 0.1658154758315396,
+        "score": 0.2513,
+        "recency": 0.10111389060969178,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3347,10 +3397,36 @@
         "MarkTechPost"
       ],
       "keywords": [],
-      "score": 0.2669,
+      "score": 0.2509,
       "signals": {
-        "score": 0.2669,
-        "recency": 0.16361170189311858,
+        "score": 0.2509,
+        "recency": 0.09977003439952493,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "fmcg firms grapple with input cost inflation in q2 brace for margin pressure",
+      "title": "FMCG firms grapple with input cost inflation in Q2, brace for margin pressure",
+      "summary": "Input-cost pressures intensified in the September quarter, reversing some of the moderation seen in the preceding quarter, which squeezed margins even as companies absorbed part",
+      "image": "https://images.yourstory.com/cs/2/eab8e580-2d6a-11e9-aa97-9329348d4c3e/hanson-lu-1116266-unsplash1559727553285.jpg",
+      "link": "https://yourstory.com/2026/10/fmcg-firms-input-cost-inflation-margin-pressure",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T07:51:23+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [],
+      "score": 0.2494,
+      "signals": {
+        "score": 0.2494,
+        "recency": 0.0934177009249674,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3373,39 +3449,13 @@
         "Tech in Asia"
       ],
       "keywords": [],
-      "score": 0.2663,
+      "score": 0.2483,
       "signals": {
-        "score": 0.2663,
-        "recency": 0.1853620174257375,
+        "score": 0.2483,
+        "recency": 0.11303332610654178,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "fmcg firms grapple with input cost inflation in q2 brace for margin pressure",
-      "title": "FMCG firms grapple with input cost inflation in Q2, brace for margin pressure",
-      "summary": "Input-cost pressures intensified in the September quarter, reversing some of the moderation seen in the preceding quarter, which squeezed margins even as companies absorbed part",
-      "image": "https://images.yourstory.com/cs/2/eab8e580-2d6a-11e9-aa97-9329348d4c3e/hanson-lu-1116266-unsplash1559727553285.jpg",
-      "link": "https://yourstory.com/2026/10/fmcg-firms-input-cost-inflation-margin-pressure",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-18T07:51:23+00:00",
-      "source_count": 1,
-      "source_names": [
-        "YourStory"
-      ],
-      "keywords": [],
-      "score": 0.2643,
-      "signals": {
-        "score": 0.2643,
-        "recency": 0.15319458520051446,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -3425,10 +3475,36 @@
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.2583,
+      "score": 0.2457,
       "signals": {
-        "score": 0.2583,
-        "recency": 0.12939455721122176,
+        "score": 0.2457,
+        "recency": 0.07890449934020194,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "starlink jio oneweb untangling the satcom queue",
+      "title": "Starlink, Jio & OneWeb: Untangling The Satcom Queue",
+      "summary": "The irony was not lost on many. Around the same time as the internet in India\u2019s national capital Delhi was&#8230",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/Starlink-Jio-outline-Ftr.jpg",
+      "link": "https://inc42.com/features/starlink-jio-oneweb-untangling-the-satcom-queue/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T05:30:39+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Inc42"
+      ],
+      "keywords": [],
+      "score": 0.2418,
+      "signals": {
+        "score": 0.2418,
+        "recency": 0.06319055973730583,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3451,39 +3527,13 @@
         "Tech in Asia"
       ],
       "keywords": [],
-      "score": 0.2532,
+      "score": 0.2402,
       "signals": {
-        "score": 0.2532,
-        "recency": 0.13281768927666524,
+        "score": 0.2402,
+        "recency": 0.08099191729363488,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "starlink jio oneweb untangling the satcom queue",
-      "title": "Starlink, Jio & OneWeb: Untangling The Satcom Queue",
-      "summary": "The irony was not lost on many. Around the same time as the internet in India\u2019s national capital Delhi was&#8230",
-      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/Starlink-Jio-outline-Ftr.jpg",
-      "link": "https://inc42.com/features/starlink-jio-oneweb-untangling-the-satcom-queue/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-18T05:30:39+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Inc42"
-      ],
-      "keywords": [],
-      "score": 0.2519,
-      "signals": {
-        "score": 0.2519,
-        "recency": 0.10362545311750056,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -3503,10 +3553,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2472,
+      "score": 0.2389,
       "signals": {
-        "score": 0.2472,
-        "recency": 0.08461775353221736,
+        "score": 0.2389,
+        "recency": 0.05159970884133274,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3529,10 +3579,10 @@
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.244,
+      "score": 0.237,
       "signals": {
-        "score": 0.244,
-        "recency": 0.0720497649545727,
+        "score": 0.237,
+        "recency": 0.04393577870543343,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3555,10 +3605,10 @@
         "YourStory"
       ],
       "keywords": [],
-      "score": 0.2421,
+      "score": 0.2358,
       "signals": {
-        "score": 0.2421,
-        "recency": 0.06430900401505478,
+        "score": 0.2358,
+        "recency": 0.0392154807299334,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3581,10 +3631,36 @@
         "YourStory"
       ],
       "keywords": [],
-      "score": 0.2404,
+      "score": 0.2348,
       "signals": {
-        "score": 0.2404,
-        "recency": 0.05772232981768851,
+        "score": 0.2348,
+        "recency": 0.03519894215936716,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "dogs seem to agree with humans that bouba is round and kiki is spiky",
+      "title": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+      "summary": "Comments",
+      "image": "https://www.sciencealert.com/images/2026/10/GettyImages-597067015-2560x1440-1.jpg",
+      "link": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-18T01:38:08+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.2343,
+      "signals": {
+        "score": 0.2343,
+        "recency": 0.03312456953728191,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3607,10 +3683,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2389,
+      "score": 0.2339,
       "signals": {
-        "score": 0.2389,
-        "recency": 0.05173836897501163,
+        "score": 0.2339,
+        "recency": 0.031549936787432974,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3633,10 +3709,10 @@
         "Inc42"
       ],
       "keywords": [],
-      "score": 0.2389,
+      "score": 0.2339,
       "signals": {
-        "score": 0.2389,
-        "recency": 0.05149462485918152,
+        "score": 0.2339,
+        "recency": 0.031401302193821,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3659,39 +3735,13 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2375,
+      "score": 0.233,
       "signals": {
-        "score": 0.2375,
-        "recency": 0.04611569540996459,
+        "score": 0.233,
+        "recency": 0.028121243555157317,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "china mobile hong kong trials u6g for nextgen networks",
-      "title": "China Mobile Hong Kong trials U6G for next-gen networks",
-      "summary": "The telco won 100MHz of contiguous spectrum in Hong Kong's November 2024 auction.",
-      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/05/1777768646_1737014009_shutterstock_1653927502-scaled-1.jpg",
-      "link": "https://www.techinasia.com/news/china-mobile-hong-kong-tests-6ghz-network",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-18T02:50:36+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Tech in Asia"
-      ],
-      "keywords": [],
-      "score": 0.2366,
-      "signals": {
-        "score": 0.2366,
-        "recency": 0.06643338078188342,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -3711,10 +3761,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2365,
+      "score": 0.2324,
       "signals": {
-        "score": 0.2365,
-        "recency": 0.042023823758597534,
+        "score": 0.2324,
+        "recency": 0.025626029761207373,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3737,10 +3787,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2361,
+      "score": 0.2321,
       "signals": {
-        "score": 0.2361,
-        "recency": 0.04033307592972635,
+        "score": 0.2321,
+        "recency": 0.024595015676667158,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3763,10 +3813,36 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2355,
+      "score": 0.2318,
       "signals": {
-        "score": 0.2355,
-        "recency": 0.03790169935987943,
+        "score": 0.2318,
+        "recency": 0.02311236791244862,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "theres never been a better time to go into math by 3blue1brown video",
+      "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+      "summary": "Comments",
+      "image": "assets/images/generated/theres never been a better time to go into math by 3blue1brown video.jpg",
+      "link": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-17T23:26:35+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.2317,
+      "signals": {
+        "score": 0.2317,
+        "recency": 0.022985385994854956,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3789,10 +3865,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2344,
+      "score": 0.2311,
       "signals": {
-        "score": 0.2344,
-        "recency": 0.03372490852853673,
+        "score": 0.2311,
+        "recency": 0.020565370600514846,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3802,23 +3878,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "newsnation turns to mini trump and mini melania from mini oval office to give midterms take in bizarre segment",
-      "title": "NewsNation Turns to \u2018Mini Trump\u2019 and \u2018Mini Melania\u2019 From \u2018Mini Oval Office\u2019 to Give Midterms Take in Bizarre Segment",
-      "summary": "NewsNation's Katie Pavlich turned to an unusual source for a perspective on the increasing name-calling going on in midterm elections: Mini Trump.",
-      "image": "assets/images/generated/newsnation turns to mini trump and mini melania from mini oval office to give midterms take in bizarre segment.jpg",
-      "link": "https://www.mediaite.com/media/tv/newsnation-turns-to-mini-trump-and-mini-melania-from-mini-oval-office-to-give-midterms-take-in-bizarre-segment/",
-      "category": "media",
+      "id": "i built a programming language that llms cant use",
+      "title": "I built a programming language that LLMs can't use",
+      "summary": "Comments",
+      "image": "https://blog.picheta.me/_astro/killswitch-banner.0YTJ74BT.png",
+      "link": "https://blog.picheta.me/post/killswitch-lang/",
+      "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-17T21:15:52+00:00",
+      "published_at": "2026-10-17T22:26:47+00:00",
       "source_count": 1,
       "source_names": [
-        "Mediaite"
+        "Hacker News"
       ],
       "keywords": [],
-      "score": 0.2326,
+      "score": 0.2309,
       "signals": {
-        "score": 0.2326,
-        "recency": 0.02621639131780374,
+        "score": 0.2309,
+        "recency": 0.019467521470216183,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3828,52 +3904,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "its unfortunate gavin newsom breaks silence over exwife kimberly guilfoyles firing",
-      "title": "\u2018It\u2019s Unfortunate\u2019: Gavin Newsom Breaks Silence Over Ex-Wife Kimberly Guilfoyle\u2019s Firing",
-      "summary": "Gavin Newsom has broken his silence over his ex-wife Kimberly Guilfoyle being fired from her ambassadorship to Greece for alleged corruption.",
-      "image": "https://am14.mediaite.com/med/cnt/uploads/2026/10/guilfoyle.jpeg",
-      "link": "https://www.mediaite.com/media/news/its-unfortunate-gavin-newsom-breaks-silence-over-ex-wife-kimberly-guilfoyles-firing/",
-      "category": "media",
+      "id": "china mobile hong kong trials u6g for nextgen networks",
+      "title": "China Mobile Hong Kong trials U6G for next-gen networks",
+      "summary": "The telco won 100MHz of contiguous spectrum in Hong Kong's November 2024 auction.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/05/1777768646_1737014009_shutterstock_1653927502-scaled-1.jpg",
+      "link": "https://www.techinasia.com/news/china-mobile-hong-kong-tests-6ghz-network",
+      "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-17T21:08:23+00:00",
+      "published_at": "2026-10-18T02:50:36+00:00",
       "source_count": 1,
       "source_names": [
-        "Mediaite"
+        "Tech in Asia"
       ],
       "keywords": [],
-      "score": 0.2324,
+      "score": 0.2301,
       "signals": {
-        "score": 0.2324,
-        "recency": 0.02567705524050445,
+        "score": 0.2301,
+        "recency": 0.040510920729955525,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "washpo photog claps back after benjamin netanyahu casts doubt on israeli settler attack maybe take another look at those videos okay",
-      "title": "WashPo Photog Claps Back after Benjamin Netanyahu Casts Doubt on Israeli Settler Attack: \u2018Maybe Take Another Look at Those Videos, Okay?\u2019",
-      "summary": "\"Mr. Prime Minister, maybe take another look at those videos, okay?",
-      "image": "https://am13.mediaite.com/med/cnt/uploads/2026/10/heidi-levine.jpg",
-      "link": "https://www.mediaite.com/media/news/washpo-photog-claps-back-after-benjamin-netanyahu-casts-doubt-on-israeli-settler-attack-maybe-take-another-look-at-those-videos-okay/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-17T20:26:57+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Mediaite"
-      ],
-      "keywords": [],
-      "score": 0.2317,
-      "signals": {
-        "score": 0.2317,
-        "recency": 0.022885538587154156,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -3893,10 +3943,10 @@
         "Tech in Asia"
       ],
       "keywords": [],
-      "score": 0.2306,
+      "score": 0.2265,
       "signals": {
-        "score": 0.2306,
-        "recency": 0.042520909750686085,
+        "score": 0.2265,
+        "recency": 0.02592915164036608,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
@@ -3919,10 +3969,10 @@
         "Tech in Asia"
       ],
       "keywords": [],
-      "score": 0.2303,
+      "score": 0.2263,
       "signals": {
-        "score": 0.2303,
-        "recency": 0.041359856633640855,
+        "score": 0.2263,
+        "recency": 0.02522114415626235,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
