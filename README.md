@@ -87,7 +87,7 @@ _Last updated: 2026-10-11T13:20:00+05:30_
 - **Removal of Header "SYNC" and "SAVED" Navigation Tabs**:
   - Removed `{ key: 'saved', label: 'SAVED' }` and `{ key: 'sync', label: '⚙️ SYNC' }` from `HEADER_CATEGORIES`.
   - Removed `#sync-dialog` modal from `index.html` and cleared sync trigger logic from category navigation.
-  - Streamlined primary navigation strictly to editorial intelligence categories (`AI`, `COMMERCE`, `TECH`, `ADS`, `STARTUP`, `MEDIA`, `BRANDS`) and the `🏆 LLM LEADERBOARD` home tab.
+  - Streamlined primary navigation strictly to editorial intelligence categories (`AI`, `COMMERCE`, `TECH`, `ADS`, `STARTUP`, `MEDIA`, `BRANDS`) and the `🌐 LLM INTELBOARD` home tab.
 - **Service Worker Cache Upgrade**:
   - Incremented cache to `snapfacts-v3` to purge stale cached assets.
 

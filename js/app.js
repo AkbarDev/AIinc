@@ -152,7 +152,7 @@ const LLM_BENCHMARK_SLIDES = [
 ];
 
 const HEADER_CATEGORIES = [
-    { key: 'all', label: '🏆 LLM LEADERBOARD' },
+    { key: 'all', label: '🌐 LLM INTELBOARD' },
     { key: 'ai', label: 'AI' },
     { key: 'commerce', label: 'COMMERCE' },
     { key: 'tech', label: 'TECH' },
@@ -163,7 +163,7 @@ const HEADER_CATEGORIES = [
 ];
 
 const CATEGORY_COPY = {
-    all: { eyebrow: 'Frontier AI Intelligence', heading: 'LMSYS Chatbot Arena Leaderboard & Model Evaluations' },
+    all: { eyebrow: 'Frontier AI Intelligence', heading: 'LLM Intelboard & Frontier Model Ladder' },
     commerce: { eyebrow: 'Commerce Focus', heading: 'Retail, payments, and ecommerce intelligence' },
     tech: { eyebrow: 'Tech Focus', heading: 'Platform, infrastructure, and product shifts' },
     ads: { eyebrow: 'Ads Focus', heading: 'Campaign, adtech, and performance marketing trends' },
