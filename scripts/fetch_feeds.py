@@ -899,7 +899,7 @@ def extract_companies(title: str, summary: str, category: str) -> List[str]:
 
 
 def generate_gemini_image(prompt: str, api_key: str) -> Optional[bytes]:
-    """Generate image bytes using Google Imagen 3 (Nano Banana) via Gemini API."""
+    """Generate image bytes using Google Imagen 3 (imagen-3.0-generate-002) via Gemini API."""
     import base64
     url = f"https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key={api_key}"
     payload = {
@@ -920,12 +920,11 @@ def generate_gemini_image(prompt: str, api_key: str) -> Optional[bytes]:
     }
     try:
         req = Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-        with urlopen(req, timeout=15) as response:
+        with urlopen(req, timeout=20) as response:
             res = json.loads(response.read().decode("utf-8"))
             print(f"debug: Google Imagen 3 response keys: {list(res.keys())}")
             if "predictions" in res and len(res["predictions"]) > 0:
                 pred = res["predictions"][0]
-                print(f"debug: Google Imagen 3 prediction keys: {list(pred.keys())}")
                 img_b64 = pred.get("bytesBase64Encoded") or pred.get("imageBytes")
                 if img_b64:
                     return base64.b64decode(img_b64)
@@ -940,7 +939,33 @@ def generate_gemini_image(prompt: str, api_key: str) -> Optional[bytes]:
             except:
                 pass
         print(f"warn: Google Imagen 3 generation failed: {error_details}", file=sys.stderr)
-        raise RuntimeError(error_details)
+    return None
+
+
+def generate_pollinations_image(prompt: str) -> Optional[bytes]:
+    """Generate editorial image bytes using Pollinations AI (FLUX open diffusion model).
+    Acts as a reliable zero-key LLM fallback image generation model."""
+    import urllib.parse
+    import random
+    clean_p = prompt.replace("\n", " ").strip()
+    if len(clean_p) > 350:
+        clean_p = clean_p[:350]
+    encoded = urllib.parse.quote(clean_p)
+    seed = random.randint(1000, 999999)
+    url = f"https://image.pollinations.ai/prompt/{encoded}?width=1280&height=720&model=flux&nologo=true&seed={seed}"
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "image/jpeg,image/png,image/*"
+    }
+    try:
+        req = Request(url, headers=headers, method="GET")
+        with urlopen(req, timeout=35) as response:
+            resp_bytes = response.read()
+            if len(resp_bytes) >= 8000:
+                print(f"info: Successfully generated editorial image via Pollinations AI FLUX model ({len(resp_bytes)} bytes)")
+                return resp_bytes
+    except Exception as e:
+        print(f"warn: Pollinations AI FLUX fallback generation failed: {e}", file=sys.stderr)
     return None
 
 
@@ -994,7 +1019,7 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
         prompt_to_use = enhanced_prompt
     else:
         companies = extract_companies(title, summary, category)
-        company_1 = companies[0]
+        company_1 = companies[0] if companies else "GlobalCorp"
         prompt_to_use = (
             f"Editorial news illustration about {company_1} in {category}. "
             f"Modern professional digital art, photorealistic composition, cinematic magazine lighting, 35mm photography aesthetic. "
@@ -1027,30 +1052,50 @@ def fetch_ai_image(title: str, summary: str, category: str, trend_id: str) -> Op
     else:
         print("warn: GEMINI_API_KEY is missing. Skipping Google Imagen 3 generation.", file=sys.stderr)
 
-    # 2.6 Try Hugging Face Open Source Models (FLUX.1) if Gemini fails or is missing
+    # 2.6 Fallback Model 1: Hugging Face Open Source Models (FLUX.1-schnell / SDXL)
     hf_key = os.environ.get("HF_API_KEY")
     if hf_key:
-        print("info: HF_API_KEY detected. Attempting generation with Hugging Face Open Source Model (FLUX.1-schnell)...")
-        hf_model = "black-forest-labs/FLUX.1-schnell"
-        for p_idx, prompt in enumerate(prompt_variations):
-            print(f"info: Trying prompt variation {p_idx + 1} on Hugging Face...")
-            try:
-                image_bytes = generate_hf_image(prompt, hf_model, hf_key)
-                if image_bytes:
-                    is_valid, validation_msg = validate_image_quality(image_bytes)
-                    if is_valid:
-                        try:
-                            image_path.write_bytes(image_bytes)
-                            print(f"info: AI image successfully generated via HF ({hf_model}): {image_path}")
-                            return f"assets/images/generated/{trend_id}.jpg", ""
-                        except Exception as e:
-                            print(f"warn: Failed to write HF image bytes: {e}", file=sys.stderr)
-                    else:
-                        print(f"warn: HF image failed quality validation: {validation_msg}", file=sys.stderr)
-            except Exception as e:
-                print(f"warn: Hugging Face API Error: {str(e)}", file=sys.stderr)
+        print("info: HF_API_KEY detected. Attempting generation with Hugging Face Open Source Models...")
+        hf_models = ["black-forest-labs/FLUX.1-schnell", "stabilityai/stable-diffusion-xl-base-1.0"]
+        for hf_model in hf_models:
+            for p_idx, prompt in enumerate(prompt_variations):
+                print(f"info: Trying prompt variation {p_idx + 1} on Hugging Face ({hf_model})...")
+                try:
+                    image_bytes = generate_hf_image(prompt, hf_model, hf_key)
+                    if image_bytes:
+                        is_valid, validation_msg = validate_image_quality(image_bytes)
+                        if is_valid:
+                            try:
+                                image_path.write_bytes(image_bytes)
+                                print(f"info: AI image successfully generated via HF ({hf_model}): {image_path}")
+                                return f"assets/images/generated/{trend_id}.jpg", ""
+                            except Exception as e:
+                                print(f"warn: Failed to write HF image bytes: {e}", file=sys.stderr)
+                        else:
+                            print(f"warn: HF image failed quality validation: {validation_msg}", file=sys.stderr)
+                except Exception as e:
+                    print(f"warn: Hugging Face API Error ({hf_model}): {str(e)}", file=sys.stderr)
     else:
         print("warn: HF_API_KEY is missing. Skipping Hugging Face generation.", file=sys.stderr)
+
+    # 2.7 Fallback Model 2: Pollinations AI FLUX Open Model Fallback (Zero-key LLM diffusion)
+    print("info: Attempting generation with Pollinations AI FLUX open model fallback...")
+    for p_idx, prompt in enumerate(prompt_variations):
+        try:
+            image_bytes = generate_pollinations_image(prompt)
+            if image_bytes:
+                is_valid, validation_msg = validate_image_quality(image_bytes)
+                if is_valid:
+                    try:
+                        image_path.write_bytes(image_bytes)
+                        print(f"info: AI image successfully generated via Pollinations AI FLUX: {image_path}")
+                        return f"assets/images/generated/{trend_id}.jpg", ""
+                    except Exception as e:
+                        print(f"warn: Failed to write Pollinations image bytes: {e}", file=sys.stderr)
+                else:
+                    print(f"warn: Pollinations image failed quality validation: {validation_msg}", file=sys.stderr)
+        except Exception as e:
+            print(f"warn: Pollinations AI FLUX fallback error: {str(e)}", file=sys.stderr)
 
     # 2.7 Curated High-Definition Editorial Stock Fallback (if AI models are rate-limited)
     print(f"info: Using curated editorial visual fallback for category: {category}")
@@ -1313,8 +1358,7 @@ def aggregate(entries: List[Dict[str, str]], feeds_polled: int, feed_pool: int, 
                     else:
                         cluster.ai_image_pending = True
                         cluster.image_failure_reason = fail_msg or "Image generation failed"
-                        print(f"warn: Aborting remaining image generations for this run due to API failure: {fail_msg}", file=sys.stderr)
-                        max_generations_per_run = 0 # Prevent further attempts in this run
+                        print(f"warn: Image generation failed for {cluster.key}: {fail_msg}. Will continue with next article...", file=sys.stderr)
                 else:
                     cluster.ai_image_pending = True
                     cluster.image_failure_reason = "Generation skipped during this run to respect rate limits or avoid timeouts"

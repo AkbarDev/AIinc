@@ -946,11 +946,40 @@ function renderNewsBoard() {
     const grid = document.getElementById('news-card-grid');
     if (!grid) return;
 
-    // 1. If on homepage ('all'), display the LLM Leaderboard without any news cards!
+    // 1. If on homepage ('all'), display the interactive Frontier Model Ladder 4-grid module!
     if (state.activeCategory === 'all') {
         grid.classList.remove('is-compact', 'is-brief-mode');
         grid.classList.add('has-leaderboard-home');
-        grid.innerHTML = renderLlmLeaderboardHome();
+        grid.innerHTML = '<div id="frontier-ladder"></div>';
+
+        const mountLadder = (FMLClass) => {
+            if (!window.fmlInstance) {
+                window.fmlInstance = new FMLClass('frontier-ladder');
+            } else {
+                window.fmlInstance.container = document.getElementById('frontier-ladder');
+                window.fmlInstance.render();
+            }
+        };
+
+        if (window.FrontierModelLadder) {
+            mountLadder(window.FrontierModelLadder);
+        } else {
+            import('./frontier-ladder.js').then((mod) => {
+                const Cls = mod?.FrontierModelLadder || window.FrontierModelLadder;
+                if (Cls) {
+                    mountLadder(Cls);
+                } else {
+                    grid.innerHTML = renderLlmLeaderboardHome();
+                }
+            }).catch(err => {
+                console.warn('Fallback to static arena table:', err);
+                if (window.FrontierModelLadder) {
+                    mountLadder(window.FrontierModelLadder);
+                } else {
+                    grid.innerHTML = renderLlmLeaderboardHome();
+                }
+            });
+        }
         renderSidebarTrending([]);
         return;
     }
@@ -1027,36 +1056,30 @@ function renderNewsBoard() {
                     ${escapeHtml(storyBrief)}
                 </p>
 
-                ${whyItMatters ? `
-                <div class="card-key-takeaway">
-                    <div class="takeaway-badge"><i class="fa-solid fa-lightbulb"></i> Signal Context</div>
-                    <div class="takeaway-text">${escapeHtml(whyItMatters)}</div>
-                </div>` : ''}
-
                 ${renderRelatedArticles(item)}
 
                 <div class="news-card-footer" data-story-actions data-story-id="${escapeAttr(storyId)}" data-story-link="${escapeAttr(item.link)}" data-story-title="${escapeAttr(item.title)}">
                     <a class="card-read-source-btn" href="${storyHref}" target="_blank" rel="noopener" title="Read full original article on ${escapeAttr(sourceName)}">
                         <span>Read on ${escapeHtml(sourceName)}</span>
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <svg class="read-source-svg" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                     </a>
 
                     <div class="card-action-cluster">
-                        <button class="card-action-icon-btn ${isSaved ? 'is-saved' : ''}" type="button" data-action="save" aria-label="${isSaved ? 'Unsave story' : 'Save story'}" title="${isSaved ? 'Bookmarked' : 'Bookmark story'}">
-                            <i class="${isSaved ? 'fa-solid' : 'fa-regular'} fa-bookmark" aria-hidden="true"></i>
+                        <button class="card-action-icon-btn ${isSaved ? 'is-saved' : ''}" type="button" data-action="save" aria-label="${isSaved ? 'Remove bookmark' : 'Bookmark story'}" title="${isSaved ? 'Bookmarked' : 'Bookmark story'}">
+                            <svg class="action-btn-svg" viewBox="0 0 24 24" fill="${isSaved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
                         </button>
-                        <button class="card-action-icon-btn" type="button" data-action="listen" aria-label="Listen to audio summary" title="Listen">
-                            <i class="fa-solid fa-volume-high" aria-hidden="true"></i>
+                        <button class="card-action-icon-btn" type="button" data-action="listen" aria-label="Listen to audio summary" title="Listen to narration">
+                            <svg class="action-btn-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
                         </button>
-                        <button class="card-action-icon-btn" type="button" data-action="speed-read" aria-label="Speed Read" title="Speed Read">
-                            <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
+                        <button class="card-action-icon-btn" type="button" data-action="speed-read" aria-label="Speed Read summary" title="Speed read mode">
+                            <svg class="action-btn-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                         </button>
-                        <button class="card-action-icon-btn" type="button" data-action="export-card" aria-label="Download Visual Card" title="Download Card">
-                            <i class="fa-solid fa-image" aria-hidden="true"></i>
+                        <button class="card-action-icon-btn" type="button" data-action="export-card" aria-label="Download AI Visual Card" title="AI Visual Card">
+                            <svg class="action-btn-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
                         </button>
                         <div class="card-share-wrap">
-                            <button class="card-action-icon-btn" type="button" data-action="share" aria-label="Share story" title="Share">
-                                <i class="fa-solid fa-share-nodes" aria-hidden="true"></i>
+                            <button class="card-action-icon-btn" type="button" data-action="share" aria-label="Share story" title="Share story">
+                                <svg class="action-btn-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
                             </button>
                             <div class="share-popover">
                                 <a href="https://x.com/intent/tweet?text=${encodeURIComponent('Check out this trend on Snapfacts: ' + headline)}&url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option x-twitter" title="Share on X"><i class="fa-brands fa-x-twitter"></i></a>

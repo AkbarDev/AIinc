@@ -1187,32 +1187,49 @@ img {
 }
 
 .card-action-icon-btn {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    color: #64748b;
-    width: 29px;
-    height: 29px;
-    border-radius: 50%;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.82rem;
+    font-size: 0.85rem;
     cursor: pointer;
     transition: all 0.18s ease;
     padding: 0;
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
 .card-action-icon-btn:hover {
     background: #ffffff;
-    color: #0f172a;
-    border-color: #cbd5e1;
-    transform: scale(1.08);
+    color: #0284c7;
+    border-color: #38bdf8;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(2, 132, 199, 0.2);
 }
 
 .card-action-icon-btn.is-saved {
     background: #eff6ff;
     color: #0284c7;
-    border-color: #93c5fd;
+    border-color: #38bdf8;
+}
+
+.card-action-icon-btn .action-btn-svg {
+    width: 15px;
+    height: 15px;
+    display: block;
+    stroke: currentColor;
+    flex-shrink: 0;
+}
+
+.card-read-source-btn .read-source-svg {
+    flex-shrink: 0;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .card-share-wrap {
@@ -3171,6 +3188,7 @@ body[data-active-category="saved"] .masthead .category-pill.active {
     .news-card-grid .card-action-icon-btn {
         width: 30px !important;
         height: 30px !important;
+        border-radius: 8px !important;
         font-size: 0.85rem !important;
     }
 

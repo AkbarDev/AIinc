@@ -1,0 +1,562 @@
+{
+  "meta": {
+    "is_sample_data": true,
+    "notice": "SAMPLE BENCHMARK DATASET - FOR TESTING BEFORE CONNECTING LIVE FEED",
+    "feed_name": "LMSYS Chatbot Arena & Frontier Benchmarks (Normalized Feed)",
+    "feed_version": "1.2.0",
+    "source_url": "https://arena.ai/leaderboard",
+    "fetched_at": "2026-10-21T12:00:00Z",
+    "metric_as_of": "2026-10-21T06:30:00Z",
+    "total_models": 10
+  },
+  "models": [
+    {
+      "model_id": "gpt-4o-2024-11-20",
+      "display_name": "GPT-4o (2024-11-20)",
+      "provider": "OpenAI",
+      "release_date": "2024-11-20",
+      "license": "proprietary",
+      "parameter_count": "n/r",
+      "architecture_notes": "Omni multimodal transformer with native audio/vision integration",
+      "context_window": 128000,
+      "max_output_tokens": 16384,
+      "modalities": ["text", "image", "audio"],
+      "tool_use": true,
+      "knowledge_cutoff": "2024-10",
+      "arena": {
+        "overall_elo": 1362,
+        "ci_low": 1354,
+        "ci_high": 1370,
+        "rank": 1,
+        "rank_change": 0,
+        "votes": 142850,
+        "status_badge": "LEADER",
+        "category_elos": {
+          "coding": 1352,
+          "math": 1340,
+          "hard_prompts": 1322,
+          "creative": 1368,
+          "long_context": 1335,
+          "vision": 1358,
+          "instruction_following": 1370
+        }
+      },
+      "evals": {
+        "GPQA": 53.6,
+        "MMLU-Pro": 72.8,
+        "HLE": 14.8,
+        "AIME": 26.7,
+        "LiveCodeBench": 40.5,
+        "SWE-bench": 38.8,
+        "ARC-AGI": 44.2,
+        "MMMU": 69.1
+      },
+      "eval_meta": {
+        "GPQA": { "vendor_reported": false, "verified_by": "Independent Eval / LMSYS" },
+        "SWE-bench": { "vendor_reported": false, "verified_by": "SWE-bench Verified" }
+      },
+      "cost": {
+        "input_per_1M": 2.50,
+        "output_per_1M": 10.00,
+        "blended_per_1M": 4.38,
+        "currency": "USD"
+      },
+      "speed": {
+        "ttft_ms": 310,
+        "tokens_per_sec": 104
+      },
+      "history": [1342, 1348, 1354, 1358, 1362]
+    },
+    {
+      "model_id": "claude-3-5-sonnet-20241022",
+      "display_name": "Claude 3.5 Sonnet (New)",
+      "provider": "Anthropic",
+      "release_date": "2024-10-22",
+      "license": "proprietary",
+      "parameter_count": "n/r",
+      "architecture_notes": "Hybrid attention architecture optimized for agentic coding and reasoning",
+      "context_window": 200000,
+      "max_output_tokens": 8192,
+      "modalities": ["text", "image"],
+      "tool_use": true,
+      "knowledge_cutoff": "2024-04",
+      "arena": {
+        "overall_elo": 1358,
+        "ci_low": 1350,
+        "ci_high": 1366,
+        "rank": 2,
+        "rank_change": 1,
+        "votes": 118400,
+        "status_badge": "CODING #1",
+        "category_elos": {
+          "coding": 1378,
+          "math": 1332,
+          "hard_prompts": 1318,
+          "creative": 1355,
+          "long_context": 1350,
+          "vision": 1364,
+          "instruction_following": 1374
+        }
+      },
+      "evals": {
+        "GPQA": 65.0,
+        "MMLU-Pro": 78.0,
+        "HLE": 16.2,
+        "AIME": 32.0,
+        "LiveCodeBench": 46.2,
+        "SWE-bench": 49.0,
+        "ARC-AGI": 48.0,
+        "MMMU": 70.4
+      },
+      "eval_meta": {
+        "GPQA": { "vendor_reported": false, "verified_by": "Independent / Epoch AI" },
+        "SWE-bench": { "vendor_reported": false, "verified_by": "SWE-bench Verified" }
+      },
+      "cost": {
+        "input_per_1M": 3.00,
+        "output_per_1M": 15.00,
+        "blended_per_1M": 6.00,
+        "currency": "USD"
+      },
+      "speed": {
+        "ttft_ms": 340,
+        "tokens_per_sec": 78
+      },
+      "history": [1330, 1340, 1349, 1355, 1358]
+    },
+    {
+      "model_id": "o1-2024-12-17",
+      "display_name": "o1 (High Reasoning)",
+      "provider": "OpenAI",
+      "release_date": "2024-12-17",
+      "license": "proprietary",
+      "parameter_count": "n/r",
+      "architecture_notes": "Inference-time chain-of-thought search optimization model",
+      "context_window": 200000,
+      "max_output_tokens": 100000,
+      "modalities": ["text", "image"],
+      "tool_use": true,
+      "knowledge_cutoff": "2024-10",
+      "arena": {
+        "overall_elo": 1355,
+        "ci_low": 1346,
+        "ci_high": 1364,
+        "rank": 3,
+        "rank_change": 0,
+        "votes": 84200,
+        "status_badge": "MATH #1",
+        "category_elos": {
+          "coding": 1365,
+          "math": 1395,
+          "hard_prompts": 1385,
+          "creative": 1310,
+          "long_context": 1340,
+          "vision": 1342,
+          "instruction_following": 1350
+        }
+      },
+      "evals": {
+        "GPQA": 75.7,
+        "MMLU-Pro": 82.4,
+        "HLE": 21.5,
+        "AIME": 83.3,
+        "LiveCodeBench": 58.0,
+        "SWE-bench": 48.9,
+        "ARC-AGI": 56.4,
+        "MMMU": 74.0
+      },
+      "eval_meta": {
+        "AIME": { "vendor_reported": false, "verified_by": "Independent Math Evals" },
+        "HLE": { "vendor_reported": false, "verified_by": "Humanity Last Exam (HLE)" }
+      },
+      "cost": {
+        "input_per_1M": 15.00,
+        "output_per_1M": 60.00,
+        "blended_per_1M": 26.25,
+        "currency": "USD"
+      },
+      "speed": {
+        "ttft_ms": 3200,
+        "tokens_per_sec": 42
+      },
+      "history": [1338, 1345, 1350, 1353, 1355]
+    },
+    {
+      "model_id": "gemini-1-5-pro-002",
+      "display_name": "Gemini 1.5 Pro (002)",
+      "provider": "Google DeepMind",
+      "release_date": "2024-09-24",
+      "license": "proprietary",
+      "parameter_count": "n/r",
+      "architecture_notes": "Sparse Mixture-of-Experts with 2M token audio/video/text context window",
+      "context_window": 2000000,
+      "max_output_tokens": 8192,
+      "modalities": ["text", "image", "audio", "video"],
+      "tool_use": true,
+      "knowledge_cutoff": "2024-05",
+      "arena": {
+        "overall_elo": 1348,
+        "ci_low": 1340,
+        "ci_high": 1356,
+        "rank": 4,
+        "rank_change": 0,
+        "votes": 96100,
+        "status_badge": "2M CONTEXT",
+        "category_elos": {
+          "coding": 1324,
+          "math": 1335,
+          "hard_prompts": 1302,
+          "creative": 1344,
+          "long_context": 1388,
+          "vision": 1362,
+          "instruction_following": 1352
+        }
+      },
+      "evals": {
+        "GPQA": 58.5,
+        "MMLU-Pro": 74.2,
+        "HLE": 15.0,
+        "AIME": 34.0,
+        "LiveCodeBench": 39.0,
+        "SWE-bench": 36.8,
+        "ARC-AGI": 42.0,
+        "MMMU": 72.1
+      },
+      "eval_meta": {
+        "MMMU": { "vendor_reported": false, "verified_by": "Independent Multimodal" }
+      },
+      "cost": {
+        "input_per_1M": 1.25,
+        "output_per_1M": 5.00,
+        "blended_per_1M": 2.19,
+        "currency": "USD"
+      },
+      "speed": {
+        "ttft_ms": 420,
+        "tokens_per_sec": 92
+      },
+      "history": [1325, 1334, 1340, 1345, 1348]
+    },
+    {
+      "model_id": "llama-3-1-405b-instruct",
+      "display_name": "Llama 3.1 405B Instruct",
+      "provider": "Meta AI",
+      "release_date": "2024-07-23",
+      "license": "open-weights",
+      "parameter_count": "405B",
+      "architecture_notes": "Dense autoregressive decoder transformer trained on 15T+ tokens",
+      "context_window": 128000,
+      "max_output_tokens": 4096,
+      "modalities": ["text"],
+      "tool_use": true,
+      "knowledge_cutoff": "2023-12",
+      "arena": {
+        "overall_elo": 1288,
+        "ci_low": 1279,
+        "ci_high": 1297,
+        "rank": 5,
+        "rank_change": 0,
+        "votes": 73400,
+        "status_badge": "OPEN #1",
+        "category_elos": {
+          "coding": 1282,
+          "math": 1275,
+          "hard_prompts": 1248,
+          "creative": 1302,
+          "long_context": 1260,
+          "vision": null,
+          "instruction_following": 1308
+        }
+      },
+      "evals": {
+        "GPQA": 51.1,
+        "MMLU-Pro": 68.5,
+        "HLE": "n/r",
+        "AIME": 23.3,
+        "LiveCodeBench": 36.4,
+        "SWE-bench": 34.0,
+        "ARC-AGI": 38.5,
+        "MMMU": "n/r"
+      },
+      "eval_meta": {
+        "MMLU-Pro": { "vendor_reported": false, "verified_by": "Hugging Face Leaderboard" }
+      },
+      "cost": {
+        "input_per_1M": 1.75,
+        "output_per_1M": 1.75,
+        "blended_per_1M": 1.75,
+        "currency": "USD"
+      },
+      "speed": {
+        "ttft_ms": 680,
+        "tokens_per_sec": 58
+      },
+      "history": [1280, 1283, 1285, 1287, 1288]
+    },
+    {
+      "model_id": "qwen-2-5-72b-instruct",
+      "display_name": "Qwen 2.5 72B Instruct",
+      "provider": "Alibaba Cloud",
+      "release_date": "2024-09-19",
+      "license": "open-weights",
+      "parameter_count": "72.7B",
+      "architecture_notes": "Dense transformer with SwiGLU activations and YaRN context scaling",
+      "context_window": 128000,
+      "max_output_tokens": 8192,
+      "modalities": ["text"],
+      "tool_use": true,
+      "knowledge_cutoff": "2024-06",
+      "arena": {
+        "overall_elo": 1278,
+        "ci_low": 1269,
+        "ci_high": 1287,
+        "rank": 6,
+        "rank_change": 1,
+        "votes": 52100,
+        "status_badge": "VALUE #1",
+        "category_elos": {
+          "coding": 1298,
+          "math": 1290,
+          "hard_prompts": 1242,
+          "creative": 1280,
+          "long_context": 1265,
+          "vision": null,
+          "instruction_following": 1292
+        }
+      },
+      "evals": {
+        "GPQA": 49.0,
+        "MMLU-Pro": 67.2,
+        "HLE": "n/r",
+        "AIME": 28.0,
+        "LiveCodeBench": 35.8,
+        "SWE-bench": 32.2,
+        "ARC-AGI": 37.0,
+        "MMMU": "n/r"
+      },
+      "cost": {
+        "input_per_1M": 0.35,
+        "output_per_1M": 0.40,
+        "blended_per_1M": 0.36,
+        "currency": "USD"
+      },
+      "speed": {
+        "ttft_ms": 280,
+        "tokens_per_sec": 88
+      },
+      "history": [1260, 1268, 1272, 1275, 1278]
+    },
+    {
+      "model_id": "deepseek-v2-5",
+      "display_name": "DeepSeek-V2.5",
+      "provider": "DeepSeek",
+      "release_date": "2024-09-06",
+      "license": "open-weights",
+      "parameter_count": "236B (21B active)",
+      "architecture_notes": "Multi-head Latent Attention (MLA) and DeepSeekMoE architecture",
+      "context_window": 128000,
+      "max_output_tokens": 8192,
+      "modalities": ["text"],
+      "tool_use": true,
+      "knowledge_cutoff": "2024-03",
+      "arena": {
+        "overall_elo": 1274,
+        "ci_low": 1265,
+        "ci_high": 1283,
+        "rank": 7,
+        "rank_change": -1,
+        "votes": 49800,
+        "status_badge": "OPEN CODING",
+        "category_elos": {
+          "coding": 1312,
+          "math": 1268,
+          "hard_prompts": 1235,
+          "creative": 1262,
+          "long_context": 1255,
+          "vision": null,
+          "instruction_following": 1285
+        }
+      },
+      "evals": {
+        "GPQA": 46.5,
+        "MMLU-Pro": 65.0,
+        "HLE": "n/r",
+        "AIME": 22.0,
+        "LiveCodeBench": 38.2,
+        "SWE-bench": 34.5,
+        "ARC-AGI": 35.8,
+        "MMMU": "n/r"
+      },
+      "cost": {
+        "input_per_1M": 0.14,
+        "output_per_1M": 0.28,
+        "blended_per_1M": 0.18,
+        "currency": "USD"
+      },
+      "speed": {
+        "ttft_ms": 320,
+        "tokens_per_sec": 84
+      },
+      "history": [1270, 1272, 1274, 1276, 1274]
+    },
+    {
+      "model_id": "gemini-1-5-flash-002",
+      "display_name": "Gemini 1.5 Flash (002)",
+      "provider": "Google DeepMind",
+      "release_date": "2024-09-24",
+      "license": "proprietary",
+      "parameter_count": "n/r",
+      "architecture_notes": "Distilled multimodal transformer optimized for speed, low latency, and large context",
+      "context_window": 1000000,
+      "max_output_tokens": 8192,
+      "modalities": ["text", "image", "audio", "video"],
+      "tool_use": true,
+      "knowledge_cutoff": "2024-05",
+      "arena": {
+        "overall_elo": 1270,
+        "ci_low": 1262,
+        "ci_high": 1278,
+        "rank": 8,
+        "rank_change": 0,
+        "votes": 68400,
+        "status_badge": "FAST & CHEAP",
+        "category_elos": {
+          "coding": 1245,
+          "math": 1260,
+          "hard_prompts": 1218,
+          "creative": 1282,
+          "long_context": 1345,
+          "vision": 1310,
+          "instruction_following": 1278
+        }
+      },
+      "evals": {
+        "GPQA": 44.8,
+        "MMLU-Pro": 63.4,
+        "HLE": "n/r",
+        "AIME": 18.0,
+        "LiveCodeBench": 28.5,
+        "SWE-bench": 26.0,
+        "ARC-AGI": 32.4,
+        "MMMU": 64.2
+      },
+      "cost": {
+        "input_per_1M": 0.075,
+        "output_per_1M": 0.30,
+        "blended_per_1M": 0.13,
+        "currency": "USD"
+      },
+      "speed": {
+        "ttft_ms": 140,
+        "tokens_per_sec": 168
+      },
+      "history": [1252, 1258, 1264, 1268, 1270]
+    },
+    {
+      "model_id": "claude-3-5-haiku-20241022",
+      "display_name": "Claude 3.5 Haiku",
+      "provider": "Anthropic",
+      "release_date": "2024-11-04",
+      "license": "proprietary",
+      "parameter_count": "n/r",
+      "architecture_notes": "Compact high-efficiency transformer rivaling previous generation frontier models",
+      "context_window": 200000,
+      "max_output_tokens": 8192,
+      "modalities": ["text", "image"],
+      "tool_use": true,
+      "knowledge_cutoff": "2024-07",
+      "arena": {
+        "overall_elo": 1265,
+        "ci_low": 1257,
+        "ci_high": 1273,
+        "rank": 9,
+        "rank_change": 2,
+        "votes": 41200,
+        "status_badge": "NEW",
+        "category_elos": {
+          "coding": 1278,
+          "math": 1252,
+          "hard_prompts": 1225,
+          "creative": 1275,
+          "long_context": 1288,
+          "vision": 1295,
+          "instruction_following": 1290
+        }
+      },
+      "evals": {
+        "GPQA": 48.2,
+        "MMLU-Pro": 64.8,
+        "HLE": "n/r",
+        "AIME": 21.0,
+        "LiveCodeBench": 33.0,
+        "SWE-bench": 30.5,
+        "ARC-AGI": 34.0,
+        "MMMU": 63.8
+      },
+      "cost": {
+        "input_per_1M": 0.80,
+        "output_per_1M": 4.00,
+        "blended_per_1M": 1.60,
+        "currency": "USD"
+      },
+      "speed": {
+        "ttft_ms": 190,
+        "tokens_per_sec": 142
+      },
+      "history": [1240, 1248, 1255, 1260, 1265]
+    },
+    {
+      "model_id": "mistral-large-2407",
+      "display_name": "Mistral Large 2 (2407)",
+      "provider": "Mistral AI",
+      "release_date": "2024-07-24",
+      "license": "proprietary",
+      "parameter_count": "123B",
+      "architecture_notes": "Dense 123B parameter multilingual model with native function calling",
+      "context_window": 128000,
+      "max_output_tokens": 4096,
+      "modalities": ["text"],
+      "tool_use": true,
+      "knowledge_cutoff": "2024-02",
+      "arena": {
+        "overall_elo": 1260,
+        "ci_low": 1252,
+        "ci_high": 1268,
+        "rank": 10,
+        "rank_change": -1,
+        "votes": 44300,
+        "status_badge": "ENTERPRISE",
+        "category_elos": {
+          "coding": 1260,
+          "math": 1248,
+          "hard_prompts": 1220,
+          "creative": 1255,
+          "long_context": 1240,
+          "vision": null,
+          "instruction_following": 1280
+        }
+      },
+      "evals": {
+        "GPQA": 45.0,
+        "MMLU-Pro": 62.5,
+        "HLE": "n/r",
+        "AIME": 19.5,
+        "LiveCodeBench": 31.0,
+        "SWE-bench": 28.0,
+        "ARC-AGI": 31.0,
+        "MMMU": "n/r"
+      },
+      "cost": {
+        "input_per_1M": 2.00,
+        "output_per_1M": 6.00,
+        "blended_per_1M": 3.00,
+        "currency": "USD"
+      },
+      "speed": {
+        "ttft_ms": 380,
+        "tokens_per_sec": 72
+      },
+      "history": [1255, 1258, 1262, 1261, 1260]
+    }
+  ]
+}

@@ -1,9 +1,12 @@
-const CACHE_NAME = 'snapfacts-v10';
+const CACHE_NAME = 'snapfacts-v12';
 const ASSETS = [
     './',
     './index.html',
     './js/app.js',
+    './js/frontier-ladder.js',
     './css/style.css',
+    './css/frontier-ladder.css',
+    './data/frontier_models.json',
     'https://cdn.plot.ly/plotly-2.32.0.min.js'
 ];
 
