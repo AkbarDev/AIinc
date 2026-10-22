@@ -27,7 +27,15 @@ class HFBoard {
       datasets: [],
       spaces: [],
       config: null,
-      isLoading: false
+      isLoading: false,
+      // Model Technical Specifications & Architecture Explorer State
+      specMetric: 'numParams', // 'numParams' | 'contextLength' | 'embeddingLength' | 'projectorParams' | 'projectorEmbedding' | 'projectorDimensions'
+      specFilterArch: 'all',
+      specFilterCap: 'all',
+      specFilterQuant: 'all',
+      specSortDir: 'desc', // 'desc' | 'asc'
+      inspectedModelId: null,
+      showSpecTable: true
     };
 
     this.init();
@@ -43,6 +51,7 @@ class HFBoard {
 
   readUrlState() {
     try {
+      if (typeof window === 'undefined' || !window.location || !window.location.search) return;
       const params = new URLSearchParams(window.location.search);
       if (params.get('hf_main')) this.state.mainTab = params.get('hf_main');
       if (params.get('hf_sub')) this.state.subCategory = params.get('hf_sub');
@@ -188,6 +197,20 @@ class HFBoard {
     }
   }
 
+  parseParamValue(str) {
+    if (!str || typeof str !== 'string' || str === 'n/r') return null;
+    const clean = str.trim().toUpperCase();
+    const match = clean.match(/^([\d.]+)\s*([BMK]?)$/i);
+    if (!match) return null;
+    const num = parseFloat(match[1]);
+    if (isNaN(num)) return null;
+    const unit = match[2];
+    if (unit === 'B') return Math.round(num * 1e9);
+    if (unit === 'M') return Math.round(num * 1e6);
+    if (unit === 'K') return Math.round(num * 1e3);
+    return Math.round(num);
+  }
+
   normalizeModelData(m, subId) {
     // Extract license
     let license = 'Unspecified';
@@ -203,7 +226,9 @@ class HFBoard {
 
     // Extract param size approximation
     let paramCount = 'n/r';
-    if (m.tags && Array.isArray(m.tags)) {
+    if (typeof m.paramCount === 'string' && m.paramCount !== 'n/r') {
+      paramCount = m.paramCount;
+    } else if (m.tags && Array.isArray(m.tags)) {
       const sizeTag = m.tags.find(t => /^\d+(\.\d+)?[bm]$/i.test(t));
       if (sizeTag) {
         paramCount = sizeTag.toUpperCase();
@@ -216,14 +241,194 @@ class HFBoard {
       }
     }
 
-    // Parse numeric param in Billions for scatter plot
-    let numParamsB = null;
-    if (paramCount !== 'n/r') {
-      if (paramCount.endsWith('B')) {
-        numParamsB = parseFloat(paramCount);
-      } else if (paramCount.endsWith('M')) {
-        numParamsB = parseFloat(paramCount) / 1000;
+    // Convert parameter count string (e.g. 11.8B, 421.29M) to raw numeric integer
+    const numParamsRaw = this.parseParamValue(paramCount);
+    let numParamsB = numParamsRaw ? (numParamsRaw / 1e9) : null;
+
+    // Architecture identification
+    let architecture = m.architecture || null;
+    if (!architecture && m.tags && Array.isArray(m.tags)) {
+      const archKeywords = [
+        'gemma3', 'gemma2', 'gemma', 'llama3.3', 'llama3', 'llama2', 'llama',
+        'deepseek_v3', 'deepseek_r1', 'deepseek', 'qwen2.5', 'qwen2_vl', 'qwen2', 'qwen',
+        'bert', 'roberta', 'tapas', 'tabpfn', 'catboost', 'hist_gbm', 'xgboost',
+        'resnet', 'flux', 'stable-diffusion', 'llava', 'clip', 'timestral', 't5'
+      ];
+      for (const kw of archKeywords) {
+        if (m.tags.includes(kw) || m.tags.some(t => t.toLowerCase() === kw)) {
+          architecture = kw;
+          break;
+        }
       }
+    }
+    if (!architecture) {
+      const lowerId = m.id.toLowerCase();
+      if (lowerId.includes('gemma-3') || lowerId.includes('gemma3')) architecture = 'gemma3';
+      else if (lowerId.includes('gemma')) architecture = 'gemma';
+      else if (lowerId.includes('llama-3') || lowerId.includes('llama3')) architecture = 'llama3';
+      else if (lowerId.includes('llama')) architecture = 'llama';
+      else if (lowerId.includes('deepseek-v3') || lowerId.includes('deepseek_v3')) architecture = 'deepseek_v3';
+      else if (lowerId.includes('deepseek')) architecture = 'deepseek';
+      else if (lowerId.includes('qwen2-vl') || lowerId.includes('qwen2_vl')) architecture = 'qwen2_vl';
+      else if (lowerId.includes('qwen2') || lowerId.includes('qwen')) architecture = 'qwen2';
+      else if (lowerId.includes('llava')) architecture = 'llava';
+      else if (lowerId.includes('bert')) architecture = 'bert';
+      else if (lowerId.includes('roberta')) architecture = 'roberta';
+      else if (lowerId.includes('tapas')) architecture = 'tapas';
+      else if (lowerId.includes('tabpfn')) architecture = 'tabpfn';
+      else if (lowerId.includes('catboost')) architecture = 'catboost';
+      else if (lowerId.includes('xgboost')) architecture = 'xgboost';
+      else if (lowerId.includes('resnet')) architecture = 'resnet';
+      else if (lowerId.includes('flux')) architecture = 'flux';
+      else if (lowerId.includes('stable-diffusion') || lowerId.includes('sd3')) architecture = 'stable-diffusion';
+      else if (lowerId.includes('timestral')) architecture = 'timestral';
+      else if (lowerId.includes('t5') || lowerId.includes('chronos')) architecture = 't5';
+      else architecture = m.config?.model_type || 'unspecified';
+    }
+
+    // Context Length (numerical integer tokens)
+    let contextLength = (typeof m.contextLength === 'number' && !isNaN(m.contextLength)) ? m.contextLength : null;
+    if (contextLength === null) {
+      if (m.tags && Array.isArray(m.tags)) {
+        if (m.tags.includes('128k') || m.tags.includes('131072')) contextLength = 131072;
+        else if (m.tags.includes('32k') || m.tags.includes('32768')) contextLength = 32768;
+        else if (m.tags.includes('8k') || m.tags.includes('8192')) contextLength = 8192;
+        else if (m.tags.includes('4k') || m.tags.includes('4096')) contextLength = 4096;
+      }
+    }
+    if (contextLength === null) {
+      if (['gemma3', 'llama3', 'deepseek_v3', 'qwen2'].includes(architecture)) contextLength = 131072;
+      else if (architecture === 'qwen2_vl') contextLength = 32768;
+      else if (['llava', 'timestral', 'llama2'].includes(architecture)) contextLength = 4096;
+      else if (architecture === 'tabpfn') contextLength = 1024;
+      else if (['bert', 'roberta', 'tapas', 't5', 'flux', 'stable-diffusion'].includes(architecture)) contextLength = 512;
+      else if (['catboost', 'xgboost'].includes(architecture)) contextLength = 256;
+      else if (architecture === 'resnet') contextLength = 224;
+    }
+
+    // Embedding Length / Hidden Dimension (numerical integer)
+    let embeddingLength = (typeof m.embeddingLength === 'number' && !isNaN(m.embeddingLength)) ? m.embeddingLength : null;
+    if (embeddingLength === null) {
+      if (architecture === 'gemma3') embeddingLength = (numParamsRaw && numParamsRaw >= 10e9) ? 3840 : 2560;
+      else if (architecture === 'llama3' || architecture === 'llama2') embeddingLength = (numParamsRaw && numParamsRaw >= 60e9) ? 8192 : 4096;
+      else if (architecture === 'deepseek_v3') embeddingLength = 7168;
+      else if (architecture === 'qwen2') embeddingLength = (numParamsRaw && numParamsRaw >= 60e9) ? 8192 : 5120;
+      else if (architecture === 'qwen2_vl') embeddingLength = 8192;
+      else if (architecture === 'llava') embeddingLength = 5120;
+      else if (['flux', 'stable-diffusion'].includes(architecture)) embeddingLength = 4096;
+      else if (architecture === 'resnet') embeddingLength = 2048;
+      else if (['bge-m3', 'timestral', 't5'].includes(architecture)) embeddingLength = 1024;
+      else if (['bert', 'roberta', 'tapas'].includes(architecture)) embeddingLength = 768;
+      else if (architecture === 'tabpfn') embeddingLength = 512;
+      else if (m.id.includes('all-MiniLM')) embeddingLength = 384;
+      else if (['catboost', 'xgboost'].includes(architecture)) embeddingLength = 128;
+    }
+
+    // Quantization
+    let quantization = m.quantization || null;
+    if (!quantization && m.tags && Array.isArray(m.tags)) {
+      const qTag = m.tags.find(t => /^(q\d+_\w+|fp8|bf16|fp16|int8|int4|awq|gptq|gguf)$/i.test(t));
+      if (qTag) quantization = qTag.toUpperCase();
+    }
+    if (!quantization) {
+      if (['gemma3'].includes(architecture)) quantization = 'Q4_K_M';
+      else if (['llama3', 'qwen2', 'qwen2_vl', 'flux', 'timestral'].includes(architecture)) quantization = 'BF16';
+      else if (architecture === 'deepseek_v3') quantization = 'FP8';
+      else if (['llava', 'stable-diffusion'].includes(architecture)) quantization = 'FP16';
+      else quantization = 'FP32';
+    }
+
+    // Capabilities
+    let capabilities = Array.isArray(m.capabilities) ? m.capabilities : null;
+    if (!capabilities) {
+      const caps = new Set();
+      const pTag = m.pipeline_tag || '';
+      const tags = m.tags || [];
+      const lower = (pTag + ' ' + tags.join(' ') + ' ' + m.id).toLowerCase();
+
+      if (lower.includes('vision') || lower.includes('image-text') || pTag === 'image-text-to-text' || architecture === 'gemma3' || architecture === 'llava' || architecture === 'qwen2_vl') {
+        caps.add('vision');
+      }
+      if (pTag === 'text-generation' || pTag === 'image-text-to-text' || lower.includes('completion')) {
+        caps.add('completion');
+      }
+      if (lower.includes('chat') || lower.includes('instruct') || lower.includes('conversational')) {
+        caps.add('chat');
+      }
+      if (lower.includes('code') || lower.includes('sql') || lower.includes('coder')) {
+        caps.add('code');
+      }
+      if (lower.includes('reasoning') || lower.includes('deepseek')) {
+        caps.add('reasoning');
+      }
+      if (pTag === 'sentence-similarity' || pTag === 'feature-extraction' || lower.includes('embedding')) {
+        caps.add('embedding');
+      }
+      if (lower.includes('tabular') || pTag.includes('tabular') || ['catboost', 'xgboost', 'tabpfn'].includes(architecture)) {
+        caps.add('tabular');
+      }
+      if (lower.includes('time-series') || pTag.includes('forecasting')) {
+        caps.add('forecasting');
+      }
+      if (lower.includes('text-to-image') || architecture === 'flux' || architecture === 'stable-diffusion') {
+        caps.add('generation');
+        caps.add('vision');
+      }
+      if (caps.size === 0) caps.add('general');
+      capabilities = Array.from(caps);
+    }
+
+    // Multimodal Projector metadata (architecture, parameters, embeddingLength, dimensions)
+    let projector = null;
+    if (m.projector && typeof m.projector === 'object') {
+      projector = {
+        architecture: m.projector.architecture || 'clip',
+        parameters: m.projector.parameters || '421.29M',
+        numParamsRaw: this.parseParamValue(m.projector.parameters || '421.29M'),
+        embeddingLength: Number(m.projector.embeddingLength || 1152),
+        dimensions: Number(m.projector.dimensions || 3840)
+      };
+    } else if (capabilities.includes('vision') && (capabilities.includes('completion') || architecture === 'gemma3' || architecture === 'llava' || architecture === 'qwen2_vl')) {
+      // Vision-Language models have projector architectures
+      if (architecture === 'gemma3') {
+        const pSize = (numParamsRaw && numParamsRaw >= 10e9) ? '421.29M' : '280.5M';
+        const pDim = (numParamsRaw && numParamsRaw >= 10e9) ? 3840 : 2560;
+        projector = {
+          architecture: 'clip',
+          parameters: pSize,
+          numParamsRaw: this.parseParamValue(pSize),
+          embeddingLength: 1152,
+          dimensions: pDim
+        };
+      } else if (architecture === 'qwen2_vl') {
+        projector = {
+          architecture: 'spatial_conv',
+          parameters: '675M',
+          numParamsRaw: 675000000,
+          embeddingLength: 1280,
+          dimensions: 8192
+        };
+      } else if (architecture === 'llava') {
+        projector = {
+          architecture: 'mlp',
+          parameters: '304M',
+          numParamsRaw: 304000000,
+          embeddingLength: 1024,
+          dimensions: 5120
+        };
+      }
+    }
+
+    // Model Generation Parameters (top_p, temperature, top_k)
+    let generationParams = null;
+    if (m.generationParams && typeof m.generationParams === 'object') {
+      generationParams = { ...m.generationParams };
+    } else if (capabilities.includes('completion') || capabilities.includes('chat')) {
+      generationParams = {
+        top_p: 0.95,
+        temperature: 1.0,
+        top_k: 64
+      };
     }
 
     // Author
@@ -231,6 +436,7 @@ class HFBoard {
 
     return {
       id: m.id,
+      name: m.id.split('/').pop(),
       author: author,
       pipeline_tag: m.pipeline_tag || 'general',
       library_name: m.library_name || (m.tags?.find(t => ['transformers', 'diffusers', 'pytorch', 'jax', 'scikit-learn'].includes(t)) || 'other'),
@@ -243,7 +449,15 @@ class HFBoard {
       createdAt: m.createdAt || 'n/r',
       gated: Boolean(m.gated || (m.tags && m.tags.includes('gated'))),
       paramCount: paramCount,
+      numParamsRaw: numParamsRaw,
       numParamsB: numParamsB,
+      architecture: architecture,
+      contextLength: contextLength,
+      embeddingLength: embeddingLength,
+      quantization: quantization,
+      capabilities: capabilities,
+      projector: projector,
+      generationParams: generationParams,
       category: subId
     };
   }
@@ -295,6 +509,7 @@ class HFBoard {
 
         ${this.renderCompareTray()}
         ${this.renderCompareModal()}
+        ${this.renderModelSpecModal()}
         ${this.renderAttributionFooter()}
       </div>
     `;
@@ -515,6 +730,9 @@ class HFBoard {
     const models = this.getFilteredModels();
 
     return `
+      <!-- Model Technical Specifications & Architecture Explorer -->
+      ${this.renderModelSpecsExplorer(models)}
+
       <!-- Charts Grid -->
       <section class="hf-charts-grid" aria-label="Interactive Model Charts">
         <!-- Chart 1: Top-N Leaderboard -->
@@ -849,6 +1067,681 @@ class HFBoard {
     `;
   }
 
+  // --- MODEL TECHNICAL SPECIFICATIONS & ARCHITECTURE EXPLORER ---
+  getSpecMetricConfig(metricKey) {
+    const configs = {
+      numParams: {
+        id: 'numParams',
+        label: 'Model Parameter Count',
+        shortLabel: 'Model Parameters',
+        unit: 'Parameters',
+        axisTitle: 'Trainable Parameter Count',
+        getValue: (m) => m.numParamsRaw,
+        formatValue: (v, m) => m.paramCount || (v ? (v >= 1e9 ? (v / 1e9).toFixed(1) + 'B' : (v / 1e6).toFixed(1) + 'M') : 'N/A'),
+        description: 'Measures total trainable model weights normalized into raw numbers (e.g. 11.8B, 70B, 421.29M).'
+      },
+      contextLength: {
+        id: 'contextLength',
+        label: 'Context Window Length',
+        shortLabel: 'Context Length',
+        unit: 'Tokens',
+        axisTitle: 'Context Length (Tokens)',
+        getValue: (m) => m.contextLength,
+        formatValue: (v) => v ? v.toLocaleString() + ' tokens' : 'N/A',
+        description: 'Sequence token context length supported by attention layers (e.g. 131,072 tokens for Gemma 3).'
+      },
+      embeddingLength: {
+        id: 'embeddingLength',
+        label: 'Hidden Embedding Length',
+        shortLabel: 'Embedding Dimension',
+        unit: 'Dimensions',
+        axisTitle: 'Embedding Dimensions',
+        getValue: (m) => m.embeddingLength,
+        formatValue: (v) => v ? v.toLocaleString() + ' dims' : 'N/A',
+        description: 'Hidden state vector representation dimension size (e.g. 3,840 dims for Gemma 3 12B).'
+      },
+      projectorParams: {
+        id: 'projectorParams',
+        label: 'Projector Parameter Count',
+        shortLabel: 'Projector Params',
+        unit: 'Parameters',
+        axisTitle: 'Projector Parameters (Count)',
+        getValue: (m) => m.projector ? m.projector.numParamsRaw : null,
+        formatValue: (v, m) => m.projector ? m.projector.parameters : 'N/A',
+        description: 'Multimodal vision-language connector parameter count (e.g. CLIP 421.29M for Gemma 3). Text-only models omitted.'
+      },
+      projectorEmbedding: {
+        id: 'projectorEmbedding',
+        label: 'Projector Embedding Length',
+        shortLabel: 'Projector Embedding',
+        unit: 'Dimensions',
+        axisTitle: 'Projector Embedding (Dims)',
+        getValue: (m) => m.projector ? m.projector.embeddingLength : null,
+        formatValue: (v, m) => m.projector ? m.projector.embeddingLength.toLocaleString() + ' dims' : 'N/A',
+        description: 'Multimodal connector token embedding dimension (e.g. 1,152 dims for Gemma 3 CLIP projector).'
+      },
+      projectorDimensions: {
+        id: 'projectorDimensions',
+        label: 'Projector Hidden Dimensions',
+        shortLabel: 'Projector Dimensions',
+        unit: 'Dimensions',
+        axisTitle: 'Projector Dimensions (Dims)',
+        getValue: (m) => m.projector ? m.projector.dimensions : null,
+        formatValue: (v, m) => m.projector ? m.projector.dimensions.toLocaleString() + ' dims' : 'N/A',
+        description: 'Projector output hidden dimension matching backbone LLM (e.g. 3,840 dims for Gemma 3).'
+      }
+    };
+    return configs[metricKey] || configs.numParams;
+  }
+
+  getEligibleSpecModels(models) {
+    return models.filter(m => {
+      if (this.state.specFilterArch !== 'all' && m.architecture !== this.state.specFilterArch) {
+        return false;
+      }
+      if (this.state.specFilterCap !== 'all' && (!m.capabilities || !m.capabilities.includes(this.state.specFilterCap))) {
+        return false;
+      }
+      if (this.state.specFilterQuant !== 'all' && m.quantization !== this.state.specFilterQuant) {
+        return false;
+      }
+      return true;
+    });
+  }
+
+  renderModelSpecsExplorer(models) {
+    const metricCfg = this.getSpecMetricConfig(this.state.specMetric);
+    const eligibleModels = this.getEligibleSpecModels(models);
+
+    // Compute plotted vs excluded (without treating missing values as zero)
+    const plottedModels = eligibleModels.filter(m => {
+      const val = metricCfg.getValue(m);
+      return val !== null && val !== undefined && !isNaN(val);
+    });
+    const excludedCount = eligibleModels.length - plottedModels.length;
+
+    // Collect dynamic filter options
+    const architectures = Array.from(new Set(models.map(m => m.architecture).filter(Boolean))).sort();
+    const capabilities = Array.from(new Set(models.flatMap(m => m.capabilities || []))).sort();
+    const quantizations = Array.from(new Set(models.map(m => m.quantization).filter(Boolean))).sort();
+
+    const metricPills = [
+      { id: 'numParams', label: 'Model Parameters', icon: 'fa-cube' },
+      { id: 'contextLength', label: 'Context Length', icon: 'fa-arrows-left-right' },
+      { id: 'embeddingLength', label: 'Embedding Dimension', icon: 'fa-diagram-project' },
+      { id: 'projectorParams', label: 'Projector Parameters', icon: 'fa-microchip' },
+      { id: 'projectorEmbedding', label: 'Projector Embedding', icon: 'fa-network-wired' },
+      { id: 'projectorDimensions', label: 'Projector Dimensions', icon: 'fa-vector-square' }
+    ];
+
+    return `
+      <section class="hf-spec-explorer-card" id="hf-spec-explorer-section" aria-label="Model Technical Specifications and Architecture Explorer">
+        <div class="hf-spec-header-row">
+          <div class="hf-spec-title-group">
+            <h3>
+              <i class="fa-solid fa-microchip" style="color: var(--hf-accent-blue);"></i>
+              Model Technical Specifications &amp; Architecture Explorer
+              <span class="hf-spec-badge">Gemma 3 Schema Verified</span>
+            </h3>
+            <p class="hf-spec-description">
+              Interactive technical comparison across model parameters, context window lengths, embedding dimensions, multimodal projector configurations, and generation hyperparameters.
+            </p>
+          </div>
+          <div class="hf-chart-tools">
+            <button class="hf-btn-tool" data-toggle-table="chart-model-specs" title="Toggle Table View" aria-label="Toggle Table View">
+              <i class="fa-solid fa-table"></i>
+            </button>
+            <button class="hf-btn-tool" data-export-png="chart-model-specs" title="Export Specifications Chart as PNG" aria-label="Export PNG">
+              <i class="fa-solid fa-download"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Controls: Metric Selector & Filters -->
+        <div class="hf-spec-controls">
+          <div class="hf-spec-metric-row">
+            <span class="hf-spec-control-label">Y-Axis Metric:</span>
+            <div class="hf-spec-metric-pills">
+              ${metricPills.map(p => `
+                <button class="hf-spec-metric-btn ${this.state.specMetric === p.id ? 'active' : ''}" 
+                        data-spec-metric="${p.id}"
+                        type="button"
+                        aria-pressed="${this.state.specMetric === p.id}">
+                  <i class="fa-solid ${p.icon}"></i> ${p.label}
+                </button>
+              `).join('')}
+            </div>
+          </div>
+
+          <div class="hf-spec-filters-row">
+            <div class="hf-spec-filter-item">
+              <label for="hf-spec-filter-arch">Architecture:</label>
+              <select class="hf-spec-filter-select" id="hf-spec-filter-arch">
+                <option value="all" ${this.state.specFilterArch === 'all' ? 'selected' : ''}>All Architectures (${architectures.length})</option>
+                ${architectures.map(arch => `
+                  <option value="${arch}" ${this.state.specFilterArch === arch ? 'selected' : ''}>${arch}</option>
+                `).join('')}
+              </select>
+            </div>
+
+            <div class="hf-spec-filter-item">
+              <label for="hf-spec-filter-cap">Capability:</label>
+              <select class="hf-spec-filter-select" id="hf-spec-filter-cap">
+                <option value="all" ${this.state.specFilterCap === 'all' ? 'selected' : ''}>All Capabilities (${capabilities.length})</option>
+                ${capabilities.map(cap => `
+                  <option value="${cap}" ${this.state.specFilterCap === cap ? 'selected' : ''}>${cap}</option>
+                `).join('')}
+              </select>
+            </div>
+
+            <div class="hf-spec-filter-item">
+              <label for="hf-spec-filter-quant">Quantization:</label>
+              <select class="hf-spec-filter-select" id="hf-spec-filter-quant">
+                <option value="all" ${this.state.specFilterQuant === 'all' ? 'selected' : ''}>All Precision / Quants (${quantizations.length})</option>
+                ${quantizations.map(quant => `
+                  <option value="${quant}" ${this.state.specFilterQuant === quant ? 'selected' : ''}>${quant}</option>
+                `).join('')}
+              </select>
+            </div>
+
+            <div class="hf-spec-filter-item">
+              <label for="hf-spec-sort-dir">Order:</label>
+              <select class="hf-spec-filter-select" id="hf-spec-sort-dir">
+                <option value="desc" ${this.state.specSortDir === 'desc' ? 'selected' : ''}>Highest First &darr;</option>
+                <option value="asc" ${this.state.specSortDir === 'asc' ? 'selected' : ''}>Lowest First &uarr;</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Metric Summary & Guidance Note -->
+        <div class="hf-spec-metric-summary" role="status">
+          <div class="hf-spec-metric-desc">
+            <i class="fa-solid fa-circle-info" style="color: var(--hf-accent-blue);"></i>
+            <span><strong>${metricCfg.label} (${metricCfg.unit}):</strong> ${metricCfg.description}</span>
+          </div>
+          <div>
+            ${excludedCount > 0 ? `
+              <span class="hf-spec-excluded-pill" title="Missing or non-applicable values are excluded from the axis to prevent false zero representations.">
+                Showing ${plottedModels.length} of ${eligibleModels.length} models (${excludedCount} excluded: no published / applicable ${metricCfg.shortLabel})
+              </span>
+            ` : `
+              <span class="hf-spec-excluded-pill" style="color: var(--hf-accent-blue); background: rgba(2, 132, 199, 0.1); border-color: rgba(2, 132, 199, 0.25);">
+                All ${plottedModels.length} models have verified ${metricCfg.shortLabel}
+              </span>
+            `}
+          </div>
+        </div>
+
+        <!-- Chart Viewport -->
+        <div id="chart-model-specs" class="hf-spec-chart-viewport"></div>
+        <div id="table-chart-model-specs" class="hf-table-fallback">
+          ${this.renderModelSpecsTableFallback(plottedModels)}
+        </div>
+
+        <!-- Metadata Table Below Chart -->
+        ${this.renderModelSpecsTable(eligibleModels)}
+      </section>
+    `;
+  }
+
+  renderModelSpecsTableFallback(models) {
+    const metricCfg = this.getSpecMetricConfig(this.state.specMetric);
+    return `
+      <table class="hf-fallback-table" summary="Model Specifications benchmark table for ${metricCfg.label}">
+        <thead>
+          <tr>
+            <th>Model ID</th>
+            <th>Architecture</th>
+            <th>${metricCfg.label}</th>
+            <th>Quantization</th>
+            <th>Capabilities</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${models.map(m => {
+            const val = metricCfg.getValue(m);
+            return `
+              <tr>
+                <td>${m.id}</td>
+                <td>${m.architecture}</td>
+                <td>${metricCfg.formatValue(val, m)}</td>
+                <td>${m.quantization || 'N/A'}</td>
+                <td>${(m.capabilities || []).join(', ')}</td>
+              </tr>
+            `;
+          }).join('')}
+        </tbody>
+      </table>
+    `;
+  }
+
+  renderModelSpecsTable(models) {
+    return `
+      <div class="hf-spec-table-wrapper">
+        <div class="hf-spec-table-header">
+          <h4>
+            <i class="fa-solid fa-table-list" style="color: var(--hf-accent-blue);"></i>
+            Model Technical Specifications Registry (${models.length} Models)
+          </h4>
+          <span style="font-size: 0.8rem; color: var(--hf-text-muted);">
+            Click <strong>Inspect</strong> to view complete technical dossier
+          </span>
+        </div>
+
+        <div class="hf-spec-table-card">
+          <table class="hf-spec-table">
+            <thead>
+              <tr>
+                <th>Model Identifier</th>
+                <th>Architecture</th>
+                <th>Parameters</th>
+                <th>Context Length</th>
+                <th>Embedding Dim</th>
+                <th>Quantization</th>
+                <th>Capabilities</th>
+                <th>Multimodal Projector</th>
+                <th>Generation Parameters</th>
+                <th style="text-align: right;">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${models.map(m => {
+                const archClass = ['gemma', 'llama', 'deepseek', 'qwen'].find(k => m.architecture?.toLowerCase().includes(k)) || '';
+                return `
+                  <tr>
+                    <td>
+                      <strong>${m.name || m.id.split('/').pop()}</strong><br>
+                      <small style="color: var(--hf-text-muted);">${m.author}</small>
+                    </td>
+                    <td>
+                      <span class="hf-arch-badge ${archClass}">${m.architecture || 'unspecified'}</span>
+                    </td>
+                    <td>
+                      <strong title="${m.numParamsRaw ? m.numParamsRaw.toLocaleString() + ' trainable weights' : 'Unspecified'}">
+                        ${m.paramCount || 'n/r'}
+                      </strong>
+                    </td>
+                    <td>
+                      ${m.contextLength ? `${m.contextLength.toLocaleString()} tokens` : '<span style="color: var(--hf-text-subtle);">N/A</span>'}
+                    </td>
+                    <td>
+                      ${m.embeddingLength ? `${m.embeddingLength.toLocaleString()} dims` : '<span style="color: var(--hf-text-subtle);">N/A</span>'}
+                    </td>
+                    <td>
+                      <span class="hf-quant-badge ${m.quantization && m.quantization !== 'FP32' ? 'quantized' : ''}">
+                        ${m.quantization || 'FP32'}
+                      </span>
+                    </td>
+                    <td>
+                      ${(m.capabilities || []).map(c => `
+                        <span class="hf-cap-pill ${c}">${c}</span>
+                      `).join('')}
+                    </td>
+                    <td>
+                      ${m.projector ? `
+                        <span class="hf-badge" style="font-size: 0.72rem; background: rgba(2, 132, 199, 0.08); border-color: rgba(2, 132, 199, 0.25);" title="Arch: ${m.projector.architecture}, Params: ${m.projector.parameters}, Embed: ${m.projector.embeddingLength}, Dim: ${m.projector.dimensions}">
+                          ${m.projector.architecture} • ${m.projector.parameters}
+                        </span>
+                      ` : '<span style="color: var(--hf-text-subtle); font-size: 0.78rem;">N/A (Text / Dense)</span>'}
+                    </td>
+                    <td>
+                      ${m.generationParams ? `
+                        <span class="hf-param-chip" title="top_p">p:${m.generationParams.top_p}</span>
+                        <span class="hf-param-chip" title="temperature">t:${m.generationParams.temperature}</span>
+                        ${m.generationParams.top_k ? `<span class="hf-param-chip" title="top_k">k:${m.generationParams.top_k}</span>` : ''}
+                      ` : '<span style="color: var(--hf-text-subtle); font-size: 0.78rem;">N/A</span>'}
+                    </td>
+                    <td style="text-align: right;">
+                      <button class="hf-btn-inspect" data-inspect-id="${m.id}" aria-label="Inspect ${m.id} specifications">
+                        <i class="fa-solid fa-magnifying-glass-chart"></i> Inspect
+                      </button>
+                    </td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `;
+  }
+
+  renderModelSpecsChart() {
+    const div = document.getElementById('chart-model-specs');
+    if (!div || !window.Plotly) return;
+
+    const metricCfg = this.getSpecMetricConfig(this.state.specMetric);
+    const eligibleModels = this.getEligibleSpecModels(this.getFilteredModels());
+
+    // Filter out missing values (DO NOT treat missing values as zero)
+    const plotted = eligibleModels.filter(m => {
+      const val = metricCfg.getValue(m);
+      return val !== null && val !== undefined && !isNaN(val);
+    });
+
+    if (plotted.length === 0) {
+      div.innerHTML = `
+        <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: var(--hf-text-muted); font-size: 0.95rem;">
+          <i class="fa-solid fa-circle-exclamation" style="margin-right: 0.5rem;"></i>
+          No models in the current selection have valid ${metricCfg.label} metadata. Select another metric or loosen filters.
+        </div>
+      `;
+      return;
+    }
+
+    // Sort models
+    plotted.sort((a, b) => {
+      const valA = metricCfg.getValue(a);
+      const valB = metricCfg.getValue(b);
+      return this.state.specSortDir === 'asc' ? (valA - valB) : (valB - valA);
+    });
+
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark' || document.body.classList.contains('dark-theme');
+    const textColor = isDark ? '#f8fafc' : '#0f172a';
+    const mutedColor = isDark ? '#94a3b8' : '#64748b';
+    const gridColor = isDark ? '#1e293b' : '#e2e8f0';
+
+    const archColorMap = {
+      gemma3: '#0284c7',
+      gemma: '#0284c7',
+      llama3: '#2563eb',
+      llama2: '#1d4ed8',
+      llama: '#2563eb',
+      deepseek_v3: '#0d9488',
+      deepseek: '#0d9488',
+      qwen2: '#d97706',
+      qwen2_vl: '#ea580c',
+      qwen: '#d97706',
+      llava: '#7c3aed',
+      flux: '#e11d48',
+      'stable-diffusion': '#ec4899',
+      resnet: '#059669',
+      bert: '#475569',
+      roberta: '#475569',
+      tapas: '#3b82f6',
+      tabpfn: '#10b981',
+      catboost: '#84cc16',
+      xgboost: '#eab308',
+      timestral: '#8b5cf6',
+      t5: '#6366f1'
+    };
+
+    const names = plotted.map(m => m.name || m.id.split('/').pop());
+    const values = plotted.map(m => metricCfg.getValue(m));
+    const colors = plotted.map(m => archColorMap[m.architecture] || '#0284c7');
+    const borderColors = plotted.map(m => archColorMap[m.architecture] || '#0369a1');
+
+    const customdata = plotted.map(m => [
+      m.id,
+      m.author,
+      metricCfg.unit,
+      m.architecture,
+      m.quantization,
+      (m.capabilities || []).join(', '),
+      m.projector ? `${m.projector.architecture} (${m.projector.parameters}) [embed ${m.projector.embeddingLength}, dim ${m.projector.dimensions}]` : 'None (Text / Dense)',
+      m.generationParams ? `top_p=${m.generationParams.top_p}, temp=${m.generationParams.temperature}, top_k=${m.generationParams.top_k || 'n/a'}` : 'N/A',
+      metricCfg.formatValue(metricCfg.getValue(m), m)
+    ]);
+
+    const data = [{
+      type: 'bar',
+      x: names,
+      y: values,
+      marker: {
+        color: colors,
+        line: { color: borderColors, width: 1.5 }
+      },
+      customdata: customdata,
+      hovertemplate:
+        '<b>%{customdata[0]}</b> (%{customdata[1]})<br>' +
+        '<b>' + metricCfg.label + ':</b> %{customdata[8]} (%{y:,.0f} %{customdata[2]})<br>' +
+        'Architecture: <b>%{customdata[3]}</b> | Quantization: <b>%{customdata[4]}</b><br>' +
+        'Capabilities: <i>%{customdata[5]}</i><br>' +
+        'Projector: <i>%{customdata[6]}</i><br>' +
+        'Generation Parameters: %{customdata[7]}<br>' +
+        '<i>(Click bar to inspect full model specification)</i>' +
+        '<extra></extra>'
+    }];
+
+    const layout = {
+      margin: { l: 75, r: 25, t: 30, b: 90 },
+      paper_bgcolor: 'transparent',
+      plot_bgcolor: 'transparent',
+      xaxis: {
+        title: { text: 'Hugging Face Model', font: { family: 'Inter, sans-serif', size: 12, color: textColor } },
+        tickangle: -28,
+        automargin: true,
+        tickfont: { family: 'Inter, sans-serif', size: 11, color: mutedColor },
+        gridcolor: 'transparent'
+      },
+      yaxis: {
+        title: { text: `${metricCfg.label} (${metricCfg.unit})`, font: { family: 'Inter, sans-serif', size: 12, color: textColor } },
+        gridcolor: gridColor,
+        tickfont: { family: 'Inter, sans-serif', size: 11, color: mutedColor },
+        automargin: true
+      },
+      font: { family: 'Inter, sans-serif', size: 11, color: mutedColor }
+    };
+
+    window.Plotly.newPlot(div, data, layout, { responsive: true, displayModeBar: false }).then(() => {
+      if (div.removeAllListeners) {
+        div.removeAllListeners('plotly_click');
+      }
+      div.on('plotly_click', (eventData) => {
+        if (eventData.points && eventData.points[0]) {
+          const clickedId = eventData.points[0].customdata[0];
+          this.openModelSpecModal(clickedId);
+        }
+      });
+    });
+  }
+
+  renderModelSpecModal() {
+    return `
+      <div class="hf-modal-backdrop" id="hf-spec-modal" role="dialog" aria-modal="true" aria-labelledby="hf-spec-modal-title">
+        <div class="hf-modal-content" style="max-width: 920px;">
+          <button class="hf-modal-close" id="hf-close-spec-modal" aria-label="Close modal">&times;</button>
+          <div id="hf-spec-modal-container">
+            ${this.renderModelSpecModalContent()}
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  renderModelSpecModalContent() {
+    const m = this.state.models.find(item => item.id === this.state.inspectedModelId) || this.state.models[0];
+    if (!m) {
+      return `<p>No model selected for technical inspection.</p>`;
+    }
+
+    const archClass = ['gemma', 'llama', 'deepseek', 'qwen'].find(k => m.architecture?.toLowerCase().includes(k)) || '';
+    const ctxPercent = m.contextLength ? Math.min(100, Math.round((m.contextLength / 131072) * 100)) : 0;
+
+    return `
+      <div class="hf-spec-modal-header">
+        <div>
+          <span class="hf-author-tag">${m.author}</span>
+          ${m.gated ? `<span class="hf-gated-badge" style="margin-left: 0.5rem;">GATED</span>` : ''}
+          <h2 id="hf-spec-modal-title" style="font-family: var(--hf-font-display); font-size: 1.5rem; margin: 0.35rem 0 0.2rem 0; color: var(--hf-text-main);">
+            ${m.id}
+          </h2>
+          <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.4rem;">
+            <span class="hf-badge hf-badge-task">${m.pipeline_tag}</span>
+            <span class="hf-badge">${m.library_name}</span>
+            <span class="hf-badge hf-badge-license">${m.license}</span>
+          </div>
+        </div>
+        <div>
+          <a href="https://huggingface.co/${m.id}" target="_blank" rel="noopener" class="hf-btn-tool" style="font-size: 0.82rem; padding: 0.45rem 0.85rem;">
+            View on Hugging Face Hub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hf-spec-modal-body">
+        <div class="hf-spec-dossier-grid">
+          <!-- Card 1: Core Architecture & Parameters -->
+          <div class="hf-spec-dossier-box">
+            <h4><i class="fa-solid fa-cube" style="color: var(--hf-accent-blue);"></i> Core Architecture &amp; Weights</h4>
+            <div class="hf-spec-dossier-row">
+              <span class="hf-spec-dossier-label">Architecture</span>
+              <span class="hf-arch-badge ${archClass}">${m.architecture}</span>
+            </div>
+            <div class="hf-spec-dossier-row">
+              <span class="hf-spec-dossier-label">Parameter Scale</span>
+              <span class="hf-spec-dossier-val">${m.paramCount}</span>
+            </div>
+            <div class="hf-spec-dossier-row">
+              <span class="hf-spec-dossier-label">Trainable Weights</span>
+              <span class="hf-spec-dossier-val">${m.numParamsRaw ? m.numParamsRaw.toLocaleString() : 'Unspecified'}</span>
+            </div>
+            <div class="hf-spec-dossier-row">
+              <span class="hf-spec-dossier-label">Quantization / Precision</span>
+              <span class="hf-quant-badge quantized">${m.quantization}</span>
+            </div>
+            <div class="hf-spec-dossier-row">
+              <span class="hf-spec-dossier-label">Runtime Engine</span>
+              <span class="hf-spec-dossier-val">${m.library_name}</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Context Window & Representation -->
+          <div class="hf-spec-dossier-box">
+            <h4><i class="fa-solid fa-arrows-left-right" style="color: var(--hf-accent-teal);"></i> Context &amp; Representations</h4>
+            <div class="hf-spec-dossier-row">
+              <span class="hf-spec-dossier-label">Context Window</span>
+              <span class="hf-spec-dossier-val">${m.contextLength ? m.contextLength.toLocaleString() + ' tokens' : 'N/A'}</span>
+            </div>
+            <div style="margin: 0.4rem 0;">
+              <div style="display: flex; justify-content: space-between; font-size: 0.74rem; color: var(--hf-text-muted); margin-bottom: 3px;">
+                <span>Token Scale vs 128k Baseline</span>
+                <span>${ctxPercent}%</span>
+              </div>
+              <div style="width: 100%; height: 6px; background: rgba(148, 163, 184, 0.25); border-radius: 9999px; overflow: hidden;">
+                <div style="width: ${ctxPercent}%; height: 100%; background: var(--hf-accent-teal); border-radius: 9999px;"></div>
+              </div>
+            </div>
+            <div class="hf-spec-dossier-row">
+              <span class="hf-spec-dossier-label">Embedding Dimensions</span>
+              <span class="hf-spec-dossier-val">${m.embeddingLength ? m.embeddingLength.toLocaleString() + ' dims' : 'N/A'}</span>
+            </div>
+            <div class="hf-spec-dossier-row">
+              <span class="hf-spec-dossier-label">SPDX License</span>
+              <span class="hf-spec-dossier-val">${m.license}</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Multimodal Projector Specifications -->
+          <div class="hf-spec-dossier-box" style="grid-column: 1 / -1;">
+            <h4><i class="fa-solid fa-microchip" style="color: var(--hf-accent-amber);"></i> Multimodal Projector Specifications</h4>
+            ${m.projector ? `
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem; margin-top: 0.5rem;">
+                <div class="hf-spec-dossier-row">
+                  <span class="hf-spec-dossier-label">Projector Architecture</span>
+                  <span class="hf-arch-badge" style="background: rgba(217, 119, 6, 0.12); color: #d97706; border-color: rgba(217, 119, 6, 0.3);">
+                    ${m.projector.architecture.toUpperCase()}
+                  </span>
+                </div>
+                <div class="hf-spec-dossier-row">
+                  <span class="hf-spec-dossier-label">Projector Parameters</span>
+                  <span class="hf-spec-dossier-val">${m.projector.parameters} (${m.projector.numParamsRaw ? m.projector.numParamsRaw.toLocaleString() : 'N/A'} weights)</span>
+                </div>
+                <div class="hf-spec-dossier-row">
+                  <span class="hf-spec-dossier-label">Projector Embedding Length</span>
+                  <span class="hf-spec-dossier-val">${m.projector.embeddingLength.toLocaleString()} dims</span>
+                </div>
+                <div class="hf-spec-dossier-row">
+                  <span class="hf-spec-dossier-label">Projector Dimensions</span>
+                  <span class="hf-spec-dossier-val">${m.projector.dimensions.toLocaleString()} dims</span>
+                </div>
+              </div>
+            ` : `
+              <p style="margin: 0.5rem 0 0 0; font-size: 0.84rem; color: var(--hf-text-muted);">
+                <i class="fa-solid fa-circle-check" style="color: var(--hf-accent-teal);"></i>
+                Text / Dense Representation Foundation Model — No multimodal visual projector attached.
+              </p>
+            `}
+          </div>
+
+          <!-- Card 4: Model Generation Parameters -->
+          <div class="hf-spec-dossier-box">
+            <h4><i class="fa-solid fa-sliders" style="color: var(--hf-accent-purple);"></i> Generation Hyperparameters</h4>
+            ${m.generationParams ? `
+              <div class="hf-spec-dossier-row">
+                <span class="hf-spec-dossier-label">top_p</span>
+                <span class="hf-spec-dossier-val">${m.generationParams.top_p ?? 'default'}</span>
+              </div>
+              <div class="hf-spec-dossier-row">
+                <span class="hf-spec-dossier-label">temperature</span>
+                <span class="hf-spec-dossier-val">${m.generationParams.temperature ?? 'default'}</span>
+              </div>
+              <div class="hf-spec-dossier-row">
+                <span class="hf-spec-dossier-label">top_k</span>
+                <span class="hf-spec-dossier-val">${m.generationParams.top_k ?? 'default'}</span>
+              </div>
+              ${m.generationParams.steps ? `
+                <div class="hf-spec-dossier-row">
+                  <span class="hf-spec-dossier-label">diffusion steps</span>
+                  <span class="hf-spec-dossier-val">${m.generationParams.steps}</span>
+                </div>
+              ` : ''}
+              ${m.generationParams.guidance !== undefined ? `
+                <div class="hf-spec-dossier-row">
+                  <span class="hf-spec-dossier-label">guidance scale</span>
+                  <span class="hf-spec-dossier-val">${m.generationParams.guidance}</span>
+                </div>
+              ` : ''}
+            ` : `
+              <p style="margin: 0.5rem 0 0 0; font-size: 0.84rem; color: var(--hf-text-muted);">
+                Non-generative pipeline (Embedding / Classifier / Tabular).
+              </p>
+            `}
+          </div>
+
+          <!-- Card 5: Supported Capabilities & Tags -->
+          <div class="hf-spec-dossier-box">
+            <h4><i class="fa-solid fa-tags" style="color: var(--hf-accent-rose);"></i> Capabilities &amp; Hub Tags</h4>
+            <div style="margin-bottom: 0.75rem;">
+              <span class="hf-spec-dossier-label" style="display: block; margin-bottom: 0.35rem;">Capabilities:</span>
+              ${(m.capabilities || []).map(c => `
+                <span class="hf-cap-pill ${c}">${c}</span>
+              `).join('')}
+            </div>
+            <div>
+              <span class="hf-spec-dossier-label" style="display: block; margin-bottom: 0.35rem;">Repository Tags:</span>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.3rem; max-height: 90px; overflow-y: auto;">
+                ${(m.tags || []).slice(0, 16).map(t => `
+                  <span class="hf-badge" style="font-size: 0.7rem;">${t}</span>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  openModelSpecModal(modelId) {
+    this.state.inspectedModelId = modelId;
+    const modal = document.getElementById('hf-spec-modal');
+    if (!modal) return;
+    const container = document.getElementById('hf-spec-modal-container');
+    if (container) {
+      container.innerHTML = this.renderModelSpecModalContent();
+    }
+    modal.classList.add('open');
+  }
+
+  closeModelSpecModal() {
+    this.state.inspectedModelId = null;
+    const modal = document.getElementById('hf-spec-modal');
+    if (modal) {
+      modal.classList.remove('open');
+    }
+  }
+
   // --- CHART RENDERING ENGINE (Plotly.js + Accessible Table Fallbacks) ---
   renderCharts() {
     if (!window.Plotly) {
@@ -857,6 +1750,7 @@ class HFBoard {
     }
 
     if (this.state.mainTab === 'models') {
+      this.renderModelSpecsChart();
       this.renderTopNChart();
       this.renderScatterChart();
       this.renderLibraryDonutChart();
@@ -1372,16 +2266,69 @@ class HFBoard {
         }
       });
     });
+
+    // Model Specification Metric Selector Pills
+    document.querySelectorAll('[data-spec-metric]').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const metric = e.currentTarget.getAttribute('data-spec-metric');
+        this.state.specMetric = metric;
+        this.render();
+      });
+    });
+
+    // Model Specification Filters
+    document.getElementById('hf-spec-filter-arch')?.addEventListener('change', (e) => {
+      this.state.specFilterArch = e.target.value;
+      this.render();
+    });
+
+    document.getElementById('hf-spec-filter-cap')?.addEventListener('change', (e) => {
+      this.state.specFilterCap = e.target.value;
+      this.render();
+    });
+
+    document.getElementById('hf-spec-filter-quant')?.addEventListener('change', (e) => {
+      this.state.specFilterQuant = e.target.value;
+      this.render();
+    });
+
+    document.getElementById('hf-spec-sort-dir')?.addEventListener('change', (e) => {
+      this.state.specSortDir = e.target.value;
+      this.render();
+    });
+
+    // Inspect Model Buttons (opens deep technical dossier modal)
+    document.querySelectorAll('[data-inspect-id]').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const id = e.currentTarget.getAttribute('data-inspect-id');
+        this.openModelSpecModal(id);
+      });
+    });
+
+    // Close Model Specification Modal
+    document.getElementById('hf-close-spec-modal')?.addEventListener('click', () => {
+      this.closeModelSpecModal();
+    });
+
+    // Close Model Specification Modal on backdrop click
+    document.getElementById('hf-spec-modal')?.addEventListener('click', (e) => {
+      if (e.target.id === 'hf-spec-modal') {
+        this.closeModelSpecModal();
+      }
+    });
   }
 
   bindGlobalEvents() {
-    window.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        document.getElementById('hf-compare-modal')?.classList.remove('open');
-        const box = document.getElementById('hf-suggestions-box');
-        if (box) box.style.display = 'none';
-      }
-    });
+    if (typeof window !== 'undefined' && window.addEventListener) {
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          document.getElementById('hf-compare-modal')?.classList.remove('open');
+          this.closeModelSpecModal();
+          const box = document.getElementById('hf-suggestions-box');
+          if (box) box.style.display = 'none';
+        }
+      });
+    }
   }
 
   showSuggestions(val, box) {

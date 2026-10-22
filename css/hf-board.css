@@ -939,6 +939,486 @@ body.dark-theme {
   text-decoration: underline;
 }
 
+/* ==========================================================================
+   Model Technical Specifications & Architecture Explorer Styles
+   ========================================================================== */
+
+.hf-spec-explorer-card {
+  background: var(--hf-bg-card);
+  border: 1px solid var(--hf-border);
+  border-radius: var(--hf-radius-lg);
+  box-shadow: var(--hf-shadow-sm);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hf-spec-explorer-card:hover {
+  border-color: var(--hf-border-hover);
+  box-shadow: var(--hf-shadow-md);
+}
+
+.hf-spec-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--hf-border);
+}
+
+.hf-spec-title-group h3 {
+  font-family: var(--hf-font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--hf-text-main);
+}
+
+.hf-spec-badge {
+  background: linear-gradient(135deg, rgba(2, 132, 199, 0.12), rgba(124, 58, 237, 0.12));
+  color: var(--hf-accent-blue);
+  border: 1px solid rgba(2, 132, 199, 0.25);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.hf-spec-description {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--hf-text-muted);
+  line-height: 1.45;
+}
+
+/* Metric Selector Pills & Controls Bar */
+.hf-spec-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: var(--hf-bg-subtle);
+  border: 1px solid var(--hf-border);
+  border-radius: var(--hf-radius-md);
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.hf-spec-metric-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.hf-spec-control-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--hf-text-muted);
+  min-width: 90px;
+}
+
+.hf-spec-metric-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  flex: 1;
+}
+
+.hf-spec-metric-btn {
+  background: var(--hf-bg-card);
+  border: 1px solid var(--hf-border);
+  color: var(--hf-text-main);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border-radius: var(--hf-radius-sm);
+  cursor: pointer;
+  transition: all 0.18s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hf-spec-metric-btn:hover {
+  border-color: var(--hf-accent-blue);
+  color: var(--hf-accent-blue);
+}
+
+.hf-spec-metric-btn.active {
+  background: var(--hf-accent-blue);
+  border-color: var(--hf-accent-blue);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(2, 132, 199, 0.3);
+}
+
+.hf-spec-filters-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.hf-spec-filter-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+}
+
+.hf-spec-filter-item label {
+  font-weight: 600;
+  color: var(--hf-text-muted);
+}
+
+.hf-spec-filter-select {
+  background: var(--hf-bg-card);
+  border: 1px solid var(--hf-border);
+  color: var(--hf-text-main);
+  padding: 0.35rem 0.65rem;
+  font-size: 0.82rem;
+  border-radius: var(--hf-radius-sm);
+  outline: none;
+  cursor: pointer;
+}
+
+.hf-spec-filter-select:focus {
+  border-color: var(--hf-accent-blue);
+}
+
+/* Metric Guidance & Exclusion Status Pill */
+.hf-spec-metric-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0.6rem 0.85rem;
+  border-radius: var(--hf-radius-sm);
+  background: rgba(2, 132, 199, 0.06);
+  border-left: 3px solid var(--hf-accent-blue);
+  font-size: 0.83rem;
+  color: var(--hf-text-main);
+  margin-bottom: 1rem;
+}
+
+.hf-spec-metric-desc {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hf-spec-excluded-pill {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--hf-accent-amber);
+  background: rgba(217, 119, 6, 0.1);
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(217, 119, 6, 0.25);
+}
+
+/* Chart Canvas */
+.hf-spec-chart-viewport {
+  width: 100%;
+  min-height: 420px;
+  height: 460px;
+  position: relative;
+}
+
+/* Technical Specification Badges */
+.hf-arch-badge {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  background: rgba(124, 58, 237, 0.1);
+  color: #7c3aed;
+  border: 1px solid rgba(124, 58, 237, 0.25);
+}
+
+.hf-arch-badge.gemma {
+  background: rgba(2, 132, 199, 0.1);
+  color: #0284c7;
+  border-color: rgba(2, 132, 199, 0.25);
+}
+
+.hf-arch-badge.llama {
+  background: rgba(37, 99, 235, 0.1);
+  color: #2563eb;
+  border-color: rgba(37, 99, 235, 0.25);
+}
+
+.hf-arch-badge.deepseek {
+  background: rgba(13, 148, 136, 0.1);
+  color: #0d9488;
+  border-color: rgba(13, 148, 136, 0.25);
+}
+
+.hf-arch-badge.qwen {
+  background: rgba(217, 119, 6, 0.1);
+  color: #d97706;
+  border-color: rgba(217, 119, 6, 0.25);
+}
+
+.hf-quant-badge {
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid #cbd5e1;
+}
+
+.hf-quant-badge.quantized {
+  background: rgba(217, 119, 6, 0.12);
+  color: #b45309;
+  border-color: rgba(217, 119, 6, 0.3);
+}
+
+.hf-cap-pill {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.12rem 0.45rem;
+  border-radius: 9999px;
+  background: #e2e8f0;
+  color: #334155;
+  display: inline-block;
+  margin: 1px;
+}
+
+.hf-cap-pill.vision {
+  background: rgba(124, 58, 237, 0.12);
+  color: #6d28d9;
+}
+
+.hf-cap-pill.completion {
+  background: rgba(2, 132, 199, 0.12);
+  color: #0369a1;
+}
+
+.hf-cap-pill.code {
+  background: rgba(13, 148, 136, 0.12);
+  color: #0f766e;
+}
+
+.hf-cap-pill.embedding {
+  background: rgba(100, 116, 139, 0.15);
+  color: #334155;
+}
+
+.hf-param-chip {
+  font-family: ui-monospace, monospace;
+  font-size: 0.72rem;
+  background: var(--hf-bg-subtle);
+  border: 1px solid var(--hf-border);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  display: inline-block;
+  color: var(--hf-text-main);
+  margin-right: 3px;
+}
+
+/* Metadata Table below chart */
+.hf-spec-table-wrapper {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--hf-border);
+  padding-top: 1.25rem;
+}
+
+.hf-spec-table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.85rem;
+}
+
+.hf-spec-table-header h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hf-spec-table-card {
+  overflow-x: auto;
+  border: 1px solid var(--hf-border);
+  border-radius: var(--hf-radius-md);
+}
+
+.hf-spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  text-align: left;
+}
+
+.hf-spec-table th {
+  background: var(--hf-bg-subtle);
+  padding: 0.75rem 0.85rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--hf-border);
+  white-space: nowrap;
+  color: var(--hf-text-main);
+}
+
+.hf-spec-table td {
+  padding: 0.75rem 0.85rem;
+  border-bottom: 1px solid var(--hf-border);
+  vertical-align: middle;
+}
+
+.hf-spec-table tr:hover td {
+  background: rgba(2, 132, 199, 0.03);
+}
+
+.hf-btn-inspect {
+  background: var(--hf-bg-card);
+  border: 1px solid var(--hf-accent-blue);
+  color: var(--hf-accent-blue);
+  padding: 0.3rem 0.65rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  border-radius: var(--hf-radius-sm);
+  cursor: pointer;
+  transition: all 0.18s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.hf-btn-inspect:hover {
+  background: var(--hf-accent-blue);
+  color: #ffffff;
+}
+
+/* Model Inspection Dossier Modal */
+.hf-spec-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.hf-spec-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--hf-border);
+}
+
+.hf-spec-dossier-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.hf-spec-dossier-box {
+  background: var(--hf-bg-subtle);
+  border: 1px solid var(--hf-border);
+  border-radius: var(--hf-radius-md);
+  padding: 1rem;
+}
+
+.hf-spec-dossier-box h4 {
+  font-family: var(--hf-font-display);
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem 0;
+  color: var(--hf-text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hf-spec-dossier-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.35rem 0;
+  font-size: 0.82rem;
+  border-bottom: 1px dashed rgba(148, 163, 184, 0.3);
+}
+
+.hf-spec-dossier-row:last-child {
+  border-bottom: none;
+}
+
+.hf-spec-dossier-label {
+  color: var(--hf-text-muted);
+  font-weight: 500;
+}
+
+.hf-spec-dossier-val {
+  font-weight: 700;
+  color: var(--hf-text-main);
+  font-family: ui-monospace, SFMono-Regular, monospace;
+}
+
+.hf-projector-banner {
+  background: linear-gradient(135deg, rgba(2, 132, 199, 0.08), rgba(13, 148, 136, 0.08));
+  border: 1px solid rgba(2, 132, 199, 0.2);
+  border-radius: var(--hf-radius-md);
+  padding: 1rem;
+}
+
+/* Dark mode overrides for spec explorer */
+[data-theme="dark"] .hf-spec-explorer-card {
+  background: var(--hf-bg-card);
+  border-color: var(--hf-border);
+}
+
+[data-theme="dark"] .hf-spec-controls,
+[data-theme="dark"] .hf-spec-dossier-box {
+  background: #090d16;
+  border-color: var(--hf-border);
+}
+
+[data-theme="dark"] .hf-spec-metric-btn,
+[data-theme="dark"] .hf-spec-filter-select {
+  background: #0f172a;
+  border-color: var(--hf-border);
+  color: var(--hf-text-main);
+}
+
+[data-theme="dark"] .hf-spec-metric-btn.active {
+  background: var(--hf-accent-blue);
+  color: #ffffff;
+}
+
+[data-theme="dark"] .hf-spec-table th {
+  background: #090d16;
+}
+
+[data-theme="dark"] .hf-quant-badge {
+  background: #1e293b;
+  color: #cbd5e1;
+  border-color: #334155;
+}
+
+[data-theme="dark"] .hf-cap-pill {
+  background: #1e293b;
+  color: #cbd5e1;
+}
+
 /* Reduced Motion Accessibility */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -947,3 +1427,4 @@ body.dark-theme {
     transition-duration: 0.01ms !important;
   }
 }
+
