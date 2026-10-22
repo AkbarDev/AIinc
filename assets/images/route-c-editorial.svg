@@ -1,0 +1,35 @@
+<svg width="480" height="120" viewBox="0 0 480 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Route C: The Editorial Signal - Snapfacts">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&amp;display=swap');
+      .route-c-text {
+        font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        letter-spacing: -0.03em;
+        fill: #0F172A;
+      }
+      .route-c-tag {
+        font-family: 'Inter', -apple-system, sans-serif;
+        font-weight: 600;
+        font-size: 10px;
+        letter-spacing: 0.22em;
+        fill: #64748B;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(20, 20)">
+    <!-- Architectural Editorial Masthead Lockup -->
+    <text x="0" y="52" class="route-c-text">Snapfacts</text>
+    
+    <!-- Live Editorial Signal Beacon / Cadence Dot -->
+    <circle cx="236" cy="28" r="5.5" fill="#EF4444" />
+    <circle cx="236" cy="28" r="10" stroke="#EF4444" stroke-width="1.5" opacity="0.3" />
+
+    <!-- Editorial Desk Subtitle Rule -->
+    <line x1="2" y1="68" x2="252" y2="68" stroke="#E2E8F0" stroke-width="1" />
+    <text x="2" y="80" class="route-c-tag">INDUSTRY SIGNALS &amp; SYNTHESIS</text>
+  </g>
+</svg>

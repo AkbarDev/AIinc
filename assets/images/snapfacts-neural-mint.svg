@@ -1,0 +1,97 @@
+<svg width="440" height="120" viewBox="0 0 440 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Snapfacts - Neural Intelligence">
+  <defs>
+    <!-- Dark Tech Container Gradient -->
+    <linearGradient id="container-mint-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061A14" />
+      <stop offset="100%" stop-color="#040D0A" />
+    </linearGradient>
+
+    <!-- Squircle Border Stroke Gradient -->
+    <linearGradient id="border-mint-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5EEAD4" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Glowing Core Radial Gradient -->
+    <radialGradient id="core-mint-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="45%" stop-color="#A7F3D0" />
+      <stop offset="85%" stop-color="#5EEAD4" />
+      <stop offset="100%" stop-color="#059669" />
+    </radialGradient>
+
+    <!-- Node Glow Filter -->
+    <filter id="mint-glow-fx" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#5EEAD4" flood-opacity="0.65" />
+    </filter>
+  </defs>
+
+  <style>
+    .brand-title-mint {
+      fill: #0B0F19;
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 700;
+      font-size: 46px;
+      letter-spacing: -0.025em;
+    }
+    .brand-descriptor-mint {
+      fill: #64748B;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 600;
+      font-size: 11px;
+      letter-spacing: 0.14em;
+    }
+    @media (prefers-color-scheme: dark) {
+      .brand-title-mint { fill: #FFFFFF; }
+      .brand-descriptor-mint { fill: #94A3B8; }
+    }
+  </style>
+
+  <!-- Redesigned Neural Constellation Squircle Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Squircle Shell -->
+    <rect x="0" y="0" width="100" height="100" rx="26" fill="url(#container-mint-bg)" stroke="url(#border-mint-grad)" stroke-width="3" />
+
+    <!-- Neural Interconnection Lattice Lines -->
+    <!-- Outer Lattice Octagon -->
+    <polygon points="50,18 73,27 82,50 73,73 50,82 27,73 18,50 27,27" fill="none" stroke="#5EEAD4" stroke-width="1.2" opacity="0.45" />
+    
+    <!-- Cross Inner Interconnects -->
+    <line x1="50" y1="18" x2="73" y2="73" stroke="#059669" stroke-width="1" opacity="0.35" />
+    <line x1="50" y1="18" x2="27" y2="73" stroke="#059669" stroke-width="1" opacity="0.35" />
+    <line x1="50" y1="82" x2="73" y2="27" stroke="#059669" stroke-width="1" opacity="0.35" />
+    <line x1="50" y1="82" x2="27" y2="27" stroke="#059669" stroke-width="1" opacity="0.35" />
+    <line x1="18" y1="50" x2="73" y2="27" stroke="#059669" stroke-width="1" opacity="0.35" />
+    <line x1="18" y1="50" x2="73" y2="73" stroke="#059669" stroke-width="1" opacity="0.35" />
+    <line x1="82" y1="50" x2="27" y2="27" stroke="#059669" stroke-width="1" opacity="0.35" />
+    <line x1="82" y1="50" x2="27" y2="73" stroke="#059669" stroke-width="1" opacity="0.35" />
+
+    <!-- Radial Spokes from Center -->
+    <line x1="50" y1="50" x2="50" y2="18" stroke="#5EEAD4" stroke-width="1.8" opacity="0.75" />
+    <line x1="50" y1="50" x2="50" y2="82" stroke="#5EEAD4" stroke-width="1.8" opacity="0.75" />
+    <line x1="50" y1="50" x2="18" y2="50" stroke="#5EEAD4" stroke-width="1.8" opacity="0.75" />
+    <line x1="50" y1="50" x2="82" y2="50" stroke="#5EEAD4" stroke-width="1.8" opacity="0.75" />
+    <line x1="50" y1="50" x2="27" y2="27" stroke="#5EEAD4" stroke-width="1.5" opacity="0.65" />
+    <line x1="50" y1="50" x2="73" y2="27" stroke="#5EEAD4" stroke-width="1.5" opacity="0.65" />
+    <line x1="50" y1="50" x2="27" y2="73" stroke="#5EEAD4" stroke-width="1.5" opacity="0.65" />
+    <line x1="50" y1="50" x2="73" y2="73" stroke="#5EEAD4" stroke-width="1.5" opacity="0.65" />
+
+    <!-- Orbital Secondary Data Nodes -->
+    <circle cx="50" cy="18" r="5" fill="#5EEAD4" filter="url(#mint-glow-fx)" />
+    <circle cx="50" cy="82" r="5" fill="#5EEAD4" filter="url(#mint-glow-fx)" />
+    <circle cx="18" cy="50" r="5" fill="#5EEAD4" filter="url(#mint-glow-fx)" />
+    <circle cx="82" cy="50" r="5" fill="#5EEAD4" filter="url(#mint-glow-fx)" />
+    
+    <circle cx="27" cy="27" r="4.2" fill="#6EE7B7" />
+    <circle cx="73" cy="27" r="4.2" fill="#6EE7B7" />
+    <circle cx="27" cy="73" r="4.2" fill="#6EE7B7" />
+    <circle cx="73" cy="73" r="4.2" fill="#6EE7B7" />
+
+    <!-- Central Neural Intelligence Core Node -->
+    <circle cx="50" cy="50" r="14" fill="url(#core-mint-glow)" filter="url(#mint-glow-fx)" />
+  </g>
+
+  <!-- Typography Lockup -->
+  <text x="132" y="66" class="brand-title-mint">Snapfacts</text>
+  <text x="134" y="91" class="brand-descriptor-mint">REAL-TIME AI &amp; INDUSTRY INTELLIGENCE</text>
+</svg>

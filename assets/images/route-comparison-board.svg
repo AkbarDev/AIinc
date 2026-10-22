@@ -1,0 +1,197 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Snapfacts Logo Redesign: Comparison Board">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap');
+      .board-header { font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 700; fill: #0F172A; }
+      .board-sub { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 500; fill: #64748B; }
+      .route-title { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700; fill: #1E293B; }
+      .card-label { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; fill: #64748B; text-transform: uppercase; letter-spacing: 0.08em; }
+      .logo-text-lg { font-family: 'Space Grotesk', sans-serif; font-size: 34px; font-weight: 700; letter-spacing: -0.03em; }
+      .logo-text-sm { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700; letter-spacing: -0.02em; }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="900" fill="#F1F5F9" />
+
+  <!-- Board Title Banner -->
+  <g transform="translate(48, 48)">
+    <text x="0" y="0" class="board-header">SNAPFACTS LOGO REDESIGN — 3 CREATIVE ROUTES</text>
+    <text x="0" y="24" class="board-sub">Google Flow Identity Exploration: Brand Strategy, Benchmark Positioning &amp; Responsive Evaluation</text>
+  </g>
+
+  <!-- COLUMN 1: ROUTE A (Aperture Wordmark) -->
+  <g transform="translate(48, 110)">
+    <!-- Column Card Background -->
+    <rect width="344" height="740" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" />
+    
+    <!-- Title & Concept -->
+    <text x="24" y="38" class="route-title">ROUTE A: APERTURE WORDMARK</text>
+    <text x="24" y="58" class="card-label">Pure Typographic Rhythmic Slit</text>
+
+    <!-- 1. Primary Light Mode -->
+    <text x="24" y="96" class="card-label">1. Primary (Light Mode)</text>
+    <rect x="24" y="106" width="296" height="84" rx="8" fill="#F8FAFC" stroke="#E2E8F0" />
+    <g transform="translate(56, 160)">
+      <text x="0" y="0" class="logo-text-lg" fill="#0B0F19">Snap<tspan fill="#2563EB">f</tspan>acts</text>
+      <rect x="80" y="-13" width="22" height="3" rx="1.5" fill="#2563EB" />
+    </g>
+
+    <!-- 2. Dark Mode Surface -->
+    <text x="24" y="222" class="card-label">2. Dark Mode Inversion</text>
+    <rect x="24" y="232" width="296" height="84" rx="8" fill="#0B0F19" />
+    <g transform="translate(56, 286)">
+      <text x="0" y="0" class="logo-text-lg" fill="#FFFFFF">Snap<tspan fill="#60A5FA">f</tspan>acts</text>
+      <rect x="80" y="-13" width="22" height="3" rx="1.5" fill="#60A5FA" />
+    </g>
+
+    <!-- 3. Favicon / Small Icon (32px Crop) -->
+    <text x="24" y="348" class="card-label">3. Favicon (32px) &amp; Small Scale</text>
+    <rect x="24" y="358" width="48" height="48" rx="12" fill="#0B0F19" />
+    <text x="35" y="392" font-family="'Space Grotesk'" font-size="22" font-weight="700" fill="#60A5FA">Sf</text>
+    <rect x="24" y="416" width="296" height="36" rx="6" fill="#F8FAFC" stroke="#E2E8F0" />
+    <text x="36" y="440" class="logo-text-sm" fill="#0B0F19">Snapfacts</text>
+
+    <!-- 4. Single-Color Monochrome -->
+    <text x="24" y="482" class="card-label">4. Single-Color Monochrome</text>
+    <rect x="24" y="492" width="296" height="54" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" />
+    <text x="76" y="528" class="logo-text-lg" fill="#000000">Snapfacts</text>
+
+    <!-- 5. Website Header Test -->
+    <text x="24" y="578" class="card-label">5. Website Header Context</text>
+    <rect x="24" y="588" width="296" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0" />
+    <!-- Mini Navbar -->
+    <rect x="24" y="588" width="296" height="36" fill="#0B0F19" />
+    <text x="36" y="612" font-family="'Space Grotesk'" font-size="14" font-weight="700" fill="#FFFFFF">Snapfacts</text>
+    <rect x="180" y="596" width="80" height="18" rx="4" fill="#1E293B" />
+    <circle cx="282" cy="605" r="8" fill="#2563EB" />
+  </g>
+
+  <!-- COLUMN 2: ROUTE B (The Convergence Vector) [RECOMMENDED] -->
+  <g transform="translate(428, 110)">
+    <!-- Column Card Background (Highlighted with Brand Accent) -->
+    <rect width="344" height="740" rx="16" fill="#FFFFFF" stroke="#0284C7" stroke-width="2.5" />
+    
+    <!-- Recommended Badge -->
+    <rect x="220" y="24" width="100" height="22" rx="11" fill="#0284C7" />
+    <text x="232" y="39" font-family="'Inter'" font-size="10" font-weight="700" fill="#FFFFFF" letter-spacing="0.08em">RECOMMENDED</text>
+
+    <!-- Title & Concept -->
+    <text x="24" y="38" class="route-title">ROUTE B: CONVERGENCE</text>
+    <text x="24" y="58" class="card-label">Proprietary Ingestion Vector</text>
+
+    <!-- 1. Primary Light Mode -->
+    <text x="24" y="96" class="card-label">1. Primary (Light Mode)</text>
+    <rect x="24" y="106" width="296" height="84" rx="8" fill="#F8FAFC" stroke="#E2E8F0" />
+    <g transform="translate(42, 126)">
+      <!-- Symbol -->
+      <path d="M 4 10 L 22 22 L 38 22" stroke="#0284C7" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+      <line x1="4" y1="22" x2="38" y2="22" stroke="#2563EB" stroke-width="4.5" stroke-linecap="round" />
+      <path d="M 4 34 L 22 22 L 38 22" stroke="#1D4ED8" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+      <circle cx="44" cy="22" r="4" fill="#0284C7" />
+      <!-- Wordmark -->
+      <text x="58" y="32" class="logo-text-lg" fill="#0B0F19">Snapfacts</text>
+    </g>
+
+    <!-- 2. Dark Mode Surface -->
+    <text x="24" y="222" class="card-label">2. Dark Mode Inversion</text>
+    <rect x="24" y="232" width="296" height="84" rx="8" fill="#0B0F19" />
+    <g transform="translate(42, 252)">
+      <!-- Radiant Symbol -->
+      <path d="M 4 10 L 22 22 L 38 22" stroke="#38BDF8" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+      <line x1="4" y1="22" x2="38" y2="22" stroke="#00D2FF" stroke-width="4.5" stroke-linecap="round" />
+      <path d="M 4 34 L 22 22 L 38 22" stroke="#0284C7" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+      <circle cx="44" cy="22" r="4" fill="#00D2FF" />
+      <!-- Wordmark -->
+      <text x="58" y="32" class="logo-text-lg" fill="#FFFFFF">Snapfacts</text>
+    </g>
+
+    <!-- 3. Favicon / Small Icon (32px Crop) -->
+    <text x="24" y="348" class="card-label">3. Favicon (32px) &amp; Small Scale</text>
+    <rect x="24" y="358" width="48" height="48" rx="12" fill="#0B0F19" />
+    <g transform="translate(29, 368)">
+      <path d="M 2 8 L 18 16 L 30 16" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" />
+      <line x1="2" y1="16" x2="30" y2="16" stroke="#00D2FF" stroke-width="3" stroke-linecap="round" />
+      <path d="M 2 24 L 18 16 L 30 16" stroke="#0284C7" stroke-width="3" stroke-linecap="round" />
+      <circle cx="34" cy="16" r="3" fill="#00D2FF" />
+    </g>
+    <rect x="24" y="416" width="296" height="36" rx="6" fill="#F8FAFC" stroke="#E2E8F0" />
+    <g transform="translate(32, 424)">
+      <circle cx="8" cy="8" r="4" fill="#0284C7" />
+      <text x="20" y="14" class="logo-text-sm" fill="#0B0F19">Snapfacts</text>
+    </g>
+
+    <!-- 4. Single-Color Monochrome -->
+    <text x="24" y="482" class="card-label">4. Single-Color Monochrome</text>
+    <rect x="24" y="492" width="296" height="54" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" />
+    <g transform="translate(48, 504)">
+      <path d="M 4 8 L 18 18 L 30 18" stroke="#000000" stroke-width="3.5" stroke-linecap="round" />
+      <line x1="4" y1="18" x2="30" y2="18" stroke="#000000" stroke-width="3.5" stroke-linecap="round" />
+      <path d="M 4 28 L 18 18 L 30 18" stroke="#000000" stroke-width="3.5" stroke-linecap="round" />
+      <circle cx="35" cy="18" r="3.5" fill="#000000" />
+      <text x="48" y="25" class="logo-text-lg" fill="#000000">Snapfacts</text>
+    </g>
+
+    <!-- 5. Website Header Test -->
+    <text x="24" y="578" class="card-label">5. Website Header Context</text>
+    <rect x="24" y="588" width="296" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0" />
+    <rect x="24" y="588" width="296" height="36" fill="#0B0F19" />
+    <g transform="translate(34, 597)">
+      <circle cx="6" cy="9" r="4" fill="#00D2FF" />
+      <text x="16" y="14" font-family="'Space Grotesk'" font-size="14" font-weight="700" fill="#FFFFFF">Snapfacts</text>
+    </g>
+    <rect x="180" y="596" width="80" height="18" rx="4" fill="#1E293B" />
+    <circle cx="282" cy="605" r="8" fill="#00D2FF" />
+  </g>
+
+  <!-- COLUMN 3: ROUTE C (The Editorial Signal) -->
+  <g transform="translate(808, 110)">
+    <!-- Column Card Background -->
+    <rect width="344" height="740" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" />
+    
+    <!-- Title & Concept -->
+    <text x="24" y="38" class="route-title">ROUTE C: EDITORIAL SIGNAL</text>
+    <text x="24" y="58" class="card-label">Newsroom Masthead &amp; Beacon</text>
+
+    <!-- 1. Primary Light Mode -->
+    <text x="24" y="96" class="card-label">1. Primary (Light Mode)</text>
+    <rect x="24" y="106" width="296" height="84" rx="8" fill="#F8FAFC" stroke="#E2E8F0" />
+    <g transform="translate(48, 154)">
+      <text x="0" y="0" class="logo-text-lg" fill="#0F172A">Snapfacts</text>
+      <circle cx="166" cy="-18" r="4.5" fill="#EF4444" />
+      <line x1="0" y1="12" x2="170" y2="12" stroke="#CBD5E1" stroke-width="1" />
+      <text x="0" y="24" font-family="'Inter'" font-size="8" font-weight="700" fill="#64748B" letter-spacing="0.14em">INDUSTRY SIGNALS</text>
+    </g>
+
+    <!-- 2. Dark Mode Surface -->
+    <text x="24" y="222" class="card-label">2. Dark Mode Inversion</text>
+    <rect x="24" y="232" width="296" height="84" rx="8" fill="#0B0F19" />
+    <g transform="translate(48, 280)">
+      <text x="0" y="0" class="logo-text-lg" fill="#FFFFFF">Snapfacts</text>
+      <circle cx="166" cy="-18" r="4.5" fill="#F87171" />
+      <line x1="0" y1="12" x2="170" y2="12" stroke="#334155" stroke-width="1" />
+      <text x="0" y="24" font-family="'Inter'" font-size="8" font-weight="700" fill="#94A3B8" letter-spacing="0.14em">INDUSTRY SIGNALS</text>
+    </g>
+
+    <!-- 3. Favicon / Small Icon (32px Crop) -->
+    <text x="24" y="348" class="card-label">3. Favicon (32px) &amp; Small Scale</text>
+    <rect x="24" y="358" width="48" height="48" rx="12" fill="#0F172A" />
+    <text x="38" y="392" font-family="'Space Grotesk'" font-size="22" font-weight="700" fill="#FFFFFF">S</text>
+    <circle cx="56" cy="368" r="4" fill="#EF4444" />
+    <rect x="24" y="416" width="296" height="36" rx="6" fill="#F8FAFC" stroke="#E2E8F0" />
+    <text x="36" y="440" class="logo-text-sm" fill="#0F172A">Snapfacts •</text>
+
+    <!-- 4. Single-Color Monochrome -->
+    <text x="24" y="482" class="card-label">4. Single-Color Monochrome</text>
+    <rect x="24" y="492" width="296" height="54" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" />
+    <text x="68" y="528" class="logo-text-lg" fill="#000000">Snapfacts •</text>
+
+    <!-- 5. Website Header Test -->
+    <text x="24" y="578" class="card-label">5. Website Header Context</text>
+    <rect x="24" y="588" width="296" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0" />
+    <rect x="24" y="588" width="296" height="36" fill="#0F172A" />
+    <text x="36" y="612" font-family="'Space Grotesk'" font-size="14" font-weight="700" fill="#FFFFFF">Snapfacts <tspan fill="#EF4444">•</tspan></text>
+    <rect x="180" y="596" width="80" height="18" rx="4" fill="#1E293B" />
+    <circle cx="282" cy="605" r="8" fill="#EF4444" />
+  </g>
+</svg>

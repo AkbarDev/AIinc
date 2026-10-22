@@ -1,0 +1,35 @@
+<svg width="460" height="96" viewBox="0 0 460 96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="&lt; SNAPFACTS /&gt;">
+  <defs>
+    <!-- Cyber Mint Gradient -->
+    <linearGradient id="mint-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A7F3D0" />
+      <stop offset="100%" stop-color="#5EEAD4" />
+    </linearGradient>
+    <filter id="mint-glow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#5EEAD4" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <style>
+    .brand-title {
+      fill: #5EEAD4;
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 700;
+      font-size: 38px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <g filter="url(#mint-glow)">
+    <!-- Opening Bracket '<' -->
+    <path d="M 38 22 L 14 48 L 38 74" fill="none" stroke="url(#mint-grad)" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Centered Brand Typography Inside The Symbols -->
+    <text x="62" y="61" class="brand-title">SNAPFACTS</text>
+
+    <!-- Closing Slash '/' and Bracket '>' -->
+    <line x1="392" y1="18" x2="376" y2="78" stroke="url(#mint-grad)" stroke-width="9" stroke-linecap="round" />
+    <path d="M 412 22 L 436 48 L 412 74" fill="none" stroke="url(#mint-grad)" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

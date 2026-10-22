@@ -1,0 +1,33 @@
+<svg width="480" height="120" viewBox="0 0 480 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Route B: The Convergence Vector - Snapfacts">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&amp;family=Space+Grotesk:wght@700&amp;display=swap');
+      .route-b-text {
+        font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: 700;
+        font-size: 46px;
+        letter-spacing: -0.025em;
+        fill: #0B0F19;
+      }
+    </style>
+    <linearGradient id="route-b-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Convergence Symbol (Stream Ingestion -> Focused Insight) -->
+  <g transform="translate(20, 24)">
+    <!-- Top Inbound Signal Stream -->
+    <path d="M 6 16 L 36 36 L 62 36" stroke="#0284C7" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Center Inbound Signal Stream -->
+    <line x1="6" y1="36" x2="62" y2="36" stroke="#2563EB" stroke-width="6.5" stroke-linecap="round" />
+    <!-- Bottom Inbound Signal Stream -->
+    <path d="M 6 56 L 36 36 L 62 36" stroke="#1D4ED8" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Synthesized Output Focal Node -->
+    <circle cx="68" cy="36" r="6" fill="#0284C7" />
+  </g>
+
+  <!-- Typography -->
+  <text x="116" y="74" class="route-b-text">Snapfacts</text>
+</svg>

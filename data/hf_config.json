@@ -1,0 +1,144 @@
+{
+  "api": {
+    "baseUrl": "https://huggingface.co/api",
+    "modelsEndpoint": "https://huggingface.co/api/models",
+    "datasetsEndpoint": "https://huggingface.co/api/datasets",
+    "spacesEndpoint": "https://huggingface.co/api/spaces",
+    "cacheTtlMs": 900000,
+    "defaultLimit": 30,
+    "maxRetries": 3,
+    "retryBackoffMs": 1500
+  },
+  "subheaders": [
+    {
+      "id": "multimodal",
+      "label": "Multimodal",
+      "pipelineTags": [
+        "image-text-to-text",
+        "visual-question-answering",
+        "document-question-answering",
+        "any-to-any",
+        "audio-text-to-text"
+      ],
+      "libraries": ["transformers", "vllm", "diffusers"],
+      "description": "Models processing and generating multiple modalities simultaneously (text, vision, audio, document OCR)."
+    },
+    {
+      "id": "computer-vision",
+      "label": "Computer Vision",
+      "pipelineTags": [
+        "image-classification",
+        "object-detection",
+        "image-segmentation",
+        "depth-estimation",
+        "text-to-image",
+        "image-to-image",
+        "zero-shot-image-classification"
+      ],
+      "libraries": ["diffusers", "timm", "transformers"],
+      "description": "Visual perception, image generation, segmentation, classification, and depth estimation models."
+    },
+    {
+      "id": "nlp",
+      "label": "NLP",
+      "pipelineTags": [
+        "text-generation",
+        "text-classification",
+        "token-classification",
+        "question-answering",
+        "summarization",
+        "translation",
+        "fill-mask",
+        "feature-extraction",
+        "sentence-similarity"
+      ],
+      "libraries": ["transformers", "sentence-transformers", "vllm"],
+      "description": "Language models spanning causal text generation, embeddings, semantic search, and classification."
+    },
+    {
+      "id": "tabular",
+      "label": "Tabular",
+      "pipelineTags": [
+        "tabular-classification",
+        "tabular-regression"
+      ],
+      "libraries": ["scikit-learn", "xgboost", "lightgbm", "tabnet"],
+      "description": "Models trained on structured row-and-column data for tabular classification, regression, and scoring."
+    },
+    {
+      "id": "machine-learning",
+      "label": "Machine Learning",
+      "pipelineTags": [],
+      "libraries": ["scikit-learn", "xgboost", "lightgbm", "catboost"],
+      "filterKeywords": ["sklearn", "xgboost", "lightgbm"],
+      "description": "Classical machine learning pipelines, tree-based models, gradient boosting, and scikit-learn architectures."
+    },
+    {
+      "id": "deep-learning",
+      "label": "Deep Learning",
+      "pipelineTags": [],
+      "libraries": ["pytorch", "tensorflow", "jax", "keras", "safetensors"],
+      "filterKeywords": ["pytorch", "tensorflow", "jax", "keras"],
+      "description": "Foundational neural network frameworks, raw weights, tensor runtimes, and deep representation architectures."
+    },
+    {
+      "id": "statistical",
+      "label": "Statistical",
+      "pipelineTags": [
+        "time-series-forecasting"
+      ],
+      "libraries": ["sktime", "statsmodels", "timestral", "neuralprophet"],
+      "filterKeywords": ["time-series", "forecasting", "statistical", "arima"],
+      "description": "Time-series forecasting, econometric models, and probabilistic statistical regression engines."
+    },
+    {
+      "id": "data-analyst",
+      "label": "Data Analyst models",
+      "pipelineTags": [
+        "table-question-answering",
+        "text-to-sql",
+        "text-classification"
+      ],
+      "libraries": ["transformers"],
+      "filterKeywords": ["text-to-sql", "table-question-answering", "sql", "analytics", "nl2sql"],
+      "definitionNote": "How this category is defined: Curated pipeline targeting automated data analysis, SQL query generation (text-to-sql), natural language table exploration (Tapas / Table QA), and automated reporting."
+    },
+    {
+      "id": "data-engineering",
+      "label": "Data Engineering models",
+      "pipelineTags": [
+        "token-classification",
+        "sentence-similarity",
+        "feature-extraction"
+      ],
+      "libraries": ["sentence-transformers", "transformers", "fasttext"],
+      "filterKeywords": ["data-extraction", "ner", "deduplication", "embeddings", "etl", "cleansing"],
+      "definitionNote": "How this category is defined: Curated pipeline targeting ETL pipelines, high-throughput entity extraction (NER), semantic record deduplication, text normalization, and high-density vector search embeddings."
+    }
+  ],
+  "licenses": {
+    "commercialFriendly": [
+      "apache-2.0",
+      "mit",
+      "bsd-2-clause",
+      "bsd-3-clause",
+      "cc-by-4.0",
+      "isc",
+      "unlicense"
+    ],
+    "communityOrRestricted": [
+      "llama3.1",
+      "llama3.2",
+      "llama3",
+      "llama2",
+      "gemma",
+      "gemma-terms-of-use",
+      "deepseek",
+      "openrail",
+      "openrail++",
+      "bigcode-openrail-m",
+      "cc-by-nc-4.0",
+      "cc-by-nc-sa-4.0"
+    ]
+  }
+}

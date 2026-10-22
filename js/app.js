@@ -153,6 +153,7 @@ const LLM_BENCHMARK_SLIDES = [
 
 const HEADER_CATEGORIES = [
     { key: 'all', label: '🌐 LLM INTELBOARD' },
+    { key: 'hfboard', label: '🤗 HFBOARD' },
     { key: 'ai', label: 'AI' },
     { key: 'commerce', label: 'COMMERCE' },
     { key: 'tech', label: 'TECH' },
@@ -164,6 +165,7 @@ const HEADER_CATEGORIES = [
 
 const CATEGORY_COPY = {
     all: { eyebrow: 'Frontier AI Intelligence', heading: 'LLM Intelboard & Frontier Model Ladder' },
+    hfboard: { eyebrow: 'Hugging Face Hub Live Telemetry', heading: 'HFBoard: Open-Weight Models & Licenses' },
     commerce: { eyebrow: 'Commerce Focus', heading: 'Retail, payments, and ecommerce intelligence' },
     tech: { eyebrow: 'Tech Focus', heading: 'Platform, infrastructure, and product shifts' },
     ads: { eyebrow: 'Ads Focus', heading: 'Campaign, adtech, and performance marketing trends' },
@@ -978,6 +980,35 @@ function renderNewsBoard() {
                 } else {
                     grid.innerHTML = renderLlmLeaderboardHome();
                 }
+            });
+        }
+        renderSidebarTrending([]);
+        return;
+    }
+
+    // 1b. If on HFBoard ('hfboard'), display the Hugging Face Open Model Hub Explorer!
+    if (state.activeCategory === 'hfboard') {
+        grid.classList.remove('is-compact', 'is-brief-mode');
+        grid.classList.add('has-leaderboard-home');
+        grid.innerHTML = '<div id="hf-board-container"></div>';
+
+        const mountHF = (HFClass) => {
+            if (!window.hfBoardInstance) {
+                window.hfBoardInstance = new HFClass('hf-board-container');
+            } else {
+                window.hfBoardInstance.container = document.getElementById('hf-board-container');
+                window.hfBoardInstance.render();
+            }
+        };
+
+        if (window.HFBoard) {
+            mountHF(window.HFBoard);
+        } else {
+            import('./hf-board.js').then((mod) => {
+                const Cls = mod?.HFBoard || window.HFBoard;
+                if (Cls) mountHF(Cls);
+            }).catch(err => {
+                console.error('Failed to load HFBoard:', err);
             });
         }
         renderSidebarTrending([]);

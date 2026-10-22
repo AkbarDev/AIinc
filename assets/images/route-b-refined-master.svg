@@ -1,0 +1,49 @@
+<svg width="440" height="96" viewBox="0 0 440 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Snapfacts - Master Refined Identity">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;display=swap');
+      .master-wordmark {
+        font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 46px;
+        letter-spacing: -0.028em;
+        fill: #0B0F19;
+      }
+      @media (prefers-color-scheme: dark) {
+        .master-wordmark { fill: #FFFFFF; }
+      }
+    </style>
+    <linearGradient id="stream-top-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="stream-bot-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <filter id="focal-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="3" flood-color="#00D2FF" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Convergence Ingestion Symbol -->
+  <g transform="translate(14, 16)">
+    <!-- Top Inbound Stream (Technology / AI) -->
+    <path d="M 6 14 L 32 32 L 56 32" stroke="url(#stream-top-grad)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Central Fast-Track Momentum Ray -->
+    <line x1="6" y1="32" x2="56" y2="32" stroke="#2563EB" stroke-width="6.5" stroke-linecap="round" />
+
+    <!-- Bottom Inbound Stream (Commerce / Media / Advertising) -->
+    <path d="M 6 50 L 32 32 L 56 32" stroke="url(#stream-bot-grad)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Distilled Insight Focal Point -->
+    <circle cx="64" cy="32" r="5.5" fill="#00D2FF" filter="url(#focal-glow)" />
+  </g>
+
+  <!-- Precision Architectural Divider -->
+  <line x1="98" y1="20" x2="98" y2="76" stroke="#E2E8F0" stroke-width="1.5" />
+
+  <!-- Master Wordmark -->
+  <text x="118" y="64" class="master-wordmark">Snapfacts</text>
+</svg>

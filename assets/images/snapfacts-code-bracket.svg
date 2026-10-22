@@ -1,0 +1,38 @@
+<svg width="440" height="96" viewBox="0 0 440 96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Snapfacts">
+  <defs>
+    <linearGradient id="mint-glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A7F3D0" />
+      <stop offset="100%" stop-color="#5EEAD4" />
+    </linearGradient>
+    <filter id="bracket-shadow-fx" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#5EEAD4" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <style>
+    .tech-wordmark {
+      fill: #5EEAD4;
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 700;
+      font-size: 38px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <!-- Left Bracket Symbol '< / >' -->
+  <g transform="translate(10, 6)" filter="url(#bracket-shadow-fx)">
+    <!-- Opening '<' -->
+    <path d="M 38 18 L 14 42 L 38 66" fill="none" stroke="url(#mint-glow-grad)" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Slash '/' -->
+    <line x1="52" y1="14" x2="40" y2="70" stroke="url(#mint-glow-grad)" stroke-width="8" stroke-linecap="round" />
+    <!-- Closing '>' -->
+    <path d="M 54 18 L 78 42 L 54 66" fill="none" stroke="url(#mint-glow-grad)" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Architectural Vertical Divider Line -->
+  <line x1="110" y1="20" x2="110" y2="76" stroke="#2DD4BF" stroke-width="1.5" opacity="0.35" />
+
+  <!-- Typography Lockup -->
+  <text x="132" y="60" class="tech-wordmark">SNAPFACTS</text>
+</svg>

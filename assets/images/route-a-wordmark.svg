@@ -1,0 +1,26 @@
+<svg width="480" height="120" viewBox="0 0 480 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Route A: The Precision Aperture Wordmark - Snapfacts">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&amp;display=swap');
+      .route-a-text {
+        font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        letter-spacing: -0.035em;
+        fill: #0B0F19;
+      }
+      .route-a-accent {
+        fill: #2563EB;
+      }
+    </style>
+  </defs>
+
+  <!-- Wordmark Container -->
+  <g transform="translate(24, 76)">
+    <!-- Main Wordmark -->
+    <text x="0" y="0" class="route-a-text">Snap<tspan class="route-a-accent">f</tspan>acts</text>
+    
+    <!-- Precision Aperture Accent: Minimalist Horizontal Reading Line / Focus Slit -->
+    <rect x="122" y="-19" width="32" height="4.5" rx="2.25" fill="#2563EB" />
+  </g>
+</svg>
