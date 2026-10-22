@@ -32,6 +32,29 @@
   --hf-font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+/* HFBoard Dark Theme */
+:root[data-theme="dark"],
+[data-theme="dark"],
+body.dark-theme {
+  --hf-bg-page: #070a10;
+  --hf-bg-card: #0f172a;
+  --hf-bg-subtle: #1e293b;
+  --hf-border: #1e293b;
+  --hf-border-hover: #334155;
+  --hf-text-main: #f8fafc;
+  --hf-text-muted: #94a3b8;
+  --hf-text-subtle: #64748b;
+  --hf-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --hf-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --hf-shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] .hf-suggestions-box,
+[data-theme="dark"] .hf-search-input:focus,
+[data-theme="dark"] .hf-modal-content {
+  background: var(--hf-bg-card);
+}
+
 /* Base Wrapper */
 .hf-board-container {
   font-family: var(--hf-font-body);

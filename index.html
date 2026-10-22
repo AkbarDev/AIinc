@@ -14,7 +14,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" id="meta-theme-color" />
+    <script>
+        (function() {
+            try {
+                var pref = localStorage.getItem('snapfacts_theme_pref') || 'auto';
+                var hour = new Date().getHours();
+                var isNight = (hour >= 18 || hour < 6);
+                var resolved = pref === 'auto' ? (isNight ? 'dark' : 'light') : pref;
+                document.documentElement.setAttribute('data-theme', resolved);
+                document.documentElement.setAttribute('data-theme-mode', pref);
+                if (resolved === 'dark') {
+                    document.documentElement.classList.add('dark-theme');
+                    var meta = document.getElementById('meta-theme-color');
+                    if (meta) meta.setAttribute('content', '#070a10');
+                } else {
+                    document.documentElement.classList.add('light-theme');
+                }
+            } catch (e) {}
+        })();
+    </script>
     <title>Snapfacts | Real-Time AI, Commerce, Media and Brand Intelligence</title>
     <meta name="description" content="Snapfacts surfaces high-signal stories from trusted open feeds across AI, commerce, media, advertising, startup and brand intelligence." />
     <meta name="keywords" content="trending news, global trends, RSS aggregation, technology intelligence, media monitoring" />
@@ -90,6 +109,7 @@
                 <div class="category-pills header-tabs" id="category-pills"></div>
                 <div class="mobile-category-nav" id="mobile-category-nav">
                     <button class="mobile-all-news-pill" id="mobile-all-news" type="button" aria-label="Show LLM Intelboard">🌐 LLM INTELBOARD</button>
+                    <button class="mobile-theme-btn" id="mobile-theme-btn" type="button" aria-label="Toggle Day/Night light mode" title="Day / Night Light Mode"><span class="mobile-theme-icon">🌙</span></button>
                     <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open category menu" aria-expanded="false" aria-controls="mobile-category-menu">☰</button>
                     <div class="mobile-category-menu" id="mobile-category-menu" aria-label="More categories"></div>
                 </div>

@@ -241,10 +241,164 @@ const STORAGE_KEYS = {
     mutes: 'snapfacts_feed_mutes',
 };
 
+/* ==========================================================================
+   Day & Night Light Mode Management (Day Light, Night Light, Auto 6pm-6am)
+   ========================================================================== */
+
+const THEME_PREF_KEY = 'snapfacts_theme_pref';
+
+function getScheduledTheme() {
+    const currentHour = new Date().getHours();
+    // Night Light from 6 PM (18:00) to 6 AM (06:00)
+    return (currentHour >= 18 || currentHour < 6) ? 'dark' : 'light';
+}
+
+function getThemePreference() {
+    try {
+        return localStorage.getItem(THEME_PREF_KEY) || 'auto';
+    } catch (e) {
+        return 'auto';
+    }
+}
+
+function setThemePreference(mode) {
+    if (!['auto', 'light', 'dark'].includes(mode)) mode = 'auto';
+    try {
+        localStorage.setItem(THEME_PREF_KEY, mode);
+    } catch (e) {}
+
+    applyTheme(false);
+
+    const scheduled = getScheduledTheme();
+    if (mode === 'light') {
+        showToast('☀️ Day Light mode active');
+    } else if (mode === 'dark') {
+        showToast('🌙 Night Light mode active');
+    } else {
+        const isNight = scheduled === 'dark';
+        showToast(`⏱️ Auto mode active: ${isNight ? '🌙 Night mode (6 PM – 6 AM)' : '☀️ Day mode (6 AM – 6 PM)'}`);
+    }
+}
+
+function applyTheme(silent = false) {
+    const mode = getThemePreference();
+    const effectiveTheme = mode === 'auto' ? getScheduledTheme() : mode;
+
+    document.documentElement.setAttribute('data-theme', effectiveTheme);
+    document.documentElement.setAttribute('data-theme-mode', mode);
+    document.body.classList.toggle('dark-theme', effectiveTheme === 'dark');
+    document.body.classList.toggle('light-theme', effectiveTheme === 'light');
+
+    const metaTheme = document.getElementById('meta-theme-color') || document.querySelector('meta[name="theme-color"]');
+    if (metaTheme) {
+        metaTheme.setAttribute('content', effectiveTheme === 'dark' ? '#070a10' : '#ffffff');
+    }
+
+    const logoImg = document.querySelector('.brand-logo');
+    if (logoImg) {
+        logoImg.src = effectiveTheme === 'dark'
+            ? 'assets/images/snapfacts-wordmark-dark.svg'
+            : 'assets/images/snapfacts-wordmark.svg';
+    }
+
+    updateThemeControlsUI(mode, effectiveTheme);
+}
+
+function updateThemeControlsUI(mode, effectiveTheme) {
+    document.querySelectorAll('[data-theme-set]').forEach((btn) => {
+        const btnMode = btn.dataset.themeSet;
+        const isActive = btnMode === mode;
+        btn.classList.toggle('is-active', isActive);
+        btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    });
+
+    document.querySelectorAll('.theme-schedule-indicator').forEach((el) => {
+        el.textContent = effectiveTheme === 'dark' ? '🌙' : '☀️';
+        el.setAttribute('title', `Current schedule: ${effectiveTheme === 'dark' ? 'Night (6pm-6am)' : 'Day (6am-6pm)'}`);
+    });
+
+    const mobileIcon = document.querySelector('.mobile-theme-icon');
+    if (mobileIcon) {
+        mobileIcon.textContent = effectiveTheme === 'dark' ? '🌙' : '☀️';
+    }
+    const mobileBtn = document.getElementById('mobile-theme-btn');
+    if (mobileBtn) {
+        mobileBtn.title = `Current: ${effectiveTheme === 'dark' ? 'Night Light' : 'Day Light'} (${mode.toUpperCase()})`;
+    }
+}
+
+function renderThemeLightingControl() {
+    const mode = getThemePreference();
+    const effective = mode === 'auto' ? getScheduledTheme() : mode;
+    const isNight = effective === 'dark';
+
+    return `
+        <div class="theme-lighting-ctrl" role="group" aria-label="Day and night light mode options">
+            <div class="theme-lighting-divider" aria-hidden="true"></div>
+            <div class="theme-lighting-segmented">
+                <button type="button" class="theme-lighting-btn ${mode === 'light' ? 'is-active' : ''}" data-theme-set="light" title="Day Light (Crisp light mode)" aria-label="Day Light Mode" aria-pressed="${mode === 'light'}">
+                    <svg class="theme-lighting-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                    <span class="theme-lighting-text">Day</span>
+                </button>
+                <button type="button" class="theme-lighting-btn ${mode === 'dark' ? 'is-active' : ''}" data-theme-set="dark" title="Night Light (Deep dark mode)" aria-label="Night Light Mode" aria-pressed="${mode === 'dark'}">
+                    <svg class="theme-lighting-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                    <span class="theme-lighting-text">Night</span>
+                </button>
+                <button type="button" class="theme-lighting-btn ${mode === 'auto' ? 'is-active' : ''}" data-theme-set="auto" title="Auto Schedule (Night 6 PM – 6 AM • Day 6 AM – 6 PM)" aria-label="Auto Schedule Mode" aria-pressed="${mode === 'auto'}">
+                    <svg class="theme-lighting-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span class="theme-lighting-text">Auto</span>
+                    <span class="theme-schedule-indicator" title="Current schedule: ${isNight ? 'Night active' : 'Day active'}">${isNight ? '🌙' : '☀️'}</span>
+                </button>
+            </div>
+        </div>
+    `;
+}
+
+function initThemeManager() {
+    applyTheme(true);
+
+    // Delegate click events for theme buttons everywhere
+    document.addEventListener('click', (event) => {
+        const themeBtn = event.target.closest('[data-theme-set]');
+        if (!themeBtn) return;
+        event.stopPropagation();
+        const mode = themeBtn.dataset.themeSet;
+        if (mode) {
+            setThemePreference(mode);
+        }
+    });
+
+    // Mobile top bar quick toggle button
+    const mobileThemeBtn = document.getElementById('mobile-theme-btn');
+    if (mobileThemeBtn) {
+        mobileThemeBtn.addEventListener('click', (event) => {
+            event.stopPropagation();
+            const mode = getThemePreference();
+            let nextMode;
+            if (mode === 'auto') {
+                nextMode = getScheduledTheme() === 'dark' ? 'light' : 'dark';
+            } else if (mode === 'dark') {
+                nextMode = 'light';
+            } else {
+                nextMode = 'auto';
+            }
+            setThemePreference(nextMode);
+        });
+    }
+
+    // Auto schedule interval checker (every 60 seconds)
+    setInterval(() => {
+        if (getThemePreference() === 'auto') {
+            applyTheme(true);
+        }
+    }, 60000);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     if (/SnapfactsiOS/i.test(navigator.userAgent)) {
         document.body.classList.add('is-ios-app');
     }
+    initThemeManager();
     initSyncKey();
     hydrateReaderPrefs();
     renderSkeletons();
@@ -488,12 +642,13 @@ function renderCategoryPills() {
     const container = document.getElementById('category-pills');
     if (!container) return;
     document.body.dataset.activeCategory = state.activeCategory;
-    container.innerHTML = HEADER_CATEGORIES
+    const categoriesHtml = HEADER_CATEGORIES
         .map(({ key, label }) => {
             const active = state.activeCategory === key ? 'active' : '';
             return `<button class="category-pill ${active}" data-category="${key}" type="button">${label}</button>`;
         })
         .join('');
+    container.innerHTML = categoriesHtml + renderThemeLightingControl();
 }
 
 function renderMobileCategoryMenu() {
@@ -503,12 +658,38 @@ function renderMobileCategoryMenu() {
     if (!menu || !toggle || !allNews) return;
 
     const options = HEADER_CATEGORIES.filter((item) => item.key !== 'all');
-    menu.innerHTML = options
+    const optionsHtml = options
         .map(({ key, label }) => {
             const active = state.activeCategory === key ? 'active' : '';
             return `<button class="mobile-category-option ${active}" data-mobile-category="${key}" type="button">${label}</button>`;
         })
         .join('');
+
+    const mode = getThemePreference();
+    const effective = mode === 'auto' ? getScheduledTheme() : mode;
+    const isNight = effective === 'dark';
+
+    const themeSectionHtml = `
+        <div class="mobile-theme-section">
+            <div class="mobile-theme-title">Day & Night Light Mode</div>
+            <div class="theme-lighting-segmented mobile-theme-segmented">
+                <button type="button" class="theme-lighting-btn ${mode === 'light' ? 'is-active' : ''}" data-theme-set="light" title="Day Light">
+                    <svg class="theme-lighting-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                    <span>Day</span>
+                </button>
+                <button type="button" class="theme-lighting-btn ${mode === 'dark' ? 'is-active' : ''}" data-theme-set="dark" title="Night Light">
+                    <svg class="theme-lighting-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                    <span>Night</span>
+                </button>
+                <button type="button" class="theme-lighting-btn ${mode === 'auto' ? 'is-active' : ''}" data-theme-set="auto" title="Auto Schedule (6pm-6am)">
+                    <svg class="theme-lighting-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    <span>Auto (${isNight ? '🌙' : '☀️'})</span>
+                </button>
+            </div>
+        </div>
+    `;
+
+    menu.innerHTML = optionsHtml + themeSectionHtml;
 
     const expanded = state.mobileMenuOpen ? 'true' : 'false';
     toggle.setAttribute('aria-expanded', expanded);
