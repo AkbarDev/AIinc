@@ -1096,6 +1096,17 @@ function renderNewsBoard() {
                     </a>
 
                     <div class="card-action-cluster">
+                        <div class="card-share-wrap">
+                            <button class="card-action-icon-btn" type="button" data-action="share" aria-label="Share story" title="Share story">
+                                <svg class="action-btn-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                            </button>
+                            <div class="share-popover">
+                                <a href="https://x.com/intent/tweet?text=${encodeURIComponent('Check out this trend on Snapfacts: ' + headline)}&url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option x-twitter" title="Share on X"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option facebook" title="Share on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option linkedin" title="Share on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <button class="share-option instagram" type="button" data-action="instagram-share" data-link="${escapeAttr(item.link)}" title="Copy link for Instagram"><i class="fa-brands fa-instagram"></i></button>
+                            </div>
+                        </div>
                         <button class="card-action-icon-btn ${isSaved ? 'is-saved' : ''}" type="button" data-action="save" aria-label="${isSaved ? 'Remove bookmark' : 'Bookmark story'}" title="${isSaved ? 'Bookmarked' : 'Bookmark story'}">
                             <svg class="action-btn-svg" viewBox="0 0 24 24" fill="${isSaved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
                         </button>
@@ -1108,17 +1119,6 @@ function renderNewsBoard() {
                         <button class="card-action-icon-btn" type="button" data-action="export-card" aria-label="Download AI Visual Card" title="AI Visual Card">
                             <svg class="action-btn-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
                         </button>
-                        <div class="card-share-wrap">
-                            <button class="card-action-icon-btn" type="button" data-action="share" aria-label="Share story" title="Share story">
-                                <svg class="action-btn-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-                            </button>
-                            <div class="share-popover">
-                                <a href="https://x.com/intent/tweet?text=${encodeURIComponent('Check out this trend on Snapfacts: ' + headline)}&url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option x-twitter" title="Share on X"><i class="fa-brands fa-x-twitter"></i></a>
-                                <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option facebook" title="Share on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(item.link)}" target="_blank" rel="noopener" class="share-option linkedin" title="Share on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                                <button class="share-option instagram" type="button" data-action="instagram-share" data-link="${escapeAttr(item.link)}" title="Copy link for Instagram"><i class="fa-brands fa-instagram"></i></button>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
