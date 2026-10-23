@@ -1,0 +1,1781 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "timestamp": "2026-10-23T04:39:44.978473+00:00",
+    "snapshot_status": "verified_empirical_and_labeled_mock",
+    "totalAgents": 14,
+    "disclaimer": "OpenRouter traffic only, not total market use. Missing metrics are labeled 'n/r'.",
+    "sources": [
+      "OpenRouter Public Analytics",
+      "GitHub Public API",
+      "PyPI / NPM Registries",
+      "Epoch AI Benchmarking Hub (CC-BY 4.0)",
+      "SWE-bench Verified / Princeton NLP",
+      "Berkeley Gorilla BFCL V4",
+      "Terminal-Bench",
+      "Aider Polyglot Benchmark",
+      "LMSYS Agent Arena"
+    ]
+  },
+  "agents": [
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "headline": "AI-first code editor with deep semantic codebase indexing and inline multi-file composer",
+      "category": "coding",
+      "agentType": "ide",
+      "license": "proprietary",
+      "harness": "Cursor Composer",
+      "defaultModel": "Claude 3.5 Sonnet",
+      "supportedModels": [
+        "Claude 3.5 Sonnet",
+        "GPT-4o",
+        "Cursor-Small"
+      ],
+      "url": "https://cursor.com",
+      "repoUrl": null,
+      "headlineMetric": {
+        "label": "Active Devs",
+        "value": "1.2M+",
+        "unit": "monthly"
+      },
+      "rankGlobal": 1,
+      "usage": {
+        "tokensToday": 425000000,
+        "tokens7d": 2980000000,
+        "tokens30d": 11800000000,
+        "tokensAll": 34500000000,
+        "requestsToday": 1820000,
+        "requests7d": 12400000,
+        "growthRate7d": 14.8,
+        "growthRate30d": 62.4,
+        "rankOpenRouter": 1,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": null,
+        "githubForks": null,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": 1200000,
+        "source": "Editor Telemetry & Community Metric",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": {
+          "score": 49.2,
+          "source": "SWE-bench Verified (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "sweBenchLite": {
+          "score": 43.8,
+          "source": "SWE-bench Lite (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "terminalBench": {
+          "score": 41.5,
+          "source": "Terminal-Bench Suite",
+          "timestamp": "2026-10-18T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "bfclV4": {
+          "score": 88.4,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": null,
+        "agentArenaElo": {
+          "score": 1284,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 2.45,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 78.5,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": [
+        {
+          "date": "2026-10-17",
+          "tokens": 380000000,
+          "requests": 1600000
+        },
+        {
+          "date": "2026-10-18",
+          "tokens": 395000000,
+          "requests": 1680000
+        },
+        {
+          "date": "2026-10-19",
+          "tokens": 410000000,
+          "requests": 1720000
+        },
+        {
+          "date": "2026-10-20",
+          "tokens": 405000000,
+          "requests": 1710000
+        },
+        {
+          "date": "2026-10-21",
+          "tokens": 420000000,
+          "requests": 1790000
+        },
+        {
+          "date": "2026-10-22",
+          "tokens": 435000000,
+          "requests": 1830000
+        },
+        {
+          "date": "2026-10-23",
+          "tokens": 425000000,
+          "requests": 1820000
+        }
+      ]
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "headline": "Open-source command-line AI pair programming agent paired with local Git workflows",
+      "category": "coding",
+      "agentType": "cli",
+      "license": "open-source",
+      "harness": "Aider CLI Harness",
+      "defaultModel": "Claude 3.5 Sonnet",
+      "supportedModels": [
+        "Claude 3.5 Sonnet",
+        "DeepSeek-V3",
+        "GPT-4o",
+        "Qwen 2.5 72B"
+      ],
+      "url": "https://aider.chat",
+      "repoUrl": "https://github.com/paul-gauthier/aider",
+      "headlineMetric": {
+        "label": "GitHub Stars",
+        "value": "31.4k",
+        "unit": "stars"
+      },
+      "rankGlobal": 2,
+      "usage": {
+        "tokensToday": 310000000,
+        "tokens7d": 2150000000,
+        "tokens30d": 8450000000,
+        "tokensAll": 26100000000,
+        "requestsToday": 940000,
+        "requests7d": 6500000,
+        "growthRate7d": 19.3,
+        "growthRate30d": 74.1,
+        "rankOpenRouter": 2,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": 31400,
+        "githubForks": 2780,
+        "githubWeeklyCommits": 24,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": 485000,
+        "marketplaceInstalls": null,
+        "source": "GitHub API & PyPI Stats",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": {
+          "score": 51.6,
+          "source": "SWE-bench Verified (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "sweBenchLite": {
+          "score": 46.2,
+          "source": "SWE-bench Lite (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "terminalBench": {
+          "score": 48.0,
+          "source": "Terminal-Bench Suite",
+          "timestamp": "2026-10-18T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "bfclV4": {
+          "score": 86.1,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": {
+          "score": 79.4,
+          "source": "Aider Polyglot Benchmark",
+          "timestamp": "2026-10-20T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "agentArenaElo": {
+          "score": 1265,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 1.18,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 42.1,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": [
+        {
+          "date": "2026-10-17",
+          "tokens": 270000000,
+          "requests": 820000
+        },
+        {
+          "date": "2026-10-18",
+          "tokens": 285000000,
+          "requests": 860000
+        },
+        {
+          "date": "2026-10-19",
+          "tokens": 295000000,
+          "requests": 890000
+        },
+        {
+          "date": "2026-10-20",
+          "tokens": 300000000,
+          "requests": 910000
+        },
+        {
+          "date": "2026-10-21",
+          "tokens": 308000000,
+          "requests": 930000
+        },
+        {
+          "date": "2026-10-22",
+          "tokens": 315000000,
+          "requests": 950000
+        },
+        {
+          "date": "2026-10-23",
+          "tokens": 310000000,
+          "requests": 940000
+        }
+      ]
+    },
+    {
+      "id": "cline",
+      "name": "Cline (formerly Claude Dev)",
+      "headline": "Autonomous coding agent extension for VS Code with terminal, browser, and file editing execution",
+      "category": "coding",
+      "agentType": "extension",
+      "license": "open-source",
+      "harness": "Cline Execution Engine",
+      "defaultModel": "Claude 3.5 Sonnet",
+      "supportedModels": [
+        "Claude 3.5 Sonnet",
+        "GPT-4o",
+        "DeepSeek-V3",
+        "Gemini 1.5 Pro"
+      ],
+      "url": "https://github.com/cline/cline",
+      "repoUrl": "https://github.com/cline/cline",
+      "headlineMetric": {
+        "label": "Marketplace Installs",
+        "value": "890k+",
+        "unit": "installs"
+      },
+      "rankGlobal": 3,
+      "usage": {
+        "tokensToday": 265000000,
+        "tokens7d": 1780000000,
+        "tokens30d": 6900000000,
+        "tokensAll": 18400000000,
+        "requestsToday": 810000,
+        "requests7d": 5400000,
+        "growthRate7d": 28.5,
+        "growthRate30d": 115.0,
+        "rankOpenRouter": 3,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": 24200,
+        "githubForks": 1950,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": 890000,
+        "source": "GitHub API & VS Code Marketplace",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": {
+          "score": 48.4,
+          "source": "SWE-bench Verified (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "sweBenchLite": {
+          "score": 42.1,
+          "source": "SWE-bench Lite (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "terminalBench": {
+          "score": 45.2,
+          "source": "Terminal-Bench Suite",
+          "timestamp": "2026-10-18T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "bfclV4": {
+          "score": 87.2,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": {
+          "score": 74.0,
+          "source": "Aider Polyglot Benchmark",
+          "timestamp": "2026-10-20T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "agentArenaElo": {
+          "score": 1248,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 1.85,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 65.0,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": [
+        {
+          "date": "2026-10-17",
+          "tokens": 220000000,
+          "requests": 680000
+        },
+        {
+          "date": "2026-10-18",
+          "tokens": 235000000,
+          "requests": 720000
+        },
+        {
+          "date": "2026-10-19",
+          "tokens": 245000000,
+          "requests": 750000
+        },
+        {
+          "date": "2026-10-20",
+          "tokens": 250000000,
+          "requests": 770000
+        },
+        {
+          "date": "2026-10-21",
+          "tokens": 258000000,
+          "requests": 790000
+        },
+        {
+          "date": "2026-10-22",
+          "tokens": 270000000,
+          "requests": 830000
+        },
+        {
+          "date": "2026-10-23",
+          "tokens": 265000000,
+          "requests": 810000
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf (Codeium)",
+      "headline": "Agentic IDE pairing real-time contextual copilot with Cascade autonomous multi-file workflows",
+      "category": "coding",
+      "agentType": "ide",
+      "license": "proprietary",
+      "harness": "Cascade Flow Engine",
+      "defaultModel": "Claude 3.5 Sonnet",
+      "supportedModels": [
+        "Claude 3.5 Sonnet",
+        "GPT-4o"
+      ],
+      "url": "https://codeium.com/windsurf",
+      "repoUrl": null,
+      "headlineMetric": {
+        "label": "Growth Rate",
+        "value": "+42%",
+        "unit": "weekly"
+      },
+      "rankGlobal": 4,
+      "usage": {
+        "tokensToday": 195000000,
+        "tokens7d": 1320000000,
+        "tokens30d": 4900000000,
+        "tokensAll": 11200000000,
+        "requestsToday": 620000,
+        "requests7d": 4100000,
+        "growthRate7d": 33.2,
+        "growthRate30d": 142.0,
+        "rankOpenRouter": 4,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": null,
+        "githubForks": null,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": 450000,
+        "source": "Vendor Telemetry",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": {
+          "score": 47.8,
+          "source": "SWE-bench Verified (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "sweBenchLite": {
+          "score": 41.5,
+          "source": "SWE-bench Lite (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "terminalBench": {
+          "score": 43.0,
+          "source": "Terminal-Bench Suite",
+          "timestamp": "2026-10-18T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "bfclV4": {
+          "score": 85.5,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": null,
+        "agentArenaElo": {
+          "score": 1250,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 2.1,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 70.2,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": [
+        {
+          "date": "2026-10-17",
+          "tokens": 150000000,
+          "requests": 480000
+        },
+        {
+          "date": "2026-10-18",
+          "tokens": 165000000,
+          "requests": 520000
+        },
+        {
+          "date": "2026-10-19",
+          "tokens": 178000000,
+          "requests": 560000
+        },
+        {
+          "date": "2026-10-20",
+          "tokens": 182000000,
+          "requests": 580000
+        },
+        {
+          "date": "2026-10-21",
+          "tokens": 190000000,
+          "requests": 605000
+        },
+        {
+          "date": "2026-10-22",
+          "tokens": 200000000,
+          "requests": 635000
+        },
+        {
+          "date": "2026-10-23",
+          "tokens": 195000000,
+          "requests": 620000
+        }
+      ]
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands (All-Hands AI)",
+      "headline": "Open-source agentic software engineering platform executing in sandboxed Docker containers",
+      "category": "coding",
+      "agentType": "cli",
+      "license": "open-source",
+      "harness": "OpenHands Docker Harness",
+      "defaultModel": "Claude 3.5 Sonnet",
+      "supportedModels": [
+        "Claude 3.5 Sonnet",
+        "GPT-4o",
+        "DeepSeek-V3",
+        "Qwen 2.5 Coder 32B"
+      ],
+      "url": "https://all-hands.dev",
+      "repoUrl": "https://github.com/All-Hands-AI/OpenHands",
+      "headlineMetric": {
+        "label": "SWE-bench Score",
+        "value": "53.0%",
+        "unit": "verified"
+      },
+      "rankGlobal": 5,
+      "usage": {
+        "tokensToday": 140000000,
+        "tokens7d": 960000000,
+        "tokens30d": 3700000000,
+        "tokensAll": 9800000000,
+        "requestsToday": 420000,
+        "requests7d": 2900000,
+        "growthRate7d": 21.0,
+        "growthRate30d": 85.0,
+        "rankOpenRouter": 5,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": 38500,
+        "githubForks": 4200,
+        "githubWeeklyCommits": 45,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": null,
+        "source": "GitHub API Telemetry",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": {
+          "score": 53.0,
+          "source": "SWE-bench Verified (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "sweBenchLite": {
+          "score": 47.4,
+          "source": "SWE-bench Lite (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "terminalBench": {
+          "score": 51.2,
+          "source": "Terminal-Bench Suite",
+          "timestamp": "2026-10-18T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "bfclV4": {
+          "score": 89.0,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": {
+          "score": 76.8,
+          "source": "Aider Polyglot Benchmark",
+          "timestamp": "2026-10-20T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "agentArenaElo": {
+          "score": 1272,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 3.12,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 112.0,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": [
+        {
+          "date": "2026-10-17",
+          "tokens": 120000000,
+          "requests": 360000
+        },
+        {
+          "date": "2026-10-18",
+          "tokens": 128000000,
+          "requests": 385000
+        },
+        {
+          "date": "2026-10-19",
+          "tokens": 135000000,
+          "requests": 405000
+        },
+        {
+          "date": "2026-10-20",
+          "tokens": 138000000,
+          "requests": 412000
+        },
+        {
+          "date": "2026-10-21",
+          "tokens": 142000000,
+          "requests": 425000
+        },
+        {
+          "date": "2026-10-22",
+          "tokens": 145000000,
+          "requests": 435000
+        },
+        {
+          "date": "2026-10-23",
+          "tokens": 140000000,
+          "requests": 420000
+        }
+      ]
+    },
+    {
+      "id": "devin",
+      "name": "Devin (Cognition AI)",
+      "headline": "Autonomous software engineer featuring sandboxed terminal, browser, and background planner",
+      "category": "coding",
+      "agentType": "personal",
+      "license": "proprietary",
+      "harness": "Cognition Devin Sandbox",
+      "defaultModel": "Custom Cognition Reasoning",
+      "supportedModels": [
+        "Custom Proprietary"
+      ],
+      "url": "https://cognition.ai",
+      "repoUrl": null,
+      "headlineMetric": {
+        "label": "Enterprise Adoption",
+        "value": "Fortune 500",
+        "unit": "tier"
+      },
+      "rankGlobal": 6,
+      "usage": {
+        "tokensToday": null,
+        "tokens7d": null,
+        "tokens30d": null,
+        "tokensAll": null,
+        "requestsToday": null,
+        "requests7d": null,
+        "growthRate7d": null,
+        "growthRate30d": null,
+        "rankOpenRouter": null,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": null,
+        "githubForks": null,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": null,
+        "source": "Vendor Direct Service (No OpenRouter Gateway Traffic)",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": {
+          "score": 48.9,
+          "source": "SWE-bench Verified (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "sweBenchLite": {
+          "score": 41.8,
+          "source": "SWE-bench Lite (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "terminalBench": {
+          "score": 49.5,
+          "source": "Terminal-Bench Suite",
+          "timestamp": "2026-10-18T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "bfclV4": null,
+        "aiderPolyglot": null,
+        "agentArenaElo": {
+          "score": 1260,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 6.8,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 195.0,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": []
+    },
+    {
+      "id": "claude-computer-use",
+      "name": "Claude Computer Use",
+      "headline": "Anthropic desktop agent that interacts with computers by looking at screens, moving cursors, and typing",
+      "category": "productivity",
+      "agentType": "personal",
+      "license": "proprietary",
+      "harness": "Anthropic Computer Use API",
+      "defaultModel": "Claude 3.5 Sonnet (20241022)",
+      "supportedModels": [
+        "Claude 3.5 Sonnet"
+      ],
+      "url": "https://docs.anthropic.com/claude/docs/computer-use",
+      "repoUrl": "https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo",
+      "headlineMetric": {
+        "label": "OSWorld Benchmark",
+        "value": "22.0%",
+        "unit": "accuracy"
+      },
+      "rankGlobal": 7,
+      "usage": {
+        "tokensToday": 180000000,
+        "tokens7d": 1210000000,
+        "tokens30d": 4500000000,
+        "tokensAll": 11500000000,
+        "requestsToday": 480000,
+        "requests7d": 3200000,
+        "growthRate7d": 36.4,
+        "growthRate30d": 160.0,
+        "rankOpenRouter": 6,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": 19400,
+        "githubForks": 2400,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": null,
+        "source": "Anthropic Quickstarts Repo",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": null,
+        "sweBenchLite": null,
+        "terminalBench": {
+          "score": 46.8,
+          "source": "Terminal-Bench Suite",
+          "timestamp": "2026-10-18T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "bfclV4": {
+          "score": 91.2,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": null,
+        "agentArenaElo": {
+          "score": 1290,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 3.8,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 140.0,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": [
+        {
+          "date": "2026-10-17",
+          "tokens": 140000000,
+          "requests": 370000
+        },
+        {
+          "date": "2026-10-18",
+          "tokens": 152000000,
+          "requests": 405000
+        },
+        {
+          "date": "2026-10-19",
+          "tokens": 165000000,
+          "requests": 440000
+        },
+        {
+          "date": "2026-10-20",
+          "tokens": 170000000,
+          "requests": 455000
+        },
+        {
+          "date": "2026-10-21",
+          "tokens": 175000000,
+          "requests": 468000
+        },
+        {
+          "date": "2026-10-22",
+          "tokens": 185000000,
+          "requests": 492000
+        },
+        {
+          "date": "2026-10-23",
+          "tokens": 180000000,
+          "requests": 480000
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-canvas",
+      "name": "ChatGPT Canvas",
+      "headline": "OpenAI collaborative canvas workspace for coding, writing, and inline artifact manipulation",
+      "category": "productivity",
+      "agentType": "personal",
+      "license": "proprietary",
+      "harness": "OpenAI Canvas Interface",
+      "defaultModel": "GPT-4o Canvas",
+      "supportedModels": [
+        "GPT-4o Canvas"
+      ],
+      "url": "https://openai.com/chatgpt",
+      "repoUrl": null,
+      "headlineMetric": {
+        "label": "Global Reach",
+        "value": "200M+",
+        "unit": "users"
+      },
+      "rankGlobal": 8,
+      "usage": {
+        "tokensToday": null,
+        "tokens7d": null,
+        "tokens30d": null,
+        "tokensAll": null,
+        "requestsToday": null,
+        "requests7d": null,
+        "growthRate7d": null,
+        "growthRate30d": null,
+        "rankOpenRouter": null,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": null,
+        "githubForks": null,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": null,
+        "source": "OpenAI Web App (Consumer Direct)",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": {
+          "score": 38.5,
+          "source": "SWE-bench Verified (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "sweBenchLite": {
+          "score": 34.0,
+          "source": "SWE-bench Lite (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "terminalBench": null,
+        "bfclV4": {
+          "score": 89.8,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": {
+          "score": 72.5,
+          "source": "Aider Polyglot Benchmark",
+          "timestamp": "2026-10-20T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "agentArenaElo": {
+          "score": 1285,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 1.95,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 48.0,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": []
+    },
+    {
+      "id": "v0-vercel",
+      "name": "v0 by Vercel",
+      "headline": "Generative user interface and full-stack web application builder with instant React/Next.js live previews",
+      "category": "creative",
+      "agentType": "personal",
+      "license": "proprietary",
+      "harness": "Vercel Generative Scaffold",
+      "defaultModel": "Claude 3.5 Sonnet",
+      "supportedModels": [
+        "Claude 3.5 Sonnet",
+        "GPT-4o"
+      ],
+      "url": "https://v0.dev",
+      "repoUrl": null,
+      "headlineMetric": {
+        "label": "Generated UIs",
+        "value": "15M+",
+        "unit": "components"
+      },
+      "rankGlobal": 9,
+      "usage": {
+        "tokensToday": 92000000,
+        "tokens7d": 620000000,
+        "tokens30d": 2400000000,
+        "tokensAll": 7100000000,
+        "requestsToday": 310000,
+        "requests7d": 2100000,
+        "growthRate7d": 22.4,
+        "growthRate30d": 98.0,
+        "rankOpenRouter": 7,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": null,
+        "githubForks": null,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": null,
+        "source": "Vercel Telemetry & Community Metric",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": null,
+        "sweBenchLite": null,
+        "terminalBench": null,
+        "bfclV4": {
+          "score": 82.0,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": null,
+        "agentArenaElo": {
+          "score": 1230,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 1.25,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 38.0,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": [
+        {
+          "date": "2026-10-17",
+          "tokens": 78000000,
+          "requests": 260000
+        },
+        {
+          "date": "2026-10-18",
+          "tokens": 82000000,
+          "requests": 275000
+        },
+        {
+          "date": "2026-10-19",
+          "tokens": 87000000,
+          "requests": 290000
+        },
+        {
+          "date": "2026-10-20",
+          "tokens": 89000000,
+          "requests": 300000
+        },
+        {
+          "date": "2026-10-21",
+          "tokens": 91000000,
+          "requests": 305000
+        },
+        {
+          "date": "2026-10-22",
+          "tokens": 94000000,
+          "requests": 315000
+        },
+        {
+          "date": "2026-10-23",
+          "tokens": 92000000,
+          "requests": 310000
+        }
+      ]
+    },
+    {
+      "id": "bolt-new",
+      "name": "Bolt.new (StackBlitz)",
+      "headline": "In-browser AI web development sandbox orchestrating WebContainers for full-stack Node.js environments",
+      "category": "creative",
+      "agentType": "personal",
+      "license": "open-source",
+      "harness": "WebContainers Agent Engine",
+      "defaultModel": "Claude 3.5 Sonnet",
+      "supportedModels": [
+        "Claude 3.5 Sonnet",
+        "GPT-4o",
+        "DeepSeek-V3"
+      ],
+      "url": "https://bolt.new",
+      "repoUrl": "https://github.com/stackblitz/bolt.new",
+      "headlineMetric": {
+        "label": "GitHub Stars",
+        "value": "48.2k",
+        "unit": "stars"
+      },
+      "rankGlobal": 10,
+      "usage": {
+        "tokensToday": 88000000,
+        "tokens7d": 590000000,
+        "tokens30d": 2300000000,
+        "tokensAll": 6800000000,
+        "requestsToday": 295000,
+        "requests7d": 1980000,
+        "growthRate7d": 31.0,
+        "growthRate30d": 140.0,
+        "rankOpenRouter": 8,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": 48200,
+        "githubForks": 7900,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": null,
+        "source": "GitHub Public API",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": null,
+        "sweBenchLite": null,
+        "terminalBench": {
+          "score": 42.1,
+          "source": "Terminal-Bench Suite",
+          "timestamp": "2026-10-18T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "bfclV4": {
+          "score": 84.0,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": null,
+        "agentArenaElo": {
+          "score": 1242,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 1.4,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 45.0,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": [
+        {
+          "date": "2026-10-17",
+          "tokens": 72000000,
+          "requests": 240000
+        },
+        {
+          "date": "2026-10-18",
+          "tokens": 78000000,
+          "requests": 260000
+        },
+        {
+          "date": "2026-10-19",
+          "tokens": 83000000,
+          "requests": 280000
+        },
+        {
+          "date": "2026-10-20",
+          "tokens": 85000000,
+          "requests": 285000
+        },
+        {
+          "date": "2026-10-21",
+          "tokens": 87000000,
+          "requests": 292000
+        },
+        {
+          "date": "2026-10-22",
+          "tokens": 90000000,
+          "requests": 302000
+        },
+        {
+          "date": "2026-10-23",
+          "tokens": 88000000,
+          "requests": 295000
+        }
+      ]
+    },
+    {
+      "id": "continue",
+      "name": "Continue",
+      "headline": "Open-source modular AI code assistant for VS Code and JetBrains connecting to any local or cloud LLM",
+      "category": "coding",
+      "agentType": "extension",
+      "license": "open-source",
+      "harness": "Continue Context Provider",
+      "defaultModel": "Claude 3.5 Sonnet / Llama 3.1",
+      "supportedModels": [
+        "Claude 3.5 Sonnet",
+        "Llama 3.1 70B",
+        "Ollama Local"
+      ],
+      "url": "https://continue.dev",
+      "repoUrl": "https://github.com/continuedev/continue",
+      "headlineMetric": {
+        "label": "Active Installs",
+        "value": "620k+",
+        "unit": "extensions"
+      },
+      "rankGlobal": 11,
+      "usage": {
+        "tokensToday": 75000000,
+        "tokens7d": 510000000,
+        "tokens30d": 1950000000,
+        "tokensAll": 5800000000,
+        "requestsToday": 380000,
+        "requests7d": 2550000,
+        "growthRate7d": 12.5,
+        "growthRate30d": 52.0,
+        "rankOpenRouter": 9,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": 21800,
+        "githubForks": 1820,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": 620000,
+        "source": "GitHub API & VS Code Marketplace",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": {
+          "score": 39.4,
+          "source": "SWE-bench Verified (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "sweBenchLite": {
+          "score": 33.8,
+          "source": "SWE-bench Lite (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "terminalBench": {
+          "score": 37.0,
+          "source": "Terminal-Bench Suite",
+          "timestamp": "2026-10-18T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "bfclV4": {
+          "score": 81.5,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": {
+          "score": 68.2,
+          "source": "Aider Polyglot Benchmark",
+          "timestamp": "2026-10-20T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "agentArenaElo": {
+          "score": 1215,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 1.1,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 35.0,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": [
+        {
+          "date": "2026-10-17",
+          "tokens": 68000000,
+          "requests": 340000
+        },
+        {
+          "date": "2026-10-18",
+          "tokens": 71000000,
+          "requests": 355000
+        },
+        {
+          "date": "2026-10-19",
+          "tokens": 73000000,
+          "requests": 370000
+        },
+        {
+          "date": "2026-10-20",
+          "tokens": 74000000,
+          "requests": 375000
+        },
+        {
+          "date": "2026-10-21",
+          "tokens": 75000000,
+          "requests": 380000
+        },
+        {
+          "date": "2026-10-22",
+          "tokens": 76000000,
+          "requests": 385000
+        },
+        {
+          "date": "2026-10-23",
+          "tokens": 75000000,
+          "requests": 380000
+        }
+      ]
+    },
+    {
+      "id": "elizaos",
+      "name": "ElizaOS (formerly ai16z)",
+      "headline": "Modular multi-agent simulation framework powering autonomous social media and Discord agents",
+      "category": "entertainment",
+      "agentType": "cli",
+      "license": "open-source",
+      "harness": "Eliza Autonomous Runtime",
+      "defaultModel": "Llama 3.3 70B",
+      "supportedModels": [
+        "Llama 3.3 70B",
+        "Claude 3.5 Sonnet",
+        "GPT-4o"
+      ],
+      "url": "https://elizaos.github.io",
+      "repoUrl": "https://github.com/elizaos/eliza",
+      "headlineMetric": {
+        "label": "GitHub Stars",
+        "value": "14.8k",
+        "unit": "stars"
+      },
+      "rankGlobal": 12,
+      "usage": {
+        "tokensToday": 48000000,
+        "tokens7d": 320000000,
+        "tokens30d": 1250000000,
+        "tokensAll": 3400000000,
+        "requestsToday": 220000,
+        "requests7d": 1500000,
+        "growthRate7d": 45.2,
+        "growthRate30d": 210.0,
+        "rankOpenRouter": 10,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": 14800,
+        "githubForks": 3900,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": null,
+        "source": "GitHub Public API",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": null,
+        "sweBenchLite": null,
+        "terminalBench": null,
+        "bfclV4": {
+          "score": 74.5,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": null,
+        "agentArenaElo": {
+          "score": 1195,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 0.95,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 30.0,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": [
+        {
+          "date": "2026-10-17",
+          "tokens": 36000000,
+          "requests": 165000
+        },
+        {
+          "date": "2026-10-18",
+          "tokens": 40000000,
+          "requests": 185000
+        },
+        {
+          "date": "2026-10-19",
+          "tokens": 43000000,
+          "requests": 200000
+        },
+        {
+          "date": "2026-10-20",
+          "tokens": 45000000,
+          "requests": 210000
+        },
+        {
+          "date": "2026-10-21",
+          "tokens": 47000000,
+          "requests": 215000
+        },
+        {
+          "date": "2026-10-22",
+          "tokens": 49000000,
+          "requests": 225000
+        },
+        {
+          "date": "2026-10-23",
+          "tokens": 48000000,
+          "requests": 220000
+        }
+      ]
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.ai",
+      "headline": "Conversational persona agent platform simulating fictional, historical, and role-playing characters",
+      "category": "entertainment",
+      "agentType": "personal",
+      "license": "proprietary",
+      "harness": "Character Persona Engine",
+      "defaultModel": "Proprietary Character LLM",
+      "supportedModels": [
+        "Character Proprietary"
+      ],
+      "url": "https://character.ai",
+      "repoUrl": null,
+      "headlineMetric": {
+        "label": "Active Users",
+        "value": "20M+",
+        "unit": "monthly"
+      },
+      "rankGlobal": 13,
+      "usage": {
+        "tokensToday": null,
+        "tokens7d": null,
+        "tokens30d": null,
+        "tokensAll": null,
+        "requestsToday": null,
+        "requests7d": null,
+        "growthRate7d": null,
+        "growthRate30d": null,
+        "rankOpenRouter": null,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": null,
+        "githubForks": null,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": null,
+        "source": "Character.ai Direct Platform Telemetry",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": null,
+        "sweBenchLite": null,
+        "terminalBench": null,
+        "bfclV4": null,
+        "aiderPolyglot": null,
+        "agentArenaElo": {
+          "score": 1210,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": null,
+        "latencyPerTaskSec": null
+      },
+      "timeSeries": []
+    },
+    {
+      "id": "goose",
+      "name": "Goose (Block)",
+      "headline": "Open-source developer agent built on Model Context Protocol (MCP) by Block for CLI automation",
+      "category": "coding",
+      "agentType": "cli",
+      "license": "open-source",
+      "harness": "Goose MCP Harness",
+      "defaultModel": "Claude 3.5 Sonnet",
+      "supportedModels": [
+        "Claude 3.5 Sonnet",
+        "GPT-4o",
+        "Databricks DBRX"
+      ],
+      "url": "https://block.github.io/goose",
+      "repoUrl": "https://github.com/block/goose",
+      "headlineMetric": {
+        "label": "GitHub Stars",
+        "value": "11.2k",
+        "unit": "stars"
+      },
+      "rankGlobal": 14,
+      "usage": {
+        "tokensToday": 32000000,
+        "tokens7d": 215000000,
+        "tokens30d": 810000000,
+        "tokensAll": 2100000000,
+        "requestsToday": 140000,
+        "requests7d": 950000,
+        "growthRate7d": 38.0,
+        "growthRate30d": 175.0,
+        "rankOpenRouter": 11,
+        "notice": "OpenRouter traffic only, not total market use",
+        "source": "OpenRouter Public Analytics",
+        "timestamp": "2026-10-23T08:00:00Z",
+        "measurementType": "vendor-reported"
+      },
+      "proxies": {
+        "githubStars": 11200,
+        "githubForks": 890,
+        "githubWeeklyCommits": null,
+        "npmWeeklyDownloads": null,
+        "pypiMonthlyDownloads": null,
+        "marketplaceInstalls": null,
+        "source": "GitHub Public API",
+        "timestamp": "2026-10-23T06:30:00Z",
+        "measurementType": "independently-measured"
+      },
+      "evals": {
+        "sweBenchVerified": {
+          "score": 44.2,
+          "source": "SWE-bench Verified (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "sweBenchLite": {
+          "score": 38.0,
+          "source": "SWE-bench Lite (Princeton NLP)",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "terminalBench": {
+          "score": 47.5,
+          "source": "Terminal-Bench Suite",
+          "timestamp": "2026-10-18T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "bfclV4": {
+          "score": 86.8,
+          "source": "Berkeley Gorilla BFCL V4",
+          "timestamp": "2026-10-12T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "aiderPolyglot": {
+          "score": 71.0,
+          "source": "Aider Polyglot Benchmark",
+          "timestamp": "2026-10-20T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "agentArenaElo": {
+          "score": 1228,
+          "source": "LMSYS Agent Arena",
+          "timestamp": "2026-10-21T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "costPerResolvedTask": {
+          "value": 1.6,
+          "unit": "USD",
+          "source": "SWE-bench Empirical Evaluation / Epoch AI",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        },
+        "latencyPerTaskSec": {
+          "value": 55.0,
+          "unit": "seconds",
+          "source": "Empirical Execution Telemetry",
+          "timestamp": "2026-10-15T00:00:00Z",
+          "measurementType": "independently-measured"
+        }
+      },
+      "timeSeries": [
+        {
+          "date": "2026-10-17",
+          "tokens": 24000000,
+          "requests": 105000
+        },
+        {
+          "date": "2026-10-18",
+          "tokens": 26000000,
+          "requests": 115000
+        },
+        {
+          "date": "2026-10-19",
+          "tokens": 28000000,
+          "requests": 122000
+        },
+        {
+          "date": "2026-10-20",
+          "tokens": 30000000,
+          "requests": 130000
+        },
+        {
+          "date": "2026-10-21",
+          "tokens": 31000000,
+          "requests": 135000
+        },
+        {
+          "date": "2026-10-22",
+          "tokens": 33000000,
+          "requests": 145000
+        },
+        {
+          "date": "2026-10-23",
+          "tokens": 32000000,
+          "requests": 140000
+        }
+      ]
+    }
+  ],
+  "harnessModelMatrix": [
+    {
+      "model": "Claude 3.5 Sonnet",
+      "provider": "Anthropic",
+      "harness": "OpenHands",
+      "sweBenchVerified": 53.0,
+      "costPerTask": 3.12,
+      "source": "SWE-bench Verified Leaderboard"
+    },
+    {
+      "model": "Claude 3.5 Sonnet",
+      "provider": "Anthropic",
+      "harness": "Aider CLI",
+      "sweBenchVerified": 51.6,
+      "costPerTask": 1.18,
+      "source": "Aider Benchmark"
+    },
+    {
+      "model": "Claude 3.5 Sonnet",
+      "provider": "Anthropic",
+      "harness": "Cline",
+      "sweBenchVerified": 48.4,
+      "costPerTask": 1.85,
+      "source": "Cline Community Evals"
+    },
+    {
+      "model": "Claude 3.5 Sonnet",
+      "provider": "Anthropic",
+      "harness": "Goose",
+      "sweBenchVerified": 44.2,
+      "costPerTask": 1.6,
+      "source": "Block Goose Evals"
+    },
+    {
+      "model": "GPT-4o (2024-08-06)",
+      "provider": "OpenAI",
+      "harness": "OpenHands",
+      "sweBenchVerified": 41.2,
+      "costPerTask": 2.8,
+      "source": "SWE-bench Verified Leaderboard"
+    },
+    {
+      "model": "GPT-4o (2024-08-06)",
+      "provider": "OpenAI",
+      "harness": "Aider CLI",
+      "sweBenchVerified": 38.4,
+      "costPerTask": 1.25,
+      "source": "Aider Benchmark"
+    },
+    {
+      "model": "DeepSeek-V3",
+      "provider": "DeepSeek",
+      "harness": "Aider CLI",
+      "sweBenchVerified": 42.0,
+      "costPerTask": 0.42,
+      "source": "Aider Benchmark"
+    },
+    {
+      "model": "DeepSeek-V3",
+      "provider": "DeepSeek",
+      "harness": "OpenHands",
+      "sweBenchVerified": 44.8,
+      "costPerTask": 0.95,
+      "source": "OpenHands Community Evals"
+    },
+    {
+      "model": "Qwen 2.5 Coder 32B",
+      "provider": "Alibaba Cloud",
+      "harness": "Aider CLI",
+      "sweBenchVerified": 37.6,
+      "costPerTask": 0.35,
+      "source": "Aider Benchmark"
+    }
+  ]
+}

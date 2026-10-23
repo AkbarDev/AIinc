@@ -1,16 +1,20 @@
-const CACHE_NAME = 'snapfacts-v16';
+const CACHE_NAME = 'snapfacts-v17';
 const ASSETS = [
     './',
     './index.html',
     './js/app.js',
     './js/frontier-ladder.js',
     './js/hf-board.js',
+    './js/agent-evals.js',
     './css/style.css',
     './css/frontier-ladder.css',
     './css/hf-board.css',
+    './css/agent-evals.css',
     './data/frontier_models.json',
     './data/hf_config.json',
     './data/hf_models_cache.json',
+    './data/agent_evals_config.json',
+    './data/agent_evals_cache.json',
     './assets/images/snapfacts-wordmark.svg',
     './assets/images/favicon.svg',
     'https://cdn.plot.ly/plotly-2.32.0.min.js'

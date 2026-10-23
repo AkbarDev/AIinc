@@ -154,6 +154,7 @@ const LLM_BENCHMARK_SLIDES = [
 const HEADER_CATEGORIES = [
     { key: 'all', label: '🌐 LLM INTELBOARD' },
     { key: 'hfboard', label: '🤗 HFBOARD' },
+    { key: 'agentevals', label: '🤖 AGENTEVALS' },
     { key: 'ai', label: 'AI' },
     { key: 'commerce', label: 'COMMERCE' },
     { key: 'tech', label: 'TECH' },
@@ -166,6 +167,7 @@ const HEADER_CATEGORIES = [
 const CATEGORY_COPY = {
     all: { eyebrow: 'Frontier AI Intelligence', heading: 'LLM Intelboard & Frontier Model Ladder' },
     hfboard: { eyebrow: 'Hugging Face Hub Live Telemetry', heading: 'HFBoard: Open-Weight Models & Licenses' },
+    agentevals: { eyebrow: 'AI Agent Usage & Evaluation Benchmarks', heading: 'AgentEvals: Coding Agents, Personal Agents & Evals' },
     commerce: { eyebrow: 'Commerce Focus', heading: 'Retail, payments, and ecommerce intelligence' },
     tech: { eyebrow: 'Tech Focus', heading: 'Platform, infrastructure, and product shifts' },
     ads: { eyebrow: 'Ads Focus', heading: 'Campaign, adtech, and performance marketing trends' },
@@ -1190,6 +1192,30 @@ function renderNewsBoard() {
         renderSidebarTrending([]);
         return;
     }
+
+    // 1c. If on AgentEvals ('agentevals'), display the AI Agent Rankings and Evaluation Explorer!
+    if (state.activeCategory === 'agentevals') {
+        grid.classList.remove('is-compact', 'is-brief-mode');
+        grid.classList.add('has-leaderboard-home');
+        grid.innerHTML = '<div id="agent-evals-container"></div>';
+
+        const mountAE = (AEClass) => {
+            window.agentEvalsInstance = new AEClass('agent-evals-container');
+        };
+
+        if (window.AgentEvals) {
+            mountAE(window.AgentEvals);
+        } else {
+            import('./agent-evals.js?v=20261023_1').then((mod) => {
+                const Cls = mod?.AgentEvals || window.AgentEvals;
+                if (Cls) mountAE(Cls);
+            }).catch(err => {
+                console.error('Failed to load AgentEvals:', err);
+            });
+        }
+        renderSidebarTrending([]);
+        return;
+    }
     grid.classList.remove('has-leaderboard-home');
 
     // 2. If on a category tab, render the respective news cards for that category!
@@ -1516,6 +1542,14 @@ function renderSectionHeading() {
 }
 
 function setupCategoryFilters() {
+    try {
+        const urlParams = new URLSearchParams(window.location.search);
+        const initialCat = urlParams.get('category');
+        if (initialCat && HEADER_CATEGORIES.some(c => c.key === initialCat)) {
+            state.activeCategory = initialCat;
+        }
+    } catch (e) {}
+
     const container = document.getElementById('category-pills');
     if (!container) return;
     container.addEventListener('click', (event) => {

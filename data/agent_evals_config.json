@@ -1,0 +1,180 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-10-23T10:00:00Z",
+  "disclaimer": {
+    "openRouterNotice": "OpenRouter traffic only, not total market use. Rankings and token volumes reflect API gateway volume routed through OpenRouter endpoints, not proprietary subscription or local offline usage.",
+    "missingDataRule": "Missing or unpublished metrics are marked as 'n/r' (not reported). Values are never extrapolated, estimated, or imputed.",
+    "separateRankingsRule": "Rankings are segmented strictly per verified data source to maintain scientific rigor, rather than blended via arbitrary weights."
+  },
+  "sources": [
+    {
+      "id": "openrouter",
+      "name": "OpenRouter Public Analytics",
+      "url": "https://openrouter.ai/data",
+      "license": "Public Gateway Telemetry",
+      "type": "usage",
+      "rateLimit": "10 req/min",
+      "cacheTtlSeconds": 3600
+    },
+    {
+      "id": "github_proxies",
+      "name": "GitHub Public API",
+      "url": "https://api.github.com",
+      "license": "Public Repository Metadata",
+      "type": "proxy_usage",
+      "rateLimit": "60 req/hour unauthenticated / 5000 authenticated",
+      "cacheTtlSeconds": 7200
+    },
+    {
+      "id": "npm_pypi_proxies",
+      "name": "NPM & PyPI Registry Downloads",
+      "url": "https://api.npmjs.org / https://pypistats.org",
+      "license": "Public Package Telemetry",
+      "type": "proxy_usage",
+      "rateLimit": "Standard Registry API",
+      "cacheTtlSeconds": 14400
+    },
+    {
+      "id": "epoch_ai",
+      "name": "Epoch AI Benchmarking Hub",
+      "url": "https://epochai.org/data",
+      "license": "Creative Commons Attribution 4.0 International (CC-BY 4.0)",
+      "attribution": "Data courtesy of Epoch AI Benchmarking Hub (CC-BY 4.0)",
+      "type": "evals",
+      "cacheTtlSeconds": 86400
+    },
+    {
+      "id": "bfcl",
+      "name": "Berkeley Function-Calling Leaderboard (BFCL V4)",
+      "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+      "license": "Apache 2.0 / Berkeley Gorilla Research",
+      "attribution": "Gorilla BFCL V4 Benchmark Suite, UC Berkeley",
+      "type": "evals",
+      "cacheTtlSeconds": 86400
+    },
+    {
+      "id": "swe_bench",
+      "name": "SWE-bench (Verified & Lite)",
+      "url": "https://www.swebench.com",
+      "license": "MIT License / Princeton NLP",
+      "attribution": "SWE-bench Benchmark Suite, Princeton NLP",
+      "type": "evals",
+      "cacheTtlSeconds": 86400
+    },
+    {
+      "id": "terminal_bench",
+      "name": "Terminal-Bench",
+      "url": "https://github.com/terminal-bench",
+      "license": "Open Benchmark Data",
+      "attribution": "Terminal-Bench CLI & Bash Agent Evaluation",
+      "type": "evals",
+      "cacheTtlSeconds": 86400
+    },
+    {
+      "id": "aider_polyglot",
+      "name": "Aider Polyglot Benchmark",
+      "url": "https://aider.chat/docs/leaderboards/",
+      "license": "Apache 2.0 Open Leaderboard",
+      "attribution": "Aider Polyglot Multi-language Editing Benchmark",
+      "type": "evals",
+      "cacheTtlSeconds": 86400
+    },
+    {
+      "id": "agent_arena",
+      "name": "LMSYS Chatbot / Agent Arena",
+      "url": "https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard",
+      "license": "CC-BY-NC 4.0 / Public Leaderboard",
+      "attribution": "LMSYS Agent Arena Elo Ratings",
+      "type": "evals",
+      "cacheTtlSeconds": 86400
+    }
+  ],
+  "categories": [
+    {
+      "id": "coding",
+      "name": "Coding Agents",
+      "icon": "fa-code",
+      "description": "IDE extensions, autonomous software engineering harnesses, and CLI pair programming agents."
+    },
+    {
+      "id": "productivity",
+      "name": "Personal & Productivity",
+      "icon": "fa-briefcase",
+      "description": "Desktop operating agents, canvas reasoning assistants, and automated workflow orchestrators."
+    },
+    {
+      "id": "creative",
+      "name": "Creative & Design",
+      "icon": "fa-palette",
+      "description": "Front-end generative builders, UI/UX scaffolding agents, and creative asset generators."
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment & Social",
+      "icon": "fa-gamepad",
+      "description": "Autonomous persona agents, conversational companions, and simulation game agents."
+    }
+  ],
+  "benchmarks": [
+    {
+      "id": "sweBenchVerified",
+      "name": "SWE-bench Verified",
+      "unit": "%",
+      "direction": "desc",
+      "higherIsBetter": true,
+      "source": "SWE-bench / Princeton NLP",
+      "description": "Human-validated subset of 500 real GitHub issue resolution tasks without unit-test false negatives."
+    },
+    {
+      "id": "sweBenchLite",
+      "name": "SWE-bench Lite",
+      "unit": "%",
+      "direction": "desc",
+      "higherIsBetter": true,
+      "source": "SWE-bench / Princeton NLP",
+      "description": "Standard 300-issue Python resolution benchmark for autonomous software engineering."
+    },
+    {
+      "id": "terminalBench",
+      "name": "Terminal-Bench",
+      "unit": "%",
+      "direction": "desc",
+      "higherIsBetter": true,
+      "source": "Terminal-Bench Suite",
+      "description": "Evaluates command-line interface execution, environment discovery, and bash multi-turn workflows."
+    },
+    {
+      "id": "bfclV4",
+      "name": "BFCL V4 (Tool Use)",
+      "unit": "%",
+      "direction": "desc",
+      "higherIsBetter": true,
+      "source": "UC Berkeley Gorilla",
+      "description": "Berkeley Function-Calling Leaderboard V4 assessing multi-turn tool calling, AST accuracy, and state tracking."
+    },
+    {
+      "id": "aiderPolyglot",
+      "name": "Aider Polyglot",
+      "unit": "%",
+      "direction": "desc",
+      "higherIsBetter": true,
+      "source": "Aider Open Leaderboard",
+      "description": "Code edit benchmark across Python, JavaScript, TypeScript, Go, Rust, and C++."
+    },
+    {
+      "id": "agentArenaElo",
+      "name": "Agent Arena Elo",
+      "unit": "Elo",
+      "direction": "desc",
+      "higherIsBetter": true,
+      "source": "LMSYS Agent Arena",
+      "description": "Crowdsourced blind evaluation Elo rating measuring agent helpfulness, precision, and tool orchestration."
+    }
+  ],
+  "timeframes": [
+    { "id": "today", "label": "Today" },
+    { "id": "7d", "label": "7D" },
+    { "id": "30d", "label": "30D" },
+    { "id": "all", "label": "All Time" }
+  ]
+}
