@@ -1206,7 +1206,7 @@ function renderNewsBoard() {
         if (window.AgentEvals) {
             mountAE(window.AgentEvals);
         } else {
-            import('./agent-evals.js?v=20261023_1').then((mod) => {
+            import('./agent-evals.js?v=20261023_agentevals').then((mod) => {
                 const Cls = mod?.AgentEvals || window.AgentEvals;
                 if (Cls) mountAE(Cls);
             }).catch(err => {
