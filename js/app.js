@@ -155,19 +155,25 @@ const HEADER_CATEGORIES = [
     { key: 'all', label: '🌐 LLM INTELBOARD' },
     { key: 'hfboard', label: '🤗 HFBOARD' },
     { key: 'agentevals', label: '🤖 AGENTEVALS' },
-    { key: 'ai', label: 'AI' },
-    { key: 'commerce', label: 'COMMERCE' },
-    { key: 'tech', label: 'TECH' },
-    { key: 'ads', label: 'ADS' },
-    { key: 'startup', label: 'STARTUP' },
-    { key: 'media', label: 'MEDIA' },
-    { key: 'brands', label: 'BRANDS' },
+    { key: 'newsmedia', label: '📰 AI NEWSMEDIA' },
+];
+
+const NEWSMEDIA_SUB_CATEGORIES = [
+    { key: 'all', label: 'ALL STORIES', icon: 'fa-layer-group' },
+    { key: 'ai', label: 'AI', icon: 'fa-brain' },
+    { key: 'commerce', label: 'COMMERCE', icon: 'fa-cart-shopping' },
+    { key: 'tech', label: 'TECH', icon: 'fa-bolt' },
+    { key: 'ads', label: 'ADS', icon: 'fa-bullhorn' },
+    { key: 'startup', label: 'STARTUP', icon: 'fa-rocket' },
+    { key: 'media', label: 'MEDIA', icon: 'fa-newspaper' },
+    { key: 'brands', label: 'BRANDS', icon: 'fa-tag' },
 ];
 
 const CATEGORY_COPY = {
     all: { eyebrow: 'Frontier AI Intelligence', heading: 'LLM Intelboard & Frontier Model Ladder' },
     hfboard: { eyebrow: 'Hugging Face Hub Live Telemetry', heading: 'HFBoard: Open-Weight Models & Licenses' },
     agentevals: { eyebrow: 'AI Agent Usage & Evaluation Benchmarks', heading: 'AgentEvals: Coding Agents, Personal Agents & Evals' },
+    newsmedia: { eyebrow: 'AI Newsmedia Multi-Channel Feed', heading: 'AI Newsmedia: Multi-Industry Intelligence & Trends' },
     commerce: { eyebrow: 'Commerce Focus', heading: 'Retail, payments, and ecommerce intelligence' },
     tech: { eyebrow: 'Tech Focus', heading: 'Platform, infrastructure, and product shifts' },
     ads: { eyebrow: 'Ads Focus', heading: 'Campaign, adtech, and performance marketing trends' },
@@ -216,6 +222,7 @@ const state = {
     meta: {},
     sources: [],
     activeCategory: 'all',
+    newsmediaSubCategory: 'all',
     carouselIndex: 0,
     mobileMenuOpen: false,
     density: 'comfortable',
@@ -473,6 +480,7 @@ function renderSkeletons() {
 function renderAll() {
     renderHeroCarousel();
     renderCategoryPills();
+    renderNewsmediaSubfilters();
     renderMobileCategoryMenu();
     renderMobileReaderChrome();
     renderNewsBoard();
@@ -842,6 +850,10 @@ const LLM_ARENA_LEADERBOARD_DATA = [
 ];
 
 function getCategoryStoryCount(catKey) {
+    if (catKey === 'newsmedia') {
+        const validKeys = ['ai', 'commerce', 'tech', 'ads', 'startup', 'media', 'brands'];
+        return (state.trends || []).filter(item => validKeys.some(k => matchesCategory(item, k))).length;
+    }
     return (state.trends || []).filter(item => matchesCategory(item, catKey)).length;
 }
 
@@ -1412,6 +1424,14 @@ function getCategoryTrends(categoryKey) {
     if (categoryKey === 'all') {
         return prioritizeFollowedTopics(unique);
     }
+    if (categoryKey === 'newsmedia') {
+        const sub = state.newsmediaSubCategory || 'all';
+        if (sub === 'all') {
+            const validKeys = ['ai', 'commerce', 'tech', 'ads', 'startup', 'media', 'brands'];
+            return unique.filter(item => validKeys.some(k => matchesCategory(item, k)));
+        }
+        return unique.filter(item => matchesCategory(item, sub));
+    }
     return unique.filter((item) => matchesCategory(item, categoryKey));
 }
 
@@ -1536,17 +1556,69 @@ function renderSectionHeading() {
     const eyebrow = document.getElementById('news-eyebrow');
     const heading = document.getElementById('news-heading');
     if (!eyebrow || !heading) return;
+
+    if (state.activeCategory === 'newsmedia') {
+        const sub = state.newsmediaSubCategory || 'all';
+        if (sub !== 'all' && CATEGORY_COPY[sub]) {
+            eyebrow.textContent = CATEGORY_COPY[sub].eyebrow;
+            heading.textContent = CATEGORY_COPY[sub].heading;
+            return;
+        }
+        eyebrow.textContent = CATEGORY_COPY.newsmedia.eyebrow;
+        heading.textContent = CATEGORY_COPY.newsmedia.heading;
+        return;
+    }
+
     const copy = CATEGORY_COPY[state.activeCategory] || CATEGORY_COPY.all;
     eyebrow.textContent = copy.eyebrow;
     heading.textContent = copy.heading;
+}
+
+function renderNewsmediaSubfilters() {
+    const container = document.getElementById('newsmedia-subfilters');
+    if (!container) return;
+
+    if (state.activeCategory !== 'newsmedia') {
+        container.style.display = 'none';
+        container.innerHTML = '';
+        return;
+    }
+
+    container.style.display = 'block';
+    const subActive = state.newsmediaSubCategory || 'all';
+
+    const buttonsHtml = NEWSMEDIA_SUB_CATEGORIES.map(sub => {
+        const count = sub.key === 'all'
+            ? getCategoryStoryCount('newsmedia')
+            : getCategoryStoryCount(sub.key);
+        const isActive = subActive === sub.key ? 'active' : '';
+
+        return `
+            <button class="newsmedia-subfilter-btn ${isActive}" data-newsmedia-sub="${sub.key}" type="button" aria-pressed="${isActive ? 'true' : 'false'}">
+                <i class="fa-solid ${sub.icon}"></i>
+                <span>${sub.label}</span>
+                <span class="subfilter-count">${count}</span>
+            </button>
+        `;
+    }).join('');
+
+    container.innerHTML = `
+        <div class="newsmedia-subfilter-bar" role="tablist" aria-label="AI Newsmedia Subcategories">
+            ${buttonsHtml}
+        </div>
+    `;
 }
 
 function setupCategoryFilters() {
     try {
         const urlParams = new URLSearchParams(window.location.search);
         const initialCat = urlParams.get('category');
-        if (initialCat && HEADER_CATEGORIES.some(c => c.key === initialCat)) {
-            state.activeCategory = initialCat;
+        const initialSub = urlParams.get('sub');
+        if (initialCat) {
+            setActiveCategory(initialCat);
+            if (initialSub && NEWSMEDIA_SUB_CATEGORIES.some(s => s.key === initialSub)) {
+                state.newsmediaSubCategory = initialSub;
+            }
         }
     } catch (e) {}
 
@@ -1559,6 +1631,19 @@ function setupCategoryFilters() {
     });
 
     document.body.addEventListener('click', (event) => {
+        const subBtn = event.target.closest('[data-newsmedia-sub]');
+        if (subBtn) {
+            const sub = subBtn.dataset.newsmediaSub || 'all';
+            state.activeCategory = 'newsmedia';
+            state.newsmediaSubCategory = sub;
+            renderCategoryPills();
+            renderNewsmediaSubfilters();
+            renderSectionHeading();
+            renderNewsBoard();
+            syncActiveCategoryTheme();
+            return;
+        }
+
         const jump = event.target.closest('[data-category-jump]');
         if (!jump) return;
         setActiveCategory(jump.dataset.categoryJump || 'all');
@@ -1617,8 +1702,18 @@ function setupMobileCategoryMenu() {
 }
 
 function setActiveCategory(nextCategory) {
-    state.activeCategory = nextCategory || 'all';
+    const newsCategories = ['ai', 'commerce', 'tech', 'ads', 'startup', 'media', 'brands'];
+    if (newsCategories.includes(nextCategory)) {
+        state.activeCategory = 'newsmedia';
+        state.newsmediaSubCategory = nextCategory;
+    } else {
+        state.activeCategory = nextCategory || 'all';
+        if (state.activeCategory === 'newsmedia' && !state.newsmediaSubCategory) {
+            state.newsmediaSubCategory = 'all';
+        }
+    }
     renderCategoryPills();
+    renderNewsmediaSubfilters();
     renderMobileCategoryMenu();
     renderMobileReaderChrome();
     renderNewsBoard();
@@ -1906,7 +2001,8 @@ function cleanHeadline(title = '') {
 
 function getCategoryLabel(item) {
     const category = normalizeCategory(item.category || 'all');
-    const found = HEADER_CATEGORIES.find((entry) => entry.key === category);
+    const found = HEADER_CATEGORIES.find((entry) => entry.key === category) ||
+                  NEWSMEDIA_SUB_CATEGORIES.find((entry) => entry.key === category);
     return found ? found.label : category.toUpperCase();
 }
 
