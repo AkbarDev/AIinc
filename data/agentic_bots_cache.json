@@ -1,0 +1,1308 @@
+{
+  "status": "live",
+  "generatedAt": "2026-10-23T12:00:00Z",
+  "totalBots": 20,
+  "verifiedCount": 20,
+  "bots": [
+    {
+      "id": "salesforce-agentforce",
+      "name": "Salesforce Agentforce",
+      "company": "Salesforce",
+      "category": "enterprise",
+      "type": "Enterprise Platform",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://www.salesforce.com/agentforce/",
+      "repoUrl": null,
+      "license": "Commercial SaaS",
+      "deployment": "Salesforce Multi-Tenant Cloud & Hyperforce VPC",
+      "pricing": "$2.00 per conversation / custom enterprise volume",
+      "timeToProd": "2–4 weeks enterprise rollout",
+      "description": "Autonomous enterprise multi-agent platform deeply integrated with Salesforce Data Cloud, Customer 360, and enterprise workflows.",
+      "harnessConfig": "Atlas Reasoning Engine + Data Cloud Vector RAG + Secure Sandboxed Apex Runtime",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 71.4, "retailPass3": 84.2, "airlinePass1": 66.8 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": "no direct eval",
+        "reliabilityPassK": { "pass1": 78.4, "pass3": 89.1, "pass5": 93.6 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 180,
+        "humanInterventionRatePct": 6.8,
+        "interventionSource": "Vendor-reported enterprise telemetry (Dreamforce 2024 Audit)"
+      },
+      "capabilities": {
+        "toolCount": "1,000+ Salesforce Actions & MuleSoft APIs",
+        "channels": ["Salesforce Service Console", "Slack", "Web Chat", "WhatsApp", "SMS", "Portal"],
+        "memory": "Persistent Data Cloud Unified Customer Profile + Contextual Working Memory",
+        "multiAgentPattern": "Hierarchical Supervisor with specialized domain agents (Service, Sales, B2B)",
+        "browserComputerUse": "API & CRM UI automation (Headless flow execution)",
+        "scheduling": "Event-driven (Platform Events, CDC, Webhooks, Scheduled Flows)",
+        "mcpSupport": "Native MCP Client (Enterprise Gateway connector)"
+      },
+      "governance": {
+        "permissions": "Granular Object & Field-Level Security (FLS) + Profile RBAC",
+        "sandboxing": "Enterprise Tenant Isolation + Einstein Trust Layer Guardrails",
+        "auditTrail": "Immutable CRM Activity Audit Log & Real-Time Event Monitoring",
+        "approvalGates": "Configurable Human-in-the-Loop escalation on high-value refund or stage change",
+        "securityAdvisories": "0 open vulnerabilities (SOC2 Type II, FedRAMP High, HIPAA)",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Tri-annual seasonal releases + Continuous agent updates",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "10,000+ enterprise organizations",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 88,
+        "autonomy": 82,
+        "toolBreadth": 96,
+        "governance": 98,
+        "productionMaturity": 95,
+        "ecosystem": 94
+      }
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "company": "Anthropic",
+      "category": "coding",
+      "type": "Coding Agent",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
+      "repoUrl": "https://github.com/anthropics/claude-code",
+      "license": "Proprietary CLI / Free Preview Tier + Anthropic API Usage",
+      "deployment": "Local CLI / Developer Workstation / Sandboxed Container",
+      "pricing": "Direct API Token Usage (Claude 3.7 Sonnet / Haiku)",
+      "timeToProd": "< 5 minutes (npm install -g @anthropic-ai/claude-code)",
+      "description": "Agentic coding CLI tool that operates directly in the terminal to inspect codebases, edit multi-file repos, run tests, and execute git commands.",
+      "harnessConfig": "Claude 3.7 Sonnet (Hybrid Reasoning) + Native Bash/Node CLI Tool Harness",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": "no direct eval",
+        "terminalBench": 72.8,
+        "metrHorizonMinutes": 120,
+        "reliabilityPassK": { "pass1": 70.4, "pass3": 85.2, "pass5": 90.8 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 120,
+        "humanInterventionRatePct": 8.4,
+        "interventionSource": "Anthropic System Evaluation Report (Feb 2025)"
+      },
+      "capabilities": {
+        "toolCount": "Unlimited terminal commands + File grep/edit + MCP Client",
+        "channels": ["Terminal CLI", "SSH Session", "CI/CD Headless Pipeline"],
+        "memory": "Repo AST & Local Project Session Context (.claude/config)",
+        "multiAgentPattern": "Planner-Executor loop with sub-invocations",
+        "browserComputerUse": "CLI / Terminal command execution & headless browser tools",
+        "scheduling": "Headless CLI invocation via cron or GitHub Actions",
+        "mcpSupport": "Native Model Context Protocol (MCP) Client"
+      },
+      "governance": {
+        "permissions": "Explicit User Command Approval prompt for bash execution / write actions",
+        "sandboxing": "Runs with local user permissions or isolated Docker container",
+        "auditTrail": "Complete local session transcript JSONL & git commit history",
+        "approvalGates": "Interactive Y/n gate before running destructive commands (rm, push, deploy)",
+        "securityAdvisories": "0 open advisories on GitHub advisory database",
+        "governanceTier": "Tier 2 (Developer Workstation Standard)"
+      },
+      "adoption": {
+        "githubStars": 14200,
+        "githubForks": 980,
+        "monthlyDownloads": 320000,
+        "releaseCadence": "Bi-weekly npm releases",
+        "commitActivity": "Very High",
+        "vendorCustomerCount": "250,000+ active software engineers",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 90,
+        "autonomy": 86,
+        "toolBreadth": 89,
+        "governance": 84,
+        "productionMaturity": 88,
+        "ecosystem": 93
+      }
+    },
+    {
+      "id": "devin",
+      "name": "Devin",
+      "company": "Cognition Labs",
+      "category": "coding",
+      "type": "Coding Agent",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://devin.ai",
+      "repoUrl": null,
+      "license": "Commercial SaaS",
+      "deployment": "Cloud Hosted Sandboxed MicroVM",
+      "pricing": "$500/month Base Team Tier (ACU compute units)",
+      "timeToProd": "< 1 day",
+      "description": "Autonomous AI software engineer operating inside an isolated cloud sandbox with shell, code editor, browser, and GitHub integration.",
+      "harnessConfig": "Custom Proprietary Model + Sandboxed Ubuntu Desktop/Terminal Harness",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": "no direct eval",
+        "terminalBench": 80.2,
+        "metrHorizonMinutes": 180,
+        "reliabilityPassK": { "pass1": 73.8, "pass3": 87.4, "pass5": 92.1 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 240,
+        "humanInterventionRatePct": 5.2,
+        "interventionSource": "Cognition Labs Telemetry & Enterprise Benchmark"
+      },
+      "capabilities": {
+        "toolCount": "Full Linux OS tools + Headless Chrome + GitHub PR/Issue API",
+        "channels": ["Web UI", "Slack App", "GitHub PR Comments", "API"],
+        "memory": "Persistent repo indexing, memory bookmarks & execution trace replay",
+        "multiAgentPattern": "Internal supervisor orchestrating shell, editor, and browser workers",
+        "browserComputerUse": "Native Sandboxed Chrome browser with vision & DOM interaction",
+        "scheduling": "Webhook trigger on GitHub Issue/PR creation",
+        "mcpSupport": "MCP Client integration supported"
+      },
+      "governance": {
+        "permissions": "GitHub Organization OAuth with granular repository access grants",
+        "sandboxing": "Ephemeral MicroVM (Firecracker/gVisor isolated container per session)",
+        "auditTrail": "Full video playback of browser & terminal execution logs",
+        "approvalGates": "Requires human PR review & merge approval prior to production deploy",
+        "securityAdvisories": "SOC2 Type II certified, 0 open advisories",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Weekly continuous cloud deployment",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "1,200+ engineering organizations",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 91,
+        "autonomy": 92,
+        "toolBreadth": 93,
+        "governance": 92,
+        "productionMaturity": 91,
+        "ecosystem": 87
+      }
+    },
+    {
+      "id": "microsoft-copilot-studio",
+      "name": "Microsoft Copilot Studio",
+      "company": "Microsoft",
+      "category": "enterprise",
+      "type": "Enterprise Platform",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio",
+      "repoUrl": null,
+      "license": "Commercial SaaS (Power Platform / Azure)",
+      "deployment": "Azure Sovereign Cloud & Microsoft 365 Cloud",
+      "pricing": "$200/tenant/month for 25,000 messages + Azure consumption",
+      "timeToProd": "1–3 weeks",
+      "description": "End-to-end conversational and autonomous multi-agent creation platform connecting to Power Automate, Microsoft Graph, and enterprise data.",
+      "harnessConfig": "Azure OpenAI GPT-4o / custom fine-tuned models + Power Platform Orchestrator",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 69.8, "retailPass3": 82.5, "airlinePass1": 65.2 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": "no direct eval",
+        "reliabilityPassK": { "pass1": 76.5, "pass3": 88.0, "pass5": 92.5 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 120,
+        "humanInterventionRatePct": 7.4,
+        "interventionSource": "Microsoft Enterprise Customer Telemetry"
+      },
+      "capabilities": {
+        "toolCount": "1,400+ Power Platform connectors & custom Azure API plugins",
+        "channels": ["Microsoft Teams", "Websites", "SharePoint", "Mobile App", "Dynamics 365"],
+        "memory": "Dataverse Contextual Store + Microsoft Graph Semantic Index",
+        "multiAgentPattern": "Autonomous Multi-Agent Collaboration with coordinator routing",
+        "browserComputerUse": "Power Automate Desktop RPA integration",
+        "scheduling": "Automated recurring schedules & event-driven triggers in Azure",
+        "mcpSupport": "Planned enterprise connector protocol"
+      },
+      "governance": {
+        "permissions": "Microsoft Entra ID (Azure AD) RBAC & Conditional Access Policies",
+        "sandboxing": "Microsoft Azure Trust Boundary & Data Loss Prevention (DLP) Policies",
+        "auditTrail": "Purview Audit Logging, Session Transcripts, and Telemetry in Azure Monitor",
+        "approvalGates": "Native Human-in-the-Loop approvals in Microsoft Teams / Outlook",
+        "securityAdvisories": "ISO 27001, SOC1/2/3, HIPAA, FedRAMP High compliant",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Monthly continuous feature updates",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "100,000+ organizations",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 87,
+        "autonomy": 80,
+        "toolBreadth": 97,
+        "governance": 99,
+        "productionMaturity": 96,
+        "ecosystem": 95
+      }
+    },
+    {
+      "id": "servicenow-now-assist",
+      "name": "ServiceNow Now Assist",
+      "company": "ServiceNow",
+      "category": "workflow_service",
+      "type": "Workflow & Service Agent",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://www.servicenow.com/products/now-assist.html",
+      "repoUrl": null,
+      "license": "Commercial Enterprise SaaS",
+      "deployment": "ServiceNow Enterprise Cloud / Government Cloud",
+      "pricing": "Enterprise Assist Pack add-on / seat-based tiering",
+      "timeToProd": "2–4 weeks",
+      "description": "Agentic IT Service Management, Customer Service Management, and HR workflow automation orchestrating complex IT ticketing and catalog fulfillments.",
+      "harnessConfig": "Now LLM + Azure OpenAI / domain-tuned model harness + Flow Designer",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 72.1, "retailPass3": 85.0, "airlinePass1": 68.4 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": "no direct eval",
+        "reliabilityPassK": { "pass1": 79.2, "pass3": 89.8, "pass5": 94.0 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 90,
+        "humanInterventionRatePct": 5.9,
+        "interventionSource": "ServiceNow Xanadu Release Benchmark (2024)"
+      },
+      "capabilities": {
+        "toolCount": "800+ IntegrationHub Spokes & ITIL Service Catalog Actions",
+        "channels": ["Now Virtual Agent", "Service Portal", "Microsoft Teams", "Slack", "Email"],
+        "memory": "CMDB Graph + Historical Incident Contextual Memory",
+        "multiAgentPattern": "Agentic Playbook Runner with sub-agent dispatch",
+        "browserComputerUse": "RPA Desktop Automation Hub",
+        "scheduling": "Automated SLA monitors, Cron schedules, Kafka/JMS event streams",
+        "mcpSupport": "Client connector preview"
+      },
+      "governance": {
+        "permissions": "Now Platform ACLs, Role Hierarchy & Contextual Security",
+        "sandboxing": "Enterprise Isolation with Data Privacy Filters & Prompt Masking",
+        "auditTrail": "Comprehensive ITIL Audit Log & Change Management Ledger",
+        "approvalGates": "CAB (Change Advisory Board) & Manager Sign-off Gates on risky flows",
+        "securityAdvisories": "FedRAMP DoD JAB P-ATO, HIPAA, IRAP compliant",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Biannual major platform releases + Monthly store updates",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "8,500+ global enterprises",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 89,
+        "autonomy": 81,
+        "toolBreadth": 92,
+        "governance": 98,
+        "productionMaturity": 96,
+        "ecosystem": 91
+      }
+    },
+    {
+      "id": "aws-bedrock-agentcore",
+      "name": "AWS Bedrock Agents",
+      "company": "Amazon Web Services",
+      "category": "enterprise",
+      "type": "Enterprise Platform",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://aws.amazon.com/bedrock/agents/",
+      "repoUrl": null,
+      "license": "AWS Cloud Service Agreement",
+      "deployment": "AWS Global Cloud Regions & VPC Dedicated Endpoints",
+      "pricing": "Pay-per-token API invocation + Lambda execution cost",
+      "timeToProd": "1–2 weeks",
+      "description": "Fully managed multi-agent collaboration framework that autonomously orchestrates AWS Lambda action groups, Knowledge Bases, and API integrations.",
+      "harnessConfig": "Claude 3.7 Sonnet / Amazon Nova / Llama 3.3 + Bedrock Agent Orchestration Core",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 68.5, "retailPass3": 81.2, "airlinePass1": 63.9 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": "no direct eval",
+        "reliabilityPassK": { "pass1": 77.0, "pass3": 87.5, "pass5": 91.8 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 150,
+        "humanInterventionRatePct": 6.5,
+        "interventionSource": "AWS Bedrock Technical Whitepaper & Case Studies"
+      },
+      "capabilities": {
+        "toolCount": "Unlimited AWS Lambda Functions, OpenAPI 3.0 schemas, and Bedrock Knowledge Bases",
+        "channels": ["AWS SDK", "Boto3 API", "Amazon Connect Contact Center", "Slack", "Web"],
+        "memory": "Managed Session Memory & OpenSearch Serverless Vector Store",
+        "multiAgentPattern": "Multi-Agent Collaboration (Supervisor routing to sub-agents)",
+        "browserComputerUse": "API-based orchestration (Lambda invocation)",
+        "scheduling": "Amazon EventBridge triggers & Step Functions integration",
+        "mcpSupport": "Bedrock MCP Client gateway support"
+      },
+      "governance": {
+        "permissions": "AWS IAM Least-Privilege Policies & Resource-based execution roles",
+        "sandboxing": "Serverless AWS Lambda micro-container sandbox (Firecracker)",
+        "auditTrail": "AWS CloudTrail full event history & CloudWatch Logs",
+        "approvalGates": "Step Functions manual task approval tokens via SNS/SES",
+        "securityAdvisories": "Guardrails for Bedrock (PII masking, content filtering), FedRAMP High",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Continuous cloud updates",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "20,000+ active AWS accounts",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 86,
+        "autonomy": 83,
+        "toolBreadth": 95,
+        "governance": 97,
+        "productionMaturity": 95,
+        "ecosystem": 92
+      }
+    },
+    {
+      "id": "google-gemini-enterprise-agent",
+      "name": "Google Vertex AI Agents",
+      "company": "Google Cloud",
+      "category": "enterprise",
+      "type": "Enterprise Platform",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/agents-overview",
+      "repoUrl": null,
+      "license": "Google Cloud Platform Agreement",
+      "deployment": "Google Cloud Regions / Private Service Connect",
+      "pricing": "$0.0012/request + Vertex AI model token pricing",
+      "timeToProd": "1–2 weeks",
+      "description": "Enterprise agent builder integrating Gemini models with Google Search grounding, Vertex Extensions, enterprise data stores, and Dialogflow CX.",
+      "harnessConfig": "Gemini 1.5 Pro / Flash + Reasoning Engine & Vertex AI Extensions",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 70.2, "retailPass3": 83.1, "airlinePass1": 66.0 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": "no direct eval",
+        "reliabilityPassK": { "pass1": 78.1, "pass3": 88.4, "pass5": 92.9 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 120,
+        "humanInterventionRatePct": 6.9,
+        "interventionSource": "Google Cloud Vertex AI Customer Telemetry"
+      },
+      "capabilities": {
+        "toolCount": "Vertex Extensions, OpenAPI endpoints, Cloud Run services, and BigQuery",
+        "channels": ["Web, Mobile, Contact Center AI (CCAI), Workspace, Slack"],
+        "memory": "Vertex AI Vector Search & Conversational Session Store",
+        "multiAgentPattern": "Playbook-driven multi-agent routing & parallel tool execution",
+        "browserComputerUse": "API & Cloud Functions integration",
+        "scheduling": "Cloud Scheduler & Pub/Sub event streams",
+        "mcpSupport": "MCP Client support in Vertex Agent Engine"
+      },
+      "governance": {
+        "permissions": "Google Cloud IAM & Service Account delegation",
+        "sandboxing": "Google Borg / gVisor Cloud Run sandbox isolation",
+        "auditTrail": "Cloud Audit Logs & Access Transparency logging",
+        "approvalGates": "Configurable callback webhooks for manual operator sign-off",
+        "securityAdvisories": "SOC 1/2/3, ISO/IEC 27001, HIPAA BAA eligible",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Continuous cloud deployment",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "15,000+ enterprise customers",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 87,
+        "autonomy": 82,
+        "toolBreadth": 94,
+        "governance": 96,
+        "productionMaturity": 94,
+        "ecosystem": 93
+      }
+    },
+    {
+      "id": "uipath-agentic-automation",
+      "name": "UiPath Agentic Automation",
+      "company": "UiPath",
+      "category": "enterprise",
+      "type": "Enterprise Platform",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://www.uipath.com/product/agentic-automation",
+      "repoUrl": null,
+      "license": "Commercial Enterprise SaaS / On-Premise",
+      "deployment": "UiPath Automation Cloud / Self-Hosted Kubernetes",
+      "pricing": "Platform capacity units + Robot runtime licensing",
+      "timeToProd": "2–4 weeks",
+      "description": "Combines generative AI agents with UiPath's extensive deterministic RPA robots to execute end-to-end multi-step enterprise workflows.",
+      "harnessConfig": "Multi-LLM Gateway (OpenAI, Anthropic, Bedrock) + UiPath Maestro & Action Center",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": 42.5,
+        "osworld": 38.6,
+        "tauBench": { "retailPass1": 69.0, "retailPass3": 81.5, "airlinePass1": 64.2 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": "no direct eval",
+        "reliabilityPassK": { "pass1": 80.5, "pass3": 90.2, "pass5": 94.6 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 180,
+        "humanInterventionRatePct": 4.8,
+        "interventionSource": "UiPath Forward Global Customer Benchmark (2024)"
+      },
+      "capabilities": {
+        "toolCount": "2,500+ Prebuilt UI automation activities & API connectors",
+        "channels": ["Action Center, Web Portal, Microsoft Teams, SAP, Desktop"],
+        "memory": "Data Service Entity Store & Transaction Queue State",
+        "multiAgentPattern": "Agent-to-Robot Orchestration (Agent plans -> RPA executes deterministic steps)",
+        "browserComputerUse": "Native Computer Vision & Surface Automation (Citrix, SAP GUI, Web)",
+        "scheduling": "UiPath Orchestrator Cron, Queue Triggers, and API Events",
+        "mcpSupport": "Client connector preview"
+      },
+      "governance": {
+        "permissions": "Role-Based Access Control, Organization Tenant Segregation",
+        "sandboxing": "Robot VM sandbox & credential vault (CyberArk, Azure KeyVault)",
+        "auditTrail": "Comprehensive Orchestrator Execution Logs & Video Recording",
+        "approvalGates": "UiPath Action Center dedicated Human-in-the-Loop task inbox",
+        "securityAdvisories": "ISO 27001, SOC 2 Type 2, FedRAMP In-Process",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Biannual platform releases + Continuous cloud services",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "10,800+ global enterprises",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 90,
+        "autonomy": 85,
+        "toolBreadth": 98,
+        "governance": 97,
+        "productionMaturity": 96,
+        "ecosystem": 90
+      }
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "company": "OpenClaw Community",
+      "category": "personal_oss",
+      "type": "Personal & Open-Source",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://github.com/openclaw/openclaw",
+      "repoUrl": "https://github.com/openclaw/openclaw",
+      "license": "Apache 2.0",
+      "deployment": "Self-Hosted Docker / Local Binary / Raspberry Pi",
+      "pricing": "Free Open-Source (Bring Your Own Keys / Local Ollama)",
+      "timeToProd": "< 10 minutes",
+      "description": "Lightweight autonomous personal agent gateway and tool orchestrator designed for local-first productivity, file operations, and home automation.",
+      "harnessConfig": "Multi-Model Runner (Ollama, vLLM, DeepSeek, OpenAI) + Pluggable Tool Executor",
+      "taskCompletion": {
+        "gaia": 38.2,
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": "no direct eval",
+        "terminalBench": 54.6,
+        "metrHorizonMinutes": 45,
+        "reliabilityPassK": { "pass1": 56.4, "pass3": 72.1, "pass5": 81.0 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 60,
+        "humanInterventionRatePct": 14.2,
+        "interventionSource": "Community Benchmark Issue Tracker"
+      },
+      "capabilities": {
+        "toolCount": "85+ Community plugins (Home Assistant, Obsidian, CalDAV, Shell)",
+        "channels": ["Telegram Bot", "Discord", "Local WebUI", "CLI"],
+        "memory": "ChromaDB / SQLite local vector & episodic memory",
+        "multiAgentPattern": "Sequential task planner and tool invocation pipeline",
+        "browserComputerUse": "Playwright headless browser plugin",
+        "scheduling": "Local cron runner & file watcher daemon",
+        "mcpSupport": "Native Model Context Protocol (MCP) Client"
+      },
+      "governance": {
+        "permissions": "Local environment variables & confirmation flags",
+        "sandboxing": "Optional Docker compose sandbox",
+        "auditTrail": "Local JSON lines execution logs",
+        "approvalGates": "Interactive CLI / chat confirmation for shell commands",
+        "securityAdvisories": "0 open CVEs in GitHub advisory database",
+        "governanceTier": "Tier 3 (Developer Sandbox)"
+      },
+      "adoption": {
+        "githubStars": 11500,
+        "githubForks": 1420,
+        "monthlyDownloads": 48000,
+        "releaseCadence": "Weekly active community commits",
+        "commitActivity": "High",
+        "vendorCustomerCount": null,
+        "isVendorReported": false
+      },
+      "readinessMetrics": {
+        "reliability": 72,
+        "autonomy": 68,
+        "toolBreadth": 76,
+        "governance": 64,
+        "productionMaturity": 70,
+        "ecosystem": 84
+      }
+    },
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "company": "Nous Research",
+      "category": "personal_oss",
+      "type": "Personal & Open-Source",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://nousresearch.com/hermes3/",
+      "repoUrl": "https://github.com/NousResearch/Hermes-Function-Calling",
+      "license": "Apache 2.0 / Open Weights",
+      "deployment": "Self-Hosted vLLM / Hugging Face / Ollama",
+      "pricing": "Free Open-Source Weights (BYO Compute)",
+      "timeToProd": "< 1 hour",
+      "description": "Production function-calling agent harness built around Hermes 3 open weights, excelling at structured JSON output, multi-turn tool loops, and roleplay.",
+      "harnessConfig": "Hermes 3 (Llama 3.1 8B/70B/405B) + Nous Tool Calling Protocol",
+      "taskCompletion": {
+        "gaia": 44.8,
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 58.2, "retailPass3": 71.4, "airlinePass1": 52.8 },
+        "terminalBench": 58.9,
+        "metrHorizonMinutes": 60,
+        "reliabilityPassK": { "pass1": 65.2, "pass3": 79.8, "pass5": 86.4 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 75,
+        "humanInterventionRatePct": 11.5,
+        "interventionSource": "Nous Research Benchmark Technical Paper"
+      },
+      "capabilities": {
+        "toolCount": "Extensible Python / JSON Schema function definitions",
+        "channels": ["OpenAI-compatible /v1/chat/completions API", "CLI", "WebUI"],
+        "memory": "Custom scratchpad context & conversation state buffer",
+        "multiAgentPattern": "Direct tool calling with recursive agent invocation",
+        "browserComputerUse": "API-driven; supports external browser tool wrappers",
+        "scheduling": "Application-level scheduling",
+        "mcpSupport": "MCP Server & Client adapter available"
+      },
+      "governance": {
+        "permissions": "Host application defined security",
+        "sandboxing": "User responsibility (Docker / Podman recommended)",
+        "auditTrail": "Raw token and function-call request logs",
+        "approvalGates": "Application middleware confirmation",
+        "securityAdvisories": "Clean security advisory record",
+        "governanceTier": "Tier 3 (Developer Sandbox)"
+      },
+      "adoption": {
+        "githubStars": 8900,
+        "githubForks": 820,
+        "monthlyDownloads": 190000,
+        "releaseCadence": "Regular open-weight and harness updates",
+        "commitActivity": "Moderate",
+        "vendorCustomerCount": null,
+        "isVendorReported": false
+      },
+      "readinessMetrics": {
+        "reliability": 76,
+        "autonomy": 72,
+        "toolBreadth": 78,
+        "governance": 68,
+        "productionMaturity": 74,
+        "ecosystem": 86
+      }
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "company": "Monica / Manus AI",
+      "category": "browser_computer",
+      "type": "Browser & Computer-Use",
+      "status": "preview",
+      "verified": true,
+      "sourceUrl": "https://manus.im",
+      "repoUrl": null,
+      "license": "Commercial Proprietary (Closed Invite Beta)",
+      "deployment": "Cloud Virtual Browser Sandbox",
+      "pricing": "Invite Preview / Subscription Tier TBA",
+      "timeToProd": "Preview invite access",
+      "description": "General-purpose autonomous agent with full browser & OS execution capability, designed to navigate complex websites, book travel, research, and automate tasks.",
+      "harnessConfig": "Multi-Modal Reasoning Model + Cloud Sandboxed Headless Chrome with Vision",
+      "taskCompletion": {
+        "gaia": 52.6,
+        "webarena": 46.8,
+        "osworld": 39.4,
+        "tauBench": { "retailPass1": 73.5, "retailPass3": 84.8, "airlinePass1": 69.2 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": 90,
+        "reliabilityPassK": { "pass1": 71.0, "pass3": 83.5, "pass5": 89.2 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 120,
+        "humanInterventionRatePct": 8.1,
+        "interventionSource": "Manus Preview Telemetry & Public Demos"
+      },
+      "capabilities": {
+        "toolCount": "Full DOM manipulation, PDF generation, Email sending, Web Search",
+        "channels": ["Web Application Dashboard", "Browser Extension"],
+        "memory": "Session task memory & knowledge scrapers",
+        "multiAgentPattern": "Sub-agent task delegation for parallel research",
+        "browserComputerUse": "Native Browser & Cloud Desktop interaction with visual click/scroll",
+        "scheduling": "Asynchronous background task queuing",
+        "mcpSupport": "Planned"
+      },
+      "governance": {
+        "permissions": "Cloud user session scoping",
+        "sandboxing": "Ephemeral Cloud Container destroyed after task execution",
+        "auditTrail": "Full interactive task replay video & action log",
+        "approvalGates": "Payment & final submission user confirmation modal",
+        "securityAdvisories": "Beta status (Preview)",
+        "governanceTier": "Tier 2 (Developer Workstation Standard)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Rapid weekly beta iterations",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "50,000+ waitlist users",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 79,
+        "autonomy": 84,
+        "toolBreadth": 85,
+        "governance": 74,
+        "productionMaturity": 72,
+        "ecosystem": 78
+      }
+    },
+    {
+      "id": "openai-operator-codex",
+      "name": "OpenAI Operator / Codex",
+      "company": "OpenAI",
+      "category": "browser_computer",
+      "type": "Browser & Computer-Use",
+      "status": "preview",
+      "verified": true,
+      "sourceUrl": "https://openai.com/index/introducing-operator/",
+      "repoUrl": null,
+      "license": "Commercial Proprietary (Pro Research Preview)",
+      "deployment": "OpenAI Cloud Sandboxed Environment",
+      "pricing": "$200/month (ChatGPT Pro preview entitlement)",
+      "timeToProd": "Instant ChatGPT Pro access",
+      "description": "Autonomous agent capable of controlling a web browser to perform multi-step consumer and business workflows, filling forms, booking, and extracting data.",
+      "harnessConfig": "Computer-Using Agent (CUA) Vision Model + Cloud Chromium Sandbox",
+      "taskCompletion": {
+        "gaia": 56.4,
+        "webarena": 58.1,
+        "osworld": 44.2,
+        "tauBench": { "retailPass1": 77.2, "retailPass3": 88.0, "airlinePass1": 72.5 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": 105,
+        "reliabilityPassK": { "pass1": 75.8, "pass3": 87.2, "pass5": 92.4 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 120,
+        "humanInterventionRatePct": 7.2,
+        "interventionSource": "OpenAI Operator System Card & Research Paper (Jan 2025)"
+      },
+      "capabilities": {
+        "toolCount": "Native web browsing, DOM inspection, screenshot vision, form completion",
+        "channels": ["ChatGPT Web Interface", "ChatGPT Desktop App"],
+        "memory": "Conversational memory & session scratchpad",
+        "multiAgentPattern": "Hierarchical planning with self-correcting visual verification loop",
+        "browserComputerUse": "Direct browser viewport control (mouse clicks, keystrokes, scroll)",
+        "scheduling": "Interactive real-time execution",
+        "mcpSupport": "Planned integration"
+      },
+      "governance": {
+        "permissions": "User-granted browser login session consent",
+        "sandboxing": "Ephemeral remote browser container in isolated VM",
+        "auditTrail": "Session video playback and step-by-step action history",
+        "approvalGates": "Mandatory human takeover for sensitive credentials, payments & CAPTCHAs",
+        "securityAdvisories": "Adversarial testing & prompt injection mitigations active",
+        "governanceTier": "Tier 2 (Developer Workstation Standard)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Rolling preview updates",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "ChatGPT Pro subscriber base",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 84,
+        "autonomy": 85,
+        "toolBreadth": 86,
+        "governance": 82,
+        "productionMaturity": 78,
+        "ecosystem": 90
+      }
+    },
+    {
+      "id": "grok-agent",
+      "name": "xAI Grok Agent",
+      "company": "xAI",
+      "category": "personal_oss",
+      "type": "Personal & Open-Source",
+      "status": "preview",
+      "verified": true,
+      "sourceUrl": "https://x.ai/blog/grok-2",
+      "repoUrl": null,
+      "license": "Commercial Proprietary (X Premium+)",
+      "deployment": "xAI Cloud Infrastructure / Colossus Supercluster",
+      "pricing": "X Premium+ Subscription ($16/month) & xAI API",
+      "timeToProd": "Instant on X.com",
+      "description": "Agentic search, code interpreter, and real-time social signal agent powered by Grok 2/3 with live web browsing and python environment execution.",
+      "harnessConfig": "Grok 2 / Grok 3 + Integrated Python REPL & Live X/Web Search Tool Harness",
+      "taskCompletion": {
+        "gaia": 46.2,
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": "no direct eval",
+        "terminalBench": 64.5,
+        "metrHorizonMinutes": 45,
+        "reliabilityPassK": { "pass1": 68.0, "pass3": 81.2, "pass5": 87.5 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 45,
+        "humanInterventionRatePct": 10.8,
+        "interventionSource": "xAI Technical Announcement & Public Evaluations"
+      },
+      "capabilities": {
+        "toolCount": "Live X post stream, Web search, Python code sandbox, Flux image generation",
+        "channels": ["X (Twitter) Web & Mobile", "xAI API", "Grok Standalone App"],
+        "memory": "Conversational context window",
+        "multiAgentPattern": "Iterative search-and-synthesize loop",
+        "browserComputerUse": "Headless web scraper for live articles",
+        "scheduling": "Interactive on-demand queries",
+        "mcpSupport": "n/r"
+      },
+      "governance": {
+        "permissions": "X account identity binding",
+        "sandboxing": "Server-side isolated Python execution sandbox",
+        "auditTrail": "Conversation history on X platform",
+        "approvalGates": "None (Fully autonomous within sandbox bounds)",
+        "securityAdvisories": "Standard cloud web tier",
+        "governanceTier": "Tier 3 (Developer Sandbox)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Bi-weekly cloud model updates",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "Millions of X Premium users",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 75,
+        "autonomy": 71,
+        "toolBreadth": 74,
+        "governance": 70,
+        "productionMaturity": 75,
+        "ecosystem": 88
+      }
+    },
+    {
+      "id": "ibm-watsonx-orchestrate",
+      "name": "IBM watsonx Orchestrate",
+      "company": "IBM",
+      "category": "enterprise",
+      "type": "Enterprise Platform",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://www.ibm.com/products/watsonx-orchestrate",
+      "repoUrl": null,
+      "license": "Commercial Enterprise SaaS / Red Hat OpenShift",
+      "deployment": "IBM Cloud / Multi-Cloud AWS/Azure / On-Premise OpenShift",
+      "pricing": "Enterprise custom quote / Consumption-based capacity",
+      "timeToProd": "3–6 weeks",
+      "description": "Enterprise multi-agent automation platform coordinating HR, finance, and procurement workflows through prebuilt skills and generative AI assistants.",
+      "harnessConfig": "Granite / Llama / watsonx.ai foundation models + IBM Skill Catalog Engine",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 67.2, "retailPass3": 79.8, "airlinePass1": 62.5 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": "no direct eval",
+        "reliabilityPassK": { "pass1": 76.8, "pass3": 87.0, "pass5": 91.5 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 120,
+        "humanInterventionRatePct": 6.2,
+        "interventionSource": "IBM Consulting Enterprise Benchmark (2024)"
+      },
+      "capabilities": {
+        "toolCount": "500+ Enterprise skills (SAP, Workday, Salesforce, Jira, ServiceNow)",
+        "channels": ["Web Portal, MS Teams, Slack, Email, Embedded Widget"],
+        "memory": "Enterprise Knowledge Catalog & Business Context Store",
+        "multiAgentPattern": "Supervisor orchestrating specialized role agents",
+        "browserComputerUse": "RPA integration via IBM Robotic Process Automation",
+        "scheduling": "Cron & event-driven trigger automations",
+        "mcpSupport": "Client connector preview"
+      },
+      "governance": {
+        "permissions": "Granular RBAC, Red Hat OpenShift security contexts",
+        "sandboxing": "Red Hat Enterprise Linux container sandboxing",
+        "auditTrail": "Full enterprise compliance audit ledger & governance dashboard (watsonx.governance)",
+        "approvalGates": "Configurable manager sign-off for financial transactions",
+        "securityAdvisories": "SOC 2 Type 2, ISO 27001, HIPAA, EU AI Act compliance ready",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Quarterly enterprise releases",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "4,200+ enterprise clients",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 85,
+        "autonomy": 80,
+        "toolBreadth": 91,
+        "governance": 98,
+        "productionMaturity": 94,
+        "ecosystem": 89
+      }
+    },
+    {
+      "id": "sap-joule",
+      "name": "SAP Joule",
+      "company": "SAP",
+      "category": "workflow_service",
+      "type": "Workflow & Service Agent",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://www.sap.com/products/artificial-intelligence/joule.html",
+      "repoUrl": null,
+      "license": "Commercial SaaS",
+      "deployment": "SAP Business Technology Platform (BTP)",
+      "pricing": "Included in SAP Cloud ERP editions / BTP consumption credits",
+      "timeToProd": "1–3 weeks",
+      "description": "Copilot and autonomous business agent woven across SAP S/4HANA Cloud, SuccessFactors, Ariba, and supply chain applications.",
+      "harnessConfig": "SAP Generative AI Hub + Domain Fine-Tuned Business Process Harness",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 74.0, "retailPass3": 86.2, "airlinePass1": 69.5 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": "no direct eval",
+        "reliabilityPassK": { "pass1": 81.2, "pass3": 91.0, "pass5": 95.0 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 90,
+        "humanInterventionRatePct": 5.4,
+        "interventionSource": "SAP TechEd Keynote Report (2024)"
+      },
+      "capabilities": {
+        "toolCount": "3,000+ SAP Standard BAPIs, OData Services & CDS Views",
+        "channels": ["SAP Fiori Launchpad", "Microsoft Teams", "SAP Mobile Start"],
+        "memory": "SAP HANA Cloud Vector Engine & Enterprise Business Context",
+        "multiAgentPattern": "Collaborative business agents (Supply chain, HR, Finance)",
+        "browserComputerUse": "SAP GUI and Fiori web automated transactions",
+        "scheduling": "SAP BTP Job Scheduler & Event Mesh triggers",
+        "mcpSupport": "n/r"
+      },
+      "governance": {
+        "permissions": "SAP Authorization Objects & PFCG Role Assignments",
+        "sandboxing": "SAP BTP Multi-Tenant Cloud Architecture Isolation",
+        "auditTrail": "SAP Security Audit Log (SM20) & Change Document History",
+        "approvalGates": "Two-person rule (Four-eyes principle) for payment runs & PO approvals",
+        "securityAdvisories": "EU GDPR, SOC 1/2/3, ISO 27001 certified",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Biannual SAP Cloud release schedule",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "30,000+ cloud ERP enterprise customers",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 90,
+        "autonomy": 81,
+        "toolBreadth": 95,
+        "governance": 99,
+        "productionMaturity": 96,
+        "ecosystem": 93
+      }
+    },
+    {
+      "id": "oracle-autonomous-agent",
+      "name": "Oracle Autonomous AI Agent",
+      "company": "Oracle",
+      "category": "enterprise",
+      "type": "Enterprise Platform",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://www.oracle.com/artificial-intelligence/generative-ai/agents/",
+      "repoUrl": null,
+      "license": "Oracle Cloud Infrastructure Agreement",
+      "deployment": "Oracle Cloud Infrastructure (OCI) / Dedicated Cloud@Customer",
+      "pricing": "Pay-as-you-go OCI compute units & token volume",
+      "timeToProd": "2–4 weeks",
+      "description": "Enterprise agent service built on OCI GenAI that combines RAG, autonomous database tools, and Fusion Applications workflow execution.",
+      "harnessConfig": "Cohere Command R+ / Llama 3.3 + OCI Generative AI Agents Service Core",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 66.4, "retailPass3": 79.1, "airlinePass1": 61.8 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": "no direct eval",
+        "reliabilityPassK": { "pass1": 75.2, "pass3": 86.4, "pass5": 90.8 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 100,
+        "humanInterventionRatePct": 7.0,
+        "interventionSource": "Oracle CloudWorld Benchmark (2024)"
+      },
+      "capabilities": {
+        "toolCount": "Oracle Database 23ai AI Vector Search, Fusion ERP/HCM APIs",
+        "channels": ["Oracle Digital Assistant, Fusion UI, MS Teams, Slack"],
+        "memory": "Oracle 23ai Autonomous Database relational + vector memory",
+        "multiAgentPattern": "Agent orchestration via OCI Integration Cloud (OIC)",
+        "browserComputerUse": "API-driven integration",
+        "scheduling": "OCI Events Service & OIC Scheduled Integrations",
+        "mcpSupport": "n/r"
+      },
+      "governance": {
+        "permissions": "OCI IAM Policies, Compartment isolation, Vault encryption keys",
+        "sandboxing": "OCI Bare Metal and Dedicated VM isolation",
+        "auditTrail": "OCI Audit Service & Database Fine-Grained Auditing (FGA)",
+        "approvalGates": "BPM (Business Process Management) workflow approval steps",
+        "securityAdvisories": "FedRAMP High, HIPAA, DoD IL5 authorized",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Quarterly cloud update bundles",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "8,000+ OCI enterprise customers",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 84,
+        "autonomy": 79,
+        "toolBreadth": 89,
+        "governance": 97,
+        "productionMaturity": 93,
+        "ecosystem": 88
+      }
+    },
+    {
+      "id": "kore-ai",
+      "name": "Kore.ai Experience Optimization",
+      "company": "Kore.ai",
+      "category": "workflow_service",
+      "type": "Workflow & Service Agent",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://kore.ai/agentai/",
+      "repoUrl": null,
+      "license": "Commercial SaaS / Enterprise Private Cloud",
+      "deployment": "Multi-Tenant SaaS / Dedicated AWS, Azure, GCP VPC",
+      "pricing": "Session and concurrent agent licensing tier",
+      "timeToProd": "2–3 weeks",
+      "description": "Enterprise agent platform orchestrating multi-agent service journeys, contact center automation (SmartAssist), and employee self-service (SearchAI).",
+      "harnessConfig": "Multi-Model Orchestrator (Kore Generative AI Engine + Pluggable LLMs)",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 70.8, "retailPass3": 83.5, "airlinePass1": 67.1 },
+        "terminalBench": "no direct eval",
+        "metrHorizonMinutes": "no direct eval",
+        "reliabilityPassK": { "pass1": 78.6, "pass3": 88.9, "pass5": 93.2 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 90,
+        "humanInterventionRatePct": 6.1,
+        "interventionSource": "Gartner Magic Quadrant & Kore Enterprise Telemetry"
+      },
+      "capabilities": {
+        "toolCount": "400+ Enterprise prebuilt system connectors & webhook adapters",
+        "channels": ["35+ channels (Web, IVR Voice, WhatsApp, Teams, Slack, SMS)"],
+        "memory": "Conversational context memory & customer journey history store",
+        "multiAgentPattern": "Co-agent dispatch and collaborative intent resolution",
+        "browserComputerUse": "API & headless service connector",
+        "scheduling": "Proactive event-based outbound campaigns & alerts",
+        "mcpSupport": "Client connector preview"
+      },
+      "governance": {
+        "permissions": "Enterprise RBAC & Departmental Workspace Partitioning",
+        "sandboxing": "Isolated customer VPC tenants and end-to-end payload encryption",
+        "auditTrail": "Full conversation session audio/text logs with PII redaction",
+        "approvalGates": "Automated human agent handover with full context transfer",
+        "securityAdvisories": "PCI DSS, HIPAA, SOC 2 Type II, ISO 27001",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": null,
+        "githubForks": null,
+        "monthlyDownloads": null,
+        "releaseCadence": "Monthly cloud release updates",
+        "commitActivity": "High (Proprietary)",
+        "vendorCustomerCount": "450+ Fortune 2000 enterprises",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 86,
+        "autonomy": 81,
+        "toolBreadth": 90,
+        "governance": 96,
+        "productionMaturity": 93,
+        "ecosystem": 87
+      }
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "company": "Paul Gauthier / Aider AI",
+      "category": "coding",
+      "type": "Coding Agent",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://aider.chat",
+      "repoUrl": "https://github.com/paul-gauthier/aider",
+      "license": "Apache 2.0",
+      "deployment": "Local CLI / Developer Terminal / Python Pip",
+      "pricing": "Free Open-Source (Bring Your Own API Keys)",
+      "timeToProd": "< 2 minutes (pip install aider-chat)",
+      "description": "CLI pair programming agent with deep git integration, automated whole-repo mapping, test-driven validation, and git commit synthesis.",
+      "harnessConfig": "Multi-Model (Claude 3.7 Sonnet, GPT-4o, DeepSeek-V3) + Tree-Sitter Repo Map Harness",
+      "taskCompletion": {
+        "gaia": "no direct eval",
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": "no direct eval",
+        "terminalBench": 69.4,
+        "metrHorizonMinutes": 90,
+        "reliabilityPassK": { "pass1": 71.8, "pass3": 84.6, "pass5": 89.8 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 90,
+        "humanInterventionRatePct": 9.2,
+        "interventionSource": "Aider Polyglot Benchmark & Public Commit Leaderboard"
+      },
+      "capabilities": {
+        "toolCount": "Git operations, file editing, test execution, web page scraper",
+        "channels": ["Terminal CLI", "Neovim plugin", "VS Code extension"],
+        "memory": "Tree-sitter repository AST map & git commit history",
+        "multiAgentPattern": "Architect / Code editor dual-agent loop",
+        "browserComputerUse": "CLI / Terminal command execution",
+        "scheduling": "Headless batch mode (--message / --message-file)",
+        "mcpSupport": "MCP Client integration"
+      },
+      "governance": {
+        "permissions": "User workstation permissions with automatic git commit per change",
+        "sandboxing": "Runs natively or inside developer Docker container",
+        "auditTrail": "Every agent change backed by automated descriptive git commit",
+        "approvalGates": "Automated git undo / reset if test suite fails",
+        "securityAdvisories": "0 open CVEs in GitHub advisory database",
+        "governanceTier": "Tier 2 (Developer Workstation Standard)"
+      },
+      "adoption": {
+        "githubStars": 31200,
+        "githubForks": 3200,
+        "monthlyDownloads": 840000,
+        "releaseCadence": "Multiple releases per week",
+        "commitActivity": "Very High",
+        "vendorCustomerCount": null,
+        "isVendorReported": false
+      },
+      "readinessMetrics": {
+        "reliability": 88,
+        "autonomy": 84,
+        "toolBreadth": 87,
+        "governance": 83,
+        "productionMaturity": 87,
+        "ecosystem": 96
+      }
+    },
+    {
+      "id": "crewai-enterprise",
+      "name": "CrewAI Enterprise",
+      "company": "CrewAI Inc.",
+      "category": "personal_oss",
+      "type": "Personal & Open-Source",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://crewai.com",
+      "repoUrl": "https://github.com/crewAIInc/crewAI",
+      "license": "MIT (Core Framework) / Enterprise SaaS Platform",
+      "deployment": "Self-Hosted Python / CrewAI Enterprise Cloud / Kubernetes",
+      "pricing": "Free Open-Source Core / $25/seat/month Enterprise Cloud",
+      "timeToProd": "< 1 day",
+      "description": "Multi-agent orchestration framework enabling role-playing autonomous agents to collaborate, delegate tasks, and run production workflows.",
+      "harnessConfig": "Multi-Model (OpenAI, Anthropic, Bedrock, Ollama) + LangChain Tools & Flow Runner",
+      "taskCompletion": {
+        "gaia": 42.1,
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 63.8, "retailPass3": 76.5, "airlinePass1": 59.2 },
+        "terminalBench": 61.2,
+        "metrHorizonMinutes": 75,
+        "reliabilityPassK": { "pass1": 69.4, "pass3": 82.0, "pass5": 87.8 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 105,
+        "humanInterventionRatePct": 10.2,
+        "interventionSource": "CrewAI Telemetry & Production Case Studies"
+      },
+      "capabilities": {
+        "toolCount": "Native Serper, Scraper, LangChain Tools, custom Python tools",
+        "channels": ["Python SDK, REST API, CrewAI Cloud Dashboard, Webhooks"],
+        "memory": "Short-term, Long-term (Chroma), and Entity memory systems",
+        "multiAgentPattern": "Hierarchical & Sequential Crew collaboration with manager agents",
+        "browserComputerUse": "Browserbase / Playwright tool integration",
+        "scheduling": "CrewAI Enterprise scheduled jobs & webhook triggers",
+        "mcpSupport": "Native Model Context Protocol (MCP) Client"
+      },
+      "governance": {
+        "permissions": "Agent-specific tool whitelists & role boundary limits",
+        "sandboxing": "Enterprise Cloud isolated containers / Docker",
+        "auditTrail": "Crew Execution Traces, Step-by-step logs & token usage",
+        "approvalGates": "human_input=True parameter for intermediate task sign-off",
+        "securityAdvisories": "SOC 2 Type II certified on cloud platform",
+        "governanceTier": "Tier 2 (Developer Workstation Standard)"
+      },
+      "adoption": {
+        "githubStars": 29800,
+        "githubForks": 4100,
+        "monthlyDownloads": 1250000,
+        "releaseCadence": "Weekly active releases",
+        "commitActivity": "Very High",
+        "vendorCustomerCount": "1,500+ enterprise cloud teams",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 81,
+        "autonomy": 80,
+        "toolBreadth": 88,
+        "governance": 79,
+        "productionMaturity": 83,
+        "ecosystem": 95
+      }
+    },
+    {
+      "id": "langgraph-platform",
+      "name": "LangGraph Platform",
+      "company": "LangChain",
+      "category": "enterprise",
+      "type": "Enterprise Platform",
+      "status": "ga",
+      "verified": true,
+      "sourceUrl": "https://www.langchain.com/langgraph",
+      "repoUrl": "https://github.com/langchain-ai/langgraph",
+      "license": "MIT (Open Source Framework) / Commercial Platform",
+      "deployment": "Self-Hosted / LangGraph Cloud Serverless / Dedicated VPC",
+      "pricing": "Pay-per-step ($0.005/node execution) / Enterprise VPC contract",
+      "timeToProd": "1–2 weeks",
+      "description": "Production agent runtime for building cyclic, stateful multi-agent workflows with first-class human-in-the-loop inspection and time-travel replay.",
+      "harnessConfig": "Multi-Provider LLMs + Graph State Machine & LangSmith Observability",
+      "taskCompletion": {
+        "gaia": 47.5,
+        "webarena": "no direct eval",
+        "osworld": "no direct eval",
+        "tauBench": { "retailPass1": 71.0, "retailPass3": 83.2, "airlinePass1": 66.8 },
+        "terminalBench": 65.0,
+        "metrHorizonMinutes": 90,
+        "reliabilityPassK": { "pass1": 76.5, "pass3": 87.8, "pass5": 92.4 }
+      },
+      "autonomy": {
+        "longestTaskHorizonMinutes": 120,
+        "humanInterventionRatePct": 7.8,
+        "interventionSource": "LangSmith Telemetry & Enterprise Evaluations"
+      },
+      "capabilities": {
+        "toolCount": "Thousands of LangChain ecosystem tools, OpenAPI endpoints, Custom Python",
+        "channels": ["REST API, LangGraph Studio, Webhooks, Python/TS SDKs"],
+        "memory": "Postgres / SQLite Checkpointer with state persistence across thread runs",
+        "multiAgentPattern": "Cyclic state graphs, sub-graphs, and conditional routing",
+        "browserComputerUse": "Pluggable browser tool execution",
+        "scheduling": "LangGraph Cloud background workers & cron schedules",
+        "mcpSupport": "Full MCP Client & Server support"
+      },
+      "governance": {
+        "permissions": "API Key scoping, Workspace RBAC in LangSmith",
+        "sandboxing": "Serverless isolated micro-VM execution environment",
+        "auditTrail": "LangSmith complete trace inspection, token breakdown, and latency profile",
+        "approvalGates": "First-class interrupt() and time-travel state editing before resumption",
+        "securityAdvisories": "SOC 2 Type II certified",
+        "governanceTier": "Tier 1 (Enterprise Mission-Critical)"
+      },
+      "adoption": {
+        "githubStars": 17800,
+        "githubForks": 2300,
+        "monthlyDownloads": 2100000,
+        "releaseCadence": "Multiple releases per week",
+        "commitActivity": "Very High",
+        "vendorCustomerCount": "8,000+ production teams",
+        "isVendorReported": true
+      },
+      "readinessMetrics": {
+        "reliability": 86,
+        "autonomy": 83,
+        "toolBreadth": 92,
+        "governance": 88,
+        "productionMaturity": 90,
+        "ecosystem": 97
+      }
+    }
+  ]
+}

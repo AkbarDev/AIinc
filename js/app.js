@@ -155,6 +155,7 @@ const HEADER_CATEGORIES = [
     { key: 'all', label: '🌐 LLM INTELBOARD' },
     { key: 'hfboard', label: '🤗 HFBOARD' },
     { key: 'agentevals', label: '🤖 AGENTEVALS' },
+    { key: 'agenticbots', label: '🦾 AGENTIC AIBOTS' },
     { key: 'newsmedia', label: '📰 AI NEWSMEDIA' },
 ];
 
@@ -173,6 +174,7 @@ const CATEGORY_COPY = {
     all: { eyebrow: 'Frontier AI Intelligence', heading: 'LLM Intelboard & Frontier Model Ladder' },
     hfboard: { eyebrow: 'Hugging Face Hub Live Telemetry', heading: 'HFBoard: Open-Weight Models & Licenses' },
     agentevals: { eyebrow: 'AI Agent Usage & Evaluation Benchmarks', heading: 'AgentEvals: Coding Agents, Personal Agents & Evals' },
+    agenticbots: { eyebrow: 'Production Autonomous Systems & Harnesses', heading: 'Agentic AIBots: Production Systems, Autonomous Harnesses & Workflows' },
     newsmedia: { eyebrow: 'AI Newsmedia Multi-Channel Feed', heading: 'AI Newsmedia: Multi-Industry Intelligence & Trends' },
     commerce: { eyebrow: 'Commerce Focus', heading: 'Retail, payments, and ecommerce intelligence' },
     tech: { eyebrow: 'Tech Focus', heading: 'Platform, infrastructure, and product shifts' },
@@ -1230,6 +1232,30 @@ function renderNewsBoard() {
         renderSidebarTrending([]);
         return;
     }
+
+    // 1d. If on Agentic AIBots ('agenticbots'), display the Production Agentic Workflow Systems & Automation Explorer!
+    if (state.activeCategory === 'agenticbots') {
+        grid.classList.remove('is-compact', 'is-brief-mode');
+        grid.classList.add('has-leaderboard-home');
+        grid.innerHTML = '<div id="agentic-bots-container"></div>';
+
+        const mountAB = (ABClass) => {
+            window.agenticBotsInstance = new ABClass('agentic-bots-container');
+        };
+
+        if (window.AgenticBots) {
+            mountAB(window.AgenticBots);
+        } else {
+            import('./agentic-bots.js?v=20261023_agenticbots').then((mod) => {
+                const Cls = mod?.AgenticBots || window.AgenticBots;
+                if (Cls) mountAB(Cls);
+            }).catch(err => {
+                console.error('Failed to load AgenticBots:', err);
+            });
+        }
+        renderSidebarTrending([]);
+        return;
+    }
     grid.classList.remove('has-leaderboard-home');
 
     // 2. If on a category tab, render the respective news cards for that category!
@@ -1723,6 +1749,7 @@ function setActiveCategory(nextCategory) {
     renderNewsArticleSchema();
     syncActiveCategoryTheme();
 }
+window.setActiveCategory = setActiveCategory;
 
 function setupReaderInteractions() {
     const densityBtn = document.getElementById('density-toggle');

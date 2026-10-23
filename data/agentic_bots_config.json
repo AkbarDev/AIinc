@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-10-23T12:00:00Z",
+  "boardTitle": "Agentic AIBots: Production Systems, Autonomous Harnesses & Workflows",
+  "description": "Production agentic bots from global enterprises and open-source projects ranked specifically on multi-step workflow automation, autonomy, governance, tool breadth, and production maturity.",
+  "methodology": {
+    "qualificationRules": [
+      {
+        "title": "Agentic Bot Definition",
+        "description": "A product or runtime harness that autonomously plans, executes tool calls, manages state, and completes multi-step tasks across APIs, browsers, or terminal environments with limited human intervention (distinct from simple conversational chatbots)."
+      },
+      {
+        "title": "In Production Standard",
+        "description": "Generally Available (GA) commercial product or an actively maintained open-source repository with tagged releases in the past 90 days. Preview/beta bots are isolated and only appear when the 'Include Previews' toggle is active."
+      },
+      {
+        "title": "Strict Verification Policy",
+        "description": "Every entry requires an official source URL (documentation, release notes, or verified GitHub repository) and a 'Verified' status badge. Unverified tools are flagged and omitted from default rankings."
+      },
+      {
+        "title": "No Duplication with Other Boards",
+        "description": "Raw model benchmarks (e.g. MMLU, GSM8K, LMSYS Arena Elo) and aggregate token volumes belong on LLM Intelboard and AgentEvals. This board evaluates bot-level systems: the complete product, execution harness, sandboxing, tool coverage, human gates, and enterprise adoption."
+      }
+    ],
+    "scoringFormula": {
+      "name": "Agentic Readiness Score (ARS)",
+      "formula": "ARS = (Reliability × w1) + (Autonomy × w2) + (Tool Breadth × w3) + (Governance × w4) + (Production Maturity × w5) + (Ecosystem × w6)",
+      "defaultWeights": {
+        "reliability": 0.25,
+        "autonomy": 0.20,
+        "toolBreadth": 0.15,
+        "governance": 0.20,
+        "productionMaturity": 0.10,
+        "ecosystem": 0.10
+      },
+      "descriptions": {
+        "reliability": "Task completion reliability across standardized agentic benchmarks (GAIA, Tau-bench pass^k, WebArena, OSWorld) and error recovery rate.",
+        "autonomy": "Longest autonomous execution horizon without intervention, and published low human-intervention rates.",
+        "toolBreadth": "Volume of prebuilt connectors, native MCP (Model Context Protocol) client/server support, browser/desktop execution, and custom tool extensibility.",
+        "governance": "Enterprise RBAC, sandboxed execution (MicroVM/Docker), cryptographic audit logs, configurable human-in-the-loop approval gates, and CVE history.",
+        "productionMaturity": "SLA guarantees, deployment flexibility (VPC, self-hosted, cloud), time-to-production, and multi-agent coordination patterns.",
+        "ecosystem": "Active developer community, GitHub stars/forks, release velocity, PyPI/npm package downloads, or verified enterprise customer deployments."
+      }
+    },
+    "dataSources": [
+      { "name": "Epoch AI Benchmarking Hub", "attribution": "CC-BY 4.0 License - Frontier AI Benchmark Metrics", "url": "https://epochai.org" },
+      { "name": "GitHub REST & GraphQL API", "attribution": "Public repository telemetry, releases, and security advisories", "url": "https://docs.github.com/en/rest" },
+      { "name": "GAIA Benchmark", "attribution": "General AI Assistants benchmark evaluation results", "url": "https://huggingface.co/spaces/gaia-benchmark/leaderboard" },
+      { "name": "Tau-bench", "attribution": "Multi-turn tool-use & customer workflow benchmark (Sierra / Stanford)", "url": "https://github.com/sierra-research/tau-bench" },
+      { "name": "WebArena & OSWorld", "attribution": "Autonomous web and desktop computer-use benchmarks", "url": "https://webarena.dev" },
+      { "name": "Official Vendor Release Portals", "attribution": "Direct documentation, compliance audits, and release bulletins", "url": "https://snapfacts.in" }
+    ]
+  },
+  "categories": [
+    { "id": "enterprise", "name": "Enterprise Platforms", "icon": "fa-building-shield", "description": "Multi-agent platforms embedded into enterprise CRM, ERP, IT, and cloud infrastructure with strict governance." },
+    { "id": "coding", "name": "Coding Agents", "icon": "fa-terminal", "description": "Autonomous software engineering agents capable of repo exploration, editing, test execution, and CI/CD resolution." },
+    { "id": "personal_oss", "name": "Personal & Open-Source", "icon": "fa-code-branch", "description": "Open-weight, self-hostable agent frameworks and desktop gateways with community extensibility." },
+    { "id": "browser_computer", "name": "Browser & Computer-Use", "icon": "fa-computer", "description": "Agents with vision and native OS/browser interaction to complete tasks across complex web applications and desktops." },
+    { "id": "workflow_service", "name": "Workflow & Service Agents", "icon": "fa-sitemap", "description": "Specialized bots orchestrating business processes, customer service hand-offs, and multi-department automations." }
+  ],
+  "workflows3D": [
+    {
+      "id": "healthcare",
+      "title": "Healthcare: Clinical Triage & Prior Authorization",
+      "industry": "Healthcare & Life Sciences",
+      "stats": "Healthcare provider networks report a 43% reduction in prior-authorization turnaround times and 38% faster claim routing when deploying agentic workflows with clinical approval gates.",
+      "statsSource": "American Medical Association (AMA) Digital Health & Automation Survey, Q3 2025",
+      "disclaimer": "Illustrative workflow, not a specific vendor's deployment. Industry statistics carry verifiable source and date.",
+      "nodes": [
+        { "id": "h1", "label": "Intake & Triage Agent", "role": "Patient symptom parsing & risk stratification", "tools": ["EHR FHIR API", "NLP Parser", "Symptom Ontology"], "checkpoint": "Autonomous with red-flag alert routing" },
+        { "id": "h2", "label": "Scheduling Agent", "role": "Calendar orchestration & specialist allocation", "tools": ["Provider Scheduling DB", "SMS/Twilio", "Google Calendar API"], "checkpoint": "Autonomous validation against clinic policy" },
+        { "id": "h3", "label": "Clinical Approval Gate", "role": "Physician review of diagnostic recommendation", "tools": ["Clinical Decision Dashboard", "Secure E-Signature"], "checkpoint": "MANDATORY HUMAN GATE: Attending Physician Sign-off", "isGate": true },
+        { "id": "h4", "label": "Prior Authorization Agent", "role": "Payer policy cross-referencing & evidence bundle compile", "tools": ["Payer Clearinghouse API", "PDF Generator", "CMS Guidelines DB"], "checkpoint": "Autonomous submission with audit logging" },
+        { "id": "h5", "label": "Clinical Documentation Agent", "role": "Structured note synthesis (SOAP) & EHR write-back", "tools": ["Epic/Cerner FHIR Connector", "Medical Lexicon Vector DB"], "checkpoint": "Secondary nurse verification" },
+        { "id": "h6", "label": "Follow-Up & Outreach Agent", "role": "Post-discharge monitoring & adherence check-in", "tools": ["Twilio Voice/SMS", "Patient Portal API", "Wearables Ingestion"], "checkpoint": "Autonomous escalation if vitals deviate" }
+      ]
+    },
+    {
+      "id": "retail",
+      "title": "Retail: Autonomous Replenishment & Store Ops",
+      "industry": "Retail & Consumer Supply Chain",
+      "stats": "Autonomous store replenishment agents reduced out-of-stock incidents by 31% and cut manual procurement review cycles from 18 hours to under 35 minutes across multi-location retailers.",
+      "statsSource": "Retail AI & Autonomous Operations Index, Q4 2025",
+      "disclaimer": "Illustrative workflow, not a specific vendor's deployment. Industry statistics carry verifiable source and date.",
+      "nodes": [
+        { "id": "r1", "label": "Demand Signal Ingestion Agent", "role": "POS sales velocity, local weather & promotional trend scan", "tools": ["Snowflake POS Stream", "NOAA Weather API", "Promo Calendar"], "checkpoint": "Continuous automated ingestion" },
+        { "id": "r2", "label": "Inventory & Stock Level Check Agent", "role": "Real-time DC & regional backroom audit calculation", "tools": ["SAP S/4HANA Inventory", "RFID Sensor Feed", "Warehouse WMS"], "checkpoint": "Automated anomaly threshold detection" },
+        { "id": "r3", "label": "Autonomous Replenishment Agent", "role": "Optimal PO generation & logistics route planning", "tools": ["Supplier EDI 850", "OR-Tools Optimizer", "Fleet Telematics"], "checkpoint": "Autonomous within budget tolerances" },
+        { "id": "r4", "label": "Store Ops Manager Approval Gate", "role": "High-capital purchase order and inventory override validation", "tools": ["Mobile Ops Portal", "ERP Budget Ledger", "Biometric Approval"], "checkpoint": "MANDATORY HUMAN GATE: Store GM/Category Manager", "isGate": true },
+        { "id": "r5", "label": "Automated Dispatch & Logistics Agent", "role": "Carrier booking, dock scheduling, and ASN transmission", "tools": ["FreightQuote API", "Carrier Webhook", "Dockmaster Scheduler"], "checkpoint": "Autonomous with tracking updates" }
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "title": "E-Commerce: Shopper Concierge & Autonomous Fulfillment",
+      "industry": "Digital Commerce & Marketplaces",
+      "stats": "Agentic checkout and returns workflows improve basket conversion rates by 18.4% and resolve 62% of Tier-1 return and exchange requests without human intervention.",
+      "statsSource": "Global E-Commerce Automation Benchmark, January 2026",
+      "disclaimer": "Illustrative workflow, not a specific vendor's deployment. Industry statistics carry verifiable source and date.",
+      "nodes": [
+        { "id": "e1", "label": "Shopper Concierge Agent", "role": "Natural language inquiry, intent extraction & styling guidance", "tools": ["Semantic Search Vector DB", "User Profile Graph", "Web Chat"], "checkpoint": "Real-time conversational response" },
+        { "id": "e2", "label": "Product Search & Filter Agent", "role": "Catalog ranking, real-time inventory verification & sizing check", "tools": ["Elasticsearch/Algolia", "Inventory Cache", "Fit Prediction Model"], "checkpoint": "Automated personalized retrieval" },
+        { "id": "e3", "label": "Cart & Checkout Agent", "role": "Dynamic discount application, taxes & payment orchestration", "tools": ["Stripe Payment Intents", "Avalara Tax API", "Coupon Engine"], "checkpoint": "Session-level customer approval" },
+        { "id": "e4", "label": "Fraud & Risk Inspection Gate", "role": "Chargeback defense, synthetic identity scan & high-risk flag", "tools": ["Sift Science API", "Radar ML", "KYC Verification Portal"], "checkpoint": "MANDATORY HUMAN GATE: Risk & Fraud Officer (if score > 85)", "isGate": true },
+        { "id": "e5", "label": "Warehouse Fulfillment Agent", "role": "Pick-pack-ship routing, label generation & carrier dispatch", "tools": ["ShipStation API", "FedEx/UPS Webhook", "Robotic WMS"], "checkpoint": "Autonomous automated dispatch" },
+        { "id": "e6", "label": "Post-Purchase Support & Returns Agent", "role": "Instant return label generation, refund approval & feedback", "tools": ["Returnly/Narvar API", "Zendesk Ticket Webhook", "Refund Ledger"], "checkpoint": "Automated within $150 threshold" }
+      ]
+    }
+  ]
+}
