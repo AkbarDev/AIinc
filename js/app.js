@@ -1174,18 +1174,13 @@ function renderNewsBoard() {
         grid.innerHTML = '<div id="hf-board-container"></div>';
 
         const mountHF = (HFClass) => {
-            if (!window.hfBoardInstance) {
-                window.hfBoardInstance = new HFClass('hf-board-container');
-            } else {
-                window.hfBoardInstance.container = document.getElementById('hf-board-container');
-                window.hfBoardInstance.render();
-            }
+            window.hfBoardInstance = new HFClass('hf-board-container');
         };
 
         if (window.HFBoard) {
             mountHF(window.HFBoard);
         } else {
-            import('./hf-board.js').then((mod) => {
+            import('./hf-board.js?v=20261023_v3').then((mod) => {
                 const Cls = mod?.HFBoard || window.HFBoard;
                 if (Cls) mountHF(Cls);
             }).catch(err => {

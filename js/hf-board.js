@@ -43,10 +43,18 @@ class HFBoard {
 
   async init() {
     this.readUrlState();
-    await this.loadConfig();
-    await this.loadInitialData();
+    this.state.config = this.getDefaultConfig();
+    
+    // 1. Immediately load snapshot cache so all models & specs appear with zero latency
+    await this.loadFallbackCache();
     this.render();
     this.bindGlobalEvents();
+
+    // 2. Background fetch remote config and live Hugging Face Hub telemetry
+    this.loadConfig().catch(() => {});
+    this.loadInitialData().then(() => this.render()).catch((err) => {
+      console.warn('Background live telemetry fetch complete or defaulted:', err);
+    });
   }
 
   readUrlState() {
@@ -130,14 +138,14 @@ class HFBoard {
   }
 
   async fetchLiveOrCachedCategory(subId, forceRefresh = false) {
-    const cacheKey = `hf_cache_${subId}_${this.state.sortField}`;
+    const cacheKey = `hf_cache_v3_${subId}_${this.state.sortField}`;
     const cached = sessionStorage.getItem(cacheKey);
 
     if (cached && !forceRefresh) {
       try {
         const parsed = JSON.parse(cached);
         if (Date.now() - parsed.timestamp < 900000) { // 15 mins TTL
-          this.state.models = parsed.data;
+          this.state.models = (parsed.data || []).map(m => this.normalizeModelData(m, subId));
           this.state.status = 'cached';
           this.state.lastRefreshed = new Date(parsed.timestamp).toLocaleTimeString();
           return;
@@ -492,6 +500,7 @@ class HFBoard {
   }
 
   render() {
+    this.container = document.getElementById(this.containerId) || this.container;
     if (!this.container) return;
 
     this.container.innerHTML = `
@@ -499,14 +508,12 @@ class HFBoard {
         ${this.renderHeader()}
         ${this.renderSubheaderFilters()}
         ${this.renderDefinitionNote()}
-        ${this.renderToolbar()}
-        ${this.renderFilterPanel()}
-        ${this.renderTrendingRails()}
 
         <main id="hf-main-content">
           ${this.state.mainTab === 'models' ? this.renderModelsTab() : this.renderLicensesTab()}
         </main>
 
+        ${this.renderTrendingRails()}
         ${this.renderCompareTray()}
         ${this.renderCompareModal()}
         ${this.renderModelSpecModal()}
@@ -732,6 +739,10 @@ class HFBoard {
     return `
       <!-- Model Technical Specifications & Architecture Explorer -->
       ${this.renderModelSpecsExplorer(models)}
+
+      <!-- Toolbar & Secondary Catalog Controls -->
+      ${this.renderToolbar()}
+      ${this.renderFilterPanel()}
 
       <!-- Charts Grid -->
       <section class="hf-charts-grid" aria-label="Interactive Model Charts">
