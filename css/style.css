@@ -5263,6 +5263,18 @@ body.light-theme .search-bar-wrapper input::placeholder {
     color: #070a10;
 }
 
+/* ==========================================================================
+   Scoring Inputs & Methodology Visibility: ONLY under AI Newsmedia Board
+   ========================================================================== */
+body:not([data-active-category="newsmedia"]) #methodology {
+    display: none !important;
+}
+
+body[data-active-category="newsmedia"] #methodology {
+    display: block !important;
+}
+
+
 
 
 

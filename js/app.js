@@ -488,7 +488,9 @@ function renderAll() {
     renderNewsArticleSchema();
     renderMetaStrip();
     syncActiveCategoryTheme();
-    renderTrendChart();
+    if (state.activeCategory === 'newsmedia') {
+        renderTrendChart();
+    }
 }
 
 function renderHeroCarousel() {
@@ -2127,6 +2129,15 @@ function buildWhyItMatters(item) {
 function syncActiveCategoryTheme() {
     document.body.dataset.activeCategory = state.activeCategory || 'all';
     document.body.classList.toggle('is-category-view', state.activeCategory !== 'all');
+
+    const methodSec = document.getElementById('methodology');
+    if (methodSec) {
+        const isNewsmedia = state.activeCategory === 'newsmedia';
+        methodSec.style.display = isNewsmedia ? 'block' : 'none';
+        if (isNewsmedia) {
+            renderTrendChart();
+        }
+    }
 }
 
 function renderMetaStrip() {
