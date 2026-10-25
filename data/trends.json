@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-25T10:25:34.415447+00:00",
-  "sources_scanned": 3736,
-  "feeds_polled": 80,
+  "generated_at": "2026-10-25T14:42:24.974194+00:00",
+  "sources_scanned": 3761,
+  "feeds_polled": 81,
   "feed_pool": 100,
   "continent_counts": {
-    "NA": 2491,
+    "NA": 2516,
     "SA": 0,
     "EU": 1184,
     "AF": 0,
@@ -13,10 +13,10 @@
     "global": 0
   },
   "top_continent": "NA",
-  "clusters": 148,
+  "clusters": 150,
   "llm_radar": {
     "lead_theme": "How Dropbox plans to prevent AI brain rot in its workers",
-    "executive_summary": "Synthesized signal intelligence across 80 open publisher feeds. Detected high momentum in advertising, ai, brands.",
+    "executive_summary": "Synthesized signal intelligence across 81 open publisher feeds. Detected high momentum in advertising, ai, brands.",
     "macro_signals": [
       {
         "category": "BRANDS",
@@ -45,14 +45,13 @@
     ],
     "category_velocity": {
       "brands": 99,
-      "ai": 69,
+      "technology": 99,
       "media": 99,
       "startup": 99,
-      "technology": 99,
-      "advertising": 34,
-      "digital-media": 25
+      "ai": 61,
+      "advertising": 25
     },
-    "active_stories_count": 148
+    "active_stories_count": 150
   },
   "trends": [
     {
@@ -63,7 +62,7 @@
       "link": "https://www.fastcompany.com/91626870/how-dropbox-wants-to-keep-ai-from-making-its-workers-less-intelligent",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.287079+00:00",
+      "published_at": "2026-10-25T14:42:18.870132+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -92,7 +91,7 @@
       "link": "https://www.fastcompany.com/91628008/iconic-horror-villains-ghostface-samara-and-candyman-offer-valuable-financial-lessons",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.289227+00:00",
+      "published_at": "2026-10-25T14:42:18.872241+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -121,7 +120,7 @@
       "link": "https://www.fastcompany.com/91621581/turn-off-google-ai-overviews",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.290687+00:00",
+      "published_at": "2026-10-25T14:42:18.873696+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -143,27 +142,87 @@
       "image_failure_reason": ""
     },
     {
-      "id": "barclays is the latest company to trim its workforce for ai efficiency",
-      "title": "Barclays is the latest company to trim its workforce for AI efficiency",
-      "summary": "The cost of building out the infrastructure needed to satisfy booming demand for artificial intelligence is changing the way major companies allocate resources.",
-      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91629360-barclays-ai-layoffs.jpg",
-      "link": "https://www.fastcompany.com/91629360/barclays-layoffs-ai-push",
-      "category": "brands",
+      "id": "the hottest ai wearables and gadgets you should know about",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "image": "https://techcrunch.com/wp-content/uploads/2016/09/robocash.jpg?resize=1200,849",
+      "link": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.291709+00:00",
+      "published_at": "2026-10-25T14:10:00+00:00",
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch",
+        "TechCrunch AI"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5745,
+      "signals": {
+        "score": 0.5745,
+        "recency": 0.9138899664657005,
+        "keyword_volume": 0.2,
+        "source_signal": 0.4,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "former 60 minutes executive producer bill owens joins creator media company newpress",
+      "title": "Former \u201960 Minutes\u2019 Executive Producer Bill Owens Joins Creator Media Company Newpress",
+      "summary": "Owens will be EP of the new firm, which raised money from Emerson Collective and media veterans Jesse Angelo, David Leavy, Brent Montgomery and Patrick Steel.",
+      "image": "assets/images/generated/former 60 minutes executive producer bill owens joins creator media company newpress.jpg",
+      "link": "https://www.hollywoodreporter.com/business/digital/former-60-minutes-ep-bill-owens-joins-creator-newpress-1236739646/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T14:35:28+00:00",
       "source_count": 1,
       "source_names": [
-        "Fast Company"
+        "The Hollywood Reporter"
       ],
       "keywords": [
         "ai",
-        "artificial intelligence"
+        "bill"
       ],
-      "score": 0.5756,
+      "score": 0.5712,
       "signals": {
-        "score": 0.5756,
-        "recency": 0.9983347214509387,
+        "score": 0.5712,
+        "recency": 0.9808807751158827,
         "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "data enablement for ai a practitioners guide to 6 advanced architectural patterns",
+      "title": "Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "summary": "Beyond naive chunk-and-embed: Six production architectures for turning enterprise lakehouses into governed AI platforms.",
+      "image": "assets/images/generated/data enablement for ai a practitioners guide to 6 advanced architectural patterns.jpg",
+      "link": "https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-25T12:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Towards Data Science"
+      ],
+      "keywords": [
+        "ai",
+        "enterprise",
+        "govern",
+        "platform"
+      ],
+      "score": 0.5652,
+      "signals": {
+        "score": 0.5652,
+        "recency": 0.6368913438997365,
+        "keyword_volume": 0.8,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -179,7 +238,7 @@
       "link": "https://www.fastcompany.com/91628222/nike-after-dark-race-medal-jewelry",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.288568+00:00",
+      "published_at": "2026-10-25T14:42:18.871596+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -201,6 +260,35 @@
       "image_failure_reason": ""
     },
     {
+      "id": "pm inaugurates rbis rs 169cr data centre cybersecurity training institute in odisha",
+      "title": "PM inaugurates RBI's Rs 169-cr data centre, Cybersecurity Training Institute in Odisha",
+      "summary": "The data centre will host mission-critical payment and settlement systems, along with other flagship initiatives, the government said in a statement.",
+      "image": "https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/shutterstock2743990823-1781764249603.jpg",
+      "link": "https://yourstory.com/2026/10/pm-inaugurates-rbis-rs-169-cr-data-centre-cybersecurity-training-institute-in-odisha",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T13:45:32+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [
+        "ai",
+        "govern"
+      ],
+      "score": 0.5395,
+      "signals": {
+        "score": 0.5395,
+        "recency": 0.8538428960930567,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
       "id": "whats really fueling the recent generosity boom",
       "title": "What\u2019s really fueling the recent generosity boom",
       "summary": "Generosity is in the air, or so it would seem.",
@@ -208,7 +296,7 @@
       "link": "https://www.fastcompany.com/91628347/whats-really-fueling-the-recent-generosity-boom",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.285762+00:00",
+      "published_at": "2026-10-25T14:42:18.868865+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -236,7 +324,7 @@
       "link": "https://www.fastcompany.com/91629462/town-ceo-jean-denis-greze-on-why-most-people-still-dont-know-what-to-ask-ai",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.286196+00:00",
+      "published_at": "2026-10-25T14:42:18.869255+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -264,7 +352,7 @@
       "link": "https://www.fastcompany.com/91619326/the-ai-infrastructure-race-ive-seen-this-movie-before-technology-ai-infrastructure",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.287831+00:00",
+      "published_at": "2026-10-25T14:42:18.870860+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -292,7 +380,7 @@
       "link": "https://www.fastcompany.com/91627136/google-now-best-time-snag-cheap-flights-thanksgiving-christmas-airfare-holiday-travel",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.288855+00:00",
+      "published_at": "2026-10-25T14:42:18.871866+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -320,7 +408,7 @@
       "link": "https://www.fastcompany.com/91627432/stop-building-digital-employees-start-building-intelligent-companies",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.289529+00:00",
+      "published_at": "2026-10-25T14:42:18.872554+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -348,7 +436,7 @@
       "link": "https://www.fastcompany.com/91625494/why-leaders-shouldnt-have-to-apologize-for-private-remarks",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.290300+00:00",
+      "published_at": "2026-10-25T14:42:18.873315+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -376,7 +464,7 @@
       "link": "https://www.fastcompany.com/91629202/a-personalized-cancer-vaccine-could-be-available-as-soon-as-2027-heres-what-we-know",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.291376+00:00",
+      "published_at": "2026-10-25T14:42:18.874381+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -397,55 +485,139 @@
       "image_failure_reason": ""
     },
     {
-      "id": "what the us movement against data centers can learn from abroad",
-      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
-      "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years.",
-      "image": "https://media.wired.com/photos/6adbe4fc594ddd5d406f1b4a/master/pass/102326-Power%20Play-What%20the%20US%20Anti-Data%20Center%20Movement%20Can%20Learn%20From%20Everywhere%20Else-v2.jpg",
-      "link": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
-      "category": "ai",
+      "id": "will take action if kannadigas sidelined in jobs in karnataka cm shivakumar",
+      "title": "Will take action if Kannadigas sidelined in jobs in Karnataka: CM Shivakumar",
+      "summary": "In a post on 'X', Shivakumar said the government had taken concerns about Kannadigas being overlooked seriously and asserted that their rights, dignity, and opportunities would",
+      "image": "https://images.yourstory.com/cs/5/11718bd02d6d11e9aa979329348d4c3e/Imagexkju-1784799916939.jpg",
+      "link": "https://yourstory.com/2026/10/will-take-action-if-kannadigas-sidelined-jobs-karnataka-cm-shivakumar",
+      "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-25T10:00:00+00:00",
+      "published_at": "2026-10-25T13:00:30+00:00",
       "source_count": 1,
       "source_names": [
-        "Wired AI"
+        "YourStory"
       ],
       "keywords": [
-        "ai"
+        "ai",
+        "govern"
       ],
-      "score": 0.5129,
+      "score": 0.5144,
       "signals": {
-        "score": 0.5129,
-        "recency": 0.9314267280781361,
-        "keyword_volume": 0.2,
+        "score": 0.5144,
+        "recency": 0.7534439445379018,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.6
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "egyptian cinema eyes its next act as industry veterans call for better scripts wider distribution",
-      "title": "Egyptian Cinema Eyes Its Next Act as Industry Veterans Call for Better Scripts, Wider Distribution",
-      "summary": "As the ninth edition of El Gouna Film Festival wrapped in Egypt, the conversation among some of the country\u2019s and region\u2019s leading producers and filmmakers turned to what the",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Egyptian-Cinema-trio.jpg",
-      "link": "https://variety.com/2026/film/global/egyptian-cinema-el-gouna-film-industry-future-1236930557/",
+      "id": "i think of it as antibrain rot how our podcast team creates space for thought",
+      "title": "\u2018I think of it as anti-brain rot\u2019: how our podcast team creates space for thought",
+      "summary": "The journalists behind our new show Radical Thinking wanted audiences to experience a guest\u2019s thought processes rather than simply hear their hot takes.",
+      "image": "https://i.guim.co.uk/img/media/dab10dd63779c8060265bab65115a654c54abb58/0_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=5cf98fe05e8b7b7eea92270095f1f430",
+      "link": "https://www.theguardian.com/membership/2026/oct/25/anti-brain-rot-radical-thinking-podcast",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-25T09:16:11+00:00",
+      "published_at": "2026-10-25T14:01:39+00:00",
       "source_count": 1,
       "source_names": [
-        "Variety"
+        "The Guardian Media"
       ],
       "keywords": [
-        "festival",
-        "film"
+        "ai"
       ],
-      "score": 0.5122,
+      "score": 0.5092,
       "signals": {
-        "score": 0.5122,
-        "recency": 0.8246875306335166,
-        "keyword_volume": 0.4,
+        "score": 0.5092,
+        "recency": 0.8929367350549189,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "uh oh the iphone duo complaints have begun",
+      "title": "Uh oh, the iPhone Duo complaints have begun",
+      "summary": "Can all of these issues be fixed?",
+      "image": "https://cdn.mos.cms.futurecdn.net/7nGybWQxLJpoiiV2gg6taD-1920-80.jpg",
+      "link": "https://www.creativebloq.com/news/the-iphone-duo-complaints-have-begun",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-25T14:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5082,
+      "signals": {
+        "score": 0.5082,
+        "recency": 0.8888534729762498,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "agentic ai in production why your agent keeps answering after its tools fail",
+      "title": "Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail",
+      "summary": "When a tool breaks, an agent can keep going and write a confident answer from nothing while the dashboard stays green.",
+      "image": "assets/images/generated/agentic ai in production why your agent keeps answering after its tools fail.jpg",
+      "link": "https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail/",
+      "category": "technology",
+      "geo": "global",
+      "published_at": "2026-10-25T14:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Towards Data Science"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.5082,
+      "signals": {
+        "score": 0.5082,
+        "recency": 0.8888534729762498,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ropen source bans all solo projects and projects using llms",
+      "title": "R/open source bans all solo projects and projects using LLMs",
+      "summary": "Comments",
+      "image": "assets/images/generated/ropen source bans all solo projects and projects using llms.jpg",
+      "link": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T14:05:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [
+        "open source"
+      ],
+      "score": 0.4914,
+      "signals": {
+        "score": 0.4914,
+        "recency": 0.9014099759855785,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -454,30 +626,27 @@
       "image_failure_reason": ""
     },
     {
-      "id": "i cant believe i get to see that one born every minute is back for a 12th series",
-      "title": "\u2018I can\u2019t believe I get to see that\u2019: One Born Every Minute is back for a 12th series",
-      "summary": "Reality TV show returns to focus on childbirth, diversity and the sharing of stories in a social media age When One Born Every Minute first aired in 2010, viewers loved its",
-      "image": "https://i.guim.co.uk/img/media/83c31cce144530c0fac119ef752fc968600fc782/0_915_6537_5227/master/6537.jpg?width=140&quality=85&auto=format&fit=max&s=433ed9f4fef3d70cfd0dea49a12fcf99",
-      "link": "https://www.theguardian.com/tv-and-radio/2026/oct/25/i-cant-believe-i-get-to-see-that-one-born-every-minute-is-back-for-a-12th-series",
-      "category": "media",
+      "id": "look up tonight octobers full moon is for hunters",
+      "title": "Look up tonight: October\u2019s full moon is for hunters",
+      "summary": "This evening, the night sky is helping to set a spooky mood for the upcoming Halloween festivities later this week.",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91629265-october-hunter-moon-full-moon.jpg",
+      "link": "https://www.fastcompany.com/91629265/hunters-moon-2026-meaning-best-view-time-october-full-moon",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T08:00:57+00:00",
+      "published_at": "2026-10-25T14:42:18.868524+00:00",
       "source_count": 1,
       "source_names": [
-        "The Guardian Media"
+        "Fast Company"
       ],
-      "keywords": [
-        "ai",
-        "series"
-      ],
-      "score": 0.4933,
+      "keywords": [],
+      "score": 0.4756,
       "signals": {
-        "score": 0.4933,
-        "recency": 0.6691599249862894,
-        "keyword_volume": 0.4,
+        "score": 0.4756,
+        "recency": 0.9983347214509387,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -490,7 +659,7 @@
       "link": "https://www.fastcompany.com/91627772/anthropic-beaten-to-the-punch-salad-dressing-company",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.286489+00:00",
+      "published_at": "2026-10-25T14:42:18.869582+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -516,7 +685,7 @@
       "link": "https://www.fastcompany.com/91627787/why-quitting-your-job-might-be-your-best-decision-yet",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.286929+00:00",
+      "published_at": "2026-10-25T14:42:18.869990+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -542,7 +711,7 @@
       "link": "https://www.fastcompany.com/91626259/your-customer-service-problem-isnt-a-customer-service-problem",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.287472+00:00",
+      "published_at": "2026-10-25T14:42:18.870517+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -568,7 +737,7 @@
       "link": "https://www.fastcompany.com/91628523/netflix-lost-place-in-pop-culture-high-viewership",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.288374+00:00",
+      "published_at": "2026-10-25T14:42:18.871404+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -594,7 +763,7 @@
       "link": "https://www.fastcompany.com/91627779/whats-keeping-you-stuck-isnt-the-real-problem",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.290031+00:00",
+      "published_at": "2026-10-25T14:42:18.873041+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -620,7 +789,7 @@
       "link": "https://www.fastcompany.com/91628551/consuming-political-news-can-hurt-your-job-performance",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.290431+00:00",
+      "published_at": "2026-10-25T14:42:18.873441+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -646,7 +815,7 @@
       "link": "https://www.fastcompany.com/91629187/local-wiki-wikipedia-map-nearby",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.290857+00:00",
+      "published_at": "2026-10-25T14:42:18.873854+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -672,7 +841,7 @@
       "link": "https://www.fastcompany.com/91629433/the-enslopification-of-b2b-marketing-is-here",
       "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T10:25:29.291167+00:00",
+      "published_at": "2026-10-25T14:42:18.874163+00:00",
       "source_count": 1,
       "source_names": [
         "Fast Company"
@@ -691,23 +860,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "five uncanny venues where guests are treated to frightfully unique interiors",
-      "title": "Five uncanny venues where guests are treated to frightfully unique interiors",
-      "summary": "With spooky season in full swing and Halloween rapidly approaching, this lookbook rounds up five venues featuring unusual decor, including faux body parts, dead insects",
-      "image": "https://static-2026.dezeen.com/uploads/2026/01/bar-far-villa-lontana-studio-strato-sq-852x852.jpg",
-      "link": "https://www.dezeen.com/2026/10/25/uncanny-venues-frightful-interiors-lookbooks/",
-      "category": "brands",
+      "id": "your top job for 2027 hire 12 execs who can take the load not just do the work",
+      "title": "Your Top Job For 2027: Hire 1-2 Execs Who Can Take the Load, Not Just Do the Work",
+      "summary": "I was with a great agentic B2B CEO this week, $100M+ ARR and still growing fast, and we got into hiring ex-founders.",
+      "image": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-at-1.23.51-PM-scaled.png?resize=1000%2C557&#038;quality=70&#038;ssl=1",
+      "link": "https://www.saastr.com/your-top-job-for-2027-hire-1-2-execs-who-can-take-the-load-not-just-do-the-work/",
+      "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-25T10:00:00+00:00",
+      "published_at": "2026-10-25T14:10:24+00:00",
       "source_count": 1,
       "source_names": [
-        "Dezeen"
+        "SaaStr"
       ],
       "keywords": [],
-      "score": 0.4589,
+      "score": 0.4547,
       "signals": {
-        "score": 0.4589,
-        "recency": 0.9314267280781361,
+        "score": 0.4547,
+        "recency": 0.9149059641003774,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -717,26 +886,597 @@
       "image_failure_reason": ""
     },
     {
-      "id": "jayz brings his jayz 30 concert series to a close in los angeles with dr dre snoop dogg and too short",
-      "title": "Jay-Z Brings His \u2018Jay-Z 30\u2019 Concert Series to a Close in Los Angeles With Dr. Dre, Snoop Dogg and Too Short",
-      "summary": "How does one measure their own legacy: In a series of shows, in the decades since a debut album, in an exhaustive eight-part docuseries breaking down the intricacies of rhymes",
-      "image": "https://variety.com/wp-content/uploads/2026/10/JAY-Z30-LOS-ANGELES-NIGHT-2-001-e1792916885758.jpg",
-      "link": "https://variety.com/2026/music/news/jay-z-30-closer-dr-dre-snoop-dogg-los-angeles-sofi-stadium-1236930554/",
+      "id": "if i start at 8am i feel ive lost the day already manga artist y wei shows us his obsessively organised art studio",
+      "title": "\"If I start at 8am, I feel I've lost the day already,\" manga artist Y\u00e9 Wei shows us his obsessively organised art studio",
+      "summary": "Esquissewei has a split studio with two desks, 3,000 markers and a bed for breaking the day in half.",
+      "image": "https://cdn.mos.cms.futurecdn.net/mZHdbj2faeLwx8dNESTWaJ-1920-80.jpg",
+      "link": "https://www.creativebloq.com/features/if-i-start-at-8am-i-feel-ive-lost-the-day-already-manga-artist-ye-wei-shows-around-his-obsessively-organised-art-studio",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-25T13:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [
+        "studio"
+      ],
+      "score": 0.4541,
+      "signals": {
+        "score": 0.4541,
+        "recency": 0.7523982209799488,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "espn taps marvels vision to boost elclsicos debut on abc",
+      "title": "ESPN Taps Marvel\u2019s Vision to Boost ElCl\u00e1sico\u2019s Debut on ABC",
+      "summary": "The Vision, the Marvel super-hero, must tackle two important missions on Sunday.",
+      "image": "https://variety.com/wp-content/uploads/2022/11/VVV4020_109_comp_v194_20210114_r709.1138_R.jpg",
+      "link": "https://variety.com/2026/tv/news/espn-taps-marvel-vision-elclasico-debut-abc-1236930598/",
       "category": "media",
       "geo": "global",
-      "published_at": "2026-10-25T08:42:05+00:00",
+      "published_at": "2026-10-25T14:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [],
+      "score": 0.4482,
+      "signals": {
+        "score": 0.4482,
+        "recency": 0.8888534729762498,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "disgrace trump rails against gop senator lisa murkowski in wild latenight post on hotlycontested alaska senate race",
+      "title": "\u2018DISGRACE!\u2019 Trump Rails Against GOP Senator Lisa Murkowski in Wild Late-Night Post on Hotly-Contested Alaska Senate Race",
+      "summary": "\"You just don\u2019t get any worse!\" Trump wrote, blasting Sen.",
+      "image": "https://am12.mediaite.com/med/cnt/uploads/2026/10/AP17354809694561.jpg",
+      "link": "https://www.mediaite.com/media/news/disgrace-trump-rails-against-gop-senator-lisa-murkowski-in-wild-late-night-post-on-hotly-contested-alaska-senate-race/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T11:57:20+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.444,
+      "signals": {
+        "score": 0.444,
+        "recency": 0.6321910601913033,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "come on man that is crazy todd blanche fumes at cnns bash for asking about a doomsday scenario where trump tries to overturn the election",
+      "title": "\u2018Come On Man, That is Crazy!\u2019 Todd Blanche Fumes at CNN\u2019s Bash for Asking About a \u2018Doomsday Scenario\u2019 Where Trump \u2018Tries to Overturn the Election\u2019",
+      "summary": "Attorney General Todd Blanche went off after CNN's Dana Bash asked about a potential \"doomsday scenario\" in which Trump \"tries to overturn the election.\" The post \u2018Come On Man",
+      "image": "https://www.mediaite.com/wp-content/uploads/2026/10/State-of-the-Union-With-Jake-Tapper-and-Dana-Bash-9-13-14-am-2026-10-25.jpg",
+      "link": "https://www.mediaite.com/media/news/come-on-man-that-is-crazy-todd-blanche-fumes-at-cnns-bash-for-asking-about-a-doomsday-scenario-where-trump-tries-to-overturn-the-election/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T13:48:38+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.4413,
+      "signals": {
+        "score": 0.4413,
+        "recency": 0.8612271799577403,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "a court of thorns and roses gets a fittingly sexy fashion collection ahead of sarah j maass latest book",
+      "title": "\u2018A Court of Thorns and Roses\u2019 Gets a Fittingly Sexy Fashion Collection Ahead of Sarah J. Maas\u2019s Latest Book",
+      "summary": "In an age of endless brand partnerships and collaborations, it always feels good seeing a team-up that doesn&#8217;t feel forced.",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-2.30.41-PM.png",
+      "link": "https://variety.com/2026/shopping/news/a-court-of-thorns-and-roses-for-love-and-lemons-collection-1236930606/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T13:43:16+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [],
+      "score": 0.4381,
+      "signals": {
+        "score": 0.4381,
+        "recency": 0.8484837373589822,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "anthropic launches oss scanner a free ai vulnerability scanner",
+      "title": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner",
+      "summary": "Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects.",
+      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/123WP-BLOG-BANNER-454-scaled.png",
+      "link": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-25T11:32:29+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4335,
+      "signals": {
+        "score": 0.4335,
+        "recency": 0.5900243935893442,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "show hn farol a risk map of a pull request for the person who approves it",
+      "title": "Show HN: Farol \u2013 a risk map of a pull request for the person who approves it",
+      "summary": "Comments",
+      "image": "assets/images/generated/show hn farol a risk map of a pull request for the person who approves it.jpg",
+      "link": "https://github.com/winnin/farol",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T13:28:06+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.4294,
+      "signals": {
+        "score": 0.4294,
+        "recency": 0.813479957120087,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "half your crm data is wrong ai prospecting in a world of 49 exec turnover",
+      "title": "Half Your CRM Data Is Wrong: AI Prospecting in a World of 49% Exec Turnover",
+      "summary": "Earlier in the day at the latest SaaStr AI Day, Jason and Amelia talked about a core weakness in most AI prospecting tools: they run almost entirely on third-party data.",
+      "image": "assets/images/generated/half your crm data is wrong ai prospecting in a world of 49 exec turnover.jpg",
+      "link": "https://www.saastr.com/half-your-crm-is-wrong-ai-prospecting-in-a-world-of-49-exec-turnover/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T11:00:12+00:00",
+      "source_count": 1,
+      "source_names": [
+        "SaaStr"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4209,
+      "signals": {
+        "score": 0.4209,
+        "recency": 0.5394164759442491,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "serielizados prizes hagai levis etty and astonishing killing a bear win big as el observatorio bags the mind the gap pitch prize",
+      "title": "Serielizados Prizes: Hagai Levi\u2019s \u2018Etty\u2019 and \u2018Astonishing\u2019 \u2018Killing a Bear\u2019 Win Big as \u2018El Observatorio\u2019 Bags the Mind the Gap Pitch Prize",
+      "summary": "Influential Israeli creator Hagai Levi (\u201cThe Affair,\u201d \u201cScenes From a Marriage\u201d) and prominent Spanish TV-making duo Jorge and Alberto S\u00e1nchez-Cabezudo (\u201cLa Zona\u201d) won best",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Etty-courtesy-Serielizados-.jpg",
+      "link": "https://variety.com/2026/tv/global/serielizados-hagai-levi-etty-killing-a-bear-matar-a-un-oso-1236930579/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T10:38:47+00:00",
       "source_count": 1,
       "source_names": [
         "Variety"
       ],
       "keywords": [
+        "ai"
+      ],
+      "score": 0.4131,
+      "signals": {
+        "score": 0.4131,
+        "recency": 0.5082620771477869,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "i cant believe i get to see that one born every minute is back for a 12th series",
+      "title": "\u2018I can\u2019t believe I get to see that\u2019: One Born Every Minute is back for a 12th series",
+      "summary": "Reality TV show returns to focus on childbirth, diversity and the sharing of stories in a social media age When One Born Every Minute first aired in 2010, viewers loved its",
+      "image": "https://i.guim.co.uk/img/media/83c31cce144530c0fac119ef752fc968600fc782/0_915_6537_5227/master/6537.jpg?width=140&quality=85&auto=format&fit=max&s=433ed9f4fef3d70cfd0dea49a12fcf99",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/oct/25/i-cant-believe-i-get-to-see-that-one-born-every-minute-is-back-for-a-12th-series",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T08:00:57+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Guardian Media"
+      ],
+      "keywords": [
+        "ai",
         "series"
       ],
-      "score": 0.4535,
+      "score": 0.408,
       "signals": {
-        "score": 0.4535,
-        "recency": 0.7501568677207031,
+        "score": 0.408,
+        "recency": 0.3278549511656452,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "the lego group reveals collaboration with daft punk",
+      "title": "The Lego group reveals collaboration with Daft Punk",
+      "summary": "Comments",
+      "image": "https://www.lego.com/cdn/cs/set/assets/blte68bd99c5948d6af/Ideas-DaftPunkConcert_CardContent-Standard-Image_01.jpg",
+      "link": "https://www.lego.com/en-us/categories/adults-welcome/article/daft-punk",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T12:48:11+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.408,
+      "signals": {
+        "score": 0.408,
+        "recency": 0.7281023717815158,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "why do ai platforms want humans to design their branding",
+      "title": "Why do AI platforms want humans to design their branding?",
+      "summary": "AI firms keep hiring human designers. Ironic much?",
+      "image": "https://cdn.mos.cms.futurecdn.net/8iLPH4BsY5429rchU9dzuZ-1920-80.png",
+      "link": "https://www.creativebloq.com/news/why-do-ai-platforms-want-humans-to-design-their-branding",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-25T08:01:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [
+        "ai",
+        "platform"
+      ],
+      "score": 0.408,
+      "signals": {
+        "score": 0.408,
+        "recency": 0.3279460346353097,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "egyptian cinema eyes its next act as industry veterans call for better scripts wider distribution",
+      "title": "Egyptian Cinema Eyes Its Next Act as Industry Veterans Call for Better Scripts, Wider Distribution",
+      "summary": "As the ninth edition of El Gouna Film Festival wrapped in Egypt, the conversation among some of the country\u2019s and region\u2019s leading producers and filmmakers turned to what the",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Egyptian-Cinema-trio.jpg",
+      "link": "https://variety.com/2026/film/global/egyptian-cinema-el-gouna-film-industry-future-1236930557/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T09:16:11+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "festival",
+        "film"
+      ],
+      "score": 0.407,
+      "signals": {
+        "score": 0.407,
+        "recency": 0.40405571222500813,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "fheroes2 a recreation of heroes of might and magic ii game engine",
+      "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+      "summary": "Comments",
+      "image": "assets/images/generated/fheroes2 a recreation of heroes of might and magic ii game engine.jpg",
+      "link": "https://github.com/ihhub/fheroes2",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T11:09:12+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [
+        "game"
+      ],
+      "score": 0.4043,
+      "signals": {
+        "score": 0.4043,
+        "recency": 0.5530718690456405,
         "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "gen z is shaping indias beauty market prevention firstand going beyond the metros",
+      "title": "Gen Z is shaping India\u2019s beauty market: prevention first,and going beyond the metros",
+      "summary": "Subtitle: For this generation, beauty is prevention first with sun protection products seeing a 60% growth among Gen Z shoppers, finds a new report titled \u2018Beauty in the age",
+      "image": "https://images.yourstory.com/cs/2/81f42290b0f511edaa4d75d0d1d6c429/WhatsAppImage2026-10-25at3-1792926321267.jpeg",
+      "link": "https://yourstory.com/2026/10/gen-z-shaping-indias-beauty-market-prevention-firstand-going-beyond-metros",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T12:40:26+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [],
+      "score": 0.4041,
+      "signals": {
+        "score": 0.4041,
+        "recency": 0.7125954592845329,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "tool book of a nuremberg knight from 1505",
+      "title": "Tool book of a Nuremberg knight from 1505",
+      "summary": "Comments",
+      "image": "https://loeffelholz-codex.org/img/facsimile/social/f001r.jpg",
+      "link": "https://loeffelholz-codex.org/en/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T12:37:54+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [],
+      "score": 0.4029,
+      "signals": {
+        "score": 0.4029,
+        "recency": 0.7075985011555542,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "just eats ai apocalypse raises a glaring question",
+      "title": "Just Eat's AI apocalypse raises a glaring question",
+      "summary": "Fancy some 'tiger' prawns or a literal toad in the hole?",
+      "image": "https://cdn.mos.cms.futurecdn.net/q7XXHzcWFP9uk4mvXKsJk9-1920-80.jpg",
+      "link": "https://www.creativebloq.com/news/just-eats-ai-apocalypse-raises-a-pretty-obvious-question",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-25T10:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.4001,
+      "signals": {
+        "score": 0.4001,
+        "recency": 0.4563525893375801,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "nikon photography contest winner loses title after scientists spot signs of ai",
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "summary": "Comments",
+      "image": "https://www.techspot.com/images2/news/bigimage/2026/10/2026-10-12-image-4.jpg",
+      "link": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T09:51:17+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3974,
+      "signals": {
+        "score": 0.3974,
+        "recency": 0.44543564018586773,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "what the us movement against data centers can learn from abroad",
+      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+      "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years.",
+      "image": "https://media.wired.com/photos/6adbe4fc594ddd5d406f1b4a/master/pass/102326-Power%20Play-What%20the%20US%20Anti-Data%20Center%20Movement%20Can%20Learn%20From%20Everywhere%20Else-v2.jpg",
+      "link": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-25T10:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Wired AI"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3941,
+      "signals": {
+        "score": 0.3941,
+        "recency": 0.4563525893375801,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "researchers from stanford and uc berkeley introduce tokengate tokengated attention makes longcontext prefill up to 113x faster",
+      "title": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
+      "summary": "Stanford and UC Berkeley researchers released TokenGate, a drop-in learned token pruning module for LLMs.",
+      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/blog-banner897-scaled.png",
+      "link": "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-25T12:12:18+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost"
+      ],
+      "keywords": [],
+      "score": 0.3908,
+      "signals": {
+        "score": 0.3908,
+        "recency": 0.6590278093726246,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "they wallow in trump gunk 247 they say its necessary",
+      "title": "They wallow in Trump gunk 24/7. They say it\u2019s necessary",
+      "summary": "Joanna Coles and Michael Wolff spend most of their days thinking about the president\u2019s follies for their podcast, Inside Trump\u2019s Head.",
+      "image": "https://i.guim.co.uk/img/media/faddd28993ee6746fd5d3a361975b6ef24eb485d/214_0_2250_1800/master/2250.jpg?width=140&quality=85&auto=format&fit=max&s=72630ecbabce106a89f7b1ca95d8f9a8",
+      "link": "https://www.theguardian.com/media/ng-interactive/2026/oct/25/inside-trumps-head-podcast",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T12:00:04+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Guardian Media"
+      ],
+      "keywords": [],
+      "score": 0.3853,
+      "signals": {
+        "score": 0.3853,
+        "recency": 0.637009297662507,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "as a young man magazines were my window to the world that wonder will be lost when all the shops have gone john harris",
+      "title": "As a young man, magazines were my window to the world. That wonder will be lost when all the shops have gone | John Harris",
+      "summary": "The closure of former WH Smith stores around the UK is sobering on many levels.",
+      "image": "https://i.guim.co.uk/img/media/5b42e70eac6a8f3673d52c41d79d98ea4de29f02/571_0_1758_1408/master/1758.jpg?width=140&quality=85&auto=format&fit=max&s=92252f28a4cfb82166a3fa79da33c52a",
+      "link": "https://www.theguardian.com/commentisfree/2026/oct/25/as-a-young-man-magazines-were-my-window-to-the-world-that-wonder-will-be-lost-when-all-the-shops-have-gone",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T12:00:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "The Guardian Media"
+      ],
+      "keywords": [],
+      "score": 0.3852,
+      "signals": {
+        "score": 0.3852,
+        "recency": 0.6369798071739744,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -761,10 +1501,10 @@
         "ai",
         "award"
       ],
-      "score": 0.4458,
+      "score": 0.3847,
       "signals": {
-        "score": 0.4458,
-        "recency": 0.47916336851486035,
+        "score": 0.3847,
+        "recency": 0.23476612528466104,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -774,216 +1514,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "five ipos to open next week companies eye close to rs 2600 cr",
-      "title": "Five IPOs to open next week; companies eye close to Rs 2,600 Cr",
-      "summary": "The five upcoming IPOs will open for subscription between October 26 and October 29, offering investors exposure to sectors such as alternative investments, polymers, steel",
-      "image": "https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/IPOStock31600x900-1791787437744.jpg",
-      "link": "https://yourstory.com/2026/10/five-ipos-to-open-next-week-companies-eye-close-to-rs-2600-cr",
-      "category": "startup",
+      "id": "arup creates arrowshaped viewpoint for fehmarnbelt tunnel project",
+      "title": "Arup creates arrow-shaped viewpoint for Fehmarnbelt Tunnel project",
+      "summary": "A zigzagging path tops the demountable Pilen viewpoint in Denmark, created by engineering firm Arup to give the public views of the construction of the vast Fehmarnbelt Tunnel.",
+      "image": "https://static-2026.dezeen.com/uploads/2026/10/pilen-viewpoint-arup-fehmarnbelt-tunnel-construction-denmark-architecture-public-leisure-infrastructure_dezeen_2364_sq2-1024x1024.jpg",
+      "link": "https://www.dezeen.com/2026/10/25/arup-pilen-viewpoint-fehmarnbelt-tunnel/",
+      "category": "brands",
       "geo": "global",
-      "published_at": "2026-10-25T09:04:17+00:00",
+      "published_at": "2026-10-25T11:00:00+00:00",
       "source_count": 1,
       "source_names": [
-        "YourStory"
+        "Dezeen"
       ],
       "keywords": [],
-      "score": 0.4255,
+      "score": 0.3608,
       "signals": {
-        "score": 0.4255,
-        "recency": 0.7978726580101023,
+        "score": 0.3608,
+        "recency": 0.5391168833521502,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "online censorship is crushing indie webcomics",
-      "title": "Online censorship is crushing indie webcomics",
-      "summary": "Comments",
-      "image": "https://xtramagazine.com/wp-content/uploads/2026/09/Xtra_Comics_Raccoons_CGallardo_Web.jpg",
-      "link": "https://xtramagazine.com/culture/online-censorship-indie-webcomics-284463",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T09:04:13+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.4254,
-      "signals": {
-        "score": 0.4254,
-        "recency": 0.7977249174942741,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "meta ignores brazilian court order to end bolsonaro favoritism",
-      "title": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
-      "summary": "Comments",
-      "image": "https://substackcdn.com/image/fetch/$s_!CdTr!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d3b04ca-0141-4aca-81e2-f64fd77e8555_1157x626.jpeg",
-      "link": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T09:00:40+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.4235,
-      "signals": {
-        "score": 0.4235,
-        "recency": 0.789897122258168,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "these are the most active investors in koreas startups",
-      "title": "These are the most active investors in Korea\u2019s startups",
-      "summary": "Which investors are writing the most checks to Korea-based startups?",
-      "image": "https://cdn.techinasia.com/wp-content/uploads/2021/07/1625465177_korea.jpg",
-      "link": "https://www.techinasia.com/active-investors-koreas-startups",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T09:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Tech in Asia"
-      ],
-      "keywords": [],
-      "score": 0.4171,
-      "signals": {
-        "score": 0.4171,
-        "recency": 0.7884357033928016,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "what will it take for indias fintech infrastructure to go global",
-      "title": "What will it take for India\u2019s fintech infrastructure to go global?",
-      "summary": "At TechSparks 2026, Movin Jain of Skydo and Srijon Biswas of PhonePe discussed building payments infrastructure at scale, the challenges of cross-border transactions, and how AI",
-      "image": "https://images.yourstory.com/cs/2/21ccd920843c11ec88170b5512a0f9d5/movin1-1792761754814.jpg",
-      "link": "https://yourstory.com/2026/10/what-will-it-take-for-indias-fintech-infrastructure-global",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T06:24:09+00:00",
-      "source_count": 1,
-      "source_names": [
-        "YourStory"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4138,
-      "signals": {
-        "score": 0.4138,
-        "recency": 0.5113908616785642,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "beyond transactions how phonepe and razorpay are using ai to improve digital payments",
-      "title": "Beyond transactions: How PhonePe and Razorpay are using AI to improve digital payments",
-      "summary": "At TechSparks 2026, Deep Agrawal of PhonePe and Khilan Haria of Razorpay discussed how contextual payments and AI can improve customer experiences, make financial services more",
-      "image": "https://images.yourstory.com/cs/2/21ccd920843c11ec88170b5512a0f9d5/deep1-1792763881383.jpg",
-      "link": "https://yourstory.com/2026/10/beyond-transactions-how-phonepe-and-razorpay-are-using-ai-to-improve-digital-payments",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T06:23:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "YourStory"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.4134,
-      "signals": {
-        "score": 0.4134,
-        "recency": 0.5097598584431083,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "workflow ecosystems ai test your business creativity with edition 255 of our weekly quiz",
-      "title": "Workflow, ecosystems, AI: Test your business creativity with Edition 255 of our weekly quiz!",
-      "summary": "This insightful feature from YourStory tests and strengthens your business acumen!",
-      "image": "https://images.yourstory.com/cs/2/28b451402d6a11e9aa979329348d4c3e/Lateralsparks1-1792902269210.jpg",
-      "link": "https://yourstory.com/2026/10/business-creativity-quiz-education-entrepreneur",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T05:58:29+00:00",
-      "source_count": 1,
-      "source_names": [
-        "YourStory"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.405,
-      "signals": {
-        "score": 0.405,
-        "recency": 0.47619998243956296,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "series sea whos investing in the regions health startups",
-      "title": "Series SEA: Who\u2019s investing in the region\u2019s health startups?",
-      "summary": "We've compiled a list of investors that are pouring money into Southeast Asia\u2019s health startups.",
-      "image": "https://cdn.techinasia.com/wp-content/uploads/2016/05/pulse-check-doctor.jpg",
-      "link": "https://www.techinasia.com/top-sea-investors-health",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T07:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Tech in Asia"
-      ],
-      "keywords": [
-        "series"
-      ],
-      "score": 0.4012,
-      "signals": {
-        "score": 0.4012,
-        "recency": 0.5649388678552115,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -1006,10 +1556,10 @@
         "ai",
         "series"
       ],
-      "score": 0.3927,
+      "score": 0.3587,
       "signals": {
-        "score": 0.3927,
-        "recency": 0.26685822551817795,
+        "score": 0.3587,
+        "recency": 0.13074720590478514,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1035,10 +1585,10 @@
         "ai",
         "music"
       ],
-      "score": 0.3914,
+      "score": 0.358,
       "signals": {
-        "score": 0.3914,
-        "recency": 0.26148932297087935,
+        "score": 0.358,
+        "recency": 0.12811671173331524,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1048,53 +1598,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "aws sells out cloud capacity through 2027 as ai demand grows",
-      "title": "AWS sells out cloud capacity through 2027 as AI demand grows",
-      "summary": "AWS is holding back some 2027 capacity for on-demand customers and services like Bedrock and EC2.",
-      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792892521_1790034953_1785457614_1782346847_1780960121_1778152174_1736479665_shutterstock_2513282451-scaled-1.jpg",
-      "link": "https://www.techinasia.com/news/aws-sells-cloud-capacity-2027-ai-demand-grows",
-      "category": "startup",
+      "id": "jayz brings his jayz 30 concert series to a close in los angeles with dr dre snoop dogg and too short",
+      "title": "Jay-Z Brings His \u2018Jay-Z 30\u2019 Concert Series to a Close in Los Angeles With Dr. Dre, Snoop Dogg and Too Short",
+      "summary": "How does one measure their own legacy: In a series of shows, in the decades since a debut album, in an exhaustive eight-part docuseries breaking down the intricacies of rhymes",
+      "image": "https://variety.com/wp-content/uploads/2026/10/JAY-Z30-LOS-ANGELES-NIGHT-2-001-e1792916885758.jpg",
+      "link": "https://variety.com/2026/music/news/jay-z-30-closer-dr-dre-snoop-dogg-los-angeles-sofi-stadium-1236930554/",
+      "category": "media",
       "geo": "global",
-      "published_at": "2026-10-25T02:24:01+00:00",
+      "published_at": "2026-10-25T08:42:05+00:00",
       "source_count": 1,
       "source_names": [
-        "Tech in Asia"
+        "Variety"
       ],
       "keywords": [
-        "ai",
-        "cloud"
+        "series"
       ],
-      "score": 0.3856,
+      "score": 0.3579,
       "signals": {
-        "score": 0.3856,
-        "recency": 0.262459597640651,
-        "keyword_volume": 0.4,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "not palantir",
-      "title": "Not Palantir",
-      "summary": "Comments",
-      "image": "https://notpalantir.eu/social/og-en.png",
-      "link": "https://notpalantir.eu/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T06:55:13+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.3654,
-      "signals": {
-        "score": 0.3654,
-        "recency": 0.557482152723136,
-        "keyword_volume": 0.0,
+        "score": 0.3579,
+        "recency": 0.36753940881648545,
+        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -1119,10 +1642,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3651,
+      "score": 0.3554,
       "signals": {
-        "score": 0.3651,
-        "recency": 0.07645616169255635,
+        "score": 0.3554,
+        "recency": 0.03745970166778793,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.84,
@@ -1132,57 +1655,55 @@
       "image_failure_reason": ""
     },
     {
-      "id": "america has lost 200k of jobs in media film and the arts how much is ai",
-      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "id": "samsung running a tensorflow lite model on 960x540 image to track you",
+      "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
       "summary": "Comments",
-      "image": "https://substackcdn.com/image/fetch/$s_!oz9x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F999e3450-1df3-457d-8715-5e2e46d5121c_2886x1843.png",
-      "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "image": "https://pbs.twimg.com/media/HVb1282bgAAg6jY?format=webp&amp;name=large",
+      "link": "https://twitter.com/mike64_t/status/2114150399406202896",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-24T23:11:54+00:00",
+      "published_at": "2026-10-25T10:42:01+00:00",
       "source_count": 1,
       "source_names": [
         "Hacker News"
       ],
-      "keywords": [
-        "ai",
-        "film"
-      ],
-      "score": 0.3645,
+      "keywords": [],
+      "score": 0.3542,
       "signals": {
-        "score": 0.3645,
-        "recency": 0.15392104082764987,
-        "keyword_volume": 0.4,
+        "score": 0.3542,
+        "recency": 0.5128475850838415,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.6
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
     },
     {
-      "id": "cognition opensources an agent plugin that helps secure systems against recent cybersecurity threats",
-      "title": "Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats",
-      "summary": "Cognition released the Devin Vulnerability Fixes plugin, 3 MIT-licensed agent skills that inventory, patch and test PHP, Node.js and self-managed GitLab deployments hit by this",
-      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-454-37-scaled.png",
-      "link": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
-      "category": "ai",
+      "id": "aws sells out cloud capacity through 2027 as ai demand grows",
+      "title": "AWS sells out cloud capacity through 2027 as AI demand grows",
+      "summary": "AWS is holding back some 2027 capacity for on-demand customers and services like Bedrock and EC2.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792892521_1790034953_1785457614_1782346847_1780960121_1778152174_1736479665_shutterstock_2513282451-scaled-1.jpg",
+      "link": "https://www.techinasia.com/news/aws-sells-cloud-capacity-2027-ai-demand-grows",
+      "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-25T02:59:08+00:00",
+      "published_at": "2026-10-25T02:24:01+00:00",
       "source_count": 1,
       "source_names": [
-        "MarkTechPost"
+        "Tech in Asia"
       ],
       "keywords": [
-        "ai"
+        "ai",
+        "cloud"
       ],
-      "score": 0.3583,
+      "score": 0.3521,
       "signals": {
-        "score": 0.3583,
-        "recency": 0.2893518589964727,
-        "keyword_volume": 0.2,
+        "score": 0.3521,
+        "recency": 0.12859209787435133,
+        "keyword_volume": 0.4,
         "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.8,
         "engagement": 0.6
       },
       "ai_image_pending": false,
@@ -1205,10 +1726,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3576,
+      "score": 0.3517,
       "signals": {
-        "score": 0.3576,
-        "recency": 0.04637300619048197,
+        "score": 0.3517,
+        "recency": 0.022720457565201847,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.84,
@@ -1234,10 +1755,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3558,
+      "score": 0.3508,
       "signals": {
-        "score": 0.3558,
-        "recency": 0.03925390226848229,
+        "score": 0.3508,
+        "recency": 0.019232452110096065,
         "keyword_volume": 0.2,
         "source_signal": 0.4,
         "authority": 0.84,
@@ -1247,135 +1768,137 @@
       "image_failure_reason": ""
     },
     {
-      "id": "pingcap breach exposes customer records and source code",
-      "title": "PingCAP Breach Exposes Customer Records and Source Code",
-      "summary": "PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data.",
-      "image": "https://res.infoq.com/news/2026/10/pingcap-cloud-data-breach/en/headerimage/generatedHeaderImage-1792787545089.jpg",
-      "link": "https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-25T06:27:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "InfoQ"
-      ],
-      "keywords": [],
-      "score": 0.3549,
-      "signals": {
-        "score": 0.3549,
-        "recency": 0.5154554403958119,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "here are the top ai agents that can live in your text messages",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
-      "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-24T14:00:00+00:00",
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch",
-        "TechCrunch AI"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3543,
-      "signals": {
-        "score": 0.3543,
-        "recency": 0.033227710900912484,
-        "keyword_volume": 0.2,
-        "source_signal": 0.4,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "collectible furniture meets cultural critique at dutch design weeks table of power",
-      "title": "Collectible furniture meets cultural critique at Dutch Design Week\u2019s Table of Power",
-      "summary": "Show Not Show has put a twist on a classic project documenting the echelons of power with an exhibition of the design collective\u2019s furniture at Dutch Design Week.",
-      "image": "https://static-2026.dezeen.com/uploads/2026/10/table-of-power-show-not-show-design_dezeen_2364_sq-1024x1024.jpg",
-      "link": "https://www.dezeen.com/2026/10/25/collectible-furniture-dutch-design-week-table-of-power/",
-      "category": "brands",
-      "geo": "global",
-      "published_at": "2026-10-25T06:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Dezeen"
-      ],
-      "keywords": [],
-      "score": 0.3456,
-      "signals": {
-        "score": 0.3456,
-        "recency": 0.47821042731983016,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "soccer drama forza with ac milan great alessandro costacurta heads to tokyo market with est n8 exclusive",
-      "title": "Soccer Drama \u2018Forza,\u2019 With AC Milan Great Alessandro Costacurta, Heads to Tokyo Market With EST N8 (EXCLUSIVE)",
-      "summary": "\u201cForza,\u201d Marco Balsamo\u2019s soccer drama shot between Bali and Milan, has been picked up for international sales by EST N8, which will take the film to the Tokyo International Film",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Forza.jpg",
-      "link": "https://variety.com/2026/film/news/soccer-drama-forza-ac-milan-alessandro-costacurta-tokyo-market-est-n8-1236930538/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-25T03:32:14+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [
-        "film"
-      ],
-      "score": 0.3453,
-      "signals": {
-        "score": 0.3453,
-        "recency": 0.31721757571922793,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "discover how superminis nayam by lakshita and broadstar are scaling nationally with myntras platform capabilities",
-      "title": "Discover how Superminis, Nayam by Lakshita and Broadstar are scaling nationally with Myntra\u2019s platform capabilities",
-      "summary": "From kidswear to ethnic and western wear, Superminis, Nayam by Lakshita, and Broadstar are using trend reports and events like BFF to enhance their offerings and reach more",
-      "image": "https://images.yourstory.com/cs/2/81f42290b0f511edaa4d75d0d1d6c429/21-1792840541445.png",
-      "link": "https://yourstory.com/2026/10/discover-how-superminis-nayam-by-lakshita-and-broadstar-are-scaling-nationally-with-myntras-platform-capabilities",
+      "id": "what will it take for indias fintech infrastructure to go global",
+      "title": "What will it take for India\u2019s fintech infrastructure to go global?",
+      "summary": "At TechSparks 2026, Movin Jain of Skydo and Srijon Biswas of PhonePe discussed building payments infrastructure at scale, the challenges of cross-border transactions, and how AI",
+      "image": "https://images.yourstory.com/cs/2/21ccd920843c11ec88170b5512a0f9d5/movin1-1792761754814.jpg",
+      "link": "https://yourstory.com/2026/10/what-will-it-take-for-indias-fintech-infrastructure-global",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-25T03:30:00+00:00",
+      "published_at": "2026-10-25T06:24:09+00:00",
       "source_count": 1,
       "source_names": [
         "YourStory"
       ],
       "keywords": [
-        "platform"
+        "ai"
       ],
-      "score": 0.3448,
+      "score": 0.3486,
       "signals": {
-        "score": 0.3448,
-        "recency": 0.31525574347474833,
+        "score": 0.3486,
+        "recency": 0.2505559877717097,
         "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "beyond transactions how phonepe and razorpay are using ai to improve digital payments",
+      "title": "Beyond transactions: How PhonePe and Razorpay are using AI to improve digital payments",
+      "summary": "At TechSparks 2026, Deep Agrawal of PhonePe and Khilan Haria of Razorpay discussed how contextual payments and AI can improve customer experiences, make financial services more",
+      "image": "https://images.yourstory.com/cs/2/21ccd920843c11ec88170b5512a0f9d5/deep1-1792763881383.jpg",
+      "link": "https://yourstory.com/2026/10/beyond-transactions-how-phonepe-and-razorpay-are-using-ai-to-improve-digital-payments",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T06:23:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3484,
+      "signals": {
+        "score": 0.3484,
+        "recency": 0.24975687762457657,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "america has lost 200k of jobs in media film and the arts how much is ai",
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "summary": "Comments",
+      "image": "https://substackcdn.com/image/fetch/$s_!oz9x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F999e3450-1df3-457d-8715-5e2e46d5121c_2886x1843.png",
+      "link": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-24T23:11:54+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "keywords": [
+        "ai",
+        "film"
+      ],
+      "score": 0.3449,
+      "signals": {
+        "score": 0.3449,
+        "recency": 0.07541362451576641,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "workflow ecosystems ai test your business creativity with edition 255 of our weekly quiz",
+      "title": "Workflow, ecosystems, AI: Test your business creativity with Edition 255 of our weekly quiz!",
+      "summary": "This insightful feature from YourStory tests and strengthens your business acumen!",
+      "image": "https://images.yourstory.com/cs/2/28b451402d6a11e9aa979329348d4c3e/Lateralsparks1-1792902269210.jpg",
+      "link": "https://yourstory.com/2026/10/business-creativity-quiz-education-entrepreneur",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T05:58:29+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3443,
+      "signals": {
+        "score": 0.3443,
+        "recency": 0.2333142140737178,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "five uncanny venues where guests are treated to frightfully unique interiors",
+      "title": "Five uncanny venues where guests are treated to frightfully unique interiors",
+      "summary": "With spooky season in full swing and Halloween rapidly approaching, this lookbook rounds up five venues featuring unusual decor, including faux body parts, dead insects",
+      "image": "https://static-2026.dezeen.com/uploads/2026/01/bar-far-villa-lontana-studio-strato-sq-852x852.jpg",
+      "link": "https://www.dezeen.com/2026/10/25/uncanny-venues-frightful-interiors-lookbooks/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-25T10:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Dezeen"
+      ],
+      "keywords": [],
+      "score": 0.3401,
+      "signals": {
+        "score": 0.3401,
+        "recency": 0.4563525893375801,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -1400,10 +1923,10 @@
         "ai",
         "bill"
       ],
-      "score": 0.3443,
+      "score": 0.335,
       "signals": {
-        "score": 0.3443,
-        "recency": 0.07320365157182016,
+        "score": 0.335,
+        "recency": 0.03586613411094181,
         "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1413,26 +1936,135 @@
       "image_failure_reason": ""
     },
     {
-      "id": "instacart reportedly explores sale talks with doordash uber",
-      "title": "Instacart reportedly explores sale talks with DoorDash, Uber",
-      "summary": "Instacart's September 2023 IPO valued it at US$9.9 billion, with shares opening at US$42.",
-      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792897280_1695094312_shutterstock_1891507900-scaled-1.jpg",
-      "link": "https://www.techinasia.com/news/instacart-reportedly-explores-sale-talks-doordash-uber",
+      "id": "these premium earbuds have a gamechanging feature that apple airpods will never get",
+      "title": "These premium earbuds have a game-changing feature that Apple AirPods will never get",
+      "summary": "The Sennheiser MOMENTUM True Wireless 5 offer sleek build, active-noise cancellation and could last a lot longer than rivals.",
+      "image": "https://cdn.mos.cms.futurecdn.net/nckdxqQutwdM5iFvTdnfbL-1920-80.jpg",
+      "link": "https://www.creativebloq.com/deals/these-premium-earbuds-have-a-game-changing-feature-that-apple-airpods-will-never-get",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-24T15:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Creative Bloq"
+      ],
+      "keywords": [
+        "ai",
+        "game"
+      ],
+      "score": 0.3308,
+      "signals": {
+        "score": 0.3308,
+        "recency": 0.019232452110096065,
+        "keyword_volume": 0.4,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "series sea whos investing in the regions health startups",
+      "title": "Series SEA: Who\u2019s investing in the region\u2019s health startups?",
+      "summary": "We've compiled a list of investors that are pouring money into Southeast Asia\u2019s health startups.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2016/05/pulse-check-doctor.jpg",
+      "link": "https://www.techinasia.com/top-sea-investors-health",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-25T03:53:13+00:00",
+      "published_at": "2026-10-25T07:00:00+00:00",
       "source_count": 1,
       "source_names": [
         "Tech in Asia"
       ],
       "keywords": [
-        "bill"
+        "series"
       ],
-      "score": 0.3441,
+      "score": 0.3292,
       "signals": {
-        "score": 0.3441,
-        "recency": 0.3362567261760805,
+        "score": 0.3292,
+        "recency": 0.276791837072491,
         "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "five ipos to open next week companies eye close to rs 2600 cr",
+      "title": "Five IPOs to open next week; companies eye close to Rs 2,600 Cr",
+      "summary": "The five upcoming IPOs will open for subscription between October 26 and October 29, offering investors exposure to sectors such as alternative investments, polymers, steel",
+      "image": "https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/IPOStock31600x900-1791787437744.jpg",
+      "link": "https://yourstory.com/2026/10/five-ipos-to-open-next-week-companies-eye-close-to-rs-2600-cr",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T09:04:17+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [],
+      "score": 0.3237,
+      "signals": {
+        "score": 0.3237,
+        "recency": 0.3909177635430954,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "cognition opensources an agent plugin that helps secure systems against recent cybersecurity threats",
+      "title": "Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats",
+      "summary": "Cognition released the Devin Vulnerability Fixes plugin, 3 MIT-licensed agent skills that inventory, patch and test PHP, Node.js and self-managed GitLab deployments hit by this",
+      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-454-37-scaled.png",
+      "link": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-25T02:59:08+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost"
+      ],
+      "keywords": [
+        "ai"
+      ],
+      "score": 0.3214,
+      "signals": {
+        "score": 0.3214,
+        "recency": 0.14176796317101767,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "these are the most active investors in koreas startups",
+      "title": "These are the most active investors in Korea\u2019s startups",
+      "summary": "Which investors are writing the most checks to Korea-based startups?",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2021/07/1625465177_korea.jpg",
+      "link": "https://www.techinasia.com/active-investors-koreas-startups",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T09:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [],
+      "score": 0.3166,
+      "signals": {
+        "score": 0.3166,
+        "recency": 0.38629412698077287,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
         "engagement": 0.4
@@ -1456,42 +2088,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3431,
+      "score": 0.314,
       "signals": {
-        "score": 0.3431,
-        "recency": 0.22829820978244314,
+        "score": 0.314,
+        "recency": 0.11185472354902411,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "kpop demon hunters squid game stars fete netflixs korea decade as ted sarandos teases tantara all of us are dead season 2",
-      "title": "\u2018KPop Demon Hunters,\u2019 \u2018Squid Game\u2019 Stars Fete Netflix\u2019s Korea Decade as Ted Sarandos Teases \u2018Tantara,\u2019 \u2018All of Us Are Dead\u2019 Season 2",
-      "summary": "Stars of \u201cSquid Game\u201d and \u201cKPop Demon Hunters\u201d took the stage in Seoul on Oct.",
-      "image": "https://variety.com/wp-content/uploads/2026/10/Kpop-Demon-Hunters-Star-on-stage.jpg",
-      "link": "https://variety.com/2026/tv/news/kpop-demon-hunters-squid-game-stars-netflix-korea-decade-1236930528/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-25T03:21:03+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [
-        "game"
-      ],
-      "score": 0.3429,
-      "signals": {
-        "score": 0.3429,
-        "recency": 0.3075147588520958,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1512,66 +2116,11 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3395,
+      "score": 0.3122,
       "signals": {
-        "score": 0.3395,
-        "recency": 0.21384170505876873,
+        "score": 0.3122,
+        "recency": 0.10477175806763592,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "flipkarts summer of discontent",
-      "title": "Flipkart\u2019s Summer Of Discontent",
-      "summary": "Questions over an IPO and ESOPs, huge investments in quick commerce and food delivery and the pressure to deliver profits:&#8230",
-      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/Flipkart_Outline-ftr.jpg",
-      "link": "https://inc42.com/features/flipkarts-summer-of-discontent/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T05:30:22+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Inc42"
-      ],
-      "keywords": [],
-      "score": 0.3361,
-      "signals": {
-        "score": 0.3361,
-        "recency": 0.44042318347590986,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "cuts mean jobs skydance staff brace for shakeup after 110bn megamerger",
-      "title": "\u2018Cuts mean jobs\u2019: Skydance staff brace for shake-up after $110bn megamerger",
-      "summary": "Battle far from over after Paramount and Warner Bros deal creates new global entertainment powerhouse \u201cIt feels like the calm before the storm,\u201d says an executive at Skydance",
-      "image": "https://i.guim.co.uk/img/media/ae15500f5d8870634c8687ec5d1a5f1e422eabc2/775_288_3996_3198/master/3996.jpg?width=140&quality=85&auto=format&fit=max&s=229b9f5778adcf83cd361db38158cce5",
-      "link": "https://www.theguardian.com/media/2026/oct/24/skydance-employees-brace-change-megamerger-dust-settles",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-24T12:00:32+00:00",
-      "source_count": 1,
-      "source_names": [
-        "The Guardian Media"
-      ],
-      "keywords": [
-        "ai",
-        "game"
-      ],
-      "score": 0.332,
-      "signals": {
-        "score": 0.332,
-        "recency": 0.02384399352071209,
-        "keyword_volume": 0.4,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
@@ -1595,10 +2144,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3309,
+      "score": 0.308,
       "signals": {
-        "score": 0.3309,
-        "recency": 0.17959404679322674,
+        "score": 0.308,
+        "recency": 0.08799211555031537,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1623,10 +2172,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3295,
+      "score": 0.3073,
       "signals": {
-        "score": 0.3295,
-        "recency": 0.17418944176423204,
+        "score": 0.3073,
+        "recency": 0.08534412894548851,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1651,10 +2200,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3268,
+      "score": 0.306,
       "signals": {
-        "score": 0.3268,
-        "recency": 0.16324993036809213,
+        "score": 0.306,
+        "recency": 0.07998431458626641,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1679,10 +2228,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3267,
+      "score": 0.3059,
       "signals": {
-        "score": 0.3267,
-        "recency": 0.16278201447222437,
+        "score": 0.3059,
+        "recency": 0.07975505916097705,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1692,28 +2241,28 @@
       "image_failure_reason": ""
     },
     {
-      "id": "infosys lowers fy27 growth forecast as it spending slows",
-      "title": "Infosys lowers FY27 growth forecast as IT spending slows",
-      "summary": "Infosys' September-quarter net income of 78.2 billion rupees narrowly missed analyst estimates.",
-      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/04/1776991424_1753330337_shutterstock_2035197281-scaled-1.jpg",
-      "link": "https://www.techinasia.com/news/infosys-lowers-fy27-growth-forecast-spending-slows",
-      "category": "startup",
+      "id": "soccer drama forza with ac milan great alessandro costacurta heads to tokyo market with est n8 exclusive",
+      "title": "Soccer Drama \u2018Forza,\u2019 With AC Milan Great Alessandro Costacurta, Heads to Tokyo Market With EST N8 (EXCLUSIVE)",
+      "summary": "\u201cForza,\u201d Marco Balsamo\u2019s soccer drama shot between Bali and Milan, has been picked up for international sales by EST N8, which will take the film to the Tokyo International Film",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Forza.jpg",
+      "link": "https://variety.com/2026/film/news/soccer-drama-forza-ac-milan-alessandro-costacurta-tokyo-market-est-n8-1236930538/",
+      "category": "media",
       "geo": "global",
-      "published_at": "2026-10-25T02:18:34+00:00",
+      "published_at": "2026-10-25T03:32:14+00:00",
       "source_count": 1,
       "source_names": [
-        "Tech in Asia"
+        "Variety"
       ],
       "keywords": [
-        "bill"
+        "film"
       ],
-      "score": 0.3246,
+      "score": 0.3049,
       "signals": {
-        "score": 0.3246,
-        "recency": 0.25851617578128716,
+        "score": 0.3049,
+        "recency": 0.1554207729915128,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
-        "authority": 0.8,
+        "authority": 0.84,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -1735,14 +2284,70 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3245,
+      "score": 0.3049,
       "signals": {
-        "score": 0.3245,
-        "recency": 0.15409929331593603,
+        "score": 0.3049,
+        "recency": 0.07550095933463413,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "discover how superminis nayam by lakshita and broadstar are scaling nationally with myntras platform capabilities",
+      "title": "Discover how Superminis, Nayam by Lakshita and Broadstar are scaling nationally with Myntra\u2019s platform capabilities",
+      "summary": "From kidswear to ethnic and western wear, Superminis, Nayam by Lakshita, and Broadstar are using trend reports and events like BFF to enhance their offerings and reach more",
+      "image": "https://images.yourstory.com/cs/2/81f42290b0f511edaa4d75d0d1d6c429/21-1792840541445.png",
+      "link": "https://yourstory.com/2026/10/discover-how-superminis-nayam-by-lakshita-and-broadstar-are-scaling-nationally-with-myntras-platform-capabilities",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T03:30:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [
+        "platform"
+      ],
+      "score": 0.3046,
+      "signals": {
+        "score": 0.3046,
+        "recency": 0.15445957314870656,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "kpop demon hunters squid game stars fete netflixs korea decade as ted sarandos teases tantara all of us are dead season 2",
+      "title": "\u2018KPop Demon Hunters,\u2019 \u2018Squid Game\u2019 Stars Fete Netflix\u2019s Korea Decade as Ted Sarandos Teases \u2018Tantara,\u2019 \u2018All of Us Are Dead\u2019 Season 2",
+      "summary": "Stars of \u201cSquid Game\u201d and \u201cKPop Demon Hunters\u201d took the stage in Seoul on Oct.",
+      "image": "https://variety.com/wp-content/uploads/2026/10/Kpop-Demon-Hunters-Star-on-stage.jpg",
+      "link": "https://variety.com/2026/tv/news/kpop-demon-hunters-squid-game-stars-netflix-korea-decade-1236930528/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T03:21:03+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [
+        "game"
+      ],
+      "score": 0.3037,
+      "signals": {
+        "score": 0.3037,
+        "recency": 0.15066687720164168,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1763,38 +2368,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3217,
+      "score": 0.3035,
       "signals": {
-        "score": 0.3217,
-        "recency": 0.1429646156216928,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "snl uk weekend update tackles meghan markle dad allegations james bond auditions and glee reboot",
-      "title": "\u2018SNL U.K.\u2019 Weekend Update Tackles Meghan Markle Dad Allegations, James Bond Auditions and \u2018Glee\u2019 Reboot",
-      "summary": "\u201cSaturday Night Live U.K.\u2019s\u201d Weekend Update isn\u2019t afraid to tackle the most controversial topics, as the show proved again this weekend when co-host Paddy Young directly",
-      "image": "https://variety.com/wp-content/uploads/2026/10/weekend-update-1000.jpg",
-      "link": "https://variety.com/2026/tv/global/snl-uk-weekend-update-meghan-markle-glee-1236930013/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-24T22:11:59+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3186,
-      "signals": {
-        "score": 0.3186,
-        "recency": 0.1303215116620527,
+        "score": 0.3035,
+        "recency": 0.07004552323426376,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1819,14 +2396,42 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3171,
+      "score": 0.3012,
       "signals": {
-        "score": 0.3171,
-        "recency": 0.12445444546013182,
+        "score": 0.3012,
+        "recency": 0.06097646409341534,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "instacart reportedly explores sale talks with doordash uber",
+      "title": "Instacart reportedly explores sale talks with DoorDash, Uber",
+      "summary": "Instacart's September 2023 IPO valued it at US$9.9 billion, with shares opening at US$42.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792897280_1695094312_shutterstock_1891507900-scaled-1.jpg",
+      "link": "https://www.techinasia.com/news/instacart-reportedly-explores-sale-talks-doordash-uber",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T03:53:13+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.3012,
+      "signals": {
+        "score": 0.3012,
+        "recency": 0.16474900606433865,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1847,10 +2452,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3157,
+      "score": 0.3005,
       "signals": {
-        "score": 0.3157,
-        "recency": 0.11871403415970218,
+        "score": 0.3005,
+        "recency": 0.05816394918285542,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -1875,40 +2480,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3136,
+      "score": 0.2995,
       "signals": {
-        "score": 0.3136,
-        "recency": 0.11024330082937854,
+        "score": 0.2995,
+        "recency": 0.054013712806390786,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "kimi k31 pro review nearopus quality at 15th the cost",
-      "title": "Kimi K3.1 Pro Review: Near-Opus Quality at 1/5th the Cost",
-      "summary": "Claude Opus 5.5 and GPT-6 Astra are strong performers in coding and complex reasoning.",
-      "image": "https://cdn.analyticsvidhya.com/wp-content/uploads/2026/10/Kimi-K3.1-Pro-Review_-Near-Opus-Quality-at-1_5th-the-Cost.webp",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/kimi-k3-1-pro-review/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-25T04:03:03+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Analytics Vidhya"
-      ],
-      "keywords": [],
-      "score": 0.3124,
-      "signals": {
-        "score": 0.3124,
-        "recency": 0.34556810677295513,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -1929,68 +2508,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3117,
+      "score": 0.2986,
       "signals": {
-        "score": 0.3117,
-        "recency": 0.10279493129378092,
+        "score": 0.2986,
+        "recency": 0.05036438364130806,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "india to require active sims for whatsapp telegram in 2027",
-      "title": "India to require active SIMs for WhatsApp, Telegram in 2027",
-      "summary": "Web versions must log users out at least every six hours, allowing relinking via QR code.",
-      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792897737_1783377999_1761105320_shutterstock_2574818603-scaled-1.jpg",
-      "link": "https://www.techinasia.com/news/india-require-active-sims-whatsapp-telegram-2027",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T04:20:05+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Tech in Asia"
-      ],
-      "keywords": [],
-      "score": 0.3106,
-      "signals": {
-        "score": 0.3106,
-        "recency": 0.36231158144597003,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "nathan fielder negotiated a kill switch on you can see everything says lance oppenheim if we didnt find something we could just throw it all away",
-      "title": "Nathan Fielder Negotiated a \u2018Kill Switch\u2019 on \u2018You Can See Everything,\u2019 Says Lance Oppenheim: \u2018If We Didn\u2019t Find Something, We Could Just Throw It All Away\u2019",
-      "summary": "\u201cYou Can See Everything\u201d might be the buzziest film of the moment, but before the Elizabeth Holmes-focused documentary made it to theaters, co-director Lance Oppenheim has",
-      "image": "https://variety.com/wp-content/uploads/2026/09/You-Can-See-everything.jpg",
-      "link": "https://variety.com/2026/film/news/nathan-fielder-you-can-see-everything-lance-oppenheim-1236916862/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-25T00:01:48+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [
-        "film"
-      ],
-      "score": 0.3102,
-      "signals": {
-        "score": 0.3102,
-        "recency": 0.17680560640557394,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2011,10 +2536,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3098,
+      "score": 0.2977,
       "signals": {
-        "score": 0.3098,
-        "recency": 0.09518647831246997,
+        "score": 0.2977,
+        "recency": 0.04663662158101297,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2039,10 +2564,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3096,
+      "score": 0.2976,
       "signals": {
-        "score": 0.3096,
-        "recency": 0.09430918982036579,
+        "score": 0.2976,
+        "recency": 0.046206794024105845,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2067,68 +2592,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3086,
+      "score": 0.2971,
       "signals": {
-        "score": 0.3086,
-        "recency": 0.09054417898542047,
+        "score": 0.2971,
+        "recency": 0.04436212670716453,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "inde navarrette teases her rogue southern accent for new xmen film sugar",
-      "title": "Inde Navarrette Teases Her Rogue Southern Accent for New \u2018X-Men\u2019 Film: \u201cSugar!\u201d",
-      "summary": "She'll star in the MCU reboot alongside Sadie Sink (Jean Grey), Kit Connor (Cyclops), Christopher Abbott (Prof.",
-      "image": "assets/images/generated/inde navarrette teases her rogue southern accent for new xmen film sugar.jpg",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/inde-navarrette-rogue-southern-accent-x-men-film-1236739602/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-24T23:32:26+00:00",
-      "source_count": 1,
-      "source_names": [
-        "The Hollywood Reporter"
-      ],
-      "keywords": [
-        "film"
-      ],
-      "score": 0.3067,
-      "signals": {
-        "score": 0.3067,
-        "recency": 0.16295543948919727,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "microsoft opensources agensh a multiagent harness for 1024 agents",
-      "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
-      "summary": "Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator.",
-      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/1WP-BLOG-BANNER-454-1-scaled.png",
-      "link": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-10-25T03:32:59+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost"
-      ],
-      "keywords": [],
-      "score": 0.3055,
-      "signals": {
-        "score": 0.3055,
-        "recency": 0.3178791345531493,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2149,10 +2620,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3052,
+      "score": 0.2954,
       "signals": {
-        "score": 0.3052,
-        "recency": 0.07660142463596632,
+        "score": 0.2954,
+        "recency": 0.03753087325687977,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2177,10 +2648,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3052,
+      "score": 0.2954,
       "signals": {
-        "score": 0.3052,
-        "recency": 0.07660142463596632,
+        "score": 0.2954,
+        "recency": 0.03753087325687977,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2205,10 +2676,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3051,
+      "score": 0.2953,
       "signals": {
-        "score": 0.3051,
-        "recency": 0.0762299601959873,
+        "score": 0.2953,
+        "recency": 0.03734887422902168,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2233,40 +2704,14 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3048,
+      "score": 0.2952,
       "signals": {
-        "score": 0.3048,
-        "recency": 0.07507071153066464,
+        "score": 0.2952,
+        "recency": 0.0367809002658977,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "what does wpp lsewpp keeping a global media brief really change yahoo finance",
-      "title": "What Does WPP (LSE:WPP) Keeping A Global Media Brief Really Change? - Yahoo Finance",
-      "summary": "What Does WPP (LSE:WPP) Keeping A Global Media Brief Really Change?",
-      "image": "assets/images/generated/what does wpp lsewpp keeping a global media brief really change yahoo finance.jpg",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVTRKNGVtVHVscXNGaWpneUFhZm1lLTV4dzJWdXdDTUFuLTRrR0Y5M0FFTEVuclZ4WFpBdk5ON0hMcHFST0NxWjBEcDllb0h5OHBjZDk2ZFJoS3drSktlMGVsa1VEcVFnZXByTmZySTZLem8zRl80Nm9OdDVweGYxWHh2d01YeFFRWUJ5Zi0zbUwxWTFiYkhr?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-10-25T04:16:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.3036,
-      "signals": {
-        "score": 0.3036,
-        "recency": 0.3582252474074613,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2287,66 +2732,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.3007,
+      "score": 0.2932,
       "signals": {
-        "score": 0.3007,
-        "recency": 0.05872283352040481,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "here are all the times trump has praised his favorite cnn star despite network hammering him with cratering polls",
-      "title": "Here Are All the Times Trump Has Praised His Favorite CNN Star \u2014 Despite Network Hammering Him with Cratering Polls",
-      "summary": "President Donald Trump's new favorite media star appears to be data analyst Harry Enten and he works for the unlikeliest of places: CNN.",
-      "image": "https://am11.mediaite.com/med/cnt/uploads/2026/10/enten-2.jpeg",
-      "link": "https://www.mediaite.com/media/here-are-all-the-times-trump-has-praised-his-favorite-cnn-star-harry-enten-despite-data-guru-constantly-hammering-him-with-cratering-polls/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-24T17:22:33+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Mediaite"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3006,
-      "signals": {
-        "score": 0.3006,
-        "recency": 0.05832454882604053,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "state department warns americans of iraniansupported houthi aggression",
-      "title": "State Department Warns Americans of \u2018Iranian-Supported\u2019 Houthi Aggression",
-      "summary": "\"The lethal plotting efforts by the Iranians against U.S.",
-      "image": "https://am14.mediaite.com/med/cnt/uploads/2026/10/travel-advisory.jpg",
-      "link": "https://www.mediaite.com/media/news/state-department-warns-americans-of-iranian-supported-houthi-aggression/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-24T17:13:07+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Mediaite"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.3002,
-      "signals": {
-        "score": 0.3002,
-        "recency": 0.056816079682071585,
+        "score": 0.2932,
+        "recency": 0.02877125631295853,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2371,14 +2760,42 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2993,
+      "score": 0.2925,
       "signals": {
-        "score": 0.2993,
-        "recency": 0.053297221133089996,
+        "score": 0.2925,
+        "recency": 0.026112977151481163,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.6
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "infosys lowers fy27 growth forecast as it spending slows",
+      "title": "Infosys lowers FY27 growth forecast as IT spending slows",
+      "summary": "Infosys' September-quarter net income of 78.2 billion rupees narrowly missed analyst estimates.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/04/1776991424_1753330337_shutterstock_2035197281-scaled-1.jpg",
+      "link": "https://www.techinasia.com/news/infosys-lowers-fy27-growth-forecast-spending-slows",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T02:18:34+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [
+        "bill"
+      ],
+      "score": 0.2917,
+      "signals": {
+        "score": 0.2917,
+        "recency": 0.12666001806375332,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
       },
       "ai_image_pending": false,
       "image_failure_reason": ""
@@ -2399,10 +2816,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2976,
+      "score": 0.2917,
       "signals": {
-        "score": 0.2976,
-        "recency": 0.04637300619048197,
+        "score": 0.2917,
+        "recency": 0.022720457565201847,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2427,10 +2844,10 @@
       "keywords": [
         "ai"
       ],
-      "score": 0.2975,
+      "score": 0.2916,
       "signals": {
-        "score": 0.2975,
-        "recency": 0.04602437882275223,
+        "score": 0.2916,
+        "recency": 0.02254964756245941,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2440,79 +2857,23 @@
       "image_failure_reason": ""
     },
     {
-      "id": "how to add guardrails to a local llm agent",
-      "title": "How to Add Guardrails to a Local LLM Agent",
-      "summary": "A hands-on guide with Gemma 4, Ollama, and the OpenAI Agents SDK The post How to Add Guardrails to a Local LLM Agent appeared first on Towards Data Science .",
-      "image": "assets/images/generated/how to add guardrails to a local llm agent.jpg",
-      "link": "https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/",
+      "id": "pingcap breach exposes customer records and source code",
+      "title": "PingCAP Breach Exposes Customer Records and Source Code",
+      "summary": "PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data.",
+      "image": "https://res.infoq.com/news/2026/10/pingcap-cloud-data-breach/en/headerimage/generatedHeaderImage-1792787545089.jpg",
+      "link": "https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
       "category": "technology",
       "geo": "global",
-      "published_at": "2026-10-24T14:00:00+00:00",
+      "published_at": "2026-10-25T06:27:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Towards Data Science"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2943,
-      "signals": {
-        "score": 0.2943,
-        "recency": 0.033227710900912484,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "comm min identifying aiproof professions sectors where india can take global lead goyal",
-      "title": "Comm min identifying AI-proof professions, sectors where India can take global lead: Goyal",
-      "summary": "The commerce and industry minister said that the focus would be on sectors where AI could improve efficiency without necessarily replacing human workers, while leveraging India's",
-      "image": "https://images.yourstory.com/cs/2/11718bd02d6d11e9aa979329348d4c3e/Imagej3mw-1735973428236.jpg",
-      "link": "https://yourstory.com/2026/10/comm-min-identifying-ai-proof-professions-sectors-where-india-can-take-global-lead-goyal",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-24T13:55:25+00:00",
-      "source_count": 1,
-      "source_names": [
-        "YourStory"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2942,
-      "signals": {
-        "score": 0.2942,
-        "recency": 0.03280735447291569,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "nobody wants this creator erin foster has more story to tell with a season 4 but isnt getting too attached",
-      "title": "\u2018Nobody Wants This\u2019 Creator Erin Foster Has \u201cMore Story To Tell\u201d With A Season 4, But Isn\u2019t Getting \u201cToo Attached\u201d",
-      "summary": "If Netflix wants this, Erin Foster is ready to serve up a fourth season of her Jewish romantic-comedy.",
-      "image": "https://deadline.com/wp-content/uploads/2026/10/Nobody_Wants_This_n_S3_E1_00_16_30_10R_5dc983.jpg",
-      "link": "https://deadline.com/2026/10/nobody-wants-this-erin-foster-more-story-to-tell-season-4-1237172691/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-25T02:34:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Deadline"
+        "InfoQ"
       ],
       "keywords": [],
-      "score": 0.2935,
+      "score": 0.2891,
       "signals": {
-        "score": 0.2935,
-        "recency": 0.26983985082275547,
+        "score": 0.2891,
+        "recency": 0.2525474283931418,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2522,23 +2883,77 @@
       "image_failure_reason": ""
     },
     {
-      "id": "how to run underdog saluki 27b 2bit qwen3827b toolcalling guide",
-      "title": "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide",
-      "summary": "Explore a complete coding guide comparing Underdog Saluki 27B with ISTA's GSQ-RCO quantization, examining GGUF headers, memory usage, and BFCL tool-calling performance in stock",
-      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-454-36-scaled.png",
-      "link": "https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp/",
-      "category": "ai",
+      "id": "inde navarrette teases her rogue southern accent for new xmen film sugar",
+      "title": "Inde Navarrette Teases Her Rogue Southern Accent for New \u2018X-Men\u2019 Film: \u201cSugar!\u201d",
+      "summary": "She'll star in the MCU reboot alongside Sadie Sink (Jean Grey), Kit Connor (Cyclops), Christopher Abbott (Prof.",
+      "image": "assets/images/generated/inde navarrette teases her rogue southern accent for new xmen film sugar.jpg",
+      "link": "https://www.hollywoodreporter.com/movies/movie-news/inde-navarrette-rogue-southern-accent-x-men-film-1236739602/",
+      "category": "media",
       "geo": "global",
-      "published_at": "2026-10-25T02:30:18+00:00",
+      "published_at": "2026-10-24T23:32:26+00:00",
       "source_count": 1,
       "source_names": [
-        "MarkTechPost"
+        "The Hollywood Reporter"
+      ],
+      "keywords": [
+        "film"
+      ],
+      "score": 0.286,
+      "signals": {
+        "score": 0.286,
+        "recency": 0.07984002875994356,
+        "keyword_volume": 0.2,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "collectible furniture meets cultural critique at dutch design weeks table of power",
+      "title": "Collectible furniture meets cultural critique at Dutch Design Week\u2019s Table of Power",
+      "summary": "Show Not Show has put a twist on a classic project documenting the echelons of power with an exhibition of the design collective\u2019s furniture at Dutch Design Week.",
+      "image": "https://static-2026.dezeen.com/uploads/2026/10/table-of-power-show-not-show-design_dezeen_2364_sq-1024x1024.jpg",
+      "link": "https://www.dezeen.com/2026/10/25/collectible-furniture-dutch-design-week-table-of-power/",
+      "category": "brands",
+      "geo": "global",
+      "published_at": "2026-10-25T06:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Dezeen"
       ],
       "keywords": [],
-      "score": 0.2928,
+      "score": 0.2846,
       "signals": {
-        "score": 0.2928,
-        "recency": 0.26708070005762646,
+        "score": 0.2846,
+        "recency": 0.23429923168076397,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "flipkarts summer of discontent",
+      "title": "Flipkart\u2019s Summer Of Discontent",
+      "summary": "Questions over an IPO and ESOPs, huge investments in quick commerce and food delivery and the pressure to deliver profits:&#8230",
+      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/Flipkart_Outline-ftr.jpg",
+      "link": "https://inc42.com/features/flipkarts-summer-of-discontent/",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T05:30:22+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Inc42"
+      ],
+      "keywords": [],
+      "score": 0.2799,
+      "signals": {
+        "score": 0.2799,
+        "recency": 0.21578536896642603,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2563,143 +2978,11 @@
       "keywords": [
         "series"
       ],
-      "score": 0.2927,
+      "score": 0.2791,
       "signals": {
-        "score": 0.2927,
-        "recency": 0.10670316923252277,
+        "score": 0.2791,
+        "recency": 0.052279225087582905,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "meet anthropics sandboxruntime oslevel sandboxing for ai agents no containers",
-      "title": "Meet Anthropic\u2019s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
-      "summary": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code.",
-      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/25c0.png",
-      "link": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-10-24T11:12:27+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.2912,
-      "signals": {
-        "score": 0.2912,
-        "recency": 0.020862797038597985,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "malaysia may expand restrictions on israelfounded waze",
-      "title": "Malaysia may expand restrictions on Israel-founded Waze",
-      "summary": "TuJu's operator apologized for disruptions after a user surge, eyeing stability in two weeks.",
-      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792895693_Malaysia-flagsiStock.jpg",
-      "link": "https://www.techinasia.com/news/malaysia-expand-restrictions-israelfounded-waze",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T02:38:01+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Tech in Asia"
-      ],
-      "keywords": [],
-      "score": 0.2882,
-      "signals": {
-        "score": 0.2882,
-        "recency": 0.2728674224905174,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "ultraviolettes answer to the global chip squeeze the making of indian flying taxis",
-      "title": "Ultraviolette\u2019s answer to the global chip squeeze; The making of Indian flying taxis",
-      "summary": "According to Ultraviolette\u2019s Founder and CTO, Niraj Rajmohan, RAM (random access memory) alone adds Rs 20,000 to the cost of a vehicle.",
-      "image": "https://images.yourstory.com/cs/2/47afd43024ec11ec9ecb9b7afb0df1da/ultravioletteforDC1-1792859242379.jpg",
-      "link": "https://yourstory.com/2026/10/ultraviolette-answer-global-chip-squeeze-eplane-flying-taxi",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T02:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "YourStory"
-      ],
-      "keywords": [],
-      "score": 0.2874,
-      "signals": {
-        "score": 0.2874,
-        "recency": 0.2455214198858919,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "softbankbacked opay targets 44b us ipo valuation",
-      "title": "SoftBank-backed OPay targets $4.4b US IPO valuation",
-      "summary": "Founded in 2018, OPay also operates in Egypt, Indonesia, and Pakistan.",
-      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/05/1777682912_Opay.png",
-      "link": "https://www.techinasia.com/news/softbankbacked-opay-targets-44b-ipo-valuation",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T02:32:42+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Tech in Asia"
-      ],
-      "keywords": [],
-      "score": 0.2872,
-      "signals": {
-        "score": 0.2872,
-        "recency": 0.26886718639586027,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "sagaftra votes to extend duncan crabtreeirelands contract with updated title",
-      "title": "SAG-AFTRA Votes To Extend Duncan Crabtree-Ireland\u2019s Contract With Updated Title",
-      "summary": "SAG-AFTRA has voted to extend National Executive Director Duncan Crabtree-Ireland&#8217;s contract through June 20, 2032.",
-      "image": "https://deadline.com/wp-content/uploads/2026/03/P104EU7T-e1792892712758.jpg",
-      "link": "https://deadline.com/2026/10/sag-aftra-votes-extend-duncan-crabtree-ireland-contract-1237172683/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-25T01:58:23+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Deadline"
-      ],
-      "keywords": [],
-      "score": 0.2871,
-      "signals": {
-        "score": 0.2871,
-        "recency": 0.24442131882599835,
-        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -2723,147 +3006,11 @@
       "keywords": [
         "bill"
       ],
-      "score": 0.2869,
+      "score": 0.2763,
       "signals": {
-        "score": 0.2869,
-        "recency": 0.08375712406162825,
+        "score": 0.2763,
+        "recency": 0.041036808681516095,
         "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "google explains 503s robotstxt limits bracket urls seo pulse via sejournal mattgsouthern",
-      "title": "Google Explains 503s, Robots.txt Limits & Bracket URLs \u2013 SEO Pulse via @sejournal, @MattGSouthern",
-      "summary": "Google reminds sites to use 503s during PHP patch downtime.",
-      "image": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/10/seo-pulse-october-24-2026.jpg",
-      "link": "https://www.searchenginejournal.com/seo-pulse-google-explains-503s-robots-txt-limits-bracket-urls/594085/",
-      "category": "digital-media",
-      "geo": "global",
-      "published_at": "2026-10-24T12:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Search Engine Journal"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.286,
-      "signals": {
-        "score": 0.286,
-        "recency": 0.023808695239197805,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "the php meltdown shows how ai makes bugs more exploitable",
-      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
-      "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language.",
-      "image": "https://media.wired.com/photos/6adbb8a7e6d0c133525c3e7c/master/pass/KernelPanic_The%20PHP%20Meltdown%20Shows%20How%20AI%20Makes%20Bugs%20More%20Exploitable.jpg",
-      "link": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-10-24T12:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Wired AI"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.286,
-      "signals": {
-        "score": 0.286,
-        "recency": 0.023808695239197805,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "mapping the trailblazing startups in australias ai sector",
-      "title": "Mapping the trailblazing startups in Australia\u2019s AI sector",
-      "summary": "Mapping Australia's AI sector: Key players, top investors, and funding insights in one report.",
-      "image": "https://cdn.techinasia.com/wp-content/uploads/2025/07/1752742742_Featured-image-AI-in-Australia.png",
-      "link": "https://www.techinasia.com/visual-story/mapping-trailblazing-startups-australias-ai-sector",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-24T11:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Tech in Asia"
-      ],
-      "keywords": [
-        "ai"
-      ],
-      "score": 0.285,
-      "signals": {
-        "score": 0.285,
-        "recency": 0.020153625413471113,
-        "keyword_volume": 0.2,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.6
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "whos investing in indias saas startups",
-      "title": "Who\u2019s investing in India\u2019s SaaS startups?",
-      "summary": "We've compiled a list of investors pouring money into India\u2019s SaaS startups.",
-      "image": "https://cdn.techinasia.com/wp-content/uploads/2025/04/1744171147_shutterstock_2415956277-scaled.jpg",
-      "link": "https://www.techinasia.com/whos-investing-indias-saas-startups",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-25T02:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Tech in Asia"
-      ],
-      "keywords": [],
-      "score": 0.2814,
-      "signals": {
-        "score": 0.2814,
-        "recency": 0.2455214198858919,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "sagaftra extends duncan crabtreeirelands contract and adds ceo to title",
-      "title": "SAG-AFTRA Extends Duncan Crabtree-Ireland\u2019s Contract and Adds CEO to Title",
-      "summary": "The SAG-AFTRA board voted Saturday to extend the contract of Duncan Crabtree-Ireland, the union&#8217;s national executive director, for four years and to add CEO to his title.",
-      "image": "https://variety.com/wp-content/uploads/2026/01/duncan-crabtree-ireland-sean-astin.jpeg",
-      "link": "https://variety.com/2026/film/news/sag-aftra-duncan-crabtree-ireland-contract-extension-1236930503/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-25T01:20:54+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [],
-      "score": 0.2811,
-      "signals": {
-        "score": 0.2811,
-        "recency": 0.2202521623250058,
-        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -2887,10 +3034,10 @@
       "keywords": [
         "studio"
       ],
-      "score": 0.2797,
+      "score": 0.2727,
       "signals": {
-        "score": 0.2797,
-        "recency": 0.05478323373900894,
+        "score": 0.2727,
+        "recency": 0.026841049129723238,
         "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2900,28 +3047,286 @@
       "image_failure_reason": ""
     },
     {
-      "id": "you can see everything eyes 20m second weekend as clayface leads box office",
-      "title": "\u2018You Can See Everything\u2019 Eyes $20M Second Weekend as \u2018Clayface\u2019 Leads Box Office",
-      "summary": "Newcomer 'Wildwood' will likely occupy third place for the frame that also sees the arrivals of 'Wicker' and 'Klara and the Sun.'",
-      "image": "assets/images/generated/you can see everything eyes 20m second weekend as clayface leads box office.jpg",
-      "link": "https://www.hollywoodreporter.com/movies/movie-news/clayface-box-office-you-can-see-everything-wildwood-1236739530/",
-      "category": "media",
+      "id": "kimi k31 pro review nearopus quality at 15th the cost",
+      "title": "Kimi K3.1 Pro Review: Near-Opus Quality at 1/5th the Cost",
+      "summary": "Claude Opus 5.5 and GPT-6 Astra are strong performers in coding and complex reasoning.",
+      "image": "https://cdn.analyticsvidhya.com/wp-content/uploads/2026/10/Kimi-K3.1-Pro-Review_-Near-Opus-Quality-at-1_5th-the-Cost.webp",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/kimi-k3-1-pro-review/",
+      "category": "technology",
       "geo": "global",
-      "published_at": "2026-10-24T15:56:55+00:00",
+      "published_at": "2026-10-25T04:03:03+00:00",
       "source_count": 1,
       "source_names": [
-        "The Hollywood Reporter"
+        "Analytics Vidhya"
       ],
-      "keywords": [
-        "box office"
-      ],
-      "score": 0.2775,
+      "keywords": [],
+      "score": 0.2683,
       "signals": {
-        "score": 0.2775,
-        "recency": 0.045977526004899585,
-        "keyword_volume": 0.2,
+        "score": 0.2683,
+        "recency": 0.16931111762673628,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "microsoft opensources agensh a multiagent harness for 1024 agents",
+      "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
+      "summary": "Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator.",
+      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/1WP-BLOG-BANNER-454-1-scaled.png",
+      "link": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-25T03:32:59+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost"
+      ],
+      "keywords": [],
+      "score": 0.2649,
+      "signals": {
+        "score": 0.2649,
+        "recency": 0.15574490378758962,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "india to require active sims for whatsapp telegram in 2027",
+      "title": "India to require active SIMs for WhatsApp, Telegram in 2027",
+      "summary": "Web versions must log users out at least every six hours, allowing relinking via QR code.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792897737_1783377999_1761105320_shutterstock_2574818603-scaled-1.jpg",
+      "link": "https://www.techinasia.com/news/india-require-active-sims-whatsapp-telegram-2027",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T04:20:05+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [],
+      "score": 0.2644,
+      "signals": {
+        "score": 0.2644,
+        "recency": 0.17751458419173868,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "nobody wants this creator erin foster has more story to tell with a season 4 but isnt getting too attached",
+      "title": "\u2018Nobody Wants This\u2019 Creator Erin Foster Has \u201cMore Story To Tell\u201d With A Season 4, But Isn\u2019t Getting \u201cToo Attached\u201d",
+      "summary": "If Netflix wants this, Erin Foster is ready to serve up a fourth season of her Jewish romantic-comedy.",
+      "image": "https://deadline.com/wp-content/uploads/2026/10/Nobody_Wants_This_n_S3_E1_00_16_30_10R_5dc983.jpg",
+      "link": "https://deadline.com/2026/10/nobody-wants-this-erin-foster-more-story-to-tell-season-4-1237172691/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T02:34:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [],
+      "score": 0.2591,
+      "signals": {
+        "score": 0.2591,
+        "recency": 0.13220805342736583,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "how to run underdog saluki 27b 2bit qwen3827b toolcalling guide",
+      "title": "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide",
+      "summary": "Explore a complete coding guide comparing Underdog Saluki 27B with ISTA's GSQ-RCO quantization, examining GGUF headers, memory usage, and BFCL tool-calling performance in stock",
+      "image": "https://www.marktechpost.com/wp-content/uploads/2026/10/WP-BLOG-BANNER-454-36-scaled.png",
+      "link": "https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp/",
+      "category": "ai",
+      "geo": "global",
+      "published_at": "2026-10-25T02:30:18+00:00",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost"
+      ],
+      "keywords": [],
+      "score": 0.2587,
+      "signals": {
+        "score": 0.2587,
+        "recency": 0.13085620732065445,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "what does wpp lsewpp keeping a global media brief really change yahoo finance singapore",
+      "title": "What Does WPP (LSE:WPP) Keeping A Global Media Brief Really Change? - Yahoo Finance Singapore",
+      "summary": "What Does WPP (LSE:WPP) Keeping A Global Media Brief Really Change?",
+      "image": "assets/images/generated/what does wpp lsewpp keeping a global media brief really change yahoo finance singapore.jpg",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3ZFZlZnhBZ3hWajEtdmNCRWhGNDJ6SUJ2NlZPd1dNa2hON3c2VnU4UmNDTE4yZDFLak1LNUxVdUplVlZwX0UyRVV0cUxSMGNHS1NEQ0YyMjFIUjBJOXpLQU13dk1UX0J6UTlTa3JXQm9OTWJnUHRaU1F1Z21uZw?oc=5",
+      "category": "advertising",
+      "geo": "global",
+      "published_at": "2026-10-25T04:16:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Google News - WPP"
+      ],
+      "keywords": [],
+      "score": 0.2579,
+      "signals": {
+        "score": 0.2579,
+        "recency": 0.17551248454916182,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.76,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "ultraviolettes answer to the global chip squeeze the making of indian flying taxis",
+      "title": "Ultraviolette\u2019s answer to the global chip squeeze; The making of Indian flying taxis",
+      "summary": "According to Ultraviolette\u2019s Founder and CTO, Niraj Rajmohan, RAM (random access memory) alone adds Rs 20,000 to the cost of a vehicle.",
+      "image": "https://images.yourstory.com/cs/2/47afd43024ec11ec9ecb9b7afb0df1da/ultravioletteforDC1-1792859242379.jpg",
+      "link": "https://yourstory.com/2026/10/ultraviolette-answer-global-chip-squeeze-eplane-flying-taxi",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T02:00:00+00:00",
+      "source_count": 1,
+      "source_names": [
+        "YourStory"
+      ],
+      "keywords": [],
+      "score": 0.2561,
+      "signals": {
+        "score": 0.2561,
+        "recency": 0.12029323652108762,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "sagaftra votes to extend duncan crabtreeirelands contract with updated title",
+      "title": "SAG-AFTRA Votes To Extend Duncan Crabtree-Ireland\u2019s Contract With Updated Title",
+      "summary": "SAG-AFTRA has voted to extend National Executive Director Duncan Crabtree-Ireland&#8217;s contract through June 20, 2032.",
+      "image": "https://deadline.com/wp-content/uploads/2026/03/P104EU7T-e1792892712758.jpg",
+      "link": "https://deadline.com/2026/10/sag-aftra-votes-extend-duncan-crabtree-ireland-contract-1237172683/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T01:58:23+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Deadline"
+      ],
+      "keywords": [],
+      "score": 0.2559,
+      "signals": {
+        "score": 0.2559,
+        "recency": 0.11975424193130238,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "malaysia may expand restrictions on israelfounded waze",
+      "title": "Malaysia may expand restrictions on Israel-founded Waze",
+      "summary": "TuJu's operator apologized for disruptions after a user surge, eyeing stability in two weeks.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/10/1792895693_Malaysia-flagsiStock.jpg",
+      "link": "https://www.techinasia.com/news/malaysia-expand-restrictions-israelfounded-waze",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T02:38:01+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [],
+      "score": 0.2534,
+      "signals": {
+        "score": 0.2534,
+        "recency": 0.13369141237374163,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "sagaftra extends duncan crabtreeirelands contract and adds ceo to title",
+      "title": "SAG-AFTRA Extends Duncan Crabtree-Ireland\u2019s Contract and Adds CEO to Title",
+      "summary": "The SAG-AFTRA board voted Saturday to extend the contract of Duncan Crabtree-Ireland, the union&#8217;s national executive director, for four years and to add CEO to his title.",
+      "image": "https://variety.com/wp-content/uploads/2026/01/duncan-crabtree-ireland-sean-astin.jpeg",
+      "link": "https://variety.com/2026/film/news/sag-aftra-duncan-crabtree-ireland-contract-extension-1236930503/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-25T01:20:54+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Variety"
+      ],
+      "keywords": [],
+      "score": 0.253,
+      "signals": {
+        "score": 0.253,
+        "recency": 0.10791256204512263,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "softbankbacked opay targets 44b us ipo valuation",
+      "title": "SoftBank-backed OPay targets $4.4b US IPO valuation",
+      "summary": "Founded in 2018, OPay also operates in Egypt, Indonesia, and Pakistan.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2026/05/1777682912_Opay.png",
+      "link": "https://www.techinasia.com/news/softbankbacked-opay-targets-44b-ipo-valuation",
+      "category": "startup",
+      "geo": "global",
+      "published_at": "2026-10-25T02:32:42+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Tech in Asia"
+      ],
+      "keywords": [],
+      "score": 0.2529,
+      "signals": {
+        "score": 0.2529,
+        "recency": 0.1317314964246631,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -2941,10 +3346,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2761,
+      "score": 0.2506,
       "signals": {
-        "score": 0.2761,
-        "recency": 0.20043049470207996,
+        "score": 0.2506,
+        "recency": 0.0982009346330818,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -2954,28 +3359,26 @@
       "image_failure_reason": ""
     },
     {
-      "id": "myntra slips into the red in fy26 reports 582 cr loss",
-      "title": "Myntra Slips Into The Red In FY26, Reports \u20b9582 Cr Loss",
-      "summary": "Fashion ecommerce platform Myntra reported a net loss of \u20b9581.8 Cr in the financial year ended March 31, 2026 (FY26),&#8230",
-      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/Myntra_WTF-Ftr.jpg",
-      "link": "https://inc42.com/buzz/myntra-slips-into-the-red-in-fy26-reports-%e2%82%b9582-cr-loss/",
+      "id": "whos investing in indias saas startups",
+      "title": "Who\u2019s investing in India\u2019s SaaS startups?",
+      "summary": "We've compiled a list of investors pouring money into India\u2019s SaaS startups.",
+      "image": "https://cdn.techinasia.com/wp-content/uploads/2025/04/1744171147_shutterstock_2415956277-scaled.jpg",
+      "link": "https://www.techinasia.com/whos-investing-indias-saas-startups",
       "category": "startup",
       "geo": "global",
-      "published_at": "2026-10-24T14:37:28+00:00",
+      "published_at": "2026-10-25T02:00:00+00:00",
       "source_count": 1,
       "source_names": [
-        "Inc42"
+        "Tech in Asia"
       ],
-      "keywords": [
-        "platform"
-      ],
-      "score": 0.2752,
+      "keywords": [],
+      "score": 0.2501,
       "signals": {
-        "score": 0.2752,
-        "recency": 0.03687221430543384,
-        "keyword_volume": 0.2,
+        "score": 0.2501,
+        "recency": 0.12029323652108762,
+        "keyword_volume": 0.0,
         "source_signal": 0.2,
-        "authority": 0.84,
+        "authority": 0.8,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -2995,39 +3398,11 @@
         "Deadline"
       ],
       "keywords": [],
-      "score": 0.2722,
+      "score": 0.2486,
       "signals": {
-        "score": 0.2722,
-        "recency": 0.18466980244019168,
+        "score": 0.2486,
+        "recency": 0.09047898237785074,
         "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "stateful agentic engineering copilots with letta core memory shared state semantic retrieval custom tools streaming and portable agent workflows",
-      "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
-      "summary": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta.",
-      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e0.png",
-      "link": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
-      "category": "ai",
-      "geo": "global",
-      "published_at": "2026-10-24T10:29:31+00:00",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost"
-      ],
-      "keywords": [
-        "streaming"
-      ],
-      "score": 0.2706,
-      "signals": {
-        "score": 0.2706,
-        "recency": 0.018517352539098784,
-        "keyword_volume": 0.2,
         "source_signal": 0.2,
         "authority": 0.84,
         "engagement": 0.4
@@ -3049,10 +3424,36 @@
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.2668,
+      "score": 0.246,
       "signals": {
-        "score": 0.2668,
-        "recency": 0.16335577480587826,
+        "score": 0.246,
+        "recency": 0.08003617307582293,
+        "keyword_volume": 0.0,
+        "source_signal": 0.2,
+        "authority": 0.84,
+        "engagement": 0.4
+      },
+      "ai_image_pending": false,
+      "image_failure_reason": ""
+    },
+    {
+      "id": "trump mocks ilhan omar with iphone scammer meme as fraud probe heats up",
+      "title": "Trump Mocks Ilhan Omar With iPhone Scammer Meme as Fraud Probe Heats Up",
+      "summary": "Those annoying \"scam likely\" calls? President Donald Trump joke embattled Rep.",
+      "image": "https://am13.mediaite.com/med/cnt/uploads/2026/10/ilhannn.jpg",
+      "link": "https://www.mediaite.com/politics/trump-mocks-ilhan-omar-with-iphone-scammer-meme-as-fraud-probe-heats-up/",
+      "category": "media",
+      "geo": "global",
+      "published_at": "2026-10-24T22:37:05+00:00",
+      "source_count": 1,
+      "source_names": [
+        "Mediaite"
+      ],
+      "keywords": [],
+      "score": 0.2431,
+      "signals": {
+        "score": 0.2431,
+        "recency": 0.0684617361074256,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3075,65 +3476,13 @@
         "Tech in Asia"
       ],
       "keywords": [],
-      "score": 0.264,
+      "score": 0.2415,
       "signals": {
-        "score": 0.264,
-        "recency": 0.17592378476477574,
+        "score": 0.2415,
+        "recency": 0.0861938704176177,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.8,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "trump mocks ilhan omar with iphone scammer meme as fraud probe heats up",
-      "title": "Trump Mocks Ilhan Omar With iPhone Scammer Meme as Fraud Probe Heats Up",
-      "summary": "Those annoying \"scam likely\" calls? President Donald Trump joke embattled Rep.",
-      "image": "https://am13.mediaite.com/med/cnt/uploads/2026/10/ilhannn.jpg",
-      "link": "https://www.mediaite.com/politics/trump-mocks-ilhan-omar-with-iphone-scammer-meme-as-fraud-probe-heats-up/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-24T22:37:05+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Mediaite"
-      ],
-      "keywords": [],
-      "score": 0.2609,
-      "signals": {
-        "score": 0.2609,
-        "recency": 0.13973206759635023,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "cynthia erivo plays glinda in nigerian wicked sketch on snl uk she wants a bbl that defies gravity",
-      "title": "Cynthia Erivo Plays Glinda in \u2018Nigerian Wicked\u2019 Sketch on \u2018SNL U.K.\u2019: \u2018She Wants a BBL That Defies Gravity\u2019",
-      "summary": "Cynthia Erivo spoofed &#8220;Wicked&#8221; during her stint hosting &#8220;SNL U.K.,&#8221; this time taking on the role of Glinda in &#8220;Nigerian Wicked.&#8221; Alongside",
-      "image": "https://variety.com/wp-content/uploads/2026/10/nigerian-wicked.jpg",
-      "link": "https://variety.com/2026/tv/global/cynthia-erivo-glinda-nigerian-wicked-snl-uk-1236930402/",
-      "category": "media",
-      "geo": "global",
-      "published_at": "2026-10-24T21:59:12+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Variety"
-      ],
-      "keywords": [],
-      "score": 0.2574,
-      "signals": {
-        "score": 0.2574,
-        "recency": 0.1257750890747175,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
         "engagement": 0.4
       },
       "ai_image_pending": false,
@@ -3153,10 +3502,10 @@
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.2564,
+      "score": 0.2409,
       "signals": {
-        "score": 0.2564,
-        "recency": 0.12175874670238916,
+        "score": 0.2409,
+        "recency": 0.05965570630207702,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3179,10 +3528,10 @@
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.2562,
+      "score": 0.2408,
       "signals": {
-        "score": 0.2562,
-        "recency": 0.12070359318060521,
+        "score": 0.2408,
+        "recency": 0.059138733761672974,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3205,10 +3554,10 @@
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.256,
+      "score": 0.2407,
       "signals": {
-        "score": 0.256,
-        "recency": 0.12016832313655863,
+        "score": 0.2407,
+        "recency": 0.058876478166861416,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3231,10 +3580,10 @@
         "Deadline"
       ],
       "keywords": [],
-      "score": 0.2535,
+      "score": 0.2395,
       "signals": {
-        "score": 0.2535,
-        "recency": 0.11000368036567729,
+        "score": 0.2395,
+        "recency": 0.053896310743757295,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3257,10 +3606,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2533,
+      "score": 0.2394,
       "signals": {
-        "score": 0.2533,
-        "recency": 0.10932842393727121,
+        "score": 0.2394,
+        "recency": 0.05356546881032278,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3283,10 +3632,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2521,
+      "score": 0.2388,
       "signals": {
-        "score": 0.2521,
-        "recency": 0.10459514717517965,
+        "score": 0.2388,
+        "recency": 0.051246399535932484,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3309,10 +3658,10 @@
         "The Hollywood Reporter"
       ],
       "keywords": [],
-      "score": 0.2507,
+      "score": 0.2381,
       "signals": {
-        "score": 0.2507,
-        "recency": 0.09884662225845671,
+        "score": 0.2381,
+        "recency": 0.04842990935851291,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3335,36 +3684,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2506,
+      "score": 0.2381,
       "signals": {
-        "score": 0.2506,
-        "recency": 0.09848120078165792,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "show hn steal my bitcoin",
-      "title": "Show HN: Steal My Bitcoin",
-      "summary": "Comments",
-      "image": "assets/images/generated/show hn steal my bitcoin.jpg",
-      "link": "https://stealmybitcoin.com/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-24T20:30:31+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.2506,
-      "signals": {
-        "score": 0.2506,
-        "recency": 0.09831265053355095,
+        "score": 0.2381,
+        "recency": 0.04825087108087965,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3387,10 +3710,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2471,
+      "score": 0.2363,
       "signals": {
-        "score": 0.2471,
-        "recency": 0.08420424238373841,
+        "score": 0.2363,
+        "recency": 0.04125587433411582,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3413,10 +3736,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2466,
+      "score": 0.2361,
       "signals": {
-        "score": 0.2466,
-        "recency": 0.08229269487732584,
+        "score": 0.2361,
+        "recency": 0.04031931150217612,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3439,10 +3762,10 @@
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.2462,
+      "score": 0.2359,
       "signals": {
-        "score": 0.2462,
-        "recency": 0.08076034338256631,
+        "score": 0.2359,
+        "recency": 0.03956853578216678,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3465,10 +3788,10 @@
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.2455,
+      "score": 0.2355,
       "signals": {
-        "score": 0.2455,
-        "recency": 0.07793931334060493,
+        "score": 0.2355,
+        "recency": 0.038186371919525085,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3491,10 +3814,10 @@
         "Inc42"
       ],
       "keywords": [],
-      "score": 0.2446,
+      "score": 0.2351,
       "signals": {
-        "score": 0.2446,
-        "recency": 0.0743547201502558,
+        "score": 0.2351,
+        "recency": 0.03643010023993414,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3517,10 +3840,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2444,
+      "score": 0.235,
       "signals": {
-        "score": 0.2444,
-        "recency": 0.07350589998885343,
+        "score": 0.235,
+        "recency": 0.03601422074360794,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3543,36 +3866,10 @@
         "Mediaite"
       ],
       "keywords": [],
-      "score": 0.2435,
+      "score": 0.2346,
       "signals": {
-        "score": 0.2435,
-        "recency": 0.0701219623547097,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "bbtree fastest ordered map",
-      "title": "Bbtree: Fastest Ordered Map",
-      "summary": "Comments",
-      "image": "assets/images/generated/bbtree fastest ordered map.jpg",
-      "link": "https://bbtree.xiangpeng.systems/post/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-24T18:22:14+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.2432,
-      "signals": {
-        "score": 0.2432,
-        "recency": 0.06884173121390647,
+        "score": 0.2346,
+        "recency": 0.03435626026754907,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3595,10 +3892,10 @@
         "Deadline"
       ],
       "keywords": [],
-      "score": 0.2423,
+      "score": 0.234,
       "signals": {
-        "score": 0.2423,
-        "recency": 0.06539642064758883,
+        "score": 0.234,
+        "recency": 0.032040980783872464,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3621,10 +3918,10 @@
         "The Hollywood Reporter"
       ],
       "keywords": [],
-      "score": 0.2398,
+      "score": 0.2328,
       "signals": {
-        "score": 0.2398,
-        "recency": 0.055359437829053365,
+        "score": 0.2328,
+        "recency": 0.02712336036318037,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3647,10 +3944,10 @@
         "The Hollywood Reporter"
       ],
       "keywords": [],
-      "score": 0.2397,
+      "score": 0.2327,
       "signals": {
-        "score": 0.2397,
-        "recency": 0.05478323373900894,
+        "score": 0.2327,
+        "recency": 0.026841049129723238,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3673,10 +3970,10 @@
         "The Hollywood Reporter"
       ],
       "keywords": [],
-      "score": 0.2393,
+      "score": 0.2325,
       "signals": {
-        "score": 0.2393,
-        "recency": 0.05308544111301299,
+        "score": 0.2325,
+        "recency": 0.026009215516111805,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3699,10 +3996,10 @@
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.239,
+      "score": 0.2324,
       "signals": {
-        "score": 0.239,
-        "recency": 0.0520993624682918,
+        "score": 0.2324,
+        "recency": 0.025526086216464672,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3725,36 +4022,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2386,
+      "score": 0.2322,
       "signals": {
-        "score": 0.2386,
-        "recency": 0.05040300821690786,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "roku developer repositories moved from github to gitlab",
-      "title": "Roku developer repositories moved from GitHub to GitLab",
-      "summary": "Comments",
-      "image": "https://www.roku.com/assets/roku-logo-purple.png",
-      "link": "https://blog.roku.com/developer/gitlab-move",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-24T16:06:26+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "keywords": [],
-      "score": 0.2378,
-      "signals": {
-        "score": 0.2378,
-        "recency": 0.04720915790472441,
+        "score": 0.2322,
+        "recency": 0.02469495733459313,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3777,10 +4048,10 @@
         "Deadline"
       ],
       "keywords": [],
-      "score": 0.2371,
+      "score": 0.2314,
       "signals": {
-        "score": 0.2371,
-        "recency": 0.044480498632367096,
+        "score": 0.2314,
+        "recency": 0.021793223357237174,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3803,10 +4074,10 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2367,
+      "score": 0.2312,
       "signals": {
-        "score": 0.2367,
-        "recency": 0.042665225335123964,
+        "score": 0.2312,
+        "recency": 0.020903830080686508,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3829,10 +4100,10 @@
         "Hacker News"
       ],
       "keywords": [],
-      "score": 0.2364,
+      "score": 0.2311,
       "signals": {
-        "score": 0.2364,
-        "recency": 0.04149831035171931,
+        "score": 0.2311,
+        "recency": 0.020332100004492194,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
@@ -3855,221 +4126,13 @@
         "TechCrunch"
       ],
       "keywords": [],
-      "score": 0.2358,
+      "score": 0.2308,
       "signals": {
-        "score": 0.2358,
-        "recency": 0.03925390226848229,
+        "score": 0.2308,
+        "recency": 0.019232452110096065,
         "keyword_volume": 0.0,
         "source_signal": 0.2,
         "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "the boox palma 2 pro finally got me to stop reading on my phone",
-      "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
-      "summary": "The $400 Boox Palma 2 Pro is a smartphone-sized e-reader designed for people who want to read books, articles, and documents on a small E Ink display.",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/10/boox-palma-2-pro.png?resize=1200,666",
-      "link": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-24T14:15:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch"
-      ],
-      "keywords": [],
-      "score": 0.2347,
-      "signals": {
-        "score": 0.2347,
-        "recency": 0.03464144716629405,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "the agentled growth playbook a 10minute inbound booking a 46of50 aeo score and why firstparty data beats every signal tool the agents 017",
-      "title": "The Agent-Led Growth Playbook: A 10-Minute Inbound Booking, a 46-of-50 AEO Score, and Why First-Party Data Beats Every Signal Tool | The Agents #017",
-      "summary": "We ran a live edition of The Agents this week to walk through our agent-led growth stack as it stands today.",
-      "image": "https://i0.wp.com/www.saastr.com/wp-content/uploads/2026/10/prospector-scaled.jpg?resize=1000%2C561&#038;quality=70&#038;ssl=1",
-      "link": "https://www.saastr.com/the-agent-led-growth-playbook-a-10-minute-inbound-booking-a-46-of-50-aeo-score-and-why-first-party-data-beats-every-signal-tool-the-agents-017/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-24T14:10:16+00:00",
-      "source_count": 1,
-      "source_names": [
-        "SaaStr"
-      ],
-      "keywords": [],
-      "score": 0.2345,
-      "signals": {
-        "score": 0.2345,
-        "recency": 0.034188957506044726,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "omar oakes why one in four wpp shareholders arent convinced more about advertising",
-      "title": "Omar Oakes: Why one in four WPP shareholders aren\u2019t convinced - More About Advertising",
-      "summary": "Omar Oakes: Why one in four WPP shareholders aren\u2019t convinced &nbsp;&nbsp; More About Advertising",
-      "image": "assets/images/generated/omar oakes why one in four wpp shareholders arent convinced more about advertising.jpg",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQURhbjVDQklla1JzR3BIakJxTzR2QWUtN3RHcEYzVTJwbDlUamgyN1o1TjZSY0xXNU85eU8xSVB5RzhacWVpX3RpenNQRjV5MnVVcVJlbTdObVlXd3VDRG51TFVUUHZQWTNEdEFRN1FOWnBLelJNdk81a0J2NzczM3dBaUx0Q0pTalhCQ1NZVTZlUUFPRzhZVzBsUUdFVFB6MEtxUQ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-10-24T19:12:21+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - WPP"
-      ],
-      "keywords": [],
-      "score": 0.2338,
-      "signals": {
-        "score": 0.2338,
-        "recency": 0.07912454122646387,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "flipkartbacked supermoneys fy26 revenue triples to 292 cr",
-      "title": "Flipkart-Backed super.money\u2019s FY26 Revenue Triples To \u20b9292 Cr",
-      "summary": "UPI provider super.money reported a net loss of \u20b9263.8 Cr in FY26, 78.5% higher than \u20b9147.8 Cr loss incurred in&#8230",
-      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/Supermoney_WTF_Ftr.jpg",
-      "link": "https://inc42.com/buzz/flipkart-backed-super-moneys-fy26-revenue-triples-to-%e2%82%b9292-cr/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-24T12:58:50+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Inc42"
-      ],
-      "keywords": [],
-      "score": 0.233,
-      "signals": {
-        "score": 0.233,
-        "recency": 0.028035646396144285,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "python 315 has a newprofiler",
-      "title": "Python 3.15 Has a New\u00a0Profiler",
-      "summary": "Here's what it finds that cProfile misses The post Python 3.15 Has a New Profiler appeared first on Towards Data Science .",
-      "image": "assets/images/generated/python 315 has a newprofiler.jpg",
-      "link": "https://towardsdatascience.com/python-315-has-a-new-profiler/",
-      "category": "technology",
-      "geo": "global",
-      "published_at": "2026-10-24T12:00:00+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Towards Data Science"
-      ],
-      "keywords": [],
-      "score": 0.232,
-      "signals": {
-        "score": 0.232,
-        "recency": 0.023808695239197805,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "php2shell who is at risk and how can businesses stay safe",
-      "title": "PHP2Shell: Who Is At Risk And How Can Businesses Stay Safe?",
-      "summary": "PHP, a programming language used to build websites, is at the centre of a major security concern after researchers uncovered&#8230",
-      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/PHPShell-story-ftr.jpg",
-      "link": "https://inc42.com/features/php2shell-who-is-at-risk-and-how-can-businesses-stay-safe/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-24T11:19:18+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Inc42"
-      ],
-      "keywords": [],
-      "score": 0.2313,
-      "signals": {
-        "score": 0.2313,
-        "recency": 0.02126357052710207,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "indian listed newage tech company tracker market cap revenue more",
-      "title": "Indian Listed New-Age Tech Company Tracker: Market Cap, Revenue & More",
-      "summary": "For years, we at Inc42 have tracked the Indian tech startup ecosystem and seen it grow from a kid to&#8230",
-      "image": "https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2026/10/New-age-tech-Ipo-Tracker_FTR-2.jpg",
-      "link": "https://inc42.com/features/indian-listed-new-age-tech-company-tracker-market-cap-revenue-more/",
-      "category": "startup",
-      "geo": "global",
-      "published_at": "2026-10-24T11:12:59+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Inc42"
-      ],
-      "keywords": [],
-      "score": 0.2312,
-      "signals": {
-        "score": 0.2312,
-        "recency": 0.02089372779207461,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.84,
-        "engagement": 0.4
-      },
-      "ai_image_pending": false,
-      "image_failure_reason": ""
-    },
-    {
-      "id": "omnicom omc q3 earnings reveal margin strength and debt pressure yahoo finance",
-      "title": "Omnicom (OMC) Q3 Earnings Reveal Margin Strength And Debt Pressure - Yahoo Finance",
-      "summary": "Omnicom (OMC) Q3 Earnings Reveal Margin Strength And Debt Pressure &nbsp;&nbsp; Yahoo Finance",
-      "image": "assets/images/generated/omnicom omc q3 earnings reveal margin strength and debt pressure yahoo finance.jpg",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdkdCZ1FpVmhPeDhrWDFick5VQ05tVGVtMzN3dFAxWS1UczhMVF9tekhrVkNLaXQ2MDJwSEVFNExuQ2M0UHZuUXViRFVSbV9NeG56Q2VacU9oWXZkM1dtSUlRZEZXRVprUzNiSmJRUUZPQ3lyWmdOc3lGLTJuSVM3Y0VWTmQyWUN5SWRaM3ZCYnE1ZGNSd1d5T24yRQ?oc=5",
-      "category": "advertising",
-      "geo": "global",
-      "published_at": "2026-10-24T12:08:55+00:00",
-      "source_count": 1,
-      "source_names": [
-        "Google News - Omnicom"
-      ],
-      "keywords": [],
-      "score": 0.2201,
-      "signals": {
-        "score": 0.2201,
-        "recency": 0.024405765092121518,
-        "keyword_volume": 0.0,
-        "source_signal": 0.2,
-        "authority": 0.76,
         "engagement": 0.4
       },
       "ai_image_pending": false,
